@@ -27,8 +27,7 @@ const DynamicsNavSupportEndingSoon = () => {
               </h1>
               <p>
                 It's time to upgrade from your existing NAV version to Dynamics
-                365 Business Central
-              </p>
+                365 Business Central</p>
               <p>Advantages of moving to Business Central</p>
               <div className="row">
                 <div className="col-lg-6">
