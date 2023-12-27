@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /blog/tag/
+Disallow: /blog/category/
+Disallow: /react-ds/
+
+
+Sitemap: https://www.dynamicssquare.co.uk/sitemap.xml
