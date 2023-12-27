@@ -7,10 +7,10 @@ const DynamicsNavSupportEndingSoon = () => {
     return (
       <>
         <Head>
-        <title>Dynamics NAV Support Ending Soon | Dynamics Square</title>
+        <title>Dynamics NAV Support End of Life Soon | Dynamics Square UK</title>
         <meta
           name="description"
-          content="AI &amp; Machine Learning Capabilities"
+          content="Dynamics NAV support ending soon. You can plan migration for continued functionality and security. Explore upgrade options for business continuity at Dynamics Square."
         />
         <link
           rel="canonical"
@@ -250,85 +250,94 @@ const DynamicsNavSupportEndingSoon = () => {
             <h2>NAV Support Lifecycle</h2>
           </header>
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-9">
               <div className="tabls-cloud tabls-clouds table-responsive">
                 <table className="table table-striped align-middle ">
                   <thead>
                     <tr>
                       <th>
                         <strong>
-                          Nav
-                          <br />
-                          Version
+                        Dynamics NAV Version	
                         </strong>
                       </th>
                       <th>
-                        <strong>Lifecycle Start Date</strong>
+                        <strong>Mainstream Support End Date	</strong>
                       </th>
                       <th>
-                        <strong>Mainstream End Day</strong>
-                      </th>
-                      <th>
-                        <strong>Extended support End Day</strong>
+                        <strong>Extended Support End Date</strong>
                       </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>
-                        <strong>NAV 2018</strong>
+                        <strong>Dynamics NAV 4.0	</strong>
                       </td>
-                      <td>12/01/2017</td>
-                      <td>01/10/2023</td>
-                      <td className="blue">01/10/2028</td>
+                      <td>1/12/2010	</td>
+                      <td className="red">No</td>
                     </tr>
                     <tr>
                       <td>
-                        <strong>NAV 2017</strong>
+                        <strong>Dynamics NAV 5.0</strong>
                       </td>
-                      <td>10/27/2016</td>
-                      <td>01/01/2022</td>
-                      <td className="blue">01/11/2027</td>
+                      <td>4/10/2012</td>
+                      <td className="red">4/11/2017</td>
                     </tr>
                     <tr>
                       <td>
-                        <strong>NAV 2015</strong>
+                        <strong>Dynamics NAV 2009</strong>
                       </td>
-                      <td>12/17/2014</td>
-                      <td>01/14/2020</td>
-                      <td className="green">01/14/2025</td>
+                      <td>1/13/2015	</td>
+                      <td className="red">1/14/2020</td>
                     </tr>
                     <tr>
                       <td>
-                        <strong>NAV 2013 R2</strong>
+                        <strong>Dynamics NAV 2009 R2</strong>
                       </td>
-                      <td>12/30/2013</td>
-                      <td>01/09/2018</td>
-                      <td className="green">01/10/2023</td>
-                    </tr>
-                    <tr>
-                      <td width="222">
-                        <strong>NAV 2013</strong>
-                      </td>
-                      <td>12/19/2012</td>
-                      <td>01/09/2018</td>
-                      <td className="green">01/10/2023</td>
+                      <td>1/13/2015	</td>
+                      <td className="red">1/14/2020</td>
                     </tr>
                     <tr>
                       <td>
-                        <strong>NAV 2009 R2</strong>
+                        <strong>Dynamics NAV 2013</strong>
                       </td>
-                      <td>03/15/2011</td>
-                      <td>01/13/2015</td>
-                      <td className="red">01/14/2020 Still We can Help</td>
+                      <td>1/9/2018</td>
+                      <td className="red">1/10/2023</td>
                     </tr>
                     <tr>
                       <td>
-                        <strong>NAV 2009 SP1</strong>
+                        <strong>Dynamics NAV 2013 R2</strong>
                       </td>
-                      <td>08/28/2009</td>
-                      <td>01/13/2015</td>
-                      <td className="red">01/14/2020 Still We can Help</td>
+                      <td>1/9/2018</td>
+                      <td className="red">1/10/2023</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Dynamics NAV 2015</strong>
+                      </td>
+                      <td>14/01/2020</td>
+                      <td className="green">14/01/2025</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Dynamics NAV 2016	</strong>
+                      </td>
+                      <td>13/04/2021</td>
+                      <td className="green"><strong>14/04/2026</strong></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Dynamics NAV 2017</strong>
+                      </td>
+                      <td>11/01/2022</td>
+                      <td className="green"><strong>11/01/2027</strong></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <strong>Dynamics NAV 2018</strong>
+                      </td>
+                      <td>10/12/2023</td>
+                      <td className="green"><strong>11/01/2028</strong></td>
                     </tr>
                   </tbody>
                 </table>

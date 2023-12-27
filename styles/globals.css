@@ -17,7 +17,6 @@
     0 11px 8px rgb(29 35 115 / 4%), 0 5px 5px rgb(29 35 115 / 3%),
     0 2px 2px rgb(29 35 115 / 2%);
 }
-
 body {
   font-family: Inter, sans-serif !important;
   color: #444;
@@ -5735,7 +5734,7 @@ section {
   color: #fff !important;
 }
 .tabls-cloud .red {
-  background-color: #e35e38;
+  background-color: #bb2b36;
   color: #fff !important;
 }
 .tabls-clouds .table > tbody > tr > td,
