@@ -387,7 +387,7 @@ export default function Home() {
                   finance, and ensure a sound customer experience.
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
-                  <a className="read-more"> 
+                  <a target="_blank" className="read-more"> 
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -414,7 +414,7 @@ export default function Home() {
                   and more informed financial decisions.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a className="read-more">
+                  <a target="_blank" className="read-more">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -441,7 +441,7 @@ export default function Home() {
                   end-to-end supply chain operations.
                 </p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a className="read-more">
+                  <a className="read-more" target="_blank">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -472,7 +472,7 @@ export default function Home() {
                   for Sales.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
-                  <a className="read-more">
+                  <a className="read-more" target="_blank">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -503,7 +503,7 @@ export default function Home() {
                   informed decisions for better productivity ahead.
                 </p>
                 <Link href="/products/microsoft-power-bi/">
-                  <a className="read-more">
+                  <a className="read-more" target="_blank"> 
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -535,7 +535,7 @@ export default function Home() {
                   Azure.
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
-                  <a className="read-more">
+                  <a className="read-more" target="_blank">
                     <span>Learn More...</span>
                   </a>
                 </Link>
@@ -579,7 +579,7 @@ export default function Home() {
                 </p>
                 <div className="cla-brn">
                   <Link href="/products/microsoft-dynamics-365/">
-                    <a className="btn btn-md btn-danger btn-custmm">
+                    <a className="btn btn-md btn-danger btn-custmm" target="_blank">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -614,7 +614,7 @@ export default function Home() {
                   business.
                 </p>
                 <Link href="/our-services/dynamics-365-implementation-services/">
-                  <a>Learn More <span className="screen-reader-text">Details</span></a>
+                  <a target="_blank">Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -629,7 +629,7 @@ export default function Home() {
                   better RoI.
                 </p>
                 <Link href="/our-services/dynamics-365-upgrade-services/">
-                  <a>Learn More <span className="screen-reader-text">Details</span></a>
+                  <a target="_blank">Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -644,7 +644,7 @@ export default function Home() {
                   Chain, and Power BI.
                 </p>
                 <Link href="/our-services/dynamics-365-support-services/">
-                  <a>Learn More <span className="screen-reader-text">Details</span></a>
+                  <a target="_blank">Learn More <span className="screen-reader-text">Details</span></a>
                 </Link>
               </div>
             </div>
@@ -679,7 +679,7 @@ export default function Home() {
                     their business in a shorter time span.
                   </p>
                   <Link href="/industries/startups/">
-                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -707,7 +707,7 @@ export default function Home() {
                     organization or divisions.
                   </p>
                   <Link href="/industries/microsoft-cloud-for-nonprofit/">
-                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -735,7 +735,7 @@ export default function Home() {
                     customer delivery with Dynamics 365 E-commerce.
                   </p>
                   <Link href="/industries/ecommerce/">
-                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -763,7 +763,7 @@ export default function Home() {
                     distribution model through D365 Business Applications.
                   </p>
                   <Link href="/industries/microsoft-cloud-for-manufacturing/">
-                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -791,7 +791,7 @@ export default function Home() {
                     projects while reducing costs and equipping efficiency.
                   </p>
                   <Link href="/industries/professional-services/">
-                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -819,7 +819,7 @@ export default function Home() {
                     values to your food & beverages business domain.
                   </p>
                   <Link href="/industries/food-and-beverages/">
-                    <a className="boxshadow kallyas-button kallyas-button-nn">
+                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
                       Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
@@ -904,6 +904,7 @@ export default function Home() {
                   className="read-more"
                   data-aos="fade-left"
                   data-aos-delay="500"
+                  target="_blank"
                 >
                   Get Free System Health Check
                   <i className="bi bi-long-arrow-right"></i>
@@ -938,7 +939,7 @@ export default function Home() {
                   problems with 100% user satisfaction.{" "}
                 </p>
                 <Link href="/about-us/">
-                  <a>Find Out Our Approach</a>
+                  <a target="_blank">Find Out Our Approach</a>
                 </Link>
               </div>
             </div>
@@ -1272,7 +1273,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/nav2009R2-to-business-central/">
-                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
+                          <a target="_blank" className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
@@ -1300,7 +1301,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/nav09-nav18-upgrade/">
-                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
+                          <a target="_blank" className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
@@ -1327,7 +1328,7 @@ export default function Home() {
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/nav-2016-support-services/">
-                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
+                          <a target="_blank" className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
