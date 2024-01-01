@@ -65,7 +65,7 @@ const AdvantagesCapabilities = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>D365 Business Central Advantages: Accelerate your Business Growth with Ease </h2>
-                <p><Link href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> is a cloud-based business solution especially built for SMBs. It offers the ideal tools and functionalities to build a sustainable business leveraging the Microsoft ecosystem. </p>
+                <p><Link href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/"><a target="_blank">Microsoft Dynamics 365 Business Central</a></Link> is a cloud-based business solution especially built for SMBs. It offers the ideal tools and functionalities to build a sustainable business leveraging the Microsoft ecosystem. </p>
                 <p>Equipped with a centralised data platform, D365 Business Central comes with seamless capabilities to share, communicate, and collaborate with different departments of the business without any hassle. </p>
                 <p>Built on the platforms of AI, ML, and BI, it offers automation to streamline critical business functions, including finance, operations, sales, and customer service.</p>
                 <p>
@@ -100,7 +100,7 @@ const AdvantagesCapabilities = () => {
                   </div>
                   <div className="cintent-right cintent-right-001">
                     <h3>Stay Up to Date</h3>
-                    <p>One of the best things about <Link href="/dynamics-365-business-central-implementation/"><a>Business Central implementation</a></Link> is that Microsoft automatically updates the system with the release of a new upgrade, patch, or any other change. This eliminates the cost of manual updates. </p>
+                    <p>One of the best things about <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">Business Central implementation</a></Link> is that Microsoft automatically updates the system with the release of a new upgrade, patch, or any other change. This eliminates the cost of manual updates. </p>
                   </div>
                 </div>
 
@@ -112,7 +112,7 @@ const AdvantagesCapabilities = () => {
                   </div>
                   <div className="cintent-right cintent-right-001">
                     <h3>Lowered Cost of Ownership </h3>
-                    <p>Compared to conventional ERP solutions, Microsoft offers flexibility in terms of <Link href="/dynamics-365-business-central-pricing-licensing/"><a>Business Central licensing</a></Link>, pricing, and usability. Businesses used to invest a lot of money in initial, maintenance, and running costs, but Business Central has reduced all such costs by up to 70%. </p>
+                    <p>Compared to conventional ERP solutions, Microsoft offers flexibility in terms of <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central licensing</a></Link>, pricing, and usability. Businesses used to invest a lot of money in initial, maintenance, and running costs, but Business Central has reduced all such costs by up to 70%. </p>
                   </div>
                 </div>
 
@@ -242,7 +242,7 @@ const AdvantagesCapabilities = () => {
                     >
                       <div className="accordion-body">
                         <p>It simplifies the entire financial activities of a business, which include cash flow management, bank reconciliations, project costing, general ledger management, and more.</p>
-                        <p>You can even get built-in financial data after <Link href="/products/microsoft-power-bi/"><a>integrating Power BI</a></Link> to get cash flow visibility and financial patterns.</p>
+                        <p>You can even get built-in financial data after <Link href="/products/microsoft-power-bi/"><a target="_blank">integrating Power BI</a></Link> to get cash flow visibility and financial patterns.</p>
                       </div>
                     </div>
                   </div>
@@ -407,7 +407,7 @@ const AdvantagesCapabilities = () => {
                       data-bs-parent="#accnewss"
                     >
                       <div className="accordion-body">
-                      <p>D365 <Link href="/industries/manufacturing/"><a>Business Central for manufacturing</a></Link> keeps track of all resources needed for streamlined operations. </p>
+                      <p>D365 <Link href="/industries/manufacturing/"><a target="_blank">Business Central for manufacturing</a></Link> keeps track of all resources needed for streamlined operations. </p>
                         <p>With centralised information, it implements the manufacturing process as per the plan along with collecting essential information that includes the bill of materials, sales order, raw materials, scrap data, material consumption, and finished product.  </p>
                       </div>
                     </div>

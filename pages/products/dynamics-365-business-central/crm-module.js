@@ -52,9 +52,9 @@ const CrmModule = () => {
             <div className="col-lg-10">
             <header className="section-header">
             <h2>Dynamics 365 Business Central CRM Module: Effective CRM for SMBs </h2>
-            <p>An effective CRM solution is a must for all businesses to manage their customers' needs, understand their requirements, and offer the utmost level of satisfaction. The core CRM functionality empowers the sales team to cater to more clients while enhancing the overall customer experience. With a business-centric <Link href="/products/microsoft-dynamics-crm/"><a>CRM solution</a></Link>, you can accelerate sales while also accessing automation for increased1q efficiency. </p>
+            <p>An effective CRM solution is a must for all businesses to manage their customers' needs, understand their requirements, and offer the utmost level of satisfaction. The core CRM functionality empowers the sales team to cater to more clients while enhancing the overall customer experience. With a business-centric <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">CRM solution</a></Link>, you can accelerate sales while also accessing automation for increased1q efficiency. </p>
             <p>Business Central is an absolute business-oriented ERP solution with powerful capabilities in customer relationship management. It offers different modules that include CRM, finance, supply chain, and inventory based on the licence you purchase. Irrespective of the Business Central licencing plan you choose Essentials or Premium, CRM module will come as standard.</p>
-            <p>Regardless of the complexity of your business, you can personalise <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link>  to align it with your unique business requirements. Also, you can integrate different add-ons and applications to enhance the overall efficiency of the Business Central CRM module.</p>
+            <p>Regardless of the complexity of your business, you can personalise <Link href="/products/dynamics-365-business-central/"><a target="_blank">Microsoft Dynamics 365 Business Central</a></Link>  to align it with your unique business requirements. Also, you can integrate different add-ons and applications to enhance the overall efficiency of the Business Central CRM module.</p>
           </header>
             </div>
           </div>
@@ -70,8 +70,8 @@ const CrmModule = () => {
             <div className="col-lg-6 align-self-center">
               <div className="custom002">
                 <p>Business Central is an all-in-one ERP solution capable of connecting and streamlining different departments of a business that include finance, sales, inventory, warehouse, customer service, and marketing. Being a cloud-based solution, it offers powerful capabilities to deal with modern business needs. </p>
-                <p>With a unified database, it unifies the information and simplifies business operations for enhanced output. Embedded with modern business technologies like AI, BI, and ML, Business Central comes with automation to enhance overall business efficiency and productivity. After <Link href="/dynamics-365-business-central-implementation/"><a>Business Central implementation</a></Link>, businesses have reported a 23% reduction in operational costs, an 80% reduction in IT costs, a 2X increase in efficiency, and a 30% increase in productivity. </p>
-                <p>Being a part of the <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 group of applications</a></Link>, Business Central offers a number of benefits to businesses, including real-time decision-making, actionable data insights, a simple user interface, easy customization, and global connectivity to manage all locations.</p>
+                <p>With a unified database, it unifies the information and simplifies business operations for enhanced output. Embedded with modern business technologies like AI, BI, and ML, Business Central comes with automation to enhance overall business efficiency and productivity. After <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">Business Central implementation</a></Link>, businesses have reported a 23% reduction in operational costs, an 80% reduction in IT costs, a 2X increase in efficiency, and a 30% increase in productivity. </p>
+                <p>Being a part of the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 group of applications</a></Link>, Business Central offers a number of benefits to businesses, including real-time decision-making, actionable data insights, a simple user interface, easy customization, and global connectivity to manage all locations.</p>
               </div>
             </div>
             <div className="col-lg-1 align-self-center"></div>
@@ -203,7 +203,7 @@ const CrmModule = () => {
                 <p>Business Central is an AI-driven ERP and CRM solution that can revolutionise the way a business deals with internal as well as external processes. It will transform and accelerate your business towards growth and scalability. </p>
                 <p>The Business Central CRM module not only simplifies customer management but also boosts sales. It can help you track sales performance, track potential opportunities, utilise data in real-time, and enhance overall revenue.</p> 
                 <p>Regardless of your industry, you can implement Business Central along with its CRM module to offer personalised deals, increase customer visibility, prioritise potential leads, and enhance overall sales efficiency. </p>
-                <p>For more details, like <Link href="/dynamics-365-business-central-pricing-licensing/"><a>Business Central pricing and licencing plans</a></Link>, feel free to contact Dynamics Square, the trusted and reliable Microsoft Solutions Partner in the UK.</p>
+                <p>For more details, like <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central pricing and licencing plans</a></Link>, feel free to contact Dynamics Square, the trusted and reliable Microsoft Solutions Partner in the UK.</p>
               </div>
             </div>
           </div>
