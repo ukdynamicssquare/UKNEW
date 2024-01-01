@@ -214,7 +214,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         Discover a new way of managing and innovating business
                       </h3>
                       <p className="card-text">
-                        Successful <Link href ="/dynamics-365-business-central-implementation/">implementation of Dynamics 365 Business Central</Link> enables you to reduce your operational costs by
+                        Successful <Link href ="/dynamics-365-business-central-implementation/"><a target="_blank">implementation of Dynamics 365 Business Central</a></Link> enables you to reduce your operational costs by
                         eliminating manual tasks and associated errors. By
                         automating workflows, you can boost employee
                         productivity, freeing up resources from tasks like
@@ -367,7 +367,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     <Image
                       src="/img/copilot-in-BC.png"
                       className="card-img-bottom"
-                      alt="..."
+                      alt="copilot-in-BC"
                       width={826}
                       height={332}
                     />
@@ -396,7 +396,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-9">
               <header className="section-header section-header-new-ct">
                 <h2><span>Unique functionalities of</span> Business Central <span>Supports the Uniqueness of all Businesses</span></h2>
-                <p>Business Central is a technologically advanced solution capable of being personalised based on unique business requirements. We have a vast experience in aligning MSD 365 Business Central with any business for rapid and sustainable growth. Connect, collaborate, and automate the workflows to enable a business to maximise its output.<br /><br /> <Link href="/dynamics-365-business-central-features/">Dynamics 365 Business Central features</Link> and <Link href="/products/dynamics-365-business-central/advantages-capabilities/">capabilities</Link> include:
+                <p>Business Central is a technologically advanced solution capable of being personalised based on unique business requirements. We have a vast experience in aligning MSD 365 Business Central with any business for rapid and sustainable growth. Connect, collaborate, and automate the workflows to enable a business to maximise its output.<br /><br /> <Link href="/dynamics-365-business-central-features/"><a target="_blank">Dynamics 365 Business Central features</a></Link> and <Link href="/products/dynamics-365-business-central/advantages-capabilities/"><a target="_blank">capabilities</a></Link> include:
                 </p>
               </header>
             </div>
@@ -432,7 +432,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         visibility into your organisation's financial health.
                         Give a seamless experience to your staff by automating
                         processes and using AI-generated insights to make
-                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/">Dynamics 365 applications</Link>, automate:
+                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 applications</a></Link>, automate:
                       </p>
                       <ul>
                         <li>
@@ -840,7 +840,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         visibility into your organisation's financial health.
                         Give a seamless experience to your staff by automating
                         processes and using AI-generated insights to make
-                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/">Dynamics 365 applications</Link>, automate:
+                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 applications</a></Link>, automate:
                       </p>
                       <ul>
                         <li>
@@ -1094,7 +1094,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/cqc/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a target="_blank" className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
                     </div>
@@ -1128,7 +1128,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/crm-trading/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a target="_blank" className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
                     </div>
@@ -1162,7 +1162,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       </div>
                       <div className="case-button">
                         <Link href="/case-studies/wiper-supply-services/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a target="_blank" className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
                     </div>
@@ -1197,7 +1197,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <h3>Unlock unimaginable capabilities</h3>
                         <p>
                           Join the cohort of successful businesses that have
-                          switched from QuickBooks, Xero, Sage, <Link href="/products/microsoft-dynamics-gp/">Microsoft Dynamics GP</Link>, and Google Spreadsheets to explore a wide range of functionalities that Dynamics 365 Business
+                          switched from QuickBooks, Xero, Sage, <Link href="/products/microsoft-dynamics-gp/"><a target="_blank">Microsoft Dynamics GP</a></Link>, and Google Spreadsheets to explore a wide range of functionalities that Dynamics 365 Business
                           Central offers to power accounting & finance management.
                         </p>
                       </div>
@@ -1249,7 +1249,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Dynamics Square is poised to help you manoeuvre the
                   complexities of the digital transformation by building
                   intuitive, robust business solutions that add value to your
-                  people, processes, and data. Being a certified Business Central <Link href="/">Microsoft Gold partner</Link> UK, we worked with clients across domains including
+                  people, processes, and data. Being a certified Business Central <Link href="/"><a target="_blank">Microsoft Gold partner</a></Link> UK, we worked with clients across domains including
                   Finance, Sales, Customer Service, and Manufacturing.
                 </p>
                 <p style={{ color: "var(--color-blue)", fontSize: "18px" }}>
@@ -1361,7 +1361,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </div>
                   <div className="cont">
                     <h3>Client-centric Approach</h3>
-                    <p>Our approach to <Link href="/dynamics-365-business-central-implementation/">Business Central implementation</Link> is centred around your business requirements and need of the hour instead of loading it up with unnecessary apps.</p>
+                    <p>Our approach to <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">Business Central implementation</a></Link> is centred around your business requirements and need of the hour instead of loading it up with unnecessary apps.</p>
                   </div>
                 </div>
                 <div className="cll-bt">
@@ -1386,7 +1386,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <header className="section-header">
             <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
             <p>
-              Checkout the latest Dynamics 365 <Link href="/dynamics-365-business-central-pricing-licensing/">Business Central Pricing</Link> and
+              Checkout the latest Dynamics 365 <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central Pricing</a></Link> and
               capabilities of Essential, Premium, and Team Members plans.
             </p>
           </header>
@@ -1498,7 +1498,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </a>
                 </Link>
                 <Link href="/pdf/Dynamics-365-Licensing-Guide-June-2022.pdf">
-                  <a className="btn-get-whit">
+                  <a target="_blank" className="btn-get-whit">
                     <span>See Licensing Guide</span>
                   </a>
                 </Link>
@@ -1687,8 +1687,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   >
                     <div className="accordion-body">
                       <p>
-                        <Link href="https://www.dynamicssquare.co.uk/what-is-dynamics-365-business-central/">
-                          <a>
+                        <Link href="https://www.dynamicssquare.co.uk/blog/what-is-dynamics-365-business-central/">
+                          <a target="_blank">
                             <b>Dynamics 365 Business Central</b>
                           </a>
                         </Link>
@@ -1701,7 +1701,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         Business Central is designed as a complete{" "}
                         <Link href="/products/microsoft-dynamics-erp/">
-                          <a>
+                          <a target="_blank">
                             <b>ERP solution</b>
                           </a>
                         </Link>{" "}
@@ -1717,8 +1717,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         You can host your application whether on cloud (private
                         or public) or on-premise; the choice is yours. When it
                         comes to{" "}
-                        <Link href="https://www.dynamicssquare.co.uk/what-is-dynamics-365-business-central/">
-                          <a>
+                        <Link href="https://www.dynamicssquare.co.uk/blog/what-is-dynamics-365-business-central/">
+                          <a target="_blank">
                             <b>Dynamics 365 Business Central Overview</b>
                           </a>
                         </Link>
@@ -1729,7 +1729,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         works, and how it can transform your business context,
                         do contact Dynamics Square. Our{" "}
                         <Link href="/">
-                          <a>
+                          <a target="_blank">
                             <strong>
                               Dynamics 365 Business Central experts
                             </strong>
@@ -1757,7 +1757,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Dynamics 365 Business Central is the updated version of <Link href="/products/microsoft-dynamics-nav/">Dynamics NAV</Link>. With its upgrade, Microsoft changed its name
+                      Dynamics 365 Business Central is the updated version of <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">Dynamics NAV</a></Link>. With its upgrade, Microsoft changed its name
                       too. The Core functionality remains the same and is
                       updated with advanced features and navigation to support
                       modern enterprises and to serve every industry. However,
@@ -1790,7 +1790,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         time to upgrade to Dynamics 365 Business Central. If the
                         same question is rolling out in your mind, contact{" "}
                         <Link href="/">
-                          <a>
+                          <a target="_blank">
                             <strong>Dynamics Square</strong>
                           </a>
                         </Link>
@@ -1803,8 +1803,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         To know more about Why move to Dynamics 365 Business
                         Central?&nbsp;
-                        <Link href="/contact-us/" target="_blank">
-                          <a>
+                        <Link href="/contact-us/">
+                          <a target="_blank">
                             <b>Contact our Dynamics 365 experts</b>
                           </a>
                         </Link>
@@ -1928,7 +1928,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     <div className="accordion-body">
                       <p>
                         <Link href="/dynamics-365-business-central-pricing-licensing/">
-                          Dynamics 365 Business Central pricing
+                          <a target="_blank">Dynamics 365 Business Central pricing</a>
                         </Link>{" "}
                         goes as per your specific business processes. You can
                         choose out of the given licensing options:
@@ -1985,7 +1985,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         Initially, you can start with Microsoft{" "}
                         <Link href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/">
-                          Business Central Trial
+                         <a target="_blank">Business Central Trial</a>
                         </Link>{" "}
                         at no cost for 30 days. After your trial period, if you
                         find Business Central - a suitable deal for your
@@ -2049,7 +2049,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         Business Central is an all-in-one ERP solution. In case
                         you want advancement in your reporting &amp; analytics
-                        terms, seamless integration with <Link href="/products/microsoft-power-bi/">Power BI</Link> can be done as both are Microsoft's products, hence, Power BI fits well
+                        terms, seamless integration with <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link> can be done as both are Microsoft's products, hence, Power BI fits well
                         with Dynamic 365 Business Central. Power BI can enable
                         visualization in your reporting, key metrics, and your
                         entire business analytics. You can create your own
@@ -2059,7 +2059,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         If you want expert advice on how you can leverage Power
                         BI and Business Central together, connect with us, being
-                        a reliable <Link href="/dynamics-365-business-central-support/">Business Central Support</Link>, <Link href="/dynamics-nav-to-business-central/">NAV Upgrade</Link>, and Implementation partner, we can always provide you with
+                        a reliable <Link href="/dynamics-365-business-central-support/"><a target="_blank">Business Central Support</a></Link>, <Link href="/dynamics-nav-to-business-central/"><a target="_blank">NAV Upgrade</a></Link>, and Implementation partner, we can always provide you with
                         expert consulting.
                       </p>
                     </div>
@@ -2090,7 +2090,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                 <ul>
                   <li>
                     <Link href="/pdf/Is-Your-Business-Outgrowing-Your-Accounting-Software.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> Is Your
                         Business Outgrowing Your Accounting Software?
                       </a>
@@ -2098,7 +2098,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/pdf/Business-Owners-Guide.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> Business
                         Owner's Guide
                       </a>
@@ -2106,7 +2106,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/pdf/Reimagine-Productivity.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> Reimagine
                         Productivity
                       </a>
@@ -2114,7 +2114,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> Licensing
                         Guide
                       </a>
@@ -2122,7 +2122,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/pdf/Four-Technology-Trends-Helping-Businesses-Thrive-in-a-Digital-World.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> Technology
                         Trends Helping Businesses Thrive in a Digital World
                       </a>
@@ -2130,7 +2130,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/pdf/Reinvent-productivity-with-Dynamics-365-and-Microsoft-365.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> Reinvent
                         productivity with Dynamics 365 and Microsoft 365
                       </a>
@@ -2138,7 +2138,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/pdf/The-Total-Economic-Impact-of-Microsoft-Dynamics-365-Business-Central.pdf">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i> The Total
                         Economic Impact of Dynamics 365 Business Central
                       </a>
@@ -2153,8 +2153,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                 <ul>
                   <li>
                     <Link href="/why-choose-microsoft-dynamics-365-business-central/">
-                      <a>
-                        {" "}
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i> Why Choose
                         Microsoft Dynamics 365 Business Central?
                       </a>
@@ -2162,14 +2161,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/blog/migrate-nav-to-business-central/">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i> NAV to Business Central Migration
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog/upgrade-dynamics-nav-to-dynamics-365-business-central/">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i> Why to
                         Upgrade Dynamics NAV to Business Central
                       </a>
@@ -2177,7 +2176,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   </li>
                   <li>
                     <Link href="/blog/reasons-to-upgrade-accounting-software/">
-                      <a>
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i> Is Your
                         Business Outgrowing Your Accounting Software?
                       </a>
