@@ -84,7 +84,7 @@ const BusinessCentral = () => {
                 <p>
                   Dynamics 365 Business Central (formerly known as&nbsp;
                   <Link href="/products/microsoft-dynamics-nav/">
-                    <a>
+                    <a target="_blank">
                       <b>Dynamics NAV</b>
                     </a>
                   </Link>
@@ -92,7 +92,7 @@ const BusinessCentral = () => {
                   to manage sales, finance, service, and operations seamlessly
                   and effectively. As a Dynamics 365{" "}
                   <Link href="/dynamics-365-business-central-implementation/">
-                    <a>
+                    <a target="_blank">
                       <b>Business Central Implementation Partner</b>
                     </a>
                   </Link>
@@ -2575,7 +2575,7 @@ const BusinessCentral = () => {
               </div>
               <div className="m-o-t m-o-t-b">
                 <Link href="/dynamics-365-business-central-features/">
-                  <a className="btn-get-started scrollto">
+                  <a target="_blank" className="btn-get-started scrollto">
                     <span>Read More Features </span>
                   </a>
                 </Link>
@@ -2595,7 +2595,7 @@ const BusinessCentral = () => {
                           Microsoft Dynamics 365 Business Central is an
                           all-in-one{" "}
                           <Link href="/products/microsoft-dynamics-erp/">
-                            ERP System
+                            <a target="_blank">ERP System</a>
                           </Link>
                           whereby enterprises can connect their teams to drive
                           effective and timely collaboration from anytime and
@@ -2615,7 +2615,7 @@ const BusinessCentral = () => {
                           variety of reports and boost their reporting and
                           analytics process when integrated with{" "}
                           <Link href="/products/microsoft-power-bi/">
-                            Power BI.
+                            <a target="_blank">Power BI.</a>
                           </Link>
                         </p>
                       </div>
@@ -2633,7 +2633,7 @@ const BusinessCentral = () => {
                       <div className="overlay">
                         <p>
                           <Link href="/dynamics-365-business-central-implementation/">
-                            Implementing Business Central
+                            <a target="_blank">Implementing Business Central</a>
                           </Link>
                           can help you to drive a sound customer experience by
                           keeping track of customer activities and supporting
@@ -2649,7 +2649,7 @@ const BusinessCentral = () => {
                       <div className="overlay">
                         <p>
                           <Link href="/products/dynamics-365-business-central/">
-                            D365 Business Central
+                            <a target="_blank">D365 Business Central</a>
                           </Link>{" "}
                           can be easily customized to suit your business
                           requirements. Businesses can get seamless integration

@@ -132,7 +132,7 @@ const MicrosoftDynamics365MixedReality = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Manage all your complicated tasks instantly and efficiently by simply bridging the gap between real-world and digital world objects with <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> Layout. Share your ideas, visions, or concepts with your team or stakeholders and edit the layouts like a real-world experience to support improved decision-making prior to implementation.</p>
+                       <p>Manage all your complicated tasks instantly and efficiently by simply bridging the gap between real-world and digital world objects with <a target="_blank" href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> Layout. Share your ideas, visions, or concepts with your team or stakeholders and edit the layouts like a real-world experience to support improved decision-making prior to implementation.</p>
                       </div>
                     </div>
                   </div>
@@ -283,7 +283,7 @@ const MicrosoftDynamics365MixedReality = () => {
                           Reality data over a secured and trusted cloud model
                           with Azure Active Directory. Businesses can safeguard
                           their vital data, monitor workloads, fix
-                          vulnerabilities, and ensure <a href="/products/microsoft-azure/">Azure</a> backup.
+                          vulnerabilities, and ensure <a href="/products/microsoft-azure/" target="_blank">Azure</a> backup.
                         </p>
                       </div>
                     </div>
@@ -346,7 +346,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     Mixed Reality implementation.
                   </p>
                   <div className="action-content">
-                    <a href="#">Get Started</a>
+                    <a href="/contact-us/" target="_blank">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -364,7 +364,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     effective and scalable Mixed Reality approach.
                   </p>
                   <div className="action-content">
-                    <a href="#">Get Started</a>
+                    <a href="/contact-us/" target="_blank">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -382,7 +382,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     dedicated Mixed Reality support system.
                   </p>
                   <div className="action-content">
-                    <a href="#">Get Started</a>
+                    <a href="/contact-us/" target="_blank">Get Started</a>
                   </div>
                 </div>
               </div>
@@ -503,7 +503,7 @@ const MicrosoftDynamics365MixedReality = () => {
                         <li>Microsoft Dynamics 365 Product Visualize</li>
                         <li>Microsoft Dynamics 365 Guides</li>
                       </ul>
-                      To know more about contact <a href="/contact-us/">Dynamics Square Team</a>, we can
+                      To know more about contact <a href="/contact-us/" target="_blank">Dynamics Square Team</a>, we can
                       help.
                     </div>
                   </div>
@@ -643,10 +643,10 @@ const MicrosoftDynamics365MixedReality = () => {
                       problems in real-time.
                       <br />
                       <br />
-                      When integrated with <a href="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</a>, it can
+                      When integrated with <a href="/products/microsoft-dynamics-365-field-service/" target="_blank">Dynamics 365 Field Service</a>, it can
                       help businesses to capture the asset information. If there
                       is a piece of critical or complex information, can be
-                      transformed into easy visualization by integrating with <a href="/products/microsoft-power-bi/">Power BI</a> or any other enterprise-level application.
+                      transformed into easy visualization by integrating with <a href="/products/microsoft-power-bi/" target="_blank">Power BI</a> or any other enterprise-level application.
                     </div>
                   </div>
                 </div>
@@ -699,7 +699,7 @@ const MicrosoftDynamics365MixedReality = () => {
             <div className="col-lg-9">
             <header className="section-header">
             <h2>Explore Our Recent Blogs & Resources</h2>
-            <p>Whether you are a start-up, an SMB, or an enterprise, the <a href="/blog/">Dynamics Square blog</a> is the best place to get inspired and learn more about Microsoft Business Applications.</p>
+            <p>Whether you are a start-up, an SMB, or an enterprise, the <a href="/blog/" target="_blank">Dynamics Square blog</a> is the best place to get inspired and learn more about Microsoft Business Applications.</p>
           </header>
             </div>
           </div>

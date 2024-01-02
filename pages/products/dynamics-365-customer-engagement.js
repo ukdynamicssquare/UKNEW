@@ -76,7 +76,7 @@ const Dynamics365CustomerEngagement = () => {
                 <p>
                   Dynamics 365 customer engagement (formerly known as{" "}
                   <Link href="/products/microsoft-dynamics-crm/">
-                    Microsoft Dynamics CRM
+                    <a target="_blank">Microsoft Dynamics CRM</a>
                   </Link>
                   ) refers to the complete customer-driven package comprising
                   modules like sales, customer service, marketing, field
@@ -221,7 +221,7 @@ const Dynamics365CustomerEngagement = () => {
                 <p>
                   With{" "}
                   <Link href="/products/microsoft-dynamics-365-sales/">
-                    Dynamics 365 for Sales
+                    <a target="_blank">Dynamics 365 for Sales</a>
                   </Link>
                   , improve your customer engagement, predict your sales
                   pipeline, and accelerate your sales flow by leveraging
@@ -242,7 +242,7 @@ const Dynamics365CustomerEngagement = () => {
                   customers by leveraging a unified and quickly adaptable user
                   platform i.e.,{" "}
                   <Link href="/products/microsoft-dynamics-365-marketing/">
-                    Dynamics 365 Marketing
+                    <a target="_blank">Dynamics 365 Marketing</a>
                   </Link>{" "}
                   module of the Dynamics 365 Customer Engagement package.
                 </p>
@@ -292,7 +292,7 @@ const Dynamics365CustomerEngagement = () => {
                   effectiveness, and optimize your services operations all
                   through{" "}
                   <Link href="/products/microsoft-dynamics-365-field-service/">
-                    Dynamics 365 Field Service
+                    <a target="_blank">Dynamics 365 Field Service</a>
                   </Link>{" "}
                   module.
                 </p>

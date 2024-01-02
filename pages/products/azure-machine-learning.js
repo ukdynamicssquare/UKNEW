@@ -85,7 +85,7 @@ const AzureMachineLearning = () => {
                   business practices wrapped with enterprise-grade security and
                   reliability. Streamline your entire Machine Leaning models
                   deployment whether on-premises, on-cloud, or at{" "}
-                  <Link href="/products/azure-iot-edge/">Azure IoT Edge</Link>.
+                  <Link href="/products/azure-iot-edge/"><a target="_blank">Azure IoT Edge</a></Link>.
                 </p>
               </header>
             </div>
@@ -231,7 +231,7 @@ const AzureMachineLearning = () => {
                         By leveraging built-in integration along with other
                         simplified integration such as{" "}
                         <Link href="/products/microsoft-power-bi/">
-                          Power BI
+                          <a target="_blank">Power BI</a>
                         </Link>
                         , Azure Data Lake, Azure Synapse Analytics, and Azure
                         Cognitive research, etc., boost your production line and

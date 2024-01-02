@@ -87,7 +87,7 @@ const D360 = () => {
               <div className="custom002">
                 <p>
                   <Link href="/products/microsoft-dynamics-365/">
-                    Microsoft Dynamics 365
+                    <a target="_blank">Microsoft Dynamics 365</a>
                   </Link>{" "}
                   is a power pack collection of Microsoft apps and other add-ons to meet the ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) needs. It is a refreshed version of Dynamics Suite that delivers new ways to manage a business. Microsoft not only wants to simplify business management but also wants to redefine the user experience.
                   </p>
@@ -438,7 +438,7 @@ const D360 = () => {
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Business Central</h3>
                   <p>
-                  <Link href="/products/dynamics-365-business-central/">Business Central</Link>: Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability. 
+                  <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link>: Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability. 
                   </p>
                 </div>
               </div>
@@ -448,7 +448,7 @@ const D360 = () => {
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Sales</h3>
                   <p>
-                  <Link href="/products/microsoft-dynamics-365-sales/">D365 for Sales</Link>: Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
+                  <Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">D365 for Sales</a></Link>: Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
                   </p>
                 </div>
               </div>
@@ -458,7 +458,7 @@ const D360 = () => {
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Finance</h3>
                   <p>
-                  <Link href="/products/microsoft-dynamics-365-finance/">D365 Finance</Link>: Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI. 
+                  <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">D365 Finance</a></Link>: Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI. 
                   </p>
                 </div>
               </div>
@@ -471,7 +471,7 @@ const D360 = () => {
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Supply Chain Management </h3>
                   <p>
-                  <Link href="/products/dynamics-365-supply-chain-management/">D365 Supply Chain</Link>: Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
+                  <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">D365 Supply Chain</a></Link>: Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
                   </p>
                 </div>
               </div>
@@ -480,7 +480,7 @@ const D360 = () => {
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Field Service</h3>
                   <p>
-                  <Link href="/products/microsoft-dynamics-365-field-service/">D365 Field Service</Link>: Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
+                  <Link href="/products/microsoft-dynamics-365-field-service/"><a target="_blank">D365 Field Service</a></Link>: Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
                   </p>
                 </div>
               </div>
@@ -490,7 +490,7 @@ const D360 = () => {
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Marketing</h3>
                   <p>
-                  <Link href="/products/microsoft-dynamics-365-marketing/">D365 for Marketing</Link>: Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
+                  <Link href="/products/microsoft-dynamics-365-marketing/"><a target="_blank">D365 for Marketing</a></Link>: Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
                   </p>
                 </div>
               </div>
@@ -614,7 +614,7 @@ const D360 = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                      Dynamics 365 is a highly flexible business management software solution that offers organisations the choice of deploying servers on company premises, in the cloud, or as a hybrid environment. Companies can also move to the cloud or hybrid solutions after initially opting for <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</Link> servers. 
+                      Dynamics 365 is a highly flexible business management software solution that offers organisations the choice of deploying servers on company premises, in the cloud, or as a hybrid environment. Companies can also move to the cloud or hybrid solutions after initially opting for <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/"><a target="_blank">on-premises</a></Link> servers. 
                       </p>
                     </div>
                   </div>
@@ -726,7 +726,7 @@ const D360 = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p><Link href="/products/microsoft-dynamics-nav/">Dynamics NAV</Link> is an ERP (Enterprise Resource Planning) solution capable of managing departments like finance, manufacturing, and more. Whereas Dynamics 365 is a set of 12 applications consisting of ERP and CRM to aid businesses with overall growth.</p>
+                     <p><Link href="/products/microsoft-dynamics-nav/"><a target="_blank">Dynamics NAV</a></Link> is an ERP (Enterprise Resource Planning) solution capable of managing departments like finance, manufacturing, and more. Whereas Dynamics 365 is a set of 12 applications consisting of ERP and CRM to aid businesses with overall growth.</p>
                     </div>
                   </div>
                 </div>
@@ -747,7 +747,7 @@ const D360 = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p><Link href="/products/dynamics-365-business-central/">Microsoft Business Central</Link> is the evolved version of NAV and a part of the Dynamics 365 applications. Business Central is a modern ERP solution with more advanced features and capabilities than NAV.</p>
+                      <p><Link href="/products/dynamics-365-business-central/"><a target="_blank">Microsoft Business Central</a></Link> is the evolved version of NAV and a part of the Dynamics 365 applications. Business Central is a modern ERP solution with more advanced features and capabilities than NAV.</p>
                     </div>
                   </div>
                 </div>
@@ -768,8 +768,7 @@ const D360 = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, you can customise the features and functionalities of Dynamics 365 based on the kind of industry and specific business requirements. Your <Link href="/our-services/dynamics-365-support-services/">
-                      Dynamics 365 support</Link> partner will help you evaluate your specific needs and provide a better customization option.</p>
+                      <p>Yes, you can customise the features and functionalities of Dynamics 365 based on the kind of industry and specific business requirements. Your <Link href="/our-services/dynamics-365-support-services/"><a target="_blank">Dynamics 365 support</a></Link> partner will help you evaluate your specific needs and provide a better customization option.</p>
                     </div>
                   </div>
                 </div>
@@ -790,7 +789,7 @@ const D360 = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, MS Dynamics 365 is an advanced solution for all the ERP and CRM needs of small and mid-sized organisations. It uses many technologies and intelligence tools, like Cortana, <Link href="/products/microsoft-power-bi/">Power BI</Link>, and Azure IoT, to help businesses with ease of operations.</p>
+                      <p>Yes, MS Dynamics 365 is an advanced solution for all the ERP and CRM needs of small and mid-sized organisations. It uses many technologies and intelligence tools, like Cortana, <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>, and Azure IoT, to help businesses with ease of operations.</p>
                     </div>
                   </div>
                 </div>
@@ -832,7 +831,7 @@ const D360 = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>The cost of implementation depends on various factors, like current ERP and{ ' '} <Link href="/products/microsoft-dynamics-crm/">CRM solutions</Link>, industry type, business requirements, integrations, customizations, deployment, and much more. Once an implementation partner evaluates all such factors, you will have the exact cost quotation.</p>
+                      <p>The cost of implementation depends on various factors, like current ERP and{ ' '} <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">CRM solutions</a></Link>, industry type, business requirements, integrations, customizations, deployment, and much more. Once an implementation partner evaluates all such factors, you will have the exact cost quotation.</p>
                     </div>
                   </div>
                 </div>
@@ -874,7 +873,7 @@ const D360 = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Microsoft doesn't provide sales or support to the end customers. For this, there are certified partners, like Dynamics Square, who can help you install, implement, and <Link href="/our-services/dynamics-365-upgrade-services/">upgrade Dynamics 365</Link> or any of its applications with total accuracy.</p>
+                      <p>Microsoft doesn't provide sales or support to the end customers. For this, there are certified partners, like Dynamics Square, who can help you install, implement, and <Link href="/our-services/dynamics-365-upgrade-services/"><a target="_blank">upgrade Dynamics 365</a></Link> or any of its applications with total accuracy.</p>
                     </div>
                   </div>
                 </div>

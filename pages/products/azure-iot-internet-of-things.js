@@ -47,6 +47,7 @@ const AzureIoT = () => {
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
+                      target="_blank"
                     >
                       <span>Schedule a Demo</span>
                     </a>
@@ -114,7 +115,7 @@ const AzureIoT = () => {
                         and drive highly secured data communications between
                         your connected devices and IoT applications. With{" "}
                         <Link href="/products/azure-iot-hub/">
-                          <a>&nbsp;Azure IoT hub&nbsp;</a>
+                          <a target="_blank">&nbsp;Azure IoT hub&nbsp;</a>
                         </Link>
                         solutions, connect your devices virtually in the backend
                         and ensure a security-enabled communication channel to
@@ -151,7 +152,7 @@ const AzureIoT = () => {
                       <div className="accordion-body">
                         Drive highly integrated and connected experience with
                         <Link href="/products/azure-iot-central/">
-                          <a>&nbsp;Azure IoT Central&nbsp;</a>
+                          <a  target="_blank">&nbsp;Azure IoT Central&nbsp;</a>
                         </Link>
                         . Develop and deploy secure, scalable, and growth
                         encouraging IoT solutions. Integrate your IoT solutions
@@ -191,7 +192,7 @@ const AzureIoT = () => {
                     >
                       <div className="accordion-body">
                         <Link href="/products/azure-sphere/">
-                          <a>&nbsp;Azure Sphere&nbsp;</a>
+                          <a  target="_blank">&nbsp;Azure Sphere&nbsp;</a>
                         </Link>
                         is designed to protect your data, devices, and overall
                         involved infrastructure. It helps to enable multiple
@@ -239,7 +240,7 @@ const AzureIoT = () => {
                       <div className="accordion-body">
                         With
                         <Link href="/products/azure-digital-twins/">
-                          <a>&nbsp;Azure Digital Twins&nbsp;</a>
+                          <a  target="_blank">&nbsp;Azure Digital Twins&nbsp;</a>
                         </Link>
                         - an IoT platform, develop a digital demonstration of
                         real-world things, data, people, or business processes
@@ -279,7 +280,7 @@ const AzureIoT = () => {
                       <div className="accordion-body">
                         Implement
                         <Link href="/products/azure-iot-edge">
-                          <a>&nbsp;Azure IoT Edge&nbsp;</a>
+                          <a target="_blank">&nbsp;Azure IoT Edge&nbsp;</a>
                         </Link>
                         on-premises to centralize data and seamlessly drive
                         operational data in the Microsoft Azure cloud. Ensure
@@ -572,7 +573,7 @@ const AzureIoT = () => {
                   <>
                     <li>
                       <Link href="https://www.youtube.com/watch?v=xn32a320sv4">
-                        <a>
+                        <a  target="_blank">
                           {" "}
                           <i className="bi bi-box-arrow-up-right"></i> Microsoft
                           Azure IoT manufacturing solutions
@@ -585,7 +586,7 @@ const AzureIoT = () => {
                         href="https://www.youtube.com/watch?v=-Fwc3dwbM3w"
                         target="_blank"
                       >
-                        <a>
+                        <a  target="_blank">
                           {" "}
                           <i className="bi bi-box-arrow-up-right"></i> IoT for
                           Earth: helping farmers grow a brighter future for us
@@ -599,7 +600,7 @@ const AzureIoT = () => {
                         href="https://www.youtube.com/watch?v=n0LqqadplIA"
                         target="_blank"
                       >
-                        <a>
+                        <a  target="_blank">
                           <i className="bi bi-box-arrow-up-right"></i> Why to
                           Upgrade Dynamics NAV to Business Central
                         </a>
