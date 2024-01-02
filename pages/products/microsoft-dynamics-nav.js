@@ -516,7 +516,7 @@ const MicrosoftDynamicsNAV = () => {
               <div className="side-heading">
                 <h2>Dynamics NAV vs Dynamics 365 Business Central</h2>
                 <p>
-                  <Link href="/dynamics-365-business-central/">
+                  <Link href="/products/dynamics-365-business-central/">
                     Dynamics 365 Business Central
                   </Link>{" "}
                   is the evolved and modern version of NAV software, specially
@@ -1050,7 +1050,7 @@ const MicrosoftDynamicsNAV = () => {
                           </Link>{" "}
                         </li>
                         <li>
-                          <a href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/">
+                          <a href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-trial/">
                             Business Central Trial{" "}
                           </a>
                         </li>

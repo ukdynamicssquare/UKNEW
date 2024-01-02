@@ -515,7 +515,7 @@ const WhyChooseBc = () => {
                           Dynamics 365 Business Central Upgrade
                         </Link>{" "}
                         |{" "}
-                        <Link href="/dynamics-365-business-central-support/">
+                        <Link href="/d365-business-central-support/">
                           Business Central Support
                         </Link>{" "}
                         |

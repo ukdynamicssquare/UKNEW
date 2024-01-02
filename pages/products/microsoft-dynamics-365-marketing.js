@@ -911,7 +911,7 @@ const Marketing = () => {
                     <div className="accordion-body">
                     Dynamics Square is located in several locations in the UK to offer on-site support and services, like London, Manchester, Birmingham, <Link href="/location/microsoft-dynamics-partner-leeds/">Leeds</Link>, <Link href="/location/microsoft-dynamics-partner-glasgow/">Glasgow</Link>, Bristol, Liverpool, and more. 
 
-                    See Also -  <Link href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</Link> | <Link href="/location/microso/our-services/dynamics-365-implementation-services/">Dynamics 365 Implementation</Link>
+                    See Also -  <Link href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</Link> | <Link href="/our-services/dynamics-365-implementation-services/">Dynamics 365 Implementation</Link>
                     </div>
                   </div>
                 </div>

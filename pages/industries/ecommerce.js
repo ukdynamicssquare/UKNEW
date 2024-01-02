@@ -617,7 +617,7 @@ const Ecommerce = () => {
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <a href="/industries/startup/">
+                              <a href="/industries/startups/">
                                 <div className="img-wrp">
                                   <img
                                     src="/img/start-up.svg"

@@ -512,15 +512,16 @@ With Dynamics 365 Solutions </h2>
                           </div>
                         </div>
                       </SwiperSlide>
+                      
                       <SwiperSlide>
                         <div className="swiper-slide">
                           <div className="swiper-slide">
-                            <div className="industries-list-more">
-                              <Link href="/industries/food-and-beverages/">
-                                <a><div className="img-wrp">
+                          <div className="industries-list-more">
+                              <a href="/industries/startups/">
+                                <div className="img-wrp">
                                   <img
-                                    src="/img/Food-and-beverage.svg"
-                                    alt="Food-and-beverage"
+                                    src="/img/start-up.svg"
+                                    alt="start-up"
                                   />
                                 </div>
                                 <div className="text-wrp-content">
@@ -531,8 +532,8 @@ With Dynamics 365 Solutions </h2>
                                     your Startup with Microsoft Dynamics 365.
                                   </p>
                                   <span>Explore Now</span>
-                                </div></a>
-                              </Link>
+                                </div>
+                              </a>
                             </div>
                           </div>
                         </div>

@@ -600,7 +600,7 @@ const Manufacturing = () => {
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <Link href="/industries/startup/">
+                              <Link href="/industries/startups/">
                                 <a><div className="img-wrp">
                                   <img src="/img/start-up.svg" alt="start-up" />
                                 </div>

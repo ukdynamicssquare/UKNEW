@@ -451,7 +451,7 @@ const BusinessCentralFeatures = () => {
                     Upgrade NAV To Business Central
                   </Link>
                   <br />
-                  <Link href="/dynamics-365-business-central-support/">
+                  <Link href="/d365-business-central-support/">
                     Dynamics 365 Business Central support
                   </Link>
                 </p>

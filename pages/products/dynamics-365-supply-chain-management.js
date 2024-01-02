@@ -253,7 +253,7 @@ const SupplyChainManagement = () => {
                           IoT
                         </Link>
                         , and{" "}
-                        <Link href="/microsoft-dynamics-365-mixed-reality/">
+                        <Link href="/products/microsoft-dynamics-365/mixed-reality/">
                           Mixed Reality
                         </Link>
                         .

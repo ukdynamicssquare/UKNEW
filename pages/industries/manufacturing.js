@@ -730,11 +730,11 @@ const Startup = () => {
                         <div className="swiper-slide">
                           <div className="swiper-slide">
                             <div className="industries-list-more">
-                              <a href="/industries">
+                              <a href="/industries/startups/">
                                 <div className="img-wrp">
                                   <img
-                                    src="/img/Food-and-beverage.svg"
-                                    alt="Food-and-beverage"
+                                    src="/img/start-up.svg"
+                                    alt="start-up"
                                   />
                                 </div>
                                 <div className="text-wrp-content">

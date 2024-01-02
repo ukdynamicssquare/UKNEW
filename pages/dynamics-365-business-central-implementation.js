@@ -466,7 +466,7 @@ const BusinessCentralImplementation = () => {
                             ensure that your system is working as you
                             anticipated. For a free Business Central trial,{" "}
                             <a
-                              href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/"
+                              href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-trial/"
                               target="_self"
                             >
                               click here
