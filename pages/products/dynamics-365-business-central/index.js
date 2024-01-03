@@ -1093,7 +1093,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         </div>
                       </div>
                       <div className="case-button">
-                        <Link href="/case-studies/cqc/">
+                        <Link href="/case-studies/nav2009R2-to-business-central/">
                           <a target="_blank" className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
@@ -1127,7 +1127,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         </div>
                       </div>
                       <div className="case-button">
-                        <Link href="/case-studies/crm-trading/">
+                        <Link href="/case-studies/nav09-nav18-upgrade/">
                           <a target="_blank" className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
@@ -1161,7 +1161,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         </div>
                       </div>
                       <div className="case-button">
-                        <Link href="/case-studies/wiper-supply-services/">
+                        <Link href="/case-studies/nav-2016-support-services/">
                           <a target="_blank" className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>

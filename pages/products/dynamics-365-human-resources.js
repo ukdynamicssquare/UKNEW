@@ -186,7 +186,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      With the cloud deployment, you can centralise the entire data while reducing the complexity of the system. You can visualise the data to empower planning and strategies using <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>. 
+                      With the cloud deployment, you can centralise the entire data while reducing the complexity of the system. You can visualise the data to empower planning and strategies using <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>. 
                       </div>
                     </div>
                   </div>
@@ -492,7 +492,7 @@ const HumanResource = () => {
                   </p>
                   <div className="action-content">
                     <Link  href="/dynamics-365-human-resources-implementation/">
-                     <a>Get Started</a>
+                     <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -534,7 +534,7 @@ const HumanResource = () => {
                     Maximise your resource utilization and optimize your
                     existing resources with our simple yet powerful{" "}
                     <Link href="/our-services/dynamics-365-support-services/">
-                      Dynamics 365 support services
+                     <a target="_blank">Dynamics 365 support services</a>
                     </Link>
                     .
                   </p>
@@ -559,7 +559,7 @@ const HumanResource = () => {
                 <p>Streamline your human resources operations by implementing Dynamics 365 Human Resources.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#about">
-                    <a className="btn-get-started scrollto">
+                    <a target="_blank" className="btn-get-started scrollto">
                       <span>Get Started Now!</span>
                     </a>
                   </Link>
@@ -687,7 +687,7 @@ const HumanResource = () => {
                         take advantage of a free 30-day trial period.You can get
                         the trial by following the{" "}
                         <Link href="/products/microsoft-dynamics-365/">
-                          Microsoft Dynamics 365
+                        <a target="_blank">Microsoft Dynamics 365</a>
                         </Link>{" "}
                         page. And, when it comes to D365 Human Resource pricing
                         and licensing, you can check out the pricing section
@@ -749,7 +749,7 @@ const HumanResource = () => {
                         so that you can get started working with it, contact the
                         certified{" "}
                         <Link href="/dynamics-365-human-resources-implementation/">
-                          D365 Human Resource Implementation Partner
+                        <a target="_blank">D365 Human Resource Implementation Partner</a>
                         </Link>
                         .
                       </p>
@@ -779,7 +779,7 @@ const HumanResource = () => {
                         need for customisation, it would not be right to give
                         you exact data. However, you can contact a certified
                         gold support partner like{" "}
-                        <Link href="/">Dynamics Square</Link> to discuss your
+                        <Link href="/"><a target="_blank">Dynamics Square</a></Link> to discuss your
                         needs. Once our expert consultants understand your
                         needs, we will give you an estimate of the time and cost
                         of the entire process.
