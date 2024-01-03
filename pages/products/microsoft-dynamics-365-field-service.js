@@ -409,7 +409,7 @@ const FieldService = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-field-service-implementation/">
-                      Get Started
+                    <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -627,7 +627,7 @@ const FieldService = () => {
                       on-premises installations. Users can enjoy both the cloud
                       and{" "}
                       <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                        on-premises
+                      <a target="_blank">on-premises</a>
                       </Link>{" "}
                       installations according to their specific data-driven
                       needs and data-privacy concerns.
@@ -767,9 +767,9 @@ const FieldService = () => {
                       Users can buy the Field Service app at £78.10 per user/per
                       month applicable for First{" "}
                       <Link href="/products/microsoft-dynamics-365/">
-                        Dynamics 365
+                      <a target="_blank">Dynamics 365</a>
                       </Link>{" "}
-                      app. Further, ‘Subsequent Qualifying Dynamics 365 App’,
+                      app. Further, 'Subsequent Qualifying Dynamics 365 App',
                       users are required to pay £15.10 per user/per month.
                       <br />
                       <br /> To avail of more information for Microsoft Field
@@ -904,7 +904,7 @@ const FieldService = () => {
                      </div>
                      <div className="blogs-extra-right">
                      <ul>
-                           <li><Link href="/blog/dynamics-365-field-service-7-things-to-know-before-setting-up/"><a><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Field Service: Things To Know Before Setting Up!</a></Link></li>
+                           <li><Link href="/blog/dynamics-365-field-service-7-things-to-know-before-setting-up/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 Field Service: Things To Know Before Setting Up!</a></Link></li>
                          
                         </ul>
                      </div>

@@ -89,7 +89,7 @@ const Commerce = () => {
                   relationships for the long run.
                 </p>
                 <p>
-                  Personalize your <Link href="/products/dynamics-365-customer-engagement/">customer engagement</Link>, maximize revenues, boost
+                  Personalize your <Link href="/products/dynamics-365-customer-engagement/"><a target="_blank">customer engagement</a></Link>, maximize revenues, boost
                   your employee productivity, and optimize your operations, and
                   drive improved supply chain practices while reducing costs and
                   increasing efficiency.
@@ -238,7 +238,7 @@ const Commerce = () => {
                     >
                       <div className="accordion-body">
                         Protect your data through Dynamics 365 fraud protection,
-                        leverage <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link> Customer insights to have a
+                        leverage <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> Customer insights to have a
                         360-degree view into customer data, and drive
                         centralization with Microsoft Bing for Commerce.
                       </div>
@@ -627,11 +627,11 @@ const Commerce = () => {
                         365 commerce contains features such as e-commerce and
                         back office control, among others. See Also -{" "}
                         <Link href="/products/microsoft-dynamics-365-sales/">
-                          Dynamics 365 Sales Professional
+                          <a target="_blank">Dynamics 365 Sales Professional</a>
                         </Link>{" "}
                         |
                         <Link href="/products/dynamics-365-project-operations/">
-                          Dynamics 365 Project and Operations
+                          <a target="_blank">Dynamics 365 Project and Operations</a>
                         </Link>
                       </p>
                     </div>

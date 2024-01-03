@@ -164,7 +164,7 @@ const SupplyChainManagement = () => {
                         a general ledger. Manage your account payable, accounts
                         receivable, tax management, and more with{" "}
                         <Link href="/products/microsoft-dynamics-365-finance/">
-                          D365 Finance
+                        <a target="_blank">D365 Finance</a>
                         </Link>
                         .
                       </div>
@@ -204,7 +204,7 @@ const SupplyChainManagement = () => {
                         estimate accurate landed costs with D365 Supply Chain
                         Management with the seamless integration of{" "}
                         <Link href="/products/dynamics-365-business-central/">
-                          Dynamics 365 Business Central
+                        <a target="_blank">Dynamics 365 Business Central</a>
                         </Link>{" "}
                         Warehouse Management.
                       </div>
@@ -246,15 +246,15 @@ const SupplyChainManagement = () => {
                         continuity even in remote locations by implementing
                         Dynamics Supply Chain module embedded with{" "}
                         <Link href="/products/microsoft-dynamics-365-ai/">
-                          AI
+                        <a target="_blank">AI</a>
                         </Link>
                         ,{" "}
                         <Link href="/products/azure-iot-internet-of-things/">
-                          IoT
+                        <a target="_blank">IoT</a>
                         </Link>
                         , and{" "}
                         <Link href="/products/microsoft-dynamics-365/mixed-reality/">
-                          Mixed Reality
+                        <a target="_blank">Mixed Reality</a>
                         </Link>
                         .
                       </div>
@@ -456,7 +456,7 @@ const SupplyChainManagement = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/d365-supply-chain-management-implementation/">
-                      Get Started
+                    <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -494,7 +494,7 @@ const SupplyChainManagement = () => {
                     Enjoy uninterrupted business flow to maximize growth with
                     our premium{" "}
                     <Link href="/our-services/dynamics-365-support-services/">
-                      support services
+                    <a target="_blank">support services</a>
                     </Link>
                     .
                   </p>
@@ -550,7 +550,7 @@ const SupplyChainManagement = () => {
                   <li className="text-center">
                     Build Resilience with an Agile Supply Chain with{" "}
                     <Link href="/products/microsoft-dynamics-365/">
-                      Dynamics 365
+                    <a target="_blank">Dynamics 365</a>
                     </Link>
                     . Enhance Customer Service. Drive Business Sales. Manage
                     Topline Revenue. Market Smarter. Services: Cloud-Based CRM,
@@ -655,7 +655,7 @@ const SupplyChainManagement = () => {
                     supervise all operations related to the warehouse. It comes
                     integrated with other departments, like{" "}
                     <Link href="/industries/microsoft-cloud-for-manufacturing/">
-                      manufacturing
+                    <a target="_blank">manufacturing</a>
                     </Link>
                     , transportation, quality control, sales, transfer,
                     purchase, and returns, to streamline and connect all
@@ -702,7 +702,7 @@ const SupplyChainManagement = () => {
                 marketing, Questionnaire, Project management and accounting,
                 Vendor collaboration, Time and attendance,{" "}
                 <Link href="/products/microsoft-dynamics-365-mixed-reality/">
-                  Mixed Reality integration
+                <a target="_blank">Mixed Reality integration</a>
                 </Link>
                 , Self-service portal, Distributed hybrid topology, Scale Unit
                 Manager, Rebate management, Face recognition, and IoT
@@ -1024,22 +1024,22 @@ const SupplyChainManagement = () => {
                 <ul>
                   <li>
                     <Link href="/blog/d365-supply-chain-management-overview/">
-                     <a><i className="bi bi-box-arrow-up-right"></i>Dynamics 365 Supply Chain Management: Overview, Benefits, Features</a>
+                     <a target="_blank"><i className="bi bi-box-arrow-up-right"></i>Dynamics 365 Supply Chain Management: Overview, Benefits, Features</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog/what-is-dynamics-365-supply-chain-management/">
-                      <a><i className="bi bi-box-arrow-up-right"></i>What Is Dynamics 365 Supply Chain?</a>
+                      <a target="_blank"><i className="bi bi-box-arrow-up-right"></i>What Is Dynamics 365 Supply Chain?</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog/microsoft-supply-chain-platform/">
-                     <a> <i className="bi bi-box-arrow-up-right"></i>Microsoft Supply Chain Platform: New Approach To Designing Supply Chains For Agility, Automation, And Sustainability</a>
+                     <a target="_blank"><i className="bi bi-box-arrow-up-right"></i>Microsoft Supply Chain Platform: New Approach To Designing Supply Chains For Agility, Automation, And Sustainability</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/blog/d365-finance-and-operations-overview/">
-                     <a> <i className="bi bi-box-arrow-up-right"></i>D365 Finance And Operations: Overview, Capabilities, Benefits, FAQ</a>
+                     <a target="_blank"><i className="bi bi-box-arrow-up-right"></i>D365 Finance And Operations: Overview, Capabilities, Benefits, FAQ</a>
                     </Link>
                   </li>
                   

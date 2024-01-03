@@ -85,7 +85,7 @@ const CustomerService = () => {
                   Customer Service?
                 </h2>
                 <p>Microsoft Dynamics 365 Customer Service is a powerful solution that empowers businesses to offer an exceptional customer experience. Dynamics 365 Customer Service offers an omnichannel experience to the agents so that they can avail of real-time insights, communicate with customers using channels, collect necessary data, and get a 360-degree view of customer issues.</p>
-<p>It lets you analyse the data insights to pitch customers with personalised offers and services. This will retain customers in the long run while offering an optimum level of customer satisfaction. Being a part of <Link href="/products/microsoft-dynamics-crm/"><a>Microsoft Dynamics CRM </a></Link> solutions, it can be customised to align with unique business needs. Also, Microsoft allows seamless integration with native and third-party applications to enhance the overall capability of D365 Customer Service.</p>
+<p>It lets you analyse the data insights to pitch customers with personalised offers and services. This will retain customers in the long run while offering an optimum level of customer satisfaction. Being a part of <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">Microsoft Dynamics CRM </a></Link> solutions, it can be customised to align with unique business needs. Also, Microsoft allows seamless integration with native and third-party applications to enhance the overall capability of D365 Customer Service.</p>
               </header>
             </div>
           </div>
@@ -221,7 +221,7 @@ const CustomerService = () => {
               <div className="style-grid-1">
                 <div className="style-grid-content  style-grid-content-1">
                   <h4>Strengthen Agents with Smart Tools </h4>
-                  <p>Agents can leverage the power of <Link href="/blog/microsoft-dynamics-copilot/"><a>Microsoft Copilot</a></Link> to search for relevant information in simple language to resolve issues. Even, you can transfer the call to an expert professional in case of complex issue through Microsoft Teams.   </p>
+                  <p>Agents can leverage the power of <Link href="/blog/microsoft-dynamics-copilot/"><a target="_blank">Microsoft Copilot</a></Link> to search for relevant information in simple language to resolve issues. Even, you can transfer the call to an expert professional in case of complex issue through Microsoft Teams.   </p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -241,7 +241,7 @@ const CustomerService = () => {
               <div className="style-grid-1">
                 <div className="style-grid-content  style-grid-content-1">
                   <h4>Connect with Customer - Anytime and Anywhere  </h4>
-                  <p>Connect with the customer using voice, social networks, a virtual assistant, and chatbots to resolve their query. Customer Service <Link href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> is a multilingual solution that allows you to communicate with customers in any language. </p>
+                  <p>Connect with the customer using voice, social networks, a virtual assistant, and chatbots to resolve their query. Customer Service <Link href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> is a multilingual solution that allows you to communicate with customers in any language. </p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -312,7 +312,7 @@ const CustomerService = () => {
                   <p>Improve your customer experience and maximise your sales by implementing Dynamics 365 Customer Service Automation.  </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-customer-service-implementation/">
-                      Get Started
+                    <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -587,7 +587,7 @@ const CustomerService = () => {
                           Now, go through the drop-down list of “Resources”, and
                           select{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            Dynamics 365
+                          <a target="_blank">Dynamics 365</a>
                           </Link>{" "}
                           Apps.
                         </li>
@@ -675,7 +675,7 @@ const CustomerService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p><Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> is a Microsoft CRM business solution capable of streamlining all sales activities with ease. Whereas customer service comes into play after making a sale. It manages the customer to offer optimum customer satisfaction.</p>
+                     <p><Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">Dynamics 365 Sales</a></Link> is a Microsoft CRM business solution capable of streamlining all sales activities with ease. Whereas customer service comes into play after making a sale. It manages the customer to offer optimum customer satisfaction.</p>
                     </div>
                   </div>
                 </div>
@@ -732,7 +732,7 @@ const CustomerService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, you can customise this solution to meet the unique needs of your business. You can utilise the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> ecosystem to align the solution with your business using integrations, add-ons, and customizations.</p>
+                      <p>Yes, you can customise this solution to meet the unique needs of your business. You can utilise the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft Dynamics 365</a></Link> ecosystem to align the solution with your business using integrations, add-ons, and customizations.</p>
                     </div>
                   </div>
                 </div>
@@ -833,8 +833,8 @@ const CustomerService = () => {
                    </div>
                    <div className="blogs-extra-right">
                    <ul>
-                           <li><Link href="/blog/dynamics-crm-guide-overview/"><a><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
-                           <li><Link href="/blog/top-benefits-of-dynamics-365-customer-service/"><a><i className="bi bi-box-arrow-up-right"></i> 9 Benefits of Dynamics 365 Customer Service</a></Link></li>
+                           <li><Link href="/blog/dynamics-crm-guide-overview/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
+                           <li><Link href="/blog/top-benefits-of-dynamics-365-customer-service/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> 9 Benefits of Dynamics 365 Customer Service</a></Link></li>
                           
                         </ul>
                    </div>

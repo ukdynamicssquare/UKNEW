@@ -490,10 +490,9 @@ const FinanceOperations = () => {
               </div>
               <div className="custom-p-001">
                 <p>D365 F&O has come a long way from a simple accounting software known as IBM Axapta to a powerful ERP application as Dynamics 365 Finance and Operations. But, the modern ways of doing business require more capabilities to deal with changing requirements using minimal resources.</p>
-                <p>Microsoft recognises its importance and has split D365 F&O into two separate applications, <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link> and <Link href="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</Link>.</p>
+                <p>Microsoft recognises its importance and has split D365 F&O into two separate applications, <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link> and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>.</p>
                 <p>Nonetheless, most customers, business owners, and consultants are familiar with it as a whole; Finance and Operations (D365 F&O).</p>
-                <p>As of October 2022, the latest version of Dynamics 365 for Finance is 10.0.29. 
-The latest version includes several new features and improvements that make it a powerful tool for businesses:</p>
+                <p>As of October 2022, the latest version of Dynamics 365 for Finance is 10.0.29. The latest version includes several new features and improvements that make it a powerful tool for businesses:</p>
                 <ul>
                   <li>Time zone for importing bank statements using Electronic reporting (ER)</li>
                   <li>Import addresses from the State Address Register (GAR)</li>
@@ -514,7 +513,7 @@ The latest version includes several new features and improvements that make it a
             Dynamics 365 Finance and Operations Licensing & Pricing
             </h2>
             <p>
-            The Microsoft Dynamics 365 Finance and Operations platform offers users a unique and excellent value proposition. By allowing users to choose and subscribe to the most relevant applications to their business needs, users can maximize their investment in <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link> and get the most out of the platform.<br />When it comes to licensing for Microsoft Dynamics 365 Finance and Operations, there are four different user licenses to choose from - full user, operations activity, team member, and device licenses.
+            The Microsoft Dynamics 365 Finance and Operations platform offers users a unique and excellent value proposition. By allowing users to choose and subscribe to the most relevant applications to their business needs, users can maximize their investment in <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> and get the most out of the platform.<br />When it comes to licensing for Microsoft Dynamics 365 Finance and Operations, there are four different user licenses to choose from - full user, operations activity, team member, and device licenses.
             </p>
           </header>
             </div>
@@ -772,7 +771,7 @@ The latest version includes several new features and improvements that make it a
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Yes, you can easily upgrade to D365 F&O. The Dynamics 365 Finance and Operations is evolved from <Link href="/products/microsoft-dynamics-ax/">Dynamics AX</Link> (the old version) with added functionalities to cope with the ways of modern businesses. You can contact any <Link href="/">Microsoft-certified gold partner</Link>, like Dynamics Square, to upgrade your Dynamics AX.</p>
+                      <p>Yes, you can easily upgrade to D365 F&O. The Dynamics 365 Finance and Operations is evolved from <Link href="/products/microsoft-dynamics-ax/"><a target="_blank">Dynamics AX</a></Link> (the old version) with added functionalities to cope with the ways of modern businesses. You can contact any <Link href="/"><a target="_blank">Microsoft-certified gold partner</a></Link>, like Dynamics Square, to upgrade your Dynamics AX.</p>
                     </div>
                   </div>
                 </div>
@@ -835,7 +834,7 @@ The latest version includes several new features and improvements that make it a
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>D365 Finance and Operations is a cloud-based ERP solution built for medium and large-sized organisations to track all processes of inventory and finance. Currently, the license is available with two different apps, which are <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link> and <Link href="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</Link>.</p>
+                      <p>D365 Finance and Operations is a cloud-based ERP solution built for medium and large-sized organisations to track all processes of inventory and finance. Currently, the license is available with two different apps, which are <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link> and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>.</p>
                     </div>
                   </div>
                 </div>
@@ -898,7 +897,7 @@ The latest version includes several new features and improvements that make it a
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>It would not be possible unless you had intense knowledge of coding and implementing the technologies on cloud servers. However, a Microsoft support partner like Dynamics Square can easily help you implement this application. To find out more, you can <Link href="/contact-us/">book a demo</Link> with us.</p>
+                      <p>It would not be possible unless you had intense knowledge of coding and implementing the technologies on cloud servers. However, a Microsoft support partner like Dynamics Square can easily help you implement this application. To find out more, you can <Link href="/contact-us/"><a target="_blank">book a demo</a></Link> with us.</p>
                     </div>
                   </div>
                 </div>
@@ -944,7 +943,7 @@ The latest version includes several new features and improvements that make it a
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>There isn't any determined answer to this, and it depends on the business requirement. If you need a fully-fledged <Link href="/products/microsoft-dynamics-erp/">ERP solution</Link> with fewer features like CRM, go for <Link href="/products/dynamics-365-business-central/">Dynamics BC</Link>, and if you need an application to manage finance and accounting only and already have another ERP, go for Dynamics 365 F & O.</p>
+                      <p>There isn't any determined answer to this, and it depends on the business requirement. If you need a fully-fledged <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solution</a></Link> with fewer features like CRM, go for <Link href="/products/dynamics-365-business-central/"><a target="_blank">Dynamics BC</a></Link>, and if you need an application to manage finance and accounting only and already have another ERP, go for Dynamics 365 F & O.</p>
                     </div>
                   </div>
                 </div>
@@ -1007,7 +1006,7 @@ The latest version includes several new features and improvements that make it a
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Three deployment options are available: <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</Link>, cloud, and hybrid. The installation and service cost of on-premises deployment is much higher compared to cloud and hybrid deployment, and cloud deployment is the cheapest option.</p>
+                      <p>Three deployment options are available: <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/"><a target="_blank">on-premises</a></Link>, cloud, and hybrid. The installation and service cost of on-premises deployment is much higher compared to cloud and hybrid deployment, and cloud deployment is the cheapest option.</p>
                     </div>
                   </div>
                 </div>
