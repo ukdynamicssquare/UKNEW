@@ -204,7 +204,7 @@ const MicrosoftDynamics365MixedReality = () => {
                         instructions followed by necessary images, videos, and
                         3D holograms. Businesses can bring continuity in their
                         workspace even when complex tasks are performed and
-                        improve their entire workflow with the help of <Link href="/products/microsoft-dynamics-365/"><a>Microsoft
+                        improve their entire workflow with the help of <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft
                         Dynamics 365 guides</a></Link>.
                       </div>
                     </div>
@@ -397,7 +397,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     Mixed Reality implementation.
                   </p>
                   <div className="action-content">
-                    <Link href="#">Get Started</Link>
+                    <Link href="/contact-us/"><a target="_blank">Get Started</a></Link>
                   </div>
                 </div>
               </div>
@@ -415,7 +415,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     effective and scalable Mixed Reality approach.
                   </p>
                   <div className="action-content">
-                    <Link href="#">Get Started</Link>
+                  <Link href="/contact-us/"><a target="_blank">Get Started</a></Link>
                   </div>
                 </div>
               </div>
@@ -433,7 +433,7 @@ const MicrosoftDynamics365MixedReality = () => {
                     dedicated Mixed Reality support system.
                   </p>
                   <div className="action-content">
-                    <Link href="#">Get Started</Link>
+                  <Link href="/contact-us/"><a target="_blank">Get Started</a></Link>
                   </div>
                 </div>
               </div>
@@ -693,10 +693,10 @@ const MicrosoftDynamics365MixedReality = () => {
                       problems in real-time.
                       <br />
                       <br />
-                      When integrated with <Link href="/products/microsoft-dynamics-365-field-service/"><a>Dynamics 365 Field Service</a></Link>, it can
+                      When integrated with <Link href="/products/microsoft-dynamics-365-field-service/"><a target="_blank">Dynamics 365 Field Service</a></Link>, it can
                       help businesses to capture the asset information. If there
                       is a piece of critical or complex information, can be
-                      transformed into easy visualization by <Link href="/products/microsoft-power-bi/"><a>integrating with
+                      transformed into easy visualization by <Link href="/products/microsoft-power-bi/"><a target="_blank">integrating with
                       Power BI</a></Link> or any other enterprise-level application.
                     </div>
                   </div>

@@ -68,7 +68,7 @@ const Marketing = () => {
       <section>
         <div className="container">
           <header className="section-header">
-            <p style={{paddingBottom:'40px'}}><b>Note: </b> From September 1, 2023, Dynamics 365 Marketing and Dynamics 365 Insights have been merged into one unified solution: <Link href="/blog/dynamics-365-customer-insights-journeys/"><a>Dynamics 365 Insights - Journey</a></Link>. This combination will empower businesses to offer great customer experiences by utilising data insights.</p>
+            <p style={{paddingBottom:'40px'}}><b>Note: </b> From September 1, 2023, Dynamics 365 Marketing and Dynamics 365 Insights have been merged into one unified solution: <Link href="/blog/dynamics-365-customer-insights-journeys/"><a target="_blank">Dynamics 365 Insights - Journey</a></Link>. This combination will empower businesses to offer great customer experiences by utilising data insights.</p>
             <h2>
               What is dynamics 365
               <br />
@@ -324,8 +324,8 @@ const Marketing = () => {
                     >
                       <div className="accordion-body">
                         Lead scoring is an essential method as it is the basic
-                        way to converted leads into potential customers.
-                         <Link href="/products/microsoft-dynamics-365/"> Dynamics 365</Link> ensures to automate the process of lead
+                        way to converted leads into potential customers.{' '}
+                         <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> ensures to automate the process of lead
                         scoring through different marketing campaigns.
                         Ultimately, it leads to a smooth and efficient mode of
                         lead scoring that also leads to welcoming of more number
@@ -480,7 +480,7 @@ const Marketing = () => {
                     >
                       <div className="accordion-body">
                         Apart from the above-mentioned functions or elements
-                        that come in package, <Link href="/">Microsoft Dynamics</Link> also have some
+                        that come in package, <Link href="/"><a target="_blank">Microsoft Dynamics</a></Link> also have some
                         add-ons to offer. The first one is the option of Dynamic
                         365 portals. This is basically a platform that allows
                         all the users such as customers, clients, or the team
@@ -662,7 +662,7 @@ const Marketing = () => {
                   innovation and disruptive technologies, allows us to offer
                   services and solutions that respond to the demands of your
                   market, guaranteeing a sustainable competitive advantage for
-                  your company. So, <Link href="/dynamics-365-marketing-implementation/"> implement Dynamics 365 for Marketing</Link> . 
+                  your company. So, <Link href="/dynamics-365-marketing-implementation/"><a target="_blank">implement Dynamics 365 for Marketing</a></Link> . 
                 </p>
               </div>
             </div>
@@ -846,7 +846,7 @@ const Marketing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Dynamics CRM is capable of managing the entire relationship with customers, whereas Dynamics 365 Marketing is responsible for managing the marketing section of an organisation. Dynamics CRM includes four applications: <Link href="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</Link> , <Link href="/products/microsoft-dynamics-365-customer-service/">D365 Customer Service</Link> , <Link href="/products/microsoft-dynamics-365-sales/">Dynamics 365 for Sales</Link> , and Dynamics 365 Marketing. 
+                    Dynamics CRM is capable of managing the entire relationship with customers, whereas Dynamics 365 Marketing is responsible for managing the marketing section of an organisation. Dynamics CRM includes four applications: <Link href="/products/microsoft-dynamics-365-field-service/"><a target="_blank">Dynamics 365 Field Service</a></Link> , <Link href="/products/microsoft-dynamics-365-customer-service/"><a target="_blank">D365 Customer Service</a></Link> , <Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">Dynamics 365 for Sales</a></Link> , and Dynamics 365 Marketing. 
                     </div>
                   </div>
                 </div>
@@ -888,7 +888,7 @@ const Marketing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    You can easily integrate with your existing system by contacting your <Link href="/">Microsoft certified partner</Link> , or you can contact Dynamics Square to know more about this process and the cost required to do so.  
+                    You can easily integrate with your existing system by contacting your <Link href="/"><a target="_blank">Microsoft certified partner</a></Link> , or you can contact Dynamics Square to know more about this process and the cost required to do so.  
                     </div>
                   </div>
                 </div>
@@ -909,9 +909,9 @@ const Marketing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                    Dynamics Square is located in several locations in the UK to offer on-site support and services, like London, Manchester, Birmingham, <Link href="/location/microsoft-dynamics-partner-leeds/">Leeds</Link>, <Link href="/location/microsoft-dynamics-partner-glasgow/">Glasgow</Link>, Bristol, Liverpool, and more. 
+                    Dynamics Square is located in several locations in the UK to offer on-site support and services, like London, Manchester, Birmingham, <Link href="/location/microsoft-dynamics-partner-leeds/"><a target="_blank">Leeds</a></Link>, <Link href="/location/microsoft-dynamics-partner-glasgow/"><a target="_blank">Glasgow</a></Link>, Bristol, Liverpool, and more. 
 
-                    See Also -  <Link href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</Link> | <Link href="/our-services/dynamics-365-implementation-services/">Dynamics 365 Implementation</Link>
+                    See Also -  <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">Microsoft Dynamics CRM</a></Link> | <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">Dynamics 365 Implementation</a></Link>
                     </div>
                   </div>
                 </div>

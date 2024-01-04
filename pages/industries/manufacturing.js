@@ -14,10 +14,10 @@ const Startup = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Manufacturing &amp; Distribution | Dyanmics Square UK</title>
+        <title>Microsoft Dynamics 365 for Manufacturing | Dyanmics Square UK</title>
         <meta
           name="description"
-          content="Microsoft Dynamics 365 for manufacturing & distribution helps enhance productivity, optimize supply chain and integrated solution to simplified operations."
+          content="Microsoft Dynamics 365 for Manufacturing optimises production processes, simplifies operations, and improve collaboration for efficient and agile manufacturing ecosystems."
         />
         <link
           rel="canonical"
@@ -37,15 +37,14 @@ const Startup = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>
-                  Dynamics 365 
+                  Microsoft Dynamics 365 
                   <br />
                   for Manufacturing
                 </h1>
                 <p>Drive Sustainability In Your Manufacturing Operations</p>
                 <p>
                   Keep track of your production lines and bring transparency
-                  with Microsoft Dynamics 365 for Manufacturing and
-                  Distribution.
+                  with Microsoft Dynamics 365 for Manufacturing.
                 </p>
                 <br />
                 <div className="text-center text-lg-start">
@@ -73,7 +72,7 @@ const Startup = () => {
         <section>
           <div className="container">
             <header className="section-header">
-              <h2>Microsoft Dynamics 365: All-in-one Solution for your Manufacturing Business </h2>
+              <h2>Dynamics 365 for Manufacturing: An all-in-one solution for your Production Business</h2>
               <p>
                 Connect your systems and enable seamless distribution across
                 your manufacturing unit to simplify your end-to-end
@@ -82,7 +81,7 @@ const Startup = () => {
                 ERP+ <Link href ="/products/microsoft-dynamics-crm/">CRM solutions</Link>.
               </p>
               <p>
-                Microsoft Dynamics 365 Manufacturing helps elevate your
+                Microsoft Dynamics 365 for Manufacturing helps elevate your
                 operations, support your manufacturing continuity, ensure
                 real-time access into the entire supply chain and distribution
                 process, and scale your business leveraging cloud facilitation.
@@ -183,19 +182,15 @@ const Startup = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>Connect With Our Professionals</h3>
-                  <p>
-                    Let's connect and reveal your manufacturing needs to avail
-                    the optimal industry solution.
-                    <br />
-                  </p>
+                  <h3>Connect with our Dynamics 365 Manufacturing Expert Today! </h3>
+                  <p>Find your manufacturing needs and drive continuous business growth with advanced ERP capabilities.  </p>
                   <div className="m-o-t m-o-t-inde">
                     <Link href="#exampleModal">
                       <a
                         data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
-                        <span>Schedule a Demo</span>
+                        <span>Schedule a Demo!</span>
                       </a>
                     </Link>
                   </div>
@@ -419,18 +414,8 @@ const Startup = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>
-                    How To Bring A Seamless Flow <br />
-                    to your Non-profit organization?
-                  </h3>
-                  <p>
-                    We can understand your specific business world and can build
-                    a solution addressing your custom business needs and
-                    considering your enterprise values. Just talk to our experts
-                    and let's come up with a specific solution for your business
-                    to impact your overall organizational practices and maximize
-                    your outcomes.
-                  </p>
+                  <h3>Digitalise and simplify your complex manufacturing business with Dynamics 365 for Manufacturing</h3>
+                  <p>Connect with a Dynamics 365 Manufacturing consultant to implement a tailored ERP solution for your unique manufacturing business. </p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <Link href="#exampleModal">
                       <a
@@ -438,7 +423,7 @@ const Startup = () => {
                       
                       className="btn-get-started scrollto"
                     >
-                      <span>Get Started Now</span></a>
+                      <span>Tal to our experts!</span></a>
                     </Link>
                   </div>
                 </div>

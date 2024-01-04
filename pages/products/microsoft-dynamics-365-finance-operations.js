@@ -26,12 +26,7 @@ const FinanceOperations = () => {
                 Dynamics 365 <br />
                 Finance & Operations
               </h1>
-              <p>
-                Implementing D365 Finance and Operations is the perfect option
-                for large, complex, or diversified businesses that need to
-                control and streamline their finances, inventory, and more in
-                the cloud.
-              </p>
+              <p>Implementing D365 Finance and Operations is the perfect option for large or diversified businesses that need to control and streamline their finances, inventory, and supply chain operations through digital means. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -40,7 +35,7 @@ const FinanceOperations = () => {
                     
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span></a>
+                    <span>Talk to F&O Expert</span></a>
                   </Link>
                 </div>
               </div>
@@ -72,7 +67,7 @@ const FinanceOperations = () => {
                   edition, is Microsoft's business application for enterprises
                   that enables people to make smarter decisions quickly through
                   an intuitive user interface that provides access to real-time
-                  insights and intelligence.D365 Finance and Operations enables
+                  insights and intelligence. D365 Finance and Operations enables
                   business to transform by delivering proven business logic and
                   enabling them to redesign their business processes faster so
                   they can innovate, get quick time to value to stay ahead of
@@ -121,22 +116,22 @@ const FinanceOperations = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/microosoft-partner.png"
-                  alt="microosoft-partner.png"
-                  width={625} height={651}
-                />
+              <Image
+                      src="/img/proffesional service side.png"
+                      className="fix-im"
+                      alt="proffesional service side"
+                      width={553} height={541}
+                    />
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                Get started with Dynamics 365 for Finance and Operations free trial
+                Get started with Dynamics 365 for Finance and Operations free Demo!
                 </h2>
               </div>
               <div className="custom-p-001">
-                <p>
-                When it comes to your business, you want the best right? Dynamics 365 for Finance and Operations offers a free trial to explore all the benefits of this intelligent solution designed to control your finances, streamline your processes, and increase decision making.</p>
+                <p>All decision-makers and business professionals want the best for their businesses, right? So, before choosing a solution, getting an insightful demo is always a good option. It will let you analyse the benefits of all the tools and capabilities that can help your business grow.</p>
                 <p>So why not try it out and see how Dynamics 365 Finance and Operations can help your business grow?</p>
               <div className="text-lg-start">
                   <Link href="#exampleModal">
@@ -145,7 +140,7 @@ const FinanceOperations = () => {
                     
                     className="btn-get-started scrollto"
                   >
-                    <span>Sign up for a free trial today</span></a>
+                    <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -203,7 +198,7 @@ const FinanceOperations = () => {
                         </p>
                         <ul>
                           <li>
-                            <strong>GENERAL LEDGER</strong>
+                            <p><strong>General Ledger</strong></p>
                             <br />
                             Financial accounting with flexible configuration
                             options for setup and maintenance of general ledger.
@@ -217,7 +212,7 @@ const FinanceOperations = () => {
                         </ul>
                         <ul>
                           <li>
-                            <strong>BUDGET PLANNING</strong>
+                           <p> <strong>Budget Planning</strong></p>
                             <br />
                             Manage your organization's budget, including
                             flexible configuration options, instant calculation
@@ -230,10 +225,10 @@ const FinanceOperations = () => {
                             worksheets.
                           </li>
                           <li>
-                            <strong>
-                              FINANCIAL REPORTING
+                            <p><strong>
+                            Financial Reporting
                               <br />
-                            </strong>
+                            </strong></p>
                             Financial statements enable a custom reporting
                             structure and mapping of ledger accounts or
                             dimensions to the reporting structures, and to
@@ -257,7 +252,7 @@ const FinanceOperations = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" width="40" height="40" />
+                          <img src="/img/Supply-chain.png" alt="icons" width="40" height="40" />
                         </div>
                         <span>Supply Chain Management</span>
                       </button>
@@ -278,7 +273,7 @@ const FinanceOperations = () => {
                         </p>
                         <ul>
                           <li>
-                            <strong>VENDOR COLLABORATION</strong>
+                            <p><strong>Vendor Collaboration</strong></p>
                             <p>
                               Streamline vendor collaboration to respond to
                               business needs and customer demands. Dynamics 365
@@ -292,7 +287,7 @@ const FinanceOperations = () => {
                             </p>
                           </li>
                           <li>
-                            <strong>INVENTORY MANAGEMENT</strong>
+                            <p><strong>Inventory Management</strong></p>
                             <p>
                               Track items by inventory dimensions, including
                               site, warehouse, pallet, location, batch, and
@@ -304,7 +299,7 @@ const FinanceOperations = () => {
                             </p>
                           </li>
                           <li>
-                            <strong>MULTI-SITE WAREHOUSE MANAGEMENT</strong>
+                            <p><strong>Multi-site Warehouse Management</strong></p>
                             <p>
                               Manage storage locations and material handling
                               within warehouses. Apply advanced inbound
@@ -313,6 +308,90 @@ const FinanceOperations = () => {
                               choice of picking methods. Track inventory on hand
                               per warehouse.
                             </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                        <div className="wr-in">
+                          <img src="/img/Stock-Management.png" alt="icons" width="40" height="40" />
+                        </div>
+                        <span>Stock Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Get a transparent view of your entire inventory and goods to make your business profitable and efficient. It enables the business to maintain an organised supply chain while maintaining optimal stock levels. Also, you can eliminate all chances of stock mismanagement. </p>
+                        <ul>
+                          <li>
+                           <p><strong>Cost Cutting</strong></p>
+                            <p>It lets you order out-of-stock goods in the right quantity and at the right time to continue business without any financial loss. </p>
+                          </li>
+                          <li>
+                           <p><strong>Maximised Labour</strong></p>
+                            <p>Eliminate the causes of missing and finding items during peak business hours to enhance productivity and business efficiency.</p>
+                          </li>
+                          <li>
+                            <p><strong>Organise Warehouse Space</strong></p>
+                            <p>D365 Finance and Operations will let you save and organise the area in the warehouse to make warehousing more efficient.</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                        <div className="wr-in">
+                          <img src="/img/project-management.png" alt="icons" width="40" height="40" />
+                        </div>
+                        <span>Project Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Manage a project, streamline its different activities, allocate resources, generate financial results, and achieve planned results with the project management module of Dynamics 365 Finance and Operations. Regardless of the complexity, this feature can be used in different industries to track the progress of all projects. In general, there are three phases of project management:</p>
+                        <ul>
+                          <li>
+                           <p><strong>Initiate a Project </strong></p>
+                            <p>Start a project by giving a quotation of materials, labour, work estimates, billing terms, a project agreement, and other expenses. </p>
+                          </li>
+                          <li>
+                           <p><strong>Execute a Project </strong></p>
+                            <p>Record the work on timesheets and build expense reports to perform a detailed analysis of the entire project. Also, you can track the budget, procure materials, and bill customers as per the invoice. </p>
+                          </li>
+                          <li>
+                            <p><strong>Analyse a Project </strong></p>
+                            <p>Evaluate the project based on different parameters that include expense reports, inventory transactions, allocated budgets, utilisation rate, and success rate. </p>
                           </li>
                         </ul>
                       </div>
@@ -332,9 +411,9 @@ const FinanceOperations = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
+                        data-bs-target="#fin5"
                         aria-expanded="false"
-                        aria-controls="fin3"
+                        aria-controls="fin5"
                       >
                         <div className="wr-in">
                           <img src="/img/Project.svg" alt="icons" width="40" height="40" />
@@ -343,7 +422,7 @@ const FinanceOperations = () => {
                       </button>
                     </h2>
                     <div
-                      id="fin3"
+                      id="fin5"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingfive"
                       data-bs-parent="#accnews"
@@ -362,7 +441,7 @@ const FinanceOperations = () => {
                         </p>
                         <ul>
                           <li>
-                            <strong>MATERIAL AND CAPACITY PLANNING</strong>
+                            <p><strong>Material And Capacity Planning</strong></p>
                             <p>
                               Optimize production and materials planning,
                               forecasting, and scheduling. Simultaneously
@@ -372,7 +451,7 @@ const FinanceOperations = () => {
                             </p>
                           </li>
                           <li>
-                            <strong>PRODUCTION SCHEDULING</strong>
+                            <p><strong>Production Scheduling</strong></p>
                             <p>
                               Use finite or infinite scheduling, forward and
                               backward from various dates. Quickly (re)schedule
@@ -384,7 +463,7 @@ const FinanceOperations = () => {
                             </p>
                           </li>
                           <li>
-                            <strong>DEMAND FORECASTING</strong>
+                            <p><strong>Demand Forecasting</strong></p>
                             <p>
                               Demand Forecasting is a lightweight, yet powerful
                               tool that enables organizations to forecast based
@@ -406,13 +485,13 @@ const FinanceOperations = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin4"
+                        data-bs-target="#fin6"
                         aria-expanded="false"
-                        aria-controls="fin4"
+                        aria-controls="fin6"
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/International-Accounting-3.svg"
+                            src="/img/services.png"
                             alt="icons" width="40" height="40"
                           />
                         </div>
@@ -420,7 +499,7 @@ const FinanceOperations = () => {
                       </button>
                     </h2>
                     <div
-                      id="fin4"
+                      id="fin6"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingsix"
                       data-bs-parent="#accnews"
@@ -428,7 +507,7 @@ const FinanceOperations = () => {
                       <div className="accordion-body">
                         <ul>
                           <li>
-                            <strong>CLOUD SERVICE</strong>
+                            <p><strong>Cloud Service</strong></p>
                             <p>
                               Microsoft Dynamics 365 helps IT professionals
                               manage business growth, mitigate risk, improve
@@ -438,7 +517,7 @@ const FinanceOperations = () => {
                             </p>
                           </li>
                           <li>
-                            <strong>MOBILITY</strong>
+                            <p><strong>Mobility</strong></p>
                             <p>
                               The Dynamics 365 for Finance and Operations mobile
                               app empowers your organization to mobilize your
@@ -449,7 +528,7 @@ const FinanceOperations = () => {
                             </p>
                           </li>
                           <li>
-                            <strong>WORKSPACE</strong>
+                            <p><strong>Workspace</strong></p>
                             <p>
                               D365 for Finance and Operations provides powerful
                               user and role-based work-spaces
@@ -461,14 +540,113 @@ const FinanceOperations = () => {
                         </ul>
                         <p>
                           <strong>
-                            INTEGRATED, FLEXIBLE AND SCALABLE SOLUTIONS
-                            <br />
-                            <br />
+                          Integrated, Flexible And Scalable Solutions
                           </strong>
-                          Start with D365&nbsp; Finance and Operations, then add
-                          more Dynamics 365 modules as you grow.
                         </p>
-  
+                        <p>Start with D365&nbsp; Finance and Operations, then add
+                          more Dynamics 365 modules as you grow.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingsix">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/Asset-Management.png"
+                            alt="icons" width="40" height="40"
+                          />
+                        </div>
+                        <span>Asset Management</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingsix"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                        <p>Manage all assets and jobs while establishing a stable connection with finance and operations departments. It will enable you to maintain different assets of the organisation, which include machines, equipment, and resources. </p>
+                        <ul>
+                          <li>
+                            <p><strong>Fault Management </strong></p>
+                            <p>Track all machines and their faults until they become functional again while maintaining the work order. </p>
+                          </li>
+                          <li>
+                            <p><strong>Work Order Management </strong></p>
+                            <p>Maintain all work order jobs and workflow using the advanced capabilities of Dynamics 365 Finance and Operations. Also, this lets the users automate work order management while maintaining an efficient lifecycle state. </p>
+                          </li>
+                          <li>
+                            <p><strong>Scheduling </strong></p>
+                            <p>Schedule the work order jobs, maintenance processes, and asset management by building a scheduling calendar. </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingsix">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin8"
+                        aria-expanded="false"
+                        aria-controls="fin8"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/warehouse-management.png"
+                            alt="icons" width="40" height="40"
+                          />
+                        </div>
+                        <span>Warehouse Management</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="fin8"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingsix"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                        <p>From manufacturing to distribution, manage the entire warehouse operations of a business without any hassle. With advanced features, you can streamline all core business processes, which include quality control, manufacturing, purchase, and sales.</p>
+                        <ul>
+                          <li>
+                            <p><strong>Receive Goods</strong></p>
+                            <p>Receive the goods based on the requested quantity. Report any faults and quality issues within the application to ensure customer satisfaction. </p>
+                          </li>
+                          <li>
+                            <p><strong>Move Items </strong></p>
+                            <p>Move items from one location to the correct location for ease of findability. </p>
+                          </li>
+                          <li>
+                            <p><strong>Storage in the Warehouse </strong></p>
+                            <p>Store the items safely while marking the exact location for fast picking whenever required. </p>
+                          </li>
+                          <li>
+                            <p><strong>Picking the Right Product </strong></p>
+                            <p>Pick the item to fulfil the order from the respected location to enhance the warehouse's effectiveness. </p>
+                          </li>
+                          <li>
+                            <p><strong>Packing for Delivery </strong></p>
+                            <p>Perform the safe packing of items before the shipment to ensure secure delivery. </p>
+                          </li>
+                          <li>
+                            <p><strong>Shipping </strong></p>
+                            <p>Send the shipping details to the transportation company as well as the customer so that they can receive them on time. </p>
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -479,26 +657,87 @@ const FinanceOperations = () => {
         </div>
       </section>
       
+      <section className="call-to-action-center hero-4" style={{padding:'40px 0px'}}> 
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="call-to-action-content">
+                <h3>Get 100% process visibility and make informed decisions with Dynamics 365 Finance and Operations</h3>
+              
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link href="#exampleModal">
+                    <a
+                    data-bs-toggle="modal"
+                    
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Sign Up for Request a demo! </span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
       <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-7">
-              <div className="side-heading-custom-01">
-                <h2>
-                Microsoft Dynamics 365 for Finance and Operations: What's New?
-                </h2>
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Microsoft Dynamics 365 for Finance and Operations: What's New? </h2>
+            <p>D365 F&O has come a long way from a simple accounting software known as IBM Axapta to a powerful ERP solution as Dynamics 365 Finance and Operations. But the modern ways of doing business require more capabilities to deal with changing requirements and increasing global complexity.</p>
+            <p>Microsoft recognises the fact and has split D365 F&O into two separate applications, <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link> and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>. Nonetheless, most customers, business owners, and consultants are familiar with it as a whole; Finance and Operations (D365 F&O). </p>
+          </header>
+            </div>
+          </div>
+          <div className="row g-5" style={{paddingTop:'60px'}}>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Finance </h3>
+                  <p>It is an ERP solution focused on streamlining finance operations while offering sufficient tools to manage other business operations as well. It can increase your decision-making capabilities, predict future outcomes, automate core operations, reduce operational costs, and help you scale the business on a global platform. Some of its features are:</p>
+                  <ul>
+                    <li>Cash Management </li>
+                    <li>Tax Management </li>
+                    <li>Business Accounting </li>
+                    <li>Financial Planning </li>
+                    <li>Optimise Cash Flow </li>
+                  </ul>
+                  <p style={{color:'var(--color-blue)'}}><strong>Dynamics 365 Finance Pricing </strong></p>
+                  <p style={{color:"#bb2b36"}}><strong>£147.90 user/month. </strong></p>
+                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Learn More</a></Link></p>
+                </div>
               </div>
-              <div className="custom-p-001">
-                <p>D365 F&O has come a long way from a simple accounting software known as IBM Axapta to a powerful ERP application as Dynamics 365 Finance and Operations. But, the modern ways of doing business require more capabilities to deal with changing requirements using minimal resources.</p>
-                <p>Microsoft recognises its importance and has split D365 F&O into two separate applications, <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link> and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>.</p>
-                <p>Nonetheless, most customers, business owners, and consultants are familiar with it as a whole; Finance and Operations (D365 F&O).</p>
-                <p>As of October 2022, the latest version of Dynamics 365 for Finance is 10.0.29. The latest version includes several new features and improvements that make it a powerful tool for businesses:</p>
-                <ul>
-                  <li>Time zone for importing bank statements using Electronic reporting (ER)</li>
-                  <li>Import addresses from the State Address Register (GAR)</li>
-                  <li>Ability to print payment advice for vendor payments with a status of Approved</li>
-                  <li>Increase the length of fixed asset names to 150 characters.</li>
-                </ul>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image
+                    src="/img/supply-chain-icons.svg"
+                    alt="supply-chain-icons"
+                    width={94} height={94}
+                  />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Supply Chain Management</h3>
+                  <p>D365 Supply Chain Management is also an ERP solution built for complex businesses that includes the flow of goods or services from one place to another. It supports the business from purchasing the raw materials to delivering the final product to the customer. Some of its core features are: </p>
+                  <ul>
+                    <li>Procurement and Sourcing Management </li>
+                    <li>Supply Chain Planning </li>
+                    <li>Shop Floor Management </li>
+                    <li>Order Management </li>
+                    <li>Order Fulfilment </li>
+                    <li>Assets Management </li>
+                  </ul>
+                  <p style={{color:'var(--color-blue)'}}><strong>Dynamics 365 Supply Chain Management Pricing</strong></p>
+                  <p style={{color:"#bb2b36"}}><strong>£147.90 user/month. </strong></p>
+                  <p><Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Learn More</a></Link></p>
+                </div>
               </div>
             </div>
           </div>
@@ -512,86 +751,68 @@ const FinanceOperations = () => {
             <h2>
             Dynamics 365 Finance and Operations Licensing & Pricing
             </h2>
-            <p>
-            The Microsoft Dynamics 365 Finance and Operations platform offers users a unique and excellent value proposition. By allowing users to choose and subscribe to the most relevant applications to their business needs, users can maximize their investment in <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> and get the most out of the platform.<br />When it comes to licensing for Microsoft Dynamics 365 Finance and Operations, there are four different user licenses to choose from - full user, operations activity, team member, and device licenses.
-            </p>
+            <p>Currently, there is no pricing or licencing available for Dynamics 365 Finance and Operations as a whole. Because Microsoft has already separated this single solution into two powerful ERPs. So, Dynamics 365 Finance and Dynamics 365 Supply Chain licencing are a bit different and available in different terms. However, you will be required to purchase at least 20 user licences to avail yourself of any of the solutions. </p>
+            <p>Dynamics 365 Finance is a powerful ERP solution specifically designed to monitor and supercharge complex financial processes in real-time. Based on your requirements, you can access this ERP using four licencing options: Team Members, Operations Activity, Finance, and Finance Premium.</p>
+            <p>Dynamics 365 Supply Chain comes with asset management and intelligent order management capacity and is available in three licencing options: Team Members, Operations Activity, and SCM. </p>
           </header>
             </div>
           </div>
-          <div className="row gy-4 p-9">
-          <div className="col-lg-3">
-              <div className="box box-22">
-                <h3>Team Member <br /> License</h3>
-                <div className="price">
-                  £7<span>Per-User/Per Month</span>
-                </div>
-                <ul>
-                  <li className="text-center" style={{fontSize:'14px'}}>
-                  This license is designed for users who don't require full access to all functions but still need to be able to view and analyze data & carry out minor tasks.
-                  </li>
-                </ul>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image
+                  src="/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                  width={625} height={651}
+                />
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="box box-22">
-                <h3>Operations <br />Activity License</h3>
-                <div className="price">
-                  £45<span>Per-User/Per Month</span>
-                </div>
-                <ul>
-                  <li className="text-center" style={{fontSize:'14px'}}>
-                  This license is designed for users who need to perform tasks within the platform, such as creating and approving sales orders or invoices.
-                  </li>
-                </ul>
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>How Dynamics Square can be your partner of growth? </h2>
               </div>
-            </div>
-            
-            <div className="col-lg-3">
-              <div className="box box-22">
-                <h3>
-                Full User <br /> License
-                </h3>
-                <div className="price">
-                  £60<span>Per-User/Per Month</span>
+              <div className="custom-p-001">
+                <p>In the world of complex business scenarios, managing the financial and operational activities of a business isn't easy at all. You will need an advanced solution to deal with all issues without complicating the operations. In such a scenario, Dynamics Square is available by your side to help you analyse your business requirements and offer you a highly personalised solution that can facilitate your business growth.</p>
+                <p>With <strong>350+</strong> global clients and <strong>150+</strong> Dynamics 365 technical consultants, we offer you our consistent and reliable support to keep you going regardless of the complexity. With a track record of successful implementation, Dynamics Square has gained the trust of business owners while transforming their businesses towards steady growth and business scalability.  </p>
+              <div className="text-lg-start">
+                  <Link href="#exampleModal">
+                    <a
+                    data-bs-toggle="modal"
+                    
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Talk to our expert</span></a>
+                  </Link>
                 </div>
-                <ul>
-                  <li className="text-center" style={{fontSize:'14px'}}>
-                  As the name implies, this license gives users full access to all features and functionality in Dynamics 365 Finance & Operations. 
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            <div className="col-lg-3">
-              <div className="box box-22">
-                <h3>Device <br /> License</h3>
-                <div className="price">
-                  £67<span>Per-User/Per Month</span>
-                </div>
-                <ul>
-                  <li className="text-center" style={{fontSize:'14px'}}>
-                  This provides businesses with a cost-effective way to allow multiple users to access their devices without needing separate user licenses.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-lg-12 col-md-12">
-              <div className="price-btn price-btnasd d-flex justify-content-center">
-                <p style={{padding:'20px 0px 40px 0px'}}>If you're interested in exploring the licensing and pricing options for Dynamics 365 Finance and Operations or need help analyzing which licensing option is right for you, reach out to our experts. We can help you understand the unique features and benefits of the various licensing options and guide you to the best choice for your business.</p>
-                <Link href="#exampleModal">
-                <a data-bs-toggle="modal"
-                     className="btn-get-red">
-                  <span>Contact us today to get started</span></a>
-                </Link>
-                {/* <Link href="#about" className="btn-get-whit">
-                              <span>See Licensing Guide</span>
-                              </Link> */}
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="call-to-action-content">
+                <h3>Standardize adapting to changing market fluctuations with Dynamics 365 F&O.</h3>
+                <p>Accept market and customer requirements while offering optimum satisfaction. On-board Dynamics 365 for Finance and Operations experts to give your business a must needed digital transformation.</p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link href="#exampleModal">
+                    <a
+                    data-bs-toggle="modal"
+                    
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Request a Call Back</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
       <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
@@ -1069,7 +1290,70 @@ const FinanceOperations = () => {
          </div>
           <div className="row top-2 gx-5">
             <Blog />
-            <div className="col-lg-6 align-self-center">
+            <div className="col-lg-6">
+            <div className="blogs-extra-title">
+                <h3>Learn More</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <a
+                      
+                      href="/dynamics-365-business-central-vs-finance-operations/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Business Central vs Finance & Operations</a>
+                  </li>
+                  <li>
+                    <a
+                      
+                      href="/dynamics-365-finance-operations-vs-sap-erp/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365 Finance & Operations vs SAP ERP</a>
+                  </li>
+                  <li>
+                    <a
+                      
+                      href="/blog/d365-finance-and-operations-overview/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>D365 Finance And Operations: Overview, Capabilities, Benefits, FAQ</a>
+                  </li>
+                  <li>
+                    <a
+                      
+                      href="/blog/d365-finance-and-operations-overview/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>What is Microsoft Dynamics 365 Finance?</a>
+                  </li>
+                  <li>
+                    <a
+                      
+                      href="/blog/d365-supply-chain-management-overview/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365 Supply Chain Management: Overview, Benefits, Features</a>
+                  </li>
+                  <li>
+                    <a
+                      
+                      href="/blog/what-is-dynamics-365-supply-chain-management/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>What Is Dynamics 365 Supply Chain?</a>
+                  </li>
+                  <li>
+                    <a
+                      
+                      href="/blog/dynamics-365-pricing-and-licensing/"
+                      target="_blank"
+                    >
+                      <i className="bi bi-box-arrow-up-right"></i>Dynamics 365 Pricing And Licensing</a>
+                  </li>
+                </ul>
+              </div>
               <div className="blogs-extra-title">
                 <h4>Documents</h4>
               </div>
@@ -1086,6 +1370,7 @@ const FinanceOperations = () => {
                   </li>
                 </ul>
               </div>
+              
             </div>
           </div>
         </div>

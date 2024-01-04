@@ -330,7 +330,7 @@ const Sales = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-sales-implementation/">
-                      Get Started
+                    <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -352,7 +352,7 @@ const Sales = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/our-services/dynamics-365-support-services/">
-                      Get Started
+                      <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ const Sales = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-nav-to-business-central/">
-                      Get Started
+                      <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -604,7 +604,7 @@ const Sales = () => {
                       To avail of a free consultation to manage your sales and
                       customers or to implement{" "}
                       <Link href="/products/microsoft-dynamics-crm/">
-                        Microsoft Dynamics CRM
+                      <a target="_blank">Microsoft Dynamics CRM</a>
                       </Link>{" "}
                       solution for your business, experts at Dynamics Square can
                       help.
@@ -682,7 +682,7 @@ const Sales = () => {
                       for Dynamics 365 Sales Enterprise Plan not for the Sales
                       Professional plan. Enterprise Plan comes with both the{" "}
                       <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                        on-premises
+                       <a target="_blank">on-premises</a>
                       </Link>{" "}
                       and cloud versions whereas Sales Professional license
                       comes with cloud facilitation only.
@@ -722,7 +722,7 @@ const Sales = () => {
                         <li>
                           For first{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            Dynamics 365 App
+                          <a target="_blank">Dynamics 365 App</a>
                           </Link>{" "}
                           - 49 pounds/ per user (approx.)
                         </li>
@@ -912,9 +912,9 @@ const Sales = () => {
                      </div>
                      <div className="blogs-extra-right">
                         <ul>
-                           <li><Link href="/blog/dynamics-365-sales-implementation-guide/"><a><i className="bi bi-box-arrow-up-right"></i> Microsoft Dynamics 365 Sales Implementation Guide</a></Link></li>
-                           <li><Link href="/blog/top-benefits-of-dynamics-365-sales/"><a><i className="bi bi-box-arrow-up-right"></i> Top 10 Benefits Of Dynamics 365 Sales</a></Link></li>
-                           <li><Link href="/blog/dynamics-crm-guide-overview/"><a><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
+                           <li><Link href="/blog/dynamics-365-sales-implementation-guide/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Microsoft Dynamics 365 Sales Implementation Guide</a></Link></li>
+                           <li><Link href="/blog/top-benefits-of-dynamics-365-sales/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Top 10 Benefits Of Dynamics 365 Sales</a></Link></li>
+                           <li><Link href="/blog/dynamics-crm-guide-overview/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
                           
                         </ul>
                      </div>

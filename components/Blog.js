@@ -12,11 +12,11 @@ const Blog = () => {
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="/blog/business-central-for-manufacturing/"
+              href="/blog/how-to-choose-the-right-erp-system/"
               target="_self"
             >
               <Image
-                src="/img/Business-Central-for-Manufacturing.jpg"
+                src="https://blognew.dynamicssquare.co.uk/upload/blog/1787055236078483.jpg"
                 alt="img"
                 width={256}
                 height={134}
@@ -27,24 +27,21 @@ const Blog = () => {
             <h4>
               <a
 
-                href="/blog/business-central-for-manufacturing/"
+                href="/blog/how-to-choose-the-right-erp-system/"
                 target="_self"
-              >
-                Microsoft Dynamics 365 Business Central for Manufacturing: One
-                Stop Solution for all Manufacturing Needs
-              </a>
+              >How to Choose the Right ERP System in 2024?</a>
             </h4>
-            <span>16 June 2022</span>
+            <span>23 January 2024</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="/blog/dynamics-365-business-central-trial/"
+              href="/blog/does-microsoft-still-support-dynamics-nav/"
               target="_self"
             >
               <Image
-                src="/img/Business-Central-Trial.jpg"
+                src="https://blognew.dynamicssquare.co.uk/upload/blog/1785884023116333.png"
                 alt="img"
                 width={256}
                 height={134}
@@ -55,23 +52,21 @@ const Blog = () => {
             <h4>
               <a
 
-                href="/blog/dynamics-365-business-central-trial/"
+                href="/blog/does-microsoft-still-support-dynamics-nav/"
                 target="_self"
-              >
-                How to avail Dynamics 365 Business Central Trial?
-              </a>
+              >Does Microsoft Still Support Dynamics NAV?</a>
             </h4>
-            <span>26 May 2022</span>
+            <span>23 December 2023</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="/blog/what-is-business-central-implementation-methodology/"
-              target="_self"
+              href="/blog/crm-for-charities-and-non-profit/"
+              target="_blank"
             >
               <Image
-                src="/img/Business-Central-Implementation-Methodology.jpg"
+                src="https://blognew.dynamicssquare.co.uk/upload/blog/1784633101204245.avif"
                 alt="img"
                 width={256}
                 height={134}
@@ -82,23 +77,21 @@ const Blog = () => {
             <h4>
               <a
 
-                href="/blog/what-is-business-central-implementation-methodology/"
-                target="_self"
-              >
-                What is Business Central Implementation Methodology?
-              </a>
+                href="/blog/crm-for-charities-and-non-profit/"
+                target="_blank"
+              >CRM for Charities and Non-Profit: An Essential tool to Simplify Fund Management</a>
             </h4>
-            <span>24 May 2022</span>
+            <span>07 December 2023</span>
           </div>
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
             <a
-              href="/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
-              target="_self"
+              href="/blog/things-to-know-about-microsoft-dynamics-365-project-operations/"
+              target="_blank"
             >
               <Image
-                src="/img/Blue-White-Simple-Financial-Tips-Blog-Banner-1.png"
+                src="https://blognew.dynamicssquare.co.uk/upload/blog/1784089544651062.png"
                 alt="img"
                 width={256}
                 height={134}
@@ -109,13 +102,11 @@ const Blog = () => {
             <h4>
               <a
 
-                href="/blog/dynamics-365-business-central-vs-dynamics-365-sales/"
-                target="_self"
-              >
-                Dynamics 365 Business Central Vs Dynamics 365 Sales
-              </a>
+                href="/blog/things-to-know-about-microsoft-dynamics-365-project-operations/"
+                target="_blank"
+              >11 Things to know about Microsoft Dynamics 365 Project Operations</a>
             </h4>
-            <span>5 May 2022</span>
+            <span>01 December 2023</span>
           </div>
         </div>
       </div>

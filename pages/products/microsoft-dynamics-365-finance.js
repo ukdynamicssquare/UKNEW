@@ -426,7 +426,7 @@ const Finance = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-finance-implementation/">
-                      Get Started
+                     <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -725,14 +725,11 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Dynamics 365 Finance &amp; Operations is now for&nbsp;
-                        <Link href="/products/microsoft-dynamics-365-finance/">
-                          Dynamics 365 Finance&nbsp;
-                        </Link>
+                        Dynamics 365 Finance &amp; Operations is now for Dynamics 365 Finance
                         and&nbsp;
                         <Link href="/products/dynamics-365-supply-chain-management/">
-                          Dynamics 365 Supply Chain&nbsp;Management&nbsp;
-                        </Link>
+                          <a target="_blank">Dynamics 365 Supply Chain Management</a>
+                        </Link>&nbsp;
                         to manage all your financial operations in a seamless
                         manner. This financial analytics tool is designed for
                         SMBs&nbsp;to&nbsp;large size organizations
@@ -771,7 +768,7 @@ const Finance = () => {
                     <div className="accordion-body">
                       <p>
                         <Link href="/products/microsoft-dynamics-365-finance-operations/">
-                          Microsoft Dynamics 365 for Finance &amp; Operations
+                          <a target="_blank">Microsoft Dynamics 365 for Finance &amp; Operations</a>
                         </Link>{" "}
                         has now converted to Dynamics 365 Finance and Dynamics
                         365 Supply Chain Management. With D365 Finance,
@@ -803,7 +800,7 @@ const Finance = () => {
                     <div className="accordion-body">
                       It could be a smart decision when it comes to Dynamics 365
                       Finance licensing. Users can avail of its licensing for
-                      130 pounds (approx.) for First <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link> App and
+                      130 pounds (approx.) for First <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> App and
                       further, for Subsequent qualifying Dynamics 365 Finance
                       app, it could cost you 21 pounds per users/per month
                       (approx.)
