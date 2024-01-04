@@ -708,9 +708,9 @@ const FinanceOperations = () => {
                     <li>Financial Planning </li>
                     <li>Optimise Cash Flow </li>
                   </ul>
-                  <p style={{color:'var(--color-blue)'}}><strong>Dynamics 365 Finance Pricing </strong></p>
+                  <p style={{color:'var(--color-blue)'}}><strong>Pricing </strong></p>
                   <p style={{color:"#bb2b36"}}><strong>£147.90 user/month. </strong></p>
-                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Learn More</a></Link></p>
+                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">See More</a></Link></p>
                 </div>
               </div>
             </div>
@@ -734,9 +734,9 @@ const FinanceOperations = () => {
                     <li>Order Fulfilment </li>
                     <li>Assets Management </li>
                   </ul>
-                  <p style={{color:'var(--color-blue)'}}><strong>Dynamics 365 Supply Chain Management Pricing</strong></p>
+                  <p style={{color:'var(--color-blue)'}}><strong>Pricing</strong></p>
                   <p style={{color:"#bb2b36"}}><strong>£147.90 user/month. </strong></p>
-                  <p><Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Learn More</a></Link></p>
+                  <p><Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">See More</a></Link></p>
                 </div>
               </div>
             </div>
@@ -773,7 +773,7 @@ const FinanceOperations = () => {
               </div>
               <div className="custom-p-001">
                 <p>In the world of complex business scenarios, managing the financial and operational activities of a business isn't easy at all. You will need an advanced solution to deal with all issues without complicating the operations. In such a scenario, Dynamics Square is available by your side to help you analyse your business requirements and offer you a highly personalised solution that can facilitate your business growth.</p>
-                <p>With <strong>350+</strong> global clients and <strong>150+</strong> Dynamics 365 technical consultants, we offer you our consistent and reliable support to keep you going regardless of the complexity. With a track record of successful implementation, Dynamics Square has gained the trust of business owners while transforming their businesses towards steady growth and business scalability.  </p>
+                <p>With <strong>350+</strong> global clients and <strong>150+</strong> <Link href="/our-services/dynamics-365-consultant/"><a target="_blank">Dynamics 365 technical consultants</a></Link>, we offer you our consistent and reliable support to keep you going regardless of the complexity. With a track record of successful implementation, Dynamics Square has gained the trust of business owners while transforming their businesses towards steady growth and business scalability.  </p>
               <div className="text-lg-start">
                   <Link href="#exampleModal">
                     <a

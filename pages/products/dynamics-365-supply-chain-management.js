@@ -695,7 +695,7 @@ const SupplyChainManagement = () => {
           <div className="row">
             <div className="col-lg-12">
               <p>
-                The Dw365 Supply Chain Management possess more useful modules,
+                The D365 Supply Chain Management possess more useful modules,
                 including Master planning, Inventory visibility, Retail
                 headquarter management, Production control, Procurement and
                 sourcing, Service management, Cost allocation, Sales and
