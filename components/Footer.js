@@ -325,7 +325,7 @@ const Footer = () =>{
                 </Link>
                 <p>
                   Dynamics Square is UK's leading Microsoft Gold Certified
-                  Partner that caters to the needs of orgnizations who can
+                  Partner that caters to the needs of orgnisations who can
                   source next-gen Microsoft Business Apps from our highly
                   skilled Microsoft consultants.
                 </p>

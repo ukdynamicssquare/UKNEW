@@ -91,7 +91,7 @@ const MicrosoftDynamicsNAV = () => {
                   processes while generating opportunities for sustainable
                   growth. Being one of the top{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    Microsoft ERP solutions
+                  <a target="_blank">Microsoft ERP solutions</a>
                   </Link>
                   , it offers powerful features to manage and control all
                   business processes. Built specifically for SMBs, it is capable
@@ -128,7 +128,7 @@ const MicrosoftDynamicsNAV = () => {
                   Microsoft ERP is so flexible that it fits in all industries,
                   irrespective of the size and business requirements. You can
                   make this ERP solution personalised using your{" "}
-                  <Link href="/">Microsoft Gold Partner</Link>, resulting in
+                  <Link href="/"><a target="_blank">Microsoft Gold Partner</a></Link>, resulting in
                   enhanced productivity and efficiency. One of the best parts of
                   using the Microsoft NAV software is its support for
                   multi-language and multi-currency to improve global
@@ -441,7 +441,7 @@ const MicrosoftDynamicsNAV = () => {
                   Dynamics NAV Support Partner?
                 </h3>
                 <p>
-                  With over 135+ NAV consultants, we are ready to check your
+                  With over 150+ NAV consultants, we are ready to check your
                   system using our advanced and unique way.{" "}
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
@@ -489,7 +489,7 @@ const MicrosoftDynamicsNAV = () => {
             <p>
               “Want to{" "}
               <Link href="/dynamics-nav-to-business-central/">
-                upgrade your current Dynamics NAV
+              <a target="_blank">upgrade your current Dynamics NAV</a>
               </Link>{" "}
               version to streamline modern business demands?"
             </p>
@@ -517,7 +517,7 @@ const MicrosoftDynamicsNAV = () => {
                 <h2>Dynamics NAV vs Dynamics 365 Business Central</h2>
                 <p>
                   <Link href="/products/dynamics-365-business-central/">
-                    Dynamics 365 Business Central
+                    <a target="_blank">Dynamics 365 Business Central</a>
                   </Link>{" "}
                   is the evolved and modern version of NAV software, specially
                   built to aid SMBs with their core business management
@@ -535,7 +535,7 @@ const MicrosoftDynamicsNAV = () => {
                     <b>Upfront Investment Cost</b>: Dynamics NAV implementation
                     needs a huge investment to set up for a business, whereas{" "}
                     <Link href="/dynamics-365-business-central-implementation/">
-                      Business Central implementation
+                    <a target="_blank">Business Central implementation</a>
                     </Link>{" "}
                     works on a monthly subscription basis due to cloud
                     deployment.{" "}
@@ -590,7 +590,7 @@ const MicrosoftDynamicsNAV = () => {
                   access the solution and deal with finance and trade
                   functionality. Users can access the basic financial features,{" "}
                   <Link href="/products/dynamics-365-supply-chain-management/">
-                    supply chain management
+                  <a target="_blank">supply chain management</a>
                   </Link>
                   , sales management, and project management without any
                   restrictions. It also allows users to gain insights and create
@@ -785,7 +785,7 @@ const MicrosoftDynamicsNAV = () => {
                         Yes, Microsoft Dynamics is the same as Navision. In
                         2018, Microsoft Dynamics Navision was renamed as{" "}
                         <Link href="/products/dynamics-365-business-central/">
-                          Dynamics 365 Business Central
+                        <a target="_blank">Dynamics 365 Business Central</a>
                         </Link>
                         , a cloud-based ERP solution for overall business
                         management. With the limited capabilities of Dynamics
