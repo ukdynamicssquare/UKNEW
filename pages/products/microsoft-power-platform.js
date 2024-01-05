@@ -92,7 +92,7 @@ const PowerPlatform = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-bi/">
-                    Find Out More
+                   <a target="_blank">Find Out More</a>
                   </Link>
                 </div>
               </div>
@@ -116,7 +116,7 @@ const PowerPlatform = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-apps/">
-                    Get Started
+                  <a target="_blank">Get Started</a>
                   </Link>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const PowerPlatform = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-automate/">
-                    Find Out More
+                   <a target="_blank">Find Out More</a>
                   </Link>
                 </div>
               </div>
@@ -175,7 +175,7 @@ const PowerPlatform = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-virtual-agents/">
-                    Find Out More
+                  <a target="_blank">Find Out More</a>
                   </Link>
                 </div>
               </div>

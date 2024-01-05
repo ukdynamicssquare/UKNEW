@@ -58,11 +58,9 @@ const Microsoftsustainabilitymanager = () => {
                     <h2>What is Microsoft Cloud for Sustainability? </h2>
                     <p>
                       <Link
-                        href="https://blog.dynamicssquare.co.uk/microsoft-cloud-for-sustainability/"
-                        target="_blank"
-                      >
-                        Microsoft Cloud for Sustainability
-                      </Link> is the latest launched application to help organizations
+                        href="/blog//microsoft-cloud-for-sustainability/"
+                      ><a target="_blank">Microsoft Cloud for Sustainability
+                    </a></Link> is the latest launched application to help organizations
                       simplify their sustainability process by offering many
                       data insights to accelerate the environment sustainability
                       journey. Sustainability Manager is a SaaS (Software as a

@@ -298,12 +298,11 @@ const PowerBI = () => {
                       <Link
                         href="/guides/power-bi-guide-for-smb/"
                       >
-                        <a   className="bt-red bt-red-a">Read It Now</a>
+                        <a target="_blank"  className="bt-red bt-red-a">Read It Now</a>
                       </Link>
                       <Link  href="#powerBIModals"><a
                         className="bt-red-border bt-red-a"
                         data-bs-toggle="modal"
-                      
                       >
                         Download as PDF</a>
                       </Link>
@@ -370,7 +369,7 @@ const PowerBI = () => {
                     to your specific business needs.
                   </p>
                   <div className="action-content">
-                    <Link href="/power-bi-implementation/">Get Started</Link>
+                    <Link href="/power-bi-implementation/"><a target="_blank">Get Started</a></Link>
                   </div>
                 </div>
               </div>
@@ -400,7 +399,7 @@ const PowerBI = () => {
                     business needs. Contact our Power Expert Now.
                   </p>
                   <div className="action-content">
-                    <Link href="/power-bi-support/">Get Started</Link>
+                    <Link href="/power-bi-support/"><a target="_blank">Get Started</a></Link>
                   </div>
                 </div>
               </div>
@@ -414,7 +413,7 @@ const PowerBI = () => {
             <h2>Microsoft Power BI Pricing</h2>
             <p>
               Being a trusted Power BI implementation partner, we can reveal the
-              best-suited Power <Link href="/blog/"><a>Power BI pricing</a></Link> plans for your business to grow.
+              best-suited Power <Link href="/blog/"><a target="_balnk">Power BI pricing</a></Link> plans for your business to grow.
             </p>
           </header>
           <div className="row gy-4 p-9">
@@ -741,7 +740,7 @@ const PowerBI = () => {
                       production analysis, operational budgets, Cashflow
                       statements, asset planning, and more. To know more about
                       how it works, you can contact{" "}
-                      <Link href="/">Dynamics Square</Link>.
+                      <Link href="/"><a target="_blank">Dynamics Square</a></Link>.
                     </div>
                   </div>
                 </div>
@@ -884,7 +883,7 @@ const PowerBI = () => {
                       domain and contextual needs. Even post-implementation, you
                       can ask for more functionality from your{" "}
                       <Link href="/power-bi-implementation/">
-                        Power BI implementation
+                      <a target="_blank">Power BI implementation</a>
                       </Link>{" "}
                       provider.
                       <br />
@@ -1059,9 +1058,9 @@ const PowerBI = () => {
                 <ul>
                   <li>
                     <a
-                      target="_self"
+                      target="_blank"
                       rel=""
-                      href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/"
+                      href="/blog/what-is-power-bi/"
                     >
                       <i className="bi bi-box-arrow-up-right"></i>What is Power
                       BI?
@@ -1089,24 +1088,24 @@ const PowerBI = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/">
-                      <a>
+                    <Link href="/blog/power-bi-architecture/">
+                      <a  target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Architecture
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/">
-                      <a>
+                    <Link href="/blog/power-bi-reports/">
+                      <a  target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Reports
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/">
-                      <a>
+                    <Link href="/blog/implement-power-bi-for-your-business/">
+                      <a  target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Why Your
                         Business Should Implement Power BI?
                       </a>

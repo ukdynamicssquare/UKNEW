@@ -524,8 +524,8 @@ const PowerAutomate = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/">
-                      <a>
+                    <Link href="/blog/what-is-power-bi/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>What is
                         Power BI?
                       </a>
@@ -550,24 +550,24 @@ const PowerAutomate = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/">
-                      <a>
+                    <Link href="/blog/power-bi-architecture/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Architecture
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/">
-                      <a>
+                    <Link href="/blog/power-bi-reports/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Reports
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/">
-                      <a>
+                    <Link href="/blog/implement-power-bi-for-your-business/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Why Your
                         Business Should Implement Power BI?
                       </a>

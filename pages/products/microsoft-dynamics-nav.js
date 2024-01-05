@@ -1046,17 +1046,17 @@ const MicrosoftDynamicsNAV = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-business-central-implementation/">
-                            Business Central Implementation
+                          <a target="_blank">Business Central Implementation</a>
                           </Link>{" "}
                         </li>
                         <li>
-                          <a href="https://www.dynamicssquare.co.uk/blog/dynamics-365-business-central-trial/">
-                            Business Central Trial{" "}
-                          </a>
+                         <Link href="/blog/dynamics-365-business-central-trial/">
+                            <a target="_blank">Business Central Trial{" "}</a>
+                         </Link>
                         </li>
                         <li>
                           <Link href="/d365-business-central-support/">
-                            Dynamics 365 Business Central support
+                          <a target="_blank">Dynamics 365 Business Central support</a>
                           </Link>
                         </li>
                       </ul>

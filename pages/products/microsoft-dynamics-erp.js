@@ -87,7 +87,7 @@ const Erp = () => {
                   practices by connecting and bringing processes, people, and
                   systems together.{" "}
                   <Link href="/products/microsoft-dynamics-365/">
-                    Dynamics 365
+                   <a target="_blank">Dynamics 365</a>
                   </Link>{" "}
                   ERP comes with built-in intelligence and adaptability for
                   process optimization that helps brands to innovate, drive, and
@@ -393,7 +393,7 @@ const Erp = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-nav/">
-                    Learn More
+                  <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -415,7 +415,7 @@ const Erp = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-ax/">
-                    Learn More
+                   <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -448,7 +448,7 @@ const Erp = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-gp/">
-                    Learn More
+                  <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -563,19 +563,19 @@ const Erp = () => {
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-ax/">
-                            Microsoft Dynamics AX
+                          <a target="_blank">Microsoft Dynamics AX</a>
                           </Link>{" "}
                           : For finance management{" "}
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-finance/">
-                            Microsoft Dynamics 365 Finance
+                          <a target="_blank">Microsoft Dynamics 365 Finance</a>
                           </Link>{" "}
                           : Microsoft Dynamics 365 Finance
                         </li>
                         <li>
                           <Link href="/products/dynamics-365-business-central/">
-                            Microsoft Dynamics 365 Business Central
+                           <a target="_blank">Microsoft Dynamics 365 Business Central</a>
                           </Link>{" "}
                           : All-in-one business management
                         </li>

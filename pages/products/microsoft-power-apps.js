@@ -168,7 +168,7 @@ const PowerApps = () => {
                         offer a professional look to the applications.The
                         platform includes AI (
                         <Link href="/products/microsoft-dynamics-365-ai/">
-                          Artificial Intelligence
+                        <a target="_blank">Artificial Intelligence</a>
                         </Link>
                         ) components that are pre-built-in order to offer
                         features and specifications to the applications that are
@@ -647,7 +647,7 @@ const PowerApps = () => {
                         You can rapidly build custom apps to connect your data
                         sources to different{" "}
                         <Link href="/products/microsoft-power-platform/">
-                          Microsoft platforms
+                        <a target="_blank">Microsoft platforms</a>
                         </Link>
                         . These customised apps are based on your business needs
                         and complexity. It allows you to build various kinds of
@@ -741,7 +741,7 @@ const PowerApps = () => {
                         can also integrate some other applications too,
                         including Azure, Power Platform,{" "}
                         <Link href="/products/microsoft-dynamics-365/">
-                          Microsoft Dynamics 365
+                        <a target="_blank">Microsoft Dynamics 365</a>
                         </Link>
                         , and more native apps.{" "}
                       </p>
@@ -823,17 +823,17 @@ const PowerApps = () => {
                       <ul>
                         <li>
                           <Link href="/products/microsoft-power-bi/">
-                            Power BI
+                          <a target="_balnk">Power BI</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-power-virtual-agents/">
-                            Power Virtual Agents
+                           <a target="_blank">Power Virtual Agents</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-power-automate/">
-                            Power Automate
+                          <a target="_blank">Power Automate</a>
                           </Link>
                         </li>
                       </ul>
@@ -869,7 +869,7 @@ const PowerApps = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <a href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/">
+                    <a href="/blog/what-is-power-bi/" target="_blank">
                       <i className="bi bi-box-arrow-up-right"></i>What is Power
                       BI?
                     </a>
@@ -895,19 +895,19 @@ const PowerApps = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/">
+                    <a href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/" target="_blank">
                       <i className="bi bi-box-arrow-up-right"></i>Power BI
                       Architecture
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/">
+                    <a href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/" target="_blank">
                       <i className="bi bi-box-arrow-up-right"></i>Power BI
                       Reports
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/">
+                    <a href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/" target="_blank">
                       <i className="bi bi-box-arrow-up-right"></i>Why Your
                       Business Should Implement Power BI?
                     </a>

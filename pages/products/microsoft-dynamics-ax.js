@@ -720,7 +720,7 @@ Questions <br /> About Dynamics AX?</h2>
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>No, Dynamics AX is not available for new installation or implementation, but Microsoft still provides its support and upgrade services to some versions only. If you want to avail the latest capabilities to streamline your finances, you can go for <Link href="/products/microsoft-dynamics-365-finance/">Microsoft Dynamics 365 Finance</Link>, a cloud-based application for small, medium, and large organisations.</p>
+                      <p>No, Dynamics AX is not available for new installation or implementation, but Microsoft still provides its support and upgrade services to some versions only. If you want to avail the latest capabilities to streamline your finances, you can go for <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Microsoft Dynamics 365 Finance</a></Link>, a cloud-based application for small, medium, and large organisations.</p>
         
                     </div>
                   </div>
@@ -742,7 +742,7 @@ Questions <br /> About Dynamics AX?</h2>
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>No, <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link> is an all-in-one cloud-based business management solution capable of streamlining the entire operations of all departments, including finance, inventory, distribution, customer service, and supply chain. where MS Dynamics AX is a desktop-based <Link href="/products/microsoft-dynamics-erp/">ERP solution</Link> capable of managing financial operations only.</p>
+                      <p>No, <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> is an all-in-one cloud-based business management solution capable of streamlining the entire operations of all departments, including finance, inventory, distribution, customer service, and supply chain. where MS Dynamics AX is a desktop-based <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solution</a></Link> capable of managing financial operations only.</p>
                     </div>
                   </div>
                 </div>
@@ -785,7 +785,7 @@ Questions <br /> About Dynamics AX?</h2>
                   >
                     <div className="accordion-body">
                       <p>
-                      Dynamics AX has gone through a number of updates and upgrades. After the first update, Dynamics AX becomes <Link href="/products/microsoft-dynamics-365-finance-operations/">Microsoft Dynamics Finance and Operations</Link>. It was a powerful and complete package to deal with operations, supply chain management, and financial processes. Later, Microsoft understands the urge to separate this single solution into two separate applications: Microsoft Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/">Microsoft Dynamics 365 Supply Chain Management</Link>. 
+                      Dynamics AX has gone through a number of updates and upgrades. After the first update, Dynamics AX becomes <Link href="/products/microsoft-dynamics-365-finance-operations/"><a target="_blank">Microsoft Dynamics Finance and Operations</a></Link>. It was a powerful and complete package to deal with operations, supply chain management, and financial processes. Later, Microsoft understands the urge to separate this single solution into two separate applications: Microsoft Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Microsoft Dynamics 365 Supply Chain Management</a></Link>. 
                       </p>
                     </div>
                   </div>
@@ -807,7 +807,7 @@ Questions <br /> About Dynamics AX?</h2>
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>The basis for the difference between these two applications is that <Link href="/products/microsoft-dynamics-nav/">Dynamics NAV</Link> is an overall business management solution with few capabilities of CRM, whereas Dynamics is a complete ERP to control and supervise financial operations of an enterprise.</p>
+                     <p>The basis for the difference between these two applications is that <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">Dynamics NAV</a></Link> is an overall business management solution with few capabilities of CRM, whereas Dynamics is a complete ERP to control and supervise financial operations of an enterprise.</p>
                     </div>
                   </div>
                 </div>

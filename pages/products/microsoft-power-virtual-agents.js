@@ -600,7 +600,7 @@ const PowerVirtualAgents = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                      Yes, it is one of the applications offered by Microsoft under the Power application. The <Link href="/products/microsoft-power-platform/">Power Platform</Link> contains <Link href="/products/microsoft-power-bi/">Power BI</Link>, <Link href="/products/microsoft-power-apps/">Power Apps</Link>, Power Pages, <Link href="/products/microsoft-power-automate/">Power Automate</Link>, and Power Virtual Agents. These applications are also known as elements of the Power Platform. All of these applications are designed to boost the overall productivity and efficiency of the business while utilising existing resources. 
+                      Yes, it is one of the applications offered by Microsoft under the Power application. The <Link href="/products/microsoft-power-platform/"><a target="_blank">Power Platform</a></Link> contains <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>, <Link href="/products/microsoft-power-apps/"><a target="_blank">Power Apps</a></Link>, Power Pages, <Link href="/products/microsoft-power-automate/"><a target="_blank">Power Automate</a></Link>, and Power Virtual Agents. These applications are also known as elements of the Power Platform. All of these applications are designed to boost the overall productivity and efficiency of the business while utilising existing resources. 
                       </p>
                     </div>
                   </div>
@@ -677,8 +677,8 @@ const PowerVirtualAgents = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/what-is-power-bi/">
-                      <a>
+                    <Link href="/blog/what-is-power-bi/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>What is
                         Power BI?
                       </a>
@@ -705,24 +705,24 @@ const PowerVirtualAgents = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-architecture/">
-                      <a>
+                    <Link href="/blog/power-bi-architecture/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Architecture
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/power-bi-reports/">
-                      <a>
+                    <Link href="/blog/power-bi-reports/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Reports
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.co.uk/blog/implement-power-bi-for-your-business/">
-                      <a>
+                    <Link href="/blog/implement-power-bi-for-your-business/">
+                      <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Why Your
                         Business Should Implement Power BI?
                       </a>

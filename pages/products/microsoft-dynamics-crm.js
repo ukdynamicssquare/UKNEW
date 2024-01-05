@@ -69,7 +69,7 @@ const MicrosoftDynamicsCrm = () => {
             <h2>
             What Is Microsoft Dynamics CRM?
             </h2>
-            <p>Microsoft Dynamics CRM (currently known as <Link href="/products/dynamics-365-customer-engagement/">Dynamics 365 Customer Engagement</Link>) is a customer relationship management software which enables businesses to streamline their processes from sales & marketing to service divisions to customers and delivery. Implementing Microsoft's CRM solution can help brands to strengthen their customer relationship as well as support customer retention. Enterprises can bring process automation and data centralization that enables transformation throughout the organizational flow.</p>
+            <p>Microsoft Dynamics CRM (currently known as <Link href="/products/dynamics-365-customer-engagement/"><a target="_blank">Dynamics 365 Customer Engagement</a></Link>) is a customer relationship management software which enables businesses to streamline their processes from sales & marketing to service divisions to customers and delivery. Implementing Microsoft's CRM solution can help brands to strengthen their customer relationship as well as support customer retention. Enterprises can bring process automation and data centralization that enables transformation throughout the organizational flow.</p>
             </header>
             </div>
           </div>
@@ -293,7 +293,7 @@ const MicrosoftDynamicsCrm = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-sales/">
-                    Learn More
+                    <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -309,13 +309,13 @@ const MicrosoftDynamicsCrm = () => {
                   them a personalized experience. Empower your team to
                   collaborate and drive optimal experiences with highly embedded
                   tools to respond to your customers. Proactively manage your
-                  customers' issues and fix them <Link target="_blank" href="/products/microsoft-dynamics-365-ai/">leveraging AI insights</Link> & IoT
+                  customers' issues and fix them <Link target="_blank" href="/products/microsoft-dynamics-365-ai/"><a target="_blank">leveraging AI insights</a></Link> & IoT
                   connected devices as well as provide optimal support to your
                   customers.
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-customer-service/">
-                    Learn More
+                  <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -349,7 +349,7 @@ const MicrosoftDynamicsCrm = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-marketing/">
-                    Learn More
+                  <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -365,7 +365,7 @@ const MicrosoftDynamicsCrm = () => {
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/dynamics-365-project-operations/">
-                    Learn More
+                  <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
@@ -456,7 +456,7 @@ const MicrosoftDynamicsCrm = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                      Four applications are available under Dynamics 365 CRM, i.e., <Link href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</Link>, <Link href="/products/microsoft-dynamics-365-customer-service/">Dynamics 365 Customer Service</Link>, <Link href="/products/microsoft-dynamics-365-field-service/">Dynamics 365 Field Service</Link>, and Microsoft D365 Project Service Automation. A user can get a 30-day free license to use all the features and understand the functions better before purchasing it.</p>
+                      Four applications are available under Dynamics 365 CRM, i.e., <Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">Dynamics 365 Sales</a></Link>, <Link href="/products/microsoft-dynamics-365-customer-service/"><a target="_blank">Dynamics 365 Customer Service</a></Link>, <Link href="/products/microsoft-dynamics-365-field-service/"><a target="_blank">Dynamics 365 Field Service</a></Link>, and Microsoft D365 Project Service Automation. A user can get a 30-day free license to use all the features and understand the functions better before purchasing it.</p>
                     </div>
                   </div>
                 </div>
@@ -540,7 +540,7 @@ const MicrosoftDynamicsCrm = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Microsoft Dynamics CRM offers two deployment options to all on-premises and cloud users. The cloud deployment provides CRM online using <Link href="/products/microsoft-azure/">Microsoft Azure</Link> (Microsoft's cloud storage service), where users can deploy the servers online and access the data in real-time.</p>
+                     <p>Microsoft Dynamics CRM offers two deployment options to all on-premises and cloud users. The cloud deployment provides CRM online using <Link href="/products/microsoft-azure/"><a traget="_blank">Microsoft Azure</a></Link> (Microsoft's cloud storage service), where users can deploy the servers online and access the data in real-time.</p>
                     </div>
                   </div>
                 </div>
@@ -561,7 +561,7 @@ const MicrosoftDynamicsCrm = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Yes, it supports customizations per specific business requirements of the organization. You will need the right <Link href="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementation partner</Link> to successfully implement the application without errors.</p>
+                     <p>Yes, it supports customizations per specific business requirements of the organization. You will need the right <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">Dynamics 365 implementation partner</a></Link> to successfully implement the application without errors.</p>
                     </div>
                   </div>
                 </div>
@@ -582,7 +582,7 @@ const MicrosoftDynamicsCrm = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                     <p>Yes, this application does support native and third-party integrations. You can easily integrate Excel and Outlook apps to make the workflow smoother. If you need any integration as per your business type, you can <Link href="https://www.dynamicssquare.co.uk/contact-us/">contact Dynamics Square</Link>.</p>
+                     <p>Yes, this application does support native and third-party integrations. You can easily integrate Excel and Outlook apps to make the workflow smoother. If you need any integration as per your business type, you can <Link href="https://www.dynamicssquare.co.uk/contact-us/"><a target="_blank">contact Dynamics Square</a></Link>.</p>
                     </div>
                   </div>
                 </div>

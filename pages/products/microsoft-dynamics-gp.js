@@ -367,8 +367,8 @@ It is always a great idea to try a system before investing in it. This will help
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
                 <h2>My Dynamics GP Support has ended - What Should I Do? </h2>
-                <p>If so, it's high time you need to make a smart decision for your business. Because you must provide all necessary resources to empower your business to grow, irrespective of its complexity. Based on your GP version, you have two choices. Either you upgrade your system to the latest Dynamics GP version or you upgrade to <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>. </p>
-                <p>Based on our analysis and market research, we have found that <Link href="/gp-to-business-central-migration/"><a>upgrading Dynamics GP to Business Central</a></Link> is a better and more cost-effective decision. Because, sooner or later, the support of all Dynamics GP versions will end, and you need to eventually upgrade to a modern ERP solution. If you have to upgrade tomorrow, why not consider upgrading today? It will save a lot of essential resources for your business that can be utilised for business growth rather than investing in upgrading to the latest version of GP. </p>
+                <p>If so, it's high time you need to make a smart decision for your business. Because you must provide all necessary resources to empower your business to grow, irrespective of its complexity. Based on your GP version, you have two choices. Either you upgrade your system to the latest Dynamics GP version or you upgrade to <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link>. </p>
+                <p>Based on our analysis and market research, we have found that <Link href="/gp-to-business-central-migration/"><a target="_blank">upgrading Dynamics GP to Business Central</a></Link> is a better and more cost-effective decision. Because, sooner or later, the support of all Dynamics GP versions will end, and you need to eventually upgrade to a modern ERP solution. If you have to upgrade tomorrow, why not consider upgrading today? It will save a lot of essential resources for your business that can be utilised for business growth rather than investing in upgrading to the latest version of GP. </p>
               </div>
             </div>
           </div>
@@ -415,9 +415,9 @@ It is always a great idea to try a system before investing in it. This will help
                 </p>
                 <p>Microsoft is known for its brand name and its reliability. Hence, when you are investing your hard-earned money in Dynamics GP, you can surely expect some excellent results according to your requirements. But a technical glitch can happen even with the best options available. But you do not have to worry much, as we offer you the best, most reliable, and most trustworthy Dynamics GP support for all versions. </p>
                 <p>Our support team ensures to offer a huge list of services such as consulting, licencing, upgrading your older version, implementation, integration, customization, and others. </p>
-                <p>Regardless of your query, our expert Dynamics consultants will resolve it in no time so that your business can continue to grow. Also, if you are having issues, you can get Microsoft Dynamics GP training to get a deep understanding of this powerful <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft ERP solution</a></Link>. </p>
+                <p>Regardless of your query, our expert Dynamics consultants will resolve it in no time so that your business can continue to grow. Also, if you are having issues, you can get Microsoft Dynamics GP training to get a deep understanding of this powerful <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">Microsoft ERP solution</a></Link>. </p>
                 <div className="cltt-actt">
-                  <Link href="/contact-us/">Get Support Now! </Link>
+                  <Link href="/contact-us/"><a target="_blank">Get Support Now! </a></Link>
                 </div>
               </div>
             </div>
@@ -465,7 +465,7 @@ It is always a great idea to try a system before investing in it. This will help
                         finance, operations, accounting, warehouse management,
                         and distribution. However, it is an{" "}
                         <Link href="/products/microsoft-dynamics-erp/">
-                          ERP solution
+                        <a target="_blank">ERP solution</a>
                         </Link>{" "}
                         with some features of CRM (Customer Relationship
                         Management), like sales, service, and customer support.
@@ -556,15 +556,15 @@ It is always a great idea to try a system before investing in it. This will help
                       <p>
                         For any kind of update,{" "}
                         <Link href="/our-services/dynamics-365-upgrade-services/">
-                          upgrade
+                         <a target="_blank">upgrade</a>
                         </Link>
                         , or{" "}
                         <Link href="/our-services/dynamics-365-implementation-services">
-                          implementation
+                         <a target="_blank">implementation</a>
                         </Link>
                         , you need to contact your trusted{" "}
                         <Link href="/our-services/dynamics-365-support-services">
-                          Dynamics 365 support partner
+                        <a target="_blank">Dynamics 365 support partner</a>
                         </Link>
                         , and they will guide you with a better approach. Even
                         so, you can contact Dynamics Square for a rapid and
@@ -627,11 +627,11 @@ It is always a great idea to try a system before investing in it. This will help
                         per annum. And, if an organisation belongs to SMB, you
                         can use ,
                         <Link href="/products/microsoft-dynamics-nav/">
-                          Dynamics NAV
+                        <a target="_blank">Dynamics NAV</a>
                         </Link>{" "}
                         or{" "}
                         <Link href=" /products/dynamics-365-business-central/">
-                          Microsoft Dynamics 365 Business Central
+                         <a target="_blank">Microsoft Dynamics 365 Business Central</a>
                         </Link>{" "}
                         to manage basic financial and accounting needs.
                       </p>
@@ -706,7 +706,7 @@ It is always a great idea to try a system before investing in it. This will help
                         and Outlook. One of the best Power Applications offered
                         by Microsoft for Dynamics GP users is{" "}
                         <Link href="/products/microsoft-power-bi/">
-                          Power BI
+                        <a target="_blank">Power BI</a>
                         </Link>
                         , which helps users to visualise the huge chunks of data
                         with ease for proper utilization.
