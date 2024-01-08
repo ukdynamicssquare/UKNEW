@@ -28,7 +28,7 @@ const MicrosoftDynamics365Ai = () => {
                 <div className="text-center text-lg-start">
                   <Link
                     href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Free Demo Now! </span></a>
+                    <span>Schedule a Demo Now!</span></a>
                   </Link>
                 </div>
               </div>
