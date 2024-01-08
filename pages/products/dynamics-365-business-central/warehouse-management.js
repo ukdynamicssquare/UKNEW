@@ -227,7 +227,7 @@ const MicrosoftDynamics365Ai = () => {
                 <h2>Core Functionalities of Warehouse Management Module </h2>
               </div>
               <div className="custom-p-001">
-                <p>Implementing Business Central offers you the connected experience of managing the entire business along with maintaining warehouse requirements. Businesses are availing themselves of numerous benefits from the warehouse management module, which is making the business more proactive for current and future warehouse demands. </p>
+                <p><Link href="/dynamics-365-business-central-implementation/"><a target="blank">Implementing Business Central</a></Link> offers you the connected experience of managing the entire business along with maintaining warehouse requirements. Businesses are availing themselves of numerous benefits from the warehouse management module, which is making the business more proactive for current and future warehouse demands. </p>
                 <div className="row" style={{paddingTop:'40px'}}>
                   <div className="col-lg-6">
                   <p>
@@ -275,7 +275,7 @@ const MicrosoftDynamics365Ai = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.png" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Track and Update Goods </h3>
@@ -284,7 +284,7 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.png" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Establish Warehouse Flow </h3>
@@ -297,20 +297,20 @@ const MicrosoftDynamics365Ai = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.png"
+                    src="/img/100-Inventory-Visibility.svg"
                     alt="100-Inventory-Visibility"
                     width={84} height={84}
                   />
                 </div>
                 <div className="style-grid-content">
                   <h3>100% Inventory Visibility </h3>
-                  <p>With Microsoft Dynamics 365 Business Central, you can get real-time visibility of the entire inventory and warehouse, including goods placement and movement.</p>
+                  <p>With <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link>, you can get real-time visibility of the entire inventory and warehouse, including goods placement and movement.</p>
                 </div>
               </div>
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.png" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automate Warehouse Processes </h3>
