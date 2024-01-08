@@ -60,7 +60,7 @@ const Startup = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>Why Choose <br /> Microsoft Dynamics <br /> 365 CRM? </h2>
-                <p><Link href="/products/microsoft-dynamics-crm/"><a>Microsoft CRM</a></Link> offers robust features and flexibility for all growing businesses while providing extraordinary capabilities to meet all customer management needs. Being a powerful CRM solution, it can be personalised to match the CRM requirements of a business.</p>
+                <p><Link href="/products/microsoft-dynamics-crm/"><a target="_blank">Microsoft CRM</a></Link> offers robust features and flexibility for all growing businesses while providing extraordinary capabilities to meet all customer management needs. Being a powerful CRM solution, it can be personalised to match the CRM requirements of a business.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -154,7 +154,7 @@ const Startup = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Subscription-Based Model </h3>
-                  <p>Being a cloud-based system, you don't need to pay hefty amounts of money to build a solution that meets all demands. You can easily customise the <Link href="/products/microsoft-dynamics-crm/"><a>D365 CRM</a></Link> to make it perfect while paying through the monthly subscription model.</p>
+                  <p>Being a cloud-based system, you don't need to pay hefty amounts of money to build a solution that meets all demands. You can easily customise the <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">D365 CRM</a></Link> to make it perfect while paying through the monthly subscription model.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -194,7 +194,7 @@ const Startup = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Advanced Reporting Tools </h3>
-                  <p>You can access advanced reporting tools (like <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>) to understand customer behaviour towards a product or a service and make relatable changes. It empowers the business to supply what customers want, resulting in a better customer experience and retention. </p>
+                  <p>You can access advanced reporting tools (like <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>) to understand customer behaviour towards a product or a service and make relatable changes. It empowers the business to supply what customers want, resulting in a better customer experience and retention. </p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -247,7 +247,7 @@ const Startup = () => {
             <div className='col-lg-9'>
             <header className="section-header">
             <h2>Five Essential Steps to <br /> a Perfect Bespoke CRM Solution </h2>
-            <p>Before choosing an <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link>, you need to understand these essential steps for personalising a CRM solution.</p>
+            <p>Before choosing an <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solution</a></Link>, you need to understand these essential steps for personalising a CRM solution.</p>
           </header>
             </div>
           </div>
@@ -295,7 +295,7 @@ const Startup = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Choose a Partner </h3>
-                  <p>Now, find a Microsoft CRM <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation partner</a></Link> that understands your business requirements and can furnish the bespoke CRM solution you need to grow and scale. Dynamics Square UK, can be a stepping stone to getting more sales, achieving more targets, and offering a great customer experience. </p>
+                  <p>Now, find a Microsoft CRM <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">Dynamics 365 implementation partner</a></Link> that understands your business requirements and can furnish the bespoke CRM solution you need to grow and scale. Dynamics Square UK, can be a stepping stone to getting more sales, achieving more targets, and offering a great customer experience. </p>
                 </div>
               </div>
               

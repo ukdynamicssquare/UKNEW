@@ -63,7 +63,7 @@ const AdvantagesfinanceScm = () => {
               <div className="style-grid-1">
                 <div className="style-grid-content">
                   <h3>Simplify Financial Operations </h3>
-                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> simplifies all financial and accounting operations, irrespective of the complexity of the situation. It comes with automation tools that make the entire business operation simple, productive, and efficient.  </p>
+                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link> simplifies all financial and accounting operations, irrespective of the complexity of the situation. It comes with automation tools that make the entire business operation simple, productive, and efficient.  </p>
                 </div>
               </div>
 
@@ -109,7 +109,7 @@ const AdvantagesfinanceScm = () => {
               <div className="style-grid-1">
                 <div className="style-grid-content">
                   <h3>Track Production Needs </h3>
-                  <p><Link href="/products/dynamics-365-supply-chain-management/"><a>D365 for Supply Chain Management</a></Link> lets you manage and control all supply chain operations to streamline production demands. It lets you create a BOM (bill of materials), track labour resources, maintain the basic operations of supply chain management, and automate the process to lower the chances of errors.  </p>
+                  <p><Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">D365 for Supply Chain Management</a></Link> lets you manage and control all supply chain operations to streamline production demands. It lets you create a BOM (bill of materials), track labour resources, maintain the basic operations of supply chain management, and automate the process to lower the chances of errors.  </p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -152,7 +152,7 @@ const AdvantagesfinanceScm = () => {
                   <i className="bi bi-check-lg"></i>{" "}
                   <span>Years of Expertise</span>
                 </h3>
-                <p>Since the last 11+ years, we have been serving our expertise to the businesses of the UK with our best-in-class <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation</a></Link>, <Link href="/our-services/dynamics-365-support-services/"><a>support</a></Link>, and upgrade services. </p>
+                <p>Since the last 11+ years, we have been serving our expertise to the businesses of the UK with our best-in-class <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">Dynamics 365 implementation</a></Link>, <Link href="/our-services/dynamics-365-support-services/"><a target="_blank">support</a></Link>, and upgrade services. </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">

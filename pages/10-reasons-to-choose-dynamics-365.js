@@ -42,7 +42,7 @@ const WhyMigrade360 = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Let’s Get Started! </span>
+                      <span>Let's Get Started! </span>
                     </a>
                   </Link>
                 </div>
@@ -108,7 +108,7 @@ const WhyMigrade360 = () => {
             <div className="col-lg-12">
             <div className="custom-p-001">
             <p>Businesses achieve success through proactive decisions that have to be made before the problem arrives. And we both know the upcoming problem. </p>
-            <p>Are the risks and limitations of your legacy system preventing your business from growing at full scale? What's stopping you from making the best decision for your business and migrating to an advanced, modern, agile, and secure system like <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>? 
+            <p>Are the risks and limitations of your legacy system preventing your business from growing at full scale? What's stopping you from making the best decision for your business and migrating to an advanced, modern, agile, and secure system like <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft Dynamics 365</a></Link>? 
             Don't let outdated technology hold your business back from achieving great success. 
             Check out the overview of Migrating to Microsoft Dynamics 365 - <b>Watch Video</b> </p>
            <div className="text-center"  style={{paddingTop:"30px"}}>
@@ -134,14 +134,14 @@ const WhyMigrade360 = () => {
               </div>
               <div className="custom-p-001">
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Cost Saving</h3>
-                <p>Cloud-based ERP like Dynamics 365 or <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> offers significant cost savings by eliminating the need for expensive investments, which include hardware, maintenance, and support.</p>
+                <p>Cloud-based ERP like Dynamics 365 or <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link> offers significant cost savings by eliminating the need for expensive investments, which include hardware, maintenance, and support.</p>
                 <br />
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Collaboration & accessibility</h3>
                 <p>A cloud solution provides global connectivity to users, enabling them to control and manage core business operations in real-time. You can even collaborate with the team irrespective of the location boundaries.</p>
                 <br />
 
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Automatic Maintenance & Upgrades</h3>
-                <p>Your cloud system provider will make sure to update and upgrade your system on time without hampering your existing business operations. Also, the <Link href="/"><a>ERP implementation partner</a></Link> will ensure timely maintenance, reducing overall downtime.</p>
+                <p>Your cloud system provider will make sure to update and upgrade your system on time without hampering your existing business operations. Also, the <Link href="/"><a target="_blank">ERP implementation partner</a></Link> will ensure timely maintenance, reducing overall downtime.</p>
                 <br />
 
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Full Integration</h3>
@@ -415,7 +415,7 @@ const WhyMigrade360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Gain real-time business insights and optimise performance with its standard and <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> user interfaces. By monitoring key performance indicators (KPIs) across all business functions, our solution ensures your operations are in sync and performing at their best.
+                      Gain real-time business insights and optimise performance with its standard and <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link> user interfaces. By monitoring key performance indicators (KPIs) across all business functions, our solution ensures your operations are in sync and performing at their best.
                       </div>
                     </div>
                   </div>

@@ -230,7 +230,7 @@ const AboutUs = () => {
                 <div className="team-memb">
                   <div className="tem-mem-pic">
                   <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                  <a><img src="/img/manish-goyal.png" alt="manish-goyal" /></a>
+                  <a target="_blank"><img src="/img/manish-goyal.png" alt="manish-goyal" /></a>
 
                   </Link>
                   </div>
@@ -241,7 +241,7 @@ const AboutUs = () => {
                   </div>
                    <div class="social">
                     <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                      <a><i class="bi bi-linkedin" style={{fontSize:'26px'}}></i></a>
+                      <a target="_blank"><i class="bi bi-linkedin" style={{fontSize:'26px'}}></i></a>
                       </Link>
                     </div> 
                 </div>
@@ -411,37 +411,37 @@ const AboutUs = () => {
                       <ul className="new-com-list">
                         <li>
                           <Link href="/products/dynamics-365-business-central/">
-                          <a><img src="/img/group-2122.png" alt="Business-Central" />
+                          <a target="_blank"><img src="/img/group-2122.png" alt="Business-Central" />
                           <span>Business <br /> Central</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-finance/">
-                          <a><img src="/img/group-2123.png" alt="Finance" />
+                          <a target="_blank"><img src="/img/group-2123.png" alt="Finance" />
                           <span>Finance</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-commerce/">
-                          <a><img src="/img/group-2124.png" alt="Commerce" />
+                          <a target="_blank"><img src="/img/group-2124.png" alt="Commerce" />
                           <span>Commerce</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/dynamics-365-human-resources/">
-                          <a><img src="/img/group-2125.png" alt="Human-Resources" />
+                          <a target="_blank"><img src="/img/group-2125.png" alt="Human-Resources" />
                           <span>Human <br /> Resources</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/dynamics-365-supply-chain-management/">
-                          <a><img src="/img/group-2126.png" alt="Supply-chain" />
+                          <a target="_blank"><img src="/img/group-2126.png" alt="Supply-chain" />
                           <span>Supply <br /> Chain</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/dynamics-365-project-operations/">
-                          <a><img src="/img/group-2127.png" alt="Project-Operations" />
+                          <a target="_blank"><img src="/img/group-2127.png" alt="Project-Operations" />
                           <span>Project <br /> Operations</span></a>
                           </Link>
                         </li>
@@ -466,25 +466,25 @@ const AboutUs = () => {
                       <ul className="new-com-list">
                         <li>
                           <Link href="/products/microsoft-dynamics-365-sales/">
-                         <a> <img src="/img/group-2138.png" alt="Sales" />
+                         <a target="_blank"><img src="/img/group-2138.png" alt="Sales" />
                           <span>Sales</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-marketing/">
-                          <a><img src="/img/group-2139.png" alt="Marketing" />
+                          <a target="_blank"><img src="/img/group-2139.png" alt="Marketing" />
                           <span>Marketing</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-field-service/">
-                          <a><img src="/img/group-2137.png" alt="Field-Service" />
+                          <a target="_blank"><img src="/img/group-2137.png" alt="Field-Service" />
                           <span>Field <br /> Service</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-customer-service/">
-                          <a> <img src="/img/group-2136.png" alt="Customer-Service" />
+                          <a target="_blank"><img src="/img/group-2136.png" alt="Customer-Service" />
                           <span>Customer <br /> Service</span></a>
                           </Link>
                         </li>
@@ -507,25 +507,25 @@ const AboutUs = () => {
                       <ul className="new-com-list">
                         <li>
                           <Link href="/products/microsoft-power-bi/">
-                          <a><img src="/img/group-2214.png" alt="Power-BI" />
+                          <a target="_blank"><img src="/img/group-2214.png" alt="Power-BI" />
                           <span>Power <br /> BI</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-power-automate/">
-                          <a><img src="/img/group-2213.png" alt=">Power-Automate" />
+                          <a target="_blank"><img src="/img/group-2213.png" alt=">Power-Automate" />
                           <span>Power <br /> Automate</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-power-apps/">
-                          <a><img src="/img/group-2211.png" alt="Power-Apps" />
+                          <a target="_blank"><img src="/img/group-2211.png" alt="Power-Apps" />
                           <span>Power <br /> Apps</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-power-virtual-agents/">
-                          <a><img src="/img/group-22101.png" alt="Virtual-Agents" />
+                          <a target="_blank"><img src="/img/group-22101.png" alt="Virtual-Agents" />
                           <span>Virtual <br /> Agents</span></a>
                           </Link>
                         </li>
@@ -548,24 +548,22 @@ const AboutUs = () => {
                       <ul className="new-com-list">
                         <li>
                           <Link href="/products/microsoft-dynamics-365-mixed-reality/">
-                          <a><img src="/img/group-1998.png" alt="Mixed-Reality" />
+                          <a target="_blank"><img src="/img/group-1998.png" alt="Mixed-Reality" />
                           <span>Mixed <br /> Reality</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-azure/">
-                          <a><img src="/img/group-2164.png" alt="Azure" />
+                          <a target="_blank"><img src="/img/group-2164.png" alt="Azure" />
                           <span>Azure</span></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-ai/">
-                          <a><img src="/img/group-1977.png" alt="AI" />
+                          <a target="_blank"><img src="/img/group-1977.png" alt="AI" />
                           <span>AI</span></a>
                           </Link>
                         </li>
-                        
-                        
                       </ul>
                     </div>
                   </div>
@@ -602,6 +600,7 @@ const AboutUs = () => {
                 <Link
                   href="/case-studies/" >
                   <a className="btn-get-red"
+                  target="_blank"
                 >
                   <span>Read Success Stories</span> </a>
                 </Link>

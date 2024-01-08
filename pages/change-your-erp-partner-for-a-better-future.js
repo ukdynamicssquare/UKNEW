@@ -53,8 +53,8 @@ const UpgradeServices = () => {
             <div className="col-lg-9">
             <header className="section-header">
             <h2>Why Should you Consider Changing your Microsoft Partner?</h2>
-            <p>Most business owners are more concerned with implementing a <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft ERP solution</a></Link> than getting a faithful support service for a better future. Businesses need to understand that the secret to a successful business lies in availing themselves of consistent and reliable support as a priority.</p>
-            <p>Businesses expend significant effort and research when selecting an <Link href="/"><a>ERP implementation partner</a></Link> with a long-term relationship goal. In fact, businesses have to search for a partner who can offer seamless and timely support along with effective project implementation. Because this is the only way to streamline business operations, eliminate redundancies, maximize ROI, control costs, optimize resources, increase performance, and much more. </p>
+            <p>Most business owners are more concerned with implementing a <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">Microsoft ERP solution</a></Link> than getting a faithful support service for a better future. Businesses need to understand that the secret to a successful business lies in availing themselves of consistent and reliable support as a priority.</p>
+            <p>Businesses expend significant effort and research when selecting an <Link href="/"><a target="_blank">ERP implementation partner</a></Link> with a long-term relationship goal. In fact, businesses have to search for a partner who can offer seamless and timely support along with effective project implementation. Because this is the only way to streamline business operations, eliminate redundancies, maximize ROI, control costs, optimize resources, increase performance, and much more. </p>
           </header>
             </div>
           </div>
@@ -78,7 +78,7 @@ const UpgradeServices = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Strong Communication</h3>
-                  <p>Strong communication leads to a successful <Link href="/our-services/dynamics-365-implementation-services/"><a>ERP implementation</a></Link> and impactful support services. You should check whether the new partner has a strong communication module or not. Because ERP isn't a game of 1 or 2 months. In fact, it remains with the company for years, and during this tenure, you will need a strong communication bridge with the partner for effective business operations.</p>
+                  <p>Strong communication leads to a successful <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">ERP implementation</a></Link> and impactful support services. You should check whether the new partner has a strong communication module or not. Because ERP isn't a game of 1 or 2 months. In fact, it remains with the company for years, and during this tenure, you will need a strong communication bridge with the partner for effective business operations.</p>
                 </div>
               </div>
 
@@ -275,11 +275,11 @@ const UpgradeServices = () => {
                       <div className="accordion-body">
                         Since{" "}
                         <Link href="/products/microsoft-dynamics-nav/">
-                          Dynamics NAV
+                        <a target="_blank">Dynamics NAV</a>
                         </Link>{" "}
                         has been transformed with{" "}
                         <Link href="/products/dynamics-365-business-central/">
-                          Dynamics 365 Business Central
+                        <a target="_blank">Dynamics 365 Business Central</a>
                         </Link>{" "}
                         and Dynamics AX has been transformed with Dynamics 365
                         Finance & Supply Chain, our experts can ensure seamless

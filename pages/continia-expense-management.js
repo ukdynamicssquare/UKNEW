@@ -58,7 +58,7 @@ const Bccontinia = () => {
             <div className="col-lg-10 col-md-9">
               <header className="section-header">
                 <h2>Transform your Expense Management while Simplifying Reporting</h2>
-                <p>Continia Expense Management is an ultimate solution for businesses that want a simple yet powerful expense management solution. <Link href="/continia-for-dynamics-365-business-central/"><a>Continia integrates with Business Central</a></Link> and empowers businesses to avail of automation in tracking daily expenses, including travel and business expenses. </p>
+                <p>Continia Expense Management is an ultimate solution for businesses that want a simple yet powerful expense management solution. <Link href="/continia-for-dynamics-365-business-central/"><a target="_blank">Continia integrates with Business Central</a></Link> and empowers businesses to avail of automation in tracking daily expenses, including travel and business expenses. </p>
                 <p>Earlier, businesses used to report, claim, and approve all expense requests manually, resulting in a time-consuming and cumbersome process. Even employees have to manage all physical receipts, enter data, and apply for reconciliation manually, leading to errors and mistakes. </p>
                 <p>Employ the Continia Expense Management app to report expenses in real-time. It comes with the tight integration of Business Central that enables you to get 100% visibility of all expenses, reports, and approvals using the admin panel. Along with such powerful capabilities, it offers an interactive and seamless user experience to all Business Central users. </p>
               </header>
@@ -118,13 +118,13 @@ const Bccontinia = () => {
               <div className="style-grid-1">
                 <div className="style-grid-content">
                   <h3>AI Receipt Scanner </h3>
-                  <p>Continia Online Expense Management comes with AI technologies that let you read data available on receipt. Once you scan the receipt, the AI Receipt Scanner or <Link href="/continia-document-capture-with-business-central/"><a>Continia OCR</a></Link> will scan the entire document to find the amount, data, merchant, currency, and other available data. </p>
+                  <p>Continia Online Expense Management comes with AI technologies that let you read data available on receipt. Once you scan the receipt, the AI Receipt Scanner or <Link href="/continia-document-capture-with-business-central/"><a target="_blank">Continia OCR</a></Link> will scan the entire document to find the amount, data, merchant, currency, and other available data. </p>
                 </div>
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-content">
                   <h3>Autozoom in Business Central Add-In </h3>
-                  <p>This feature allows you to get the full view of receipt images directly from <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>. This will save you a lot of time when you have to check various receipts one after another.</p>
+                  <p>This feature allows you to get the full view of receipt images directly from <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link>. This will save you a lot of time when you have to check various receipts one after another.</p>
                 </div>
               </div>
             </div>
@@ -170,7 +170,7 @@ const Bccontinia = () => {
                 <h2>Contina Expense Management Pricing - Cost-Effective and Simple </h2>
               </div>
               <div className="custom-p-001">
-                <p>Continia Expense Management is an integration for Business Central, which means you need to purchase a <Link href="/dynamics-365-business-central-pricing-licensing/"><a>Business Central licence</a></Link> before purchasing access to Continia. However, the licencing terms of both solutions are based on per user. Also, the Continia pricing structure is based on various factors that include modules, the number of users, organisational requirements, and more. </p>
+                <p>Continia Expense Management is an integration for Business Central, which means you need to purchase a <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central licence</a></Link> before purchasing access to Continia. However, the licencing terms of both solutions are based on per user. Also, the Continia pricing structure is based on various factors that include modules, the number of users, organisational requirements, and more. </p>
                 <p>To get detailed information, you need to contact the team at Dynamics Square UK directly at <a  href="tel:+442071932502" target="_self"> 0207 193 2502</a>. Also, you can write us a message at <a href="mailto:info@dynamicssquare.co.uk">info@dynamicssquare.co.uk</a> with any query you have. Our Business Central consultants will understand your business needs and offer you the best and most cost-effective solution. </p>
               </div>
             </div>
