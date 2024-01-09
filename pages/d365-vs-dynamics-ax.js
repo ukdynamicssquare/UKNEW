@@ -70,7 +70,7 @@ const D365VSDynamicsAX = () => {
                 <h2>What is Dynamics 365? - A Solution or a Suite of Solutions </h2>
               </div>
               <div className="custom002">
-                <p><Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> isn't a solution; yes, you heard it right. It is a suite of applications that contains different ERP (enterprise resource planning) and CRM (customer relationship management) solutions for all businesses, irrespective of size. Actually, it contains different business management solutions capable of streamlining different business operations. </p>
+                <p><Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> isn't a solution; yes, you heard it right. It is a suite of applications that contains different ERP (enterprise resource planning) and CRM (customer relationship management) solutions for all businesses, irrespective of size. Actually, it contains different business management solutions capable of streamlining different business operations. </p>
                 <p>Almost all websites on Google Search Engine are doing a comparison on Dynamics AX vs Dynamics 365, which is basically illogical. How would someone compare an ERP solution (Dynamics AX) with a suite of ERP and CRM solutions (Microsoft Dynamics 365)? </p>
               </div>
             </div>
@@ -185,17 +185,18 @@ const D365VSDynamicsAX = () => {
                   </tbody>
                 </table>
               </div>
-              <p>Based on the latest data, Microsoft doesn't sell Dynamics AX anymore. The company has ended mainstream and extended support for all versions and recommended businesses upgrade to a better ERP solution, like <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Dynamics 365 Finance and Operations</a></Link>.</p>
+              <p>Based on the latest data, Microsoft doesn't sell Dynamics AX anymore. The company has ended mainstream and extended support for all versions and recommended businesses upgrade to a better ERP solution, like <Link href="/products/microsoft-dynamics-365-finance-operations/"><a target="_blank">Dynamics 365 Finance and Operations</a></Link>.</p>
               <p>For your knowledge, mainstream support is offered by Microsoft for a few years from the date of the release of a version. It contains system upgrades, updates, bug fixes, and a lot more. Once the mainstream support ends, the extended support starts for the next few years. During this time, Microsoft releases updates for data security only.</p>
               <p>Dynamics AX is a basic financial ERP solution that can also manage and connect other departments too. But, with time, the solution has become outdated based on business and customer demands. Later, Microsoft releases Dynamics 365 Finance and Operations as an upgraded version of AX that offers some powerful capabilities to manage complex financial and supply chain operations.</p>
               <p>You can go for a Dynamics AX to Dynamics 365 Finance & Operations upgrade, but it is a bit costly to implement and comes with a lot of tools that might not be required by your organisation. Because it comes with a lot of modules to streamline different sections of a business.</p>
-              <p>Microsoft understood this concern and divided Dynamics 365 Finance & Operations into two different applications: Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link>. So, based on your business requirements, you can go with any solution that suits your needs.</p>
+              <p>Microsoft understood this concern and divided Dynamics 365 Finance & Operations into two different applications: Dynamics 365 Finance and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>. So, based on your business requirements, you can go with any solution that suits your needs.</p>
               <p>Now, you can avail yourself of the desired solution by paying the licence fee for a specific one rather than paying for the whole package.</p>
               </div>
               <div className="text-lg-start">
                   <Link href="/contact-us/">
                     <a
                       className="btn-get-started scrollto"
+                      target="_blank"
                     >
                       <span>Help me Choose a Better Solution</span>
                     </a>
@@ -242,7 +243,7 @@ const D365VSDynamicsAX = () => {
               </div>
               <div className="custom-p-001">
                 <p>We understand that Dynamics 365 Finance is built on the infrastructure of Dynamics AX and being on the same platform, both of these share a lot of similarities and differences as well.</p>
-                <p><Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> is a legacy system that comes with various outdated features of business management. Specifically, it is built to manage financial and accounting operations, but it can also deal with other departments. With an on-premises server deployment option, Dynamics AX offers the limited capabilities required for today's business scenario.</p>
+                <p><Link href="/products/microsoft-dynamics-ax/"><a target="_blank">Dynamics AX</a></Link> is a legacy system that comes with various outdated features of business management. Specifically, it is built to manage financial and accounting operations, but it can also deal with other departments. With an on-premises server deployment option, Dynamics AX offers the limited capabilities required for today's business scenario.</p>
                 <p>Whereas Dynamics 365 Finance is a cloud-based ERP solution equipped with the latest technologies of AI, BI, and ML to offer automation and powerful tools. Regardless of the financial complexities, it can be a perfect fit for any business. D365 Finance offers real-time insights that enable users to make data-driven decisions. In fact, it is built in such a way that it reduces the overall costs and optimises the financials of a business, leading to better financial planning and analysis.</p>
               </div>
           </div>

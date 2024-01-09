@@ -64,7 +64,7 @@ const BcNetSuite = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Overview</h2>
-                <p>Undoubtedly, <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> and NetSuite are the two popular ERP solutions available on the market that most SMEs (small to medium-sized enterprises) are using. If you are planning to opt for one, you must be in a dilemma about choosing the one that suits your business needs.</p>
+                <p>Undoubtedly, <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link> and NetSuite are the two popular ERP solutions available on the market that most SMEs (small to medium-sized enterprises) are using. If you are planning to opt for one, you must be in a dilemma about choosing the one that suits your business needs.</p>
                 <p>Both of these solutions offer similar technicalities, but one must have a superior application over the other. When we compare these two ERP solutions side-by-side, we will have the right solution.</p>
                 <p>But the NetSuite vs Business Central comparison works on a core factor; your actual business requirements. Once you understand your business and its actual requirements for seamless operations, you will have the best ERP system without any doubt.</p>
               </header>
@@ -80,7 +80,7 @@ const BcNetSuite = () => {
             <div className='col-lg-9'>
             <header className="section-header">
             <h2>Understanding Business Requirements to Implement an ERP Solution?</h2>
-            <p>It is one of the important aspects that comes before <Link href="/our-services/dynamics-365-implementation-services/"><a>implementing an ERP solution</a></Link> (most business owners or decision makers skip it). This process consists of 7 core aspects.</p>
+            <p>It is one of the important aspects that comes before <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">implementing an ERP solution</a></Link> (most business owners or decision makers skip it). This process consists of 7 core aspects.</p>
           </header>
             </div>
           </div>
@@ -129,7 +129,7 @@ const BcNetSuite = () => {
               <div className="style-grid-1">
                 <div className="style-grid-content">
                   <h3>Regulatory Requirements </h3>
-                  <p>Your chosen <Link href="/products/microsoft-dynamics-erp/"><a>ERP system</a></Link> must align with government compliance to eliminate the chances of any policy violation.</p>
+                  <p>Your chosen <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP system</a></Link> must align with government compliance to eliminate the chances of any policy violation.</p>
                 </div>
               </div>
               
@@ -222,7 +222,7 @@ const BcNetSuite = () => {
                     </tr>
                     <tr>
                       <td>Integrations</td>
-                      <td>Seamless with <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 Ecosystem</a></Link> </td>
+                      <td>Seamless with <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 Ecosystem</a></Link> </td>
                       <td>Complicated</td>
                     </tr>
                     <tr>

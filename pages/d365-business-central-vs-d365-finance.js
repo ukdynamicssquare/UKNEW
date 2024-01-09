@@ -61,9 +61,9 @@ const BCvsFinance = () => {
                 <h2>Overview</h2>
                 <p>
                   <b>Microsoft Dynamics 365 Business Central Vs Dynamics 365 Finance is one of the most researched comparisons among small business owners. They are looking for a suitable solution that can align with their existing business needs to drive growth while accelerating them towards scalability.</b></p>
-                  <p>Being a part of the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> suite, these <Link href="/products/microsoft-dynamics-erp/"><a>ERP solutions</a></Link> offer an interactive user interface with accelerated performance to tackle even complex operations. While carrying different capabilities from one another, both of these solutions come with an interactive user interface and superior performance when compared to similar solutions.  </p>
-                  <p><Link href="/products/dynamics-365-business-central/"><a><b>Microsoft Dynamics 365 Business Central</b></a></Link>: To streamline your entire business operations while connecting all departments for a unified approach, choose this solution.</p>
-                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a><b>Microsoft Dynamics 365 Finance</b></a></Link>: To manage simple as well as complex financial and accounting needs while enabling automation for maximum efficiency, choose this solution.</p>
+                  <p>Being a part of the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft Dynamics 365</a></Link> suite, these <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solutions</a></Link> offer an interactive user interface with accelerated performance to tackle even complex operations. While carrying different capabilities from one another, both of these solutions come with an interactive user interface and superior performance when compared to similar solutions.  </p>
+                  <p><Link href="/products/dynamics-365-business-central/"><a target="_blank"><b>Microsoft Dynamics 365 Business Central</b></a></Link>: To streamline your entire business operations while connecting all departments for a unified approach, choose this solution.</p>
+                  <p><Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank"><b>Microsoft Dynamics 365 Finance</b></a></Link>: To manage simple as well as complex financial and accounting needs while enabling automation for maximum efficiency, choose this solution.</p>
               </header>
             </div>
           </div>
@@ -351,7 +351,7 @@ const BCvsFinance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                     <p>The cost of an ERP solution depends on your unique business requirements, including, integrations, customisations, server deployment, complexity of operations, licencing cost, and any other personalisations.</p> <p>However, in terms of licencing costs, <Link href="/dynamics-365-business-central-pricing-licensing/"><a>Business Central costs</a></Link> 50% less when compared to D365 Finance. Aside from implementation costs, the Business Central Premium plan costs £75.40 per user per month, whereas Microsoft D365 Finance costs £135.70 per user per month. </p>
+                     <p>The cost of an ERP solution depends on your unique business requirements, including, integrations, customisations, server deployment, complexity of operations, licencing cost, and any other personalisations.</p> <p>However, in terms of licencing costs, <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central costs</a></Link> 50% less when compared to D365 Finance. Aside from implementation costs, the Business Central Premium plan costs £75.40 per user per month, whereas Microsoft D365 Finance costs £135.70 per user per month. </p>
                       </div>
                     </div>
                   </div>
@@ -408,7 +408,7 @@ const BCvsFinance = () => {
                 <p>But the right decision can lead to growth and a consistent stream of revenue. You have to analyse the features, benefits, and cost-effectiveness of both solutions based on your needs before making a decision.</p>
                 <p><b>So, choose wisely!!</b><br /><br />For a better choice, check out the above comparison between Dynamics 365 Business Central vs Dynamics 365 Finance. </p>
                 <p>If you are still unable to decide which suits you better, Our certified consultants are available to help you out. </p>
-                <p><Link href="/contact-us/"><a>Connect with us</a></Link> and give your business what it needs the most. </p>
+                <p><Link href="/contact-us/"><a target="_blank">Connect with us</a></Link> and give your business what it needs the most. </p>
               </div>
             </div>
           </div>

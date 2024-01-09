@@ -66,7 +66,7 @@ const BusinessCentralFeatures = () => {
                 <h2>Dynamics 365 Business Central Features & Benefits</h2>
                 <p>
                   <Link href="/products/dynamics-365-business-central/">
-                    Dynamics 365 Business Central
+                  <a target="_blank">Dynamics 365 Business Central</a>
                   </Link>{" "}
                   is a powerful business management solution baked with high-end
                   useful features and functional navigation to streamline your
@@ -193,7 +193,7 @@ const BusinessCentralFeatures = () => {
                   analytics part to bring clarity into accounting, investments,
                   and accurate forecasting. In case you are running dominated
                   finance services, integrating with{" "}
-                  <Link href="/products/microsoft-power-bi/">Power BI</Link>{" "}
+                  <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>{" "}
                   can truly help to boost your reporting and analytics part.
                 </p>
               </div>
@@ -223,7 +223,7 @@ const BusinessCentralFeatures = () => {
                   To maximize your CRM functionality and uplift your customer
                   visibility, you can integrate your Business Central plan with{" "}
                   <Link href="products/microsoft-dynamics-365-sales/">
-                    Dynamics 365 Sales.
+                  <a target="_blank">Dynamics 365 Sales.</a>
                   </Link>
                 </p>
               </div>
@@ -256,7 +256,7 @@ const BusinessCentralFeatures = () => {
                   space especially in the lack of adequate supply chain
                   solutions. Business Central comes with a{" "}
                   <Link href="/products/dynamics-365-supply-chain-management/">
-                    Supply Chain
+                   <a target="_blank">Supply Chain</a>
                   </Link>{" "}
                   module that helps to seamlessly track your inventory level,
                   optimize operational flow, and maximize your resource
@@ -288,7 +288,7 @@ const BusinessCentralFeatures = () => {
                 <p>
                   Business Central is configured with sufficient{" "}
                   <Link href="/products/dynamics-365-human-resources/">
-                    Human Resource capabilities
+                  <a target="_blank">Human Resource capabilities</a>
                   </Link>{" "}
                   to seamlessly manage employees' records, organize the required
                   database, manage employee reporting, simplify expenses &amp;
@@ -430,7 +430,7 @@ const BusinessCentralFeatures = () => {
                   productive approach across your manufacturing workspace. It
                   enables real-time visibility into entire{" "}
                   <Link href="/industries/microsoft-cloud-for-manufacturing/">
-                    Manufacturing operations
+                  <a target="_blank">Manufacturing operations</a>
                   </Link>{" "}
                   that help to make smarter decisions to impact and improve the
                   production flow, minimize costing, and enable continuity.
@@ -440,19 +440,19 @@ const BusinessCentralFeatures = () => {
                 </p>
                 <p>
                   <Link href="/dynamics-365-business-central-pricing-licensing/">
-                    Dynamics 365 Business Central Pricing &amp; Licensing
+                  <a target="_blank">Dynamics 365 Business Central Pricing &amp; Licensing</a>
                   </Link>
                   <br />
                   <Link href="/dynamics-365-business-central-implementation/">
-                    Business Central Implementation
+                  <a target="_blank">Business Central Implementation</a>
                   </Link>
                   <br />
                   <Link href="/dynamics-nav-to-business-central/">
-                    Upgrade NAV To Business Central
+                  <a target="_blank">Upgrade NAV To Business Central</a>
                   </Link>
                   <br />
                   <Link href="/d365-business-central-support/">
-                    Dynamics 365 Business Central support
+                  <a target="_blank">Dynamics 365 Business Central support</a>
                   </Link>
                 </p>
               </div>

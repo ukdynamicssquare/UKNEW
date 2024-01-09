@@ -85,7 +85,7 @@ const BusinessCentralUpgrade = () => {
                   resources all through using a highly embedded and solely
                   integrated solution{" "}  
                   <Link href="/products/dynamics-365-business-central/">
-                    Microsoft Dynamics 365 Business Central.
+                  <a target="_blank">Microsoft Dynamics 365 Business Central.</a>
                   </Link>
                 </p>
                 <p>
@@ -93,7 +93,7 @@ const BusinessCentralUpgrade = () => {
                   your overall organizational performance.
                 </p>
                 <div className="cltt-actt">
-                  <a href="#">Learn More</a>
+                  <a href="/contact-us/" target="_blank">Learn More</a>
                 </div>
               </div>
             </div>

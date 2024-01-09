@@ -48,9 +48,9 @@ const BusinessCentralVSFinance = () => {
               <header className="section-header">
                 <h2>Overview</h2>
                 <p>Microsoft Dynamics 365 Business Central Vs Dynamics 365 Finance & Operations is one of the top comparisons among worldwide ERP users.  They are looking for a cost-effective and sustainable ERP solution that can easily align with their unique business needs, making a business more agile and efficient.  A rightly chosen ERP system can accelerate such businesses' growth while eliminating the complexities of the system.</p>
-                <p>Dynamics 365 Business Central and Finance are among the top ERP solutions that come within the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 suite</a></Link> of apps. All D365 business solutions offer an interactive user interface to help you accelerate business performance while maximizing revenue. Before getting started with the true comparison of D365 BC vs D365 F&O, let's understand these solutions a bit. </p>
-                <p><Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link>: Specifically built for SMBs, it can streamline your entire business operations and centralize the data for a unified business approach.</p>
-                <p><Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Microsoft Dynamics 365 Finance & Operations</a></Link>: Built specifically for medium and large enterprises, it can simplify the tasks of finance, operations, and supply chain management, irrespective of their complexity.</p>
+                <p>Dynamics 365 Business Central and Finance are among the top ERP solutions that come within the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft Dynamics 365 suite</a></Link> of apps. All D365 business solutions offer an interactive user interface to help you accelerate business performance while maximizing revenue. Before getting started with the true comparison of D365 BC vs D365 F&O, let's understand these solutions a bit. </p>
+                <p><Link href="/products/dynamics-365-business-central/"><a target="_blank">Microsoft Dynamics 365 Business Central</a></Link>: Specifically built for SMBs, it can streamline your entire business operations and centralize the data for a unified business approach.</p>
+                <p><Link href="/products/microsoft-dynamics-365-finance-operations/"><a target="_blank">Microsoft Dynamics 365 Finance & Operations</a></Link>: Built specifically for medium and large enterprises, it can simplify the tasks of finance, operations, and supply chain management, irrespective of their complexity.</p>
               </header>
             </div>
           </div>
@@ -71,7 +71,7 @@ const BusinessCentralVSFinance = () => {
                 </ul>
                 <p className="ne4">
                 Microsoft Dynamics 365 Business Central is a new-age all-in-one business management application capable of streamlining the entire operation of a business. It links and manages various departments such as finance, customer service, sales, and supply chain.
-                </p><p>On the other hand, Microsoft Dynamics 365 Finance & Supply Chain is an outdated application specifically used to manage finance, distribution, retail, production, and other similar departments. However, it has been divided into two different apps, <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link> and <Link href="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</Link>, to deal with specific business operations.</p>
+                </p><p>On the other hand, Microsoft Dynamics 365 Finance & Supply Chain is an outdated application specifically used to manage finance, distribution, retail, production, and other similar departments. However, it has been divided into two different apps, <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link> and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>, to deal with specific business operations.</p>
               </div>
             </div>
             <div className="col-lg-4 align-self-center">
@@ -219,11 +219,11 @@ const BusinessCentralVSFinance = () => {
             <div className="col-lg-12">
               <header className="section-header">
                 <h2>Conclusion</h2>
-                <p>Choosing the right <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link> for a business can get highly confusing when you are unable to identify your exact business needs. And you should avoid taking decisions under the influence of another business because all businesses have different requirements and run on different methodologies</p>
+                <p>Choosing the right <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solution</a></Link> for a business can get highly confusing when you are unable to identify your exact business needs. And you should avoid taking decisions under the influence of another business because all businesses have different requirements and run on different methodologies</p>
 
                 <p>A wrong decision can cause huge financial losses and a lot of operational complexities. But the right decision can boost your business's revenue while eliminating redundancies in the system. </p>
                 <p><strong>So, analyse your business and make a wise decision! </strong></p>
-                <p>If you are having any kind of issue analysing your business and choosing the right ERP solution for it, our certified consultants can help you find the perfect solution. <Link href="/contact-us"><a>Connect with us</a></Link> and give your business what it needs most. </p>
+                <p>If you are having any kind of issue analysing your business and choosing the right ERP solution for it, our certified consultants can help you find the perfect solution. <Link href="/contact-us"><a target="_blank">Connect with us</a></Link> and give your business what it needs most.</p>
               </header>
             </div>
           </div>

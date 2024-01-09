@@ -118,7 +118,7 @@ const SupplyChainImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/dynamics-365-supply-chain-management/">
-                            D365 Supply Chain Management
+                          <a target="_blank">D365 Supply Chain Management</a>
                           </Link>{" "}
                           is a cutting-edge SCM software that lifts your
                           business and may expand your operations faster while
@@ -614,15 +614,15 @@ const SupplyChainImplementation = () => {
                       We have a team of certified professionals with years of
                       experience in providing{" "}
                       <Link href="/our-services/dynamics-365-implementation-services/">
-                        implementation
+                      <a target="_blank">implementation</a>
                       </Link>
                       ,{" "}
                       <Link href="/our-services/dynamics-365-upgrade-services/">
-                        upgrade
+                      <a target="_blank">upgrade</a>
                       </Link>
                       , and{" "}
                       <Link href="/our-services/dynamics-365-support-services/">
-                        support services
+                      <a target="_blank">support services</a>
                       </Link>{" "}
                       to businesses like yours.
                     </p>
@@ -696,7 +696,7 @@ const SupplyChainImplementation = () => {
                     <p>
                       Our dedicated{" "}
                       <Link href="/our-services/dynamics-365-support-services">
-                        D365 support
+                      <a target="_blank">D365 support</a>
                       </Link>{" "}
                       team is always available to help you in a time of need
                       without any time, region, or language barriers to help you
@@ -795,7 +795,7 @@ const SupplyChainImplementation = () => {
                 <p>
                   Being a flexible{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    ERP solution
+                  <a target="_blank">ERP solution</a>
                   </Link>
                   , you can easily increase its capabilities based on your
                   business growth and changing modern needs. You can start today
@@ -978,17 +978,17 @@ const SupplyChainImplementation = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-finance-implementation/">
-                            Dynamics 365 Finance Implementation
+                          <a target="_blank">Dynamics 365 Finance Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/power-bi-implementation/">
-                            Power BI Implementation
+                          <a target="_blank">Power BI Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/dynamics-365-sales-implementation/">
-                            Dynamics 365 Sales Implementation
+                         <a target="_blank">Dynamics 365 Sales Implementation</a>
                           </Link>
                         </li>
                       </ul>

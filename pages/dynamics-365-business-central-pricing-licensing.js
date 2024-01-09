@@ -59,9 +59,7 @@ const BusinessCentralPricingLicensing = () => {
               <div className="custom002">
                 <p>
                 Microsoft has simplified Business Central licencing while offering cost-effective plans for all businesses.</p> 
-                  <p>Not only is <Link href="/products/dynamics-365-business-central/">
-                    Business Central
-                  </Link> cost-effective, but it also offers flexibility, scalability, and agility to all businesses. These benefits are empowering businesses to choose BS over other ERP systems available on the market. </p>
+                  <p>Not only is <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link> cost-effective, but it also offers flexibility, scalability, and agility to all businesses. These benefits are empowering businesses to choose BS over other ERP systems available on the market. </p>
                   <p>Even Microsoft offers a simplified Business Central licencing guide so that businesses of all sizes and functionalities can opt for this powerful ERP solution. </p>
                   <p><strong>Perpetual Licencing (no longer exists)</strong>: Also known as the Microsoft Open Licence Programme, businesses have to purchase the application and pay a lifetime fee at once. From January 1st, 2022, Microsoft has ended this licencing option and is not allowing to renew the existing licences. </p>
                   <p><strong>Subscription Licencing</strong>: This licencing option is based on a monthly subscription fee for a particular solution based on per-user, per-month access. This licencing is cost-effective, flexible, and doesn’t come with a monthly maintenance fee.</p>
@@ -195,7 +193,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>It is the Business Central plan that gives access to utilise <Link href="/products/dynamics-365-business-central/advantages-capabilities/"><a>Business Central capabilities</a></Link>. The users can: </p>
+                        <p>It is the Business Central plan that gives access to utilise <Link href="/products/dynamics-365-business-central/advantages-capabilities/"><a target="_blank">Business Central capabilities</a></Link>. The users can: </p>
                         <ul>
                         <li>Manage core operations</li> 
 
@@ -317,11 +315,11 @@ const BusinessCentralPricingLicensing = () => {
                 <h2>How to Implement Dynamics 365 Business Central? </h2>
               </div>
               <div className="custom-p-001">
-                <p>Business Central pricing is one of the major concerns for SMBs as they run low on budget. Once it is resolved, it's time to know about the <Link href="/dynamics-365-business-central-implementation/"><a>Business Central implementation</a></Link> and its cost.</p> 
+                <p>Business Central pricing is one of the major concerns for SMBs as they run low on budget. Once it is resolved, it's time to know about the <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">Business Central implementation</a></Link> and its cost.</p> 
                 <p>The process of implementing this powerful ERP solution is simple. You need to find the right Microsoft Solutions Partner, like Dynamics Square, that understands your business needs and offers you the perfect solution for your business. </p>
                 <p>However, there is no fixed implantation cost as it varies from business to business and their unique requirements. To get the exact cost, you need to contact our certified Business Central consultants.</p>
                 <p>Just give us a call at 0207-193-2502, and one of us will guide you towards the right path of choosing the right licence and a suitable implementation strategy.</p>
-                <p>Also, if you want to upgrad your existing <Link href="/dynamics-nav-to-business-central/"><a>NAV to Business Central</a></Link> cloud, book a call with us.</p>
+                <p>Also, if you want to upgrad your existing <Link href="/dynamics-nav-to-business-central/"><a target="_blank">NAV to Business Central</a></Link> cloud, book a call with us.</p>
                 <p>During the discovery call, we will understand your business needs and give you an accurate quote about set-up costs, implementation time, required customisation, needed business central integrations, and required resources. </p>
               </div>
             </div>
@@ -337,7 +335,7 @@ const BusinessCentralPricingLicensing = () => {
             <div className="col-lg-9">
               <div className="call-to-action-content">
                 <h3>Struggling with Outdated NAV? It's High Time you should Consider Upgrade </h3>
-                <p><Link href="/products/microsoft-dynamics-nav/"><a>NAV</a></Link> has become outdated as Microsoft has stopped offering support and upgrade services for most of the NAV versions. If you are still using any of those versions, you should upgrade to Business Central Cloud, or any other version based on your requirements.</p> <p>Once you upgrade, you will get extraordinary features, including process automation, real-time insights, global connectivity, auto upgrades, and no maintenance cost. </p><p>So, are you ready to transform your business for enhanced growth and sustainable revenue? </p>
+                <p><Link href="/products/microsoft-dynamics-nav/"><a target="_blank">NAV</a></Link> has become outdated as Microsoft has stopped offering support and upgrade services for most of the NAV versions. If you are still using any of those versions, you should upgrade to Business Central Cloud, or any other version based on your requirements.</p> <p>Once you upgrade, you will get extraordinary features, including process automation, real-time insights, global connectivity, auto upgrades, and no maintenance cost. </p><p>So, are you ready to transform your business for enhanced growth and sustainable revenue? </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
@@ -590,7 +588,7 @@ const BusinessCentralPricingLicensing = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                        Yes, you can try the <Link href="/products/microsoft-dynamics-365/">Dynamics 365 apps</Link> like Business
+                        Yes, you can try the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 apps</a></Link> like Business
                         Central by logging in home.dynamcis.com portal using
                         your Microsoft Account ID. Here, you will be allowed to
                         see all the offerings ofo Business Central as a demo.
@@ -646,7 +644,7 @@ const BusinessCentralPricingLicensing = () => {
                     <div className="accordion-body">
                       <p>
                         The basis difference between NAV and Business Central is
-                        NAV can only be operated and structured <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises</Link>. At
+                        NAV can only be operated and structured <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/"><a target="_blank">on-premises</a></Link>. At
                         the same time, Business Central can be structured
                         on-premises, on the cloud, and in hybrid locations.
                         Business Center provides the flexibility to operate and
@@ -819,11 +817,10 @@ const BusinessCentralPricingLicensing = () => {
                         Central, they need to contact Dynamics Square to resolve
                         all queries.</p><p>
                         See also - <ul>
-                        <li><Link href="/why-choose-microsoft-dynamics-365-business-central/">Why Choose Microsoft Dynamics 365 Business Central? </Link></li>
-                        <li><Link href="/products/dynamics-365-business-central/advantages-capabilities/">Business Central Advantages & Capabilities </Link></li>
-                        <li><Link href="/dynamics-365-business-central-vs-sap-business-one/">Business Central Vs SAP Business One </Link></li>
-                        <li><Link href="/dynamics-365-business-central-vs-netsuite/">Business Central Vs NetSuite
-</Link></li>
+                        <li><Link href="/why-choose-microsoft-dynamics-365-business-central/"><a target="_blank">Why Choose Microsoft Dynamics 365 Business Central? </a></Link></li>
+                        <li><Link href="/products/dynamics-365-business-central/advantages-capabilities/"><a target="_blank">Business Central Advantages & Capabilities </a></Link></li>
+                        <li><Link href="/dynamics-365-business-central-vs-sap-business-one/"><a target="_blank">Business Central Vs SAP Business One </a></Link></li>
+                        <li><Link href="/dynamics-365-business-central-vs-netsuite/"><a target="_blank">Business Central Vs NetSuite</a></Link></li>
 
                         </ul>
                       </p>

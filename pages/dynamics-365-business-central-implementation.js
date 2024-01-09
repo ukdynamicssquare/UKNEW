@@ -115,7 +115,7 @@ const BusinessCentralImplementation = () => {
                       <div className="accordion-body">
                         With{" "}
                         <Link href="/products/dynamics-365-business-central/">
-                          D365 Business Central
+                        <a target="_blank">D365 Business Central</a>
                         </Link>
                         , you can manage your inventory levels, forecast demand,
                         predict future potential, and drive smarter experiences
@@ -151,7 +151,7 @@ const BusinessCentralImplementation = () => {
                     >
                       <div className="accordion-body">
                         <Link href="/dynamics-365-business-central-implementation/">
-                          Implement Dynamics 365 Business Central
+                        <a target="_blank">Implement Dynamics 365 Business Central</a>
                         </Link>{" "}
                         to accelerate your entire sales process. Keep tracking
                         your interactions with your customers, get real-time
@@ -842,7 +842,7 @@ const BusinessCentralImplementation = () => {
                         performance to maximize profitability. Business Central
                         can be configured either{" "}
                         <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                          on-cloud or on-premises
+                        <a target="_blank">on-cloud or on-premises</a>
                         </Link>{" "}
                         depending on your specific needs. Further, it can be
                         customized as per your specific business domain or
@@ -855,11 +855,11 @@ const BusinessCentralImplementation = () => {
                         This helps to seamlessly manage, access, and drive your
                         data to attain overall success. To know{" "}
                         <Link href="/products/dynamics-365-business-central/advantages-capabilities/">
-                          how Business Central can help
+                        <a target="_blank">how Business Central can help</a>
                         </Link>{" "}
                         or work for your business, connect with{" "}
                         <Link href="/contact-us/">
-                          our experts at Dynamics Square
+                        <a target="_blank">our experts at Dynamics Square</a>
                         </Link>
                         . We can help.
                       </p>
@@ -937,7 +937,7 @@ const BusinessCentralImplementation = () => {
                         If you are seeking more information about D365 Business
                         Central, do not hesitate to contact our team of{" "}
                         <Link href="/products/microsoft-dynamics-365/">
-                          Dynamics 365 experts
+                        <a target="_blank">Dynamics 365 experts</a>
                         </Link>
                         .
                       </p>
@@ -1067,7 +1067,7 @@ const BusinessCentralImplementation = () => {
                       <p>
                         You can also contact us for a{" "}
                         <Link href="/free-dynamics-365-system-health-check/">
-                          free system health check
+                        <a target="_blank">free system health check</a>
                         </Link>{" "}
                         as we are here to implement your dream project in the
                         most productive way associated with our appropriate
