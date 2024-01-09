@@ -7,7 +7,7 @@ const PowerPlatform = () => {
   return (
     <>
       <Head>
-        <title>What is Microsoft Power Platform? | Dynamics Square</title>
+        <title>Microsoft Power Platform Partner UK | Dynamics Square</title>
         <meta
           name="description"
           content="Analyze data, create solutions, automate processes and create virtual agents with Microsoft Power Platform. Schedule a free power platform demo today."

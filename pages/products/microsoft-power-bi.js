@@ -12,7 +12,7 @@ const PowerBI = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power BI : Experts & Consulting Services - Dynamics Square</title>
+        <title>Microsoft Power BI Partner: Experts & Consultant - Dynamics Square UK</title>
         <meta
           name="description"
           content="Need Microsoft Power BI services in the UK? Hire a trusted Power BI expert to transform your data into actionable insights. Get free online consultation today."
@@ -620,7 +620,32 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Do you want to watch Power BI in Action?</h3>
+                <p>
+                  Discuss your business problems with our Power BI experts, we
+                  can reveal the best-in-class Power BI solution customized to
+                  your business.
+                </p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get Started Now</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
@@ -903,32 +928,7 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-      <section className="call-to-action-center hero-4">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="call-to-action-content">
-                <h3>Do you want to watch Power BI in Action?</h3>
-                <p>
-                  Discuss your business problems with our Power BI experts, we
-                  can reveal the best-in-class Power BI solution customized to
-                  your business.
-                </p>
-                <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Get Started Now</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       <section className="blogs-extra">
         <div className="container">
