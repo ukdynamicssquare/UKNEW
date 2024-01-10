@@ -865,7 +865,7 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="commen-rit-info commen-rit-info-na">
-                <h2>Exploring how Upgradation by Dynamics Square has the Distinctive Edge</h2>
+                <h2>Exploring how Upgrade by Dynamics Square has the Distinctive Edge</h2>
               </div>
             </div>
             <div className="col-lg-5">
