@@ -441,6 +441,13 @@ section {
   background: var(--color-blue) !important;
   color: #fff;
 }
+.btn-blue {
+  background-color: var(--color-blue)!important;
+  margin-right:30px
+}
+.btn-blue:hover {
+  background-color: var(--color-red)!important;
+}
 .navbar .dropdown ul {
   left: 14px;
   margin: 0;

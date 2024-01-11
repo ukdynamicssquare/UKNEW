@@ -634,6 +634,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                             <span>Contact us to get a quote</span>
                           </a>
                         </Link>
+                        
                       </div>
                     </div>
                       </div>
@@ -940,6 +941,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Purchase order creation: Expedite order processing by automating the purchase order creation.</li>
                       </ul>
                       <div className="call-butt">
+                        <Link href="/products/dynamics-365-business-central/warehouse-management/">
+                          <a
+                            className="btn-get-started btn-blue"
+                            target="_blank"
+                          >
+                            <span>Learn More</span>
+                          </a>
+                        </Link>
                         <Link href="#exampleModal">
                           <a
                             data-bs-toggle="modal"
