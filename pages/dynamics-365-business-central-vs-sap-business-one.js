@@ -66,7 +66,7 @@ const BCvsSap = () => {
                 <h2>Overview</h2>
                 <p>SMBs are booming, and so are the internal complexities that lead to unbalanced business operations. Such complexities are making businesses weak to generate profit, scale business, and control business for higher efficiency.</p>
                 <p>To resolve such business difficulties, business owners have started opting for cloud-based ERP solutions to streamline and simplify their entire business operations while pushing towards growth.</p>
-                <p><Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> and SAP Business One (B1) are such solutions that aid small and medium-sized businesses in strengthening their core processes.</p>
+                <p><Link href="/products/dynamics-365-business-central/"><a target="_blank">Microsoft Dynamics 365 Business Central</a></Link> and SAP Business One (B1) are such solutions that aid small and medium-sized businesses in strengthening their core processes.</p>
                 <p>It is obvious that one of these solutions is superior to another in terms of features, benefits, functionality, and usability. So, which one is the superior ERP system for your unique business?</p>
                 <p>To clarify this question, it totally depends on your unique business requirements. Once you understand your business, you will be able to properly make a neck-to-neck comparison of Business Central vs SAP Business One. </p>
                 <p>However, based on standard business requirements, our experienced technical consultants have done an in-depth analysis, and the result is given below in the form of a table.</p>
@@ -102,7 +102,7 @@ const BCvsSap = () => {
                   src="/img/businescentrallogo.png"
                   alt="businescentrallogo"
                 />
-                <p>It is a cloud-based <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link> specifically built for SMBs with the utmost user friendliness and smooth user experience. Embedded with automation and powerful capabilities, it can manage entire business operations using specific modules. Earlier known as <Link href="/products/microsoft-dynamics-nav/"><a>NAVISION</a></Link>, it is easy to customise and can be implemented in all industries regardless of type, size, and users.</p>
+                <p>It is a cloud-based <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link> specifically built for SMBs with the utmost user friendliness and smooth user experience. Embedded with automation and powerful capabilities, it can manage entire business operations using specific modules. Earlier known as <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">NAVISION</a></Link>, it is easy to customise and can be implemented in all industries regardless of type, size, and users.</p>
               </div>
             </div>
             <div className="col-md-6">
@@ -236,7 +236,7 @@ const BCvsSap = () => {
                 <h3>Support</h3>
                 <ul style={{padding:'10px 20px'}}>
                   <li><b>Business Central</b>
-                  <p>Microsoft or the certified <Link href="/our-services/dynamics-365-implementation-services/"><a>implantation partner</a></Link> offers seamless support to make your ERP system work all day and night. </p>
+                  <p>Microsoft or the certified <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">implantation partner</a></Link> offers seamless support to make your ERP system work all day and night. </p>
                   </li>
                   <li><b>SAP Business One</b>
                   <p>To properly utilise this application, or in case of any issue, you need to register a query with your <Link href="/our-services/dynamics-365-support-services/"><a>support partner</a></Link>. </p>
@@ -431,7 +431,7 @@ const BCvsSap = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>When we compare it with any of the ERP solutions available under the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 suite</a></Link>, SAP has various disadvantages. Like, it has a complex user interface, lacks manufacturing and service management modules, and has no payroll. Also, it is a bit costly when compared to Business Central.</p>
+                      <p>When we compare it with any of the ERP solutions available under the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft Dynamics 365 suite</a></Link>, SAP has various disadvantages. Like, it has a complex user interface, lacks manufacturing and service management modules, and has no payroll. Also, it is a bit costly when compared to Business Central.</p>
                     </div>
                   </div>
                 </div>
