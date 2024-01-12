@@ -341,6 +341,8 @@ export default function Home() {
                 className="icon"
                 width={1000}
                 height={800}
+                priority={true}
+                quality={75}
               />
             </div>
             
