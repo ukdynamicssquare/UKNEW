@@ -37,6 +37,8 @@ const MicrosoftDynamics365Ai = () => {
                 src="/img/Business-Central-FInance-Mangment.png"
                 alt="Business-Central-FInance-Mangment"
                 width={718} height={447}
+                priority={true}
+                quality={70}
               />
             </div>
           </div>
