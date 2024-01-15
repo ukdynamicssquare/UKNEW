@@ -33,14 +33,13 @@ const MicrosoftDynamics365Ai = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <figure className="my-fig">
               <Image
                 src="/img/Business-Central-FInance-Mangment.png"
                 alt="Business-Central-FInance-Mangment"
-                width={600} height={375}
+                width={718} height={447}
+                priority={true}
                 quality={70}
               />
-              </figure>
             </div>
           </div>
         </div>
@@ -221,7 +220,7 @@ const MicrosoftDynamics365Ai = () => {
                 <p>The financial module of <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link> comes with built-in intelligence to support the complex financial needs of the business. It can help you predict the requirements, perform financial forecasts, and optimise performance to make a business active for growth in all dimensions. The Dynamics 365 Business Central offers numerous functionalities to the business, among which some are discussed next:</p>
                 <div className="row" style={{paddingTop:'40px'}}>
                   <div className="col-lg-6">
-                  <p>
+         
                   <ul>
                       <li>Manage Multiple Currencies</li>
                       <li>Manage Financial Log</li>
@@ -232,10 +231,10 @@ const MicrosoftDynamics365Ai = () => {
                       <li>Assets Allocation</li>
                       <li>Credit Management</li>
                   </ul>
-                  </p>
+           
                   </div>
                   <div className="col-lg-6">
-                  <p>
+              
                   <ul>
                       <li>Budgeting</li>
                       <li>Direct Debits</li>
@@ -246,7 +245,7 @@ const MicrosoftDynamics365Ai = () => {
                       <li>Maintaining Cash Flows </li>
                       <li>Invoice Management</li>
                   </ul>
-                  </p>
+            
                   </div>
                 </div>
               </div>
@@ -333,15 +332,14 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="custom-p-001">
                 <p>The financial management module of Business Central offers streamlined account management along with managing customers, goods, and suppliers. Also, it provides great financial visibility and opens businesses to different opportunities for growth. With advanced tools and functionality, it enables the business to scale its processes to meet global customer demands. That's why it is the most suitable ERP solution for almost all businesses that are looking for ways to grow and expand their business. A few of the popular industries where <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">implementing the Business Central</a></Link> for Finance Management module can be a perfect fit are:  </p>
-                <p>
-                  <ul>
+                   <ul>
                       <li>Manufacturing</li>
                       <li>Automotive</li>
                       <li>Not-for-profit</li>
                       <li>Retail and Distribution</li>
                       <li>Healthcare</li>
                   </ul>
-                  </p>
+           
               </div>
             </div>
           </div>
