@@ -33,13 +33,14 @@ const MicrosoftDynamics365Ai = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
+              <figure className="my-fig">
               <Image
                 src="/img/Business-Central-FInance-Mangment.png"
                 alt="Business-Central-FInance-Mangment"
-                width={718} height={447}
-                priority={true}
+                width={600} height={375}
                 quality={70}
               />
+              </figure>
             </div>
           </div>
         </div>
