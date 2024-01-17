@@ -14,7 +14,7 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Services & Our Process | Dynamics Square UK</title>
+        <title>Dynamics 365 Implementation Services & Process | Dynamics Square UK</title>
         <meta
           name="description"
           content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets."
