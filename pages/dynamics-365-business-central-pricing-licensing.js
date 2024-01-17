@@ -7,7 +7,7 @@ const BusinessCentralPricingLicensing = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Business Central Pricing & Licensing (2023 UK) | Dynamics Square
+          Dynamics 365 Business Central Pricing & Licensing (2024 UK) | Dynamics Square
         </title>
         <meta
           name="description"
