@@ -119,7 +119,7 @@ const FinancevsSapErp = () => {
                 <p>
                   Team Dynamics Square has identified two market- leading{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    ERP solutions
+                  <a target="_blank">ERP solutions</a>
                   </Link>
                   for medium and large- size organizations - Microsoft Dynamics
                   365 Finance and Operations (or D365 F&O), and SAP ERP. The
@@ -145,7 +145,7 @@ const FinancevsSapErp = () => {
                 <p>
                   Built on the robust Microsoft infrastructure,{" "}
                   <Link href="/products/microsoft-dynamics-365-finance-operations/">
-                    D365 F&O
+                  <a target="_blank">D365 F&O</a>
                   </Link>{" "}
                   is an internationally recognized ERP system, known for its
                   comparatively lower implementation costs and seamless

@@ -28,7 +28,7 @@ const FinanceCloudvsOnpremise = () => {
                 Cloud vs On-Premise
               </h1>
               <p>
-              Streamline the entire finances of your business while enabling rapid growth and agility with <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link>. Being a popular, cost-effective, and powerful finance management business application, it is available in cloud and on-premises deployment options. You may be curious about the key differences of Dynamics 365 Finance cloud vs on-premises computing so that you can choose the best option for you. If so, this page contains answers for you.
+              Streamline the entire finances of your business while enabling rapid growth and agility with <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link>. Being a popular, cost-effective, and powerful finance management business application, it is available in cloud and on-premises deployment options. You may be curious about the key differences of Dynamics 365 Finance cloud vs on-premises computing so that you can choose the best option for you. If so, this page contains answers for you.
               </p>
               <br />
               <div>
@@ -382,7 +382,7 @@ const FinanceCloudvsOnpremise = () => {
           <header className="section-header">
             <h2>Why Choose Dynamics Square?</h2>
             <p>
-            We adopt Microsoft-certified methodologies to offer smooth services, whether it is <Link href="/our-services/dynamics-365-implementation-services/">implementation</Link>, <Link href="/our-services/dynamics-365-upgrade-services/">upgrade</Link>, or <Link href="/our-services/dynamics-365-support-services/">D365 support</Link>. Our sole mission is to provide high-quality services that will allow your company to grow quickly and profitably.
+            We adopt Microsoft-certified methodologies to offer smooth services, whether it is <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">implementation</a></Link>, <Link href="/our-services/dynamics-365-upgrade-services/"><a target="_blank">upgrade</a></Link>, or <Link href="/our-services/dynamics-365-support-services/"><a target="_blank">D365 support</a></Link>. Our sole mission is to provide high-quality services that will allow your company to grow quickly and profitably.
             </p>
           </header>
           <div className="row pad-3y">

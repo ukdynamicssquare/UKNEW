@@ -72,7 +72,7 @@ const ImplementationSales = () => {
                 <h2>How can D365 Sales enhance your business Growth?</h2>
                 <p>
                   <Link href="/products/microsoft-dynamics-365-sales/">
-                    D365 for Sales
+                    <a target="_blank">D365 for Sales</a>
                   </Link>{" "}
                   is a best-in-class cloud-based ERP solution that can
                   seamlessly streamline your entire sales management, enhancing
@@ -604,15 +604,15 @@ const ImplementationSales = () => {
                       We have a team of certified professionals with years of
                       experience in providing{" "}
                       <Link href="/our-services/dynamics-365-implementation-services/">
-                        implementation
+                        <a target="_blank">implementation</a>
                       </Link>
                       ,{" "}
                       <Link href="/our-services/dynamics-365-upgrade-services/">
-                        upgrade
+                        <a target="_blank">upgrade</a>
                       </Link>
                       , and{" "}
                       <Link href="/our-services/dynamics-365-support-services/">
-                        support services
+                        <a target="_blank">support services</a>
                       </Link>{" "}
                       to businesses like yours.{" "}
                     </p>
@@ -814,7 +814,7 @@ const ImplementationSales = () => {
                 <p>
                   Being flexible{" "}
                   <Link href="/products/microsoft-dynamics-crm/">
-                    CRM application
+                    <a target="_blank">CRM application</a>
                   </Link>
                   , you can easily increase its capabilities and features with
                   your business growth. You can start today with the current
@@ -901,7 +901,7 @@ const ImplementationSales = () => {
                         about your current processes and future needs so that we
                         can implement a perfect{" "}
                         <Link href="/products/microsoft-dynamics-crm/">
-                          D365 CRM
+                          <a target="_blank">D365 CRM</a>
                         </Link>{" "}
                         sales solution for you. Also, you need to be cooperative
                         during the process for a seamless and smooth
@@ -994,23 +994,23 @@ const ImplementationSales = () => {
                       <ul>
                         <li>
                           <Link href="/products/microsoft-dynamics-365-field-service/">
-                            Dynamics 365 Field Service
+                            <a target="_blank">Dynamics 365 Field Service</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/dynamics-365-customer-engagement/">
-                            Dynamics 365 Customer Engagement
+                            <a target="_blank">Dynamics 365 Customer Engagement</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/products/microsoft-dynamics-ax/">
-                            Microsoft Dynamics AX
+                            <a target="_blank">Microsoft Dynamics AX</a>
                           </Link>
                         </li>
                         <li>
                           <a
-                            target="_self"
-                            href="https://www.dynamicssquare.co.uk/blog/dynamics-365-sales-implementation-guide/"
+                            target="_blank"
+                            href="/blog/dynamics-365-sales-implementation-guide/"
                           >
                             Microsoft Dynamics 365 Sales Implementation Guide
                           </a>

@@ -116,7 +116,7 @@ const MarketingImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/microsoft-dynamics-365-marketing/">
-                            Dynamics 365 Marketing
+                            <a target="_blank">Dynamics 365 Marketing</a>
                           </Link>{" "}
                           allows the users to collaborate and share all kinds of
                           marketing data in real-time, ensuring a smooth
@@ -156,7 +156,7 @@ const MarketingImplementation = () => {
                           all depends on various fluctuating factors and
                           conditions. However,{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            Dynamics 365
+                            <a target="_blank">Dynamics 365</a>
                           </Link>{" "}
                           allows the organisation or the user to make real-time,
                           data driven decisions anytime and anywhere to reduce
@@ -800,7 +800,7 @@ const MarketingImplementation = () => {
                 <p>
                   Because it's a versatile{" "}
                   <Link href="/products/microsoft-dynamics-crm/">
-                    CRM solution
+                    <a target="_blank">CRM solution</a>
                   </Link>
                   , you can quickly extend its capabilities in accordance with
                   the expansion of your organisation and shifting consumer
@@ -984,17 +984,17 @@ const MarketingImplementation = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-finance-implementation/">
-                            Dynamics 365 Finance Implementation
+                            <a target="_blank">Dynamics 365 Finance Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/power-bi-implementation/">
-                            Power BI Implementation
+                            <a target="_blank">Power BI Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/dynamics-365-sales-implementation/">
-                            Dynamics 365 Sales Implementation
+                            <a target="_blank">Dynamics 365 Sales Implementation</a>
                           </Link>
                         </li>
                       </ul>

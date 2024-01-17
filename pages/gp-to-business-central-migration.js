@@ -88,11 +88,11 @@ const WhyMigrade360 = () => {
                 <p>If your GP is working absolutely fine and you are not facing any issues in terms of updates, upgrades, or support, you can continue using this solution.</p>
                 <br />
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Migrate to a New ERP </h3>
-                <p>If your Dynamics GP is unable to align with the changing demands of your business, you should consider migrating or upgrading to a new ERP that understands your business. Based on your requirements, you can opt for an ERP solution like <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Microsoft Dynamics 365 Finance and Operations</a></Link> or Business Central.</p>
+                <p>If your Dynamics GP is unable to align with the changing demands of your business, you should consider migrating or upgrading to a new ERP that understands your business. Based on your requirements, you can opt for an ERP solution like <Link href="/products/microsoft-dynamics-365-finance-operations/"><a target="_blank">Microsoft Dynamics 365 Finance and Operations</a></Link> or Business Central.</p>
                 <br />
 
                 <h3 style={{fontSize:"18px",fontWeight:"500"}}>Migrate to Microsoft Business Central </h3>
-                <p>Your cloud system provider will make sure to update and upgrade your system on time without hampering your existing business operations. Also, the <Link href="/"><a>ERP implementation partner</a></Link> will ensure timely maintenance, reducing overall downtime.</p>
+                <p>Your cloud system provider will make sure to update and upgrade your system on time without hampering your existing business operations. Also, the <Link href="/"><a target="_blank">ERP implementation partner</a></Link> will ensure timely maintenance, reducing overall downtime.</p>
                 <br />
                <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/nTl0_n7rnxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
               </div>
@@ -308,7 +308,7 @@ const WhyMigrade360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Unique businesses have unique requirements, and to help such businesses, you can customise these powerful solutions with the help of a certified Business Central partner to <Link href="/our-services/dynamics-365-support-services/"><a>support</a></Link> your specific needs. 
+                      Unique businesses have unique requirements, and to help such businesses, you can customise these powerful solutions with the help of a certified Business Central partner to <Link href="/our-services/dynamics-365-support-services/"><a target="_blank">support</a></Link> your specific needs. 
                       </div>
                     </div>
                   </div>

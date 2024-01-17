@@ -104,8 +104,8 @@ const WhyMigrade360 = () => {
                 <h2>Integrate Magento with Dynamics 365 (NAV) </h2>
                 <p>Organisations are moving from offline to online business to connect with more customers and sell globally. With the growth of a business, complexity comes side by side. </p>
                 <p>Complexities like tracking processes, optimising core operations, maintaining resources, getting accurate insights, automating tasks, and managing the entire business.</p>
-                <p><Link href="/products/microsoft-dynamics-erp/"><a>Microsoft Dynamics 365 ERP</a></Link> has resolved the issue of business management while offering a unified platform to manage all operations. This is so powerful that it allows 100+ integrations for different tasks to enhance overall efficiency.</p>
-                <p>Magento is one such integration that flawlessly integrates with <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> to let you manage your e-store from a single interface. It enables employees to fetch customer details, sync different orders, manage vendors, capture product information, streamline inventory, and much more.</p>
+                <p><Link href="/products/microsoft-dynamics-erp/"><a target="_blank">Microsoft Dynamics 365 ERP</a></Link> has resolved the issue of business management while offering a unified platform to manage all operations. This is so powerful that it allows 100+ integrations for different tasks to enhance overall efficiency.</p>
+                <p>Magento is one such integration that flawlessly integrates with <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> to let you manage your e-store from a single interface. It enables employees to fetch customer details, sync different orders, manage vendors, capture product information, streamline inventory, and much more.</p>
               </header>
             </div>
           </div>
@@ -318,7 +318,7 @@ const WhyMigrade360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      You can integrate multiple Magento e-commerce stores with a single <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 solution</a></Link> without any issues and streamline stores altogether. 
+                      You can integrate multiple Magento e-commerce stores with a single <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">Dynamics 365 solution</a></Link> without any issues and streamline stores altogether. 
                       </div>
                     </div>
                   </div>
@@ -374,7 +374,7 @@ const WhyMigrade360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      With the integration of Magento with <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>, you can customise the entire system based on your core business requirements to make it more productive and efficient. 
+                      With the integration of Magento with <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">Dynamics NAV</a></Link>, you can customise the entire system based on your core business requirements to make it more productive and efficient. 
                       </div>
                     </div>
                   </div>

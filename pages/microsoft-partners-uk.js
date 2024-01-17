@@ -65,7 +65,7 @@ const PartnerUK = () => {
           <div className="container">
             <header className="section-header">
               <h2>Why Dynamics Square?</h2>
-              <p>Microsoft has designated Dynamics Square as one of the top and most reliable Dynamics partners based in the UK. This makes us committed to offering our hassle-free, cost-effective, and seamless services for all Microsoft business solutions, including <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link> and <Link href="/products/microsoft-dynamics-365"><a>Microsoft Dynamics 365</a></Link>. </p>
+              <p>Microsoft has designated Dynamics Square as one of the top and most reliable Dynamics partners based in the UK. This makes us committed to offering our hassle-free, cost-effective, and seamless services for all Microsoft business solutions, including <Link href="/products/microsoft-power-platform/"><a target="_blank">Microsoft Power Platform</a></Link> and <Link href="/products/microsoft-dynamics-365"><a target="_blank">Microsoft Dynamics 365</a></Link>. </p>
               <p>With extensive experience in different industries, a deep understanding of products, optimal resources, and the expertise of consultants, we would be the best option for you. The best can transform your business and push it towards sustainable success.</p>
             </header>
             <div className="row pad-3y justify-content-center" style={{paddingTop:'30px'}}>
@@ -103,7 +103,7 @@ const PartnerUK = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Power Platform</h3>
-                  <p>Integrate power solutions to accelerate your business's performance while simplifying existing processes. Enhance the capabilities of a module or a department implementing advanced applications of the Power Platform, like <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> and <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>.</p>
+                  <p>Integrate power solutions to accelerate your business's performance while simplifying existing processes. Enhance the capabilities of a module or a department implementing advanced applications of the Power Platform, like <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link> and <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>.</p>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ const PartnerUK = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Microsoft Azure</h3>
-                  <p>Get streamlined cloud storage to enable your business to take advantage of global business opportunities. Built using AI and other advanced technologies, <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link> is a ready-to-implement product to help you resolve today's challenges and build future possibilities. </p>
+                  <p>Get streamlined cloud storage to enable your business to take advantage of global business opportunities. Built using AI and other advanced technologies, <Link href="/products/microsoft-azure/"><a target="_blank">Microsoft Azure</a></Link> is a ready-to-implement product to help you resolve today's challenges and build future possibilities. </p>
                 </div>
               </div>
 

@@ -56,7 +56,7 @@ const Bcinsights = () => {
             <div className="col-lg-10 col-md-9">
               <header className="section-header">
                 <h2>Enhance Warehouse Efficiency while leveraging Inventory Management</h2>
-                <p>When it comes to streamlining the entire warehouse operations of a business, whether production, manufacturing, or distribution, no one is superior to Insight Works. As a market leader, it provides seamless capabilities for managing and tracking stocks without error. Insight Works is a solution built to align with <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> and <Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link>.</p>
+                <p>When it comes to streamlining the entire warehouse operations of a business, whether production, manufacturing, or distribution, no one is superior to Insight Works. As a market leader, it provides seamless capabilities for managing and tracking stocks without error. Insight Works is a solution built to align with <Link href="/products/dynamics-365-business-central/"><a target="_blank">Microsoft Dynamics 365 Business Central</a></Link> and <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">Microsoft Dynamics NAV</a></Link>.</p>
                 <p>Insight Works is a set of 15 applications, of which four are flagship applications and the remaining are available for free. These applications easily integrate with Business Central to offer great warehouse management capabilities and functionalities. Some of the intelligent applications include Fixed Asset Count, DocXtender, Dynamic Express, WMS Express, Warehouse Insight, Shop Floor Data Collection, and Barcode Generator.</p>
                 <p>Automate inventory management, collect floor insights, and improve your operational productivity.</p>
               </header>
@@ -100,7 +100,7 @@ const Bcinsights = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Business Central is a flexible <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link> built specifically for SMBs, irrespective of the industry. With its advanced capabilities, it easily integrates with various solutions to enhance the overall efficiency. Insights Works is one such integration that fully integrates with Business Central, resulting in enhanced productivity and outputs.</p>
+                        <p>Business Central is a flexible <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solution</a></Link> built specifically for SMBs, irrespective of the industry. With its advanced capabilities, it easily integrates with various solutions to enhance the overall efficiency. Insights Works is one such integration that fully integrates with Business Central, resulting in enhanced productivity and outputs.</p>
                       </div>
                     </div>
                   </div>

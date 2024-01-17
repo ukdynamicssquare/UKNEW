@@ -119,7 +119,7 @@ const FieldServicesImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/microsoft-dynamics-365-field-service/">
-                            D365 Field Service
+                          <a target="_blank">D365 Field Service</a>
                           </Link>{" "}
                           is a powerful tool that comes with in-built modern
                           technologies to help you empower your team, whether
@@ -185,7 +185,7 @@ const FieldServicesImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/microsoft-dynamics-365">
-                            Dynamics 365
+                          <a target="_blank">Dynamics 365</a>
                           </Link>{" "}
                           Field Service offers a remote access feature to
                           seamlessly rectify the issues. It provides a
@@ -799,7 +799,7 @@ const FieldServicesImplementation = () => {
                 <p>
                   Being a flexible{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    ERP solution
+                  <a target="_blank">ERP solution</a>
                   </Link>
                   , you can easily increase its capabilities based on your
                   business growth and changing modern needs. You can start today
@@ -986,17 +986,17 @@ const FieldServicesImplementation = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-finance-implementation/">
-                            Dynamics 365 Finance Implementation
+                          <a target="_blank">Dynamics 365 Finance Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/power-bi-implementation/">
-                            Power BI Implementation
+                          <a target="_blank">Power BI Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/dynamics-365-sales-implementation/">
-                            Dynamics 365 Sales Implementation
+                          <a target="_blank">Dynamics 365 Sales Implementation</a>
                           </Link>
                         </li>
                       </ul>

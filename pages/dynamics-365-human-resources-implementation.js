@@ -118,7 +118,7 @@ const HumanResourceImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/dynamics-365-human-resources/">
-                            Dynamics 365 Human Resources
+                          <a target="_blank">Dynamics 365 Human Resources</a>
                           </Link>{" "}
                           is a practical solution that displays all employees'
                           centralised data, regardless of location, on a single
@@ -334,7 +334,7 @@ const HumanResourceImplementation = () => {
                           engaged with the company, resulting in a high employee
                           retention rate and low resignation rate.{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                            Dynamics 365
+                            <a target="_blank">Dynamics 365</a>
                           </Link>{" "}
                           provides a platform consisting of all data and
                           necessary information with the flexibility to access
@@ -817,7 +817,7 @@ const HumanResourceImplementation = () => {
                 <p>
                   Being a flexible{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    ERP solution
+                    <a target="_blank">ERP solution</a>
                   </Link>
                   , you can easily increase its capabilities based on your
                   business growth and changing modern needs. You can start today
@@ -999,17 +999,17 @@ const HumanResourceImplementation = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-finance-implementation/">
-                            Dynamics 365 Finance Implementation
+                            <a target="_blank">Dynamics 365 Finance Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/power-bi-implementation/">
-                            Power BI Implementation
+                            <a target="_blank">Power BI Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/dynamics-365-sales-implementation/">
-                            Dynamics 365 Sales Implementation
+                            <a target="_blank">Dynamics 365 Sales Implementation</a>
                           </Link>
                         </li>
                       </ul>

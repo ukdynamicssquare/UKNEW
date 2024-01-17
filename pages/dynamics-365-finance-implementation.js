@@ -80,7 +80,7 @@ const FinanceImplementation = () => {
               <div className="custom-p-001">
                 <p>
                   <Link href="/products/microsoft-dynamics-365-finance/">
-                    Microsoft Dynamics 365 Finance
+                  <a target="_blank">Microsoft Dynamics 365 Finance</a>
                   </Link>{" "}
                   (formerly known as Dynamics 365 Finance &amp; Operations) is
                   designed to automate, streamline, and faster your finance
@@ -97,7 +97,7 @@ const FinanceImplementation = () => {
                 <p>
                   Experts at Dynamics Square - an authorized{" "}
                   <Link href="/">
-                    <strong>Microsoft Gold Partner</strong>
+                    <a>Microsoft Gold Partner</a>
                   </Link>{" "}
                   have the proficiency to understand your complex business
                   requirement and undertake challenges involved to deliver
@@ -568,7 +568,7 @@ const FinanceImplementation = () => {
                     automation and accuracy wrapped with a simplified process to
                     effectively manage your global payments, taxes, and more.
                   </p>
-                  <p>See Also: <Link href="/d365-supply-chain-management-implementation/">Dynamics 365 Supply Chain Implementation</Link></p>
+                  <p>See Also: <Link href="/d365-supply-chain-management-implementation/"><a target="_blank">Dynamics 365 Supply Chain Implementation</a></Link></p>
                 </div>
               </div>
             </div>

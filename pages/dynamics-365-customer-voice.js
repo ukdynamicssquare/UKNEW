@@ -89,7 +89,7 @@ const CustomerVoice = () => {
                 <p>Dynamics 365 Customer Voice is a feedback management solution capable of managing, storing, and collecting customer feedback effortlessly.</p>
                 <p>It collects feedback using interactive surveys that can be built using pre-made templates, and the data can be captured from internal as well as external customers.</p>
                 <p>Feedback lets the business understand the exact requirements and improvements a customer needs in the product so that their exact problem can be resolved with minimal effort.</p>
-                <p>There are numerous parameters to understand the customer, and D365 Customer Voice offers similar actionable metrics in real-time by fetching the survey data using various questions. Later, you can integrate other native Microsoft applications, and Power platform including <Link href="/products/microsoft-power-automate/"><a>Power Automate</a></Link>, <Link href="/products/microsoft-power-virtual-agents/"><a>Power Virtual Agents</a></Link>, <Link href="/products/microsoft-power-apps/"><a>Power Apps</a></Link>, <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link>, and Microsoft Dynamics 365 Marketing.</p>
+                <p>There are numerous parameters to understand the customer, and D365 Customer Voice offers similar actionable metrics in real-time by fetching the survey data using various questions. Later, you can integrate other native Microsoft applications, and Power platform including <Link href="/products/microsoft-power-automate/"><a target="_blank">Power Automate</a></Link>, <Link href="/products/microsoft-power-virtual-agents/"><a target="_blank">Power Virtual Agents</a></Link>, <Link href="/products/microsoft-power-apps/"><a target="_blank">Power Apps</a></Link>, <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Microsoft Dynamics 365</a></Link>, and Microsoft Dynamics 365 Marketing.</p>
                 <p>With the integration, you can easily capture the data metrics of the customer, resulting in personalised surveys to get to know your audience and their experience with the product in a more realistic way. A personalised approach will make the relationship with the customer stronger and sustainable.</p>
               </div>
             </div>
@@ -172,7 +172,7 @@ const CustomerVoice = () => {
                 <ul>
                   <li>Periodic customer feedback template to collect responses on customer sentiment and satisfaction.</li>
                   <li>Order delivery template (for collecting feedback after delivering a product) is used to collect the level of customer satisfaction, product sentiment, and net promoter score.</li>
-                  <li>Survey visit template (after a scheduled customer visit aligned with <Link href="/products/microsoft-dynamics-365-field-service/"><a>D365 Field Service</a></Link>) to collect customer sentiment and satisfaction.</li>
+                  <li>Survey visit template (after a scheduled customer visit aligned with <Link href="/products/microsoft-dynamics-365-field-service/"><a target="_blank">D365 Field Service</a></Link>) to collect customer sentiment and satisfaction.</li>
                   <li>Support template to measure customer satisfaction and sentiments. </li>
                 </ul>
                 <br />
@@ -280,7 +280,7 @@ const CustomerVoice = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      D365 Customer Voice is adaptable in terms of integrating native and third-party applications. When it comes to native applications, you can connect Microsoft Dynamics 365, Microsoft <Link href="/products/microsoft-dynamics-365-customer-service/"><a>Dynamics 365 Customer Service</a></Link>, <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link>, <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>, and more. 
+                      D365 Customer Voice is adaptable in terms of integrating native and third-party applications. When it comes to native applications, you can connect Microsoft Dynamics 365, Microsoft <Link href="/products/microsoft-dynamics-365-customer-service/"><a target="_blank">Dynamics 365 Customer Service</a></Link>, <Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">Dynamics 365 Sales</a></Link>, <Link href="/products/microsoft-dynamics-365-marketing/"><a target="_blank">Dynamics 365 Marketing</a></Link>, and more. 
                       </div>
                     </div>
                   </div>
@@ -306,7 +306,7 @@ const CustomerVoice = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      The best part about this application is that you can view the responses using graphical representation via charts and bars, like we can do in <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link>. Even so, you can view the data related to customer satisfaction, sentiments, the net promoter score, and more.
+                      The best part about this application is that you can view the responses using graphical representation via charts and bars, like we can do in <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>. Even so, you can view the data related to customer satisfaction, sentiments, the net promoter score, and more.
                       </div>
                     </div>
                   </div>
@@ -386,7 +386,7 @@ const CustomerVoice = () => {
             <div className="col-lg-12">
               <p style={{fontSize:'20px',color:'#444',fontWeight:'600'}}>There are two ways you can avail yourself of this application.</p>
               <ul>
-                <li>If you use Dynamics 365 Sales Enterprise, Dynamics 365 Customer Service Enterprise, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Customer Insights, <Link href="/products/dynamics-365-human-resources/"><a>Dynamics 365 Human Resources</a></Link>, or Dynamics 365 Project Service Automation, you will get the D365 Customer inbuilt at a monthly rate of 2000 survey responses. Once you exhaust this limit, you can purchase additional responses separately at the rate of £75.40 per survey with 1000 responses.</li>
+                <li>If you use Dynamics 365 Sales Enterprise, Dynamics 365 Customer Service Enterprise, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Customer Insights, <Link href="/products/dynamics-365-human-resources/"><a target="_blank">Dynamics 365 Human Resources</a></Link>, or Dynamics 365 Project Service Automation, you will get the D365 Customer inbuilt at a monthly rate of 2000 survey responses. Once you exhaust this limit, you can purchase additional responses separately at the rate of £75.40 per survey with 1000 responses.</li>
                 <li>If you are a new customer and don't have access to any of the Dynamics 365 applications, you have to pay £150.80 for 2000 responses per tenant per month.</li>
               </ul>
               <div className="tabls-cloud table-responsive">

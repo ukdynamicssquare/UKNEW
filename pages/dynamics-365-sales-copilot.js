@@ -49,7 +49,7 @@ const Dynamics365SalesCopilot = () => {
             <div className="col-lg-10">
             <header className="section-header">
             <h2>What Is Dynamics 365 Sales Copilot? </h2>
-            <p>Copilot is an enterprise-ready AI that harnesses the power of the latest technology by combining the LLM (large language models) with your data available in <Link href="/products/microsoft-dynamics-365-sales/"><a>Microsoft Dynamics 365 Sales</a></Link>. Copilot is backed by OpenAI's ChatGPT technology, leveraging sophisticated data processing and orchestration engine technology to unlock business productivity and overall effectiveness. Businesses can utilize Copilot to avail themselves of a quick summary of a call or an email, track lead records, monitor sales updates, collect data from meetings, and get the latest update about a client. </p>
+            <p>Copilot is an enterprise-ready AI that harnesses the power of the latest technology by combining the LLM (large language models) with your data available in <Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">Microsoft Dynamics 365 Sales</a></Link>. Copilot is backed by OpenAI's ChatGPT technology, leveraging sophisticated data processing and orchestration engine technology to unlock business productivity and overall effectiveness. Businesses can utilize Copilot to avail themselves of a quick summary of a call or an email, track lead records, monitor sales updates, collect data from meetings, and get the latest update about a client. </p>
             <p>Being a smart AI assistant, Copilot comes with a chat interface that can be integrated into any Microsoft application. Using normal languages can help your team members directly capture the data in real-time from Outlook, Teams, or any other app in the Microsoft 365 ecosystem. </p>
           </header>
             </div>
@@ -83,7 +83,7 @@ const Dynamics365SalesCopilot = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Build Sustainable Workflow </h3>
-                  <p>Connect different Microsoft apps to build a sustainable connection for efficient data workflow between <Link href="/products/microsoft-dynamics-crm/"><a>Microsoft CRM</a></Link> and other apps. Create, update, or edit data in one application and find the changes in another. </p>
+                  <p>Connect different Microsoft apps to build a sustainable connection for efficient data workflow between <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">Microsoft CRM</a></Link> and other apps. Create, update, or edit data in one application and find the changes in another. </p>
                 </div>
               </div>
             
@@ -252,7 +252,7 @@ const Dynamics365SalesCopilot = () => {
             </div>
 
             <div className="col-lg-12 col-md-12 pric-t-p">
-              <p>To access Sales Copilot in Outlook, Excel, and Microsoft Teams, you will need a product licence for <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> or Office 365 for Enterprise. For a detailed Dynamics 365 sales pricing structure, you can check out the official Microsoft Dynamics 365 page.</p>
+              <p>To access Sales Copilot in Outlook, Excel, and Microsoft Teams, you will need a product licence for <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> or Office 365 for Enterprise. For a detailed Dynamics 365 sales pricing structure, you can check out the official Microsoft Dynamics 365 page.</p>
               <div className="price-btn price-btnasd d-flex justify-content-center">
                 <Link  href="#exampleModal">
                   <a

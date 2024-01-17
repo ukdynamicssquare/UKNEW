@@ -62,7 +62,7 @@ const Dynamics365vsSalesForce = () => {
           <div className="row p-lg-6">
             <div className="col-lg-7 align-self-center">
               <p>
-              Currently, there are various <Link href="/products/microsoft-dynamics-crm/">CRM solutions</Link> available on the market that claim to be ideal for your business. Those businesses that want to transform the way they operate their customer management operations have to intelligently choose the perfect CRM solutions. They need to analyse the compatibility and adaptability of the solutions with their business operations before making a decision.</p>
+              Currently, there are various <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">CRM solutions</a></Link> available on the market that claim to be ideal for your business. Those businesses that want to transform the way they operate their customer management operations have to intelligently choose the perfect CRM solutions. They need to analyse the compatibility and adaptability of the solutions with their business operations before making a decision.</p>
                 
                 <p>
                 Based on the type of organisation, size, and niche, there are various CRM solutions available to meet the different demands of businesses. You need to explore all options, capabilities, and features before selecting the right solution. However, you can get help from Dynamics Square to make the search smoother and simpler for you.
@@ -74,7 +74,7 @@ const Dynamics365vsSalesForce = () => {
               To help you choose the right CRM solution for your business, our experts have already identified and compared the features and functions between <strong>Microsoft Dynamics 365 vs Salesforce</strong>. Before getting into the in-depth comparison, let's understand a bit about these two applications.
               </p>
               <p>
-              <strong><Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link></strong> is a suite of ERP and CRM applications built to aid businesses with their different needs. In this suite, you will find business applications related to finance, HR, CRM, supply chain management, sales, marketing, customer service, and more. Microsoft offers the flexibility to connect different apps, including <Link href="/products/microsoft-dynamics-365-sales/">D365 for Sales</Link> , <Link href="/products/microsoft-dynamics-365-customer-service/">D365 for Customer Service</Link> , and <Link href="/products/microsoft-dynamics-365-commerce/">D365 for Commerce</Link> , to enhance the overall performance of Dynamics 365 CRM.
+              <strong><Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link></strong> is a suite of ERP and CRM applications built to aid businesses with their different needs. In this suite, you will find business applications related to finance, HR, CRM, supply chain management, sales, marketing, customer service, and more. Microsoft offers the flexibility to connect different apps, including <Link href="/products/microsoft-dynamics-365-sales/"><a target="_blank">D365 for Sales</a></Link> , <Link href="/products/microsoft-dynamics-365-customer-service/"><a target="_blank">D365 for Customer Service</a></Link> , and <Link href="/products/microsoft-dynamics-365-commerce/"><a target="_blank">D365 for Commerce</a></Link> , to enhance the overall performance of Dynamics 365 CRM.
               </p>
               <p>
               <strong>Salesforce</strong> CRM consists of different modules to streamline customer relationship management. You can select the type of module based on your company's requirements. You will find the sales, marketing, automation, field services, and other similar modules in it. 
@@ -400,14 +400,14 @@ const Dynamics365vsSalesForce = () => {
                   Flexible licencing model with competitive pricing, best for SMBs.
                   </li>
                   <li>
-                  Native and third-party integrations are available to enhance overall efficiency. You can easily integrate Office 365, Outlook, SharePoint, <Link href="/products/microsoft-power-bi/">Power BI</Link>, and more.  
+                  Native and third-party integrations are available to enhance overall efficiency. You can easily integrate Office 365, Outlook, SharePoint, <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>, and more.  
                   </li>
                   <li>Comes with 99.9% uptime using a committed SLA.</li>
                   <li>
                     Interactive, simple, and intuitive interface to enhance the overall user-experience.
                   </li>
                   <li>
-                  Automate most of the marketing operations using <Link href="/products/microsoft-dynamics-365-marketing/">Dynamics 365 Marketing</Link>.
+                  Automate most of the marketing operations using <Link href="/products/microsoft-dynamics-365-marketing/"><a target="_blank">Dynamics 365 Marketing</a></Link>.
                   </li>
                   <li>
                   Collect and share customer data in real-time to offer a personalised experience.
@@ -481,7 +481,7 @@ const Dynamics365vsSalesForce = () => {
               <br />
               <br />
               <b>
-              To further compare the pros and cons of Dynamics 365 CRM vs Salesforce, you can book a call with the team at Dynamics Square, a <Link href="/">Microsoft certified CRM partner</Link>, and resolve all your queries.
+              To further compare the pros and cons of Dynamics 365 CRM vs Salesforce, you can book a call <br /> with the team at Dynamics Square, a <Link href="/"><a>Microsoft certified CRM partner</a></Link>, and resolve all your queries.
               </b>
             </p>
           </div>

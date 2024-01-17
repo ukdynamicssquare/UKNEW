@@ -79,7 +79,7 @@ const CustomerServiceImplementation = () => {
                 </h2>
                 <p>
                   <Link href="/products/microsoft-dynamics-365-customer-service/">
-                    Dynamics 365 Customer Service
+                  <a target="_blank">Dynamics 365 Customer Service</a>
                   </Link>{" "}
                   is a world-class business solution capable of delivering
                   exceptional support to customers by offering a personalized,
@@ -153,7 +153,7 @@ const CustomerServiceImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/microsoft-dynamics-365">
-                            Dynamics 365
+                          <a target="_blank">Dynamics 365</a>
                           </Link>{" "}
                           CS comes with virtual agents that resolve most of the
                           general queries without bothering the team using
@@ -870,7 +870,7 @@ const CustomerServiceImplementation = () => {
                 <p>
                   Being a flexible{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    ERP solution
+                  <a target="_blank">ERP solution</a>
                   </Link>
                   , you can easily increase its capabilities based on your
                   business growth and changing modern needs. You can start today
@@ -1054,17 +1054,17 @@ const CustomerServiceImplementation = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-finance-implementation/">
-                            Dynamics 365 Finance Implementation
+                          <a target="_balnk"></a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/power-bi-implementation/">
-                            Power BI Implementation
+                          <a target="_blank">Power BI Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/dynamics-365-sales-implementation/">
-                            Dynamics 365 Sales Implementation
+                          <a target="_blank">Dynamics 365 Sales Implementation</a>
                           </Link>
                         </li>
                       </ul>

@@ -120,7 +120,7 @@ const ProjectOperationImplementation = () => {
                       <div className="accordion-body">
                         <p>
                           <Link href="/products/dynamics-365-project-operations/">
-                            Dynamics 365 Project Operations
+                            <a target="_blank">Dynamics 365 Project Operations</a>
                           </Link>{" "}
                           provides a unified platform to connect and collaborate
                           while providing a transparent and concise view of each
@@ -366,7 +366,7 @@ const ProjectOperationImplementation = () => {
                           adaptable to all changing business needs as per market
                           and customer demand.
                           <Link href="/products/microsoft-dynamics-365/">
-                            D365
+                            <a target="_blank">D365</a>
                           </Link>{" "}
                           Project Operations is flexible with unique
                           customizations to perform specific business
@@ -633,15 +633,15 @@ const ProjectOperationImplementation = () => {
                       We have a team of certified professionals with years of
                       experience in providing{" "}
                       <Link href="/our-services/dynamics-365-implementation-services/">
-                        implementation
+                        <a target="_blank">implementation</a>
                       </Link>
                       ,{" "}
                       <Link href="/our-services/dynamics-365-upgrade-services/">
-                        upgrade
+                        <a target="_blank">upgrade</a>
                       </Link>
                       , and{" "}
                       <Link href="/our-services/dynamics-365-support-services/">
-                        support services
+                        <a target="_blank">support services</a>
                       </Link>{" "}
                       to businesses like yours.
                     </p>
@@ -810,7 +810,7 @@ const ProjectOperationImplementation = () => {
                 <p>
                   Being a flexible{" "}
                   <Link href="/products/microsoft-dynamics-erp/">
-                    ERP solution
+                    <a target="_blank">ERP solution</a>
                   </Link>
                   , you can easily increase its capabilities based on your
                   business growth and changing modern needs. You can start today
@@ -996,17 +996,17 @@ const ProjectOperationImplementation = () => {
                       <ul>
                         <li>
                           <Link href="/dynamics-365-finance-implementation/">
-                            Dynamics 365 Finance Implementation
+                            <a target="_blank">Dynamics 365 Finance Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/power-bi-implementation/">
-                            Power BI Implementation
+                            <a target="_blank">Power BI Implementation</a>
                           </Link>
                         </li>
                         <li>
                           <Link href="/dynamics-365-sales-implementation/">
-                            Dynamics 365 Sales Implementation
+                            <a target="_blank">Dynamics 365 Sales Implementation</a>
                           </Link>
                         </li>
                       </ul>

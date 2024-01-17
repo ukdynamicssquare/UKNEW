@@ -102,7 +102,7 @@ const BCvsSap = () => {
                   src="/img/businescentrallogo.png"
                   alt="businescentrallogo"
                 />
-                <p>It is a cloud-based <Link href="/products/microsoft-dynamics-erp/"><a>ERP solution</a></Link> specifically built for SMBs with the utmost user friendliness and smooth user experience. Embedded with automation and powerful capabilities, it can manage entire business operations using specific modules. Earlier known as <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">NAVISION</a></Link>, it is easy to customise and can be implemented in all industries regardless of type, size, and users.</p>
+                <p>It is a cloud-based <Link href="/products/microsoft-dynamics-erp/"><a target="_blank">ERP solution</a></Link> specifically built for SMBs with the utmost user friendliness and smooth user experience. Embedded with automation and powerful capabilities, it can manage entire business operations using specific modules. Earlier known as <Link href="/products/microsoft-dynamics-nav/"><a target="_blank">NAVISION</a></Link>, it is easy to customise and can be implemented in all industries regardless of type, size, and users.</p>
               </div>
             </div>
             <div className="col-md-6">
@@ -239,7 +239,7 @@ const BCvsSap = () => {
                   <p>Microsoft or the certified <Link href="/our-services/dynamics-365-implementation-services/"><a target="_blank">implantation partner</a></Link> offers seamless support to make your ERP system work all day and night. </p>
                   </li>
                   <li><b>SAP Business One</b>
-                  <p>To properly utilise this application, or in case of any issue, you need to register a query with your <Link href="/our-services/dynamics-365-support-services/"><a>support partner</a></Link>. </p>
+                  <p>To properly utilise this application, or in case of any issue, you need to register a query with your <Link href="/our-services/dynamics-365-support-services/"><a target="_blank">support partner</a></Link>. </p>
                   </li>
                 </ul>
                 </div>
@@ -450,7 +450,7 @@ const BCvsSap = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics 365 is a suite of business applications consisting of a number of <Link href="/products/microsoft-dynamics-crm/"><a>CRM</a></Link> (customer relationship management) and ERP (enterprise resource planning) applications. SAP Business One is an ERP solution built for medium- to-large enterprises capable of streamlining almost the entire business.</p>
+                      <p>Dynamics 365 is a suite of business applications consisting of a number of <Link href="/products/microsoft-dynamics-crm/"><a target="_blank">CRM</a></Link> (customer relationship management) and ERP (enterprise resource planning) applications. SAP Business One is an ERP solution built for medium- to-large enterprises capable of streamlining almost the entire business.</p>
                     </div>
                   </div>
                 </div>

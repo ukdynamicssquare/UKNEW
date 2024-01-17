@@ -326,7 +326,7 @@ const SystemHealth = () => {
                   better way.
                 </p>
                 <div className="cltt-actt">
-                  <Link href="/products/microsoft-dynamics-365-field-service/">Get Started</Link>
+                  <Link href="/products/microsoft-dynamics-365-field-service/"><a target="_blank">Get Started</a></Link>
                 </div>
               </div>
             </div>

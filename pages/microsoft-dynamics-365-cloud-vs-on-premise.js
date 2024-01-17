@@ -60,10 +60,10 @@ const CloudvsOnpremise = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9">
+            <div className="col-lg-10">
               <header className="section-header">
                 <h2>Dynamics 365 On-Premises Vs Cloud: Which one is for you?</h2>
-                <p>No doubt, the applications of the <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 suite</a></Link> have no match in terms of performance, user interface, effectiveness, or scalability.</p> 
+                <p>No doubt, the applications of the <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 suite</a></Link> have no match in terms of performance, user interface, effectiveness, or scalability.</p> 
                   <p>The best part about Microsoft's top business applications is that they offer flexible deployment options: cloud, on-premises, and hybrid. </p>
 
                 <p>Here is the major question you might want to ask: <strong>which deployment option suits your business?</strong></p> 
@@ -296,7 +296,7 @@ const CloudvsOnpremise = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Smart integration with other Microsoft products, including SharePoint, Office, and <Link href="/products/microsoft-power-platform/"><a>Power Platform </a></Link></p>
+                    <p>Smart integration with other Microsoft products, including SharePoint, Office, and <Link href="/products/microsoft-power-platform/"><a target="_blank">Power Platform </a></Link></p>
                   </div>
                 </div>
 
@@ -561,7 +561,7 @@ const CloudvsOnpremise = () => {
                     </tr>
                     <tr>
                       <td>Data Visualisation </td>
-                      <td><Link href="/products/microsoft-power-bi/"><a>Advanced using Power BI </a></Link></td>
+                      <td><Link href="/products/microsoft-power-bi/"><a target="_blank">Advanced using Power BI </a></Link></td>
                       <td>Not Available</td>
                     </tr>
                   </tbody>
@@ -717,7 +717,7 @@ const CloudvsOnpremise = () => {
             </div>
 
             <div className="col-lg-12" style={{margin:'40px'}}>
-              <p className="text-center"><Link href="/products/dynamics-365-human-resources/"><a>Dynamics 365 Human Resources</a></Link> isn't available with on-premises server deployment.  </p>
+              <p className="text-center"><Link href="/products/dynamics-365-human-resources/"><a target="_blank">Dynamics 365 Human Resources</a></Link> isn't available with on-premises server deployment.  </p>
             </div>
 
           </div>
