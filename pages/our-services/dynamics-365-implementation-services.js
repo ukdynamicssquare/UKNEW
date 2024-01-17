@@ -14,10 +14,10 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Services Partner UK</title>
+        <title>Dynamics 365 Implementation Services & Our Process | Dynamics Square UK</title>
         <meta
           name="description"
-          content="UK's Dynamics Square is known for providing Dynamics 365 implementation and integration services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience."
+          content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets."
         />
         <link
           rel="canonical"
@@ -26,13 +26,13 @@ const ImplementationServices = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/" />
         <meta property="og:title" content="Dynamics 365 Implementation Services Partner" />
-        <meta property="og:description" content="Dynamics Square is known for providing Dynamics 365 implementation services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience." />
+        <meta property="og:description" content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/" />
         <meta property="twitter:title" content="Dynamics 365 Implementation Services Partner" />
-        <meta property="twitter:description" content="Dynamics Square is known for providing Dynamics 365 implementation services worldwide. Our ERP & CRM implementations plans are backed by solid processes, methodologies, and experience." />
+        <meta property="twitter:description" content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
         
@@ -47,12 +47,9 @@ const ImplementationServices = () => {
                 Implementation <br />
                 Services
               </h1>
-              <p>
-                Adapts standard approach, implements advanced methodologies, and
-                derive high-end process defining your business values and
-                empowering your business process flow, and enabling growth
-                potentials.
-              </p>
+              <h2 style={{marginBottom:'-50px',fontWeight:600,color:'#bb2b36',lineHeight:1.3}}>Partner with the most experienced Dynamics 365 implementation experts</h2>
+              
+              <p>Don't let outdated systems hinder your growth. Choose Dynamics Square for concrete Dynamics 365 implementation services. Proper implementation is vital; failing to implement effectively could mean missing out on crucial growth opportunities. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -60,7 +57,7 @@ const ImplementationServices = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Talk To Expert </span>
                     </a>
                   </Link>
                 </div>
@@ -84,7 +81,7 @@ const ImplementationServices = () => {
               <header className="section-header">
                 <h2>
                   Implementation of Microsoft Dynamics 365 <br />
-                  ERP and CRM Solutions
+                  ERP + CRM Solutions
                 </h2>
                 <p>
                   To ensure a successful implementation comprises choosing a
@@ -157,8 +154,8 @@ const ImplementationServices = () => {
                 <Image
                   src="/img/Dynamics-365-overview.svg"
                   alt="Dynamics-365-overview"
-                  width={555}
-                  height={552}
+                  width={455}
+                  height={432}
                 />
               </div>
             </div>
@@ -169,69 +166,7 @@ const ImplementationServices = () => {
       <section className="new-style-bg">
         <div className="container">
           <div className="row g-5">
-            <div className="col-lg-6">
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Finance</h3>
-                  <p>
-                    With real-time and seamless financial reporting, Key
-                    analytics, and AI insights, we enable enterprises to unify
-                    their finance practices and automate their processes while
-                    minimizing the potential risks and global financial
-                    complexities.
-                  </p>
-                </div>
-              </div>
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/sales.svg" alt="sales"  width={94} height={94} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Sales</h3>
-                  <p>
-                    Optimize sales and drive profitability with agile sales
-                    insights and connected sales practices through our Microsoft
-                    Dynamics 365 Implementation services. Predict, manage, and
-                    streamline your sales and close more deals faster.
-                  </p>
-                </div>
-              </div>
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/Customer-Service.svg" alt="Customer-Service"  width={94} height={94} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Customer Service</h3>
-                  <p>
-                    We implement highly embedded customer management solutions
-                    helping your business to transform your customer experience
-                    by delivering them personalized solutions integrated with
-                    proactive support and omnichannel experience.
-                  </p>
-                </div>
-              </div>
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image
-                    src="/img/Project-Management-icons.svg"
-                    alt="Project-Management-icons"
-                    width={94} height={94}
-                  />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Project Management</h3>
-                  <p>
-                    Track and manage your workflow and enable a project-centric
-                    approach with a single integrated solution for your
-                    business. We implement a solution to automate and streamline
-                    your project cycle and ensure overall project success.
-                  </p>
-                </div>
-              </div>
-            </div>
+           
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
@@ -301,6 +236,69 @@ const ImplementationServices = () => {
                     your customers or partners equipped with AI-driven insights,
                     centralized commerce management, and modernized commerce
                     tools that simplify your commerce and enable growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Finance</h3>
+                  <p>
+                    With real-time and seamless financial reporting, Key
+                    analytics, and AI insights, we enable enterprises to unify
+                    their finance practices and automate their processes while
+                    minimizing the potential risks and global financial
+                    complexities.
+                  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/sales.svg" alt="sales"  width={94} height={94} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Sales</h3>
+                  <p>
+                    Optimize sales and drive profitability with agile sales
+                    insights and connected sales practices through our Microsoft
+                    Dynamics 365 Implementation services. Predict, manage, and
+                    streamline your sales and close more deals faster.
+                  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/Customer-Service.svg" alt="Customer-Service"  width={94} height={94} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Customer Service</h3>
+                  <p>
+                    We implement highly embedded customer management solutions
+                    helping your business to transform your customer experience
+                    by delivering them personalized solutions integrated with
+                    proactive support and omnichannel experience.
+                  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image
+                    src="/img/Project-Management-icons.svg"
+                    alt="Project-Management-icons"
+                    width={94} height={94}
+                  />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Project Management</h3>
+                  <p>
+                    Track and manage your workflow and enable a project-centric
+                    approach with a single integrated solution for your
+                    business. We implement a solution to automate and streamline
+                    your project cycle and ensure overall project success.
                   </p>
                 </div>
               </div>
