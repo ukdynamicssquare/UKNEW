@@ -81,7 +81,7 @@ const ImplementationServices = () => {
               <header className="section-header">
                 <h2>
                   Implementation of Microsoft Dynamics 365 <br />
-                  ERP + CRM Solutions
+                  ERP and CRM Solutions
                 </h2>
                 <p>
                   To ensure a successful implementation comprises choosing a
