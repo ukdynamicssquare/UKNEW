@@ -1,14 +1,15 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Form from "../../components/Form";
 
 const MicrosoftDynamicsPartnerEdinburgh = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics Partner Edinburgh | Dynamics Square</title>
-<meta name="description" content="We are Microsoft Dynamics Partner in Edinburgh, helping small to medium-sized businesses to grow strong and fast by implementing Microsoft Dynamics Applications."/>
-<link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-edinburgh/" />
+        <title>Microsoft Dynamics Partner Edinburgh | Dynamics Square</title>
+        <meta name="description" content="We are Microsoft Dynamics Partner in Edinburgh, helping small to medium-sized businesses to grow strong and fast by implementing Microsoft Dynamics Applications." />
+        <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-edinburgh/" />
 
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -25,13 +26,13 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
                 UK.
               </p>
               <div className="text-center text-lg-start">
-                  <Link href="#exampleModal"><a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get in Touch</span></a>
-                  </Link>
-                </div>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Get in Touch</span></a>
+                </Link>
+              </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
@@ -43,12 +44,11 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
           </div>
         </div>
       </section>
-
-      <section className="bg-shape">
+      <section>
         <div className="container">
-          <div className="row pad9x">
-            <div className="col-lg-6 align-self-center">
-              <div className="commen-rit-info">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
                 <h2>Microsoft Gold Partner in Edinburgh</h2>
 
                 <p>
@@ -67,6 +67,19 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
                   cloud technology, consider Dynamics Square - Trusted Microsoft
                   Dynamics Partner in Edinburgh.
                 </p>
+              </header>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="bg-shape" style={{marginTop:'-80px'}}>
+        <div className="container">
+          <div className="row pad9x">
+            <div className="col-lg-6">
+              <div className="commen-rit-info">
+
                 <h5>
                   Why choose Dynamics 365 for your Edinburgh-based business?
                 </h5>
@@ -109,9 +122,10 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="commen-lef-pic commen-lef-pic-nn">
-                <Image width={458} height={668} src="/img/upgrade.webp" alt="upgrade" />
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-5">
+              <div className="busine_service_bottom-left common-side-form">
+                <Form />
               </div>
             </div>
           </div>
@@ -479,7 +493,7 @@ const MicrosoftDynamicsPartnerEdinburgh = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-lef-pic text-center">
                 <Image
-                 width={1024} height={601}
+                  width={1024} height={601}
                   src="/img/system-health-check-1024x601.webp"
                   alt="system-health-check-1024x601"
                 />

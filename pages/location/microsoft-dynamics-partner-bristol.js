@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-
+import Form from "../../components/Form";
 const MicrosoftDynamicsPartnerLiverpool = () => {
   return (
     <>
@@ -69,9 +69,10 @@ If you require minor adjustments or have minor issues, our Microsoft-certified t
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="commen-lef-pic commen-lef-pic-nn">
-                <Image width={458} height={668} src="/img/upgrade.webp" alt="upgrade" />
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-5 align-self-center">
+            <div className="busine_service_bottom-left common-side-form">
+                <Form />
               </div>
             </div>
           </div>

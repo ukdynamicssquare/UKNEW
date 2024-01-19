@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Form from "../../components/Form";
 
 const MicrosoftDynamicsPartnerManchester = () => {
   return (
@@ -47,7 +48,7 @@ const MicrosoftDynamicsPartnerManchester = () => {
           <div className="row pad9x">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info">
-                <h2>We are Available for You - Manchester People </h2>
+                <h2>We are Available for <br /> Manchester People </h2>
 
                 <p>
                 Enabling an ERP to work for a business isn't an easy task. It requires continuous support from a partner, timely maintenance, the installation of updates, upgrading the system for better functionality, streamlining data servers, and much more that should be done on time. </p>
@@ -67,9 +68,10 @@ const MicrosoftDynamicsPartnerManchester = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="commen-lef-pic commen-lef-pic-nn">
-                <Image width={458} height={668} src="/img/upgrade.webp" alt="upgrade" />
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-5 align-self-center">
+            <div className="busine_service_bottom-left common-side-form">
+                <Form />
               </div>
             </div>
           </div>
@@ -78,6 +80,8 @@ const MicrosoftDynamicsPartnerManchester = () => {
 
       <section>
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
             <h2>
             Implement Microsoft Dynamics solutions and Witness the Power Modern Tech 
@@ -88,6 +92,8 @@ const MicrosoftDynamicsPartnerManchester = () => {
             <p>Every business has different needs and approaches to dealing with them while unifying data flow across different departments. Microsoft follows a customer-centric approach to build applications for all business sizes and requirements and deploy them in the market. </p>
             <p>Applications of Microsoft Dynamics offer an extensive, scalable, and robust system for all businesses so that they can simplify their existing complex processes by providing a 360-degree holistic view to their users. The most useful and popular business applications are given below to help you get a sound knowledge of the capabilities of the Microsoft Dynamics 365 suite. </p>
           </header>
+          </div>
+         </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">

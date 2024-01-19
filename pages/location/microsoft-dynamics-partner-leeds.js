@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Form from "../../components/Form";
 
 const MicrosoftDynamicsPartnerLeeds = () => {
   return (
@@ -81,6 +82,23 @@ const MicrosoftDynamicsPartnerLeeds = () => {
                   We've consistently performed outstandingly in several
                   examinations and demonstrated our abilities in various fields.
                 </p>
+                
+              </div>
+            </div>
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-5 align-self-center">
+            <div className="busine_service_bottom-left common-side-form">
+                <Form />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-shape">
+        <div className="container">
+          <div className="row pad9x">
+            <div className="col-lg-10 align-self-center">
+              <div className="commen-rit-info">
                 <h3>Why should you choose Dynamics 365 for your Leeds-based company?</h3>
                 <p>
                   We are not just partners; we are authorized Microsoft Gold
@@ -119,11 +137,7 @@ const MicrosoftDynamicsPartnerLeeds = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="commen-lef-pic commen-lef-pic-nn">
-                <Image width={458} height={668} src="/img/upgrade.webp" alt="upgrade" />
-              </div>
-            </div>
+           
           </div>
         </div>
       </section>
