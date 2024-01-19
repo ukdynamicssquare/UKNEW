@@ -1184,6 +1184,23 @@ class Header extends Component {
                           </a>
                         </div>
                       </li>
+                      <li>
+                        <div className="list-itmes-maga-menu list-itmes-maga-menu-small">
+                          <a href="/industries/dynamics-365-for-retail/">
+                            <div className="pic">
+                              <img
+                                src="/img/menu-icons/retail-icon.png"
+                                alt="retail-icon"
+                                width="48" height="48"
+                              />
+                            </div>
+                            <div className="content">
+                              <span>D365 for Retail</span>
+                              <p>Optimize retail operations with seamless user experience</p>
+                            </div>
+                          </a>
+                        </div>
+                      </li>
                     </ul>
                   </li>
                   {/* <li className="dropdown">
@@ -1715,6 +1732,11 @@ class Header extends Component {
                                 <li>
                                   <a href="/industries/dynamics-365-automotive-accelerator/">
                                     Automotive Accelerator
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="/industries/dynamics-365-for-retail/">
+                                  Dynamics 365 for Retail
                                   </a>
                                 </li>
                               </ul>
