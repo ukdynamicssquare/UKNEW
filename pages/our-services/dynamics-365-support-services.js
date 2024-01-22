@@ -321,7 +321,7 @@ const SupportServices = () => {
             <div className='col-lg-3'>
               <div className='hover-action-d'>
                 <Link href='/blog/what-is-microsoft-sharepoint/'>
-                  <a><img src="/img/menu-icons/icons_sharepoint.svg" alt="icons_sharepoint" width="48" height="48" /> Microsoft SharePoint</a>
+                  <a><img src="/img/icons_sharepoint.svg" alt="icons_sharepoint" width="48" height="48" /> Microsoft SharePoint</a>
                 </Link>
               </div>
             </div>
