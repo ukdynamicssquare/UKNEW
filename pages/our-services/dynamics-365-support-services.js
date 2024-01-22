@@ -7,11 +7,11 @@ const SupportServices = () => {
     <>
       <Head>
       <title>
-          Microsoft Dynamics 365 Support & Services Partner UK | Dynamics Square
+      Microsoft Dynamics 365 Support & Services | Dynamics Square UK
         </title>
         <meta
           name="description"
-          content="UK's leading Microsoft Gold Partner specialises in Dynamics 365 support for AX, NAV, GP, BC, and F&O services. Let's call 2071 932 502 for any help!"
+          content="Dynamics Square provides Ad hoc and managed Dynamics 365 support and service for AX, NAV, BC, CRM and Power platform in the UK. Do contact us today at +44-207-193-2502 for any help 24*7 Hours!"
         />
         <link
           rel="canonical"
@@ -19,14 +19,14 @@ const SupportServices = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/" />
-        <meta property="og:title" content="Microsoft Dynamics 365 Support & Services Partner | Dynamics Square" />
-        <meta property="og:description" content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success." />
+        <meta property="og:title" content="Microsoft Dynamics 365 Support & Services | Dynamics Square UK" />
+        <meta property="og:description" content="Dynamics Square provides Ad hoc and managed Dynamics 365 support and service for AX, NAV, BC, CRM and Power platform in the UK. Do contact us today at +44-207-193-2502 for any help 24*7 Hours!" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/" />
-        <meta property="twitter:title" content="Microsoft Dynamics 365 Support & Services Partner | Dynamics Square" />
-        <meta property="twitter:description" content="Drive continuity in your processes and ensure a sustainable approach with our seamless Dynamics 365 Support Services. Continuous monitoring of your system and processes can help to attain lifelong success." />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Support & Services | Dynamics Square UK" />
+        <meta property="twitter:description" content="Dynamics Square provides Ad hoc and managed Dynamics 365 support and service for AX, NAV, BC, CRM and Power platform in the UK. Do contact us today at +44-207-193-2502 for any help 24*7 Hours!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
 
         
@@ -38,17 +38,14 @@ const SupportServices = () => {
               <h1>
                 Microsoft Dynamics 365 Support
               </h1>
-              <p>
-                Drive continuity in your processes and ensure a sustainable
-                approach with our seamless Dynamics 365 Support Services.
-              </p>
+              <p>Elevate system performance, resolve complex issues in no time, and optimise your solution with our premium, reliable, and cost-effective Dynamics 365 Support Services.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span></a>
+                    <span>Talk to an Expert Now!</span></a>
                   </Link>
                 </div>
               </div>
@@ -66,16 +63,14 @@ const SupportServices = () => {
 
       <section className="busine_service_bottom">
         <div className="container">
+         <div className='row justify-content-center'>
+          <div className='col-lg-10'>
           <header className="section-header">
-            <h2>
-              Dedicated Dynamics 365 <br />
-              Support Partner
-            </h2>
-            <p>
-              To drive continuous growth and scalability in your enterprise
-              requires a continuous high-end support model.
-            </p>
+            <h2>Peace of Mind with Dynamics 365:< br /> 24/7 Support at Your Fingertips</h2>
+            <p>Resolve complex issues, resume business operations instantly, and drive continuous growth by partnering with a top-tier Microsoft Dynamics 365 support partner. Open doors to endless opportunities, embrace scalability, and maximise the ROI of your intelligent Microsoft Dynamics 365 solution with Dynamics Square - trusted and reliable Microsoft Solutions Partner UK.</p>
           </header>
+          </div>
+         </div>
           <div className="row pad2xxx">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
@@ -84,23 +79,19 @@ const SupportServices = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="custom-p-002">
-                <p>
-                  When it comes to ensuring reliability and smoother domain
-                  practices leveraging Dynamics 365 configured system, Dynamics
-                  365 Support Services can help you to drive uninterrupted flow
-                  and enables businesses to focus on their core business
-                  processes.</p><p>Highly equipped support team at Dynamics Square can help to
-                  ensure a smoother operational flow, process continuity, and
-                  regular system optimization. </p><p>Our support services are designed to instantly and accurately resolve the system issues that occur to interrupt the partial,
-                  entire, or dependent workflow.</p>
+                <p>- Ensure reliability and smoother domain practices by leveraging our flexible support services available to global businesses.</p>
+                <p>- With the right set of resources, tools, and expertise in your domain, you can avail of our trustworthy Dynamics 365 support services to drive uninterrupted operational flow and enable you to focus on growing business.</p>
+                <p>- We have a highly equipped team of expert professionals who are proficient in offering implementation, support, and upgrade services with a 100% success rate.</p>
+                <p>- Say goodbye to downtime and hello to a business boost! Our Dynamics 365 consultants use Microsoft's proven methods to solve any issue swiftly and effectively.</p>
+                <p>- Get back to the business of growth with our Microsoft-certified Dynamics 365 consultants. They'll handle any issue, big or small, so you can focus on boosting your operations.</p>
               </div>
-              <div className="custom-btn-new">
+              <div className="custom-btn-new" style={{marginTop:'-40px'}}>
                 <Link href="#exampleModal"><a
                   aria-current="page"
                   className="btn-get-started scrollto active"
                   data-bs-toggle="modal"
                 >
-                  <span>Schedule a Demo</span></a>
+                  <span>Talk to an Expert!</span></a>
                 </Link>
               </div>
             </div>
@@ -108,148 +99,56 @@ const SupportServices = () => {
         </div>
       </section>
 
-      <section className="new-bg">
+      <section className="new-bg services">
         <div className="container">
+         <div className='row justify-content-center'>
+          <div className='col-lg-9'>
           <header className="section-header">
-            <h2>Microsoft dynamics 365 Suite</h2>
-            <p>
-              Drive innovative and strategic approach through your business
-              premises with intelligent connected processes, data insights, and
-              adaptive <Link href="/products/microsoft-dynamics-crm/">Dynamics 365 CRM</Link> & <Link href="/products/microsoft-dynamics-erp/">ERP solutions</Link>.
-            </p>
+            <h2>Stop Overpaying for D365 Support: Customised Plans, Optimised Spending</h2>
+            <p>Drive an innovative and strategic approach through your business premises with intelligent connected processes, data insights, and adaptive Dynamics 365 CRM & ERP solutions. Regardless of the issue you are facing while streamlining smooth business operations, we have got you covered. Depending on the issue you are facing, we have diverse support plans available for you.</p>
+            <p>What you need to do is analyse your business issues and choose the most relevant plan that can get your business back on track. If you are unable to choose the perfect plan, no worries; call us directly. We are more than happy to assist you in any business situation.</p>
           </header>
-          <div className="row p-lg-6">
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heding-new">
-                <h3>
-                  Dynamics 365 Support Plans We Offer
-                </h3>
-                <p>
-                  Dynamics Square will handle every aspect of your Dynamics 365
-                  system from user support, training, customization, technical
-                  consultancy to development work.
-                </p>
+          </div>
+         </div>
+         <div className="row ppd-top">
+            <div className="col-lg-4">
+              <div className="new-card-sol new-card-sol-new">
+                <div className="head-img">
+                  <img src="/img/Ad-hoc-Support.png" alt="icons" width="210" height="119" />
+                </div>
+                <div className="body">
+                  <h3>Ad-hoc Support</h3>
+                  <p>Instantly and accurately resolve the system issue that is hampering your operational workflow.</p>
+                 
+                </div>
               </div>
             </div>
-
-            <div className="col-lg-6">
-              <div className="finace-acc">
-                <div className="accordion" id="accnew">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin5"
-                        aria-expanded="false"
-                        aria-controls="fin5"
-                      >
-                        <div className="wr-ins">
-                          <img
-                            src="/img/Group1404.svg"
-                            alt="Group1404"
-                            width="151"
-                            height="151"
-                          />
-                        </div>
-                        <span>Ad-Hoc Support</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin5"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        Our support services are designed to instantly and
-                        accurately resolve the system issues that occur to
-                        interrupt the partial, entire, or dependent workflow.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin6"
-                        aria-expanded="false"
-                        aria-controls="fin6"
-                      >
-                        <div className="wr-ins">
-                          <img
-                            src="/img/Group1403.svg"
-                            alt="Group1403"
-                            width="151"
-                            height="151"
-                          />
-                        </div>
-                        <span>Prepaid Hours Support</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin6"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        When it comes to our Prepaid Support model, we can help
-                        enterprises with our ongoing support or priority
-                        support. Our Prepaid Support is a 50-hours of support
-                        strategy that involves all your priority needs
-                        supporting your ongoing business processes or hourly
-                        requirements. We assist enterprises with our quick
-                        dedicated resolution enabling continuous process flow.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin7"
-                        aria-expanded="false"
-                        aria-controls="fin7"
-                      >
-                        <div className="wr-ins">
-                          <img
-                            src="/img/Group1402.svg"
-                            alt="Group1402"
-                            width="151"
-                            height="151"
-                          />
-                        </div>
-                        <span>Annual Support</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin7"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        Our next support model is an annual support model
-                        whereby we take charge of all your general
-                        system-related issues including bug fixing, process
-                        abundance, and other system complications that downgrade
-                        your system capabilities. Our proficient support team
-                        helps to sustain and improve your workflow and enables
-                        you to leverage the maximized utilization of Dynamics
-                        365.
-                      </div>
-                    </div>
-                  </div>
+            <div className="col-lg-4">
+              <div className="new-card-sol new-card-sol-new">
+                <div className="head-img">
+                  <img src="/img/Prepaid-Hours-Support.png" alt="icons"  width="210" height="119" />
+                </div>
+                <div className="body">
+                  <h3>Prepaid Hours Support</h3>
+                  <p>Get 50-hour support on a priority basis from the leading Dynamics 365 experts and get back to business in no time.</p>
+                 
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="new-card-sol new-card-sol-new">
+                <div className="head-img">
+                  <img src="/img/annual-support-icons.png" alt="annual-support-icons"  width="210" height="119" />
+                </div>
+                <div className="body">
+                  <h3>Annual Support</h3>
+                  <p>Appoint us as your partner in growth. Enrol in our reliable annual support plan to resolve issues, upgrade the system, and integrate other solutions. </p>
+                
                 </div>
               </div>
             </div>
           </div>
+         
         </div>
       </section>
 
@@ -258,14 +157,14 @@ const SupportServices = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Get Dynamics 365 Support Today!</h3>
-                <p>With the right support, you can maximize the benefits of this powerful software and get the most out of your investment.</p>
+                <h3>Speak to your Microsoft Dynamics Expert!</h3>
+                <p>Give your unique business a must-needed boost to eliminate redundancies from the system and overpower competition with digital transformation.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Started Now</span></a>
+                    <span>Get in touch</span></a>
                   </Link>
                 </div>
               </div>
@@ -279,17 +178,8 @@ const SupportServices = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-9'>
             <header className="section-header">
-            <h2>
-              Leverage the Most Out of Your Investment <br /> with Our Dynamics
-              365 Support Services
-            </h2>
-            <p>
-              Dynamics Square has an extensive team with end-to-end expertise to
-              take care of system and process integrity. Whether you want to
-              eliminate your system risks, improve your system capabilities,
-              want to train your end-users, or more, we are here to serve our
-              optimal support services.
-            </p>
+            <h2>Break Free from One-Size-Fits-All: Tailored Dynamics 365 Support Services to Fit Your Needs</h2>
+            <p>Break Free from One-Size-Fits-All: Tailored Dynamics 365 Support Services to Fit Your Needs</p>
           </header>
             </div>
           </div>
@@ -297,79 +187,156 @@ const SupportServices = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Group1407.svg" alt="Group1407" width={94} height={94} />
+                  <Image src="/img/Technical-Supports-ic.svg" alt="Technical-Supports-ic" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Account Management</h3>
-                  <p>
-                    Nothing remains static, neither your process flow nor the
-                    enhancement (as continuous upgrades are made by Microsoft in
-                    a timely manner) in <Link href="/products/microsoft-dynamics-365/">Dynamics 365 products</Link>. Thereby, we are
-                    here to take responsibility for your account management
-                    part. We help to stay updated with the latest developments
-                    or system updates to support not just your existing
-                    processes even if any of your process changes take place.
-                  </p>
+                  <h3>Technical Support</h3>
+                  <p>Resolve errors, enhance system performance, and get the required technical assistance from certified Microsoft Dynamics 365 professionals.</p>
                 </div>
               </div>
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Add-ons.svg" alt="Add-ons.svg" width={94} height={94} />
+                  <Image src="/img/Integration-ic.svg" alt="Integration-ic.svg" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Add-ons</h3>
-                  <p>
-                    Defining your upgraded processes or potential changes, we
-                    can help to extend your system functionalities. One of the
-                    popular products of Dynamics 365 is <Link href="/products/dynamics-365-business-central/">Business Central</Link> which
-                    is upgraded very frequently to support frequent changes or
-                    challenges that come across. So, we can update your system
-                    with the latest or required add-ons to cope with your lying
-                    challenges.
-                  </p>
+                  <h3>Integrations</h3>
+                  <p>Establish connections with other add-ons and increase the functionalities of your Dynamics 365 solution by integrating other solutions without any hassle.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/System-upgrade-ic.svg" alt="System-upgrade-ic" width={94} height={94} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>System Upgrade</h3>
+                  <p>Seamlessly deal with change management and upgrade your existing system to meet the changing requirements of the market and customers.</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Group1408.svg" alt="Group1408" width={94} height={94} />
+                  <Image src="/img/Technical-Support-ic.svg" alt="Technical-Support-ic" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Training</h3>
-                  <p>
-                    Training is required at various stages of your processes to
-                    maximize the process optimization and get the most out of
-                    the investment made in Dynamics 365. In the case of newly
-                    installed system, you are required to fully train your
-                    end-users. Training is also a significant part for existing
-                    users to support the upgrades, integrations, or enhancements
-                    that are made with time or when upgrades are released.
-                  </p>
+                  <h3>Consultation</h3>
+                  <p>Facing difficulty making the best decisions for your business? Talk to our experts, discuss your business issues, and get a personalised solution.</p>
                 </div>
               </div>
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Modifications.svg"
-                    alt="Modifications"
+                    src="/img/Customisation-ic.svg"
+                    alt="Customisation-ic"
                     width={94} height={94}
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Modifications</h3>
-                  <p>
-                    To support the timely need, there could be potential
-                    modifications you require to ensure process and system
-                    compatibility, and to drive a parallel approach. If you want
-                    to modify your system, experts at Dynamics Square can help
-                    you with potential changes that can update your system with
-                    modernized capabilities and advanced functionalities
-                    strengthening your enterprise practices at scale.
-                  </p>
+                  <h3>Customisations</h3>
+                  <p>Customise your business solution with potential changes to meet changing demands, trends, and requirements of customers and the market.</p>
                 </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image
+                    src="/img/User-Training-ic.svg"
+                    alt="User-Training-ic"
+                    width={94} height={94}
+                  />
+                </div>
+                <div className="style-grid-content">
+                  <h3>User Trainings</h3>
+                  <p>Train your users to maximise the utilisation of your Dynamics 365 application and get the most out of the investment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className='new-bg'>
+        <div className='container'>
+          
+          <div className='row justify-content-center'>
+            <div className='col-lg-10'>
+            <header className="section-header">
+            <h2>Dedicated Support for Microsoft Dynamics 365 Suite of Solutions</h2>
+            <p>Regardless of the system you use and your business requirements, we have experts in all Dynamics 365 products. We are committed to offering exceptional support services at cost-effective prices to deliver high-quality support in no time.</p>
+            </header>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-dynamics-nav/'>
+                  <a><img src="/img/menu-icons/NAV.png" alt="NAV" width="48" height="48" /> Dynamics NAV</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-dynamics-ax/'>
+                  <a><img src="/img/menu-icons/AX.png" alt="AX" width="48" height="48" /> Dynamics AX</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/dynamics-365-customer-engagement/'>
+                  <a><img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-customer-engagement" width="48" height="48" /> Customer Engagement</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/dynamics-365-business-central/'>
+                  <a><img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" /> Business Central</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-dynamics-365-finance/'>
+                  <a><img src="/img/menu-icons/dynamics-365-finance.svg" alt="dynamics-365-finance" width="48" height="48" /> Dynamics 365 Finance</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-dynamics-crm/'>
+                  <a><img src="/img/menu-icons/CRM.png" alt="CRM" width="48" height="48" /> Dynamics 365 CRM</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-power-bi/'>
+                  <a><img src="/img/menu-icons/power-bi.svg" alt="power-bi" width="48" height="48" /> Power BI</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/blog/what-is-microsoft-sharepoint/'>
+                  <a>Microsoft SharePoint</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-power-apps/'>
+                  <a><img src="/img/menu-icons/power-apps.svg" alt="power-apps" width="48" height="48" />PowerApps</a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-3'>
+              <div className='hover-action-d'>
+                <Link href='/products/microsoft-power-automate/'>
+                  <a><img src="/img/menu-icons/power-automate.svg" alt="power-automate" width="48" height="48" /> Power Automate</a>
+                </Link>
               </div>
             </div>
           </div>
@@ -521,16 +488,134 @@ const SupportServices = () => {
           </div>
         </div>
       </section>
+      <section className="new-bg">
+        <div className="container">
+          <div className="row p-lg-6 justify-content-center">
+            <div className='col-lg-6 align-self-center'>
+              <div className='side-heding-new'>
+                <h3>Dynamics Square: Your Partner in Growth</h3>
+                <p>Get reliable and cost-effective Dynamics 365 support from the leading Microsoft Dynamics 365 partner in the UK. We are the preferred choice for businesses that are looking to transform their businesses with automation, innovation, and technology.</p>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="finace-acc finace-acc-pp">
+                <div className="accordion" id="accnew">
+                
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+                        <div className="wr-ins">
+                          <img
+                            src="/img/Leading-Dynamics-365-Partner.svg"
+                            alt="Leading-Dynamics-365-Partner"
+                            width="151"
+                            height="151"
+                          />
+                        </div>
+                        <span>Leading Dynamics 365 Partner in the UK</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Being a certified Microsoft Solutions Partner for the last 12 years, you will get the experience and expertise in one package.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        <div className="wr-ins">
+                          <img
+                            src="/img/Remote-and-On-Site-Availability.svg"
+                            alt="Remote-and-On-Site-Availability"
+                            width="151"
+                            height="151"
+                          />
+                        </div>
+                        <span>Remote and On-Site Availability</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Based on your issue, we are available to support your business by all means, whether remote or on-site issue resolution.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin8"
+                        aria-expanded="false"
+                        aria-controls="fin8"
+                      >
+                        <div className="wr-ins">
+                          <img
+                            src="/img/Value-for-money-Services.svg"
+                            alt="Value-for-money-Services"
+                            width="151"
+                            height="151"
+                          />
+                        </div>
+                        <span>Value-for-money Services</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin8"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      We are into offering customer satisfaction rather than running after money. With us, you will get value-for-money services for all issues and services.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
       <section className="solution-faq faq">
         <div className="container">
-          <header className="section-header">
-            <h2>
-              Most searched <br /> Microsoft Dynamics 365  Support
-            </h2>
-            <p>Click to explore the best answer!</p>
-          </header>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
+          <div className='row justify-content-center'>
+            <div className='col-lg-9'>
+              <div className='section-header'>
+                <h2>Most Searched <br /> Microsoft Dynamics 365 Support</h2>
+                <p>Click to explore the best answer!</p>
+              </div>
+            </div>
+          </div>
+          <div className="row mar-top-7 justify-content-center">
+            <div className="col-lg-8 ">
               <div className="accordion accordion-flush" id="faqlist1">
                 <div className="accordion-item">
                   <h3 className="accordion-header">

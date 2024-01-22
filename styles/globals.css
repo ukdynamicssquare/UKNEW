@@ -5105,6 +5105,10 @@ section {
 .upgard-bg .commen-rit-info {
   padding-right: 40px;
 }
+.finace-acc.finace-acc-pp .accordion-body{
+  padding-left: 40px;
+}
+
 .rigt-conte-vs1 h3 {
   font-size: 42px;
   font-weight: 600;
@@ -6707,6 +6711,7 @@ section {
   margin-bottom: 20px;
   color: var(--color-blue);
 }
+
 .new-card-sol .body p {
   font-size: 16px;
   font-weight: 300;
@@ -6715,6 +6720,9 @@ section {
   line-height: 1.2;
   color: #000;
   height: 125px;
+}
+.new-card-sol .body p{
+  height: 75px;
 }
 .new-card-sol.new-card-sol-b .body p {
   height: 350px;
@@ -9430,6 +9438,52 @@ ul.checkmark li {
 .blogs-ex-side-cate ul li:hover a {
   text-decoration: none;
 }
+.hover-action-d{}
+.hover-action-d a{
+  display:block;
+  background:#ffffff;
+  padding:15px;
+  font-size:15px;
+  -webkit-box-shadow:-2px 4px 9px 0px rgb(29 63 121 / 18%);
+-moz-box-shadow:-2px 4px 9px 0px rgb(29 63 121 / 18%);
+box-shadow:-2px 4px 9px 0px rgb(29 63 121 / 18%);
+margin-bottom:15px;
+color: #1d355b;
+    font-weight: 500;
+    transition:.5s;
+}
+.hover-action-d{
+  position: relative;
+    overflow: hidden;
+}
+.hover-action-d a img{
+margin-right:10px;
+width: 34px 
+}
+.hover-action-d:after{
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  height: 2px;
+  width: 0px;
+  background-color: rgb(187 43 54 / 70%);
+  transition: .6s cubic-bezier(0,0,.3642,1)
+}
+.hover-action-d a:hover{
+  color:#bb2b36;
+}
+.hover-action-d a:hover img{
+  background:#ffffff;
+  border-radius:50%
+}
+
+.hover-action-d:hover:after {
+    width: 100%
+
+}
+
+
 
 @media (min-width: 1201px) and (max-width: 1400px) {
   .blogs-lates h1 a,
