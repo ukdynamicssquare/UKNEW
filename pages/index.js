@@ -302,7 +302,7 @@ export default function Home() {
                 UK's Trusted <br /> Microsoft Dynamics 365 Partner
               </h1>
               <p>
-                Simplify your end-to-end business processes to maximize ROI,
+                Simplify your end-to-end business processes to maximise ROI,
                 agility, and growth with Microsoft cloud technology.
               </p>
               <div>
@@ -411,7 +411,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>
-                  Simplify your finance hierarchy and boost your organization's
+                  Simplify your finance hierarchy and boost your organisation's
                   ability to develop, modify and control budgets, make faster
                   and more informed financial decisions.
                 </p>
@@ -438,7 +438,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>
-                  Optimize resources, maximize operational efficiency, and
+                  Optimise resources, maximise operational efficiency, and
                   accelerate time to market while keeping real-time eyes in your
                   end-to-end supply chain operations.
                 </p>
@@ -470,7 +470,7 @@ export default function Home() {
                 </div>
                 <p>
                   Boost your sales, build better customer relationships, and
-                  maximize your revenue outcomes through Microsoft Dynamics 356
+                  maximise your revenue outcomes through Microsoft Dynamics 356
                   for Sales.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
@@ -501,7 +501,7 @@ export default function Home() {
                 </div>
                 <p>
                   Steadily monitor your business activities with power-packed
-                  data visualization and real-time reporting insights to make
+                  data visualisation and real-time reporting insights to make
                   informed decisions for better productivity ahead.
                 </p>
                 <Link href="/products/microsoft-power-bi/">
@@ -533,7 +533,7 @@ export default function Home() {
                 <p>
                   Outreach more efficient, scalable, and secure data
                   distribution practices by simply integrating cloud-equipped,
-                  modernized, and seamless data-driven solutions with Microsoft
+                  modernised, and seamless data-driven solutions with Microsoft
                   Azure.
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
@@ -611,7 +611,7 @@ export default function Home() {
                 <h3>Implementation</h3>
                 <p>
                   Our stress-free Dynamics 365 implementation services, catered
-                  by a proactive team of Microsoft consultants, offer customized
+                  by a proactive team of Microsoft consultants, offer customised
                   solutions with superior technical expertise to scale your
                   business.
                 </p>
@@ -706,7 +706,7 @@ export default function Home() {
                   <p>
                     Our experienced Dynamics consultants in the UK can help to
                     streamline your end-to-end non-profit practices across your
-                    organization or divisions.
+                    organisation or divisions.
                   </p>
                   <Link href="/industries/microsoft-cloud-for-nonprofit/">
                     <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
@@ -878,7 +878,7 @@ export default function Home() {
                   <div className="cintent-right cintent-right-001">
                     <p>
                       Consultants at Dynamics Square provide free system
-                      health-check to discover the optimum and customized
+                      health-check to discover the optimum and customised
                       Microsoft Dynamics 365 needs as per your distinct business
                       context.
                     </p>
@@ -926,7 +926,7 @@ export default function Home() {
               <div className="custom-p-001 custom-p-009">
                 <p>
                   As a Gold Microsoft Dynamics Partner, we can help you
-                  revolutionize your business processes and operations while
+                  revolutionise your business processes and operations while
                   leveraging the power of the cloud, AI, and ML.
                 </p>
                 <p>

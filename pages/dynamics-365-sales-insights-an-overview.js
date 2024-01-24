@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
+import Form from "../components/Form";
 
 const SalesInsightsanOverview = () => {
   return (
@@ -11,7 +12,7 @@ const SalesInsightsanOverview = () => {
         </title>
         <meta
           name="description"
-          content="Dynamics 365 Sales Insights is a prominent add-on in Microsoft Dynamics 365. It enables sales teams to build better relationships with customers, cut down on"
+          content="Dynamics 365 Sales Insights is a prominent add-on in Microsoft Dynamics 365. It enables sales teams to build better relationships with customers, cut down on monotonous tasks and augment business processes leveraging in-built coaching tools and AI Insights."
         />
         <link
           rel="canonical"
@@ -28,7 +29,7 @@ const SalesInsightsanOverview = () => {
                 <br />
                 Insights an Overview
               </h1>
-              <br />
+              <p>Leverage AI capabilities, improve customer relationships, and boost sales with Dynamics 365 Sales Insights.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -56,7 +57,7 @@ const SalesInsightsanOverview = () => {
       <section>
         <div className="container">
           <div className="row p-lg-6">
-            <div className="col-lg-7 align-self-center">
+            <div className="col-lg-6 align-self-center">
               <p>
                 Dynamics 365 Sales Insights is a prominent add-on in Microsoft
                 Dynamics 365. It enables sales teams to build better
@@ -66,8 +67,8 @@ const SalesInsightsanOverview = () => {
               </p>
 
               <p>
-                It perfectly compliments Dynamics 365 for Sales and the Dynamics
-                365 Customer Engagement plan to augment business productivity
+                It perfectly compliments Dynamics 365 for Sales and the <Link href="/products/dynamics-365-customer-engagement/"><a target="_blank"> Dynamics
+                365 Customer Engagement</a></Link> plan to augment business productivity
                 with key functionalities, including:
               </p>
               <ul>
@@ -94,8 +95,10 @@ const SalesInsightsanOverview = () => {
               </ul>
             </div>
             <div className="col-lg-1"></div>
-            <div className="col-lg-4 align-self-center">
-              <Image src="/img/sal.jpg" alt="sal"  width={900} height={350} />
+            <div className="col-lg-5 align-self-center">
+              <div className="busine_service_bottom-left common-side-form">
+                <Form />
+              </div>
             </div>
           </div>
         </div>
@@ -108,10 +111,11 @@ const SalesInsightsanOverview = () => {
           <div className="row pd-60">
             <div className="col-md-6">
               <div className="content-box-223">
+              <h3 style={{fontSize:'22px'}}>Pros</h3>
                 <p>
                   Dynamics 365 Sales Insights includes a suite of features that
                   consistently help in analysing the huge collection of
-                  customer-interaction data stored in the Dynamics 365 Sales and
+                  customer-interaction data stored in the <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> and
                   Office 365 databases. This enables a better understanding of
                   business relationships, evaluation of previously successful
                   activities, and select the best path for the future. The
@@ -148,6 +152,7 @@ const SalesInsightsanOverview = () => {
             </div>
             <div className="col-md-6">
               <div className="content-box-223">
+              <h3 style={{fontSize:'22px'}}>Cons</h3>
                 <p>
                   By using the combination of analytics and data science on top
                   of Dynamics 365 with Office data, Sales Insights helps leaders
@@ -198,7 +203,7 @@ const SalesInsightsanOverview = () => {
             </div>
             <div className="col-lg-12">
               <div className="consul-text">
-                <p>
+                <p style={{fontSize:'20px'}}>
                   <b>Final Words</b>
                 </p>
                 <p>

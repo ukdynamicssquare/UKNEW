@@ -45,7 +45,7 @@ const Finance = () => {
                 Finance
               </h1>
               <p>
-                Boost your organization's ability to develop, modify and control
+                Boost your organisation's ability to develop, modify and control
                 budgets, make faster financial decision making with Microsoft
                 Dynamics 365 Finance.
               </p>
@@ -81,7 +81,7 @@ const Finance = () => {
               <header className="section-header">
                 <h2>What is dynamics 365 Finance?</h2>
                 <p>
-                  Microsoft Dynamics 365 Finance is an enterprise-grade ERP software solution that helps organizations achieve financial accuracy and transparency. Implementing Dynamics 365 Finance enables you to track and monitor your financial operations in real-time, predict financial outcomes, and manage global risks to drive agility while maximizing growth in your business.
+                  Microsoft Dynamics 365 Finance is an enterprise-grade ERP software solution that helps organisations achieve financial accuracy and transparency. Implementing Dynamics 365 Finance enables you to track and monitor your financial operations in real-time, predict financial outcomes, and manage global risks to drive agility while maximising growth in your business.
                 </p>
               </header>
             </div>
@@ -144,7 +144,7 @@ const Finance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Organize and manage your entire financial records using
+                        Organise and manage your entire financial records using
                         a general ledger. Manage your account payable, accounts
                         receivable, tax management, and more with D365 Finance.
                       </div>
@@ -301,7 +301,7 @@ const Finance = () => {
                       <div className="overlay">
                         <p>
                           Seamlessly deploy new subsidiaries, enable automated
-                          recurring billing, minimize audit costing, accurately
+                          recurring billing, minimise audit costing, accurately
                           calculate your financial reports & statements, and
                           boost your workforce productivity.{" "}
                         </p>
@@ -310,7 +310,7 @@ const Finance = () => {
                     <div className="why-solution-wrapper-inner">
                       <h3>
                         Manage Global <br />
-                        Finance & Minimize Risks
+                        Finance & Minimise Risks
                       </h3>
                       <div className="overlay">
                         <p>
@@ -422,7 +422,7 @@ const Finance = () => {
                   <h3>Implementation</h3>
                   <p>
                     Get optimum D365 finance implementation services suited to
-                    your customized business needs
+                    your customised business needs
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-finance-implementation/">
@@ -486,7 +486,7 @@ const Finance = () => {
           <header className="section-header">
             <h2>Dynamics 365 Finance Pricing</h2>
             <p>
-              Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimize global financial complexities, and bring strategic impact on your financial system.
+              Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimise global financial complexities, and bring strategic impact on your financial system.
             </p>
           </header>
           <div className="row gy-4 p-9">
@@ -688,8 +688,8 @@ const Finance = () => {
                         365 Finance boosts businesses to control their financial
                         operations and brings transparency into their financial
                         events in real-time. This helps and encourages the
-                        organizations to stay updated with every financial move
-                        across their organization and to support their financial
+                        organisations to stay updated with every financial move
+                        across their organisation and to support their financial
                         decision-making.Leveraging Dynamics 365 Finance,
                         businesses can have control over their entire financial
                         practices. Using intelligent business insights and
@@ -699,7 +699,7 @@ const Finance = () => {
                       <p>
                         Automation is something that reduces your efforts and
                         allows you to drive smarter. Dynamics 365 Finance
-                        enables automated workflow across your organization
+                        enables automated workflow across your organisation
                         wherein repetitive tasks can be automated. Greater
                         visibility into insights helps to make strategic
                         decisions in a timely manner.&nbsp;
@@ -732,7 +732,7 @@ const Finance = () => {
                         </Link>&nbsp;
                         to manage all your financial operations in a seamless
                         manner. This financial analytics tool is designed for
-                        SMBs&nbsp;to&nbsp;large size organizations
+                        SMBs&nbsp;to&nbsp;large size organisations
                         to&nbsp;effectively roll out their financial data.
                       </p>
                       <p>
@@ -815,7 +815,7 @@ const Finance = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
                     >
-                      Can I customize my Microsoft Dynamics 365 Finance?
+                      Can I customise my Microsoft Dynamics 365 Finance?
                     </button>
                   </h3>
                   <div
@@ -825,16 +825,16 @@ const Finance = () => {
                   >
                     <div className="accordion-body">
                       Yes, Dynamics 365 Finance comes with flexibility wherein
-                      you can avail of customization as per your specific
+                      you can avail of customisation as per your specific
                       business domain and set of practices you drive throughout
-                      your organization. You can even integrate or configure
+                      your organisation. You can even integrate or configure
                       your D365 Finance with your existing system to enhance
                       your business capabilities. It could be Microsoft's own
                       apps or could be a third-party application. <br />
                       <br />
                       If you want to get more information or how it works,
                       contact Dynamics Square, we can suggest and implement a
-                      highly customized solution for your business.
+                      highly customised solution for your business.
                     </div>
                   </div>
                 </div>
