@@ -66,7 +66,7 @@ const Dynamics365vsSalesForce = () => {
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>All that Matters is a Perfect Choice</h2>
+                <h3>All that Matters is a Perfect Choice</h3>
                 <p>No doubt, Salesforce has been on the market for more than two decades, whereas Microsoft Dynamics 365 CRM is a new and advanced CRM solution that understands the fluctuating market demands.</p>
                 <p>When you look at the market share of Dynamics 365 CRM vs Salesforce, you will find that Salesforce dominates the market. However, this doesn’t mean it is a powerful solution and D365 CRM is an inferior one.</p>
               </div>
@@ -119,7 +119,7 @@ const Dynamics365vsSalesForce = () => {
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>Modern Functionalities for Modern Businesses</h2>
+                  <h3>Modern Functionalities for Modern Businesses</h3>
                   <p>Salesforce CRM has a good grip on the market, but <Link href="/products/microsoft-dynamics-crm/"><a>Dynamics 365 CRM</a></Link> understands businesses better. With time, both solutions have launched different modules to manage the specific functionality of the business. Based on requirements, businesses can choose the module they require to manage customers. And, picking the desired module will reduce the implementation and operational costs.</p>
                   <p>In general, Salesforce comes with three major modules to manage the CRM functionality of the business:</p>
                   <ul>
@@ -159,7 +159,7 @@ const Dynamics365vsSalesForce = () => {
             <div className="row">
             <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>Simplified Integrations to Power Up Customer Journey</h2>
+                  <h3>Simplified Integrations to Power Up Customer Journey</h3>
                   <p>Businesses are becoming more complex, and so are their processes. To reduce such complexities, businesses have to work with different add-ons and solutions altogether. Working with different tools and centralising the data is a daunting task and requires a lot of extra resources.</p>
                  <p>However, integrating the secondary solutions with the primary ones can automate a lot of processes and simplify the operations of not only CRM but the entire business. Salesforce allows integration, but you will need to put resources and effort into integrating a particular solution. For example, if you want to integrate Microsoft Outlook, you will need a developer or coder to establish the connection.</p>
                  <p>However, with Microsoft Dynamics 365 CRM, you can integrate Outlook with just a click and fetch the data for professional communication directly into the Dynamics 365 dashboard.</p>
