@@ -24,7 +24,6 @@ const Dynamics365vsSalesForce = () => {
                 Dynamics 365 vs Salesforce
               </h1>
               <p>Compare the core functionalities, check which solution offers the best customer management capabilities, and choose an intelligent CRM solution for your business.</p>
-              <br />
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
