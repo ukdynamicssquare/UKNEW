@@ -9,10 +9,10 @@ const HumanResource = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Human Resources Partner UK</title>
+        <title>Dynamics 365 Human Resources UK Partner</title>
         <meta
           name="description"
-          content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
+          content="Manage workforce, maximise resource utilisation, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/"
@@ -116,7 +116,7 @@ const HumanResource = () => {
                       <div className="accordion-body">
                         Explore your business capabilities with Dynamics 365
                         Human Resource solution. Extend your resource
-                        optimization by connecting it with partner solutions or
+                        optimisation by connecting it with partner solutions or
                         integrating with other Microsoft solutions.
                       </div>
                     </div>
@@ -318,12 +318,26 @@ const HumanResource = () => {
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
+              <div class="style-grid-icons">
+              <Image
+                src="/img/Seamless-Recruiting.svg"
+                alt="Seamless-Recruiting"
+                width={88} height={88}
+              />
+              </div>
                 <div className="style-grid-content">
                   <h3>Seamless Recruiting</h3>
                   <p>The Microsoft Dynamics 365 Human Resources module will empower you to process the onboarding of new employees seamlessly. It manages the entire process, from choosing a suitable candidate to hiring and beyond.</p>
                 </div>
               </div>
               <div className="style-grid-1">
+              <div class="style-grid-icons">
+              <Image
+                src="/img/Access-Automation.svg"
+                alt="Access-Automation"
+                width={88} height={88}
+              />
+              </div>
                 <div className="style-grid-content">
                   <h3>Access Automation</h3>
                   <p>If you are from the human resources department, you will understand that a number of recurring and manual tasks consume a lot of time and effort. With D365 HR, you can automate such cumbersome processes with automation and self-service portals.</p>
@@ -332,6 +346,13 @@ const HumanResource = () => {
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
+              <div class="style-grid-icons">
+              <Image
+                src="/img/Time-and-Attendance-Management.svg"
+                alt="Time-and-Attendance-Management"
+                width={88} height={88}
+              />
+              </div>
                 <div className="style-grid-content">
                   <h3>Time and Attendance Management</h3>
                   <p>It is one of the most complicated tasks for all HR professionals. But, with this solution, you can track, evaluate, and manage all such tasks without any hassle. Employees can also apply for leaves and receive feedback through the same portal by using self-help tools.</p>
@@ -339,6 +360,13 @@ const HumanResource = () => {
               </div>
 
               <div className="style-grid-1">
+              <div class="style-grid-icons">
+              <Image
+                src="/img/Effortless-Reporting-Analytics.svg"
+                alt="Effortless-Reporting-Analytics"
+                width={88} height={88}
+              />
+              </div>
                 <div className="style-grid-content">
                   <h3>Effortless Reporting and Analytics</h3>
                   <p>You can analyse the employee data to evaluate the performance of all areas. Also, you can view the data related to working hours, sick leaves, vacations, reimbursement, training, and much more using an expressive table and diagram.</p>
@@ -373,7 +401,7 @@ const HumanResource = () => {
                       <div className="overlay">
                         <p>
                           Empower your HR managers with the right tools,
-                          centralize your employees’ data, enable your employees
+                          centralise your employees’ data, enable your employees
                           with self-service capability, drive improved employee
                           engagement and development with HR solutions.
                         </p>
@@ -381,13 +409,13 @@ const HumanResource = () => {
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Optimize HR
+                        Optimise HR
                         <br />
                         Practices
                       </h3>
                       <div className="overlay">
                         <p>
-                          Enterprises can optimize their human resource
+                          Enterprises can optimise their human resource
                           practices, improve employee engagement, and manage
                           end-to-end HR tasks embedded with AI insights that
                           drive growth and sustainability.
@@ -400,7 +428,7 @@ const HumanResource = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Maximize
+                        Maximise
                         <br />
                         Agility
                       </h3>
@@ -421,7 +449,7 @@ const HumanResource = () => {
                       </h3>
                       <div className="overlay">
                         <p>
-                          Centralize your human resource data, stay updated with
+                          Centralise your human resource data, stay updated with
                           real-time employees’ insights, and make instant
                           decisions leveraging embedded analytics with Microsoft
                           Dynamics 365 Human Resource solution.
@@ -531,7 +559,7 @@ const HumanResource = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Maximise your resource utilization and optimize your
+                    Maximise your resource utilisation and optimise your
                     existing resources with our simple yet powerful{" "}
                     <Link href="/our-services/dynamics-365-support-services/">
                      <a target="_blank">Dynamics 365 support services</a>
@@ -555,7 +583,7 @@ const HumanResource = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Maximize the Growth Opportunities</h3>
+                <h3>Maximise the Growth Opportunities</h3>
                 <p>Streamline your human resources operations by implementing Dynamics 365 Human Resources.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#about">

@@ -102,6 +102,7 @@ const MicrosoftDynamicsCrm = () => {
             <h2>
             Microsoft Dynamics CRM Benefits
             </h2>
+           
           </header>
           <div className="row p-lg-6">
             <div className="col-lg-6">
@@ -184,6 +185,72 @@ const MicrosoftDynamicsCrm = () => {
                       </div>
                     </div>
                   </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/Build-and-Manage-Opportunities.png"
+                            alt="Build-and-Manage-Opportunities"
+                            width="48"
+                            height="48"
+                          />
+                        </div>
+                        <span>Build and Manage Opportunities </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Track the activities of leads to collect insights and make actionable decisions. D365 CRM automatically centralises the data so that the sales and marketing departments can collaboratively work with each other towards the same goal. 
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/Get-Real-time-Performance-Data.png"
+                            alt="Get-Real-time-Performance-Data"
+                            width="48"
+                            height="48"
+                          />
+                        </div>
+                        <span>Get Real-time Performance Data</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Feed the data on different sales activities performed by different executives in CRM to get a complete sales overview. The admin can access the data of all sales executives and make informed decisions to make better decision for the team. 
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -198,9 +265,9 @@ const MicrosoftDynamicsCrm = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
+                        data-bs-target="#fin5"
                         aria-expanded="false"
-                        aria-controls="fin3"
+                        aria-controls="fin5"
                       >
                         <div className="wr-in">
                           <img
@@ -214,7 +281,7 @@ const MicrosoftDynamicsCrm = () => {
                       </button>
                     </h3>
                     <div
-                      id="fin3"
+                      id="fin5"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
@@ -228,6 +295,105 @@ const MicrosoftDynamicsCrm = () => {
                         repetition practices. Thereby, they can focus more on
                         developing and strengthening their customer
                         relationships.
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/AvaiL-Actionable-Insights.png"
+                            alt="AvaiL-Actionable-Insights"
+                            width="48"
+                            height="48"
+                          />
+                        </div>
+                        <span>Avail Actionable Insights </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Leverage the capabilities of AI and business intelligence to find areas with more opportunities. Also, you can find gaps in the sales processes where your team is lacking to convert leads into prospects. 
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/Track-Customer-Interaction.png"
+                            alt="Track-Customer-Interaction"
+                            width="48"
+                            height="48"
+                          />
+                        </div>
+                        <span>Track Customer Interaction </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      Understand customer behaviour to generate more sales opportunities. You can track all customer interactions and record them in the customer account. It will let you offer personalised services to customers across various milestones of the sales journey. 
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin8"
+                        aria-expanded="false"
+                        aria-controls="fin8"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/Centralise-Communication-Channels.png"
+                            alt="Centralise-Communication-Channels"
+                            width="48"
+                            height="48"
+                          />
+                        </div>
+                        <span>Centralise Communication Channels </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin8"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                      You can centralise the different communication channels, including chat, call, email, or personal interaction, in the CRM. It will help you build loyalty and trust among your customers. 
                       </div>
                     </div>
                   </div>
@@ -377,6 +543,40 @@ const MicrosoftDynamicsCrm = () => {
                   alt="Project-Service-Automation"
                   width={1025} height={587}
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image
+                  src="/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                  width={625} height={651}
+                />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>Why should you choose Dynamics Square as your Growth Partner? </h2>
+              </div>
+              <div className="custom-p-001">
+                <p>With years of expertise and comprehensive experience, our Dynamics 365 CRM consultants are available to offer you after sales services regardless of the complexity. Being a trusted partner of 350+ global clients, we can help you with Dynamics 365 implementation, upgrade, and support services.</p>
+                <p>Dynamics Square has been in the market for more than 12 years and pretty much knows what businesses want to manage customers along with generating maximum revenue. </p>
+                <div>
+                <div className="text-lg-start">
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Connect with a CRM Expert Now!</span></a>
+                  </Link>
+                </div>
+              </div>
               </div>
             </div>
           </div>
