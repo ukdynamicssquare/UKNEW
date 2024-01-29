@@ -8,6 +8,14 @@ import Blog from "../../components/Blog";
 const Sales = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
+
+const colostyle= {
+  color:"#111",
+  fontSize:"14px",
+  color: "rgb(184 43 55)",
+
+}
+
   return (
     <>
       <Head>
@@ -421,7 +429,7 @@ const Sales = () => {
                   <li className="">
                     Core sales force automation and Microsoft 365 integration
                   </li>
-                  <li className="" style={{color:"#111",fontSize:"14px",color: "rgb(184 43 55)"}}>
+                  <li style={colostyle}>
                   <i className="bi bi-check-lg"></i>Microsoft Sales Copilot available at an additional cost
                   </li>
                 </ul>
@@ -442,7 +450,7 @@ const Sales = () => {
                     Industry-leading sales force automation with contextual
                     insights and advanced customisation capabilities
                   </li>
-                  <li className="" style={{color:"#111",fontSize:"14px",color: "rgb(184 43 55)"}}>
+                  <li style={colostyle}>
                   <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
@@ -475,7 +483,7 @@ const Sales = () => {
                     Dynamics 365 Sales Enterprise plus prebuilt customisable
                     intelligence solutions for sellers and managers
                   </li>
-                  <li className="" style={{color:"#111",fontSize:"14px",color: "rgb(184 43 55)"}}>
+                  <li style={colostyle}>
                   <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>

@@ -48,7 +48,7 @@ const Inedex = () => {
         </div>
       </section>
 
-      <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
