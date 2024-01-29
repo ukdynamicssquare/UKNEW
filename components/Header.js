@@ -991,11 +991,7 @@ class Header extends Component {
                                 D365 Business Central vs. NetSuite
                               </a>
                             </li>
-                            <li>
-                              <a href="/dynamics-365-vs-salesforce/">
-                              Dynamics 365 vs Salesforce
-                              </a>
-                            </li>
+
                           </ul>
                         </div>
                       </div>
