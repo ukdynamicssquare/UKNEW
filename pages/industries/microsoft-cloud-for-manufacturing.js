@@ -374,7 +374,7 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <img
-                      src="/img/manufacturing side.png"
+                      src="/img/manufacturing-side.png"
                       className="fix-im"
                       alt="manufacturing side"
                     />
