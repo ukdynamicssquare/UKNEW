@@ -923,6 +923,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
                       </ul>
                       <div className="call-butt">
+                      <Link href="/blog/business-central-for-manufacturing/">
+                          <a
+                            className="btn-get-started btn-blue"
+                            target="_blank"
+                          >
+                            <span>Learn More</span>
+                          </a>
+                        </Link>
                         <Link href="#exampleModal">
                           <a
                             data-bs-toggle="modal"

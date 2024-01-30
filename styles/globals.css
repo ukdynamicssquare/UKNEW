@@ -6721,7 +6721,7 @@ section {
   color: #000;
   height: 125px;
 }
-.new-card-sol .body p{
+.new-card-sol.new-card-sol-new .body p{
   height: 75px;
 }
 .new-card-sol.new-card-sol-b .body p {
