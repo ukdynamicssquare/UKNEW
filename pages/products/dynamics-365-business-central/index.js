@@ -1017,6 +1017,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Resource Allocation: Submit, approve, and process time & expense quickly streamlining client billing.</li>
                       </ul>
                       <div className="call-butt">
+                      <Link href="/products/dynamics-365-business-central/project-management/">
+                          <a
+                            className="btn-get-started btn-blue"
+                            target="_blank"
+                          >
+                            <span>Learn More</span>
+                          </a>
+                        </Link>
                         <Link href="#exampleModal">
                           <a
                             data-bs-toggle="modal"
