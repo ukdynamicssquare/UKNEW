@@ -7,16 +7,16 @@ const ProjectManagement = () => {
   return (
     <>
       <Head>
-      <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+      <title>Dynamics 365 Business Central Project Management</title>
         <meta
           name="description"
-          content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
+          content="D365 Business Central for project management: Efficiently schedule tasks, manage budgets, and track progress for optimal business growth."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/project-management/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+ 
 
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -36,9 +36,9 @@ const ProjectManagement = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/BC-Warehouse-Management.png"
-                alt="BC-Warehouse-Management"
-                width={718} height={447}
+                src="/img/Project-management-banner.png"
+                alt="Project-management-banner"
+                width={709} height={447}
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ const ProjectManagement = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Bins-management.png" alt="Bins-management" />
+                          <img src="/img/enhance-workforce.png" alt="enhance-workforce" />
                         </div>
                         <span>Enhance Workforce Efficiency</span>
                       </button>
@@ -100,7 +100,7 @@ const ProjectManagement = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/warehouse-shipment.png" alt="warehouse-shipment" />
+                          <img src="/img/realtime-insight.png" alt="realtime-insight" />
                         </div>
                         <span>Get real-time Project Insights</span>
                       </button>
@@ -135,7 +135,7 @@ const ProjectManagement = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
+                          <img src="/img/resource-utilisation.png" alt="resource-utilisation" />
                         </div>
                         <span>Manage Resources utilization</span>
                       </button>
@@ -164,8 +164,8 @@ const ProjectManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Movement-Worksheet.png"
-                            alt="Movement-Worksheet"
+                            src="/img/trackcost.png"
+                            alt="trackcost"
                           />
                         </div>
                         <span>Track Overall Project Cost</span>
@@ -213,7 +213,7 @@ const ProjectManagement = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="side-heading-custom-01">
-                <h2>Core functionalities of Project Management Module</h2>asdasdasd
+                <h2>Core functionalities of Project Management Module</h2>
               </div>
               <div className="custom-p-001">
                 <p>The project management module of Business Central offers various core functionalities so that you can streamline all projects while pushing them towards great efficiency. Implementing <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> will help you achieve project success by leveraging advanced project management tools. Also, it enables you to allocate resources, manage costs, and manage the finances of all projects with real-time insights to help you attain maximum ROI.</p>
@@ -262,7 +262,7 @@ const ProjectManagement = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image src="/img/Track-Cost-with-WIP-Method.svg" alt="Track-Cost-with-WIP-Method" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Track Cost with WIP Method</h3>
@@ -271,7 +271,7 @@ const ProjectManagement = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image src="/img/Monitor-Job-Performance.svg" alt="Monitor-Job-Performance"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Monitor Job Performance</h3>
@@ -284,8 +284,8 @@ const ProjectManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.svg"
-                    alt="100-Inventory-Visibility"
+                    src="/img/Efficient-team-Collaboration.svg"
+                    alt="Efficient-team-Collaboration"
                     width={84} height={84}
                   />
                 </div>
@@ -297,7 +297,7 @@ const ProjectManagement = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/Simplify Budget-Tracking-and-Distribution.svg" alt="Simplify Budget-Tracking-and-Distribution"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Simplify Budget Tracking and Distribution</h3>
@@ -315,8 +315,8 @@ const ProjectManagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/Warehouse-Management-in-Different-Industries.png"
-                  alt="Warehouse-Management-in-Different-Industries"
+                  src="/img/Rectangle-side.png"
+                  alt="Rectangle-side"
                   width={482} height={513}
                 />
               </div>

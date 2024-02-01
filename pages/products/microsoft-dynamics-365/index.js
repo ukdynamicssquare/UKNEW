@@ -91,7 +91,7 @@ const D360 = () => {
                   </Link>{" "}
                   is a power pack collection of Microsoft apps and other add-ons to meet the ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) needs. It is a refreshed version of Dynamics Suite that delivers new ways to manage a business. Microsoft not only wants to simplify business management but also wants to redefine the user experience.
                 </p>
-                <p>Dynamics 365 enables users to seamlessly manage the finance, handling, sales, purchase, inventory, CRM, manufacturing, and more. Microsoft Dynamics 365 establish the connection between all SaaS (Software as Service) apps and services to transform the communication between the organisation and the customer. It is a cloud-based software solution with the mixed capabilities of ERP and CRM.</p>
+                <p>MS Dynamics 365 enables users to seamlessly manage the finance, handling, sales, purchase, inventory, CRM, manufacturing, and more. Microsoft Dynamics 365 establish the connection between all SaaS (Software as Service) apps and services to transform the communication between the organisation and the customer. It is a cloud-based software solution with the mixed capabilities of ERP and CRM.</p>
                 <ul>
                   <li>Microsoft Dynamics 365 is based on Microsoft Azure, a cloud computing service operated and managed by Microsoft.</li>
                   <li>Azure data centres are available worldwide to make the apps and other integrations connected with you 24/7.</li>
@@ -176,7 +176,7 @@ const D360 = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Once an organisation starts using Microsoft Dynamics 365, the overall efficiency increases by 2X. This consists of full-fledged business applications, like CRM, Sales, Customer Service, Finance and Operations, Field Service, Project Service Automation, Marketing, etc., that helps the organisation to automate, grow and scale.</p>
+                        <p>Once an organisation starts using MS Dynamics 365, the overall efficiency increases by 2X. This consists of full-fledged business applications, like CRM, Sales, Customer Service, Finance and Operations, Field Service, Project Service Automation, Marketing, etc., that helps the organisation to automate, grow and scale.</p>
                         more.
                       </div>
                     </div>
@@ -427,7 +427,7 @@ const D360 = () => {
             <div className="col-lg-8">
               <header className="section-header">
                 <h2>
-                  Microsoft Dynamics 365 Suite </h2>
+                  Microsoft Dynamics 365 Solutions </h2>
                 <p>Optimise processes, drive business continuity, and enable your business for digital transformation while eliminating redundancies using the most advanced business applications of the Microsoft Dynamics 365 suite: </p>
               </header>
             </div>
@@ -544,7 +544,7 @@ const D360 = () => {
             <div className="col-lg-8">
               <div className="parten-more parten-more-ss text-center">
                 <h3>User Licensing</h3>
-                <p>Microsoft provides flexible pricing plans for Dynamics 365 or its applications. Users have the choice to opt for ERP or CRM, or they can use the mixed capabilities of both these solutions. Also, you can pay for selected apps and use them despite owning the whole CRM or ERP solution. It comes with several functions, like Finance and Operation, Retail, Talent, Sales, Customer Service, Field Service, Project Service Automation, Marketing, Customer Service Insights, and Power Apps. Or, you can contact Dynamics Square for the latest info about licensing and cost.</p>
+                <p>Microsoft provides flexible pricing plans for MS Dynamics 365 or its applications. Users have the choice to opt for ERP or CRM, or they can use the mixed capabilities of both these solutions. Also, you can pay for selected apps and use them despite owning the whole CRM or ERP solution. It comes with several functions, like Finance and Operation, Retail, Talent, Sales, Customer Service, Field Service, Project Service Automation, Marketing, Customer Service Insights, and Power Apps. Or, you can contact Dynamics Square for the latest info about licensing and cost.</p>
               </div>
               <br />
               <div className="text-center m-o-t new-btn-nn">

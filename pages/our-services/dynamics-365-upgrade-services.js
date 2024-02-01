@@ -166,14 +166,9 @@ const UpgradeServices = () => {
               <div className="commen-rit-info">
                 <h3>AX To Finance & Supply Chain Upgrade</h3>
                 <p>
-                  Since Microsoft disabled{" "}
-                  <Link href="/products/microsoft-dynamics-ax/">
-                    Dynamics AX
-                  </Link>{" "}
-                  for new customers, although existing customers can still avail
-                  of additional benefits or AX support. When it comes to
-                  upgrading your AX account with Dynamics 365 Finance & Supply
-                  Chain, enterprises can leverage a range of advanced
+                  Since Microsoft disabled Dynamics AX for new customers, although existing customers can still avail
+                  of additional benefits or AX support. When it comes to <Link href="/blog/dynamics-ax-upgrade-to-dynamics-365-finance-and-operations/"><a target="_blank">upgrading your AX account with Dynamics 365 Finance & Supply
+                  Chain</a></Link>, enterprises can leverage a range of advanced
                   functionalities supporting their modernized processes and
                   operational flow to drive efficient growth and scalability.
                 </p>
@@ -190,7 +185,7 @@ const UpgradeServices = () => {
                   start compromising and you are still relying on your legacy
                   systems other than{' '}
                   <Link href="/products/microsoft-dynamics-365/">
-                  Microsoft Dynamics 365
+                    Microsoft Dynamics 365
                   </Link>
                   , it could be the best time to upgrade to Dynamics 365. If you
                   are willing to streamline, automate, and simplify your
