@@ -19,6 +19,23 @@ const D360 = () => {
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/"
         />
 
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content=" Microsoft Dynamics 365 CRM & ERP Gold Partner UK | Dynamics Square" />
+        <meta property="og:description" content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square UK." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/_next/image/?url=%2Fimg%2Fd360-banner.png&w=640&q=75" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 CRM & ERP Gold Partner UK | Dynamics Square" />
+        <meta name="twitter:description" content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square UK." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/_next/image/?url=%2Fimg%2Fd360-banner.png&w=640&q=75" />
+
+
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -443,26 +460,26 @@ const D360 = () => {
                   <p>
                     Business Central: Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability.
                   </p>
-                  <Link href="/products/dynamics-365-business-central/"><a style={{fontSize:'16px',fontWeight:500}}  target="_blank">Learn More</a></Link>
+                  <Link href="/products/dynamics-365-business-central/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
 
               <div className="style-grid-1">
-              <div className="style-grid-icons">
+                <div className="style-grid-icons">
                   <Image src="/img/group-2138.png" alt="Sales" width={94} height={94} />
-                </div> 
+                </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Sales</h3>
                   <p>
                     D365 for Sales: Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
                   </p>
-                  <Link href="/products/microsoft-dynamics-365-sales/"><a style={{fontSize:'16px',fontWeight:500}}  target="_blank">Learn More</a></Link>
+                  <Link href="/products/microsoft-dynamics-365-sales/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
 
 
               <div className="style-grid-1">
-              <div className="style-grid-icons">
+                <div className="style-grid-icons">
                   <Image src="/img/group-2123.png" alt="Finance" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
@@ -470,7 +487,7 @@ const D360 = () => {
                   <p>
                     D365 Finance: Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI.
                   </p>
-                  <Link href="/products/microsoft-dynamics-365-finance/"><a style={{fontSize:'16px',fontWeight:500}}  target="_blank">Learn More</a></Link>
+                  <Link href="/products/microsoft-dynamics-365-finance/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
             </div>
@@ -478,7 +495,7 @@ const D360 = () => {
 
 
               <div className="style-grid-1">
-              <div className="style-grid-icons">
+                <div className="style-grid-icons">
                   <Image src="/img/group-2126.png" alt="Supply-chain" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
@@ -486,12 +503,12 @@ const D360 = () => {
                   <p>
                     D365 Supply Chain: Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
                   </p>
-                  <Link href="/products/dynamics-365-supply-chain-management/"><a style={{fontSize:'16px',fontWeight:500}}  target="_blank">Learn More</a></Link>
+                  <Link href="/products/dynamics-365-supply-chain-management/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
 
               <div className="style-grid-1">
-              <div className="style-grid-icons">
+                <div className="style-grid-icons">
                   <Image src="/img/group-2136.png" alt="Customer-Service" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
@@ -499,12 +516,12 @@ const D360 = () => {
                   <p>
                     D365 Field Service: Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
                   </p>
-                  <Link href="/products/microsoft-dynamics-365-field-service/"><a style={{fontSize:'16px',fontWeight:500}}  target="_blank">Learn More</a></Link>
+                  <Link href="/products/microsoft-dynamics-365-field-service/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
 
               <div className="style-grid-1">
-              <div className="style-grid-icons">
+                <div className="style-grid-icons">
                   <Image src="/img/group-2139.png" alt="Marketing" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
@@ -512,13 +529,13 @@ const D360 = () => {
                   <p>
                     D365 for Marketing: Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
                   </p>
-                  <Link href="/products/microsoft-dynamics-365-marketing/"><a style={{fontSize:'16px',fontWeight:500}}  target="_blank">Learn More</a></Link>
+                  <Link href="/products/microsoft-dynamics-365-marketing/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
 
             </div>
           </div>
-          <div className="row" style={{paddingTop:'40px'}}>
+          <div className="row" style={{ paddingTop: '40px' }}>
             <div className="col-lg-12">
               <p><strong>Microsoft Dynamics 365 offers more business management tools to aid you with all business operations like, Microsoft Dynamics 365 Customer Service, Microsoft Dynamics Customer Engagement, Dynamics 365 Commerce, Dynamics 365 Project Operations, and Microsoft Dynamics 365 Human Resources.</strong></p>
 

@@ -9,7 +9,7 @@ const SupportServices = () => {
       <title>Microsoft Dynamics 365 Support & Services UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square is a leading Ad hoc Dynamics 365 support and service provider for AX, NAV, BC, CRM and Power platform in the UK. Do contact us today +44-207-193-2502."
+          content="Peace of Mind with Dynamics 365: 24/7 Support at your fingertips. Resolve complex issues, resume business operations instantly, and drive continuous growth by partnering with a top-tier Microsoft Dynamics 365 support partner UK."
         />
         <link
           rel="canonical"
@@ -18,13 +18,13 @@ const SupportServices = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/" />
         <meta property="og:title" content="Microsoft Dynamics 365 Support & Services | Dynamics Square UK" />
-        <meta property="og:description" content="Dynamics Square is a leading Ad hoc Dynamics 365 support and service provider for AX, NAV, BC, CRM and Power platform in the UK. Do contact us today +44-207-193-2502." />
+        <meta property="og:description" content="Peace of Mind with Dynamics 365: 24/7 Support at your fingertips. Resolve complex issues, resume business operations instantly, and drive continuous growth by partnering with a top-tier Microsoft Dynamics 365 support partner UK." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-support-services/" />
         <meta property="twitter:title" content="Microsoft Dynamics 365 Support & Services | Dynamics Square UK" />
-        <meta property="twitter:description" content="Dynamics Square is a leading Ad hoc Dynamics 365 support and service provider for AX, NAV, BC, CRM and Power platform in the UK. Do contact us today +44-207-193-2502." />
+        <meta property="twitter:description" content="Peace of Mind with Dynamics 365: 24/7 Support at your fingertips. Resolve complex issues, resume business operations instantly, and drive continuous growth by partnering with a top-tier Microsoft Dynamics 365 support partner UK." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/support-service-banner.png" />
 
         

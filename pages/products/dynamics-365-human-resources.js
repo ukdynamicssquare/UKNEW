@@ -12,7 +12,7 @@ const HumanResource = () => {
         <title>Dynamics 365 Human Resources UK Partner</title>
         <meta
           name="description"
-          content="Manage workforce, maximise resource utilisation, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
+          content="Connect your people, optimise HR policies, and drive enhanced profitability with Dynamics 365 Human Resource. Contact now today at Dynamics Square UK!" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/"
@@ -20,13 +20,13 @@ const HumanResource = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/" />
         <meta property="og:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
-        <meta property="og:description" content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
+        <meta property="og:description" content="Connect your people, optimise HR policies, and drive enhanced profitability with Dynamics 365 Human Resource. Contact now today at Dynamics Square UK!" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/" />
         <meta property="twitter:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
-        <meta property="twitter:description" content="Manage workforce, maximize resource utilization, leverage valuable AI insights to craft a better workspace with Dynamics 365 Human Resources. Schedule a demo today." />
+        <meta property="twitter:description" content="Connect your people, optimise HR policies, and drive enhanced profitability with Dynamics 365 Human Resource. Contact now today at Dynamics Square UK!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
        
       </Head>

@@ -12,7 +12,7 @@ const ProjectOperations = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Project Operations Partner UK</title>
+        <title>Dynamics 365 Project Operations Partner UK | Dynamics Square</title>
         <meta
           name="description"
           content="Looking for a Dynamics 365 Project Operations partner? Improve project transparency, increase agility & streamline your operations. Call us for a demo and pricing today! "
@@ -21,6 +21,22 @@ const ProjectOperations = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-project-operations/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content=" Dynamics 365 Project Operations Partner UK | Dynamics Square " />
+        <meta property="og:description" content="Looking for a Dynamics 365 Project Operations partner? Improve project transparency, increase agility & streamline your operations. Call us for a demo and pricing today!" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-project-operations/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Dynamics 365 Project Operations Partner UK | Dynamics Square" />
+        <meta name="twitter:description" content="Looking for a Dynamics 365 Project Operations partner? Improve project transparency, increase agility & streamline your operations. Call us for a demo and pricing today!" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png" />
+
       </Head>
       <ModalVideo
         channel="youtube"
@@ -70,11 +86,11 @@ const ProjectOperations = () => {
                 <h2>What is dynamics 365 Project Operations?</h2>
                 <p>Empower your team to drive visibility and agility for ensuring on-time project deliveries while optimizing budget for a maximum revenue with <strong>Dynamics 365 Project Operations</strong>. </p>
 
- 
+
 
                 <p>Seamlessly manage all projects of your business, from sales to finance, by effectively leveraging Dynamics 365 Project Operations; a simple yet powerful solution built by Microsoft. Being a unified and reliable solution, it can help you bring your team together to drive collaboration, accelerate project delivery, and maximise growth potential. </p>
 
- 
+
 
                 <p>Dynamics 365 Project Operations modules can offer real-time actionable insights to help you generate more leads, close deals faster, and accelerate project delivery with enhanced profitability. Such insights let the business match the right professional with the right project, resulting in better decisions regardless of any scenario. </p>
               </header>
@@ -176,7 +192,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Simplify your bid management strategies using automation, along with shortlisting deals for higher profit margins. Track contract status, deliver project quotes, forecast winning leads, and make an accurate estimation. 
+                        Simplify your bid management strategies using automation, along with shortlisting deals for higher profit margins. Track contract status, deliver project quotes, forecast winning leads, and make an accurate estimation.
                       </div>
                     </div>
                   </div>
@@ -282,7 +298,7 @@ const ProjectOperations = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      Track time and expense on each point of a business transaction to evaluate the business and its ROI. You can easily submit, approve, and conform all transactions for faster and smoother settlement.
+                        Track time and expense on each point of a business transaction to evaluate the business and its ROI. You can easily submit, approve, and conform all transactions for faster and smoother settlement.
                       </div>
                     </div>
                   </div>
@@ -296,11 +312,11 @@ const ProjectOperations = () => {
 
       <section className="new-style-bg">
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div class="col-lg-9">
               <header className="section-header">
                 <h2>Microsoft Dynamics 365 Project Operations Benefits</h2>
-               <p>Optimise existing resources and generate more revenue using D365 Project Operations Modules.</p>
+                <p>Optimise existing resources and generate more revenue using D365 Project Operations Modules.</p>
               </header>
             </div>
           </div>
@@ -337,7 +353,7 @@ const ProjectOperations = () => {
             </div>
           </div>
           <div className="col-lg-12">
-            <p className="text-center" style={{paddingTop:"30px",fontSize:"20px"}}><b>Want to avail of a Dynamics 365 Project Operations trial?<br /> <Link href="/contact-us/"><a target="_blank">Connect to our certified Microsoft consultants</a></Link> and start using it now! </b></p>
+            <p className="text-center" style={{ paddingTop: "30px", fontSize: "20px" }}><b>Want to avail of a Dynamics 365 Project Operations trial?<br /> <Link href="/contact-us/"><a target="_blank">Connect to our certified Microsoft consultants</a></Link> and start using it now! </b></p>
           </div>
         </div>
       </section>
@@ -602,13 +618,13 @@ const ProjectOperations = () => {
           <div className="row p-433">
             <div className="col-lg-6 align-self-center">
               <div className="side-heading side-heading-system">
-                <h2 style={{fontSize:"24px"}}>Why should you choose Dynamics Square as your D365 Project Operations implementation partner? </h2>
+                <h2 style={{ fontSize: "24px" }}>Why should you choose Dynamics Square as your D365 Project Operations implementation partner? </h2>
               </div>
               <div className="custom002">
                 <p>Choosing the right partner is a critical choice for all business owners or decision-makers. A wrong choice can make you bear a huge investment loss, whereas a right choice can double or triple the revenue by simplifying the entire business operations.</p>
                 <p>This is where Dynamics Square comes in. With 11+ years of experience in the industry and a huge team of <Link href="/"><a target="_blank">Microsoft certified consultants</a></Link>, we are the ideal partner for your Dynamics 365 Project Operations implementation needs.</p>
                 <p>At Dynamics Square, our motto is to offer best-in-class customer satisfaction and take a collaborative approach to ensure your project's success, irrespective of the complexity or the scenario.</p>
-      
+
                 <p>We offer end-to-end services, including <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365</a></Link> Project Operations consulting, solution customization, deployment, on-site training, and durable support. For all businesses, we offer Microsoft's proven methodology and our expertise to deliver a tailored solution for your unique business requirements.</p>
                 <p>Partnering with us means you can expect a smooth implementation process, increased productivity, and a measurable return on investment. Let's collaborate and take your business to the next level.</p>
               </div>
@@ -688,7 +704,7 @@ const ProjectOperations = () => {
                         productivity and efficiency. However, organisations can
                         integrate it with{" "}
                         <Link href="/products/dynamics-365-business-central/">
-                        <a target="_blank">Business Central</a>
+                          <a target="_blank">Business Central</a>
                         </Link>{" "}
                         or other native integrations to enhance the features for
                         smooth operations. There are a few more modules that can
@@ -719,7 +735,7 @@ const ProjectOperations = () => {
                       <p>
                         When installing project operations from{" "}
                         <Link href="/products/microsoft-dynamics-365/">
-                        <a target="_blank">microsoft dynamics 365</a>
+                          <a target="_blank">microsoft dynamics 365</a>
                         </Link>
                         , there are several installation options available. You
                         have two options to start the installation:
@@ -741,12 +757,12 @@ const ProjectOperations = () => {
                         In the case of an existing CDS, you must have access to
                         a{" "}
                         <Link href="/products/microsoft-power-platform/">
-                        <a target="_blank">Power Platform</a>
+                          <a target="_blank">Power Platform</a>
                         </Link>{" "}
                         Administrator with a licence for Project Operations.
                         Using{" "}
                         <Link href="/products/microsoft-power-bi/">
-                        <a target="_blank">Power BI</a>
+                          <a target="_blank">Power BI</a>
                         </Link>
                         , you have to locate the environment using the Power
                         Platform admin center.
@@ -806,11 +822,11 @@ const ProjectOperations = () => {
                         collaborate with a reliable support partner like
                         Dynamics Square for any kind of update,{" "}
                         <Link href="/our-services/dynamics-365-upgrade-services/">
-                        <a target="_blank">upgrade</a>
+                          <a target="_blank">upgrade</a>
                         </Link>
                         , or{" "}
                         <Link href="/our-services/dynamics-365-implementation-services">
-                        <a target="_blank">implementation</a>
+                          <a target="_blank">implementation</a>
                         </Link>{" "}
                         service for your business. The pricing for D365 Project
                         Operations is entirely dependent on your company's needs
@@ -847,11 +863,11 @@ const ProjectOperations = () => {
                         and to provide accurate data insights using advanced
                         technologies like{" "}
                         <Link href="/products/microsoft-dynamics-365-ai/">
-                        <a target="_blank">Artificial Intelligence</a>
+                          <a target="_blank">Artificial Intelligence</a>
                         </Link>
                         ,{" "}
                         <Link href="/products/azure-machine-learning/">
-                        <a target="_blank">Machine Learning</a>
+                          <a target="_blank">Machine Learning</a>
                         </Link>
                         , and Business Intelligence. This helps the users to
                         take actionable decisions in real-time, resulting in

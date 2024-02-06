@@ -12,7 +12,7 @@ const Marketing = () => {
         </title>
         <meta
           name="description"
-          content="Microsoft Dynamics 365 for Marketing is an all-in-one solution that combine integrating automation, analytics, and customer insights to optimise marketing strategies and boost CE."
+          content="Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing. Contact now today!"
         />
            <meta name="robots" content="index,follow" />
            <link
@@ -22,13 +22,13 @@ const Marketing = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
         <meta property="og:title" content="Microsoft Dynamics 365 Marketing - Dynamics Square UK" />
-        <meta property="og:description" content="Microsoft Dynamics 365 for Marketing is an all-in-one solution that combine integrating automation, analytics, and customer insights to optimise marketing strategies and boost CE." />
+        <meta property="og:description" content="Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing. Contact now today!" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
         <meta property="twitter:title" content="Microsoft Dynamics 365 Marketing - Dynamics Square UK" />
-        <meta property="twitter:description" content="Microsoft Dynamics 365 for Marketing is an all-in-one solution that combine integrating automation, analytics, and customer insights to optimise marketing strategies and boost CE." />
+        <meta property="twitter:description" content="Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing. Contact now today!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
         
       </Head>
