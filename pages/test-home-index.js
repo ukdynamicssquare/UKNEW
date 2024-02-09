@@ -456,31 +456,31 @@ export default function HomeTest() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                          <img src="/img/cloud_done.png" alt="cloud_done" />
                             <span>Cloud-Enabled Growth</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <img src="/img/AI-powered-efficiency.png" alt="AI-powered-efficiency" />
                             <span>AI-Powered Efficiency</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <img src="/img/work-on-the-move.png" alt="work-on-the-move" />
                             <span>Work on the Move</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <img src="/img/flexible-integration.png" alt="flexible-integration" />
                             <span>Flexible Integration</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <img src="/img/intelligent-decision-making.png" alt="intelligent-decision-making" />
                             <span>Intelligent Decision Making </span>
                           </figure>
                         </div>
@@ -516,25 +516,25 @@ export default function HomeTest() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                            <img src="/img/financial-agility.png" alt="financial-agility" />
                             <span>Financial Ability & Agility</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <img src="/img/AI-Powerdbilling.png" alt="AI-Powerdbilling" />
                             <span>AI-powered billing</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <img src="/img/cash-flow.png" alt="cash-flow" />
                             <span>Predictive cash flow forecasting </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <img src="/img/away-from-dijointed.png" alt="away-from-dijointed" />
                             <span>Away from disjointed financial processes </span>
                           </figure>
                         </div>
@@ -601,7 +601,7 @@ export default function HomeTest() {
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <img src="/img/Unified-data.png" alt="Unified-data" />
                             <span>Shorten sales cycle using AI </span>
                           </figure>
                         </div>
@@ -638,31 +638,31 @@ export default function HomeTest() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                            <img src="/img/experimental-journey.png" alt="experimental-journey" />
                             <span>Streamlined brand experiential journey </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <img src="/img/multi-channel-campaign.png" alt="multi-channel-campaign" />
                             <span>Simplified multi-channel campaigns</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <img src="/img/customer-insights.png" alt="customer-insights" />
                             <span>Ai-powered customer insights </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <img src="/img/Scalable-market.png" alt="Scalable-market" />
                             <span>Scalable marketing automation</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <img src="/img/realtime-performance.png" alt="realtime-performance" />
                             <span>Real-time performance monitoring</span>
                           </figure>
                         </div>
@@ -699,31 +699,31 @@ export default function HomeTest() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                            <img src="/img/unmatched-cybersecurity.png" alt="unmatched-cybersecurity" />
                             <span>Unmatched Cybersecurity  </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <img src="/img/proactive-inventory-management.png" alt="proactive-inventory-management" />
                             <span>Proactive Inventory Management </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <img src="/img/warehouse-optimisation.png" alt="warehouse-optimisation" />
                             <span>Warehouse Optimization </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <img src="/img/agile-manufacturing-practice.png" alt="agile-manufacturing-practice" />
                             <span>Agile Manufacturing Practices </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <img src="/img/minimise-downtime.png" alt="minimise-downtime" />
                             <span>Minimize downtime using mobile devices. </span>
                           </figure>
                         </div>
@@ -760,31 +760,31 @@ export default function HomeTest() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                            <img src="/img/Seamless-support.png" alt="Seamless-support" />
                             <span>Seamless Support</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <img src="/img/customer-accesibility.png" alt="customer-accesibility" />
                             <span>Enhanced Customer Accessibility</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <img src="/img/Personalisation-for-customer.png" alt="Personalisation-for-customer" />
                             <span>AI-Driven Personalization for Customers </span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <img src="/img/issuee-resolution.png" alt="issuee-resolution" />
                             <span>Proactive Issue Resolution</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
-                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <img src="/img/Knowledge-management.png" alt="Knowledge-management" />
                             <span>Knowledge Management </span>
                           </figure>
                         </div>
@@ -1365,21 +1365,85 @@ export default function HomeTest() {
                               2X
                             </div>
                             <div className='r-left'>
-                              <p>Data Simplification & <br />Processing</p>
+                              <p>Precision in Financial Analytics</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                              80%
+                            80%
                             </div>
                             <div className='r-left'>
-                              <p>Increased sales Revenue</p>
+                              <p>Productivity Boost from Automation</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Nicolas-Hopwood.png" alt="Nicolas-Hopwood" />
+                              <p>The team at Dynamics Square helped us in upgrading our erp system to the latest version of D365 Business Central resulting in a successful rollout to our staff.</p>
+                              <h5>Nicolas Hopwood</h5>
+                              <span>Facilities Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            3X
+                            </div>
+                            <div className='r-left'>
+                              <p>Growth in ROI</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            70%
+                            </div>
+                            <div className='r-left'>
+                              <p>Improved Finance Efficiency </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" />
+                              <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional</p>
+                              <h5>Jonathan W</h5>
+                              <span>Technical Director</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Optimized Replenishment Procedures</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            60%
+                            </div>
+                            <div className='r-left'>
+                              <p>Operational Efficiency Surge</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    {/* <SwiperSlide>
                       <div className='row'>
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
@@ -1442,71 +1506,7 @@ export default function HomeTest() {
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row'>
-                        <div className='col-lg-7'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                              <h5>Terence Turner</h5>
-                              <span>General Manager</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              2X
-                            </div>
-                            <div className='r-left'>
-                              <p>Data Simplification & <br />Processing</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              80%
-                            </div>
-                            <div className='r-left'>
-                              <p>Increased sales Revenue</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row'>
-                        <div className='col-lg-7'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                              <h5>Terence Turner</h5>
-                              <span>General Manager</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              2X
-                            </div>
-                            <div className='r-left'>
-                              <p>Data Simplification & <br />Processing</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              80%
-                            </div>
-                            <div className='r-left'>
-                              <p>Increased sales Revenue</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
                   </Swiper>
                 </div>
