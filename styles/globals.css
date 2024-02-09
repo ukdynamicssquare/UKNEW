@@ -10652,7 +10652,7 @@ position:relative;
   top: inherit;
   right: -120px !important;
   left: inherit;
-  bottom:0px;
+  top:-40px;
   -webkit-animation: movers 2s infinite  alternate;
   animation: movers 2s infinite  alternate;
 }
