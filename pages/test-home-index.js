@@ -818,8 +818,8 @@ export default function HomeTest() {
           <div className="row justify-content-center">
               <div className="col-lg-10">
                 <header className="section-header section-header-home">
-                  <h2>Still Not Updated with New Gen Technology?</h2>
-                  <p>Don’t Fret, I’m here to Help You Roar!</p>
+                  <h2>Still Not Utilizing Microsoft Cloud Technology? </h2>
+                  <p>Don’t Worry, I'm Here to Help You Roar!</p>
                 </header>
               </div>
             </div>
@@ -889,7 +889,7 @@ export default function HomeTest() {
                     <h3>Implementation</h3>
                   </div>
                   <div className="app-body">
-                    <p>Elevate your business with AI workflows you can trust with Dynamics 365 Implementation. Unify Data, Ensure cloud security, successful business operations and more. </p>
+                    <p>Elevate your business with AI workflows you can trust through our Dynamics 365 implementation services. Our experienced teams excel in onsite, hybrid, or remote models, ensuring smooth and successful implementations. </p>
                     <Link href="/our-services/dynamics-365-implementation-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -906,7 +906,7 @@ export default function HomeTest() {
                     <h3>Upgrade</h3>
                   </div>
                   <div className="app-body">
-                    <p>Drive Impact by maximizing with Dynamics 365 Upgrade Servies. Trust us whilst we upgrade your legacy system as we ensure seamless transitions and minimal disruptions to your operations.</p>
+                    <p>Drive impact by maximizing with Dynamics 365 upgrade Services. Trust us as we upgrade your legacy system, ensuring seamless transitions and minimal disruptions to your operations.</p>
                     <Link href="/our-services/dynamics-365-upgrade-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -923,7 +923,7 @@ export default function HomeTest() {
                     <h3>Support</h3>
                   </div>
                   <div className="app-body">
-                    <p>Ensure long-term benefits and support as our seasoned team strives to be there for any query, resolution, training, implementation and more. </p>
+                    <p>Ensure long-term benefits from our Dynamics 365 support services. Our certified professionals provide resolution, training, implementation, and more. We manage your lifecycle, offer real-time technical assistance, and deliver exceptional Dynamics 365 support.</p>
                     <Link  href="/our-services/dynamics-365-support-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -940,7 +940,7 @@ export default function HomeTest() {
                     <h3>Consulting</h3>
                   </div>
                   <div className="app-body">
-                    <p>Leverage industry expertise, best practices, and emerging trends to help you navigate complex challenges, identify opportunities, and make informed decisions. </p>
+                    <p>Shape your Dynamics 365 project with expert consulting: software selection, assessments, roadmaps, business case development, migration planning, health checks, and license support.</p>
                     <Link href="/our-services/dynamics-365-consultant/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -957,7 +957,7 @@ export default function HomeTest() {
                     <h3>Audit</h3>
                   </div>
                   <div className="app-body">
-                    <p>Let our more than two decades of experienced auditors conduct thorough assessments of your systems and processes, and identify vulnerabilities, gaps, and areas for improvement. </p>
+                    <p>Our expert Dynamics 365 audit Services offer a comprehensive examination of your business model. From initial assessment to detailed analysis, we provide thorough insights, actionable recommendations, and an optimization roadmap for your Dynamics 365 suite.</p>
                     <Link href="/free-dynamics-365-system-health-check/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -974,7 +974,7 @@ export default function HomeTest() {
                     <h3>Training</h3>
                   </div>
                   <div className="app-body">
-                    <p>Experience in-person training sessions, and experimental training modules, helping your business to grow as per the shift in the market. </p>
+                    <p>Experience our Dynamics 365 training services alongside engaging in-person sessions and innovative experimental modules. Our adaptable programs ensure your business stays agile and responsive to market shifts, fostering growth and success.</p>
                    <Link href="/our-services/dynamics-365-training/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -1016,7 +1016,7 @@ export default function HomeTest() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="/img/h-bnner.png">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
                             <source src="/video/rocket.mp4" />
                           </video>
                         </div>
@@ -1028,7 +1028,7 @@ export default function HomeTest() {
                         </div>
                         <div className="inner-info-left">
                           <h3>Committing to helping your business stay relevant</h3>
-                          <p>Grow by Incorporating digital business strategy, customer experience, marketing modernization, and Data and AI expertise with Microsoft's business solutions.</p>
+                          <p>Grow by incorporating digital business strategy, customer experience, marketing modernization, and data and AI expertise with Microsoft's business solutions.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Marketing Campaigns</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Automated Workflows</span></li>
@@ -1047,8 +1047,8 @@ export default function HomeTest() {
 
                         <div className="right-sect">
                           <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="/img/h-bnner.png">
-                              <source src="/video/rocket.mp4" />
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/Hand2.mp4" />
                             </video>
                           </div>
 
@@ -1081,7 +1081,7 @@ export default function HomeTest() {
 
                         <div className="right-sect">
                           <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="/img/h-bnner.png">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
                               <source src="/video/cart_new.mp4" />
                             </video>
                           </div>
@@ -1116,7 +1116,7 @@ export default function HomeTest() {
 
                         <div className="right-sect">
                           <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="/img/h-bnner.png">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
                               <source src="/video/truck.mp4" />
                             </video>
                           </div>
@@ -1150,7 +1150,7 @@ export default function HomeTest() {
 
                         <div className="right-sect">
                           <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="/img/h-bnner.png">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
                               <source src="/video/cart_new.mp4" />
                             </video>
                           </div>
@@ -1183,8 +1183,8 @@ export default function HomeTest() {
 
                         <div className="right-sect">
                           <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="/img/h-bnner.png">
-                              <source src="/video/truck.mp4" />
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/Beverage.mp4" />
                             </video>
                           </div>
 
@@ -1309,20 +1309,20 @@ export default function HomeTest() {
                   >
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/parweld-new-logo.png" alt='tbalist' />
+                        <img src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/Arteak-new-logo.png" alt='tbalist' />
+                        <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/Ncc-new-logo.png" alt='tbalist' />
+                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                       <div className='thum-tab'>
                         <img src="/img/Comxo-new-logo.png" alt='tbalist' />
                       </div>
@@ -1331,7 +1331,7 @@ export default function HomeTest() {
                       <div className='thum-tab'>
                         <img src="/img/Md-new-logo.png" alt='tbalist' />
                       </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                   </Swiper>
                 </div>
 
