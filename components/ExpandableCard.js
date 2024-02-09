@@ -34,7 +34,7 @@ export default function ExpandableCard() {
       content: "Build apps, automate workflows, gain insights from data, and enhance agile efficiency.",
     },
     {
-      name: "Azur Cloude Service",
+      name: "Azure Cloud",
       heading: "Create tomorrow’s breakthrough",
       content: "Innovate, scale, secure and make your business grow for the long term.",
     },

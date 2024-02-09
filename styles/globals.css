@@ -11344,33 +11344,33 @@ border-radius: 10px;
 }
 .containesr .bb-inns ul li:nth-child(1){
   margin-top: 0px;
-    top: -80px;
+    top: -70px;
     position: relative;
     left: 22px;
 }
 .containesr .bb-inns ul li:nth-child(5){
   margin-top: 0px;
-    top: -80px;
+    top: -70px;
     position: relative;
-    left: -18px 
+    left: -40px 
 }
 .containesr .bb-inns ul li:nth-child(2){
   margin-top: 0px;
-    top: -80px;
+    top: -70px;
     position: relative;
-    left: 22px;
+    left: 10px;
 }
 .containesr .bb-inns ul li:nth-child(4){
   margin-top: 0px;
-    top: -80px;
+    top: -70px;
     position: relative;
-    left: 58px;
+    left: 20px;
 }
 .containesr .bb-inns ul li:nth-child(3){
   margin-top: 0px;
     top: -30px;
     position: relative;
-    left: 55px;
+    left: 20px;
 }
 
 
@@ -11411,8 +11411,22 @@ border-radius: 10px;
 top: 0px;
 }
 }
-
-
+@media only screen and (min-width: 768px) and (max-width: 1199px)  {
+  .containesr .bb-inns ul li:nth-child(5) {
+    left: -10px;
+}
+.containesr .bb-inns ul li a {
+  padding: 5px 15px;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px)  {
+  .containesr .bb-inns ul li:nth-child(5) {
+    left: -30px;
+}
+.containesr .bb-inns ul li a {
+  padding: 5px 15px;
+}
+}
 
 
 @media (max-width:1400px){
@@ -11655,5 +11669,14 @@ flex:1 0 75%
 .hero-home {
   padding-top: 30px;
 }
+.float-left-div {
+  position: absolute;
+  top: 125px;
+  left: -40px;
+}
+.float-left-div.float-right-div {
+  right: -98px !important;
+  top: -14px;
 
+}
 }
