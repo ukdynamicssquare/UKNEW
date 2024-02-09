@@ -1,12 +1,21 @@
+import React, { useRef, useState, useEffect } from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination, Autoplay, FreeMode } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+import { FreeMode, Navigation, Thumbs } from 'swiper';
+import ExpandableCard from '../components/ExpandableCard';
+
 
 export default function Home() {
+
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
     <>
       <Head>
@@ -293,1054 +302,1230 @@ export default function Home() {
           }}
         />
       </Head>
+      <main>
 
-      <section id="hero" className="hero hero-1">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5  align-self-center">
-              <h1 data-aos="fade-up">
-                UK's Trusted <br /> Microsoft Dynamics 365 Partner
-              </h1>
-              <p>
-                Simplify your end-to-end business processes to maximise ROI,
-                agility, and growth with Microsoft cloud technology.
-              </p>
-              <div>
-                <div className="text-center text-lg-start btn-welcome">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Book A Free Demo Today</span>
-                    </a>
-                  </Link>
+
+
+
+        <section id="h-banner" className="hero hero-home">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10 text-center">
+                <div className='wellcome-heading-main'>
+                <h1 data-aos="fade-up">
+                  UK's <span>Trusted</span>  Microsoft Solutions Partner
+                </h1>
+                <p>Being reckoned as a leading Microsoft Dynamics 365 partner, and new-gen technology innovator, Dynamics Square holds expertise in AI, advanced automation, cloud solutions, training, and consulting.</p>
+                  <div className="text-center btn-welcome">
+                    <Link href="#exampleModal">
+                      <a
+                        data-bs-toggle="modal"
+                        className="btn-get-started scrollto"
+                      >
+                        <span>Achieve More Together </span>
+                      </a>
+                    </Link>
+                  </div>
+                  <div className='float-left-div'>
+                    <span className='train'></span>
+                   <div className='cont'><span>172%</span> ROI</div>
+                  </div>
+                  <div className='float-left-div float-right-div'>
+                    <span className='train'>4X</span>
+                   <div className='cont'><span>Improved </span>Productivity</div>
+                  </div>
                 </div>
-                <div className="bnner_inline_images">
-                  <ul>
-                    <li>
-                    <Image
-                        src="/img/Microsoft-Partner-black.png"
-                        alt="Microsoft Partner black.png"
-                        width={260}
-                        height={115}
-                      />
-                    </li>
-                  </ul>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+
+        <section style={{ marginBottom: '0px' }} className='po-relativ'>
+          <div className="containesr">
+            <header className="section-header section-header-home" style={{ marginBottom: '-75px',position:'relative',zIndex:'1' }}>
+              <h2>Connected in Every Way. Always.</h2>
+              <p>Seamlessly Connected to Microsoft Apps - All United in One Place</p>
+            </header>
+
+            <ExpandableCard />
+  
+            <div className="vide-s-home" style={{ margin: '' }}>
+
+              <video className="video-screen-home" playsInline autoPlay loop muted poster="/img/h-bnner.png">
+                <source src="/video/home-video.mp4" />
+              </video>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <section id="services" className="services home-serv-bg">
+          <div className="container" data-aos="fade-up">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <header className="section-header section-header-home">
+                  <h2>350+ Businesses Rely on Dynamics Square </h2>
+                  <p><strong>Long-term commitment is at the heart of our mission</strong>: Formed in the year 2011, we have come a long way by building trust among 350+ clients as a reliable Microsoft Dynamics Solution Partner. We take pride in helping organizations succeed and adapt continuously, with Microsoft Dynamics 365 Product Suite.</p>
+                </header>
+              </div>
+            </div>
+            <div className="row gy-2">
+              <div className="col-lg-12">
+                <div className="bg-h-color">
+                  <figure>
+                    <img src="/img/parweld-new-logo.png" alt="parweld-new-logo" />
+                  </figure>
+                  <figure>
+                    <img src="/img/Arteak-new-logo.png" alt="Arteak-new-logo" />
+                  </figure>
+                  <figure><img src="/img/Ncc-new-logo.png" alt="Ncc-new-logo" /></figure>
+                  <figure> <img src="/img/Comxo-new-logo.png" alt="Comxo-new-logo" /></figure>
+                  <figure> <img src="/img/Md-new-logo.png" alt="Md-new-logo" /></figure>
+                  {/* <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /> */}
+
                 </div>
               </div>
             </div>
-            <div
-              className="col-lg-7 hero-img hero-img-home"
-              data-aos="zoom-out"
-              data-aos-delay="200"
-            >
-              <Image
-                src="/img/banner-head-image.png"
-                alt="dynamicssquare banner image UK"
-                className="icon"
-                width={1000}
-                height={800}
-                priority={true}
-                quality={70}
-              />
+          </div>
+        </section>
+
+
+        <section>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <header className="section-header section-header-home">
+                  <h2>Microsoft Business Apps: New Age Solutions to Drive Exponential Growth</h2>
+                  <p>The world is changing, and so is technology! If you're struggling to thrive in a fast-paced market, don't worry. Dynamics Square will address your business challenges with Microsoft Business Apps </p>
+                </header>
+              </div>
+            </div>
+            <div className="row">
+
+
+              <div className="tabs-service-slide">
+                <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                  <button className="nav-link active" id="nav-service-one-tab" data-bs-toggle="tab" data-bs-target="#nav-service-one" type="button" role="tab" aria-controls="nav-service-one" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Business Central</button>
+                  <button className="nav-link" id="nav-service-two-tab" data-bs-toggle="tab" data-bs-target="#nav-service-two" type="button" role="tab" aria-controls="nav-service-two" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-finance.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Finance</button>
+                  <button className="nav-link" id="nav-service-five-tab" data-bs-toggle="tab" data-bs-target="#nav-service-five" type="button" role="tab" aria-controls="nav-service-five" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Supply Chain</button>
+                  <button className="nav-link" id="nav-service-three-tab" data-bs-toggle="tab" data-bs-target="#nav-service-three" type="button" role="tab" aria-controls="nav-service-three" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-sales.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure>Sales</button>
+                  <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-marketing.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure>Marketing</button>
+                 
+                  <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true"><figure>
+                    <img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
+                  </figure> Customer Service</button>
+
+
+
+                </div>
+
+                <div className="tab-content" id="nav-tabContent">
+                  <div className="tab-pane fade active show" id="nav-service-one" role="tabpanel" aria-labelledby="nav-service-one-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+                        <div className="inner-info-left">
+                          <h3>Smart AI-enabled ERP by Microsoft for small and medium-size business models</h3>
+                          <p>Drive success by outperforming smartly with an ERP incorporated by 96 % of Fortune 500 companies. </p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Streamline operations with advanced AI and automated workflows.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Eliminate manual data entry and app-switching.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Discover cloud-based accessibility, enabling access from any location in the world.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Maximize revenue with accurate cash flow projections, ensuring financial stability.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Protect sensitive information with elevated security innovation. </span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                          <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <span>Cloud-Enabled Growth</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/AI-powered-efficiency.png" alt="AI-powered-efficiency" />
+                            <span>AI-Powered Efficiency</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/work-on-the-move.png" alt="work-on-the-move" />
+                            <span>Work on the Move</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/flexible-integration.png" alt="flexible-integration" />
+                            <span>Flexible Integration</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/intelligent-decision-making.png" alt="intelligent-decision-making" />
+                            <span>Intelligent Decision Making </span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="tab-pane fade" id="nav-service-two" role="tabpanel" aria-labelledby="nav-service-two-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+
+                        <div className="inner-info-left">
+                          <h3>Powerful & Proven Financial Business Solutions globally acclaimed for Large Scale Businesses</h3>
+                          <p>Navigate your business with the new-age financial management Microsoft solutions.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Effectual handling of finances on a single platform</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Build resiliency through intelligent forecasting solutions.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Simplify complex billing and pricing scenarios.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Optimize monetization with AI-powered solutions.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Meet global expectations with foreign exchange support.  </span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/financial-agility.png" alt="financial-agility" />
+                            <span>Financial Ability & Agility</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/AI-Powerdbilling.png" alt="AI-Powerdbilling" />
+                            <span>AI-powered billing</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/cash-flow.png" alt="cash-flow" />
+                            <span>Predictive cash flow forecasting </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/away-from-dijointed.png" alt="away-from-dijointed" />
+                            <span>Away from disjointed financial processes </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <span>Unified data from Microsoft AppSource </span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-service-three" role="tabpanel" aria-labelledby="nav-service-three-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+
+                        <div className="inner-info-left">
+                          <h3>Next-gen AI sales solutions to accelerate revenue and customer relationships</h3>
+                          <p>Simplify sales process with AI, automation, and real-time insights. Gear up with a high-powered CRM solution dedicated to empowering your team and clients.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Use Copilot to reduce mundane tasks </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Ease selling with intelligent customer insights </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Meet customer’s preferences with personalized interactions</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Filter the right customers with AI-based scoring and visualizations</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Integrated sales processes within the Microsoft Ecosystem</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
+                            <span>AI-powered Sales Automation </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
+                            <span>Easy Integration within the Dynamics 365 Apps </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/data_exploration.png" alt="data_exploration" />
+                            <span>Data-driven sales strategies for enhanced performance</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
+                            <span>Real-time insights for informed decision making</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/Unified-data.png" alt="Unified-data" />
+                            <span>Shorten sales cycle using AI </span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-service-four" role="tabpanel" aria-labelledby="nav-service-four-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+
+                        <div className="inner-info-left">
+                          <h3>Fuel Up your marketing team to generate and distribute out-of-the-box campaigns across several media</h3>
+                          <p>Track potential leads, schedule viral events, and monitor every activity and performance with advanced tools.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer journeys with targeted marketing campaigns.y</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Measure and optimize campaign performance in real-time.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Seamlessly integrate marketing efforts with sales and customer service.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Easy monitoring of multi-channel campaigns.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Efficient lead conversions. </span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/experimental-journey.png" alt="experimental-journey" />
+                            <span>Streamlined brand experiential journey </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/multi-channel-campaign.png" alt="multi-channel-campaign" />
+                            <span>Simplified multi-channel campaigns</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/customer-insights.png" alt="customer-insights" />
+                            <span>Ai-powered customer insights </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/Scalable-market.png" alt="Scalable-market" />
+                            <span>Scalable marketing automation</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/realtime-performance.png" alt="realtime-performance" />
+                            <span>Real-time performance monitoring</span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-service-five" role="tabpanel" aria-labelledby="nav-service-five-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+
+                        <div className="inner-info-left">
+                          <h3>Drive real change; get disruption ready with intelligent solution</h3>
+                          <p>Optimize your supply chain operations with Dynamic 365 Supply Chain, an intelligent solution that offers end-to-end operational excellence.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Proactively manage inventory and demand to meet customer expectations.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Streamline procurement processes for cost savings and supply chain resilience.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Refrain stockouts with automated inventory placement using Copilot.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Leverage predictive analytics to mitigate supply risks.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Integrate vendor networks for seamless collaboration.</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/unmatched-cybersecurity.png" alt="unmatched-cybersecurity" />
+                            <span>Unmatched Cybersecurity  </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/proactive-inventory-management.png" alt="proactive-inventory-management" />
+                            <span>Proactive Inventory Management </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/warehouse-optimisation.png" alt="warehouse-optimisation" />
+                            <span>Warehouse Optimization </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/agile-manufacturing-practice.png" alt="agile-manufacturing-practice" />
+                            <span>Agile Manufacturing Practices </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/minimise-downtime.png" alt="minimise-downtime" />
+                            <span>Minimize downtime using mobile devices. </span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-service-six" role="tabpanel" aria-labelledby="nav-service-six-tab">
+                    <div className="tab-inner-contant-one">
+                      <div className="left-sect">
+
+                        <div className="inner-info-left">
+                          <h3>Take your customer service experience to another level with Dynamic 365 Customer Service. </h3>
+                          <p>Pace your growth with seamless support, personalized interactions, AI-driven automation, and proactive engagement.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Advanced service delivery tracking and placements</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Deliver consistent support across multiple channels </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer interactions through ai-powered recommendations.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Improved innovation with real-time feedback and analysis.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enable self-service options for faster issue resolution.</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/Seamless-support.png" alt="Seamless-support" />
+                            <span>Seamless Support</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/customer-accesibility.png" alt="customer-accesibility" />
+                            <span>Enhanced Customer Accessibility</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/Personalisation-for-customer.png" alt="Personalisation-for-customer" />
+                            <span>AI-Driven Personalization for Customers </span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/issuee-resolution.png" alt="issuee-resolution" />
+                            <span>Proactive Issue Resolution</span>
+                          </figure>
+                        </div>
+                        <div className="d-colomn">
+                          <figure>
+                            <img src="/img/Knowledge-management.png" alt="Knowledge-management" />
+                            <span>Knowledge Management </span>
+                          </figure>
+                        </div>
+                        <div className="bnn">
+                          <Link href="#exampleModal">
+                            <a
+                              data-bs-toggle="modal"
+                              className="btn-get-started scrollto"
+                            >
+                              <span>Get Started</span>
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </section>
+
+        <section className="m-botom-120">
+          <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <header className="section-header section-header-home">
+                  <h2>Still Not Utilizing Microsoft Cloud Technology? </h2>
+                  <p>Don’t Worry, I'm Here to Help You Roar!</p>
+                </header>
+              </div>
+            </div>
+            <div className="row mascot-bg">
+              <div className="col-lg-6">
+                <div className="mas-left">
+                  <div className="text-ar">
+                    <h3>Looking for a Dynamics 365 <br /> implementation partner?</h3>
+                    <Link href="#exampleModal">
+                      <a
+                        data-bs-toggle="modal"
+                        className="scrollto-tops"
+                      >
+                        <span>Get Started <i className="bi bi-arrow-right"></i></span>
+                      </a>
+                    </Link>
+                  </div>
+                  <video className="video-l" autoPlay loop muted playsInline poster="">
+                    <source src="/video/animation-hover.mp4" />
+                  </video>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="mas-left-right">
+                  <div className="text-ar text-r-right">
+                    <h3>Want to know what more <br />Dynamics 365 can do?</h3>
+                    <Link href="/products/microsoft-dynamics-365/">
+                      <a
+                        className="scrollto-tops-right"
+                      >
+                        <span>Get Started <i className="bi bi-arrow-right"></i></span>
+                      </a>
+                    </Link>
+                  </div>
+                  <video className="video-r" autoPlay playsInline loop muted poster="">
+                    <source src="/video/animation-hover.mp4" />
+                  </video>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="post-mas"><img src="/img/mascut-png.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="b--colo-new">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <header className="section-header section-header-home">
+                  <h2>Reimagine your Business growing at scale </h2>
+                  <p>Create a breakthrough with Dynamics Square’s expertise in delivering the right implementation, upgrade or support services. Know what your business needs. </p>
+                </header>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                    <div className='app-hovers'>
+                    <figure>
+                      <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                    </figure>
+                        <video autoPlay muted playsInline loop src="/video/Scale-video-1.mp4" type="video/mp4"></video>
+                    </div>
+                    <h3>Implementation</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Elevate your business with AI workflows you can trust through our Dynamics 365 implementation services. Our experienced teams excel in onsite, hybrid, or remote models, ensuring smooth and successful implementations. </p>
+                    <Link href="/our-services/dynamics-365-implementation-services/"><a>Learn More </a></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                  <div className='app-hovers'>
+                    <figure>
+                      <img src="/img/app-head-icons-2.png" alt="Implementation" />
+                    </figure>
+                        <video autoPlay playsInline muted loop src="/video/Scale-video-2.mp4" type="video/mp4"></video>
+                    </div>
+                    <h3>Upgrade</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Drive impact by maximizing with Dynamics 365 upgrade Services. Trust us as we upgrade your legacy system, ensuring seamless transitions and minimal disruptions to your operations.</p>
+                    <Link href="/our-services/dynamics-365-upgrade-services/"><a>Learn More </a></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                  <div className='app-hovers'>
+                    <figure>
+                      <img src="/img/app-head-icons-3.png" alt="Implementation" />
+                    </figure>
+                        <video autoPlay playsInline muted loop src="/video/Scale-video-3.mp4" type="video/mp4"></video>
+                    </div>
+                    <h3>Support</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Ensure long-term benefits from our Dynamics 365 support services. Our certified professionals provide resolution, training, implementation, and more. We manage your lifecycle, offer real-time technical assistance, and deliver exceptional Dynamics 365 support.</p>
+                    <Link  href="/our-services/dynamics-365-support-services/"><a>Learn More </a></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                  <div className='app-hovers'>
+                    <figure>
+                      <img src="/img/app-head-icons-4.png" alt="Implementation" />
+                    </figure>
+                        <video autoPlay playsInline muted loop src="/video/Scale-video-4.mp4" type="video/mp4"></video>
+                    </div>
+                    <h3>Consulting</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Shape your Dynamics 365 project with expert consulting: software selection, assessments, roadmaps, business case development, migration planning, health checks, and license support.</p>
+                    <Link href="/our-services/dynamics-365-consultant/"><a>Learn More </a></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                  <div className='app-hovers'>
+                    <figure>
+                      <img src="/img/app-head-icons-5.png" alt="Implementation" />
+                    </figure>
+                        <video autoPlay playsInline muted loop src="/video/Scale-video-5.mp4" type="video/mp4"></video>
+                    </div>
+                    <h3>Audit</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Our expert Dynamics 365 audit Services offer a comprehensive examination of your business model. From initial assessment to detailed analysis, we provide thorough insights, actionable recommendations, and an optimization roadmap for your Dynamics 365 suite.</p>
+                    <Link href="/free-dynamics-365-system-health-check/"><a>Learn More </a></Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="business-app-card">
+                  <div className="app-head">
+                  <div className='app-hovers'>
+                    <figure>
+                      <img src="/img/app-head-icons-6.png" alt="Implementation" />
+                    </figure>
+                        <video autoPlay playsInline muted loop src="/video/Scale-video-6.mp4" type="video/mp4"></video>
+                    </div>
+                    <h3>Training</h3>
+                  </div>
+                  <div className="app-body">
+                    <p>Experience our Dynamics 365 training services alongside engaging in-person sessions and innovative experimental modules. Our adaptable programs ensure your business stays agile and responsive to market shifts, fostering growth and success.</p>
+                   <Link href="/our-services/dynamics-365-training/"><a>Learn More </a></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className='relt-pos'>
+          <div className="container rr-bg-colgr">
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+                <header className="section-header section-header-home">
+                  <h2>Become An Industry Leader</h2>
+                  <p>By implementing Dynamics 365 Business Applications.</p>
+                </header>
+              </div>
+            </div>
+            <div className="row g-66">
+
+
+              <div className="tabs-service-slide-solution">
+                <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="StartUp" /></div><span>E-commerce</span></button>
+                <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="StartUp" /></div><span>Education</span></button>
+                <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/local_shipping.png" alt="StartUp" /></div><span>Manufacturing</span></button>
+                  <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" /></div><span>StartUp</span></button>
+                  <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="StartUp" /></div><span>Not for Profit</span></button>        
+                  <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="StartUp" /></div><span>Food & Beverages</span></button>
+                  <Link href="/industries/"><button className="nav-link"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" /></div><span><a>Explore More</a></span></button></Link>
+
+
+
+                </div>
+
+                <div className="tab-content" id="nav-tabContent">
+                  <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                            <source src="/video/rocket.mp4" />
+                          </video>
+                        </div>
+
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>StartUp</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Committing to helping your business stay relevant</h3>
+                          <p>Grow by incorporating digital business strategy, customer experience, marketing modernization, and data and AI expertise with Microsoft's business solutions.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Marketing Campaigns</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Automated Workflows</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Program Dashboard </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Financial Analysis</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Informed Decision Making</span></li>
+                          </ul>
+                          <Link href="/industries/startups/"><a className="lins-indu">Know more about solutions</a></Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="tab-pane fade" id="nav-industry-two" role="tabpanel" aria-labelledby="nav-industry-two-tab">
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/Hand2.mp4" />
+                            </video>
+                          </div>
+
+                        </div>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Not For Profit</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Witness the Growth of Substance with Government-Specific ERP Solutions</h3>
+                            <p>Make your vision a reality by ensuring the desired performance.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management </span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Action Dashboard</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Consumer Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Analysis of the Impact Created</span></li>
+                            </ul>
+                            <Link href="/industries/microsoft-cloud-for-nonprofit/"><a className="lins-indu">Know more about solutions</a></Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-three" role="tabpanel" aria-labelledby="nav-industry-three-tab">
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/cart_new.mp4" />
+                            </video>
+                          </div>
+
+                        </div>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>E-commerce </span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Visualize Success and drive growth in today's competitive market</h3>
+                            <p>Delivering exceptional experiences to meet the evolving needs of e-commerce businesses.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Integration with eCommerce platforms</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Unified customer data</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Streamlined order management.</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Flawless support across channels</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Automated leads, and sales generation</span></li>
+                            </ul>
+                            <Link href="/industries/ecommerce/"><a className="lins-indu">Know more about solutions</a></Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-four" role="tabpanel" aria-labelledby="nav-industry-four-tab">
+
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/truck.mp4" />
+                            </video>
+                          </div>
+
+                        </div>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Manufacturing </span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Visualize Success: Transform Your Manufacturing Operations</h3>
+                            <p>Time to drive innovation across the manufacturing value chain.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>1.	Integrated Data Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>2.	Demand Forecasting and Planning</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>3.	End-to-End Visibility</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>4.	Schedule preventive maintenance activities, and minimize unplanned downtime.</span></li>
+                            </ul>
+                            <Link href="/industries/microsoft-cloud-for-manufacturing/"><a className="lins-indu">Know more about solutions</a></Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-five" role="tabpanel" aria-labelledby="nav-industry-five-tab">
+
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/cart_new.mp4" />
+                            </video>
+                          </div>
+
+                        </div>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Education</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Let the Future of the Education Industry Be in Your Hands </h3>
+                            <p>Utilize Microsoft's Dynamics 365 suite to revolutionize and empower the education realm.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Inclusive learning environments </span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Future-proof the admin operations.</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Student Information Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Alumni Relations and Fundraising</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Administration Management </span></li>
+                            </ul>
+                            <Link href="/industries/dynamics-365-for-education/"><a className="lins-indu">Know more about solutions</a></Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-six" role="tabpanel" aria-labelledby="nav-industry-six-tab">
+                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                      <div className="tab-industry-contant-one">
+
+                        <div className="right-sect">
+                          <div className="d-colomn">
+                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                              <source src="/video/Beverage.mp4" />
+                            </video>
+                          </div>
+
+                        </div>
+                        <div className="left-sect">
+                          <div className="tags-indy">
+                            <span>Food & Beverage</span>
+                          </div>
+                          <div className="inner-info-left">
+                            <h3>Ease Away to Gastronomical Glory </h3>
+                            <p>Manage operations, including inventory, sales, customer relationships, and financials.</p>
+                            <ul>
+                              <li><i className="bi bi-check-circle"></i> <span>Optimize replenishment processes.</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Recipe and Formula Management</span></li>
+                              <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
+
+                            </ul>
+                            <Link href="/industries/food-and-beverages/"><a className="lins-indu">Know more about solutions</a></Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <section className="achive-sec">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="achive-left">
+                  <h3>About Dynamics Square</h3>
+                  <p>As a Gold Microsoft Dynamics Partner, we can help you revolutionise your business processes and operations while leveraging the power of the cloud, AI, and ML.</p>
+
+                  <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>
+                  <p>We are one of the trusted dynamics consultants and certified Microsoft CRM & ERP partners, helping businesses like yours to achieve exponential growth while resolving critical business problems with 100% user satisfaction</p>
+                  <div className="btn-welcome">
+                    <Link href="/about-us/">
+                      <a
+                        className="btn-get-started scrollto"
+                      >
+                        <span>Find out our Approach</span>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 align-self-center">
+                <figure className="acive-fig">
+                  <img src="/img/micro-about-pic.png" alt="micro-about-pic" />
+                </figure>
+              </div>
+            </div>
+            <div className="row world-achive">
+              <div className="col-lg-4">
+                <div className="w-achive-l">
+                  <figure>
+                    <img src="/img/group.png" alt="group" />
+                  </figure>
+                </div>
+                <div className="w-achive-b">
+                  <h4>350+</h4>
+                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="w-achive-l">
+                  <figure>
+                    <img src="/img/manage_accounts.png" alt="manage_accounts" />
+                  </figure>
+                </div>
+                <div className="w-achive-b">
+                  <h4>150+</h4>
+                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div className="w-achive-l">
+                  <figure>
+                    <img src="/img/rewarded_ads.png" alt="rewarded_ads" />
+                  </figure>
+                </div>
+                <div className="w-achive-b">
+                  <h4>12+</h4>
+                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-9">
+                <div className="home-side-new-heading">
+                  <h2>See how our customers drive impact</h2>
+                  <p>By implementing Dynamics 365 Business Applications</p>
+                </div>
+              </div>
+             
             </div>
             
-          </div>
-        </div>
-      </section>
 
-      <section id="services" className="services">
-        <div className="container" data-aos="fade-up">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <header className="section-header">
-                <h2>
-                  Microsoft Business Apps: Innovative Solutions to Boost
-                  Business Performance
-                </h2>
-                <p>
-                  Microsoft business applications offer various efficient
-                  solutions for better ROI, including ERP (Dynamics NAV, AX),
-                  CRM (Dynamics 365 CE), and Power Platform (Power BI
-                  implementation).
-                </p>
-              </header>
-            </div>
-          </div>
-          <div className="row gy-2">
-            <div className="col-lg-4 col-md-6">
-              <div className="service-box  service-box-blue">
-                <div className="top">
-                  <img
-                    src="/img/business-center-logo.svg"
-                    alt="business-center-logo"
-                    className="icon"
-                    width="45"
-                    height="45"
-                  />
-                  <h3>
-                    Dynamics 365 <br /> Business Central
-                  </h3>
-                </div>
-                <p>
-                  Drive an efficient business model on the cloud while keeping
-                  real-time eyes on your sales insights, effectively manage your
-                  finance, and ensure a sound customer experience.
-                </p>
-                <Link href="/products/dynamics-365-business-central/">
-                  <a target="_blank" className="read-more"> 
-                    <span>Learn More...</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="service-box service-box-blue">
-                <div className="top">
-                  <img
-                    src="/img/finace-icons.svg"
-                    alt="finace-icons"
-                    className="icon"
-                    width="45"
-                    height="45"
-                  />
-                  <h3>
-                    Dynamics 365 <br />
-                    Finance
-                  </h3>
-                </div>
-                <p>
-                  Simplify your finance hierarchy and boost your organisation's
-                  ability to develop, modify and control budgets, make faster
-                  and more informed financial decisions.
-                </p>
-                <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a target="_blank" className="read-more">
-                    <span>Learn More...</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="service-box service-box-blue">
-                <div className="top">
-                  <img
-                    src="/img/supplychain-logo.svg"
-                    alt="supplychain-logo"
-                    className="icon"
-                    width="45"
-                    height="45"
-                  />
-                  <h3>
-                    Dynamics 365 <br />
-                    Supply Chain
-                  </h3>
-                </div>
-                <p>
-                  Optimise resources, maximise operational efficiency, and
-                  accelerate time to market while keeping real-time eyes in your
-                  end-to-end supply chain operations.
-                </p>
-                <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a className="read-more" target="_blank">
-                    <span>Learn More...</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div className="service-box service-box-blue">
-                <div className="top">
-                  <img
-                    src="/img/Sales_scalable.svg"
-                    alt="Sales_scalable"
-                    className="icon"
-                    width="45"
-                    height="45"
-                  />
-                  <h3>
-                    Dynamics 365 <br />
-                    Sales
-                  </h3>
-                </div>
-                <p>
-                  Boost your sales, build better customer relationships, and
-                  maximise your revenue outcomes through Microsoft Dynamics 356
-                  for Sales.
-                </p>
-                <Link href="/products/microsoft-dynamics-365-sales/">
-                  <a className="read-more" target="_blank">
-                    <span>Learn More...</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div className="service-box service-box-blue">
-                <div className="top">
-                  <img
-                    src="/img/powerbilogo.png"
-                    alt="Powerapps_power-apps"
-                    className="icon"
-                    width="45"
-                    height="45"
-                  />
-                  <h3>
-                    Microsoft <br />
-                    Power BI
-                  </h3>
-                </div>
-                <p>
-                  Steadily monitor your business activities with power-packed
-                  data visualisation and real-time reporting insights to make
-                  informed decisions for better productivity ahead.
-                </p>
-                <Link href="/products/microsoft-power-bi/">
-                  <a className="read-more" target="_blank"> 
-                    <span>Learn More...</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="700"
-            >
-              <div className="service-box service-box-blue">
-                <div className="top">
-                  <img
-                    src="/img/Azure-IoT.svg"
-                    alt="Azure-IoT"
-                    className="icon"
-                    width="45"
-                    height="45"
-                  />
-                  <h3>
-                    Internet Of <br />
-                    Things
-                  </h3>
-                </div>
-                <p>
-                  Outreach more efficient, scalable, and secure data
-                  distribution practices by simply integrating cloud-equipped,
-                  modernised, and seamless data-driven solutions with Microsoft
-                  Azure.
-                </p>
-                <Link href="/products/azure-iot-internet-of-things/">
-                  <a className="read-more" target="_blank">
-                    <span>Learn More...</span>
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="serve-more-new">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="more-new-inner pad12">
-                <h3>Looking for a Dynamics 365 implementation partner?</h3>
-                <p>
-                  We can help you get a stress-free and cost-effective Dynamics
-                  365 implementation to minimise efforts and maximise outcomes
-                  that bring continuous growth for your business.
-                </p>
-                <div className="cla-brn">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn btn-md btn-danger btn-custmm"
-                    >
-                      Request a Demo <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <hr className="ds-nnn-mo" />
-            <div className="col-lg-6">
-              <div className="more-new-inner pad13">
-                <h3>Want to know what more Dynamics 365 can do?</h3>
-                <p>
-                  Microsoft Dynamics 365 can be your steppingstone for rapid
-                  business growth and scalability to your business powered by
-                  Microsoft cloud technology. Want Dynamics 365 in action?
-                </p>
-                <div className="cla-brn">
-                  <Link href="/products/microsoft-dynamics-365/">
-                    <a className="btn btn-md btn-danger btn-custmm" target="_blank">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="container">
-          <div className="row ns-bdd">
-            <div className="col-lg-12">
-              <div className="new-hh">
-                <h2>What Your Microsoft Partner can Deliver:</h2>
-                <p>
-                  With more than 11 years of experience, we have a proven record
-                  of scaling businesses to new <br /> heights with seamless and
-                  highly scalable services.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="our-serv-new-de">
-                <img src="/img/imp-1.png" alt="Implementation Services" />
-                <h3>Implementation</h3>
-                <p>
-                  Our stress-free Dynamics 365 implementation services, catered
-                  by a proactive team of Microsoft consultants, offer customised
-                  solutions with superior technical expertise to scale your
-                  business.
-                </p>
-                <Link href="/our-services/dynamics-365-implementation-services/">
-                  <a target="_blank">Learn More <span className="screen-reader-text">Details</span></a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="our-serv-new-de">
-                <img src="/img/imp-2.png" alt="Upgrade" />
-                <h3>Upgrade</h3>
-                <p>
-                  Modernise your legacy system by leveraging new capabilities to
-                  revolutionise your business with our Dynamics 365 upgrade
-                  services. Get automatic updates, seamless integrations, and
-                  better RoI.
-                </p>
-                <Link href="/our-services/dynamics-365-upgrade-services/">
-                  <a target="_blank">Learn More <span className="screen-reader-text">Details</span></a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="our-serv-new-de">
-                <img src="/img/imp-3.png" alt="Support" />
-                <h3>Support</h3>
-                <p>
-                  Avail our comprehensive and adaptive remote or on-site
-                  Dynamics 365 support for all Microsoft business applications,
-                  including NAV, GP, AX, Business Central, Finance & Supply
-                  Chain, and Power BI.
-                </p>
-                <Link href="/our-services/dynamics-365-support-services/">
-                  <a target="_blank">Learn More <span className="screen-reader-text">Details</span></a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" className="services bg-shape">
-        <div className="container" data-aos="fade-up">
-          <header className="section-header">
-            <h2>Become an Industry leader</h2>
-            <p>By implementing Dynamics 365 Business Applications</p>
-          </header>
-          <div className="row gy-4">
-            <div className="col-lg-4 col-md-6">
-              <div className="figer-box">
-                <div className="top">
-                  <img
-                    src="/img/StartUp-icons.png"
-                    width="64"
-                    height="64"
-                    className="boxshadow"
-                    alt="StartUp-icons"
-                  />
-                  <h3>Startups</h3>
-                </div>
-                <div className="over-layer-cont">
-                  <h3>Startups</h3>
-                  <p>
-                    With Microsoft Dynamics Business Solutions, startups can
-                    streamline their business efficiency and ensure levelling up
-                    their business in a shorter time span.
-                  </p>
-                  <Link href="/industries/startups/">
-                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="figer-box">
-                <div className="top">
-                  <img
-                    src="/img/Not-for-Profit-icons.png"
-                    width="64"
-                    height="64"
-                    className="boxshadow"
-                    alt="Not for Profit"
-                  />
-                  <h3>Not for Profit</h3>
-                </div>
-                <div className="over-layer-cont">
-                  <h3>Not for Profit</h3>
-                  <p>
-                    Our experienced Dynamics consultants in the UK can help to
-                    streamline your end-to-end non-profit practices across your
-                    organisation or divisions.
-                  </p>
-                  <Link href="/industries/microsoft-cloud-for-nonprofit/">
-                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="figer-box">
-                <div className="top">
-                  <img
-                    src="/img/E-Commerce-icons.png"
-                    width="64"
-                    height="64"
-                    className="boxshadow"
-                    alt="StartUp-icons"
-                  />
-                  <h3>E-Commerce</h3>
-                </div>
-                <div className="over-layer-cont">
-                  <h3>E-Commerce</h3>
-                  <p>
-                    Automate your entire e-commerce operations from ordering and
-                    inventory management to supply chain efficiency to final
-                    customer delivery with Dynamics 365 E-commerce.
-                  </p>
-                  <Link href="/industries/ecommerce/">
-                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="figer-box">
-                <div className="top">
-                  <img
-                    src="/img/Manufacturing-Distribution-icons.png"
-                    width="64"
-                    height="64"
-                    className="boxshadow"
-                    alt="StartUp-icons"
-                  />
-                  <h3>Manufacturing & Distribution</h3>
-                </div>
-                <div className="over-layer-cont">
-                  <h3>Manufacturing & Distribution</h3>
-                  <p>
-                    By eliminating redundancies, our experts in the United
-                    Kingdom can boost efficiency in your manufacturing &
-                    distribution model through D365 Business Applications.
-                  </p>
-                  <Link href="/industries/microsoft-cloud-for-manufacturing/">
-                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="figer-box">
-                <div className="top">
-                  <img
-                    src="/img/Professional-Services-icons.png"
-                    width="64"
-                    height="64"
-                    className="boxshadow"
-                    alt="StartUp-icons"
-                  />
-                  <h3>Professional Services</h3>
-                </div>
-                <div className="over-layer-cont">
-                  <h3>Professional Services</h3>
-                  <p>
-                    We help to automate and streamline your professional
-                    services from managing finances, customers, and clients to
-                    projects while reducing costs and equipping efficiency.
-                  </p>
-                  <Link href="/industries/professional-services/">
-                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="figer-box">
-                <div className="top">
-                  <img
-                    src="/img/Food-and-Beverages-icons.png"
-                    width="64"
-                    height="64"
-                    className="boxshadow"
-                    alt="StartUp-icons"
-                  />
-                  <h3>Food & Beverages</h3>
-                </div>
-                <div className="over-layer-cont">
-                  <h3>Food & Beverages</h3>
-                  <p>
-                    We deep-dive your industry-specific needs and implement a
-                    next-generation Microsoft D365 Solution delivering true
-                    values to your food & beverages business domain.
-                  </p>
-                  <Link href="/industries/food-and-beverages/">
-                    <a target="_blank" className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="Health-Check">
-        <div className="container">
-          <header className="section-header">
-            <h2>
-              Dynamics 365 <br /> System Health Check
-            </h2>
-            <p>
-              Enlarge your business capabilities and ensure your business <br />
-              continuity with our Dynamics 365 system health check program.
-            </p>
-          </header>
-          <div className="row">
-            <div className="col-lg-6 aos-init align-self-center">
-              <Image
-                src="/img/system-health-check.png"
-                className="system-health-check"
-                alt="Dynamics 365 System Health Check"
-                width={553}
-                height={531}
-              />
-            </div>
-            <div className="col-lg-6 pt-4 pt-lg-0 content align-self-center">
-              <div className="content-icons-modil-1">
-                <div className="content-inner-moil-1 content-inner-moil-3">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check2"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right cintent-right-001">
-                    <p>
-                      Considering your present business requirements and future
-                      business anticipations, we diagnose your real-time
-                      requirements demonstrating your future approach.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1 content-inner-moil-3">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check2"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right cintent-right-001">
-                    <p>
-                      Consultants at Dynamics Square provide free system
-                      health-check to discover the optimum and customised
-                      Microsoft Dynamics 365 needs as per your distinct business
-                      context.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1 content-inner-moil-3">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check2"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right cintent-right-001">
-                    <p>
-                      Now, it's time to decide whether you want to stay with
-                      your existing equipped system or would love to schedule a
-                      Microsoft Dynamics Demo to implement a modern-equipped
-                      system.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <br />
-              <Link href="/free-dynamics-365-system-health-check/">
-                <a
-                  className="read-more"
-                  data-aos="fade-left"
-                  data-aos-delay="500"
-                  target="_blank"
-                >
-                  Get Free System Health Check
-                  <i className="bi bi-long-arrow-right"></i>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="busine_service_bottom custom07">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-7 align-self-center">
-              <div className="side-heading-custom-01">
-                <h2>About Dynamics Square</h2>
-              </div>
-              <div className="custom-p-001 custom-p-009">
-                <p>
-                  As a Gold Microsoft Dynamics Partner, we can help you
-                  revolutionise your business processes and operations while
-                  leveraging the power of the cloud, AI, and ML.
-                </p>
-                <p>
-                  Since 2011, we have been serving our global customers,
-                  enabling them to make more profits by implementing tech-driven
-                  cloud solutions.
-                </p>
-                <p>
-                  We are one of the trusted dynamics consultants and certified
-                  Microsoft CRM & ERP partners, helping businesses like yours to
-                  achieve exponential growth while resolving critical business
-                  problems with 100% user satisfaction.{" "}
-                </p>
-                <Link href="/about-us/">
-                  <a target="_blank">Find Out Our Approach</a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-5 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/about-home-left.png"
-                  alt="about-home-left"
-                  width={489}
-                  height={514}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="counts" className="counts counts-bg">
-        <div className="container" data-aos="fade-up">
-          <div className="row gy-4">
-            <div className="col-lg-3 col-md-6">
-              <div className="count-box">
-                <div className="count-box-image">
-                  <img
-                    src="/img/Icon awesome-user-check.png"
-                    alt="awesome-user-check"
-                    width="48"
-                    height="48"
-                  />
-                </div>
-                <div className="count-box-info">
-                  {/* <span>
-                    <AnimatedNumber
-                      component="text"
-                      value={135}
-                      style={{
-                        transition: "0.8s ease-out",
-                        transitionProperty: "background-color, color, opacity",
-                      }}
-                      duration={300}
-                    />
-                  </span> */}
-                  <span className="inner">150+</span>
-                  <p>Microsoft Consultants</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="count-box">
-                <div className="count-box-image">
-                  <img
-                    src="/img/Icon awesome-award.png"
-                    alt="Icon awesome-award"
-                    width="48"
-                    height="48"
-                  />
-                </div>
-                <div className="count-box-info">
-                  {/* <span>
-                    <AnimatedNumber
-                      component="text"
-                      value={11}
-                      style={{
-                        transition: "0.8s ease-out",
-                        transitionProperty: "background-color, color, opacity",
-                      }}
-                      duration={300}
-                    />
-                  </span> */}
-                  <span className="inner">12+</span>
-                  <p>Years of Expertise</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="count-box">
-                <div className="count-box-image">
-                  <img
-                    src="/img/Icon awesome-globe-asia.png"
-                    alt="Icon awesome-globe-asia"
-                    width="48"
-                    height="48"
-                  />
-                </div>
-                <div className="count-box-info">
-                  {/* <span>
-                    <AnimatedNumber
-                      component="text"
-                      value={6}
-                      style={{
-                        transition: "0.8s ease-out",
-                        transitionProperty: "background-color, color, opacity",
-                      }}
-                      duration={300}
-                    />
-                  </span> */}
-                  <span className="inner">6+</span>
-                  <p>Global Presence</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="count-box">
-                <div className="count-box-image">
-                  <img
-                    src="/img/Icon ionic-md-thumbs-up.png"
-                    alt="awesome-user-check"
-                    width="48"
-                    height="48"
-                  />
-                </div>
-                <div className="count-box-info">
-                  {/* <span>
-                    <AnimatedNumber
-                      component="text"
-                      value={99}
-                      style={{
-                        transition: "0.8s ease-out",
-                        transitionProperty: "background-color, color, opacity",
-                      }}
-                      duration={300}
-                    />
-                  </span> */}
-                  <span className="inner">99%</span>
-                  <p>Customer Satisfaction</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="testimonials" className="testimonials">
-        <div className="container" data-aos="fade-up">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="sec-title">
-                <h2>
-                  What Our Clients <br /> Have To Say About Us
-                </h2>
-              </div>
-              <div className="testimonials-slider swiper">
-                <div className="swiper-wrapper">
+            <div className='row'>
+              <div className='col-lg-12'>
+                <div className='test-slider-tab-list'>
                   <Swiper
-                    autoplay={{
-                      delay: 10000,
-                      disableOnInteraction: false,
-                    }}
-                    slidesPerView={1}
+                    onSwiper={setThumbsSwiper}
                     spaceBetween={30}
+                    slidesPerView={5}
                     freeMode={true}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    modules={[Autoplay, FreeMode, Pagination]}
-                    className="mySwiper test-client-page"
+                    watchSlidesProgress={true}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className="mySwiper"
                   >
                     <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="testimonial-item">
-                          <div className="profile mt-auto">
-                            <img
-                              src="/img/testimonials/Terence-Turner.png"
-                              className="testimonial-img"
-                              alt="Terence-Turner"
-                              width="125"
-                              height="125"
-                            />
-                            <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="metro-quote" width="51" height="41" />
-                            </div>
-                            <p>
-                              Dynamics Square Team provided us a top-level
-                              service. Well trained staff as well as excellent
-                              support when needed. Very professional and
-                              trustworthy.
-                            </p>
-                            <h3>Terence Turner</h3>
-                            <h4>General Manager</h4>
-                          </div>
-                        </div>
+                      <div className='thum-tab'>
+                        <img src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' />
                       </div>
                     </SwiperSlide>
-
                     <SwiperSlide>
-                      {" "}
-                      <div className="swiper-slide">
-                        <div className="testimonial-item">
-                          <div className="profile mt-auto">
-                            <img
-                              src="/img/testimonials/Nicolas-Hopwood.png"
-                              className="testimonial-img"
-                              alt="Nicolas-Hopwood"
-                              width="125"
-                              height="125"
-                            />
-                            <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="metro-quote" width="51" height="41" />
-                            </div>
-                            <p>
-                              The team at Dynamics Square helped us in upgrading
-                              our erp system to the latest version of D365
-                              Business Central resulting in a successful rollout
-                              to our staff.
-                            </p>
-                            <h3>Nicolas Hopwood</h3>
-                            <h4>Facilities Manager</h4>
-                          </div>
-                        </div>
+                      <div className='thum-tab'>
+                        <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
                       </div>
                     </SwiperSlide>
-
                     <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="testimonial-item">
-                          <div className="profile mt-auto">
-                            <img
-                              src="/img/testimonials/Jonathan-W.png"
-                              className="testimonial-img"
-                              alt="Jonathan-W.png"
-                              width="125"
-                              height="125"
-                            />
-                            <div className="imginner">
-                              <img
-                                src="/img/Icon metro-quote.png"
-                                alt="metro-quote"
-                                width="51" height="41"
-                              />
-                            </div>
-                            <p>
-                              We have worked with Dynamics Square since 2019.
-                              Our working relationship has built during this
-                              period, and we have found them to be very
-                              professional
-                            </p>
-                            <h3>Jonathan W</h3>
-                            <h4>Technical Director</h4>
-                          </div>
-                        </div>
+                      <div className='thum-tab'>
+                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
                       </div>
                     </SwiperSlide>
+                    {/* <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/Comxo-new-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/Md-new-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide> */}
                   </Swiper>
                 </div>
-                {/* <div className="swiper-pagination"></div> */}
+
+                <div className='test-slider-contant'>
+                  <Swiper
+                    style={{
+                      '--swiper-navigation-color': '#fff',
+                      '--swiper-pagination-color': '#fff',
+                    }}
+                    spaceBetween={10}
+                    navigation={true}
+                    thumbs={{ swiper: thumbsSwiper }}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className="mySwiper2"
+                  >
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Precision in <br/>Financial Analytics</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Productivity Boost <br/> from Automation</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Nicolas-Hopwood.png" alt="Nicolas-Hopwood" />
+                              <p>The team at Dynamics Square helped us in upgrading our erp system to the latest version of D365 Business Central resulting in a successful rollout to our staff.</p>
+                              <h5>Nicolas Hopwood</h5>
+                              <span>Facilities Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            3X
+                            </div>
+                            <div className='r-left'>
+                              <p>Growth in ROI</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            70%
+                            </div>
+                            <div className='r-left'>
+                              <p>Improved <br/>Finance Efficiency </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" />
+                              <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional</p>
+                              <h5>Jonathan W</h5>
+                              <span>Technical Director</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Optimized <br/> Replenishment Procedures</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            60%
+                            </div>
+                            <div className='r-left'>
+                              <p>Operational <br/>Efficiency Surge</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    {/* <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Data Simplification & <br />Processing</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increased sales Revenue</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide> */}
+
+                  </Swiper>
+                </div>
               </div>
+
+
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="testimonials-bg">
-                <div className="testimonials-rigt-iner">
-                  <Image
-                    src="/img/testmonial-side-pic.png"
-                    className="testmonial-side-pic"
-                    alt="testmonial"
-                    width={802}
-                    height={764}
-                  />
-                  {/* <div className="testimonials-rigt-iner-1">
-                    <img src="/img/test-side-1.jpg" alt="" />
-                  </div>
-                  <div className="testimonials-rigt-iner-2">
-                    <h4>250+</h4>
-                    <span>
-                      Happy Clients
-                      <br />
-                      Worldwide
-                    </span>
-                  </div>
-                  <div className="testimonials-rigt-iner-3">
-                    <img src="/img/test-side-3.jpg" alt="" />
-                  </div>
-                  <div className="testimonials-rigt-iner-4">
-                    <img src="/img/test-side-2.jpg" alt="" />
-                  </div> */}
+            <div className='row'>
+            <div className="col-md-12">
+                <div className="case-mor-link">
+                <Link  href="/case-studies/" ><a>Read more success stories</a></Link>
                 </div>
               </div>
             </div>
+
           </div>
-        </div>
-      </section>
+        </section>
 
 
-      <section id="casestudys" className="casestudys ">
-        <div className="container" data-aos="fade-up">
-          <div className="row  gy-4">
-            <div className="col-lg-5 align-self-center">
-              <Image
-                src="/img/case-study-side-banner.png"
-                alt="case-study-side-banner"
-                width={640}
-                height={592}
-              />
-            </div>
-            <div className="col-lg-1 align-self-center"></div>
-            <div className="col-lg-6 align-self-center">
-              <div className="sec-title">
-                <h2>Glimpse Of What We Delivered</h2>
-                <p>Dynamics 365 Case Stories</p>
-              </div>
-              <Swiper
-                autoplay={{
-                  delay: 10000,
-                  disableOnInteraction: false,
-                }}
-                slidesPerView={1}
-                spaceBetween={30}
-                freeMode={true}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[Pagination, Autoplay]}
-                className="mySwiper casestudys-sled-1"
-              >
-                <SwiperSlide>
-                  <div className="casestudys-slider-item">
-                    <div className="profile mt-auto">
-                      <p>
-                        A leading British based manufacturer of Military
-                        Equipment implemented Microsoft Dynamics 365 Business
-                        Central to streamline their finance and inventory
-                        management process.
-                      </p>
-                      <div className="case-content-wrapper">
-                        <div className="case-content">
-                          <p>2X</p>
-                          <span>Data Simplification & Processing</span>
-                        </div>
-                        <div className="case-content">
-                          <p>80%</p>
-                          <span>Data Simplification & Processing</span>
-                        </div>
-                      </div>
-                      <div className="case-button">
-                        <Link href="/case-studies/nav2009R2-to-business-central/">
-                          <a target="_blank" className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="casestudys-slider-item">
-                    <div className="profile mt-auto">
-                
-                      <p>
-                        UK's leading fragrance, skincare, cosmetics, and
-                        haircare wholesaler was looking to improve its
-                        operational efficiencies with Microsoft Dynamics NAV
-                        2018. Discover now.
-                      </p>
-                      <div className="case-content-wrapper">
-                        <div className="case-content">
-                          <p>4x</p>
-                          <span>Improved Inventory System</span>
-                        </div>
-                        <div className="case-content">
-                          <p>100%</p>
-                          <span>Alliance with HMRC</span>
-                        </div>
-                      </div>
-                      <div className="case-button">
-                        <Link href="/case-studies/nav09-nav18-upgrade/">
-                          <a target="_blank" className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="casestudys-slider-item">
-                    <div className="profile mt-auto">
-                      <p>
-                        British-based Hygienic Disposable Cleaning & Wiping
-                        Products wholesaler wanted to up and cross sell to
-                        increase the sales volume with customers. Read how they
-                        did it!
-                      </p>
-                      <div className="case-content-wrapper">
-                        <div className="case-content">
-                          <p>10x</p>
-                          <span>Improved Customer Experience</span>
-                        </div>
-                        <div className="case-content">
-                          <p>50%</p>
-                          <span>Increased Sales Revenue</span>
-                        </div>
-                      </div>
-                      <div className="case-button">
-                        <Link href="/case-studies/nav-2016-support-services/">
-                          <a target="_blank" className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              </Swiper>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
+
+      </main>
     </>
   );
 }

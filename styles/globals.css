@@ -10804,7 +10804,7 @@ inner-info-left ul li span{}
   margin-right:20px;
 }
 .tab-inner-contant-one .right-sect .d-colomn span{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   color: #443c68;
@@ -11490,6 +11490,12 @@ top: 0px;
 }
 }
 @media (max-width:991px){
+  .test-slider-tab-list{
+    display:none !important
+  }
+  .section-header-home {
+    padding-bottom: 30px;
+}
   #h-banner.hero-home h1{
     font-size: 42px !important;
   }

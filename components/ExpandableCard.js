@@ -69,15 +69,16 @@ export default function ExpandableCard() {
         ))}
          <style jsx>{`
          .heding-tots{
-            color: #fff;
-    font-size: 24px;
-    margin-bottom: 15px;
+          color: #fff;
+          font-size: 22px;
+          margin-bottom: 15px;
+          font-weight: 700;
          }
          .card-cent{
 
          }
          .card-cent p{
-            color: #fff;
+            color:rgb(233 222 255);
     font-size: 18px;
          }
        
@@ -107,7 +108,8 @@ export default function ExpandableCard() {
             transform: translate(-50%,-50%);
             z-index: 2;
            text-align:center;
-           padding: 80px 40px;
+           padding: 70px 30px;
+           backdrop-filter: blur(8px);
         }
         .close-btn {
             cursor: pointer;
