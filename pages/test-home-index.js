@@ -353,17 +353,8 @@ export default function HomeTest() {
               <p>Seamlessly Connected to Microsoft Apps - All United in One Place</p>
             </header>
 
-            {/* <HoverSvg /> */}
             <ExpandableCard />
-            {/* <div className='bb-inns'>
-              <ul>
-                <li><a href="">Office 365</a></li>
-                <li><a href="">Copilot</a></li>
-                <li><a href="">Dynamics 365</a></li>
-                <li><a href="">Power Platform</a></li>
-                <li><a href="">Azur Cloude Service</a></li>
-              </ul>
-            </div> */}
+  
             <div className="vide-s-home" style={{ margin: '' }}>
 
               <video className="video-screen-home" playsInline autoPlay loop muted poster="/img/h-bnner.png">
@@ -390,14 +381,14 @@ export default function HomeTest() {
               <div className="col-lg-12">
                 <div className="bg-h-color">
                   <figure>
-                    <img src="/img/Parweld-logo.png" alt="client-logs" />
+                    <img src="/img/parweld-new-logo.png" alt="parweld-new-logo" />
                   </figure>
                   <figure>
-                    <img src="/img/Meirion-Davies-logo.png" alt="client-logs" />
+                    <img src="/img/Arteak-new-logo.png" alt="Arteak-new-logo" />
                   </figure>
-                  <figure><img src="/img/Noahs-Ark-Logo.png" alt="client-logs" /></figure>
-                  <figure> <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /></figure>
-                  <figure> <img src="/img/Ncc-education-logo.png" alt="client-logs" /></figure>
+                  <figure><img src="/img/Ncc-new-logo.png" alt="Ncc-new-logo" /></figure>
+                  <figure> <img src="/img/Comxo-new-logo.png" alt="Comxo-new-logo" /></figure>
+                  <figure> <img src="/img/Md-new-logo.png" alt="Md-new-logo" /></figure>
                   {/* <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /> */}
 
                 </div>
@@ -413,7 +404,7 @@ export default function HomeTest() {
               <div className="col-lg-10">
                 <header className="section-header section-header-home">
                   <h2>Microsoft Business Apps: New Age Solutions to Drive Exponential Growth</h2>
-                  <p>The world is changing, and so is technology! If you're struggling to thrive in a fast-paced market, don't worry. Dynamics Square will address your business challenges with Microsoft Business Apps.</p>
+                  <p>The world is changing, and so is technology! If you're struggling to thrive in a fast-paced market, don't worry. Dynamics Square will address your business challenges with Microsoft Business Apps </p>
                 </header>
               </div>
             </div>
@@ -451,7 +442,7 @@ export default function HomeTest() {
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
                         <div className="inner-info-left">
-                          <h3>Smart AI-enabled ERP for SMBs</h3>
+                          <h3>Smart AI-enabled ERP by Microsoft for small and medium-size business models</h3>
                           <p>Drive success by outperforming smartly with an ERP incorporated by 96 % of Fortune 500 companies. </p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Streamline operations with advanced AI and automated workflows.</span></li>
@@ -855,9 +846,8 @@ export default function HomeTest() {
                 <div className="mas-left-right">
                   <div className="text-ar text-r-right">
                     <h3>Want to know what more <br />Dynamics 365 can do?</h3>
-                    <Link href="#exampleModal">
+                    <Link href="/products/microsoft-dynamics-365/">
                       <a
-                        data-bs-toggle="modal"
                         className="scrollto-tops-right"
                       >
                         <span>Get Started <i className="bi bi-arrow-right"></i></span>
@@ -900,7 +890,7 @@ export default function HomeTest() {
                   </div>
                   <div className="app-body">
                     <p>Elevate your business with AI workflows you can trust with Dynamics 365 Implementation. Unify Data, Ensure cloud security, successful business operations and more. </p>
-                    <a href="">Learn More </a>
+                    <Link href="/our-services/dynamics-365-implementation-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -917,7 +907,7 @@ export default function HomeTest() {
                   </div>
                   <div className="app-body">
                     <p>Drive Impact by maximizing with Dynamics 365 Upgrade Servies. Trust us whilst we upgrade your legacy system as we ensure seamless transitions and minimal disruptions to your operations.</p>
-                    <a href="">Learn More </a>
+                    <Link href="/our-services/dynamics-365-upgrade-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -934,7 +924,7 @@ export default function HomeTest() {
                   </div>
                   <div className="app-body">
                     <p>Ensure long-term benefits and support as our seasoned team strives to be there for any query, resolution, training, implementation and more. </p>
-                    <a href="">Learn More </a>
+                    <Link  href="/our-services/dynamics-365-support-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -951,7 +941,7 @@ export default function HomeTest() {
                   </div>
                   <div className="app-body">
                     <p>Leverage industry expertise, best practices, and emerging trends to help you navigate complex challenges, identify opportunities, and make informed decisions. </p>
-                    <a href="">Learn More </a>
+                    <Link href="/our-services/dynamics-365-consultant/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -968,7 +958,7 @@ export default function HomeTest() {
                   </div>
                   <div className="app-body">
                     <p>Let our more than two decades of experienced auditors conduct thorough assessments of your systems and processes, and identify vulnerabilities, gaps, and areas for improvement. </p>
-                    <a href="">Learn More </a>
+                    <Link href="/free-dynamics-365-system-health-check/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -985,7 +975,7 @@ export default function HomeTest() {
                   </div>
                   <div className="app-body">
                     <p>Experience in-person training sessions, and experimental training modules, helping your business to grow as per the shift in the market. </p>
-                    <a href="">Learn More </a>
+                   <Link href="/our-services/dynamics-365-training/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -1014,7 +1004,7 @@ export default function HomeTest() {
                   <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/local_shipping.png" alt="StartUp" /></div><span>Manufacturing</span></button>
                   <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="StartUp" /></div><span>Education</span></button>
                   <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="StartUp" /></div><span>Food & Beverages</span></button>
-                  <button className="nav-link" id="nav-industry-seven-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-seven" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" /></div><span>Explore More</span></button>
+                  <Link href="/industries/"><button className="nav-link"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" /></div><span><a>Explore More</a></span></button></Link>
 
 
 
@@ -1046,7 +1036,7 @@ export default function HomeTest() {
                             <li><i className="bi bi-check-circle"></i> <span>Financial Analysis</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Informed Decision Making</span></li>
                           </ul>
-                          <a href="" className="lins-indu">Know more about solutions</a>
+                          <Link href="/industries/startups/"><a className="lins-indu">Know more about solutions</a></Link>
                         </div>
                       </div>
                     </div>
@@ -1077,7 +1067,7 @@ export default function HomeTest() {
                               <li><i className="bi bi-check-circle"></i> <span>Consumer Marketing Journey</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Analysis of the Impact Created</span></li>
                             </ul>
-                            <a href="" className="lins-indu">Know more about solutions</a>
+                            <Link href="/industries/microsoft-cloud-for-nonprofit/"><a className="lins-indu">Know more about solutions</a></Link>
                           </div>
                         </div>
                       </div>
@@ -1111,7 +1101,7 @@ export default function HomeTest() {
                               <li><i className="bi bi-check-circle"></i> <span>Flawless support across channels</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Automated leads, and sales generation</span></li>
                             </ul>
-                            <a href="" className="lins-indu">Know more about solutions</a>
+                            <Link href="/industries/ecommerce/"><a className="lins-indu">Know more about solutions</a></Link>
                           </div>
                         </div>
                       </div>
@@ -1146,7 +1136,7 @@ export default function HomeTest() {
                               <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>4.	Schedule preventive maintenance activities, and minimize unplanned downtime.</span></li>
                             </ul>
-                            <a href="" className="lins-indu">Know more about solutions</a>
+                            <Link href="/industries/microsoft-cloud-for-manufacturing/"><a className="lins-indu">Know more about solutions</a></Link>
                           </div>
                         </div>
                       </div>
@@ -1180,7 +1170,7 @@ export default function HomeTest() {
                               <li><i className="bi bi-check-circle"></i> <span>Alumni Relations and Fundraising</span></li>
                               <li><i className="bi bi-check-circle"></i> <span>Administration Management </span></li>
                             </ul>
-                            <a href="" className="lins-indu">Know more about solutions</a>
+                            <Link href="/industries/dynamics-365-for-education/"><a className="lins-indu">Know more about solutions</a></Link>
                           </div>
                         </div>
                       </div>
@@ -1212,7 +1202,7 @@ export default function HomeTest() {
                               <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
 
                             </ul>
-                            <a href="#" className="lins-indu">Know more about solutions</a>
+                            <Link href="/industries/food-and-beverages/"><a className="lins-indu">Know more about solutions</a></Link>
                           </div>
                         </div>
                       </div>
@@ -1238,9 +1228,8 @@ export default function HomeTest() {
                   <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>
                   <p>We are one of the trusted dynamics consultants and certified Microsoft CRM & ERP partners, helping businesses like yours to achieve exponential growth while resolving critical business problems with 100% user satisfaction</p>
                   <div className="btn-welcome">
-                    <Link href="#exampleModal">
+                    <Link href="/about-us/">
                       <a
-                        data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
                         <span>Find out our Approach</span>
@@ -1301,12 +1290,9 @@ export default function HomeTest() {
                   <p>By implementing Dynamics 365 Business Applications</p>
                 </div>
               </div>
-              <div className="col-md-3">
-                <div className="case-mor-link">
-                  <a href="/case-studies/" target="blank">Read more success stories</a>
-                </div>
-              </div>
+             
             </div>
+            
 
 
             <div className='row'>
@@ -1323,27 +1309,27 @@ export default function HomeTest() {
                   >
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/timesco-logo-new.png" alt='tbalist' />
+                        <img src="/img/parweld-new-logo.png" alt='tbalist' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/cqc-logo-1.png" alt='tbalist' />
+                        <img src="/img/Arteak-new-logo.png" alt='tbalist' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/green-star-p-logo.png" alt='tbalist' />
+                        <img src="/img/Ncc-new-logo.png" alt='tbalist' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/omicron-new-logo.png" alt='tbalist' />
+                        <img src="/img/Comxo-new-logo.png" alt='tbalist' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/green-wireless-logo.png" alt='tbalist' />
+                        <img src="/img/Md-new-logo.png" alt='tbalist' />
                       </div>
                     </SwiperSlide>
                   </Swiper>
@@ -1528,7 +1514,13 @@ export default function HomeTest() {
 
 
             </div>
-
+            <div className='row'>
+            <div className="col-md-12">
+                <div className="case-mor-link">
+                <Link  href="/case-studies/" ><a>Read more success stories</a></Link>
+                </div>
+              </div>
+            </div>
 
           </div>
         </section>

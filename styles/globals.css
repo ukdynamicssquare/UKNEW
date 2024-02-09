@@ -10708,7 +10708,7 @@ position:relative;
   padding: 0px 50px;
 }
 .bg-h-color img{
-  mix-blend-mode: multiply;
+  mix-blend-mode: luminosity;
 }
 .tabs-service-slide>.nav-tabs{
   border-bottom: none;
