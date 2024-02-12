@@ -1311,14 +1311,15 @@ export default function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
+                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
+                        <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
                       </div>
                     </SwiperSlide>
+                    
                     {/* <SwiperSlide>
                       <div className='thum-tab'>
                         <img src="/img/Comxo-new-logo.png" alt='tbalist' />
