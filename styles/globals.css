@@ -11617,10 +11617,14 @@ top: 0px;
     padding-top: 0;
     margin-top: -40px;
 }
-.tab-inner-contant-one .left-sect .bnn, .tab-inner-contant-one .right-sect .bnn
-{
+.tab-inner-contant-one .left-sect .bnn{
   display: flex;
     justify-content: center;
+}
+.tab-inner-contant-one .right-sect .bnn
+{
+  display: flex;
+    justify-content: left;
 }
 .mascot-bg{
   border-radius: 0;
