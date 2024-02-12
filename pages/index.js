@@ -312,10 +312,10 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-lg-10 text-center">
                 <div className='wellcome-heading-main'>
-                <h1 data-aos="fade-up">
-                  UK's <span>Trusted</span>  Microsoft Solutions Partner
-                </h1>
-                <p>Being reckoned as a leading Microsoft Dynamics 365 partner, and new-gen technology innovator, Dynamics Square holds expertise in AI, advanced automation, cloud solutions, training, and consulting.</p>
+                  <h1 data-aos="fade-up">
+                    UK's <span>Trusted</span>  Microsoft Solutions Partner
+                  </h1>
+                  <p>Being reckoned as a leading Microsoft Dynamics 365 partner, and new-gen technology innovator, Dynamics Square holds expertise in AI, advanced automation, cloud solutions, training, and consulting.</p>
                   <div className="text-center btn-welcome">
                     <Link href="#exampleModal">
                       <a
@@ -328,11 +328,11 @@ export default function Home() {
                   </div>
                   <div className='float-left-div'>
                     <span className='train'></span>
-                   <div className='cont'><span>172%</span> ROI</div>
+                    <div className='cont'><span>172%</span> ROI</div>
                   </div>
                   <div className='float-left-div float-right-div'>
                     <span className='train'>4X</span>
-                   <div className='cont'><span>Improved </span>Productivity</div>
+                    <div className='cont'><span>Improved </span>Productivity</div>
                   </div>
                 </div>
               </div>
@@ -344,13 +344,13 @@ export default function Home() {
 
         <section style={{ marginBottom: '0px' }} className='po-relativ'>
           <div className="containesr">
-            <header className="section-header section-header-home" style={{ marginBottom: '-75px',position:'relative',zIndex:'1' }}>
+            <header className="section-header section-header-home" style={{ marginBottom: '-75px', position: 'relative', zIndex: '1' }}>
               <h2>Connected in Every Way. Always.</h2>
               <p>Seamlessly Connected to Microsoft Apps - All United in One Place</p>
             </header>
 
             <ExpandableCard />
-  
+
             <div className="vide-s-home" style={{ margin: '' }}>
 
               <video className="video-screen-home" playsInline autoPlay loop muted poster="/img/h-bnner.png">
@@ -424,7 +424,7 @@ export default function Home() {
                   <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
                     <img src="/img/menu-icons/dynamics-365-marketing.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                   </figure>Marketing</button>
-                 
+
                   <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true"><figure>
                     <img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                   </figure> Customer Service</button>
@@ -452,7 +452,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <figure>
-                          <img src="/img/cloud_done.png" alt="cloud_done" />
+                            <img src="/img/cloud_done.png" alt="cloud_done" />
                             <span>Cloud-Enabled Growth</span>
                           </figure>
                         </div>
@@ -811,7 +811,7 @@ export default function Home() {
 
         <section className="m-botom-120">
           <div className="container">
-          <div className="row justify-content-center">
+            <div className="row justify-content-center">
               <div className="col-lg-10">
                 <header className="section-header section-header-home">
                   <h2>Still Not Utilizing Microsoft Cloud Technology? </h2>
@@ -877,10 +877,10 @@ export default function Home() {
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>
-                    <figure>
-                      <img src="/img/app-head-icons-1.png" alt="Implementation" />
-                    </figure>
-                        <video autoPlay muted playsInline loop src="/video/Scale-video-1.mp4" type="video/mp4"></video>
+                      <figure>
+                        <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                      </figure>
+                      <video autoPlay muted playsInline loop src="/video/Scale-video-1.mp4" type="video/mp4"></video>
                     </div>
                     <h3>Implementation</h3>
                   </div>
@@ -893,11 +893,11 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
-                  <div className='app-hovers'>
-                    <figure>
-                      <img src="/img/app-head-icons-2.png" alt="Implementation" />
-                    </figure>
-                        <video autoPlay playsInline muted loop src="/video/Scale-video-2.mp4" type="video/mp4"></video>
+                    <div className='app-hovers'>
+                      <figure>
+                        <img src="/img/app-head-icons-2.png" alt="Implementation" />
+                      </figure>
+                      <video autoPlay playsInline muted loop src="/video/Scale-video-2.mp4" type="video/mp4"></video>
                     </div>
                     <h3>Upgrade</h3>
                   </div>
@@ -910,28 +910,28 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
-                  <div className='app-hovers'>
-                    <figure>
-                      <img src="/img/app-head-icons-3.png" alt="Implementation" />
-                    </figure>
-                        <video autoPlay playsInline muted loop src="/video/Scale-video-3.mp4" type="video/mp4"></video>
+                    <div className='app-hovers'>
+                      <figure>
+                        <img src="/img/app-head-icons-3.png" alt="Implementation" />
+                      </figure>
+                      <video autoPlay playsInline muted loop src="/video/Scale-video-3.mp4" type="video/mp4"></video>
                     </div>
                     <h3>Support</h3>
                   </div>
                   <div className="app-body">
                     <p>Ensure long-term benefits from our Dynamics 365 support services. Our certified professionals provide resolution, training, implementation, and more. We manage your lifecycle, offer real-time technical assistance, and deliver exceptional Dynamics 365 support.</p>
-                    <Link  href="/our-services/dynamics-365-support-services/"><a>Learn More </a></Link>
+                    <Link href="/our-services/dynamics-365-support-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
-                  <div className='app-hovers'>
-                    <figure>
-                      <img src="/img/app-head-icons-4.png" alt="Implementation" />
-                    </figure>
-                        <video autoPlay playsInline muted loop src="/video/Scale-video-4.mp4" type="video/mp4"></video>
+                    <div className='app-hovers'>
+                      <figure>
+                        <img src="/img/app-head-icons-4.png" alt="Implementation" />
+                      </figure>
+                      <video autoPlay playsInline muted loop src="/video/Scale-video-4.mp4" type="video/mp4"></video>
                     </div>
                     <h3>Consulting</h3>
                   </div>
@@ -944,11 +944,11 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
-                  <div className='app-hovers'>
-                    <figure>
-                      <img src="/img/app-head-icons-5.png" alt="Implementation" />
-                    </figure>
-                        <video autoPlay playsInline muted loop src="/video/Scale-video-5.mp4" type="video/mp4"></video>
+                    <div className='app-hovers'>
+                      <figure>
+                        <img src="/img/app-head-icons-5.png" alt="Implementation" />
+                      </figure>
+                      <video autoPlay playsInline muted loop src="/video/Scale-video-5.mp4" type="video/mp4"></video>
                     </div>
                     <h3>Audit</h3>
                   </div>
@@ -961,17 +961,17 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="business-app-card">
                   <div className="app-head">
-                  <div className='app-hovers'>
-                    <figure>
-                      <img src="/img/app-head-icons-6.png" alt="Implementation" />
-                    </figure>
-                        <video autoPlay playsInline muted loop src="/video/Scale-video-6.mp4" type="video/mp4"></video>
+                    <div className='app-hovers'>
+                      <figure>
+                        <img src="/img/app-head-icons-6.png" alt="Implementation" />
+                      </figure>
+                      <video autoPlay playsInline muted loop src="/video/Scale-video-6.mp4" type="video/mp4"></video>
                     </div>
                     <h3>Training</h3>
                   </div>
                   <div className="app-body">
                     <p>Experience our Dynamics 365 training services alongside engaging in-person sessions and innovative experimental modules. Our adaptable programs ensure your business stays agile and responsive to market shifts, fostering growth and success.</p>
-                   <Link href="/our-services/dynamics-365-training/"><a>Learn More </a></Link>
+                    <Link href="/our-services/dynamics-365-training/"><a>Learn More </a></Link>
                   </div>
                 </div>
               </div>
@@ -994,21 +994,115 @@ export default function Home() {
 
               <div className="tabs-service-slide-solution">
                 <div className="nav nav-tabs mb-3" id="nav-tab-new" role="tablist">
-                <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" /></div><span>StartUp</span></button>
-                <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="StartUp" /></div><span>E-commerce</span></button>
-                <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="StartUp" /></div><span>Education</span></button>
-                <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/local_shipping.png" alt="StartUp" /></div><span>Manufacturing</span></button>
-                
-                  <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="StartUp" /></div><span>Not for Profit</span></button>        
-                  <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="StartUp" /></div><span>Food & Beverages</span></button>
+
+                  <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="E-commerce" /></div><span>E-commerce</span></button>
+                  <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="Education" /></div><span>Education</span></button>
+                  <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/local_shipping.png" alt="Manufacturing" /></div><span>Manufacturing</span></button>
+                  <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" /></div><span>StartUp</span></button>
+                  <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="Not for Profit" /></div><span>Not for Profit</span></button>
+                  <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="Food & Beverages" /></div><span>Food & Beverages</span></button>
                   <Link href="/industries/"><button className="nav-link"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" /></div><span><a>Explore More</a></span></button></Link>
 
 
 
                 </div>
 
-                <div className="tab-content" id="nav-tabContent">
+                <div className="tab-content" id="nav-tabContentss">
+
                   <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
+                    <div className="tab-industry-contant-one">
+
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                            <source src="/video/cart_new.mp4" />
+                          </video>
+                        </div>
+
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>E-commerce </span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Visualize Success and drive growth in today's competitive market</h3>
+                          <p>Delivering exceptional experiences to meet the evolving needs of e-commerce businesses.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Integration with eCommerce platforms</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Unified customer data</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Streamlined order management.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Flawless support across channels</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Automated leads, and sales generation</span></li>
+                          </ul>
+                          <Link href="/industries/ecommerce/"><a className="lins-indu">Know more about solutions</a></Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-two" role="tabpanel" aria-labelledby="nav-industry-two-tab">
+                    <div className="tab-industry-contant-one">
+
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                            <source src="/video/cart_new.mp4" />
+                          </video>
+                        </div>
+
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Education</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Let the Future of the Education Industry Be in Your Hands </h3>
+                          <p>Utilize Microsoft's Dynamics 365 suite to revolutionize and empower the education realm.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Inclusive learning environments </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Future-proof the admin operations.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Student Information Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Alumni Relations and Fundraising</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Administration Management </span></li>
+                          </ul>
+                          <Link href="/industries/dynamics-365-for-education/"><a className="lins-indu">Know more about solutions</a></Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-three" role="tabpanel" aria-labelledby="nav-industry-three-tab">
+                    <div className="tab-industry-contant-one">
+
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                            <source src="/video/truck.mp4" />
+                          </video>
+                        </div>
+
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Manufacturing </span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Visualize Success: Transform Your Manufacturing Operations</h3>
+                          <p>Time to drive innovation across the manufacturing value chain.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Integrated Data Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Demand Forecasting and Planning</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>End-to-End Visibility</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Schedule preventive maintenance activities, and minimize unplanned downtime.</span></li>
+                          </ul>
+                          <Link href="/industries/microsoft-cloud-for-manufacturing/"><a className="lins-indu">Know more about solutions</a></Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="nav-industry-four" role="tabpanel" aria-labelledby="nav-industry-four-tab">
                     <div className="tab-industry-contant-one">
 
                       <div className="right-sect">
@@ -1038,175 +1132,67 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="nav-industry-two" role="tabpanel" aria-labelledby="nav-industry-two-tab">
-                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                      <div className="tab-industry-contant-one">
-
-                        <div className="right-sect">
-                          <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                              <source src="/video/Hand2.mp4" />
-                            </video>
-                          </div>
-
-                        </div>
-                        <div className="left-sect">
-                          <div className="tags-indy">
-                            <span>Not For Profit</span>
-                          </div>
-                          <div className="inner-info-left">
-                            <h3>Witness the Growth of Substance with Government-Specific ERP Solutions</h3>
-                            <p>Make your vision a reality by ensuring the desired performance.</p>
-                            <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Fundraising Management </span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Action Dashboard</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Consumer Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Analysis of the Impact Created</span></li>
-                            </ul>
-                            <Link href="/industries/microsoft-cloud-for-nonprofit/"><a className="lins-indu">Know more about solutions</a></Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div className="tab-pane fade" id="nav-industry-three" role="tabpanel" aria-labelledby="nav-industry-three-tab">
-                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                      <div className="tab-industry-contant-one">
-
-                        <div className="right-sect">
-                          <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                              <source src="/video/cart_new.mp4" />
-                            </video>
-                          </div>
-
-                        </div>
-                        <div className="left-sect">
-                          <div className="tags-indy">
-                            <span>E-commerce </span>
-                          </div>
-                          <div className="inner-info-left">
-                            <h3>Visualize Success and drive growth in today's competitive market</h3>
-                            <p>Delivering exceptional experiences to meet the evolving needs of e-commerce businesses.</p>
-                            <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Integration with eCommerce platforms</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Unified customer data</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Streamlined order management.</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Flawless support across channels</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Automated leads, and sales generation</span></li>
-                            </ul>
-                            <Link href="/industries/ecommerce/"><a className="lins-indu">Know more about solutions</a></Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div className="tab-pane fade" id="nav-industry-four" role="tabpanel" aria-labelledby="nav-industry-four-tab">
-
-                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                      <div className="tab-industry-contant-one">
-
-                        <div className="right-sect">
-                          <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                              <source src="/video/truck.mp4" />
-                            </video>
-                          </div>
-
-                        </div>
-                        <div className="left-sect">
-                          <div className="tags-indy">
-                            <span>Manufacturing </span>
-                          </div>
-                          <div className="inner-info-left">
-                            <h3>Visualize Success: Transform Your Manufacturing Operations</h3>
-                            <p>Time to drive innovation across the manufacturing value chain.</p>
-                            <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>1.	Integrated Data Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>2.	Demand Forecasting and Planning</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>3.	End-to-End Visibility</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>4.	Schedule preventive maintenance activities, and minimize unplanned downtime.</span></li>
-                            </ul>
-                            <Link href="/industries/microsoft-cloud-for-manufacturing/"><a className="lins-indu">Know more about solutions</a></Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
 
                   <div className="tab-pane fade" id="nav-industry-five" role="tabpanel" aria-labelledby="nav-industry-five-tab">
+                    <div className="tab-industry-contant-one">
 
-                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                      <div className="tab-industry-contant-one">
-
-                        <div className="right-sect">
-                          <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                              <source src="/video/cart_new.mp4" />
-                            </video>
-                          </div>
-
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                            <source src="/video/Hand2.mp4" />
+                          </video>
                         </div>
-                        <div className="left-sect">
-                          <div className="tags-indy">
-                            <span>Education</span>
-                          </div>
-                          <div className="inner-info-left">
-                            <h3>Let the Future of the Education Industry Be in Your Hands </h3>
-                            <p>Utilize Microsoft's Dynamics 365 suite to revolutionize and empower the education realm.</p>
-                            <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Inclusive learning environments </span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Future-proof the admin operations.</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Student Information Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Alumni Relations and Fundraising</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Administration Management </span></li>
-                            </ul>
-                            <Link href="/industries/dynamics-365-for-education/"><a className="lins-indu">Know more about solutions</a></Link>
-                          </div>
+
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Not For Profit</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Witness the Growth of Substance with Government-Specific ERP Solutions</h3>
+                          <p>Make your vision a reality by ensuring the desired performance.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Fundraising Management </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Volunteer Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Action Dashboard</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Consumer Marketing Journey</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Analysis of the Impact Created</span></li>
+                          </ul>
+                          <Link href="/industries/microsoft-cloud-for-nonprofit/"><a className="lins-indu">Know more about solutions</a></Link>
                         </div>
                       </div>
                     </div>
                   </div>
 
                   <div className="tab-pane fade" id="nav-industry-six" role="tabpanel" aria-labelledby="nav-industry-six-tab">
-                    <div className="tab-pane fade active show" id="nav-industry-one" role="tabpanel" aria-labelledby="nav-industry-one-tab">
-                      <div className="tab-industry-contant-one">
+                    <div className="tab-industry-contant-one">
 
-                        <div className="right-sect">
-                          <div className="d-colomn">
-                            <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                              <source src="/video/Beverage.mp4" />
-                            </video>
-                          </div>
-
+                      <div className="right-sect">
+                        <div className="d-colomn">
+                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
+                            <source src="/video/Beverage.mp4" />
+                          </video>
                         </div>
-                        <div className="left-sect">
-                          <div className="tags-indy">
-                            <span>Food & Beverage</span>
-                          </div>
-                          <div className="inner-info-left">
-                            <h3>Ease Away to Gastronomical Glory </h3>
-                            <p>Manage operations, including inventory, sales, customer relationships, and financials.</p>
-                            <ul>
-                              <li><i className="bi bi-check-circle"></i> <span>Optimize replenishment processes.</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Recipe and Formula Management</span></li>
-                              <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
 
-                            </ul>
-                            <Link href="/industries/food-and-beverages/"><a className="lins-indu">Know more about solutions</a></Link>
-                          </div>
+                      </div>
+                      <div className="left-sect">
+                        <div className="tags-indy">
+                          <span>Food & Beverage</span>
+                        </div>
+                        <div className="inner-info-left">
+                          <h3>Ease Away to Gastronomical Glory </h3>
+                          <p>Manage operations, including inventory, sales, customer relationships, and financials.</p>
+                          <ul>
+                            <li><i className="bi bi-check-circle"></i> <span>Optimize replenishment processes.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Recipe and Formula Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
+
+                          </ul>
+                          <Link href="/industries/food-and-beverages/"><a className="lins-indu">Know more about solutions</a></Link>
                         </div>
                       </div>
                     </div>
-
                   </div>
-
 
                 </div>
               </div>
@@ -1287,9 +1273,9 @@ export default function Home() {
                   <p>By implementing Dynamics 365 Business Applications</p>
                 </div>
               </div>
-             
+
             </div>
-            
+
 
 
             <div className='row'>
@@ -1309,7 +1295,7 @@ export default function Home() {
                         <img src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' />
                       </div>
                     </SwiperSlide>
-                   
+
                     <SwiperSlide>
                       <div className='thum-tab'>
                         <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
@@ -1363,15 +1349,15 @@ export default function Home() {
                               2X
                             </div>
                             <div className='r-left'>
-                              <p>Precision in <br/>Financial Analytics</p>
+                              <p>Precision in <br />Financial Analytics</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            80%
+                              80%
                             </div>
                             <div className='r-left'>
-                              <p>Productivity Boost <br/> from Automation</p>
+                              <p>Productivity Boost <br /> from Automation</p>
                             </div>
                           </div>
                         </div>
@@ -1392,7 +1378,7 @@ export default function Home() {
                         <div className='col-lg-5'>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            3X
+                              3X
                             </div>
                             <div className='r-left'>
                               <p>Growth in ROI</p>
@@ -1400,14 +1386,14 @@ export default function Home() {
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            70%
+                              70%
                             </div>
                             <div className='r-left'>
-                              <p>Improved <br/>Finance Efficiency </p>
+                              <p>Improved <br />Finance Efficiency </p>
                             </div>
                           </div>
                         </div>
-                        
+
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -1428,21 +1414,21 @@ export default function Home() {
                               2X
                             </div>
                             <div className='r-left'>
-                              <p>Optimized <br/> Replenishment Procedures</p>
+                              <p>Optimized <br /> Replenishment Procedures</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            60%
+                              60%
                             </div>
                             <div className='r-left'>
-                              <p>Operational <br/>Efficiency Surge</p>
+                              <p>Operational <br />Efficiency Surge</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
-                 
+
                     {/* <SwiperSlide>
                       <div className='row'>
                         <div className='col-lg-7'>
@@ -1515,9 +1501,9 @@ export default function Home() {
 
             </div>
             <div className='row'>
-            <div className="col-md-12">
+              <div className="col-md-12">
                 <div className="case-mor-link">
-                <Link  href="/case-studies/" ><a>Read more success stories</a></Link>
+                  <Link href="/case-studies/" ><a>Read more success stories</a></Link>
                 </div>
               </div>
             </div>
