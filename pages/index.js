@@ -1258,7 +1258,7 @@ export default function Home() {
                   </figure>
                 </div>
                 <div className="w-achive-b">
-                  <h4>27/<span>7</span></h4>
+                  <h4>24/<span>7</span></h4>
                   <p><span>Dedicated Support</span>Get help anytime with our full range of services</p>
                 </div>
               </div>
