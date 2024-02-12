@@ -11229,18 +11229,28 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   padding-right: 15px;
 }
 .world-achive .w-achive-b h4{
-  font-family: sans-serif;
+  font-family: 'Anton', sans-serif;
   font-size: 60px;
-  color:#fff
+  color:#fff;
+  font-weight: 300;
+}
+.world-achive .w-achive-b h4 span{
+  font-size: 28px;
 }
 .world-achive .w-achive-b p{
-  color: #f0eff3;
-  font-size: 16px;
+  color: #cec9d9;
+  font-size: 13px;
 }
-
+.world-achive .w-achive-b p span{
+  color: #f0eff3;
+  font-size: 17px;
+  display:block;
+  margin-bottom:7px
+}
 .test-slider-tab-list{
-  margin-bottom: 30px;
-    padding-top: 60px;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 .test-slider-tab-list .swiper-wrapper{
   align-items: center;

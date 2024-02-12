@@ -1236,7 +1236,7 @@ export default function Home() {
                 </div>
                 <div className="w-achive-b">
                   <h4>350+</h4>
-                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                  <p><span>Project Succesess</span>Over 350 projects delivered & counting! Join our journey to success.</p>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -1247,18 +1247,19 @@ export default function Home() {
                 </div>
                 <div className="w-achive-b">
                   <h4>150+</h4>
-                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                  <p><span>Years of Technical Expertise
+                  </span>Proactive & dedicated Microsoft experts at your service.</p>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="w-achive-l">
                   <figure>
-                    <img src="/img/rewarded_ads.png" alt="rewarded_ads" />
+                    <img src="/img/schedule.png" alt="schedule" />
                   </figure>
                 </div>
                 <div className="w-achive-b">
-                  <h4>12+</h4>
-                  <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                  <h4>27/<span>7</span></h4>
+                  <p><span>Dedicated Support</span>Get help anytime with our full range of services</p>
                 </div>
               </div>
             </div>
