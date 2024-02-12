@@ -11239,7 +11239,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 }
 
 .test-slider-tab-list{
-  margin-bottom: 60px;
+  margin-bottom: 30px;
     padding-top: 60px;
 }
 .test-slider-tab-list .swiper-wrapper{
@@ -11251,6 +11251,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 }
 .test-slider-tab-list .img{}
 
+.test-slider-tab-list .swiper-slide-visible{
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+.test-slider-tab-list .swiper-slide-thumb-active{
+  border-bottom: 2px solid #cbbef1;
+}
+.test-slider-tab-list .swiper-slide-visible:hover{
+  border-bottom: 2px solid #cbbef1;
+}
 .test-slider-contant .test-s-info{
 background-color:rgba(99, 89, 133, 0.1);
 padding: 60px 40px;
@@ -11686,3 +11696,5 @@ flex:1 0 75%
 
 }
 }
+
+

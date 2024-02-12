@@ -1392,21 +1392,22 @@ export default function Home() {
                         <div className='col-lg-5'>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                              2X
+                            3X
                             </div>
                             <div className='r-left'>
-                              <p>Optimized <br/> Replenishment Procedures</p>
+                              <p>Growth in ROI</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            60%
+                            70%
                             </div>
                             <div className='r-left'>
-                              <p>Operational <br/>Efficiency Surge</p>
+                              <p>Improved <br/>Finance Efficiency </p>
                             </div>
                           </div>
                         </div>
+                        
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -1424,18 +1425,18 @@ export default function Home() {
                         <div className='col-lg-5'>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            3X
+                              2X
                             </div>
                             <div className='r-left'>
-                              <p>Growth in ROI</p>
+                              <p>Optimized <br/> Replenishment Procedures</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                            70%
+                            60%
                             </div>
                             <div className='r-left'>
-                              <p>Improved <br/>Finance Efficiency </p>
+                              <p>Operational <br/>Efficiency Surge</p>
                             </div>
                           </div>
                         </div>
