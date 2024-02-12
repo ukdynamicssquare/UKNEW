@@ -1309,17 +1309,17 @@ export default function Home() {
                         <img src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' />
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
-                      </div>
-                    </SwiperSlide>
+                   
                     <SwiperSlide>
                       <div className='thum-tab'>
                         <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
                       </div>
                     </SwiperSlide>
-                    
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
+                      </div>
+                    </SwiperSlide>
                     {/* <SwiperSlide>
                       <div className='thum-tab'>
                         <img src="/img/Comxo-new-logo.png" alt='tbalist' />
@@ -1382,38 +1382,6 @@ export default function Home() {
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/testimonials/Nicolas-Hopwood.png" alt="Nicolas-Hopwood" />
-                              <p>The team at Dynamics Square helped us in upgrading our erp system to the latest version of D365 Business Central resulting in a successful rollout to our staff.</p>
-                              <h5>Nicolas Hopwood</h5>
-                              <span>Facilities Manager</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                            3X
-                            </div>
-                            <div className='r-left'>
-                              <p>Growth in ROI</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                            70%
-                            </div>
-                            <div className='r-left'>
-                              <p>Improved <br/>Finance Efficiency </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row'>
-                        <div className='col-lg-7'>
-                          <div className='test-s-info'>
-                            <figure>
                               <img src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" />
                               <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional</p>
                               <h5>Jonathan W</h5>
@@ -1441,6 +1409,39 @@ export default function Home() {
                         </div>
                       </div>
                     </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Nicolas-Hopwood.png" alt="Nicolas-Hopwood" />
+                              <p>The team at Dynamics Square helped us in upgrading our erp system to the latest version of D365 Business Central resulting in a successful rollout to our staff.</p>
+                              <h5>Nicolas Hopwood</h5>
+                              <span>Facilities Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            3X
+                            </div>
+                            <div className='r-left'>
+                              <p>Growth in ROI</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            70%
+                            </div>
+                            <div className='r-left'>
+                              <p>Improved <br/>Finance Efficiency </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                 
                     {/* <SwiperSlide>
                       <div className='row'>
                         <div className='col-lg-7'>
