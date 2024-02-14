@@ -1323,8 +1323,8 @@ export default function Home() {
                 <div className='test-slider-contant'>
                   <Swiper
                     style={{
-                      '--swiper-navigation-color': '#fff',
-                      '--swiper-pagination-color': '#fff',
+                      '--swiper-navigation-color': '#736799',
+                      '--swiper-pagination-color': '#736799',
                     }}
                     spaceBetween={10}
                     navigation={true}
