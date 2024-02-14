@@ -2017,7 +2017,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       </p>
                       <p>
                         Initially, you can start with Microsoft{" "}
-                        <Link href="https://www.dynamicssquare.co.uk/blog/how-to-avail-the-dynamics-365-business-central-trial/">
+                        <Link href="/blog/dynamics-365-business-central-trial/">
                          <a target="_blank">Business Central Trial</a>
                         </Link>{" "}
                         at no cost for 30 days. After your trial period, if you
@@ -2092,7 +2092,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         If you want expert advice on how you can leverage Power
                         BI and Business Central together, connect with us, being
-                        a reliable <Link href="/dynamics-365-business-central-support/"><a target="_blank">Business Central Support</a></Link>, <Link href="/dynamics-nav-to-business-central/"><a target="_blank">NAV Upgrade</a></Link>, and Implementation partner, we can always provide you with
+                        a reliable <Link href="/d365-business-central-support/"><a target="_blank">Business Central Support</a></Link>, <Link href="/dynamics-nav-to-business-central/"><a target="_blank">NAV Upgrade</a></Link>, and Implementation partner, we can always provide you with
                         expert consulting.
                       </p>
                     </div>
