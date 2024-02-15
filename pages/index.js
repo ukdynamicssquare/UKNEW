@@ -997,7 +997,7 @@ export default function Home() {
 
                   <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="E-commerce" /></div><span>E-commerce</span></button>
                   <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="Education" /></div><span>Education</span></button>
-                  <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/local_shipping.png" alt="Manufacturing" /></div><span>Manufacturing</span></button>
+                  <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/manufacturing-ds-uk-ico.png" alt="Manufacturing" /></div><span>Manufacturing</span></button>
                   <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" /></div><span>StartUp</span></button>
                   <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="Not for Profit" /></div><span>Not for Profit</span></button>
                   <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="Food & Beverages" /></div><span>Food & Beverages</span></button>
@@ -1046,7 +1046,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/cart_new.mp4" />
+                            <source src="/video/Ed.mp4" />
                           </video>
                         </div>
 
@@ -1077,7 +1077,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/truck.mp4" />
+                            <source src="/video/Manufacturing-Industry.mp4" />
                           </video>
                         </div>
 
@@ -1108,7 +1108,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/rocket.mp4" />
+                            <source src="/video/Rockets.mp4" />
                           </video>
                         </div>
 
