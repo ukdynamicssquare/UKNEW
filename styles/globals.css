@@ -3366,6 +3366,33 @@ section {
   background: #fff !important;
   color: var(--color-blue);
 }
+.side-heading .side-in-list{
+  list-style: none;
+    padding-left: 0;
+}
+.bg-redis {
+  background: #f5f8fb;
+}
+.side-heading .side-in-list li{
+  padding: 7px 15px;
+  background: #f9cfd3;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #525252;
+  display: flex;
+  align-items: center;
+}
+.side-heading .side-in-list li .bi{
+  color: #1d355a;
+  margin-right: 15px;
+  font-size: 16px;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50%;
+  display: inline-flex;
+}
 .btn-get-started {
   margin-top: 30px;
   display: inline-block;
@@ -11252,21 +11279,33 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   font-size: 17px;
   margin-bottom: 10px;
 }
+.test-slider-contant .pd-20{
+  padding: 0px 40px;
+}
 .test-slider-tab-list .swiper-wrapper{
   align-items: center;
+  justify-content:center
 }
 .test-slider-tab-list .thum-tab{
   cursor: pointer;
   width: 140px;
 }
-.test-slider-tab-list .img{}
+.test-slider-tab-list .swiper-wrapper .thum-tab img{
+  mix-blend-mode: luminosity;
+}
 
 .test-slider-tab-list .swiper-slide-visible{
   padding-bottom: 10px;
   border-bottom: 2px solid transparent;
+  display: flex;
+    justify-content: center;
+    background:#fff
 }
 .test-slider-tab-list .swiper-slide-thumb-active{
   border-bottom: 2px solid #cbbef1;
+}
+.test-slider-tab-list .swiper-slide-thumb-active .thum-tab img,.test-slider-tab-list .swiper-slide-visible:hover .thum-tab img{
+  mix-blend-mode: unset;
 }
 .test-slider-tab-list .swiper-slide-visible:hover{
   border-bottom: 2px solid #cbbef1;
@@ -11433,6 +11472,9 @@ border-radius: 10px;
 .containesr .bb-inns ul li:nth-child(3){
 top: 0px;
 }
+.business-app-card>.app-body{
+  padding: 40px 20px 30px 30px;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px)  {
   .containesr .bb-inns ul li:nth-child(5) {
@@ -11470,6 +11512,9 @@ top: 0px;
 }
 }
 @media (max-width:1200px){
+  .business-app-card>.app-body>p {
+    font-size: 15px;
+  }
   .section-header-home p,.tab-inner-contant-one .left-sect .inner-info-left p,.tab-industry-contant-one .left-sect .inner-info-left p{
     font-size:16px
   }
@@ -11513,6 +11558,9 @@ top: 0px;
 }
 }
 @media (max-width:991px){
+  .test-slider-contant .pd-20{
+    padding: 0px 0px;
+  }
   .test-slider-tab-list{
     display:none !important
   }

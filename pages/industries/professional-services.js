@@ -638,27 +638,7 @@ const ProfessionalService = () => {
           </div>
         </section>
 
-        <section className="blogs-extra">
-          <div className="container">
-            <header className="section-header">
-              <h2>
-                Check out our Best Resources
-                <br />
-                for Business Central
-              </h2>
-            </header>
-            <div className="row top-2 gx-5">
-              <Blog />
-              <div className="col-lg-6 align-self-center">
-                <Image
-                  src="/img/n/Dynamics-365-for-professional-services.png"
-                  alt="professional-services"
-                  width={790} height={470}
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+       
 
         <section className="solution-faq faq">
           <div className="container">
@@ -810,6 +790,23 @@ const ProfessionalService = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="blogs-extra">
+          <div className="container">
+            <header className="section-header">
+            <h2>Explore Our Recent Blogs & Resources</h2>
+            </header>
+            <div className="row top-2 gx-5">
+              <Blog />
+              <div className="col-lg-6 align-self-center">
+                <Image
+                  src="/img/n/Dynamics-365-for-professional-services.png"
+                  alt="professional-services"
+                  width={790} height={470}
+                />
               </div>
             </div>
           </div>

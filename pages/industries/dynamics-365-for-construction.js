@@ -3,70 +3,53 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-import Blog from "../../components/Blog";
-const Manufacturing = () => {
-  const [isOpen, setOpen] = useState(false);
-  const [open, setsOpen] = useState(false);
+
+const Dynamics365ForConstruction = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Cloud for Manufacturing | Dynamics Square</title>
+        <title>Dynamics 365 for Construction| Dynamics Square</title>
         <meta
           name="description"
           content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility."
         />
+        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/"
+          href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-construction/"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/" />
-        <meta property="og:title" content="Microsoft Cloud for Manufacturing | Dynamics Square" />
-        <meta property="og:description" content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-construction/" />
+        <meta property="og:title" content="Dynamics 365 for Construction | Dynamics Square" />
+        <meta property="og:description" content="By implementing Dynamics 365 for Construction, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-manufacturing/" />
-        <meta property="twitter:title" content="Microsoft Cloud for Manufacturing | Dynamics Square" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-construction/" />
+        <meta property="twitter:title" content="Dynamics 365 for Construction | Dynamics Square" />
         <meta property="twitter:description" content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
       </Head>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="XHOmBV4js_E"
-        onClose={() => setOpen(false)}
-      />
+  
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>
-                  Microsoft Cloud
-                  <br />
-                  For Manufacturing
-                </h1>
-                <p>
-                  Connect your people, workflow, and operations to impact your
-                  productivity level, improve your customer satisfaction, and
-                  uplift your outcomes with Microsoft Cloud for Manufacturing
-                  Solutions.
-                </p>
+                <h1>Dynamics 365 <br/> for Construction</h1>
+                <p>Manage finances, optimise resources, get a complete overview of business, and simplify the entire construction cycle with Dynamics 365 for Construction.</p>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Schedule a Free Demo!</span>
                     </a>
                   </Link>
                 </div>
@@ -82,40 +65,24 @@ const Manufacturing = () => {
         </section>
         <section>
           <div className="container">
-            <header className="section-header">
-              <h2>
-                Manage it all, with <br />
-                Microsoft Cloud for Manufacturing!
-              </h2>
-              <p>
-                With Microsoft cloud for Manufacturing, improve your
-                capabilities to manage and drive your core processes and bring
-                continuous flow in your operations. With the help of integrated
-                manufacturing cloud solutions, uncover new manufacturing
-                capabilities to effectively connect your employees, workflow,
-                processes, and to drive transparency, profitability, and
-                agility.
-              </p>
+            <div className="row justify-content-center">
+              <div className="col-lg-10">
+              <header className="section-header">
+              <h2>Dynamics 365 for Construction: Streamline Projects, Maximise Profits</h2>
+              <p>The competitiveness of the construction business is increasing with the evolving complexities of dealing with modern scenarios. The sheer competition between construction businesses has made deadlines shorter and margins lower. To compete with other businesses and meet personalised customer demand, Dynamics 365 for Construction is your key to achieving success.</p>
+              <p>Dynamics 365 for the construction industry is a cloud-based ERP solution that unifies data from different projects, controls finances, accelerates customer engagement, and offers customer insights on single dashboards. </p>
             </header>
+              </div>
+            </div>
           </div>
         </section>
-        <section className="Solution-business-why custom-pd-1">
+        <section className="Solution-business-why custom-pd-1" style={{paddingBottom:'120px'}}>
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
-                <h2>
-                  Why Choose Microsoft <br />
-                  Cloud for Manufacturing?
-                </h2>
-                <p>
-                  By enabling IoT-connected experience integrated with AI, Mixed
-                  Reality, and Predictive technologies, Cloud Manufacturing
-                  solution is designed to maximize operational capability,
-                  empower frontline workers, enable remote efficiency, unlock
-                  cloud-based potentials, and maximize the overall productivity
-                  wrapped with regulatory compliance, required privacy, and
-                  transparency.
-                </p>
+                <h2>Why Choose Dynamics 365 for Construction?</h2>
+                <p>Construction businesses used to manage, maintain, and track every possible process on spreadsheets, making business management a complicated task. Even the communication between departments is full of inaccuracies and errors due to human intervention.</p>
+                <p>With Microsoft Dynamics for Construction, eliminate the manual and complicated ways of managing a business with a smarter and more intelligent solution. It empowers businesses to work smarter by automating workflows, optimising resources, and building stable communication between various departments. The advanced tools and capabilities of Dynamics 365 for Construction Business will supercharge business efficiency, reduce operational costs, and push your business to achieve great success.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -126,11 +93,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                        Improve your employees' skills, streamline your
-                        production line, and maximize your customer satisfaction
-                        with highly integrated cloud manufacturing solutions.
-                      </p>
+                      <p>Streamlined project management that tracks the status of each milestone with real-time updates to the contractor, investor, and vendors.</p>
                     </div>
                   </div>
 
@@ -141,22 +104,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                        Connect across your digital channels including{" "}
-                        <Link href="/products/microsoft-dynamics-365/">
-                          Dynamics 365
-                        </Link>
-                        , Microsoft 365, Microsoft Teams,{" "}
-                        <Link href="/products/microsoft-power-platform/">
-                          Power Platforms
-                        </Link>
-                        , HoloLens 2, and{" "}
-                        <Link href="/products/microsoft-azure/">
-                          Microsoft Azure
-                        </Link>{" "}
-                        with Microsoft Cloud Manufacturing to drive a highly
-                        innovative, productive, and customer-driven experience.
-                      </p>
+                      <p>Get a 100% transparent view of your entire construction business to promote visibility and better profitability.</p>
                     </div>
                   </div>
 
@@ -167,14 +115,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>
-                        Start delivering new products, improved services, and
-                        maximized experiences to your customers by upskilling
-                        your workforce capability, introducing smart factory
-                        modernization, and enabling intelligent systems all
-                        through with integrated and embedded cloud manufacturing
-                        solutions.
-                      </p>
+                      <p>Control your finances and budgets to maximise output from the resources while building reports for an informed view of projects and sub-projects. </p>
                     </div>
                   </div>
                 </div>
@@ -192,21 +133,15 @@ const Manufacturing = () => {
               </div>
               <div className="col-lg-7 align-self-center">
                 <div className="call_to_action-left">
-                  <h3>
-                    Talk to <br />
-                    Our Expert Team
-                  </h3>
-                  <p>
-                    Let's explore and extend modernized capabilities with
-                    Microsoft Cloud solution for Manufacturing.
-                  </p>
+                  <h3>Talk to Construction Industry Experts!</h3>
+                  <p>Connect with our expert Dynamics 365 consultants to find the perfect Dynamics 365 business solution for your unique business.</p>
                   <div className="m-o-t m-o-t-inde">
                     <Link href="#exampleModal">
                       <a
                         data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
-                        <span>Schedule a Demo</span>
+                        <span>Schedule a Call Now!</span>
                       </a>
                     </Link>
                   </div>
@@ -217,13 +152,14 @@ const Manufacturing = () => {
         </section>
         <section className="industry_service_bottoms">
           <div className="container">
-            <header className="section-header">
-              <h2>
-                Microsoft Cloud
-                <br />
-                For Manufacturing Features
-              </h2>
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+              <header className="section-header">
+              <h2>Microsoft Dynamics 365 for Construction Features and Functionalities</h2>
+              <p>D365 for Construction offers various features to ease the job of workers, contractors, and suppliers. It is a unified platform to manage construction activities that also offers a comprehensive view of departments, processes, and core construction activities. Some of its other features are:</p>
             </header>
+              </div>
+            </div>
             <div className="row position-relative">
               <div className="col-lg-6">
                 <div className="busine_service_bottom-right-indst">
@@ -234,12 +170,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Workforce Management</h3>
-                    <p>
-                      Strengthen your workforce capability by enabling them to
-                      connect, operate, and collaborate from anywhere. Support
-                      your remote work securely and effectively
-                    </p>
+                    <h3>Manage and Schedule Resources</h3>
+                    <p>Remove different methods of managing and scheduling resources with a fully <Link href="/products/dynamics-365-business-central/"><a>automated Dynamics 365 ERP</a></Link> solution. D365 for Construction empowers you to track and maintain resources while ensuring business profitability.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -250,12 +182,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Drive Agility</h3>
-                    <p>
-                      Bring agile manufacturing capabilities with Microsoft's
-                      cloud manufacturing solutions. Enable your workforce to
-                      cope with the complexities and drive challenges.
-                    </p>
+                    <h3>Enhanced Team Collaboration</h3>
+                    <p>Dynamics 365 for Construction offers a stable connection between different departments and employees so that everyone is aware of the existing activities based on their roles. It lets the workers fetch the desired data whenever they need it, like getting invoices, checking remaining budgets, tracking resources, and more.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -266,13 +194,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Resilient Supply Chain</h3>
-                    <p>
-                      Connect both your internal and external supply chain,
-                      stakeholders, customers, and key data to improve your
-                      supply chain resilience while reducing the supply chain
-                      disruption.
-                    </p>
+                    <h3>Seamless Integration</h3>
+                    <p>Integrate native Microsoft and third-party applications to increase the capabilities of the <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 solution</a></Link> to match the uniqueness of your business. You can integrate any solution available in the Dynamics 365 ecosystem with just a click.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -283,13 +206,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Digital Transformation</h3>
-                    <p>
-                      Build digital twins and bring digital thread capability to
-                      uplift your product and services. Leverage IoT
-                      intelligence to improve visibility and drive digital
-                      innovation.
-                    </p>
+                    <h3>Real-time Reporting</h3>
+                    <p>Due to cloud-based deployments, you can access real-time reporting of business processes and activities to gain better control over outputs. Also, you can integrate the D365 ERP or CRM solution with Power BI to power up data analysis and reporting capabilities.</p>
                   </div>
                 </div>
               </div>
@@ -302,13 +220,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Customer Engagement</h3>
-                    <p>
-                      Empower your sellers, marketers, and service team to
-                      connect and engage customers across your digital platforms
-                      to improve their experience while reserving profit
-                      margins.
-                    </p>
+                    <h3>Easy to Scale</h3>
+                    <p>With the growth of your business, you can increase the hardware and software you are utilising to deal with various business operations. Cloud server deployment leverages this flexibility for modern businesses to attain more business growth and achieve higher goals.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -319,12 +232,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Improved Visibility</h3>
-                    <p>
-                      Boost your service team's capability to proactively know
-                      their customer issues before the customer could realize
-                      and quickly detect as well as resolve the problem.
-                    </p>
+                    <h3>Comes with Business Intelligence</h3>
+                    <p>Dynamics 365 for the construction sector comes with advanced technologies, like BI and IoT, to track all machine health, schedule maintenance, and maintain a consistent flow of data. Also, it lets you track all customer activities while offering historical and predictive data for good customer engagement.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -335,13 +244,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Streamline Operations</h3>
-                    <p>
-                      Securely connect employees, products, and processes with
-                      real-time efficiency to quickly optimize the issues and
-                      drive improved workflow with manufacturing cloud
-                      solutions.
-                    </p>
+                    <h3>Role-tailored User Interface</h3>
+                    <p><Link href="/products/microsoft-dynamics-crm/"><a>Dynamics 365 CRM</a></Link> or ERP solutions offer a role-centric user interface to simplify the utilisation of all tools and capabilities. When you choose a specific role, you will get to see the specific tools and functionalities required to perform your job.</p>
                   </div>
                 </div>
 
@@ -353,13 +257,8 @@ const Manufacturing = () => {
                     />
                   </div>
                   <div className="card_new_content">
-                    <h3>Manufacturing Intelligence</h3>
-                    <p>
-                      Leveraging AI-powered automation combined with IoT and
-                      Mixed Reality, optimize processes, improve equipment
-                      effectiveness, protect industrial IoT, and ensure OT
-                      security.
-                    </p>
+                    <h3>Bulit-in Automation</h3>
+                    <p>With AI and BI capabilities, you can automate most of the recurring and manual tasks in the system to boost system efficiency and user productivity. Also, you can automate core construction processes, data sharing between departments, and automated reporting.</p>
                   </div>
                 </div>
               </div>
@@ -367,8 +266,16 @@ const Manufacturing = () => {
           </div>
         </section>
 
-        <section className="busine_service_bottom">
+        <section className="busine_service_bottom bg-redis">
           <div className="container">
+          <div className="row justify-content-center">
+              <div className="col-lg-9">
+              <header className="section-header">
+              <h2>What else can Dynamics 365 for Construction do?</h2>
+                  <p>Other than the above-listed features, Microsoft Dynamics 365 Construction can do a lot more things, like:</p>
+            </header>
+              </div>
+            </div>
             <div className="row">
               <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
@@ -378,47 +285,23 @@ const Manufacturing = () => {
                       className="fix-im"
                       alt="manufacturing side"
                     />
-                    <div className="video-ytube video-ytubes">
-                      <div className="popup-btn popup-btns">
-                        <Link href="#javascript:void(0)">
-                          <a
-                            onClick={() => setOpen(true)}
-                          >
-                            <img
-                              src="/img/video-Manufacturing.png"
-                              alt="video-Manufacturing"
-                            />
-                            <span className="cente-icns">
-                              <img src="/img/play_icons.svg" alt="play_icons" />
-                            </span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
-                  <h2>
-                    How to Adopt New Manufacturing Capabilities and Maximize
-                    Your Service Capability?
-                  </h2>
-                  <p>
-                    This is how to deploy smart factory experience, adapt
-                    faster, and drive digital transformation through dedicated
-                    cloud manufacturing solutions.
-                  </p>
-                  <div className="text-lg-start mm-t">
-                    <Link href="#exampleModal">
-                      <a
-                        data-bs-toggle="modal"
-                        className="btn-get-started scrollto"
-                      >
-                        <span>Schedule a Demo</span>
-                      </a>
-                    </Link>
-                  </div>
+                
+                    <ul className="side-in-list">
+                      <li><i className="bi bi-check2"></i> Generate operational reports based on various factors</li>
+                      <li><i className="bi bi-check2"></i> Invoice projects based on expense and profit margins</li>
+                      <li><i className="bi bi-check2"></i> Manage orders based on product variations</li>
+                      <li><i className="bi bi-check2"></i> Track contractors and subcontractors for project status</li>
+                      <li><i className="bi bi-check2"></i> Build a bill of materials, resources, and quantities</li>
+                      <li><i className="bi bi-check2"></i> Setup automation and workflows</li>
+                      <li><i className="bi bi-check2"></i> Offers total data privacy</li>
+                      <li><i className="bi bi-check2"></i> Offers mobile accessibility</li>
+                      <li><i className="bi bi-check2"></i> Support employees with the required tools</li>
+                    </ul>
                 </div>
               </div>
             </div>
@@ -429,24 +312,16 @@ const Manufacturing = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="call-to-action-content">
-                  <h3>
-                    How to Maximize Your Business Capabilities with Microsoft
-                    Cloud Manufacturing
-                  </h3>
-                  <p>
-                    A healthy conversation with us could be a profitable deal
-                    for your business ahead. Let's come closure, share your
-                    operational limitations or difficulty with us, and
-                    understand your business scope with cloud manufacturing
-                    solutions.
-                  </p>
+                  <h3>Build a Smart Business with Dynamics 365 for Construction</h3>
+                  <p>Implement the future-ready Dynamics 365 for Construction to help your business boost customer engagement and match up with fluctuating customer demands. The user-friendly interface enables you to automate processes and get data insights in real-time, accelerating profit margins.</p>
+                  <p>Let’s connect over a one-on-one call to eliminate your business inefficiencies and push your business towards growth. </p>
                   <div className="text-center m-o-t m-o-t-hv">
                     <Link href="#exampleModal">
                       <a
                         data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
-                        <span>Get Started Now</span>
+                        <span>Schedule a Demo Now!</span>
                       </a>
                     </Link>
                   </div>
@@ -626,159 +501,12 @@ const Manufacturing = () => {
             </div>
           </div>
         </section>
-        <section className="solution-faq faq">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <header className="section-header">
-                <h2>
-                  Have you got <br /> questions about Microsoft Cloud for Manufacturing?
-                </h2>
-                <p>Click through to our FAQ for the best answers!</p>
-              </header>
-            </div>
-          </div>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >
-                      What is the Microsoft Cloud for Manufacturing? 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                      Microsoft Cloud for Manufacturing is a solution built to offer sustainability using core operations, data sharing, and automation. It has the powerful capability of streamlining entire manufacturing processes while removing redundancies from the system to allow for continuous growth. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >
-                      What are the features of Microsoft Cloud for Manufacturing? 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                      It provides numerous benefits to all businesses, regardless of their unique business operations or size. Some of the features include seamless customer management, effective workforce management, enhanced visibility of processes, pushing businesses towards digital transformation through AI, and much more. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >
-                      Is Microsoft Cloud for Manufacturing an ERP or CRM? 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                      It is an ERP capable of streamlining business management processes related to manufacturing and similar domains. It can be implemented using cloud-based ERP or <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises servers</Link> , depending on the requirements of a business, whether large or small. Also, if you are looking for a better cloud-based ERP, you can go with Microsoft Dynamics 365, and if you are a SMB, <Link href="/products/dynamics-365-business-central/">Business Central</Link> would work great for your needs as it is adaptable and powerful for all industries. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >
-                      Can Microsoft Cloud for Manufacturing enhance manufacturing capabilities? 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                      Yes, because it understands the changing manufacturing needs and offers a modern solution to align with them. Microsoft constantly updates the features and capabilities it provides to all business solutions so that businesses can chart a course for long-term growth and revenue. 
-                        .
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-5"
-                    >
-                      Name the industries in which Microsoft Cloud for Manufacturing can be utilised? 
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                      Microsoft Cloud for Manufacturing is available to all industries with manufacturing departments. However, <Link href="/industries/food-and-beverages/">food & beverages</Link>, <Link href="/industries/ecommerce/">e-commerce</Link>, <Link href="/industries/startups/">startups</Link>, metal product manufacturing, and more. 
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
-        <section className="blogs-extra">
-          <div className="container">
-            <header className="section-header">
-              <h2>Explore Our Recent Blogs & Resources</h2>
-            </header>
-            <div className="row top-2 gx-5">
-              <Blog />
-              <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Cloud-For-Manufacturing-banner.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
+      
       </main>
     </>
   );
 };
 
-export default Manufacturing;
+export default Dynamics365ForConstruction;

@@ -902,7 +902,7 @@ export default function Home() {
                     <h3>Upgrade</h3>
                   </div>
                   <div className="app-body">
-                    <p>Drive impact by maximizing with Dynamics 365 upgrade Services. Trust us as we upgrade your legacy system, ensuring seamless transitions and minimal disruptions to your operations.</p>
+                    <p>Improve your business impact with our Dynamics 365 upgrade services. Trust us to expertly upgrade your legacy system, ensuring seamless transitions, minimal disruptions, and optimized operations for future growth.</p>
                     <Link href="/our-services/dynamics-365-upgrade-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -919,7 +919,7 @@ export default function Home() {
                     <h3>Support</h3>
                   </div>
                   <div className="app-body">
-                    <p>Ensure long-term benefits from our Dynamics 365 support services. Our certified professionals provide resolution, training, implementation, and more. We manage your lifecycle, offer real-time technical assistance, and deliver exceptional Dynamics 365 support.</p>
+                    <p>Ensure long-term benefits with our Dynamics 365 support services. Our certified experts provide solutions, training, and implementation, managing your lifecycle with real-time help, ensuring 24/7 Dynamics 365 support.</p>
                     <Link href="/our-services/dynamics-365-support-services/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -936,7 +936,7 @@ export default function Home() {
                     <h3>Consulting</h3>
                   </div>
                   <div className="app-body">
-                    <p>Shape your Dynamics 365 project with expert consulting: software selection, assessments, roadmaps, business case development, migration planning, health checks, and license support.</p>
+                    <p>Maximise your Dynamics 365 project with our expert consulting services: right software selection, accurate assessments, future roadmaps, business case creation, migration planning, health checks, and license support.</p>
                     <Link href="/our-services/dynamics-365-consultant/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -953,7 +953,7 @@ export default function Home() {
                     <h3>Audit</h3>
                   </div>
                   <div className="app-body">
-                    <p>Our expert Dynamics 365 audit Services offer a comprehensive examination of your business model. From initial assessment to detailed analysis, we provide thorough insights, actionable recommendations, and an optimization roadmap for your Dynamics 365 suite.</p>
+                    <p>We optimise your Dynamics 365 investment with professional audit services. Starting with initial assessments to in-depth analysis, we uncover key insights and offer precise recommendations for strategic improvements.</p>
                     <Link href="/free-dynamics-365-system-health-check/"><a>Learn More </a></Link>
                   </div>
                 </div>
@@ -1304,7 +1304,17 @@ export default function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/pasante-logo.png" alt='pasante-logo' />
+                        <img src="/img/green-wireless-logo.png" alt='green-wireless-logo' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/timesco-logo.png" alt='timesco-logo' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/omicron_engineering_blur.png" alt='omicron_engineering_blur' />
                       </div>
                     </SwiperSlide>
                     {/* <SwiperSlide>
@@ -1333,7 +1343,7 @@ export default function Home() {
                     className="mySwiper2"
                   >
                     <SwiperSlide>
-                      <div className='row'>
+                      <div className='row pd-20'>
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
@@ -1365,7 +1375,7 @@ export default function Home() {
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <div className='row'>
+                      <div className='row pd-20'>
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
@@ -1398,14 +1408,14 @@ export default function Home() {
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <div className='row'>
+                      <div className='row pd-20'>
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/testimonials/Nicolas-Hopwood.png" alt="Nicolas-Hopwood" />
-                              <p>The team at Dynamics Square helped us in upgrading our erp system to the latest version of D365 Business Central resulting in a successful rollout to our staff.</p>
-                              <h5>Nicolas Hopwood</h5>
-                              <span>Facilities Manager</span>
+                              <img src="/img/avatar.png" alt="avatar" />
+                              <p>Kudos to Dynamics Square for seamless implementation support.Their dedication made us confident in a successful launch!</p>
+                              <h5>Andy Bird</h5>
+                              <span>Managing Director</span>
                             </figure>
                           </div>
                         </div>
@@ -1415,7 +1425,7 @@ export default function Home() {
                               2X
                             </div>
                             <div className='r-left'>
-                              <p>Optimized <br /> Replenishment Procedures</p>
+                              <p>Optimized <br />Replenishment Procedures</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
@@ -1429,48 +1439,47 @@ export default function Home() {
                         </div>
                       </div>
                     </SwiperSlide>
-
-                    {/* <SwiperSlide>
-                      <div className='row'>
+                    <SwiperSlide>
+                      <div className='row pd-20'>
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                              <h5>Terence Turner</h5>
-                              <span>General Manager</span>
+                              <img src="/img/avatar.png" alt="avatar" />
+                              <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
+                              <h5>Mark Shaxted</h5>
+                              <span>Operations Manager</span>
                             </figure>
                           </div>
                         </div>
                         <div className='col-lg-5'>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                              2X
+                            2X
                             </div>
                             <div className='r-left'>
-                              <p>Data Simplification & <br />Processing</p>
+                              <p>Growth in <br />Production Capacity</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                              80%
+                            70%
                             </div>
                             <div className='r-left'>
-                              <p>Increased sales Revenue</p>
+                              <p>Increase <br />in ROI </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <div className='row'>
+                      <div className='row pd-20'>
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
-                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                              <h5>Terence Turner</h5>
-                              <span>General Manager</span>
+                              <img src="/img/avatar.png" alt="avatar" />
+                              <p>Impressed by Dynamics Square's ERP upgrade & customization. Their virtual collaboration made our transition seamless. Highly recommend for business growth.</p>
+                              <h5>Tristan Cliffe</h5>
+                              <span>Director</span>
                             </figure>
                           </div>
                         </div>
@@ -1480,20 +1489,21 @@ export default function Home() {
                               2X
                             </div>
                             <div className='r-left'>
-                              <p>Data Simplification & <br />Processing</p>
+                              <p>Improved Deliverable <br />Timeliness</p>
                             </div>
                           </div>
                           <div className='test-inf-achive'>
                             <div className='f-left'>
-                              80%
+                            95%
                             </div>
                             <div className='r-left'>
-                              <p>Increased sales Revenue</p>
+                              <p>Enhanced Client<br />Understanding</p>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide> */}
+                    </SwiperSlide>
+                   
 
                   </Swiper>
                 </div>

@@ -742,11 +742,7 @@ const MicrosoftCloudForNonprofit = () => {
         <section className="blogs-extra">
           <div className="container">
             <header className="section-header">
-              <h2>
-                Check out our Best Resources
-                <br />
-                for Business Central
-              </h2>
+              <h2>Explore Our Recent Blogs & Resources</h2>
             </header>
             <div className="row top-2 gx-5">
               <Blog />
