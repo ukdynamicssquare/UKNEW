@@ -22,8 +22,6 @@ const Dynamics365ForDistribution = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/"
         />
-           <meta name="robots" content="noindex, nofollow" />
-
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/" />
         <meta property="og:title" content="Dynamics 365 for Distribution | Dynamics Square UK" />

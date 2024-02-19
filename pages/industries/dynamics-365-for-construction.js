@@ -18,7 +18,6 @@ const Dynamics365ForConstruction = () => {
           name="description"
           content="Dynamics 365 for Construction optimises project management, collaboration, and efficiency, simplifying construction processes for enhanced productivity."
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-construction/"
