@@ -438,14 +438,14 @@ export default function Home() {
                     <div className="tab-inner-contant-one">
                       <div className="left-sect">
                         <div className="inner-info-left">
-                          <h3>Smart AI-enabled ERP by Microsoft for small and medium-size business models</h3>
-                          <p>Drive success by outperforming smartly with an ERP incorporated by 96 % of Fortune 500 companies. </p>
+                          <h3>Smart, AI-enabled ERP for SMBs</h3>
+                          <p>Outperform smartly with the ERP trusted by 96% of Fortune 500 companies.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Streamline operations with advanced AI and automated workflows.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Eliminate manual data entry and app-switching.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Discover cloud-based accessibility, enabling access from any location in the world.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Maximize revenue with accurate cash flow projections, ensuring financial stability.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Protect sensitive information with elevated security innovation. </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enjoy more savings with low cost of ownership</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Boost efficiency with AI and automated workflows</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>No more manual data entry or app-switching</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Increase revenue with precise cash flow forecasts</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Flexibility to manage your business from anywhere</span></li>
                           </ul>
                         </div>
                       </div>
@@ -498,14 +498,14 @@ export default function Home() {
                       <div className="left-sect">
 
                         <div className="inner-info-left">
-                          <h3>Powerful & Proven Financial Business Solutions globally acclaimed for Large Scale Businesses</h3>
-                          <p>Navigate your business with the new-age financial management Microsoft solutions.</p>
+                          <h3>Accurate financials, every time, on time</h3>
+                          <p>Boost ROI, Cut Risks: Automate Finances with Dynamics 365 Finance.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Effectual handling of finances on a single platform</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Build resiliency through intelligent forecasting solutions.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Simplify complex billing and pricing scenarios.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimize monetization with AI-powered solutions.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Meet global expectations with foreign exchange support.  </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Real-time financial analytics for informed decisions</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>AI-driven insights for proactive risk management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Streamline operations and improve cash flow with automation</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Stay compliant with ever-changing global financial regulations</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Make quick, informed decisions with a unified view of financial data</span></li>
                           </ul>
                         </div>
                       </div>
@@ -513,31 +513,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/financial-agility.png" alt="financial-agility" />
-                            <span>Financial Ability & Agility</span>
+                            <span>Accurate financial forecasting</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/AI-Powerdbilling.png" alt="AI-Powerdbilling" />
-                            <span>AI-powered billing</span>
+                            <span>AI for risk predictions</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cash-flow.png" alt="cash-flow" />
-                            <span>Predictive cash flow forecasting </span>
+                            <span>Automated financial workflows</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/away-from-dijointed.png" alt="away-from-dijointed" />
-                            <span>Away from disjointed financial processes </span>
+                            <span>Regulatory compliance tools</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/cloud_done.png" alt="cloud_done" />
-                            <span>Unified data from Microsoft AppSource </span>
+                            <span>Secure, unified data platform</span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -681,14 +681,14 @@ export default function Home() {
                       <div className="left-sect">
 
                         <div className="inner-info-left">
-                          <h3>Drive real change; get disruption ready with intelligent solution</h3>
-                          <p>Optimize your supply chain operations with Dynamic 365 Supply Chain, an intelligent solution that offers end-to-end operational excellence.</p>
+                          <h3>Secure, smart and accessible Supply Chain solution</h3>
+                          <p>Be disruption-ready, mitigate supply chain issues with Dynamics 365 SCM.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Proactively manage inventory and demand to meet customer expectations.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Streamline procurement processes for cost savings and supply chain resilience.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Refrain stockouts with automated inventory placement using Copilot.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Leverage predictive analytics to mitigate supply risks.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Integrate vendor networks for seamless collaboration.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Boosted Performance with Intelligent Guidance</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Proactive Issue Detection for Quality Assurance</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Complete Visibility for Supply Chain Efficiency</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Resource Management for Optimal Material Use</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Maximized Equipment Effectiveness for Productivity</span></li>
                           </ul>
                         </div>
                       </div>
@@ -696,31 +696,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/unmatched-cybersecurity.png" alt="unmatched-cybersecurity" />
-                            <span>Unmatched Cybersecurity  </span>
+                            <span>Strategic Supply Chain Mapping</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/proactive-inventory-management.png" alt="proactive-inventory-management" />
-                            <span>Proactive Inventory Management </span>
+                            <span>Efficient Procurement Solutions</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/warehouse-optimisation.png" alt="warehouse-optimisation" />
-                            <span>Warehouse Optimization </span>
+                            <span>Streamlined Manufacturing Flow</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/agile-manufacturing-practice.png" alt="agile-manufacturing-practice" />
-                            <span>Agile Manufacturing Practices </span>
+                            <span>Effective Order & Pricing System</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/minimise-downtime.png" alt="minimise-downtime" />
-                            <span>Minimize downtime using mobile devices. </span>
+                            <span>Optimized Warehouse & Fulfillment</span>
                           </figure>
                         </div>
                         <div className="bnn">

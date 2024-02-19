@@ -10771,9 +10771,9 @@ border-radius: 10px;
 .tab-inner-contant-one{
   display: flex;
 gap:40px;
-align-items:center;
+align-items:stretch;
 position:relative;
-overflow:hidden
+overflow:hidden;
 }
 .tab-inner-contant-one .left-sect{
   background-color:#f0eff3;
