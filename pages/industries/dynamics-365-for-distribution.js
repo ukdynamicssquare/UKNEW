@@ -13,28 +13,28 @@ const Dynamics365ForDistribution = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Trade and Distribution| Dynamics Square</title>
+        <title>Dynamics 365 for Distribution | Dynamics Square UK</title>
         <meta
           name="description"
-          content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility."
+          content="Dynamics 365 for Distribution ERP+ CRM: optimises supply chain, inventory, and customer interactions, enhancing efficiency in the trade & distribution process."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/industries/distribution/"
+          href="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/"
         />
            <meta name="robots" content="noindex, nofollow" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/distribution/" />
-        <meta property="og:title" content="Dynamics 365 for Trade and Distribution | Dynamics Square" />
-        <meta property="og:description" content="By implementing Dynamics 365 for Trade and Distribution, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/" />
+        <meta property="og:title" content="Dynamics 365 for Distribution | Dynamics Square UK" />
+        <meta property="og:description" content="Dynamics 365 for Distribution ERP+ CRM: optimises supply chain, inventory, and customer interactions, enhancing efficiency in the trade & distribution process." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/distribution-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/distribution/" />
-        <meta property="twitter:title" content="Dynamics 365 for Trade and Distribution | Dynamics Square" />
-        <meta property="twitter:description" content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/" />
+        <meta property="twitter:title" content="Dynamics 365 for Distribution | Dynamics Square UK" />
+        <meta property="twitter:description" content="Dynamics 365 for Distribution ERP+ CRM: optimises supply chain, inventory, and customer interactions, enhancing efficiency in the trade & distribution process." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/distribution-banner.png" />
       </Head>
 
       <main>
@@ -57,8 +57,8 @@ const Dynamics365ForDistribution = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <img
-                  src="/img/manufacturing-banner.png"
-                  alt="Microsoft Cloud For Manufacturing"
+                  src="/img/distribution-banner.png"
+                  alt="distribution-banner"
                 />
               </div>
             </div>
@@ -176,8 +176,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/custom-crm-solutions.svg"
-                      alt="custom-crm-solutions"
+                      src="/img/enhanced-team-collaboration.png"
+                      alt="enhanced-team-collaboration"
                     />
                   </div>
                   <div className="card_new_content">
@@ -188,8 +188,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_flexibility.svg"
-                      alt="icons_flexibility"
+                      src="/img/get-total-visibility.png"
+                      alt="get-total-visibility"
                     />
                   </div>
                   <div className="card_new_content">
@@ -200,8 +200,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_supply-chain (1).svg"
-                      alt="icons_supply-chain (1)"
+                      src="/img/multi-channel-view.png"
+                      alt="multi-channel-view"
                     />
                   </div>
                   <div className="card_new_content">
@@ -212,8 +212,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-power-automate_Enhanced-Efficiency (1).svg"
-                      alt="icons-power-automate_Enhanced-Efficiency (1)"
+                      src="/img/warehouse-management.png"
+                      alt="warehouse-management"
                     />
                   </div>
                   <div className="card_new_content">
@@ -226,8 +226,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_customer-relation.svg"
-                      alt="icons_customer-relation"
+                      src="/img/one-click-integration.png"
+                      alt="one-click-integration"
                     />
                   </div>
                   <div className="card_new_content">
@@ -238,8 +238,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Improved-Visibility.svg"
-                      alt="icons_Improved-Visibility"
+                      src="/img/advanced-reporting-and-analytics.png"
+                      alt="advanced-reporting-and-analytics"
                     />
                   </div>
                   <div className="card_new_content">
@@ -250,8 +250,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Streamline-Operations.svg"
-                      alt="icons_Streamline-Operations"
+                      src="/img/built-in-ai-technology.png"
+                      alt="built-in-ai-technology"
                     />
                   </div>
                   <div className="card_new_content">
@@ -263,8 +263,8 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Manufacturing-Intelligence.svg"
-                      alt="icons_Manufacturing-Intelligence"
+                      src="/img/follows-regulatory-compliances.png"
+                      alt="follows-regulatory-compliances"
                     />
                   </div>
                   <div className="card_new_content">
@@ -293,9 +293,9 @@ const Dynamics365ForDistribution = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <img
-                      src="/img/manufacturing-side.png"
+                      src="/img/distribution-side.png"
                       className="fix-im"
-                      alt="manufacturing side"
+                      alt="distribution-side"
                     />
                   </div>
                 </div>

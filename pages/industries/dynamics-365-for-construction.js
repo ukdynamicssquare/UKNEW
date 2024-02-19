@@ -13,10 +13,10 @@ const Dynamics365ForConstruction = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Construction| Dynamics Square</title>
+        <title>Microsoft Dynamics 365 for Construction | Dynamics Square UK</title>
         <meta
           name="description"
-          content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility."
+          content="Dynamics 365 for Construction optimises project management, collaboration, and efficiency, simplifying construction processes for enhanced productivity."
         />
         <meta name="robots" content="noindex, nofollow" />
         <link
@@ -25,15 +25,15 @@ const Dynamics365ForConstruction = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-construction/" />
-        <meta property="og:title" content="Dynamics 365 for Construction | Dynamics Square" />
-        <meta property="og:description" content="By implementing Dynamics 365 for Construction, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="og:title" content="Microsoft Dynamics 365 for Construction | Dynamics Square UK" />
+        <meta property="og:description" content="Dynamics 365 for Construction optimises project management, collaboration, and efficiency, simplifying construction processes for enhanced productivity." />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/construction-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-construction/" />
-        <meta property="twitter:title" content="Dynamics 365 for Construction | Dynamics Square" />
-        <meta property="twitter:description" content="By implementing Microsoft Cloud for Manufacturing, you can uncover new manufacturing capabilities to effectively connect your employees, workflow, processes, drive transparency, profitability, and agility." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 for Construction | Dynamics Square UK" />
+        <meta property="twitter:description" content="Dynamics 365 for Construction optimises project management, collaboration, and efficiency, simplifying construction processes for enhanced productivity." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/construction-banner.png" />
       </Head>
   
       <main>
@@ -56,8 +56,8 @@ const Dynamics365ForConstruction = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <img
-                  src="/img/manufacturing-banner.png"
-                  alt="Microsoft Cloud For Manufacturing"
+                  src="/img/construction-banner.png"
+                  alt="construction-banner"
                 />
               </div>
             </div>
@@ -165,8 +165,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/custom-crm-solutions.svg"
-                      alt="custom-crm-solutions"
+                      src="/img/manage-schedule-resources.png"
+                      alt="manage-schedule-resources"
                     />
                   </div>
                   <div className="card_new_content">
@@ -177,8 +177,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_flexibility.svg"
-                      alt="icons_flexibility"
+                      src="/img/enhanced-team-collaboration.png"
+                      alt="enhanced-team-collaboration"
                     />
                   </div>
                   <div className="card_new_content">
@@ -189,8 +189,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_supply-chain (1).svg"
-                      alt="icons_supply-chain (1)"
+                      src="/img/seamless-integration.png"
+                      alt="seamless-integration"
                     />
                   </div>
                   <div className="card_new_content">
@@ -201,8 +201,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-power-automate_Enhanced-Efficiency (1).svg"
-                      alt="icons-power-automate_Enhanced-Efficiency (1)"
+                      src="/img/real-time-reporting.png"
+                      alt="real-time-reporting"
                     />
                   </div>
                   <div className="card_new_content">
@@ -215,8 +215,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_customer-relation.svg"
-                      alt="icons_customer-relation"
+                      src="/img/one-click-integration.png"
+                      alt="one-click-integration"
                     />
                   </div>
                   <div className="card_new_content">
@@ -227,8 +227,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Improved-Visibility.svg"
-                      alt="icons_Improved-Visibility"
+                      src="/img/comes-with-business-intelligence.png"
+                      alt="comes-with-business-intelligence"
                     />
                   </div>
                   <div className="card_new_content">
@@ -239,8 +239,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Streamline-Operations.svg"
-                      alt="icons_Streamline-Operations"
+                      src="/img/role-tailored-user-interface.png"
+                      alt="role-tailored-user-interface"
                     />
                   </div>
                   <div className="card_new_content">
@@ -252,8 +252,8 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Manufacturing-Intelligence.svg"
-                      alt="icons_Manufacturing-Intelligence"
+                      src="/img/bulit-in-automation.png"
+                      alt="bulit-in-automation"
                     />
                   </div>
                   <div className="card_new_content">
@@ -281,9 +281,9 @@ const Dynamics365ForConstruction = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <img
-                      src="/img/manufacturing-side.png"
+                      src="/img/construction-side.png"
                       className="fix-im"
-                      alt="manufacturing side"
+                      alt="construction-side"
                     />
                   </div>
                 </div>
