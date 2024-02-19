@@ -1170,7 +1170,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Beverage.mp4" />
+                            <source src="/video/Food-Beverages.mp4" />
                           </video>
                         </div>
 
