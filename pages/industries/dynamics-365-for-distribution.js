@@ -20,16 +20,16 @@ const Dynamics365ForDistribution = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/"
+          href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-distribution/"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-distribution/" />
         <meta property="og:title" content="Dynamics 365 for Distribution | Dynamics Square UK" />
         <meta property="og:description" content="Dynamics 365 for Distribution ERP+ CRM: optimises supply chain, inventory, and customer interactions, enhancing efficiency in the trade & distribution process." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/distribution-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/dynamics-365-for-distribution/" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-distribution/" />
         <meta property="twitter:title" content="Dynamics 365 for Distribution | Dynamics Square UK" />
         <meta property="twitter:description" content="Dynamics 365 for Distribution ERP+ CRM: optimises supply chain, inventory, and customer interactions, enhancing efficiency in the trade & distribution process." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/distribution-banner.png" />
