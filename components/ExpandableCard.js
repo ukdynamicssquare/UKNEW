@@ -14,7 +14,7 @@ export default function ExpandableCard() {
   // Sample content and names for each list item
   const listItems = [
     {
-      name: "Office 365",
+      name: "Microsoft 365",
       heading: "Muscle of Continuous Change",
       content: "Elevate collaboration, streamline work, and embrace the future of workspaces.",
     },

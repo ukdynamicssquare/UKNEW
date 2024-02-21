@@ -326,6 +326,20 @@ export default function Home() {
                       </a>
                     </Link>
                   </div>
+                <div className='col-flot-icons'>
+                 
+                  <figure>
+                    <img src="/img/cluth-patner.png" alt="cluth-patner" />
+                  </figure>
+                  <figure>
+                    <img src="/img/m-partner.png" alt="m-partner.png" />
+                  </figure>
+                  <figure>
+                    <img src="/img/trust-pilot-logo.png" alt="trust-pilot-logo.png" />
+                  </figure>
+                 
+                </div>
+
                   <div className='float-left-div'>
                     <span className='train'></span>
                     <div className='cont'><span>172%</span> ROI</div>
