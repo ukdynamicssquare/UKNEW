@@ -436,8 +436,8 @@ export default function Home() {
                     <img src="/img/menu-icons/dynamics-365-sales.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
                   </figure>Sales</button>
                   <button className="nav-link" id="nav-service-four-tab" data-bs-toggle="tab" data-bs-target="#nav-service-four" type="button" role="tab" aria-controls="nav-service-four" aria-selected="true"><figure>
-                    <img src="/img/menu-icons/dynamics-365-marketing.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
-                  </figure>Marketing</button>
+                    <img src="/img/menu-icons/power-bi.svg" alt="power-bi" width="48" height="48" />
+                  </figure>Power BI</button>
 
                   <button className="nav-link" id="nav-service-six-tab" data-bs-toggle="tab" data-bs-target="#nav-service-six" type="button" role="tab" aria-controls="nav-service-six" aria-selected="true"><figure>
                     <img src="/img/menu-icons/dynamics-365-customer-engagement.svg" alt="dynamics-365-businesscentral" width="48" height="48" />
@@ -634,14 +634,14 @@ export default function Home() {
                       <div className="left-sect">
 
                         <div className="inner-info-left">
-                          <h3>Fuel Up your marketing team to generate and distribute out-of-the-box campaigns across several media</h3>
-                          <p>Track potential leads, schedule viral events, and monitor every activity and performance with advanced tools.</p>
+                          <h3>Visualise Data, See Beyond the Numbers</h3>
+                          <p>Transform data into actionable insight and make data driven decisions.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer journeys with targeted marketing campaigns.y</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Measure and optimize campaign performance in real-time.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Seamlessly integrate marketing efforts with sales and customer service.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Easy monitoring of multi-channel campaigns.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Efficient lead conversions. </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enhanced decision making with real-time insights</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Improved operational efficiency with increased productivity</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Analyse customer behavior for tailored experience</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Simplify data visualization and report generation</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Improves communication and enable team collaboration</span></li>
                           </ul>
                         </div>
                       </div>
@@ -649,31 +649,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/experimental-journey.png" alt="experimental-journey" />
-                            <span>Streamlined brand experiential journey </span>
+                            <span>Cloud-based data connectivity</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/multi-channel-campaign.png" alt="multi-channel-campaign" />
-                            <span>Simplified multi-channel campaigns</span>
+                            <span>Data transformation and modeling</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/customer-insights.png" alt="customer-insights" />
-                            <span>Ai-powered customer insights </span>
+                            <span>Interactive reports and dashboards</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/Scalable-market.png" alt="Scalable-market" />
-                            <span>Scalable marketing automation</span>
+                            <span>Advanced data analytics and forecasting</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/realtime-performance.png" alt="realtime-performance" />
-                            <span>Real-time performance monitoring</span>
+                            <span>Fully secured data</span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -1039,14 +1039,14 @@ export default function Home() {
                           <span>E-commerce </span>
                         </div>
                         <div className="inner-info-left">
-                          <h3>Visualize Success and drive growth in today's competitive market</h3>
-                          <p>Delivering exceptional experiences to meet the evolving needs of e-commerce businesses.</p>
+                          <h3>Scale Your Online Stores Confidently</h3>
+                          <p>Delivering exceptional experiences to your buyers and sellers, all in one place.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Integration with eCommerce platforms</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Unified customer data</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Streamlined order management.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Flawless support across channels</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Automated leads, and sales generation</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Seamless Order Processing</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Smart Inventory Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Efficient Shipping Integration</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Automated Financial Insights</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enhanced Customer Service</span></li>
                           </ul>
                           <Link href="/industries/ecommerce/"><a className="lins-indu">Know more about solutions</a></Link>
                         </div>
@@ -1070,14 +1070,14 @@ export default function Home() {
                           <span>Education</span>
                         </div>
                         <div className="inner-info-left">
-                          <h3>Let the Future of the Education Industry Be in Your Hands </h3>
-                          <p>Utilize Microsoft's Dynamics 365 suite to revolutionize and empower the education realm.</p>
+                          <h3>Automate Your Education System with Dynamics 365 </h3>
+                          <p>Manage staff, student & curriculum data with AI-powered ERP & CRM solution</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Inclusive learning environments </span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Future-proof the admin operations.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Student Information Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Alumni Relations and Fundraising</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Administration Management </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Improved learning paths</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Automated admin tasks</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Student, Staff Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Alumni Relations & Fundraising</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enhanced Stakeholder Collaboration</span></li>
                           </ul>
                           <Link href="/industries/dynamics-365-for-education/"><a className="lins-indu">Know more about solutions</a></Link>
                         </div>
@@ -1101,14 +1101,14 @@ export default function Home() {
                           <span>Manufacturing </span>
                         </div>
                         <div className="inner-info-left">
-                          <h3>Visualize Success: Transform Your Manufacturing Operations</h3>
-                          <p>Time to drive innovation across the manufacturing value chain.</p>
+                          <h3>Connect, Collaborate & Overcome Disruptions</h3>
+                          <p>Modernise your supply chain for better visibility, planning, and efficiency</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Integrated Data Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Demand Forecasting and Planning</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>End-to-End Visibility</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Constituent Marketing Journey</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Schedule preventive maintenance activities, and minimize unplanned downtime.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Minimise Unplanned Downtime</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Predictive Maintenance</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Demand Forecasting & Planning</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Smart Factory Solutions</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Supply Chain Visibility</span></li>
                           </ul>
                           <Link href="/industries/microsoft-cloud-for-manufacturing/"><a className="lins-indu">Know more about solutions</a></Link>
                         </div>
