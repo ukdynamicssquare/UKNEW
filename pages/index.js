@@ -398,7 +398,7 @@ export default function Home() {
                   </figure>
                   <figure><img src="/img/Ncc-new-logo.png" alt="Ncc-new-logo" /></figure>
                   <figure> <img src="/img/Comxo-new-logo.png" alt="Comxo-new-logo" /></figure>
-                  <figure> <img src="/img/Md-new-logo.png" alt="Md-new-logo" /></figure>
+                  <figure> <img src="/img/mta-new-logo.png" alt="mta-new-logo" /></figure>
                   {/* <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /> */}
 
                 </div>
