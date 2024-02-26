@@ -109,8 +109,8 @@ img {
   height: auto;
   max-width: 100%;
 }
-.custom-p-001 ul li {
-  margin-bottom: 15px;
+.custom-p-001 ul li,.custom-p-001 ol li {
+  margin-bottom: 10px;
 }
 svg {
   width: 1rem;
