@@ -14,7 +14,7 @@ const AssetManagement = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/human-resource-management/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/asset-management/"
         />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
