@@ -3,8 +3,8 @@ import Head from "next/head";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import Image from "next/image";
-import Blog from "../../components/Blog";
-const SupplyChainManagement = () => {
+import Blog from "../../../components/Blog";
+const Index = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
 
@@ -1054,4 +1054,4 @@ const SupplyChainManagement = () => {
   );
 };
 
-export default SupplyChainManagement;
+export default Index;
