@@ -36,9 +36,9 @@ const ManufacturingManagement = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/BC-Warehouse-Management.png"
-                alt="BC-Warehouse-Management"
-                width={718} height={447}
+                src="/img/manufacturing-management-banner.png"
+                alt="manufacturing-management-banner"
+                width={665} height={447}
               />
             </div>
           </div>
@@ -73,7 +73,7 @@ const ManufacturingManagement = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Bins-management.png" alt="Bins-management" />
+                          <img src="/img/seamless-workforce-management.png" alt="seamless-workforce-management" />
                         </div>
                         <span>Seamless Workforce Management</span>
                       </button>
@@ -101,7 +101,7 @@ const ManufacturingManagement = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/warehouse-shipment.png" alt="warehouse-shipment" />
+                          <img src="/img/simplify-supply-chain-operations.png" alt="simplify-supply-chain-operations" />
                         </div>
                         <span>Simplify Supply Chain Operations</span>
                       </button>
@@ -136,7 +136,7 @@ const ManufacturingManagement = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
+                          <img src="/img/leverage-ai-to-automate-processes.png" alt="leverage-ai-to-automate-processes" />
                         </div>
                         <span>Leverage AI to Automate Processes</span>
                       </button>
@@ -165,8 +165,8 @@ const ManufacturingManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Movement-Worksheet.png"
-                            alt="Movement-Worksheet"
+                            src="/img/unified-platform-for-diverse-businesses.png"
+                            alt="unified-platform-for-diverse-businesses"
                           />
                         </div>
                         <span>Unified Platform for Diverse Businesses</span>
@@ -268,7 +268,7 @@ const ManufacturingManagement = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image src="/img/minimise-lead-time.png" alt="minimise-lead-time" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Minimise Lead Time</h3>
@@ -277,7 +277,7 @@ const ManufacturingManagement = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image src="/img/enhanced-product-quality.png" alt="enhanced-product-quality"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Enhanced Production Planning</h3>
@@ -290,8 +290,8 @@ const ManufacturingManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.svg"
-                    alt="100-Inventory-Visibility"
+                    src="/img/enhanced-production-planning.png"
+                    alt="enhanced-production-planning"
                     width={84} height={84}
                   />
                 </div>
@@ -303,7 +303,7 @@ const ManufacturingManagement = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/increased-team-communication.png" alt="increased-team-communication"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Increased Team Communication</h3>
@@ -321,8 +321,8 @@ const ManufacturingManagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/Warehouse-Management-in-Different-Industries.png"
-                  alt="Warehouse-Management-in-Different-Industries"
+                  src="/img/manufacturing-management-side.png"
+                  alt="manufacturing-management-side"
                   width={482} height={513}
                 />
               </div>

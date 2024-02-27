@@ -35,9 +35,9 @@ const SupplyChainManagements = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/BC-Warehouse-Management.png"
-                alt="BC-Warehouse-Management"
-                width={718} height={447}
+                src="/img/Supplychain-banner.png"
+                alt="Supplychain-banner"
+                width={665} height={447}
               />
             </div>
           </div>
@@ -71,7 +71,7 @@ const SupplyChainManagements = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Bins-management.png" alt="Bins-management" />
+                          <img src="/img/supply-chain-planning.png" alt="supply-chain-planning" />
                         </div>
                         <span>Supply Chain Planning</span>
                       </button>
@@ -99,7 +99,7 @@ const SupplyChainManagements = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/warehouse-shipment.png" alt="warehouse-shipment" />
+                          <img src="/img/order-planning.png" alt="order-planning" />
                         </div>
                         <span>Order Planning</span>
                       </button>
@@ -134,7 +134,7 @@ const SupplyChainManagements = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
+                          <img src="/img/inventory-management.png" alt="inventory-management" />
                         </div>
                         <span>Inventory Management</span>
                       </button>
@@ -163,8 +163,8 @@ const SupplyChainManagements = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Movement-Worksheet.png"
-                            alt="Movement-Worksheet"
+                            src="/img/demand-forecasting.png"
+                            alt="demand-forecasting"
                           />
                         </div>
                         <span>Demand Forecasting</span>
@@ -266,7 +266,7 @@ const SupplyChainManagements = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image src="/img/total-visibility-and-transparency.png" alt="total-visibility-and-transparency" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Total Visibility and Transparency</h3>
@@ -275,7 +275,7 @@ const SupplyChainManagements = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image src="/img/accurate-demand-forecasting.png" alt="accurate-demand-forecasting"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Accurate Demand Forecasting</h3>
@@ -288,8 +288,8 @@ const SupplyChainManagements = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.svg"
-                    alt="100-Inventory-Visibility"
+                    src="/img/enhanced-operational-efficiency.png"
+                    alt="enhanced-operational-efficiency"
                     width={84} height={84}
                   />
                 </div>
@@ -301,7 +301,7 @@ const SupplyChainManagements = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/team-communication.png" alt="team-communication"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Strengthen Team Communication</h3>
@@ -319,8 +319,8 @@ const SupplyChainManagements = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/Warehouse-Management-in-Different-Industries.png"
-                  alt="Warehouse-Management-in-Different-Industries"
+                  src="/img/Supplychain-banner-side.png"
+                  alt="Supplychain-banner-side"
                   width={482} height={513}
                 />
               </div>
