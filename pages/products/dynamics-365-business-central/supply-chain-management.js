@@ -7,16 +7,31 @@ const SupplyChainManagements = () => {
   return (
     <>
       <Head>
-      <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+        <title>Dynamics 365 Business Central for Supply Chain Management</title>
         <meta
           name="description"
-          content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
+          content="Dynamics 365 Business Central optimises supply chain processes, offering seamless management, real-time insights, and enhanced efficiency for businesses."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/supply-chain-management/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Business Central for Supply Chain Management" />
+        <meta property="og:description" content="Dynamics 365 Business Central optimises supply chain processes, offering seamless management, real-time insights, and enhanced efficiency for businesses." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/supply-chain-management/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Supplychain-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Dynamics 365 Business Central for Supply Chain Management" />
+        <meta name="twitter:description" content="Dynamics 365 Business Central optimises supply chain processes, offering seamless management, real-time insights, and enhanced efficiency for businesses." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Supplychain-banner.png" />
+
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -28,7 +43,7 @@ const SupplyChainManagements = () => {
                 <div className="text-center text-lg-start">
                   <Link
                     href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Free Demo!</span></a>
+                      <span>Schedule a Free Demo!</span></a>
                   </Link>
                 </div>
               </div>
@@ -46,16 +61,16 @@ const SupplyChainManagements = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9">
-          <header className="section-header">
-            <h2>What is Dynamics 365 Business Central Supply Chain Management?</h2>
-            <p><Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> is a powerful ERP solution that offers a specialised module to manage and monitor all supply chain operations. From procurement to delivery, the supply chain module can streamline all processes until the product reaches the right customer on time.</p>
-            <p>The businesses associated with supply chain processes have to deal with a lot of complexities, including managing multiple sales channels, streamlining inventory, tracking warehouse operations, and monitoring logistics.</p>
-            <p>Implementing Business Central for supply chain management can simplify different processes, supercharge processes, optimise supply chains, lower product shortages, eliminate stockout scenarios, and enhance business results with real-time business visibility.</p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>What is Dynamics 365 Business Central Supply Chain Management?</h2>
+                <p><Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> is a powerful ERP solution that offers a specialised module to manage and monitor all supply chain operations. From procurement to delivery, the supply chain module can streamline all processes until the product reaches the right customer on time.</p>
+                <p>The businesses associated with supply chain processes have to deal with a lot of complexities, including managing multiple sales channels, streamlining inventory, tracking warehouse operations, and monitoring logistics.</p>
+                <p>Implementing Business Central for supply chain management can simplify different processes, supercharge processes, optimise supply chains, lower product shortages, eliminate stockout scenarios, and enhance business results with real-time business visibility.</p>
+              </header>
+            </div>
           </div>
-        </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -83,7 +98,7 @@ const SupplyChainManagements = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>D365 Business Central offers useful insights to help you plan different processes that include raw material planning, demand planning, production planning, capacity planning, and operations planning.</p>
+                        <p>D365 Business Central offers useful insights to help you plan different processes that include raw material planning, demand planning, production planning, capacity planning, and operations planning.</p>
                       </div>
                     </div>
                   </div>
@@ -146,7 +161,7 @@ const SupplyChainManagements = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>Microsoft Business Central comes with a cloud-based deployment that offers real-time inventory data to generate more sales and simplify different inventory operations.</p>
+                        <p>Microsoft Business Central comes with a cloud-based deployment that offers real-time inventory data to generate more sales and simplify different inventory operations.</p>
                       </div>
                     </div>
                   </div>
@@ -177,7 +192,7 @@ const SupplyChainManagements = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>Analyse existing business data, track market fluctuations, and understand customer behaviour to forecast demands.</p>
+                        <p>Analyse existing business data, track market fluctuations, and understand customer behaviour to forecast demands.</p>
                       </div>
                     </div>
                   </div>
@@ -196,7 +211,7 @@ const SupplyChainManagements = () => {
                 <h3>Modernize your supply chain with Dynamics 365 Business Central</h3>
                 <p>Leverage the AI, BI, and IoT capabilities of Business Central along with Microsoft Copilot Assistant to help you digitalize your business and eliminate system redundancies while minimising overhead.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
+                  <Link href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
                     <span>Book a Demo Today!</span></a>
                   </Link>
                 </div>
@@ -208,7 +223,7 @@ const SupplyChainManagements = () => {
 
 
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
@@ -217,34 +232,34 @@ const SupplyChainManagements = () => {
               </div>
               <div className="custom-p-001">
                 <p>The supply chain management module of Business Central offers numerous capabilities to help a business, from handling goods to finishing the product to the best possible quality. With advanced supply chain management tools, D365 Business Central offers an efficient and productive way to overcome the competition and generate maximum revenue. Some of the core Business Central Supply Chain Management functionalities are:</p>
-                <div className="row" style={{paddingTop:'40px'}}>
+                <div className="row" style={{ paddingTop: '40px' }}>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                      <li>Multi-location inventory tracking</li>
-                      <li>Lot tracking</li>
-                      <li>Automated replenishment</li>
-                      <li>Supplier Management</li>
-                      <li>Purchase Order Management</li>
-                      <li>Vendor Payments</li>
-                      <li>Invoice Management</li>
-                      <li>Bill of Material Management</li>
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Multi-location inventory tracking</li>
+                        <li>Lot tracking</li>
+                        <li>Automated replenishment</li>
+                        <li>Supplier Management</li>
+                        <li>Purchase Order Management</li>
+                        <li>Vendor Payments</li>
+                        <li>Invoice Management</li>
+                        <li>Bill of Material Management</li>
+                      </ul>
+                    </p>
                   </div>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                      <li>Production Scheduling</li>
-                      <li>Shop Floor Control</li>
-                      <li>Quality Control</li>
-                      <li>Sales Order Management</li>
-                      <li>Shipping Management</li>
-                      <li>Transportation Management System</li>
-                      <li>Delivery Tracking</li>
-                      <li>Warehouse Management System</li>
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Production Scheduling</li>
+                        <li>Shop Floor Control</li>
+                        <li>Quality Control</li>
+                        <li>Sales Order Management</li>
+                        <li>Shipping Management</li>
+                        <li>Transportation Management System</li>
+                        <li>Delivery Tracking</li>
+                        <li>Warehouse Management System</li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -252,17 +267,17 @@ const SupplyChainManagements = () => {
           </div>
         </div>
       </section>
-    <section>
-      <div className="container">
-      <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>D365 Business Central for Supply Chain Management Benefits</h2>
-            <p>The supply chain management module of Business Central offers numerous benefits to optimise inventory levels, streamline warehouse operations, lower the chances of stock being out, and maximise profitability. Some of the core benefits are:</p>
-          </header>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
+                <h2>D365 Business Central for Supply Chain Management Benefits</h2>
+                <p>The supply chain management module of Business Central offers numerous benefits to optimise inventory levels, streamline warehouse operations, lower the chances of stock being out, and maximise profitability. Some of the core benefits are:</p>
+              </header>
+            </div>
           </div>
-        </div>
-      <div className="row g-5">
+          <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
@@ -275,14 +290,14 @@ const SupplyChainManagements = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/accurate-demand-forecasting.png" alt="accurate-demand-forecasting"  width={84} height={84} />
+                  <Image src="/img/accurate-demand-forecasting.png" alt="accurate-demand-forecasting" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Accurate Demand Forecasting</h3>
                   <p>Dynamics 365 Business Central allows businesses to fetch historical customer data and understand changing market trends to forecast accurate demands.</p>
                 </div>
               </div>
-           
+
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -301,7 +316,7 @@ const SupplyChainManagements = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/team-communication.png" alt="team-communication"  width={84} height={84} />
+                  <Image src="/img/team-communication.png" alt="team-communication" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Strengthen Team Communication</h3>
@@ -310,10 +325,10 @@ const SupplyChainManagements = () => {
               </div>
             </div>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -333,20 +348,20 @@ const SupplyChainManagements = () => {
                 <p>The supply chain management module of Business Central is a must-needed solution for rapidly changing scenarios in the industrial world. It offers efficient tools to streamline different supply chain processes, optimise demands, perform accurate accounting, and maximise profitability. With a 360-degree view of business, you can control, maintain, and manage your growth while opening up new paths of opportunity. You can utilise the supply chain module of Business Central in different industries, like:</p>
                 <p>
                   <ul>
-                      <li>Manufacturing</li>
-                      <li>Distribution & Wholesale</li>
-                      <li>Retail</li>
-                      <li>Food & Beverages</li>
-                      <li>Project-based Businesss</li>
+                    <li>Manufacturing</li>
+                    <li>Distribution & Wholesale</li>
+                    <li>Retail</li>
+                    <li>Food & Beverages</li>
+                    <li>Project-based Businesss</li>
 
                   </ul>
-                  </p>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
     </>
   );
 };

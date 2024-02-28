@@ -923,7 +923,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/blog/business-central-for-manufacturing/">
+                      <Link href="/products/dynamics-365-business-central/manufacturing-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -1051,6 +1051,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Proactive Equipment Maintenance: Reduce downtime & achieve operational excellence through timely equipment maintenance.</li>
                       </ul>
                       <div className="call-butt">
+                      <Link href="/products/dynamics-365-business-central/supply-chain-management/">
+                          <a
+                            className="btn-get-started btn-blue"
+                            target="_blank"
+                          >
+                            <span>Learn More</span>
+                          </a>
+                        </Link>
                         <Link href="#exampleModal">
                           <a
                             data-bs-toggle="modal"

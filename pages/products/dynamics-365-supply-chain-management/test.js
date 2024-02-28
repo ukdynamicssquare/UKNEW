@@ -8,11 +8,12 @@ const AssetManagement = () => {
   const column1Items = [
     { id: 1, title: "Track Assets", content: "Track and record all assets containing different parameters of health, which include purchase data, <a href='/'>warranty data, service records</a>, and scheduled maintenance.", imageUrl: "/img/Bins-management.png" },
     { id: 2, title: "Optimise Machine Performances", content: "Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders.", imageUrl: "/img/warehouse-shipment.png" },
+    { id: 3, title: "Optimise Machine Performances", content: "Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders.", imageUrl: "/img/warehouse-shipment.png" },
   ];
 
   const column2Items = [
-    { id: 3, title: "Manage Maintenane/Servicing", content: "Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders. Item 3", imageUrl: "/img/Warehouse-Picks.png" },
-    { id: 4, title: "Mobile Accessibility", content: "Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders. Item 4", imageUrl: "/img/Movement-Worksheet.png" },
+    { id: 4, title: "Manage Maintenane/Servicing", content: "Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders. Item 3", imageUrl: "/img/Warehouse-Picks.png" },
+    { id: 5, title: "Mobile Accessibility", content: "Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders. Item 4", imageUrl: "/img/Movement-Worksheet.png" },
   ];
 
 
@@ -47,7 +48,6 @@ const AssetManagement = () => {
       <Head>
       <title>test</title>
 
-  
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">

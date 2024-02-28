@@ -7,7 +7,7 @@ const MicrosoftDynamics365Ai = () => {
   return (
     <>
       <Head>
-      <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+        <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
         <meta
           name="description"
           content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
@@ -16,6 +16,23 @@ const MicrosoftDynamics365Ai = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/warehouse-management/"
         />
+
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Warehouse Management in Business Central (WMS) | Inventory Management" />
+        <meta property="og:description" content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/warehouse-management/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/BC-Warehouse-Management.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Warehouse Management in Business Central (WMS) | Inventory Management" />
+        <meta name="twitter:description" content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/BC-Warehouse-Management.png" />
+
 
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -28,7 +45,7 @@ const MicrosoftDynamics365Ai = () => {
                 <div className="text-center text-lg-start">
                   <Link
                     href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Demo Now!</span></a>
+                      <span>Schedule a Demo Now!</span></a>
                   </Link>
                 </div>
               </div>
@@ -46,15 +63,15 @@ const MicrosoftDynamics365Ai = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>What is Dynamics 365 Business Central Warehouse Management? </h2>
-            <p>Business Central Warehouse Management is a complete module for SMBs to help them streamline their entire warehouse operations. This will singlehandedly manage the operations of inventory and warehouses, leveraging the power of AI, Copilot, and advanced business management technologies. The warehouse management system in Business Central can help you perform bin management, goods tracking, item ledger entries, and put-away activities. </p>
-            <p>Also, it suffices with automatic data capture, courier integrations, inventory optimization, maintaining multiple locations, batch tracking, and other features as well. Some of the core features of the warehouse management module are: </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
+                <h2>What is Dynamics 365 Business Central Warehouse Management? </h2>
+                <p>Business Central Warehouse Management is a complete module for SMBs to help them streamline their entire warehouse operations. This will singlehandedly manage the operations of inventory and warehouses, leveraging the power of AI, Copilot, and advanced business management technologies. The warehouse management system in Business Central can help you perform bin management, goods tracking, item ledger entries, and put-away activities. </p>
+                <p>Also, it suffices with automatic data capture, courier integrations, inventory optimization, maintaining multiple locations, batch tracking, and other features as well. Some of the core features of the warehouse management module are: </p>
+              </header>
+            </div>
           </div>
-        </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -82,7 +99,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Organise the inventory or goods in the warehouse precisely and accurately. Classify all bins with a unique identification number to find the goods in no time. Also, this will let you optimize the space for more goods available in your warehouse. </p>
+                        <p>Organise the inventory or goods in the warehouse precisely and accurately. Classify all bins with a unique identification number to find the goods in no time. Also, this will let you optimize the space for more goods available in your warehouse. </p>
                       </div>
                     </div>
                   </div>
@@ -145,7 +162,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>The D365 Business Central Warehouse Management will specify the bins based on the sales order document to pick up and pack items for shipping. In this solution, picking goods from the warehouse can run on automation and requires minimal human effort to complete the process. </p>
+                        <p>The D365 Business Central Warehouse Management will specify the bins based on the sales order document to pick up and pack items for shipping. In this solution, picking goods from the warehouse can run on automation and requires minimal human effort to complete the process. </p>
                       </div>
                     </div>
                   </div>
@@ -176,7 +193,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>The Movement Worksheet lets you build, track, and plan all movements of goods from one place to another within the warehouse boundaries. You can plan the movement of goods from a bin while giving instructions for accurate movement. </p>
+                        <p>The Movement Worksheet lets you build, track, and plan all movements of goods from one place to another within the warehouse boundaries. You can plan the movement of goods from a bin while giving instructions for accurate movement. </p>
                       </div>
                     </div>
                   </div>
@@ -195,7 +212,7 @@ const MicrosoftDynamics365Ai = () => {
                 <h3>Simplify your Warehouse Operations with D365 Business Central </h3>
                 <p>Implement Business Central to simplify, automate, and enhance the performance of your different warehouse activities. Connect with a Dynamics 365 consultant to implement your business-specific solution. </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
+                  <Link href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
                     <span>Schedule a Free Demo! </span></a>
                   </Link>
                 </div>
@@ -205,21 +222,21 @@ const MicrosoftDynamics365Ai = () => {
         </div>
       </section>
 
-    <section>
-      <div className="container">
-      <div className="row justify-content-center">
-          <div className="col-lg-9">
-          <header className="section-header">
-            <h2>Are Inventory Management and Warehouse Management the same? </h2>
-            <p>Most businesses consider these two terms the same, but they are a bit different from one another. Inventory management's basic functionality is managing goods and their different operations while maintaining all necessary documents. Without a large storage facility and fewer goods, the different processes will fall under inventory management only. </p>
-            <p>Whereas, with a big warehouse and complex inventory management with the inclusion of various bins to store and locate multiple goods, this will be considered warehouse management. Also, it will require scanners and other technologies to locate goods without any hassle. </p>
-          </header>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Are Inventory Management and Warehouse Management the same? </h2>
+                <p>Most businesses consider these two terms the same, but they are a bit different from one another. Inventory management's basic functionality is managing goods and their different operations while maintaining all necessary documents. Without a large storage facility and fewer goods, the different processes will fall under inventory management only. </p>
+                <p>Whereas, with a big warehouse and complex inventory management with the inclusion of various bins to store and locate multiple goods, this will be considered warehouse management. Also, it will require scanners and other technologies to locate goods without any hassle. </p>
+              </header>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
@@ -228,32 +245,32 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="custom-p-001">
                 <p><Link href="/dynamics-365-business-central-implementation/"><a target="blank">Implementing Business Central</a></Link> offers you the connected experience of managing the entire business along with maintaining warehouse requirements. Businesses are availing themselves of numerous benefits from the warehouse management module, which is making the business more proactive for current and future warehouse demands. </p>
-                <div className="row" style={{paddingTop:'40px'}}>
+                <div className="row" style={{ paddingTop: '40px' }}>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                      <li>Warehouse Shipment </li>
-                      <li>Tracking Different Warehouse Locations </li>
-                      <li>Receiving Management </li>
-                      <li>Returns Management </li>
-                      <li>Courier Integration </li>
-                      <li>Barcode Tracking and Management </li>
-                      <li>Serial Number Tracking </li>
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Warehouse Shipment </li>
+                        <li>Tracking Different Warehouse Locations </li>
+                        <li>Receiving Management </li>
+                        <li>Returns Management </li>
+                        <li>Courier Integration </li>
+                        <li>Barcode Tracking and Management </li>
+                        <li>Serial Number Tracking </li>
+                      </ul>
+                    </p>
                   </div>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                      <li>Inventory Management </li>
-                      <li>Consignment Management </li>
-                      <li>Automating Routing Process </li>
-                      <li>Sales Order Management </li>
-                      <li>Production Picks Management </li>
-                      <li>Put Away Management </li>
-                      <li>Item Ledger Management </li>
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Inventory Management </li>
+                        <li>Consignment Management </li>
+                        <li>Automating Routing Process </li>
+                        <li>Sales Order Management </li>
+                        <li>Production Picks Management </li>
+                        <li>Put Away Management </li>
+                        <li>Item Ledger Management </li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -261,17 +278,17 @@ const MicrosoftDynamics365Ai = () => {
           </div>
         </div>
       </section>
-    <section>
-      <div className="container">
-      <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>Warehouse Management Benefits </h2>
-            <p>Warehouse management in Business Central can benefit you in different ways, which are:</p>
-          </header>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
+                <h2>Warehouse Management Benefits </h2>
+                <p>Warehouse management in Business Central can benefit you in different ways, which are:</p>
+              </header>
+            </div>
           </div>
-        </div>
-      <div className="row g-5">
+          <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
@@ -284,14 +301,14 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Establish Warehouse Flow </h3>
                   <p>Build a consistent flow of goods throughout the warehouse to establish a strong supply chain. Gain control of all processes to ensure better connectivity between departments. </p>
                 </div>
               </div>
-           
+
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -310,7 +327,7 @@ const MicrosoftDynamics365Ai = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automate Warehouse Processes </h3>
@@ -319,10 +336,10 @@ const MicrosoftDynamics365Ai = () => {
               </div>
             </div>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -342,19 +359,19 @@ const MicrosoftDynamics365Ai = () => {
                 <p>The warehouse management module offers you a 360-degree view of entire warehouse activities with real-time data reporting. It offers you a centralized platform for data management that can be accessed by any user based on their assigned business role. You can also utilize the capabilities of automation to connect and automate different departments as well as processes to achieve a collaborative growth approach. The major industries where Business Central for Warehouse Management can be a perfect fit are: </p>
                 <p>
                   <ul>
-                      <li>Manufacturing </li>
-                      <li>Automotive </li>
-                      <li>Not-for-profit </li>
-                      <li>Retail and Distribution </li>
-                      <li>Healthcare </li>
+                    <li>Manufacturing </li>
+                    <li>Automotive </li>
+                    <li>Not-for-profit </li>
+                    <li>Retail and Distribution </li>
+                    <li>Healthcare </li>
                   </ul>
-                  </p>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
     </>
   );
 };
