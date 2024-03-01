@@ -838,12 +838,12 @@ const ContactUs = () => {
                   className="footer-img m-r"
                   width={230} height={120}
                 /> <br />
-                 <Image
+                 {/* <Image
                   src="/img/UK-badge.png"
                   alt="UK badge"
                   className="footer-img"
                   width={98} height={98}
-                />
+                /> */}
               </div>
               <div className="col-lg-2 col-12 footer-links">
                 <p>BUSINESS APPS</p>

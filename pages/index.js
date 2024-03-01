@@ -513,13 +513,13 @@ export default function Home() {
 
                         <div className="inner-info-left">
                           <h3>Accurate financials, every time, on time</h3>
-                          <p>Boost ROI, Cut Risks: Automate Finances with Dynamics 365 Finance.</p>
+                          <p>Boost ROI, Cut Risks: Automate Financial Activities</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Real-time financial analytics for informed decisions</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>AI-driven insights for proactive risk management</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Streamline operations and improve cash flow with automation</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Stay compliant with ever-changing global financial regulations</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Make quick, informed decisions with a unified view of financial data</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Get a unified financial view to make informed decisions</span></li>
                           </ul>
                         </div>
                       </div>
@@ -573,8 +573,8 @@ export default function Home() {
                       <div className="left-sect">
 
                         <div className="inner-info-left">
-                          <h3>Next-gen AI sales solutions to accelerate revenue and customer relationships</h3>
-                          <p>Simplify sales process with AI, automation, and real-time insights. Gear up with a high-powered CRM solution dedicated to empowering your team and clients.</p>
+                          <h3>Close deals faster and win more customers</h3>
+                          <p>Leverage AI to simplify sales, convert leads fast and expand customer base.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Use Copilot to reduce mundane tasks </span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Ease selling with intelligent customer insights </span></li>
@@ -588,31 +588,31 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/control_point_duplicate.png" alt="control_point_duplicate" />
-                            <span>AI-powered Sales Automation </span>
+                            <span>AI-powered Sales Automation</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/perm_data_setting.png" alt="perm_data_setting" />
-                            <span>Easy Integration within the Dynamics 365 Apps </span>
+                            <span>Integration with native Solutions</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/data_exploration.png" alt="data_exploration" />
-                            <span>Data-driven sales strategies for enhanced performance</span>
+                            <span>Data-driven sales strategies</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/aspect_ratio.png" alt="aspect_ratio" />
-                            <span>Real-time insights for informed decision making</span>
+                            <span>Avail Real-time insights</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/Unified-data.png" alt="Unified-data" />
-                            <span>Shorten sales cycle using AI </span>
+                            <span>Shorten sales cycle using AI</span>
                           </figure>
                         </div>
                         <div className="bnn">
@@ -667,7 +667,7 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/Scalable-market.png" alt="Scalable-market" />
-                            <span>Advanced data analytics and forecasting</span>
+                            <span>Advanced data analytics</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
@@ -695,7 +695,7 @@ export default function Home() {
                       <div className="left-sect">
 
                         <div className="inner-info-left">
-                          <h3>Secure, smart and accessible Supply Chain solution</h3>
+                          <h3>Secure, smart and optimised Supply Chain</h3>
                           <p>Be disruption-ready, mitigate supply chain issues with Dynamics 365 SCM.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Boosted Performance with Intelligent Guidance</span></li>
@@ -756,12 +756,12 @@ export default function Home() {
                       <div className="left-sect">
 
                         <div className="inner-info-left">
-                          <h3>Take your customer service experience to another level with Dynamic 365 Customer Service. </h3>
-                          <p>Pace your growth with seamless support, personalized interactions, AI-driven automation, and proactive engagement.</p>
+                          <h3>Empower agents to offer great customer experience</h3>
+                          <p>Get advanced tools and real-time insights to build lasting customer relationships.</p>
                           <ul>
                             <li><i className="bi bi-check-circle"></i> <span>Advanced service delivery tracking and placements</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Deliver consistent support across multiple channels </span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer interactions through ai-powered recommendations.</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Personalize customer interactions through AI-Insights</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Improved innovation with real-time feedback and analysis.</span></li>
                             <li><i className="bi bi-check-circle"></i> <span>Enable self-service options for faster issue resolution.</span></li>
                           </ul>
@@ -783,7 +783,7 @@ export default function Home() {
                         <div className="d-colomn">
                           <figure>
                             <img src="/img/Personalisation-for-customer.png" alt="Personalisation-for-customer" />
-                            <span>AI-Driven Personalization for Customers </span>
+                            <span>AI-Driven Personalization</span>
                           </figure>
                         </div>
                         <div className="d-colomn">
