@@ -72,6 +72,31 @@ const EbookList = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
+                  <div className="col-lg-6">
+                      <div className="card card-custom-1 p-3">
+                        <Link href="/ebook/dynamics-gp/">
+                          <a className="over-ff text-center">
+                            <img
+                              className="card-img-top"
+                              src="/img/dynamics-GP-BC-Ebook-featured-image.png"
+                              alt="dynamics-GP-BC-Ebook-featured-images"
+                            />
+                          </a>
+                        </Link>
+                        <div className="card-body">
+                          <h5 className="card-title">
+                            <Link href="/ebook/dynamics-gp/">
+                              A Complete Guide to Dynamics GP to BC
+                            </Link>
+                          </h5>
+                          <div className="btn-003 btn-009">
+                            <Link href="/ebook/dynamics-gp/">
+                              <a className="btn btn-sm btn-danger">View Now</a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
                         <Link href="/ebook/d365-supply-chain-management/">

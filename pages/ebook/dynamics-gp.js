@@ -52,16 +52,15 @@ const StartGuideGp = () => {
   return (
     <>
       <Head>
-        <title>The Extensive Guide to Dynamics GP</title>
+        <title>The Quick Guide to Dynamics GP to Business Central Migration</title>
         <meta
           name="description"
-          content="Download our free eBook - Dynamics CRM to simplify your customer relationship journey and enhance profitability along with rapid growth."
+          content="Download our free eBook - Unlock seamless transitions with 'Dynamics GP to Business Central Migration.' Utilise the evolution of your business effortlessly."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/ebook/dynamics-gp/"
         />
-        <meta name="robots" content="noindex, nofollow" />
       </Head>
 
       <section className="Solution-banner hero-1 hero">
@@ -85,8 +84,8 @@ const StartGuideGp = () => {
             </div>
             <div className="col-lg-6 align-self-center text-center">
               <Image
-                src="/img/dynamics-CRM-Ebook-featured-banner.png"
-                alt="dynamics-CRM-Ebook-featured-banner"
+                src="/img/dynamics-GP-BC-Ebook-banner-image.png"
+                alt="dynamics-GP-BC-Ebook-banner-image"
                 width={800} height={600}
               />
             </div>
@@ -122,8 +121,8 @@ const StartGuideGp = () => {
             <div className="col-lg-6 align-self-center">
               <div className="text-center remove-pre">
                 <Image
-                  src="/img/tablet-ebook-dynamics-CRM.png"
-                  alt="tablet-ebook-dynamics-CRM"
+                  src="/img/dynamics-GP-BC-tablet.png"
+                  alt="dynamics-GP-BC-tablet"
                   width={487} height={613}
                 />
               </div>
