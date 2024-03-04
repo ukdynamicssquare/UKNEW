@@ -1194,12 +1194,14 @@ export default function Home() {
                           <span>Food & Beverage</span>
                         </div>
                         <div className="inner-info-left">
-                          <h3>Ease Away to Gastronomical Glory </h3>
-                          <p>Manage operations, including inventory, sales, customer relationships, and financials.</p>
+                          <h3>Reduce complexity, Exceed expectations</h3>
+                          <p>Optimise your processes to unlock unlimited growth opportunities.</p>
                           <ul>
-                            <li><i className="bi bi-check-circle"></i> <span>Optimize replenishment processes.</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Recipe and Formula Management</span></li>
-                            <li><i className="bi bi-check-circle"></i> <span>Production Planning and Scheduling </span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Simplified Supply Chain Management</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Improved Production and Quality Control</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Automated Replenishment</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Quality Assurance</span></li>
+                            <li><i className="bi bi-check-circle"></i> <span>Enhanced Collaboration</span></li>
 
                           </ul>
                           <Link href="/industries/food-and-beverages/"><a className="lins-indu">Know more about solutions</a></Link>

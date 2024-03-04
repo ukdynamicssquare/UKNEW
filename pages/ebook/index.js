@@ -85,12 +85,12 @@ const EbookList = () => {
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
-                            <Link href="/ebook/dynamics-gp/">
+                            <Link href="/ebook/gp-to-business-central-migration/">
                               A Complete Guide to Dynamics GP to BC
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
-                            <Link href="/ebook/dynamics-gp/">
+                            <Link href="/ebook/gp-to-business-central-migration/">
                               <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>
