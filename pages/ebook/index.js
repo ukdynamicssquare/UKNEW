@@ -74,7 +74,7 @@ const EbookList = () => {
                   <div className="row">
                   <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link href="/ebook/dynamics-gp/">
+                        <Link href="/ebook/gp-to-business-central-migration/">
                           <a className="over-ff text-center">
                             <img
                               className="card-img-top"

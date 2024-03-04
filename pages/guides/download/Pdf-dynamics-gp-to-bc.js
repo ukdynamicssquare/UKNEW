@@ -12,7 +12,7 @@ const PdfCRMDownload = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/guides/download/Pdf-dynamics-crm/"
+          href="https://www.dynamicssquare.co.uk/guides/download/Pdf-dynamics-gp-to-bc/"
         />
       </Head>
      

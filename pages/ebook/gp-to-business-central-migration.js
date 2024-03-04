@@ -45,7 +45,7 @@ const StartGuideGp = () => {
     setTimeout(function () {
       setCloseModal(true);
       e.target.reset();
-      router.push("/guides/download/Pdf-dynamics-gp/");
+      router.push("/guides/download/Pdf-dynamics-gp-to-bc/");
     }, 500);
   };
 
@@ -59,7 +59,7 @@ const StartGuideGp = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/ebook/dynamics-gp/"
+          href="https://www.dynamicssquare.co.uk/ebook/gp-to-business-central-migration/"
         />
       </Head>
 
