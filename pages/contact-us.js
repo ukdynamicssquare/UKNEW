@@ -1,23 +1,23 @@
-import Head from 'next/head'
-import FormFooterSubscriber from '../components/FormFooterSubscriber';
+import Head from "next/head";
+import FormFooterSubscriber from "../components/FormFooterSubscriber";
 import Form from "../components/Form";
-import Link from "next/link"; 
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 const ContactUs = () => {
-    return (
-      <>
-        <Head>
+  return (
+    <>
+      <Head>
         <title>Contact Dynamics Square for D365 Advice</title>
         <meta
           name="description"
           content="Dynamics Square's Dyanmic 365 consultants are available to give experienced cloud IT guidance for your company."
         />
-         <link
+        <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/contact-us/"
         />
-        </Head>
-        <main>
+      </Head>
+      <main>
         <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
@@ -32,7 +32,8 @@ const ContactUs = () => {
                 <Image
                   src="/img/contact-us-pic.png"
                   alt="contact-us-pic"
-                  width={692} height={526}
+                  width={692}
+                  height={526}
                 />
               </div>
             </div>
@@ -71,16 +72,22 @@ const ContactUs = () => {
                   <div className="col-lg-7 col-sm-12 align-self-center">
                     <div className="addre-rigt">
                       <div className="cont-info">
-                        <span style={{color:'#343434',fontWeight:'500'}}>Sales Support: </span>
+                        <span style={{ color: "#343434", fontWeight: "500" }}>
+                          Sales Support:{" "}
+                        </span>
                         <span>+44 (0) 207 193 2502 </span>
                       </div>
                       <div className="cont-info">
-                        <span style={{color:'#343434',fontWeight:'500'}}>Technical Support: </span>
+                        <span style={{ color: "#343434", fontWeight: "500" }}>
+                          Technical Support:{" "}
+                        </span>
                         <span>+44 (0) 207 097 8987 </span>
                       </div>
                       <div className="cont-info">
                         <span>
-                        <span style={{color:'#343434',fontWeight:'500'}}>Email Us: </span>
+                          <span style={{ color: "#343434", fontWeight: "500" }}>
+                            Email Us:{" "}
+                          </span>
                           <a href="mailto:info@dynamicssquare.co.uk">
                             info@dynamicssquare.co.uk
                           </a>
@@ -297,33 +304,36 @@ const ContactUs = () => {
                         </div>
                       </div>
                       <div className="col-lg-4">
-                      <div className="cont-hh">
+                        <div className="cont-hh">
                           <h3>Birmingham</h3>
                         </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-geo-alt"></i>
-                </div>
-                <div className="content-right">
-                Izabella House, 24 - 26 Regents Place, City Centre, Birmingham
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-telephone"></i>
-                </div>
-                <div className="content-right">
-                <a target="_self" rel="" href="tel:+441213182798">
-                    +44 121 318 2798
-                  </a>
-                </div>
-              </div>
-              <div className="contact-list">
-                <div className="icons-left">
-                  <i className="bi bi-envelope"></i>
-                </div>
-                <div className="content-right">info@dynamicssquare.co.uk</div>
-              </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-geo-alt"></i>
+                          </div>
+                          <div className="content-right">
+                            Izabella House, 24 - 26 Regents Place, City Centre,
+                            Birmingham
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-telephone"></i>
+                          </div>
+                          <div className="content-right">
+                            <a target="_self" rel="" href="tel:+441213182798">
+                              +44 121 318 2798
+                            </a>
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-envelope"></i>
+                          </div>
+                          <div className="content-right">
+                            info@dynamicssquare.co.uk
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -401,16 +411,15 @@ const ContactUs = () => {
                             <i className="bi bi-geo-alt"></i>
                           </div>
                           <div className="content-right">
-                          111 North Wabash Ave. Ste.100
-                          The Garland Building
-                          Chicago, IL 60602
+                            111 North Wabash Ave. Ste.100 The Garland Building
+                            Chicago, IL 60602
                           </div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">
                             <i className="bi bi-telephone"></i>
                           </div>
-                          
+
                           <div className="content-right">+1 312 488 1043</div>
                         </div>
                         <div className="contact-list">
@@ -433,8 +442,7 @@ const ContactUs = () => {
                             <i className="bi bi-geo-alt"></i>
                           </div>
                           <div className="content-right">
-                          500 Paterson Plank Road
-                          Union City, NJ 07087
+                            500 Paterson Plank Road Union City, NJ 07087
                           </div>
                         </div>
                         <div className="contact-list">
@@ -463,8 +471,7 @@ const ContactUs = () => {
                             <i className="bi bi-geo-alt"></i>
                           </div>
                           <div className="content-right">
-                          867 Boylston Street Boston, MA 02116
-
+                            867 Boylston Street Boston, MA 02116
                           </div>
                         </div>
                         <div className="contact-list">
@@ -479,7 +486,7 @@ const ContactUs = () => {
                           </div>
                           <div className="content-right">
                             <a href="mailto:info@dynamicssquare.com">
-                            info@dynamicssquare.com
+                              info@dynamicssquare.com
                             </a>
                           </div>
                         </div>
@@ -531,8 +538,7 @@ const ContactUs = () => {
                             <i className="bi bi-geo-alt"></i>
                           </div>
                           <div className="content-right">
-                            800 Steeles Ave. W. #B10155 Thornhill, ON. L4J
-                            7L2
+                            800 Steeles Ave. W. #B10155 Thornhill, ON. L4J 7L2
                           </div>
                         </div>
                         <div className="contact-list">
@@ -804,20 +810,19 @@ const ContactUs = () => {
           </div>
         </section>
       </main>
-  
- 
 
       <footer id="footer" className="footer">
         <div className="footer-top">
           <div className="container">
             <div className="row gy-4">
-            <div className="col-lg-5 col-md-12 footer-info">
+              <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
                   <Image
-                      src="/img/dynamics_square_tm_logo_footer.svg"
-                      alt="Dynamics Square TM Logo"
-                    style={{marginBottom:"20px"}}
-                    width={230} height={81}
+                    src="/img/dynamics_square_tm_logo_footer.svg"
+                    alt="Dynamics Square TM Logo"
+                    style={{ marginBottom: "20px" }}
+                    width={230}
+                    height={81}
                   />
                 </Link>
                 <p>
@@ -830,15 +835,19 @@ const ContactUs = () => {
                   src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
-                  width={230} height={200}
-                /><br />
+                  width={230}
+                  height={200}
+                />
+                <br />
                 <Image
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img m-r"
-                  width={230} height={120}
-                /> <br />
-                 {/* <Image
+                  width={230}
+                  height={120}
+                />{" "}
+                <br />
+                {/* <Image
                   src="/img/UK-badge.png"
                   alt="UK badge"
                   className="footer-img"
@@ -874,9 +883,7 @@ const ContactUs = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <Link href="/products/microsoft-power-bi/">
-                      Power BI
-                    </Link>
+                    <Link href="/products/microsoft-power-bi/">Power BI</Link>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
@@ -890,9 +897,7 @@ const ContactUs = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <Link href="/products/microsoft-dynamics-crm/">
-                      CRM
-                    </Link>
+                    <Link href="/products/microsoft-dynamics-crm/">CRM</Link>
                   </li>
                 </ul>
               </div>
@@ -948,7 +953,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://twitter.com/dsquare_uk"
                     className="twitter"
-                    aria-label="Twitter" 
+                    aria-label="Twitter"
                   >
                     <i className="bi bi-twitter"></i>
                   </a>
@@ -957,7 +962,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://www.facebook.com/dynamicssquareuk/"
                     className="facebook"
-                    aria-label="Facebook" 
+                    aria-label="Facebook"
                   >
                     <i className="bi bi-facebook"></i>
                   </a>
@@ -966,7 +971,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://www.instagram.com/dynamicssquareuk/"
                     className="instagram"
-                    aria-label="Instagram" 
+                    aria-label="Instagram"
                   >
                     <i className="bi bi-instagram"></i>
                   </a>
@@ -975,7 +980,7 @@ const ContactUs = () => {
                     rel=""
                     href="https://www.linkedin.com/showcase/dynamics-square-uk/"
                     className="linkedin"
-                    aria-label="Linkedin" 
+                    aria-label="Linkedin"
                   >
                     <i className="bi bi-linkedin"></i>
                   </a>
@@ -986,7 +991,7 @@ const ContactUs = () => {
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
                   </span>
-                 <FormFooterSubscriber />
+                  <FormFooterSubscriber />
                 </div>
               </div>
             </div>
@@ -1003,15 +1008,15 @@ const ContactUs = () => {
           </div>
         </div>
       </footer>
-      <div className='call-bb-wr'>
-      <button className="fixed-button wobble" type="button">
-      <a href="tel:+442071932502" target="_self" aria-label="telephone"><i className="bi bi-telephone-fill"></i></a>
-</button>
-
+      <div className="call-bb-wr">
+        <button className="fixed-button wobble" type="button">
+          <a href="tel:+442071932502" target="_self" aria-label="telephone">
+            <i className="bi bi-telephone-fill"></i>
+          </a>
+        </button>
       </div>
-      </>
-    );
-  };
-  
-  export default ContactUs;
-  
+    </>
+  );
+};
+
+export default ContactUs;

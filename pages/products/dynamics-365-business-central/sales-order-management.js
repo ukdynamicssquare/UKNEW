@@ -7,7 +7,9 @@ const SalesOrderManagement = () => {
   return (
     <>
       <Head>
-      <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+        <title>
+          Warehouse Management in Business Central (WMS) | Inventory Management
+        </title>
         <meta
           name="description"
           content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
@@ -23,12 +25,21 @@ const SalesOrderManagement = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics 365 Business Central Sales and Order Management</h1>
-              <p>Manage the entire lifecycle of a customer’s order, track order processing from quote to delivery, and ensure timely delivery with Dynamics 365 Business Central for Sales and Order Management.</p>
+              <p>
+                Manage the entire lifecycle of a customer’s order, track order
+                processing from quote to delivery, and ensure timely delivery
+                with Dynamics 365 Business Central for Sales and Order
+                Management.
+              </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link
-                    href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Demo Now!</span></a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo Now!</span>
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -37,7 +48,8 @@ const SalesOrderManagement = () => {
               <Image
                 src="/img/BC-Warehouse-Management.png"
                 alt="BC-Warehouse-Management"
-                width={718} height={447}
+                width={718}
+                height={447}
               />
             </div>
           </div>
@@ -46,16 +58,35 @@ const SalesOrderManagement = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9">
-          <header className="section-header">
-            <h2>What is Dynamics 365 Business Central for Sales and Order Management?</h2>
-            <p>D365 Business Central for Sales and Order Management is a cloud-based solution capable of automating and streamlining the entire sales and order cycle of the business. It manages the order from the initial quote to the final delivery of the order while simplifying different operations.</p>
-            <p>Dynamics 365 Business Central for Sales and Order Management is specifically designed for small and medium-sized businesses to centralise all operations and boost overall efficiency. It enables you to manage quotes, customer profiles, inventory levels, and suggest products based on customer history.</p>
-            <p>Embedded AI enables the business to avail of automation, efficient shipping management, and get data reports in real-time.</p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>
+                  What is Dynamics 365 Business Central for Sales and Order
+                  Management?
+                </h2>
+                <p>
+                  D365 Business Central for Sales and Order Management is a
+                  cloud-based solution capable of automating and streamlining
+                  the entire sales and order cycle of the business. It manages
+                  the order from the initial quote to the final delivery of the
+                  order while simplifying different operations.
+                </p>
+                <p>
+                  Dynamics 365 Business Central for Sales and Order Management
+                  is specifically designed for small and medium-sized businesses
+                  to centralise all operations and boost overall efficiency. It
+                  enables you to manage quotes, customer profiles, inventory
+                  levels, and suggest products based on customer history.
+                </p>
+                <p>
+                  Embedded AI enables the business to avail of automation,
+                  efficient shipping management, and get data reports in
+                  real-time.
+                </p>
+              </header>
+            </div>
           </div>
-        </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -71,7 +102,10 @@ const SalesOrderManagement = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Bins-management.png" alt="Bins-management" />
+                          <img
+                            src="/img/Bins-management.png"
+                            alt="Bins-management"
+                          />
                         </div>
                         <span>Quote Management</span>
                       </button>
@@ -83,7 +117,12 @@ const SalesOrderManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Create, edit, and update quotes to ensure a good reputation with the customer. Also, it enables you to send professional quotes with detailed product descriptions to generate more conversions.</p>
+                        <p>
+                          Create, edit, and update quotes to ensure a good
+                          reputation with the customer. Also, it enables you to
+                          send professional quotes with detailed product
+                          descriptions to generate more conversions.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -99,7 +138,10 @@ const SalesOrderManagement = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/warehouse-shipment.png" alt="warehouse-shipment" />
+                          <img
+                            src="/img/warehouse-shipment.png"
+                            alt="warehouse-shipment"
+                          />
                         </div>
                         <span>Order Processing</span>
                       </button>
@@ -111,7 +153,11 @@ const SalesOrderManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Streamline order processing with advanced tools, like order splitting, partial shipments, order tracking, and backorders in real-time.</p>
+                        <p>
+                          Streamline order processing with advanced tools, like
+                          order splitting, partial shipments, order tracking,
+                          and backorders in real-time.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -134,7 +180,10 @@ const SalesOrderManagement = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
+                          <img
+                            src="/img/Warehouse-Picks.png"
+                            alt="Warehouse-Picks"
+                          />
                         </div>
                         <span>Shipping and Fulfillment</span>
                       </button>
@@ -146,7 +195,11 @@ const SalesOrderManagement = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>Business Central easily integrates with third-party shipping solutions to make the entire process of shipping and fulfilment simple and effective.</p>
+                        <p>
+                          Business Central easily integrates with third-party
+                          shipping solutions to make the entire process of
+                          shipping and fulfilment simple and effective.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -177,7 +230,16 @@ const SalesOrderManagement = () => {
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>Business Central comes with standard reporting and data analytics capabilities that enable the user to capture, analyse, and utilise data with ease. Also, you can <Link href="/products/microsoft-power-bi/"><a>integrate Power BI</a></Link> for advanced reporting.</p>
+                        <p>
+                          Business Central comes with standard reporting and
+                          data analytics capabilities that enable the user to
+                          capture, analyse, and utilise data with ease. Also,
+                          you can{" "}
+                          <Link href="/products/microsoft-power-bi/">
+                            <a>integrate Power BI</a>
+                          </Link>{" "}
+                          for advanced reporting.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -191,13 +253,28 @@ const SalesOrderManagement = () => {
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-9">
               <div className="call-to-action-content">
-                <h3>Stop Struggling, Start Growing: Streamline Sales & Orders with Dynamics 365 Business Central</h3>
-                <p>The <Link href="/dynamics-365-business-central-implementation/"><a>Dynamics 365 Business Central implementation</a></Link> will empower you to make data-driven decisions to optimise your entire sales and order management strategies. It lets you access inventory levels, market fluctuations, customer trends, and sales performance so that you can generate more revenue with minimal effort.</p>
+                <h3>
+                  Stop Struggling, Start Growing: Streamline Sales & Orders with
+                  Dynamics 365 Business Central
+                </h3>
+                <p>
+                  The Dynamics 365 Business Central implementation will empower
+                  you to make data-driven decisions to optimise your entire
+                  sales and order management strategies. It lets you access
+                  inventory levels, market fluctuations, customer trends, and
+                  sales performance so that you can generate more revenue with
+                  minimal effort.
+                </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Free Demo!</span></a>
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Free Demo!</span>
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -206,21 +283,33 @@ const SalesOrderManagement = () => {
         </div>
       </section>
 
-
-
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-10">
+            <div className="col-lg-9">
               <div className="side-heading-custom-01">
-                <h2>Core Functionalities of the Sales and Order Management Module</h2>
+                <h2>
+                  Core Functionalities of the Sales and Order Management Module
+                </h2>
               </div>
               <div className="custom-p-001">
-                <p>The sales and order management module of <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> comes with smart intelligence to help you with inventory management, invoicing, payments, and streamlining customer profiles. Also, it lets you access the data insights so that you can build personalised offers for customers for more efficient sales. The D365 Business Central offers numerous sales and order management functionalities, among which some are discussed below:</p>
-                <div className="row" style={{paddingTop:'40px'}}>
+                <p>
+                  The sales and order management module of{" "}
+                  <Link href="/products/dynamics-365-business-central/">
+                    <a>Business Central</a>
+                  </Link>{" "}
+                  comes with smart intelligence to help you with inventory
+                  management, invoicing, payments, and streamlining customer
+                  profiles. Also, it lets you access the data insights so that
+                  you can build personalised offers for customers for more
+                  efficient sales. The D365 Business Central offers numerous
+                  sales and order management functionalities, among which some
+                  are discussed below:
+                </p>
+                <div className="row" style={{ paddingTop: "40px" }}>
                   <div className="col-lg-6">
-                  <p>
-                    <ul>
+                    <p>
+                      <ul>
                         <li>Lead Generation</li>
                         <li>Quote Creation</li>
                         <li>Order Processing</li>
@@ -229,22 +318,22 @@ const SalesOrderManagement = () => {
                         <li>Centralised communication</li>
                         <li>Customer Management</li>
                         <li>Automated Workflows</li>
-                    </ul>
-                  </p>
+                      </ul>
+                    </p>
                   </div>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                  <li>Order Management</li>
-                  <li>Customer Profiles</li>
-                  <li>Real-time Inventory levels</li>
-                  <li>Order Confirmation</li>
-                  <li>Invoice Management</li>
-                  <li>Accepting Payments</li>
-                  <li>Data Analysis</li>
-                  <li>Reports Generation</li>
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Order Management</li>
+                        <li>Customer Profiles</li>
+                        <li>Real-time Inventory levels</li>
+                        <li>Order Confirmation</li>
+                        <li>Invoice Management</li>
+                        <li>Accepting Payments</li>
+                        <li>Data Analysis</li>
+                        <li>Reports Generation</li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -252,37 +341,66 @@ const SalesOrderManagement = () => {
           </div>
         </div>
       </section>
-    <section>
-      <div className="container">
-      <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>D365 Business Central Sales and Order Management Benefits</h2>
-            <p>Sales and Order Management offers real-time data visibility across all sales and order operations with total accuracy. You can even track the status of orders, invoices, and quotes to accelerate the process. Some of its core benefits are:</p>
-          </header>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
+                <h2>
+                  D365 Business Central Sales and Order Management Benefits
+                </h2>
+                <p>
+                  Sales and Order Management offers real-time data visibility
+                  across all sales and order operations with total accuracy. You
+                  can even track the status of orders, invoices, and quotes to
+                  accelerate the process. Some of its core benefits are:
+                </p>
+              </header>
+            </div>
           </div>
-        </div>
-      <div className="row g-5">
+          <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image
+                    src="/img/Track-and-Update-Goods.svg"
+                    alt="Track-and-Update-Goods"
+                    width={84}
+                    height={84}
+                  />
                 </div>
                 <div className="style-grid-content">
                   <h3>Boost Efficiency and Save Time</h3>
-                  <p>You can automate various manual and recurring tasks to enhance overall efficiency. Such tasks include order processing, shipping, approvals, and invoicing. Also, perform faster processing and delivery by leveraging the advanced Business Central tools, resulting in lower operational costs.</p>
+                  <p>
+                    You can automate various manual and recurring tasks to
+                    enhance overall efficiency. Such tasks include order
+                    processing, shipping, approvals, and invoicing. Also,
+                    perform faster processing and delivery by leveraging the
+                    advanced Business Central tools, resulting in lower
+                    operational costs.
+                  </p>
                 </div>
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image
+                    src="/img/Establish-Warehouse-Flow.svg"
+                    alt="Establish-Warehouse-Flow"
+                    width={84}
+                    height={84}
+                  />
                 </div>
                 <div className="style-grid-content">
                   <h3>Enhancing Accuracy and Reducing Errors</h3>
-                  <p>Get real-time visibility across different business operations while eliminating manual data entry from the system to minimise errors. D365 Business Central pushes the business to increase customer satisfaction, reduce order cancellations, and enhance profitability.</p>
+                  <p>
+                    Get real-time visibility across different business
+                    operations while eliminating manual data entry from the
+                    system to minimise errors. D365 Business Central pushes the
+                    business to increase customer satisfaction, reduce order
+                    cancellations, and enhance profitability.
+                  </p>
                 </div>
               </div>
-           
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -290,30 +408,48 @@ const SalesOrderManagement = () => {
                   <Image
                     src="/img/100-Inventory-Visibility.svg"
                     alt="100-Inventory-Visibility"
-                    width={84} height={84}
+                    width={84}
+                    height={84}
                   />
                 </div>
                 <div className="style-grid-content">
                   <h3>Get Data-Driven Insights</h3>
-                  <p>Track sales, performance, and order status with accurate data reporting and analytics to make data-driven, actionable decisions. It lets you access customer behaviour, product performance, inventory status, and market trends to optimise inventory levels and drive business growth.</p>
+                  <p>
+                    Track sales, performance, and order status with accurate
+                    data reporting and analytics to make data-driven, actionable
+                    decisions. It lets you access customer behaviour, product
+                    performance, inventory status, and market trends to optimise
+                    inventory levels and drive business growth.
+                  </p>
                 </div>
               </div>
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image
+                    src="/img/Automate-Warehouse-Processes.svg"
+                    alt="Automate-Warehouse-Processes"
+                    width={84}
+                    height={84}
+                  />
                 </div>
                 <div className="style-grid-content">
                   <h3>Accelerates Remote Work and Sales</h3>
-                  <p>Manage, monitor, and control your sales activities from anytime and anywhere with the Business Central cloud implementation. It empowers the team to connect with the centralised system and access the data to maximise sales performance with enhanced team collaboration.</p>
+                  <p>
+                    Manage, monitor, and control your sales activities from
+                    anytime and anywhere with the Business Central cloud
+                    implementation. It empowers the team to connect with the
+                    centralised system and access the data to maximise sales
+                    performance with enhanced team collaboration.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -321,7 +457,8 @@ const SalesOrderManagement = () => {
                 <Image
                   src="/img/Warehouse-Management-in-Different-Industries.png"
                   alt="Warehouse-Management-in-Different-Industries"
-                  width={482} height={513}
+                  width={482}
+                  height={513}
                 />
               </div>
             </div>
@@ -330,25 +467,34 @@ const SalesOrderManagement = () => {
                 <h2>Sales and Order Management in Industries</h2>
               </div>
               <div className="custom-p-001">
-                <p>Dynamics 365 Business Central for Sales and Order Management is a comprehensive tool that offers advanced tools and capabilities for managing different complex operations. This module has become an essential tool to eliminate redundant and complex tasks from the system. The Business Central implementation will boost overall efficiency, eliminate errors from the system, gain data-driven insights, and boost mobile sales.</p>
+                <p>
+                  Dynamics 365 Business Central for Sales and Order Management
+                  is a comprehensive tool that offers advanced tools and
+                  capabilities for managing different complex operations. This
+                  module has become an essential tool to eliminate redundant and
+                  complex tasks from the system. The{" "}
+                  <Link href="/dynamics-365-business-central-implementation/">
+                    <a>Business Central implementation</a>
+                  </Link>{" "}
+                  will boost overall efficiency, eliminate errors from the
+                  system, gain data-driven insights, and boost mobile sales.
+                </p>
                 <p>
                   <ul>
-                      <li>Distribution and wholesale</li>
-                      <li>Retail</li>
-                      <li>Manufacturing</li>
-                      <li>E-commerce healthcare</li>
-                      <li>Non-profit Organisations</li>
+                    <li>Distribution and wholesale</li>
+                    <li>Retail</li>
+                    <li>Manufacturing</li>
+                    <li>E-commerce healthcare</li>
+                    <li>Non-profit Organisations</li>
                   </ul>
-                  </p>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
     </>
   );
 };
 
 export default SalesOrderManagement;
-
