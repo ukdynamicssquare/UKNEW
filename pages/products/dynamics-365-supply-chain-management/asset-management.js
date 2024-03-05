@@ -7,15 +7,30 @@ const AssetManagement = () => {
   return (
     <>
       <Head>
-      <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+      <title>Asset Management in Supply Chain Management | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
+          content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/asset-management/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
+        <meta property="og:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/asset-management/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
+        <meta name="twitter:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">

@@ -59,8 +59,23 @@ const StartGuideGp = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/ebook/gp-to-business-central-migration/"
+          href="https://www.dynamicssquare.co.uk/ebook/gp-to-bc-migration/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="The Quick Guide to Dynamics GP to Business Central Migration" />
+        <meta property="og:description" content="Download our free eBook - Unlock seamless transitions with 'Dynamics GP to Business Central Migration.' Utilise the evolution of your business effortlessly." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/ebook/gp-to-bc-migration/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/dynamics-GP-BC-Ebook-banner-image.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="The Quick Guide to Dynamics GP to Business Central Migration" />
+        <meta name="twitter:description" content="Download our free eBook - Unlock seamless transitions with 'Dynamics GP to Business Central Migration.' Utilise the evolution of your business effortlessly." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/dynamics-GP-BC-Ebook-banner-image.png" />
       </Head>
 
       <section className="Solution-banner hero-1 hero">

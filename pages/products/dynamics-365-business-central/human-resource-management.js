@@ -7,15 +7,30 @@ const HumanResourceManagements = () => {
   return (
     <>
       <Head>
-      <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+      <title>D365 Business Central for Human Resource Management</title>
         <meta
           name="description"
-          content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
+          content="Explore ERP functionalities of Dynamics 365 Business Central for Human Resource Management: Streamline employee data, payroll processing, and performance tracking in one platform."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/human-resource-management/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="D365 Business Central for Human Resource Management" />
+        <meta property="og:description" content="Explore ERP functionalities of Dynamics 365 Business Central for Human Resource Management: Streamline employee data, payroll processing, and performance tracking in one platform." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/human-resource-management/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="D365 Business Central for Human Resource Management" />
+        <meta name="twitter:description" content="Explore ERP functionalities of Dynamics 365 Business Central for Human Resource Management: Streamline employee data, payroll processing, and performance tracking in one platform." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">

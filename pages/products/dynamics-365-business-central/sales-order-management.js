@@ -7,17 +7,30 @@ const SalesOrderManagement = () => {
   return (
     <>
       <Head>
-        <title>
-          Warehouse Management in Business Central (WMS) | Inventory Management
-        </title>
+        <title>Dynamics 365 Business Central Sales and Order Management</title>
         <meta
           name="description"
-          content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
+          content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/"
         />
+         <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics 365 Business Central Sales and Order Management" />
+        <meta property="og:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Dynamics 365 Business Central Sales and Order Management" />
+        <meta name="twitter:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -26,7 +39,7 @@ const SalesOrderManagement = () => {
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics 365 Business Central Sales and Order Management</h1>
               <p>
-                Manage the entire lifecycle of a customer’s order, track order
+                Manage the entire lifecycle of a customer's order, track order
                 processing from quote to delivery, and ensure timely delivery
                 with Dynamics 365 Business Central for Sales and Order
                 Management.

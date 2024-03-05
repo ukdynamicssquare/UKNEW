@@ -74,7 +74,7 @@ const EbookList = () => {
                   <div className="row">
                   <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
-                        <Link href="/ebook/gp-to-business-central-migration/">
+                        <Link href="/ebook/gp-to-bc-migration/">
                           <a className="over-ff text-center">
                             <img
                               className="card-img-top"
@@ -85,12 +85,12 @@ const EbookList = () => {
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
-                            <Link href="/ebook/gp-to-business-central-migration/">
+                            <Link href="/ebook/gp-to-bc-migration/">
                               A Complete Guide to Dynamics GP to BC
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
-                            <Link href="/ebook/gp-to-business-central-migration/">
+                            <Link href="/ebook/gp-to-bc-migration/">
                               <a className="btn btn-sm btn-danger">View Now</a>
                             </Link>
                           </div>

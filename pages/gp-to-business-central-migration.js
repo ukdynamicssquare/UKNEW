@@ -8,15 +8,31 @@ const WhyMigrade360 = () => {
   return (
     <>
       <Head>
-        <title>Dynamics GP to Business Central Migration | Dynamics Square</title>
+        <title>Dynamics GP to Business Central Migration | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Want to avail automation and simplify entire business operations? Migrate from Microsoft Dynamics GP to Business Central  Get maximised profitability today! "
+          content="Guide to seamless migration from Dynamics GP to Business Central. Enhance your business efficiency with a smooth transition. Upgrade now!"
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/gp-to-business-central-migration/"
         />
+
+      <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dynamics GP to Business Central Migration | Dynamics Square UK" />
+        <meta property="og:description" content="Guide to seamless migration from Dynamics GP to Business Central. Enhance your business efficiency with a smooth transition. Upgrade now!" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/gp-to-business-central-migration/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/why-migrate-36--banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Dynamics GP to Business Central Migration | Dynamics Square UK" />
+        <meta name="twitter:description" content="Guide to seamless migration from Dynamics GP to Business Central. Enhance your business efficiency with a smooth transition. Upgrade now!" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/why-migrate-36--banner.png" />
         
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -59,7 +75,7 @@ const WhyMigrade360 = () => {
             </div>
             <div className="col-lg-8">
                 <div className="custom-p-001" style={{paddingBottom:"20px"}}>
-                  <p>Undoubtedly, Microsoft GP is a powerful ERP solution when it comes to managing the finance and accounting operations of a business. But, with the changing requirements of modern businesses, it is unable to cope with the change's businesses are going through.</p>
+                  <p>Undoubtedly, <Link href="/products/microsoft-dynamics-gp/"><a>Microsoft GP</a></Link> is a powerful ERP solution when it comes to managing the finance and accounting operations of a business. But, with the changing requirements of modern businesses, it is unable to cope with the change's businesses are going through.</p>
                   <p>Microsoft understands the requirements and demands of such businesses and has offered a modern, simple, and advanced ERP solution: Microsoft Dynamics 365 Business Central. D365 BC is an all-in-one business solution capable of streamlining, managing, and controlling the entire business from a unified dashboard in real-time.</p>
                   <p>It is a cloud-based solution that comes with flexible Business Central pricing, licencing, workflow automation, automatic updates, a low cost of ownership, a user-friendly user interface, and much more.</p>
                   <p>There can be numerous reasons that justify the migration from Dynamics GP to Business Central. But, among them, the ending of service and support offered by Microsoft for Dynamics GP users is the major one.</p>
@@ -73,6 +89,31 @@ const WhyMigrade360 = () => {
           </div>
         </div>
       </section>
+
+      {/* <section className="sp-top">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="new-call-to-guide">
+                <div className="figur-sec">
+                  <img src="/img/dynamics-GP-BC-Ebook-featured-image.png" alt="dynamics-GP-BC-Ebook-featured-image" />
+                </div>
+                <div className="col-t-con-act">
+                  <h3>Want to Read this Guide</h3>
+                  <p>Supercharge your business with a set of advanced features, capabilities, and tools for enhanced profitability and revenue.</p>
+                  <Link href="/ebook/gp-to-bc-migration/">
+                    <a
+                      className="btn-get-started"
+                    >
+                      <span>Read the GP Guide</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
 
       <section className="busine_service_bottom custom05">
         <div className="container">
