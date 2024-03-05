@@ -29,7 +29,7 @@ const PdfpgDownload = () => {
                   <a
                     href="/pdf/PowerBI-e-guide.pdf"
                     className="btn-get-started scrollto"
-                    download
+                    target='_blank'
                   >
                     <span>
                       Download <i className="bi bi-file-earmark-pdf"></i>

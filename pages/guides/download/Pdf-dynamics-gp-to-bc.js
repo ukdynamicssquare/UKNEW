@@ -26,7 +26,7 @@ const PdfCRMDownload = () => {
                   <a
                     href="/pdf/DynamicsGP-BC-ebook.pdf"
                     className="btn-get-started scrollto"
-                    download
+                    target='_blank'
                   >
                     <span>
                       Download <i className="bi bi-file-earmark-pdf"></i>

@@ -28,7 +28,7 @@ const PdfFinanaceDownload = () => {
                   <a
                     href="/pdf/Finance-e-book-EN-UK.pdf"
                     className="btn-get-started scrollto"
-                    download
+                    target='_blank'
                   >
                     <span>
                       Download <i className="bi bi-file-earmark-pdf"></i>
