@@ -323,28 +323,28 @@ const SalesOrderManagement = () => {
                   <div className="col-lg-6">
                     <p>
                       <ul>
-                        <li>Lead Generation</li>
-                        <li>Quote Creation</li>
-                        <li>Order Processing</li>
-                        <li>Order Management</li>
-                        <li>Returns and Exchanges</li>
-                        <li>Centralised communication</li>
-                        <li>Customer Management</li>
-                        <li>Automated Workflows</li>
+                        <li><span>Lead Generation</span></li>
+                        <li><span>Quote Creation</span></li>
+                        <li><span>Order Processing</span></li>
+                        <li><span>Order Management</span></li>
+                        <li><span>Returns and Exchanges</span></li>
+                        <li><span>Centralised communication</span></li>
+                        <li><span>Customer Management</span></li>
+                        <li><span>Automated Workflows</span></li>
                       </ul>
                     </p>
                   </div>
                   <div className="col-lg-6">
                     <p>
                       <ul>
-                        <li>Order Management</li>
-                        <li>Customer Profiles</li>
-                        <li>Real-time Inventory levels</li>
-                        <li>Order Confirmation</li>
-                        <li>Invoice Management</li>
-                        <li>Accepting Payments</li>
-                        <li>Data Analysis</li>
-                        <li>Reports Generation</li>
+                        <li><span>Order Management</span></li>
+                        <li><span>Customer Profiles</span></li>
+                        <li><span>Real-time Inventory levels</span></li>
+                        <li><span>Order Confirmation</span></li>
+                        <li><span>Invoice Management</span></li>
+                        <li><span>Accepting Payments</span></li>
+                        <li><span>Data Analysis</span></li>
+                        <li><span>Reports Generation</span></li>
                       </ul>
                     </p>
                   </div>
@@ -494,11 +494,11 @@ const SalesOrderManagement = () => {
                 </p>
                 <p>
                   <ul>
-                    <li>Distribution and wholesale</li>
-                    <li>Retail</li>
-                    <li>Manufacturing</li>
-                    <li>E-commerce healthcare</li>
-                    <li>Non-profit Organisations</li>
+                    <li><span>Distribution and wholesale</span></li>
+                    <li><span>Retail</span></li>
+                    <li><span>Manufacturing</span></li>
+                    <li><span>E-commerce healthcare</span></li>
+                    <li><span>Non-profit Organisations</span></li>
                   </ul>
                 </p>
               </div>

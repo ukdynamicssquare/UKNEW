@@ -1,6 +1,7 @@
 {
     "redirects": [
-      { "source": "/dynamics-365-consultant/", "destination": "/our-services/dynamics-365-consultant/", "statusCode": 301 }
+      { "source": "/dynamics-365-consultant/", "destination": "/our-services/dynamics-365-consultant/", "statusCode": 301 },
+      { "source": "/blog/migrating-dynamics-gp-to-d365-business-central/", "destination": "/blog/migrate-from-dynamics-gp-to-bc/", "statusCode": 301 }
     ]
   }
   

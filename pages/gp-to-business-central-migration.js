@@ -17,7 +17,6 @@ const WhyMigrade360 = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/gp-to-business-central-migration/"
         />
-
       <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Dynamics GP to Business Central Migration | Dynamics Square UK" />
@@ -99,7 +98,7 @@ const WhyMigrade360 = () => {
                   <img src="/img/dynamics-GP-BC-Ebook-featured-image.png" alt="dynamics-GP-BC-Ebook-featured-image" />
                 </div>
                 <div className="col-t-con-act">
-                  <h3>Want to Read this Guide</h3>
+                  <h3>Get the Guide Now and Read it Later!</h3>
                   <p>Supercharge your business with a set of advanced features, capabilities, and tools for enhanced profitability and revenue.</p>
                   <Link href="/ebook/gp-to-bc-migration/">
                     <a
