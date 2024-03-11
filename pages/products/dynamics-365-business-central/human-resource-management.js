@@ -205,9 +205,9 @@ const HumanResourceManagements = () => {
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-9">
               <div className="call-to-action-content">
-                <h3>Simplify HR Operations with Dynamics 365 Business Central</h3>
+                <h3>Simplify HR Operations with <br /> Dynamics 365 Business Central</h3>
                 <p>The human resources module of Microsoft Dynamics 365 Business Central empowers businesses to manage, monitor, and track all employees along with their data. It enables you to build a talent-centric human resource programme that can optimise workforce costs and push employees towards a high-performance culture.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
@@ -230,7 +230,7 @@ const HumanResourceManagements = () => {
                 <h2>Core Functionalities of Human Resources Module</h2>
               </div>
               <div className="custom-p-001">
-                <p>Dynamics 365 Business Central for human resource management offers numerous capabilities capable of streamlining all approaches towards streamlining human resources operations. It comes with personnel management, leave and absence management, benefits management, compensation management, and more. Some other core capabilities are:</p>
+                <p><Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> for human resource management offers numerous capabilities capable of streamlining all approaches towards streamlining human resources operations. It comes with personnel management, leave and absence management, benefits management, compensation management, and more. Some other core capabilities are:</p>
                 <div className="row" style={{paddingTop:'40px'}}>
                   <div className="col-lg-6">
                   <p>
@@ -270,7 +270,7 @@ const HumanResourceManagements = () => {
           <div className="col-lg-10">
           <header className="section-header">
             <h2>D365 Business Central Human Resources Benefits</h2>
-            <p>Seamless management of human resource programmes and strategies lets you offer great employee experience by leveraging data insights. With the right tools and capabilities, you can manage different elements of human resources, including compensation, absence, leave, payroll, performance, feedback, training, and certification, without any hassle. The implementation of Business Central for human resources enables you to take care of your employees in the same way as they want.</p>
+            <p>Seamless management of human resource programmes and strategies lets you offer great employee experience by leveraging data insights. With the right tools and capabilities, you can manage different elements of human resources, including compensation, absence, leave, payroll, performance, feedback, training, and certification, without any hassle. The <Link href="/our-services/dynamics-365-implementation-services/"><a>implementation</a></Link> of Business Central for human resources enables you to take care of your employees in the same way as they want.</p>
           </header>
           </div>
         </div>

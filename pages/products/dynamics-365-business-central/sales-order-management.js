@@ -37,8 +37,7 @@ const SalesOrderManagement = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics 365 Business Central Sales and Order Management</h1>
-              <p>
-                Manage the entire lifecycle of a customer's order, track order
+              <p>Manage the entire lifecycle of a customer's order, track order
                 processing from quote to delivery, and ensure timely delivery
                 with Dynamics 365 Business Central for Sales and Order
                 Management.
