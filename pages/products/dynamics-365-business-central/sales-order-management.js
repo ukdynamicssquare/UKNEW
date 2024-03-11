@@ -31,7 +31,6 @@ const SalesOrderManagement = () => {
         <meta name="twitter:title" content="Dynamics 365 Business Central Sales and Order Management" />
         <meta name="twitter:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Sales-and-Order-Management-banner.png" />
-        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

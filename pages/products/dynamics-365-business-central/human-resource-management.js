@@ -31,7 +31,6 @@ const HumanResourceManagements = () => {
         <meta name="twitter:title" content="D365 Business Central for Human Resource Management" />
         <meta name="twitter:description" content="Explore ERP functionalities of Dynamics 365 Business Central for Human Resource Management: Streamline employee data, payroll processing, and performance tracking in one platform." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-Management-banner.png" />
-        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -209,7 +208,7 @@ const HumanResourceManagements = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Simplify HR Operations with Dynamics 365 Business Central</h3>
-                <p>The human resources module of <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> empowers businesses to manage, monitor, and track all employees along with their data. It enables you to build a talent-centric human resource programme that can optimise workforce costs and push employees towards a high-performance culture.</p>
+                <p>The human resources module of Microsoft Dynamics 365 Business Central empowers businesses to manage, monitor, and track all employees along with their data. It enables you to build a talent-centric human resource programme that can optimise workforce costs and push employees towards a high-performance culture.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
                     <span>Schedule a Free Demo!</span></a>

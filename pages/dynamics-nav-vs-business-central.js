@@ -6,15 +6,14 @@ const BusinessCentralFeatureComparison = () => {
     return (
       <>
         <Head>
-        <title>Dynamics 365 Business Central Feature Comparison | Dynamics Square</title>
+        <title>Dynamics NAV vs Business Central: Feature Comparison!</title>
         <meta
           name="description"
-          content="Read this article to find out the key differences between Business Central and previous versions of NAV."
+          content="Dynamics NAV vs Business Central: Read this article to find out the key differences between Business Central and previous versions of NAV."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-feature-comparison/ "
-        />
+          href="https://www.dynamicssquare.co.uk/dynamics-nav-vs-business-central/" />
         </Head>
         <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -76,7 +75,7 @@ const BusinessCentralFeatureComparison = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      Microsoft has already discontinued primary support for NAV 2016 and previous NAV versions. This indicates that Microsoft will not issue any further updates for these versions. NAV 2017 will be decommissioned by the end of the year. 
+                      Microsoft has already discontinued primary support for NAV 2016 and previous <Link href="/products/microsoft-dynamics-nav/"><a>NAV versions</a></Link>. This indicates that Microsoft will not issue any further updates for these versions. NAV 2017 will be decommissioned by the end of the year. 
                       </div>
                     </div>
                   </div>
@@ -183,7 +182,7 @@ const BusinessCentralFeatureComparison = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      If you are using or intend to utilise Power BI, the tool displays reports from Business Central. To access the reports, end users do not need to open the Power BI interface. 
+                      If you are using or intend to utilise Power BI, the tool displays reports from <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>. To access the reports, end users do not need to open the Power BI interface. 
                       </div>
                     </div>
                   </div>

@@ -977,8 +977,8 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.dynamicssquare.co.uk/blog/dynamics-crm-guide-overview/</loc>
-  <lastmod>2023-06-08T15:47:56+00:00</lastmod>
+  <loc>https://www.dynamicssquare.co.uk/blog/what-is-dynamics-365-crm/</loc>
+  <lastmod>2024-03-11T14:47:56+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
@@ -1146,8 +1146,8 @@
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://www.dynamicssquare.co.uk/blog/best-crm-software/</loc>
-  <lastmod>2023-07-12T15:10:56+00:00</lastmod>
+  <loc>https://www.dynamicssquare.co.uk/blog/best-crm-software-for-small-business/</loc>
+  <lastmod>2024-03-11T15:10:56+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
@@ -1448,6 +1448,21 @@
 <url>
 <loc>https://www.dynamicssquare.co.uk//ebook/gp-to-bc-migration/</loc>
 <lastmod>2024-03-04T12:32:56+00:00</lastmod>
+<priority>0.33</priority>
+</url>
+<url>
+<loc>https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/human-resource-management/</loc>
+<lastmod>2024-03-11T12:32:56+00:00</lastmod>
+<priority>0.33</priority>
+</url>
+<url>
+<loc>https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/</loc>
+<lastmod>2024-03-11T12:32:56+00:00</lastmod>
+<priority>0.33</priority>
+</url>
+<url>
+<loc>https://www.dynamicssquare.co.uk/dynamics-nav-vs-business-central/</loc>
+<lastmod>2024-03-11T12:32:56+00:00</lastmod>
 <priority>0.33</priority>
 </url>
 </urlset>

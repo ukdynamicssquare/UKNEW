@@ -1,7 +1,10 @@
 {
     "redirects": [
       { "source": "/dynamics-365-consultant/", "destination": "/our-services/dynamics-365-consultant/", "statusCode": 301 },
-      { "source": "/blog/migrating-dynamics-gp-to-d365-business-central/", "destination": "/blog/migrate-from-dynamics-gp-to-bc/", "statusCode": 301 }
+      { "source": "/blog/migrating-dynamics-gp-to-d365-business-central/", "destination": "/blog/migrate-from-dynamics-gp-to-bc/", "statusCode": 301 },
+      { "source": "/blog/dynamics-crm-guide-overview/", "destination": "/blog/what-is-dynamics-365-crm/", "statusCode": 301 },
+      { "source": "/dynamics-365-business-central-feature-comparison/", "destination": "/dynamics-nav-vs-business-central/", "statusCode": 301 },
+      { "source": "/blog/best-crm-software/", "destination": "/blog/best-crm-software-for-small-business/", "statusCode": 301 }
     ]
   }
   
