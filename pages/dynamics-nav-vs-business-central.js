@@ -19,9 +19,7 @@ const BusinessCentralFeatureComparison = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>
-              Dynamics 365 Business Central Feature Comparison
-              </h1>
+              <h1>Dynamics NAV vs Business Central</h1>
               <p>
               Dynamics 365 Business Central is the latest version of Microsoft Dynamics NAV, and it includes several new features and improvements over previous NAV versions. Here's a quick comparison of some of the most notable changes. 
               </p>
