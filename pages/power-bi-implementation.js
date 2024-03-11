@@ -13,10 +13,10 @@ const PowerBIImplementation = () => {
   return (
     <>
       <Head>
-        <title>Power BI Implementation Partner in UK | Dynamics Square</title>
+        <title>Power BI Implementation Process & Services | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get a demo today."
+          content="Dynamics Square delivers trusted solutions through a proven Power BI Implementation process to businesses across the UK, As your requirements & budgets."
         />
         <link
           rel="canonical"
@@ -24,18 +24,14 @@ const PowerBIImplementation = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/power-bi-implementation/" />
-        <meta property="og:title" content="
-Power BI Implementation Partner in UK | Dynamics Square
-" />
-        <meta property="og:description" content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get Power BI today." />
+        <meta property="og:title" content="Power BI Implementation Process & Services | Dynamics Square UK" />
+        <meta property="og:description" content="Dynamics Square delivers trusted solutions through a proven Power BI Implementation process to businesses across the UK, As your requirements & budgets." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/power-bi-implementation/" />
-        <meta property="twitter:title" content="
-Power BI Implementation Partner in UK | Dynamics Square
-" />
-        <meta property="twitter:description" content="Enable everyone across your organization to make data-driven decisions curated in real-time all through our Power BI Implementation plans. Get Power BI today." />
+        <meta property="twitter:title" content="Power BI Implementation Process & Services | Dynamics Square UK" />
+        <meta property="twitter:description" content="Dynamics Square delivers trusted solutions through a proven Power BI Implementation process to businesses across the UK, As your requirements & budgets." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -43,18 +39,10 @@ Power BI Implementation Partner in UK | Dynamics Square
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-                Power BI
-                <br />
-                Implementation <br />
-                Partner
+                Power BI Implementation Services
               </h1>
-              <p>
-                Enable everyone across your organization to make data-driven
-                decisions with self-service analytics curated in real-time all
-                through our Microsoft Power BI Implementation. To learn more
-                about how Power BI can help transform your business, get in
-                touch with your trusted Microsoft Power BI partner.
-              </p>
+              <h2 style={{marginBottom:'-50px',fontWeight:600,color:'#bb2b36',lineHeight:1.3}}>Partner with the most experienced Power BI implementation experts</h2>
+              <p>Enable everyone across your organisation to make data-driven decisions with self-service analytics curated in real-time all through our Microsoft Power BI Implementation. Choose Dynamics Square for proper Power BI implementation service.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -62,7 +50,7 @@ Power BI Implementation Partner in UK | Dynamics Square
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Get Started</span>
+                      <span>Get in Touch</span>
                     </a>
                   </Link>
                 </div>

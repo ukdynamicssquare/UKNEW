@@ -34,10 +34,10 @@ const PowerBIGuide = () => {
   return (
     <>
       <Head>
-      <title>Power BI: The Definitive Guide For SMBs (2023)</title>
+      <title>Power BI: The Definitive Guide For SMBs (2024)</title>
         <meta
           name="description"
-          content="A complete guide to Power BI (2023) for SMBs. Learn how to transform your data into interactive reports that drive results."
+          content="A complete guide to Power BI (2024) for SMBs. Learn how to transform your data into interactive reports that drive results."
         />
         <meta
           name="keywords"
@@ -222,7 +222,7 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <h2>The Ultimate Power BI Guide for SMBs (2023)</h2>
+                <h2>The Ultimate Power BI Guide for SMBs (2024)</h2>
                 <p>
                   Data is everywhere, but you need the right tool to extract it.
                 </p>
