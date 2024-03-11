@@ -22,7 +22,7 @@ const SalesOrderManagement = () => {
         <meta property="og:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Sales-and-Order-Management-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +30,7 @@ const SalesOrderManagement = () => {
         <meta name="twitter:site" content="@dsquare_uk" />
         <meta name="twitter:title" content="Dynamics 365 Business Central Sales and Order Management" />
         <meta name="twitter:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Sales-and-Order-Management-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -59,9 +59,9 @@ const SalesOrderManagement = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/BC-Warehouse-Management.png"
-                alt="BC-Warehouse-Management"
-                width={718}
+                src="/img/Sales-and-Order-Management-banner.png"
+                alt="Sales-and-Order-Management-banner"
+                width={665}
                 height={447}
               />
             </div>
@@ -116,8 +116,8 @@ const SalesOrderManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Bins-management.png"
-                            alt="Bins-management"
+                            src="/img/quote-management.png"
+                            alt="quote-management"
                           />
                         </div>
                         <span>Quote Management</span>
@@ -152,8 +152,8 @@ const SalesOrderManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/warehouse-shipment.png"
-                            alt="warehouse-shipment"
+                            src="/img/order-processing.png"
+                            alt="order-processing"
                           />
                         </div>
                         <span>Order Processing</span>
@@ -194,8 +194,8 @@ const SalesOrderManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Warehouse-Picks.png"
-                            alt="Warehouse-Picks"
+                            src="/img/shipping-and-fulfillment.png"
+                            alt="shipping-and-fulfillment"
                           />
                         </div>
                         <span>Shipping and Fulfillment</span>
@@ -229,8 +229,8 @@ const SalesOrderManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Movement-Worksheet.png"
-                            alt="Movement-Worksheet"
+                            src="/img/reporting-and-analytics.png"
+                            alt="reporting-and-analytics"
                           />
                         </div>
                         <span>Reporting and Analytics</span>
@@ -376,8 +376,8 @@ const SalesOrderManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Track-and-Update-Goods.svg"
-                    alt="Track-and-Update-Goods"
+                    src="/img/boost-efficiency-and-save-time.png"
+                    alt="boost-efficiency-and-save-time"
                     width={84}
                     height={84}
                   />
@@ -397,8 +397,8 @@ const SalesOrderManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Establish-Warehouse-Flow.svg"
-                    alt="Establish-Warehouse-Flow"
+                    src="/img/enhancing-accuracy-and-reducing-errors.png"
+                    alt="enhancing-accuracy-and-reducing-errors"
                     width={84}
                     height={84}
                   />
@@ -419,8 +419,8 @@ const SalesOrderManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.svg"
-                    alt="100-Inventory-Visibility"
+                    src="/img/get-data-driven-insights.png"
+                    alt="get-data-driven-insights"
                     width={84}
                     height={84}
                   />
@@ -440,8 +440,8 @@ const SalesOrderManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Automate-Warehouse-Processes.svg"
-                    alt="Automate-Warehouse-Processes"
+                    src="/img/accelerates-remote-work-and-sales.png"
+                    alt="accelerates-remote-work-and-sales"
                     width={84}
                     height={84}
                   />

@@ -22,7 +22,7 @@ const HumanResourceManagements = () => {
         <meta property="og:description" content="Explore ERP functionalities of Dynamics 365 Business Central for Human Resource Management: Streamline employee data, payroll processing, and performance tracking in one platform." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/human-resource-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-Management-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,7 +30,7 @@ const HumanResourceManagements = () => {
         <meta name="twitter:site" content="@dsquare_uk" />
         <meta name="twitter:title" content="D365 Business Central for Human Resource Management" />
         <meta name="twitter:description" content="Explore ERP functionalities of Dynamics 365 Business Central for Human Resource Management: Streamline employee data, payroll processing, and performance tracking in one platform." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-Management-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -50,9 +50,9 @@ const HumanResourceManagements = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/BC-Warehouse-Management.png"
-                alt="BC-Warehouse-Management"
-                width={718} height={447}
+                src="/img/Human-Resource-Management-banner.png"
+                alt="Human-Resource-Management-banner"
+                width={665} height={447}
               />
             </div>
           </div>
@@ -86,7 +86,7 @@ const HumanResourceManagements = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Bins-management.png" alt="Bins-management" />
+                          <img src="/img/increase-organisational-agility.png" alt="increase-organisational-agility" />
                         </div>
                         <span>Increase Organisational Agility</span>
                       </button>
@@ -114,7 +114,7 @@ const HumanResourceManagements = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/warehouse-shipment.png" alt="warehouse-shipment" />
+                          <img src="/img/transform-employee-experiences.png" alt="transform-employee-experiences" />
                         </div>
                         <span>Transform Employee Experiences</span>
                       </button>
@@ -149,7 +149,7 @@ const HumanResourceManagements = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
+                          <img src="/img/optimise-hr-programs.png" alt="optimise-hr-programs" />
                         </div>
                         <span>Optimise HR Programs</span>
                       </button>
@@ -178,8 +178,8 @@ const HumanResourceManagements = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Movement-Worksheet.png"
-                            alt="Movement-Worksheet"
+                            src="/img/get-workforce-insights.png"
+                            alt="get-workforce-insights"
                           />
                         </div>
                         <span>Get Workforce Insights</span>
@@ -279,7 +279,7 @@ const HumanResourceManagements = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image src="/img/reduce-hr-challenges.png" alt="reduce-hr-challenges" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Reduce HR challenges</h3>
@@ -288,7 +288,7 @@ const HumanResourceManagements = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                  <Image src="/img/enhance-employee-retention.png" alt="enhance-employee-retention"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Enhance Employee Retention</h3>
@@ -301,8 +301,8 @@ const HumanResourceManagements = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.svg"
-                    alt="100-Inventory-Visibility"
+                    src="/img/maximise-business-agility.png"
+                    alt="maximise-business-agility"
                     width={84} height={84}
                   />
                 </div>
@@ -314,7 +314,7 @@ const HumanResourceManagements = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/discover-useful-insights.png" alt="discover-useful-insights"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Discover Useful Insights</h3>
