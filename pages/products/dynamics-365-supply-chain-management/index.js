@@ -593,7 +593,7 @@ const Index = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header">
-                <h2>Dynamics 365 Supply Chain Management Modules</h2>
+                <h2>Dynamics 365 SCM Modules</h2>
                 <p>
                   Dynamics 365 Supply Chain Management modules offer seamless
                   features and capabilities to help you streamline the entire
@@ -606,6 +606,13 @@ const Index = () => {
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
+              <div className="style-grid-icons">
+                  <Image
+                    src="/img/asset-management-icons.png"
+                    alt="asset-management-icons"
+                    width={94} height={94}
+                  />
+                </div>
                 <div className="style-grid-content">
                   <h3>Asset Management</h3>
                   <p>
@@ -619,6 +626,13 @@ const Index = () => {
               </div>
 
               <div className="style-grid-1">
+              <div className="style-grid-icons">
+                  <Image
+                    src="/img/product-information-management-icons.png"
+                    alt="product-information-management-icons"
+                    width={94} height={94}
+                  />
+                </div>
                 <div className="style-grid-content">
                   <h3>Product information management</h3>
                   <p>
@@ -634,6 +648,13 @@ const Index = () => {
               </div>
 
               <div className="style-grid-1">
+              <div className="style-grid-icons">
+                  <Image
+                    src="/img/inventory-management-icons.png"
+                    alt="inventory-management-icons"
+                    width={94} height={94}
+                  />
+                </div>
                 <div className="style-grid-content">
                   <h3>Inventory management</h3>
                   <p>
@@ -648,6 +669,13 @@ const Index = () => {
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
+              <div className="style-grid-icons">
+                  <Image
+                    src="/img/warehouse-management-icons.png"
+                    alt="warehouse-management-icons"
+                    width={94} height={94}
+                  />
+                </div>
                 <div className="style-grid-content">
                   <h3>Warehouse management</h3>
                   <p>
@@ -665,6 +693,13 @@ const Index = () => {
               </div>
 
               <div className="style-grid-1">
+              <div className="style-grid-icons">
+                  <Image
+                    src="/img/transportation-management-icons.png"
+                    alt="transportation-management-icons"
+                    width={94} height={94}
+                  />
+                </div>
                 <div className="style-grid-content">
                   <h3>Transportation management</h3>
                   <p>
@@ -677,6 +712,13 @@ const Index = () => {
               </div>
 
               <div className="style-grid-1">
+              <div className="style-grid-icons">
+                  <Image
+                    src="/img/rebate-management-icons.png"
+                    alt="rebate-management-icons"
+                    width={94} height={94}
+                  />
+                </div>
                 <div className="style-grid-content">
                   <h3>Rebate management</h3>
                   <p>
@@ -692,8 +734,9 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="style-info-box">
               <p>
                 The D365 Supply Chain Management possess more useful modules,
                 including Master planning, Inventory visibility, Retail
@@ -708,6 +751,7 @@ const Index = () => {
                 Manager, Rebate management, Face recognition, and IoT
                 Intelligence.{" "}
               </p>
+              </div>
             </div>
           </div>
         </div>

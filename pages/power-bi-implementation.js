@@ -468,139 +468,7 @@ const PowerBIImplementation = () => {
         </div>
       </section>
 
-      <section className="solution-faq faq">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <header className="section-header">
-                <h2>Have you got <br /> questions about Power BI Implementation?</h2>
-                <p>Click through to our FAQ for the best answers!</p>
-              </header>
-            </div>
-          </div>
-          <div className="row justify-content-center mar-top-7">
-            <div className="col-lg-8">
-              <div className="accordion accordion-flush" id="faqlist1">
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-1"
-                    >How do you implement a Power BI Project?</button>
-                  </h3>
-                  <div
-                    id="faq-content-1"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>As we know, Microsoft Power BI is a powerful data analysis and visualisation tool capable of offering seamless visuals to properly utilise the data. It is a flexible solution that can be integrated with native as well as external business solutions. The process to implement Power BI with an existing solution, like <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, is a simple one if you have chosen the right Power BI implementation partner. Once you decide to implement, your partner will take care of the entire process without hampering your existing business operations.  </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-2"
-                    >How long does it take to implement Power BI?</button>
-                  </h3>
-                  <div
-                    id="faq-content-2"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>There isn't a fixed timeline to specify the total time taken to implement Power BI. Because there are various factors that describe the total time to implement Power BI, including complexity, size, type, and amount of data for a business. If general scenarios are considered, it can take from 15 days to 4 months.</p>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-3"
-                    >What are the roles of Power BI implementation?</button>
-                  </h3>
-                  <div
-                    id="faq-content-3"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>Here, roles refer to the number of professionals engaged while implementing the Power BI project. Such roles include business analysts, data architects, data analysts, data scientists, IT administrators, and project managers.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-4"
-                    >What are the six stages of BI system implementation?</button>
-                  </h3>
-                  <div
-                    id="faq-content-4"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>There can be different stages of Power BI implementation that depend on one project or another. In this, the major stages include: the discovery and planning stage where the implementation partner will analyse the business requirements, the data preparation stage where your business data will be prepared for the implementation process, dashboard development stage to develop custom dashboards based on required data to help you visualise data, testing stage to test the smooth working of power BI, deployment stage where power BI will be deployed on your servers, and the maintenance stage where your <Link href="/power-bi-support/"><a>Microsoft Power BI support partner</a></Link> will maintain the excellent working of your solution.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-5"
-                    >How do you implement BI?</button>
-                  </h3>
-                  <div
-                    id="faq-content-5"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>If you want to implement Power BI with your existing system, you will need to look for the right implementation partner that understands your needs and offers the most suitable solution. You can contact Dynamics Square and get your Power BI implemented in the most cost-effective, impactful, and efficient manner possible.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-6"
-                    >What are the benefits of Power BI implementation?</button>
-                  </h3>
-                  <div
-                    id="faq-content-6"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                     <p>There are numerous benefits of Power BI implementation that can accelerate your business while occupying your data in the most efficient way. Some of the benefits are data visualisation, data integration, automation, mobile accessibility, cost-effectiveness, and much more.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       <section className="bg-3334">
         <div className="container">
@@ -737,6 +605,139 @@ const PowerBIImplementation = () => {
                     Dashboards. It opens new potentials of analyzing,
                     publishing, and sharing Excel-like data.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header">
+                <h2>Have you got <br /> questions about Power BI Implementation?</h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >How do you implement a Power BI Project?</button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>As we know, Microsoft Power BI is a powerful data analysis and visualisation tool capable of offering seamless visuals to properly utilise the data. It is a flexible solution that can be integrated with native as well as external business solutions. The process to implement Power BI with an existing solution, like <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, is a simple one if you have chosen the right Power BI implementation partner. Once you decide to implement, your partner will take care of the entire process without hampering your existing business operations.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >How long does it take to implement Power BI?</button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There isn't a fixed timeline to specify the total time taken to implement Power BI. Because there are various factors that describe the total time to implement Power BI, including complexity, size, type, and amount of data for a business. If general scenarios are considered, it can take from 15 days to 4 months.</p>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >What are the roles of Power BI implementation?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Here, roles refer to the number of professionals engaged while implementing the Power BI project. Such roles include business analysts, data architects, data analysts, data scientists, IT administrators, and project managers.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >What are the six stages of BI system implementation?</button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>There can be different stages of Power BI implementation that depend on one project or another. In this, the major stages include: the discovery and planning stage where the implementation partner will analyse the business requirements, the data preparation stage where your business data will be prepared for the implementation process, dashboard development stage to develop custom dashboards based on required data to help you visualise data, testing stage to test the smooth working of power BI, deployment stage where power BI will be deployed on your servers, and the maintenance stage where your <Link href="/power-bi-support/"><a>Microsoft Power BI support partner</a></Link> will maintain the excellent working of your solution.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >How do you implement BI?</button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>If you want to implement Power BI with your existing system, you will need to look for the right implementation partner that understands your needs and offers the most suitable solution. You can contact Dynamics Square and get your Power BI implemented in the most cost-effective, impactful, and efficient manner possible.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >What are the benefits of Power BI implementation?</button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>There are numerous benefits of Power BI implementation that can accelerate your business while occupying your data in the most efficient way. Some of the benefits are data visualisation, data integration, automation, mobile accessibility, cost-effectiveness, and much more.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

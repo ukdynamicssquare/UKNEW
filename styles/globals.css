@@ -5033,7 +5033,18 @@ section {
   font-size: 18px;
   font-weight: 700;
   color: var(--color-blue);
-  margin-bottom: 24px;
+  margin-bottom: 15px;
+}
+.style-info-box{
+  padding: 40px 40px 25px;
+    background: #ffe4e6;
+    box-shadow: 0px 0px 5px #0000002b;
+    border-radius: 30px;
+    text-align: center;
+    margin-top:30px
+}
+.style-info-box p{
+  color:#333
 }
 .commen-box-3 {
   text-align: center;
