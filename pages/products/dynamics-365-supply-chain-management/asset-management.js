@@ -22,7 +22,7 @@ const AssetManagement = () => {
         <meta property="og:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-supply-chain-management/asset-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/assest-manage-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -30,8 +30,7 @@ const AssetManagement = () => {
         <meta name="twitter:site" content="@dsquare_uk" />
         <meta name="twitter:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
         <meta name="twitter:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-management-banner.png" />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/assest-manage-banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -50,9 +49,9 @@ const AssetManagement = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/BC-Warehouse-Management.png"
-                alt="BC-Warehouse-Management"
-                width={718} height={447}
+                src="/img/assest-manage-banner.png"
+                alt="Asset Management"
+                width={665} height={447}
               />
             </div>
           </div>
@@ -85,7 +84,7 @@ const AssetManagement = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Bins-management.png" alt="Bins-management" />
+                          <img src="/img/track_assets.png" alt="track_assets" />
                         </div>
                         <span>Track Assets</span>
                       </button>
@@ -113,7 +112,7 @@ const AssetManagement = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/warehouse-shipment.png" alt="warehouse-shipment" />
+                          <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
                         </div>
                         <span>Optimise Machine Performances</span>
                       </button>
@@ -177,8 +176,8 @@ const AssetManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/Movement-Worksheet.png"
-                            alt="Movement-Worksheet"
+                            src="/img/mobile_accessibility.png"
+                            alt="mobile_accessibility"
                           />
                         </div>
                         <span>Mobile Accessibility</span>
@@ -208,7 +207,7 @@ const AssetManagement = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Eliminate Challenges with Dynamics 365 Supply Chain Management</h3>
-                <p>Implementing the asset management module of <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> can give you control over all asset inventory, vehicle maintenance, and schedule services. Also, it eliminates all possible risks that can hamper the smooth functioning of assets or production machines. It avoids any kind of disruption and ensures a consistent workflow throughout the production cycle.</p>
+                <p>Implementing the asset management module of Dynamics 365 Supply Chain Management can give you control over all asset inventory, vehicle maintenance, and schedule services. Also, it eliminates all possible risks that can hamper the smooth functioning of assets or production machines. It avoids any kind of disruption and ensures a consistent workflow throughout the production cycle.</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
                     <span>Schedule a Free Demo!</span></a>
@@ -280,7 +279,7 @@ const AssetManagement = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Track-and-Update-Goods.svg" alt="Track-and-Update-Goods" width={84} height={84} />
+                  <Image src="/img/preventive_maintenance.png" alt="preventive_maintenance" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Preventive Maintenance</h3>
@@ -289,7 +288,7 @@ const AssetManagement = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                <Image src="/img/improve_maintenance_planning.png" alt="improve_maintenance_planning"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Improve Maintenance Planning</h3>
@@ -298,7 +297,7 @@ const AssetManagement = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Establish-Warehouse-Flow.svg" alt="Establish-Warehouse-Flow"  width={84} height={84} />
+                <Image src="/img/extended_asset_life.png" alt="extended_asset_life"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Extended Asset Life</h3>
@@ -311,8 +310,8 @@ const AssetManagement = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/100-Inventory-Visibility.svg"
-                    alt="100-Inventory-Visibility"
+                    src="/img/data_driven_decision_making.png"
+                    alt="data_driven_decision_making"
                     width={84} height={84}
                   />
                 </div>
@@ -324,7 +323,7 @@ const AssetManagement = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/accurate_asset_records.png" alt="accurate_asset_records"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Accurate Asset Records</h3>
@@ -333,7 +332,7 @@ const AssetManagement = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Automate-Warehouse-Processes.svg" alt="Automate-Warehouse-Processes"  width={84} height={84} />
+                  <Image src="/img/increased_asset_utilisation.png" alt="increased_asset_utilisation"  width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Increased Asset Utilisation</h3>
@@ -351,8 +350,8 @@ const AssetManagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/Warehouse-Management-in-Different-Industries.png"
-                  alt="Warehouse-Management-in-Different-Industries"
+                  src="/img/assest-manage-side.png"
+                  alt="assest-manage-side"
                   width={482} height={513}
                 />
               </div>
@@ -362,7 +361,7 @@ const AssetManagement = () => {
                 <h2>Asset Management in Different Industries</h2>
               </div>
               <div className="custom-p-001">
-                <p>The asset management module of Dynamics 365 Supply Chain Management allows you to make maintenance plans and track the usage of all assets, whether poorly or over utilised.</p>
+                <p>The asset management module of <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> allows you to make maintenance plans and track the usage of all assets, whether poorly or over utilised.</p>
                 <p>Microsoft is so flexible that it enables you to integrate an asset management module with any solution available in the Dynamics 365 Ecosystem. Leveraging this capability, you can integrate <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> with Dynamics 365 SCM to connect different departments and work in a collaborative way. Some of the major industries where asset management can be utilised are:</p>
                 <p>
                   <ul>
