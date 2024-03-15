@@ -3,7 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import ModalVideo from "react-modal-video";
-import Blog from "../../components/Blog";
+import Blog from "../../../components/Blog";
 
 const CustomerService = () => {
   const [isOpen, setOpen] = useState(false);
