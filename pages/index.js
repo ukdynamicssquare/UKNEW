@@ -1263,7 +1263,7 @@ export default function Home() {
                 </div>
                 <div className="w-achive-b">
                   <h4>150+</h4>
-                  <p><span>Years of Technical Expertise
+                  <p><span>Microsoft Certified Consultant
                   </span>Proactive & dedicated Microsoft experts at your service.</p>
                 </div>
               </div>
