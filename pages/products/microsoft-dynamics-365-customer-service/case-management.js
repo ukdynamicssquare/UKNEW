@@ -7,7 +7,7 @@ const CasetManagement = () => {
   return (
     <>
       <Head>
-      <title>Asset Management in Supply Chain Management | Dynamics Square UK</title>
+        <title>Asset Management in Supply Chain Management | Dynamics Square UK</title>
         <meta
           name="description"
           content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction."
@@ -45,7 +45,7 @@ const CasetManagement = () => {
                 <div className="text-center text-lg-start">
                   <Link
                     href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Demo Now!</span></a>
+                      <span>Schedule a Demo Now!</span></a>
                   </Link>
                 </div>
               </div>
@@ -63,15 +63,16 @@ const CasetManagement = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-9">
-          <header className="section-header">
-            <h2>What is Case Management Module in Dynamics 365 for Customer Service? Case management is a module </h2>
-            <p>Asset management is an essential add-on to manage, maintain, and track the physical assets of an organisation on a regular basis. Such assets include machines, forklifts, vehicles, and other complex equipment.</p>
-            <p>The asset management module of Dynamics 365 SCM not only manages assets but also tracks all maintenance and service activities. This module empowers businesses to streamline all machines and physical assets by maintaining them in the best possible condition. With proper tracking and maintenance of the machine, you can smooth daily operations and enhance overall efficiency while reducing operational costs.</p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>What is Case Management Module in Dynamics 365 for Customer Service? </h2>
+                <p>Case management is a module that comes standard with any of the Dynamics 365 Customer Service licences (enterprise or professional). It offers numerous tools and functionalities to help agents manage caseloads with minimum effort while maintaining a good case lifecycle.</p>
+                <p>Microsoft Dynamics 365 Customer Service is an advanced solution to help you deliver the best customer experience using limited resources. It unifies different communication channels and analyses the data to offer personalised interaction to customers.</p>
+                <p>It comes with modern tools and capabilities to manage multiple communication channels, collect data, build a productive workflow, and provide an interactive customer experience.</p>
+              </header>
+            </div>
           </div>
-        </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -89,7 +90,7 @@ const CasetManagement = () => {
                         <div className="wr-in">
                           <img src="/img/track_assets.png" alt="track_assets" />
                         </div>
-                        <span>Track Assets</span>
+                        <span>Enhanced Case Forms</span>
                       </button>
                     </h3>
                     <div
@@ -99,7 +100,7 @@ const CasetManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Track and record all assets containing different parameters of health, which include purchase data, warranty data, service records, and scheduled maintenance.</p>
+                        <p>You can create customisable forms to collect as much data as possible and classify different cases in groups for the ease of agents.</p>
                       </div>
                     </div>
                   </div>
@@ -117,7 +118,7 @@ const CasetManagement = () => {
                         <div className="wr-in">
                           <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
                         </div>
-                        <span>Optimise Machine Performances</span>
+                        <span>Omnichannel Experience</span>
                       </button>
                     </h3>
                     <div
@@ -127,7 +128,63 @@ const CasetManagement = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>Collect data through AI and IoT devices to maintain asset health and predict potential issues that can hamper asset performance.</p>
+                        <p>It captures customers' data using different communication channels and centralises it to make it easily accessible for all business executives.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                        <div className="wr-in">
+                          <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
+                        </div>
+                        <span>Automated Workflows</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Leverage the power of AI to build automated system workflows to eliminate recurring tasks that include escalation and case routing.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                        <div className="wr-in">
+                          <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
+                        </div>
+                        <span>Knowledge Base</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Access the huge knowledge base to get access to valuable knowledge in the form of articles and solutions for faster resolution.</p>
                       </div>
                     </div>
                   </div>
@@ -145,24 +202,24 @@ const CasetManagement = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
+                        data-bs-target="#fin5"
                         aria-expanded="false"
-                        aria-controls="fin3"
+                        aria-controls="fin5"
                       >
                         <div className="wr-in">
                           <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
                         </div>
-                        <span>Manage Maintenane/Servicing</span>
+                        <span>SLA Management</span>
                       </button>
                     </h3>
                     <div
-                      id="fin3"
+                      id="fin5"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>Evaluate the assets to schedule preventive maintenance and servicing activities to avoid any kind of fault or breakdown, and track work orders.</p>
+                        <p>Set up and manage different SLAs (service level agreements) to specify timelines and ensure timely delivery of the service or product.</p>
                       </div>
                     </div>
                   </div>
@@ -173,9 +230,9 @@ const CasetManagement = () => {
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#fin4"
+                        data-bs-target="#fin6"
                         aria-expanded="false"
-                        aria-controls="fin4"
+                        aria-controls="fin6"
                       >
                         <div className="wr-in">
                           <img
@@ -183,17 +240,79 @@ const CasetManagement = () => {
                             alt="mobile_accessibility"
                           />
                         </div>
-                        <span>Mobile Accessibility</span>
+                        <span>Track Customer Interactions</span>
                       </button>
                     </h3>
                     <div
-                      id="fin4"
+                      id="fin6"
                       className="accordion-collapse collapse"
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accnewadasd"
                     >
                       <div className="accordion-body">
-                       <p>Modify information related to any asset using a dedicated mobile application that you can access without any issue.</p>
+                        <p>Track all accounts to maintain the service history of cases, inquiries, requests, and issues. Also, access customer data to offer personalised interactions.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/mobile_accessibility.png"
+                            alt="mobile_accessibility"
+                          />
+                        </div>
+                        <span>Facilitates Communication</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnewadasd"
+                    >
+                      <div className="accordion-body">
+                        <p>Establish a consistent communication bridge between customers and the business for smooth communication using different channels.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin8"
+                        aria-expanded="false"
+                        aria-controls="fin8"
+                      >
+                        <div className="wr-in">
+                          <img
+                            src="/img/mobile_accessibility.png"
+                            alt="mobile_accessibility"
+                          />
+                        </div>
+                        <span>Track Progress and Resolution</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin8"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnewadasd"
+                    >
+                      <div className="accordion-body">
+                        <p>You can track and monitor various cases until they get resolved. Also, you can boost the process or optimise resources in real-time to enhance profitability.</p>
                       </div>
                     </div>
                   </div>
@@ -209,11 +328,11 @@ const CasetManagement = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Eliminate Challenges with Dynamics 365 Supply Chain Management</h3>
-                <p>Implementing the asset management module of Dynamics 365 Supply Chain Management can give you control over all asset inventory, vehicle maintenance, and schedule services. Also, it eliminates all possible risks that can hamper the smooth functioning of assets or production machines. It avoids any kind of disruption and ensures a consistent workflow throughout the production cycle.</p>
+                <h3>Streamline Case Management with Dynamics 365 Customer Service</h3>
+                <p>Implement Dynamics 365 Customer Service to simplify the entire processes of creating, accepting and resolving tickets. Connect with a Dynamics 365 consultant to personalize Customer Service to suit your business needs.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Schedule a Free Demo!</span></a>
+                  <Link href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
+                    <span>Schedule a Free Demo Now!</span></a>
                   </Link>
                 </div>
               </div>
@@ -222,45 +341,82 @@ const CasetManagement = () => {
         </div>
       </section>
 
+      <section className="busine_service_bottom">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>What is the Case?</h2>
+                <p>A case occurs when a product or service that is supposed to function properly fails due to some situation or incident. Once such an incident happens in an organisation, the customer reports the issue to get it resolved ASAP so that operations can be resumed.</p>
+                <p>There are different kinds of situations, among which the major ones are:</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image
+                  src="/img/assest-manage-side.png"
+                  alt="assest-manage-side"
+                  width={482} height={513}
+                />
+              </div>
+            </div>
+            <div className='col-lg-6 align-self-center'>
+              <div className='piller-secr'>
+                <h4>Questions</h4>
+                <p>When the customer has a question about your service or the product, it is considered a case.</p>
+              </div>
+              <div className='piller-secr'>
+                <h4>Requests</h4>
+                <p>When the customer raises a request to let the business take action to resolve the incident, it is known as a request. </p>
+              </div>
+              <div className='piller-secr'>
+                <h4>Issue</h4>
+                <p>When the customer encounters a malfunction or a problem with the service or the product, that must be resolved to resume operations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="side-heading-custom-01">
-                <h2>Core Functionalities of Asset Management Module</h2>
+                <h2>Core Functionalities of Case Management Module</h2>
               </div>
               <div className="custom-p-001">
-                <p>Asset Management is an advanced module that offers numerous tools and capabilities to manage and maintain assets while streamlining maintenance jobs. It is capable of scheduling maintenance jobs, tracking work orders, collecting historical data, and optimising inventory levels. Some of its core functionalities are:</p>
-                <div className="row" style={{paddingTop:'40px'}}>
+                <p><Link href="/products/microsoft-dynamics-365-customer-service/"><a>Dynamics 365 for Customer Service</a></Link> is one such high-tech business solution that enables businesses to provide reliable customer service and build loyalty among customers.</p>
+                <p>Case management comes as a standard module with Dynamics 365 Customer Service that tracks all customer issues across different channels to give a unified approach towards issue resolution. It streamlines all inquiries, tracks the entire process, and gives real-time data until the issue gets resolved.</p>
+                <div className="row" style={{ paddingTop: '40px' }}>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                  <li>Asset master data management</li>
-                  <li>Funcitonal location management</li>
-                  <li>Asset hierarchy management</li>
-                  <li>Work order management</li>
-                  <li>Maintenance scheduling</li>
-                  <li>Spare parts management</li>
-                  <li>Meter reading tracking</li>
-
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Case Creation and Tracking</li>
+                        <li>Routing and Escalation</li>
+                        <li>SLAs (Service Level Agreements)</li>
+                        <li>Knowledge Base Integration</li>
+                        <li>Activity Management</li>
+                        <li>Email Integration</li>
+                        <li>Mobile App Access</li>
+                      </ul>
+                    </p>
                   </div>
                   <div className="col-lg-6">
-                  <p>
-                  <ul>
-                  <li>Calibration Management</li>
-                  <li>Mobile App functionality</li>
-                  <li>Seamless integration</li>
-                  <li>Document Management</li>
-                  <li>Budget and Forecasting</li>
-                  <li>Compliance Management</li>
-                  <li>Mobile app Functionality</li>
-
-                  </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>Audit Trails</li>
+                        <li>Record Creation and Update Rules</li>
+                        <li>Business Process Flows</li>
+                        <li>Social Media Integration</li>
+                        <li>Reporting and Analytics</li>
+                        <li>Duplicate Data Detection</li>
+                        <li>Bulk Editing</li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -268,48 +424,49 @@ const CasetManagement = () => {
           </div>
         </div>
       </section>
-    <section>
-      <div className="container">
-      <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>Benefits of Asset Management in Dynamics 365</h2>
-            <p>The asset management module offers various practical benefits to all businesses. Some of the major benefits are:</p>
-          </header>
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
+                <h2>Dynamics 365 Case Management Benefits</h2>
+                <p>Resolve cases faster and build loyal customers leverage advanced tools and functionalities of D365 Customer Service. It offers numerous benefits, among which some are listed below:</p>
+              </header>
+            </div>
           </div>
-        </div>
-      <div className="row g-5">
+          <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image src="/img/preventive_maintenance.png" alt="preventive_maintenance" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Preventive Maintenance</h3>
-                  <p>Perform scheduled maintenance or service on machines to ensure proper functioning and eliminate any chances of unplanned downtime and equipment failure.</p>
+                  <h3>Enhanced Customer Satisfaction</h3>
+                  <p>You can utilise your business infrastructure to resolve customer issues in minimal time with an efficient resolution. With streamlined workflows, omnichannel support, and a self-service portal, you can enhance overall customer satisfaction to build loyalty and trust.</p>
                 </div>
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <Image src="/img/improve_maintenance_planning.png" alt="improve_maintenance_planning"  width={84} height={84} />
+                  <Image src="/img/improve_maintenance_planning.png" alt="improve_maintenance_planning" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Improve Maintenance Planning</h3>
-                  <p>Perform proper maintenance planning, ensuring the right availability of resources, spare parts, and expertise to resolve any kind of complex issue.</p>
+                  <h3>Maximised Productivity</h3>
+                  <p>Utilise the power of cloud deployment and AI to automate different tasks at once and access real-time data to make data-driven, actionable decisions. Reduce repetitive tasks, access centralised data, and empower agents with a knowledge base to enhance overall productivity.</p>
                 </div>
               </div>
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                <Image src="/img/extended_asset_life.png" alt="extended_asset_life"  width={84} height={84} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Extended Asset Life</h3>
-                  <p>Proper servicing and replacing parts before they start to malfunction increases the overall life of assets and reduces the cost.</p>
-                </div>
-              </div>
-           
+
             </div>
             <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/extended_asset_life.png" alt="extended_asset_life" width={84} height={84} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Effective Communication</h3>
+                  <p>Establish strong and consistent communication between the executive and customers to streamline different operations and maximise results. It lets you gain insights, connect the entire business, and optimise processes for better output.</p>
+                </div>
+              </div>
+
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
@@ -320,34 +477,17 @@ const CasetManagement = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Data-driven Decision Making</h3>
-                  <p>Get real-time data insights to maximise asset performance while optimising the maintenance strategy.</p>
+                  <p>Utilise real-time data insights to make data-driven decisions and contact customers with personalised data to increase customer retention. With data insights, you can generate reports, identify trends, and find areas for business improvement.</p>
                 </div>
               </div>
 
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/accurate_asset_records.png" alt="accurate_asset_records"  width={84} height={84} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Accurate Asset Records</h3>
-                  <p>Record all asset data and centralise it for a unified approach. Also, you can see the asset history and machine service record to simplify auditing processes.</p>
-                </div>
-              </div>
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/increased_asset_utilisation.png" alt="increased_asset_utilisation"  width={84} height={84} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Increased Asset Utilisation</h3>
-                  <p>Optimise the usage of assets to enhance performance and identify areas for improvement to enhance overall output. </p>
-                </div>
-              </div>
+
             </div>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section className="busine_service_bottom custom05">
+      <section className="busine_service_bottom custom05">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -361,26 +501,46 @@ const CasetManagement = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
-                <h2>Asset Management in Different Industries</h2>
+                <h2>Case Management in Different Industries</h2>
               </div>
               <div className="custom-p-001">
-                <p>The asset management module of <Link href="/products/dynamics-365-supply-chain-management/"><a>Dynamics 365 Supply Chain Management</a></Link> allows you to make maintenance plans and track the usage of all assets, whether poorly or over utilised.</p>
-                <p>Microsoft is so flexible that it enables you to integrate an asset management module with any solution available in the Dynamics 365 Ecosystem. Leveraging this capability, you can integrate <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> with Dynamics 365 SCM to connect different departments and work in a collaborative way. Some of the major industries where asset management can be utilised are:</p>
+                <p>To become a successful business, you need to take care of two core factors. First is the optimum quality of your product or service, and second is the reliable after-sales support to keep things working in top-notch condition. </p>
+                <p>In business, no one is aware of unexpected errors and complex issues when a product or service goes wrong. We cannot predict the upcoming error, but we can track and resolve it on time so that the business can resume its processes.</p>
+                <p>This is where Case Management of Dynamics 365 Customer Service comes in place, and it can be implemented in several industries.</p>
                 <p>
                   <ul>
-                  <li>Manufacturing</li> 
-                  <li>Automotive</li> 
-                  <li>Not-for-profit</li> 
-                  <li>Retail and Distribution</li> 
-                  <li>Healthcare</li> 
+                    <li>Retail and E-Commerce</li>
+                    <li>Finance</li>
+                    <li>Manufacturing</li>
+                    <li>Non-Profit Organizations</li>
+                    <li>Healthcare</li>
                   </ul>
-                  </p>
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="side-heading-custom-01">
+                <h2>How do I get Dynamics 365 Customer Service Case Management?</h2>
+              </div>
+              <div className="custom-p-001">
+                <p>The process of implementing Dynamics 365 Customer Service is easy, but finding the right <Link href="/our-services/dynamics-365-implementation-services/"><a>implementation partner</a></Link> might be a bit difficult. However, you don’t need to invest resources to find a reliable and trustworthy Dynamics 365 partner, as Dynamics Square has got you covered.</p>
+                <p>We have implemented Dynamics 365 in various industries and trained users to leverage the full capabilities of case management. Due to proper training and the right implementation, businesses are now able to track and resolve all their customer queries, boosting customer satisfaction.</p>
+                <p>If you want to retain customers with your services and optimum support services, Dynamics 365 Customer Service for Case Management is for you.</p>
+                <p>In case of any query, write us an email at info@dynamicssquare.co.uk or call us directly at <b>+44 207 193 2502</b> to avail instant support.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 };
