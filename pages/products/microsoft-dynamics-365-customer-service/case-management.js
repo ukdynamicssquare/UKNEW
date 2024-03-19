@@ -4,6 +4,10 @@ import Script from "next/script";
 import Link from "next/link";
 
 const CasetManagement = () => {
+
+  const listcase  =['Retail and E-Commerce', 'Finance', 'Non-Profit Organizations', 'Healthcare', 'Retail and E-Commerce', ];
+
+
   return (
     <>
       <Head>
@@ -509,11 +513,11 @@ const CasetManagement = () => {
                 <p>This is where Case Management of Dynamics 365 Customer Service comes in place, and it can be implemented in several industries.</p>
                 <p>
                   <ul>
-                    <li>Retail and E-Commerce</li>
-                    <li>Finance</li>
-                    <li>Manufacturing</li>
-                    <li>Non-Profit Organizations</li>
-                    <li>Healthcare</li>
+                    {listcase.map((caselist,index) => (
+                      <li key={index}>{caselist}</li>
+                    ))}
+
+                    {}
                   </ul>
                 </p>
               </div>

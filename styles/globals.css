@@ -132,6 +132,8 @@ strong {
 /* ul li {
   margin-bottom: 10px;
 } */
+
+
 #services,
 .Solution-banner,
 .extr-cont,
@@ -266,6 +268,8 @@ section {
   background: var(--color-blue);
   border-color: var(--color-blue);
 }
+
+
 .breadcrumbs {
   padding: 15px 0;
   background: #012970;
@@ -916,6 +920,7 @@ section {
   margin-bottom: 0;
   margin-top: 10px;
 }
+
 @media (max-width: 1400px) {
   .case-clent-test P,
   .footer .footer-top p {
@@ -9204,9 +9209,9 @@ ul.checkmark li {
 .blog-tagged {
   padding: 10px;
 }
-.container {
+/* .container {
   padding: 0 2rem;
-}
+} */
 
 .pagination {
   display: flex;
@@ -11850,6 +11855,239 @@ flex:1 0 75%
   top: -14px;
 
 }
-
 }
 
+
+
+/*cotant-us page*/
+.new-contant-head h1{
+  font-size: 40px !important;
+  color: #393053;
+  font-weight: 600;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+.new-contant-head p{
+  margin-top: 13px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #443c68;
+}
+.new-flex-wraper{
+}
+.new-flex-wraper h2{
+  font-size: 18px;
+  font-weight: bold;
+  color: #443c68;
+  padding-bottom: 10px;
+  margin: 0px 0px;
+}
+.new-flex-se{
+  display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+.new-flex-se .left{
+  position: relative;
+}
+.new-flex-se .left::after{
+  content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #f1f0f4;
+    top: 0px;
+    right: -15px;
+}
+.new-flex-se .left img{}
+.new-flex-se .right{
+  flex-basis: 70%;
+}
+.new-flex-se .right span{
+  font-size: 14px;
+  font-weight: 600;
+  color: #443c68;
+}
+.new-flex-se .right p{
+  font-size: 13px;
+  padding-bottom: 0;
+    margin-top: 0;
+    color: #68608f;
+    line-height: 1.2;
+}
+
+
+.rows-box-sh{
+  border-radius: 8px;
+  box-shadow: 0 4px 15px 0 rgba(143, 134, 170, 0.16);
+  background-color: #fff;
+  padding: 30px 30px;
+}
+.main_form-wrper_contact .form-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.main_form-wrper_contact .form-group input,
+.main_form-wrper_contact .form-group textarea,
+.main_form-wrper_contact .form-group .form-select {
+  width: 100%;
+  height:50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #f1f0f4;
+  border-radius: 5px;
+  background-color: #f1f0f4;
+}
+.main_form-wrper_contact .form-select {
+  color:#544a81 !important;
+  font-size: 14px !important;
+  padding-left:20px !important
+}
+
+.main_form-wrper_contact .form-group label {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  color:#544a81; 
+  transition: all 0.3s ease-in-out;
+  pointer-events: none; /* Disable pointer events on the label */
+}
+.main_form-wrper_contact .form-group .form-control::placeholder{
+  /* color:red */
+}
+
+.main_form-wrper_contact .form-group input:focus + label,
+.main_form-wrper_contact .form-group input:not(:placeholder-shown) + label,
+.main_form-wrper_contact .form-group textarea:focus + label,
+.main_form-wrper_contact .form-group textarea:not(:placeholder-shown) + label,
+.main_form-wrper_contact .form-group .form-select:focus + label,
+.main_form-wrper_contact .form-group .form-select:not(:placeholder-shown) + label,
+.main_form-wrper_contact .form-group input:focus ~ label,
+.main_form-wrper_contact .form-group input:not(:placeholder-shown) ~ label,
+.main_form-wrper_contact .form-group textarea:focus ~ label,
+.main_form-wrper_contact .form-group textarea:not(:placeholder-shown) ~ label,
+.main_form-wrper_contact .form-group .form-select:focus ~ label,
+.main_form-wrper_contact .form-group .form-select:not(:placeholder-shown) ~ label {
+  top: 0;
+    font-size: 12px;
+    color: #aca5ce;
+    background: #fff;
+    padding: 0px 5px;
+}
+.main_form-wrper_contact .form-control:focus,.form-select:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #aca5ce;
+  outline: 0;
+  box-shadow: none;
+}
+.main_form-wrper_contact .form-check-label{
+  color: #443c68;
+}
+.main_form-wrper_contact .form-check-label a{
+  color: #443c68;
+  text-decoration: underline;
+}
+.main_form-wrper_contact .btn-primary{
+  display: block;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: #d73d3d;
+    border-color: #d73d3d;
+    margin-top: 20px;
+}
+.coant-ii{
+  justify-content:center;
+  gap:40px
+}
+.icns-boxx{}
+.icns-boxx a img{
+  display:block
+}
+.icns-boxx a {
+  font-size: 14px;
+  color: #544a81;
+}
+
+.main_form-wrper_contact .text-danger{
+  font-size: 0.8rem;
+  margin-top: -5px;
+  display: block;
+  margin-bottom: 15px;
+  }
+  .text-center-ff{
+
+  }
+  .text-center-ff p{
+   font-size: 14px;
+    font-weight: 600;
+    color: #443c68;
+    padding: 25px 0px;
+  }
+  .cont-into-bg{
+    background: rgb(227,225,233);
+    background: -moz-linear-gradient(180deg, rgba(227,225,233,1) 0%, rgba(255,255,255,0.9836309523809523) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(227,225,233,1) 0%, rgba(255,255,255,0.9836309523809523) 100%);
+    background: linear-gradient(180deg, rgba(227,225,233,1) 0%, rgba(255,255,255,0.9836309523809523) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e1e9",endColorstr="#ffffff",GradientType=1);
+    padding: 140px 0px 20px;
+    margin-top: -120px;
+  }
+
+.cont-into-bg .addre-rigt,.cont-into-bg .addre-left{
+  position:relative
+}
+.cont-into-bg .addre-left:after {
+  content: "";
+  position: absolute;
+  right: -30px;
+  top: 0;
+  border: 1px solid #d73d3d;
+  height: 100px;
+}
+.cont-into-bg .addre-rigt:after {
+  content: "";
+  position: absolute;
+  right: 50px;
+  top: 0;
+  border: 1px solid #d73d3d  ;
+  height: 100px;
+}
+.cont-into-bg .addre-left p{
+  font-size: 16px;
+  color: #000;
+}
+.cont-into-bg .addre-left a{
+  font-size: 14px;
+    display: block;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.cont-into-bg .addre-rigt .cont-info{
+  padding-bottom: 0px;
+}
+.cont-into-bg .addre-rigt span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.pddd-30{
+
+}
+.pddd-40{
+padding:0px 60px
+}
+.new-co-title{
+  padding-top:80px
+}
+.new-co-title h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #393053;
+}
+.pd-3040{
+  padding: 40px 0px 60px;
+}
