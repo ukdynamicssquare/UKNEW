@@ -1,9 +1,19 @@
+import React, { useRef, useState, useEffect } from 'react';
 import Head from "next/head";
 import FormFooterSubscriber from "../components/FormFooterSubscriber";
-import Form from "../components/Form";
 import Link from "next/link";
 import Image from "next/image";
+import FormNewUI from "../components/FormNewUI";
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+import { FreeMode, Navigation, Thumbs } from 'swiper';
 const ContactUs = () => {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
   return (
     <>
       <Head>
@@ -16,51 +26,76 @@ const ContactUs = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/contact-us/"
         />
+ 
       </Head>
       <main>
-        <section className="Solution-banner hero-1 hero about-banner">
+        <section className="Solution-banner about-banner">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 align-self-center">
-                <h1>Contact Us</h1>
-                <p>
-                  Our IT experts are here to help provide <br />
-                  Microsoft Business Apps support
-                </p>
+              <div className="col-lg-5">
+
+                <div className="new-contant-head">
+                  <h1>Ready for Digital Transformation? Let’s connect!</h1>
+                  <p>Get Microsoft solutions optimised for your business. Be a future-ready organisation!</p>
+                  <div className="new-flex-wraper">
+                    <h2>Why Choose Dynamics Square</h2>
+                    <div className="new-flex-se">
+                      <div className="left">
+                        <img src="/img/card_travel.png" alt="card_travel" />
+                      </div>
+                      <div className="right">
+                        <span>350+ Successful Implementations and Counting!</span>
+                      </div>
+                    </div>
+                    <div className="new-flex-se">
+                      <div className="left">
+                        <img src="/img/workspace_premi.png" alt="workspace_premi" />
+                      </div>
+                      <div className="right">
+                        <span>150+ Certified Professionals at Your Service!</span>
+                       
+                      </div>
+                    </div>
+                    <div className="new-flex-se">
+                      <div className="left">
+                        <img src="/img/chronic.png" alt="chronic" />
+                      </div>
+                      <div className="right">
+                        <span>4x Improved Productivity!</span>
+                      </div>
+                    </div>
+                    <div className="new-flex-se">
+                      <div className="left">
+                        <img src="/img/diversity-3.png" alt="diversity-3" />
+                      </div>
+                      <div className="right">
+                        <span>24/7 Support to Keep Your Business Up and Running!</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
-              <div className="col-lg-6 align-self-center">
-                <Image
-                  src="/img/contact-us-pic.png"
-                  alt="contact-us-pic"
-                  width={692}
-                  height={526}
-                />
+              <div className="col-lg-7 align-self-center">
+                <FormNewUI />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="cont-into">
+        <section className="cont-into cont-into-bg">
           <div className="container">
-            <header className="section-header">
-              <h2>Get in touch with Us</h2>
-              <p>
-                Dynamics Square assists brands in deploying Microsoft Business
-                Applications.
-                <br />
-                Let's chat if you are interested in learning more.
-              </p>
-            </header>
-            <div className="row neew-pd0 justify-content-center">
-              <div className="col-lg-10">
-                <div className="row">
-                  <div className="col-lg-5 col-sm-12 align-self-center">
+            <div className="pddd-30">
+                <div className="row pddd-40">
+                  <div className="col-lg-3 col-sm-12">
                     <div className="addre-left">
+                      <h4>London</h4>
                       <p>
                         Kemp House, 124 City Road,
                         <br />
-                        London, EC1V 2NX, U.K
+                        London, EC1V 2NX, UK
                       </p>
+                      <p>+44 207 193 2502</p>
                       <a
                         href="https://g.page/dynamics-square-london?share"
                         target="_blank"
@@ -69,58 +104,281 @@ const ContactUs = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-7 col-sm-12 align-self-center">
-                    <div className="addre-rigt">
-                      <div className="cont-info">
-                        <span style={{ color: "#343434", fontWeight: "500" }}>
-                          Sales Support:{" "}
-                        </span>
-                        <span>+44 (0) 207 193 2502 </span>
-                      </div>
-                      <div className="cont-info">
-                        <span style={{ color: "#343434", fontWeight: "500" }}>
-                          Technical Support:{" "}
-                        </span>
-                        <span>+44 (0) 207 097 8987 </span>
-                      </div>
-                      <div className="cont-info">
-                        <span>
-                          <span style={{ color: "#343434", fontWeight: "500" }}>
-                            Email Us:{" "}
-                          </span>
-                          <a href="mailto:info@dynamicssquare.co.uk">
-                            info@dynamicssquare.co.uk
-                          </a>
-                        </span>
-                      </div>
+                  <div className="col-lg-3 col-sm-12">
+                    <div className="addre-left">
+                    <h4>Manchester</h4>
+                      <p>
+                      International House 61 <br/>Mosley Street, Manchester, <br/>M2 3HZ, UK
+                      </p>
+                      <p>+44 747 927 3380</p>
                     </div>
                   </div>
+                  <div className="col-lg-3 col-sm-12">
+                    <div className="addre-left addre-left-border">
+                    <h4>Birmingham</h4>
+                      <p>Izabella House, 24 - 26 <br/>Regents Place, City Centre,<br/>Birmingham, UK</p>
+                      <p>+44 121 318 2798</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-3">
+                    <div className='picc'>
+                    <img src="/img/m-partner.png" alt="m-partner" />
+                    </div>
+                  </div>
+                 
+                 
+              </div>
+              <div className="col-lg-12">
+                <div className="new-co-title new-co-title-ll text-center">
+                <h3>350+ Global Businesses Trust Dynamics Square</h3>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="cont-ff">
+        <section className='pd-3040'>
           <div className="container">
-            <div className="row justify-content-md-center">
-              <div className="col-lg-10 col-md-10">
-                <div className="row g-0 extra-height">
-                  <div className="col-md-6 col-lg-6">
-                    <div className="main-form-wrper-common">
-                      <Form />
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-lg-6">
-                    <img
-                      src="/img/contactfor-sede-img.jpg"
-                      alt="contactfor-sede-img"
-                      className="image-cover"
-                    />
-                  </div>
+            <div className='row'>
+              <div className='col-lg-12'>
+                <div className='test-slider-tab-list'>
+                  <Swiper
+                    onSwiper={setThumbsSwiper}
+                    spaceBetween={30}
+                    slidesPerView={5}
+                    freeMode={true}
+                    watchSlidesProgress={true}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className="mySwiper"
+                  >
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' />
+                      </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/green-wireless-logo.png" alt='green-wireless-logo' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/timesco-logo.png" alt='timesco-logo' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/omicron_engineering_blur.png" alt='omicron_engineering_blur' />
+                      </div>
+                    </SwiperSlide>
+                    {/* <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/Comxo-new-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='thum-tab'>
+                        <img src="/img/Md-new-logo.png" alt='tbalist' />
+                      </div>
+                    </SwiperSlide> */}
+                  </Swiper>
+                </div>
+
+                <div className='test-slider-contant'>
+                  <Swiper
+                    style={{
+                      '--swiper-navigation-color': '#736799',
+                      '--swiper-pagination-color': '#736799',
+                    }}
+                    spaceBetween={10}
+                    navigation={true}
+                    thumbs={{ swiper: thumbsSwiper }}
+                    modules={[Navigation, Thumbs]}
+                    className="mySwiper2"
+                  >
+                    <SwiperSlide>
+                      <div className='row pd-20'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                              <h5>Terence Turner</h5>
+                              <span>General Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Precision in <br />Financial Analytics</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              80%
+                            </div>
+                            <div className='r-left'>
+                              <p>Productivity Boost <br /> from Automation</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row pd-20'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" />
+                              <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional</p>
+                              <h5>Jonathan W</h5>
+                              <span>Technical Director</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              3X
+                            </div>
+                            <div className='r-left'>
+                              <p>Growth in ROI</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              70%
+                            </div>
+                            <div className='r-left'>
+                              <p>Improved <br />Finance Efficiency </p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row pd-20'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/avatar.png" alt="avatar" />
+                              <p>Kudos to Dynamics Square for seamless implementation support.Their dedication made us confident in a successful launch!</p>
+                              <h5>Andy Bird</h5>
+                              <span>Managing Director</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Optimized <br />Replenishment Procedures</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              60%
+                            </div>
+                            <div className='r-left'>
+                              <p>Operational <br />Efficiency Surge</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row pd-20'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/avatar.png" alt="avatar" />
+                              <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
+                              <h5>Mark Shaxted</h5>
+                              <span>Operations Manager</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Growth in <br />Production Capacity</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            70%
+                            </div>
+                            <div className='r-left'>
+                              <p>Increase <br />in ROI </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className='row pd-20'>
+                        <div className='col-lg-7'>
+                          <div className='test-s-info'>
+                            <figure>
+                              <img src="/img/avatar.png" alt="avatar" />
+                              <p>Impressed by Dynamics Square's ERP upgrade & customization. Their virtual collaboration made our transition seamless. Highly recommend for business growth.</p>
+                              <h5>Tristan Cliffe</h5>
+                              <span>Director</span>
+                            </figure>
+                          </div>
+                        </div>
+                        <div className='col-lg-5'>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                              2X
+                            </div>
+                            <div className='r-left'>
+                              <p>Improved Deliverable <br />Timeliness</p>
+                            </div>
+                          </div>
+                          <div className='test-inf-achive'>
+                            <div className='f-left'>
+                            95%
+                            </div>
+                            <div className='r-left'>
+                              <p>Enhanced Client<br />Understanding</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                   
+
+                  </Swiper>
+                </div>
+              </div>
+
+
+            </div>
+            <div className='row justify-content-center'>
+              <div className="col-md-11">
+                <div className="case-mor-link">
+                  <Link href="/case-studies/" ><a>Read more success stories</a></Link>
                 </div>
               </div>
             </div>
+
           </div>
         </section>
 
@@ -136,9 +394,9 @@ const ContactUs = () => {
                   id="myTab"
                   role="tablist"
                 >
-                  <li className="nav-item" role="presentation">
+                  {/* <li className="nav-item" role="presentation">
                     <button
-                      className="nav-link active"
+                      className="nav-link"
                       id="home-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#home"
@@ -149,10 +407,10 @@ const ContactUs = () => {
                     >
                       UK
                     </button>
-                  </li>
+                  </li> */}
                   <li className="nav-item" role="presentation">
                     <button
-                      className="nav-link"
+                      className="nav-link active"
                       id="profile-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#profile"
@@ -237,8 +495,8 @@ const ContactUs = () => {
                   </li>
                 </ul>
                 <div className="tab-content" id="myTabContent">
-                  <div
-                    className="tab-pane fade show active"
+                  {/* <div
+                    className="tab-pane"
                     id="home"
                     role="tabpanel"
                     aria-labelledby="home-tab"
@@ -336,9 +594,9 @@ const ContactUs = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div
-                    className="tab-pane fade"
+                    className="tab-pane  fade show active"
                     id="profile"
                     role="tabpanel"
                     aria-labelledby="profile-tab"
