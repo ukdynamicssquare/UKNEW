@@ -11908,6 +11908,8 @@ flex:1 0 75%
   font-size: 14px;
   font-weight: 600;
   color: #443c68;
+  line-height: 1.2;
+    display: block;
 }
 .new-flex-se .right p{
   font-size: 13px;
