@@ -23,7 +23,7 @@ const PulseButton = () => {
 
   return (
     // Your component JSX
-    <div class="button-new custtsss" id="button-2">
+    <div className="button-new custtsss" id="button-2">
     <div id="slide"></div>
     <a href="/contact-us/">Contact Us</a>
   </div>
