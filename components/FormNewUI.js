@@ -114,7 +114,7 @@ const FormNewUI = () => {
                   onChange={() => setNameError("")}
 
                 />
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">*Name</label>
                 <input type="hidden" value={router.asPath} name="url" />
               </div>
               {nameError && <small className="text-danger">{nameError}</small>}
@@ -146,7 +146,7 @@ const FormNewUI = () => {
                     }
                   }}
                 />
-                <label htmlFor="email">Work Email</label>
+                <label htmlFor="email">*Work Email</label>
               </div>
               {emailError && <small className="text-danger">{emailError}</small>}
             </div>
