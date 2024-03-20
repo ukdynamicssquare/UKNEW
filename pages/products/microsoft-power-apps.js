@@ -869,10 +869,8 @@ const PowerApps = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <a href="/blog/what-is-power-bi/" target="_blank">
-                      <i className="bi bi-box-arrow-up-right"></i>What is Power
-                      BI?
-                    </a>
+                    <a href="/blog/power-apps-pricing-licensing-uk/">
+                      <i className="bi bi-box-arrow-up-right"></i>Power Apps Licensing & Pricing UK</a>
                   </li>
                   <li>
                     <a
@@ -912,6 +910,7 @@ const PowerApps = () => {
                       Business Should Implement Power BI?
                     </a>
                   </li>
+                  
                 </ul>
               </div>
             </div>

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Image from "next/image";
-import PulseButton from "./PulseButton";
 
 
 class Header extends Component {
@@ -23,16 +22,7 @@ class Header extends Component {
     return (
       <>
         <header id="header" className="header">
-          <div className="top-header-sec">
-            <a href="mailto:info@dynamicssquare.co.uk">
-              <span><i className="bi bi-envelope"></i> info@dynamicssquare.co.uk</span>
-            </a>
-            <a href="tel:+442071932502" class="" itemprop="telephone">
-              <span><i className="bi bi-telephone"></i> 0207 193 2502</span>
-            </a>
-          </div>
           <div className="container-fluid">
-
             <nav id="navbar" className="navbar">
               <div className="left-logo">
                 <a href="/" className="logo">
@@ -1344,12 +1334,12 @@ class Header extends Component {
                       </li>
                     </ul>
                   </li>
-                  {/* <li>
+                  <li>
                     <a className="nav-link" href="/contact-us/">
                       Contact Us
                     </a>
-                  </li> */}
-                  {/* <li>
+                  </li>
+                  <li>
                     <a
                       className="getstarted custtss"
                       href="tel:+442071932502"
@@ -1358,9 +1348,6 @@ class Header extends Component {
                       <i className="bi bi-telephone-fill"></i> &nbsp;&nbsp;0207
                       193 2502
                     </a>
-                  </li> */}
-                  <li>
-                    <PulseButton />
                   </li>
                 </ul>
               </div>
@@ -1750,7 +1737,7 @@ class Header extends Component {
                                 </li>
                                 <li>
                                   <a href="/industries/dynamics-365-for-retail/">
-                                    Dynamics 365 for Retail
+                                  Dynamics 365 for Retail
                                   </a>
                                 </li>
                               </ul>
