@@ -159,7 +159,7 @@ const FormNewUI = () => {
                   name="phone"
                   onBlur={(e) => validatePhone(e.target.value)}
                 />
-                <label htmlFor="phone">Phone Number (optional)</label>
+                <label htmlFor="phone">Phone Number</label>
               </div>
               {phoneError && <small className="text-danger">{phoneError}</small>}
             </div>
