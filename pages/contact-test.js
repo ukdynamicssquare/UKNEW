@@ -68,7 +68,7 @@ const ContactUs = () => {
                     </div>
                     <div className="new-flex-se">
                       <div className="left">
-                        <img src="/img/card_travel.png" alt="card_travel" />
+                        <img src="/img/diversity-3.png" alt="diversity-3" />
                       </div>
                       <div className="right">
                         <span>Long-term Support</span>
@@ -90,7 +90,7 @@ const ContactUs = () => {
           <div className="container">
             <div className="pddd-30">
                 <div className="row pddd-40">
-                  <div className="col-lg-3 col-sm-12 align-self-center">
+                  <div className="col-lg-3 col-sm-12">
                     <div className="addre-left">
                       <p>
                         Kemp House, 124 City Road,
@@ -105,7 +105,7 @@ const ContactUs = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12 align-self-center">
+                  <div className="col-lg-6 col-sm-12">
                     <div className="addre-rigt">
                       <div className="cont-info">
                         <span>
@@ -131,12 +131,14 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 align-self-center">
+                  <div className="col-lg-3">
+                    <div className='picc'>
                     <img src="/img/m-partner.png" alt="m-partner" />
+                    </div>
                   </div>
               </div>
               <div className="col-lg-12">
-                <div className="new-co-title text-center">
+                <div className="new-co-title new-co-title-ll text-center">
                 <h3>350+ Global Businesses Trust Dynamics Square</h3>
                 </div>
               </div>

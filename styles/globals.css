@@ -11915,6 +11915,7 @@ flex:1 0 75%
     margin-top: 0;
     color: #68608f;
     line-height: 1.2;
+    text-align:left
 }
 
 
@@ -11945,11 +11946,14 @@ flex:1 0 75%
   font-size: 14px !important;
   padding-left:20px !important
 }
+.main_form-wrper_contact .form-group textarea{
+  height:100px
+}
 
 .main_form-wrper_contact .form-group label {
   position: absolute;
   top: 50%;
-  left: 30px;
+  left: 25px;
   transform: translateY(-50%);
   color:#544a81; 
   transition: all 0.3s ease-in-out;
@@ -12034,7 +12038,7 @@ flex:1 0 75%
     background: linear-gradient(180deg, rgba(227,225,233,1) 0%, rgba(255,255,255,0.9836309523809523) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3e1e9",endColorstr="#ffffff",GradientType=1);
     padding: 140px 0px 20px;
-    margin-top: -120px;
+    margin-top: -90px;
   }
 
 .cont-into-bg .addre-rigt,.cont-into-bg .addre-left{
@@ -12090,4 +12094,77 @@ padding:0px 60px
 }
 .pd-3040{
   padding: 40px 0px 60px;
+}
+
+@media (max-width: 1400px) {
+}
+
+
+@media (max-width: 1200px) {
+  .cont-into-bg .addre-rigt:after, .cont-into-bg .addre-left:after{
+    display:none
+  }
+  .pddd-40 {
+    padding: 0px 0px;
+}
+.cont-into-bg .addre-left p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.addre-left {
+  padding-bottom: 20px;
+}
+
+}
+@media (max-width: 992px) {
+  .cont-into-bg .addre-rigt:after{
+    display:none
+  }
+  .new-contant-head h1 {
+    font-size: 28px !important;
+    text-align: left;
+}
+.pddd-40 {
+  padding: 0px 10px;
+}
+.new-contant-head p{
+  text-align:left;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+.new-flex-wraper h2 {
+  font-size: 14px;
+  text-align: left;
+}
+
+  .new-flex-se .right p{
+    display:none
+  }
+  .new-flex-se .left img {
+    width: 20px;
+    height: 20px;
+}
+.new-flex-wraper {
+  margin-bottom: 30px;
+}
+.rows-box-sh {
+  padding: 15px;
+}
+.cont-into-bg .addre-rigt span {
+  font-size: 14px;
+}
+.new-co-title.new-co-title-ll h3 {
+  font-size: 28px;
+}
+.cont-into-bg{
+  margin-top: -120px;
+}
+.picc{
+  text-align: center;
+    padding-top: 20px;
+}
+}
+
+@media (max-width: 768px) {
+  
 }

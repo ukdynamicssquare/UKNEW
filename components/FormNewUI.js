@@ -9,6 +9,7 @@ const FormNewUI = () => {
   const [phoneError, setPhoneError] = useState("");
   const [companyNameError, setCompanyNameError] = useState("");
   const [messageError, setMessageError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const form = useRef();
 
   const validateEmail = (email) => {
@@ -26,7 +27,6 @@ const FormNewUI = () => {
     }
     return isValid;
   };
-
 
   const validateName = (name) => {
     if (!name) {
@@ -58,7 +58,7 @@ const FormNewUI = () => {
     }
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
     let isValid = true;
 
@@ -77,23 +77,25 @@ const FormNewUI = () => {
       isValid = false;
     }
 
-
     if (isValid) {
-      emailjs
-        .sendForm('service_x0eo9w88', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
-        .then((result) => {
-          console.log(result.text);
-          setTimeout(function () {
-            e.target.reset();
-            router.push("/thank-you/");
-          }, 500);
-        })
-        .catch((error) => {
-          console.log(error.text);
-        });
+      setIsSubmitting(true); // Start loading animation
+
+      try {
+        await emailjs.sendForm('service_x0eo9w8', 'template_20o8u0f', form.current, 'xIFtTfBj6NR498Plv');
+        console.log('Email sent successfully');
+        setTimeout(() => {
+          router.push("/thank-you/");
+        }, 500); // Redirect to thank-you page after 5 seconds
+      } catch (error) {
+        console.error('Error sending email:', error);
+        // Handle error
+      } finally {
+        setIsSubmitting(false); // Stop loading animation
+        form.current.reset(); // Reset form
+      }
     }
   };
-  
+
 
   return (
     <div className='rows-box-sh'>
@@ -113,6 +115,7 @@ const FormNewUI = () => {
 
                 />
                 <label htmlFor="name">Name</label>
+                <input type="hidden" value={router.asPath} name="url" />
               </div>
               {nameError && <small className="text-danger">{nameError}</small>}
             </div>
@@ -176,7 +179,7 @@ const FormNewUI = () => {
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" name="service" aria-label="Default select example">
                   <option disabled selected hidden>Looking For:(optional)</option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>
@@ -186,7 +189,7 @@ const FormNewUI = () => {
             </div>
             <div className='col-lg-12'>
               <div className="mb-3 form-group">
-              <textarea
+                <textarea
                   className="form-control"
                   id="exampleFormControlTextarea1"
                   placeholder=""
@@ -223,12 +226,13 @@ const FormNewUI = () => {
                 </label>
               </div>
               <div className="spiner-wrper">
-                <button
-                  type="submit"
-                  className="btn btn-primary fomr-submit"
-                >
-                  Let’s Connect
-                </button>
+              <button
+                type="submit"
+                className="btn btn-primary fomr-submit"
+                disabled={isSubmitting} // Disable button while submitting
+              >
+                {isSubmitting ? 'Sending...' : 'Let’s Connect'}
+              </button>
               </div>
             </div>
             <div className='col-lg-12'>
@@ -236,15 +240,15 @@ const FormNewUI = () => {
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
                   <div className='icns-boxx'>
-                  <a href="tel:+442071932502" target="_self">
-                    <img src="/img/group_call.png" alt="group_call" />
-                    <span>Call</span>
+                    <a href="tel:+442071932502" target="_self">
+                      <img src="/img/group_call.png" alt="group_call" />
+                      <span>Call</span>
                     </a>
                   </div>
                   <div className='icns-boxx'>
                     <a href="mailto:info@dynamicssquare.co.uk">
-                    <img src="/img/group_mail.png" alt="group_mail" />
-                    <span>Email</span>
+                      <img src="/img/group_mail.png" alt="group_mail" />
+                      <span>Email</span>
                     </a>
                   </div>
                 </div>
