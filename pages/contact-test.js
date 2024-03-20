@@ -92,11 +92,13 @@ const ContactUs = () => {
                 <div className="row pddd-40">
                   <div className="col-lg-3 col-sm-12">
                     <div className="addre-left">
+                      <h4>London</h4>
                       <p>
                         Kemp House, 124 City Road,
                         <br />
-                        London, EC1V 2NX, U.K
+                        London, EC1V 2NX, UK
                       </p>
+                      <p>+44 207 193 2502</p>
                       <a
                         href="https://g.page/dynamics-square-london?share"
                         target="_blank"
@@ -105,30 +107,20 @@ const ContactUs = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
-                    <div className="addre-rigt">
-                      <div className="cont-info">
-                        <span>
-                          Sales Support:{" "}
-                        </span>
-                        <span>+44 (0) 207 193 2502 </span>
-                      </div>
-                      <div className="cont-info">
-                        <span>
-                          Technical Support:{" "}
-                        </span>
-                        <span>+44 (0) 207 097 8987 </span>
-                      </div>
-                      <div className="cont-info">
-                        <span>
-                          <span>
-                            Email Us:{" "}
-                          </span>
-                          <a href="mailto:info@dynamicssquare.co.uk">
-                            info@dynamicssquare.co.uk
-                          </a>
-                        </span>
-                      </div>
+                  <div className="col-lg-3 col-sm-12">
+                    <div className="addre-left">
+                    <h4>Manchester</h4>
+                      <p>
+                      International House 61 <br/>Mosley Street, Manchester, <br/>M2 3HZ, UK
+                      </p>
+                      <p>+44 747 927 3380</p>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-sm-12">
+                    <div className="addre-left addre-left-border">
+                    <h4>Birmingham</h4>
+                      <p>Izabella House, 24 - 26 <br/>Regents Place, City Centre,<br/>Birmingham, UK</p>
+                      <p>+44 121 318 2798</p>
                     </div>
                   </div>
                   <div className="col-lg-3">
@@ -136,6 +128,8 @@ const ContactUs = () => {
                     <img src="/img/m-partner.png" alt="m-partner" />
                     </div>
                   </div>
+                 
+                 
               </div>
               <div className="col-lg-12">
                 <div className="new-co-title new-co-title-ll text-center">
@@ -403,9 +397,9 @@ const ContactUs = () => {
                   id="myTab"
                   role="tablist"
                 >
-                  <li className="nav-item" role="presentation">
+                  {/* <li className="nav-item" role="presentation">
                     <button
-                      className="nav-link active"
+                      className="nav-link"
                       id="home-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#home"
@@ -416,10 +410,10 @@ const ContactUs = () => {
                     >
                       UK
                     </button>
-                  </li>
+                  </li> */}
                   <li className="nav-item" role="presentation">
                     <button
-                      className="nav-link"
+                      className="nav-link active"
                       id="profile-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#profile"
@@ -504,8 +498,8 @@ const ContactUs = () => {
                   </li>
                 </ul>
                 <div className="tab-content" id="myTabContent">
-                  <div
-                    className="tab-pane fade show active"
+                  {/* <div
+                    className="tab-pane"
                     id="home"
                     role="tabpanel"
                     aria-labelledby="home-tab"
@@ -603,9 +597,9 @@ const ContactUs = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div
-                    className="tab-pane fade"
+                    className="tab-pane  fade show active"
                     id="profile"
                     role="tabpanel"
                     aria-labelledby="profile-tab"

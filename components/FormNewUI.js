@@ -226,16 +226,19 @@ const FormNewUI = () => {
                 </label>
               </div>
               <div className="spiner-wrper">
-              <button
-                type="submit"
-                className="btn btn-primary fomr-submit"
-                disabled={isSubmitting} // Disable button while submitting
-              >
-                {isSubmitting ? 'Sending...' : 'Let’s Connect'}
-              </button>
+                <button
+                  type="submit"
+                  className="btn btn-primary fomr-submit"
+                  disabled={isSubmitting} // Disable button while submitting
+                >
+                  {isSubmitting ? 'Sending...' : 'Let’s Connect'}
+                </button>
               </div>
             </div>
-            <div className='col-lg-12'>
+          
+          </div>
+          <div className='row pa-43'>
+          <div className='col-lg-5'>
               <div className='text-center text-center-ff'>
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
@@ -253,7 +256,32 @@ const FormNewUI = () => {
                   </div>
                 </div>
               </div>
-
+            </div>
+            <div className='col-lg-7 align-self-center'>
+              <div className="addre-rigt-new">
+                <div className="cont-info">
+                  <span>
+                    Sales Support:{" "}
+                  </span>
+                  <span>+44 (0) 207 193 2502 </span>
+                </div>
+                <div className="cont-info">
+                  <span>
+                    Technical Support:{" "}
+                  </span>
+                  <span>+44 (0) 207 097 8987 </span>
+                </div>
+                <div className="cont-info">
+                  <span>
+                    <span>
+                      Email Us:{" "}
+                    </span>
+                    <a href="mailto:info@dynamicssquare.co.uk">
+                      info@dynamicssquare.co.uk
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
 
