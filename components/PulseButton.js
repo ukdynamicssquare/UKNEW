@@ -15,7 +15,7 @@ const PulseButton = () => {
     triggerAnimation();
 
     // Set interval to trigger animation every 8 seconds
-    const interval = setInterval(triggerAnimation, 5000); // 8000 milliseconds = 8 seconds
+    const interval = setInterval(triggerAnimation, 8000); // 8000 milliseconds = 8 seconds
 
     // Clean up interval on component unmount
     return () => clearInterval(interval);
