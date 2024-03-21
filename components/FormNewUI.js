@@ -127,7 +127,7 @@ const FormNewUI = () => {
                   placeholder=""
                   name="Job"
                 />
-                <label htmlFor="Job">Job title (Optional)</label>
+                <label htmlFor="Job">Job title</label>
               </div>
             </div>
 
@@ -180,7 +180,7 @@ const FormNewUI = () => {
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
                 <select class="form-select" name="service" aria-label="Default select example">
-                  <option disabled selected hidden>Looking For:(optional)</option>
+                  <option disabled selected hidden>Looking For?</option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>
                   <option value="Support">Support</option>
