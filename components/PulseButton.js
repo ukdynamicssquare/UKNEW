@@ -8,14 +8,14 @@ const PulseButton = () => {
         element.classList.add('animation-class'); // Add class to start animation
         setTimeout(() => {
           element.classList.remove('animation-class'); // Remove class after animation completes
-        }, 2000); // Animation duration (2 seconds)
+        }, 5000); // Animation duration (2 seconds)
       }
     };
     // Initial trigger
     triggerAnimation();
 
     // Set interval to trigger animation every 8 seconds
-    const interval = setInterval(triggerAnimation, 8000); // 8000 milliseconds = 8 seconds
+    const interval = setInterval(triggerAnimation, 6000); // 8000 milliseconds = 8 seconds
 
     // Clean up interval on component unmount
     return () => clearInterval(interval);
