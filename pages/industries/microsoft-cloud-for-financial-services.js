@@ -8,23 +8,39 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-const Education = () => {
+
+
+const MicrosoftCloudForFinancialServices = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
-        <title>Microsoft Dynamics 365 for Finance Servieces | Dynamics Square</title>
+        <title>Microsoft Cloud for Financial Services | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Dynamics 365 for higher education Industry solutions is a tool to seamlessly manage operations, assets and infrastructure. Contact Dynamics Square UK for FREE Demo."
+          content="Unlock agility and innovation in financial services with Microsoft Cloud, which empowers secure, compliant, and customer-centric solutions."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-financial-services/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Cloud for Financial Services | Dynamics Square UK" />
+        <meta property="og:description" content="Unlock agility and innovation in financial services with Microsoft Cloud, which empowers secure, compliant, and customer-centric solutions." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-financial-services/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Microsoft-Cloud-Financial-Services-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Microsoft Cloud for Financial Services | Dynamics Square UK" />
+        <meta name="twitter:description" content="Unlock agility and innovation in financial services with Microsoft Cloud, which empowers secure, compliant, and customer-centric solutions." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Microsoft-Cloud-Financial-Services-banner.png" />
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero">
@@ -46,8 +62,8 @@ const Education = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <Image
-                  src="/img/dynamics-365-for-education.png"
-                  alt="Dynamics 365 For education"
+                  src="/img/Microsoft-Cloud-Financial-Services-banner.png"
+                  alt="Microsoft-Cloud-Financial-Services-banner"
                   width={708}
                   height={447}
                 />
@@ -157,8 +173,8 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Distribution-Delivery.svg"
-                      alt="Distribution-Delivery"
+                      src="/img/dynamics_365_customer_insights.png"
+                      alt="dynamics_365_customer_insights"
                     />
                   </div>
                   <div className="card_new_content">
@@ -169,8 +185,8 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Asset-Management.svg"
-                      alt="Asset-Management"
+                      src="/img/microsoft_power_apps.png"
+                      alt="microsoft_power_apps"
                     />
                   </div>
                   <div className="card_new_content">
@@ -181,8 +197,8 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Customer-Management.svg"
-                      alt="Customer-Management"
+                      src="/img/microsoft_365_new.png"
+                      alt="microsoft_365_new"
                     />
                   </div>
                   <div className="card_new_content">
@@ -196,8 +212,8 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Design-and-Training.svg"
-                      alt="Design-and-Training"
+                      src="/img/microsoft_power_apps.png"
+                      alt="microsoft_power_apps"
                     />
                   </div>
                   <div className="card_new_content">
@@ -208,8 +224,8 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/Service-Management.svg"
-                      alt="Service-Management"
+                      src="/img/dynamics_365_fraud_protection.png"
+                      alt="dynamics_365_fraud_protection"
                     />
                   </div>
                   <div className="card_new_content">
@@ -220,8 +236,8 @@ const Education = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/predict-opportunity.svg"
-                      alt="predict-opportunity"
+                      src="/img/compliance_program_for_microsoft_cloud.png"
+                      alt="compliance_program_for_microsoft_cloud"
                     />
                   </div>
                   <div className="card_new_content">
@@ -240,7 +256,7 @@ const Education = () => {
               <div className="col-lg-9">
                 <div className="call-to-action-content">
                   <h3>What Financial Challenges you are Facing?</h3>
-                  <p>Let’s discuss your major challenges and resolve them with a sustainable solution. We understand that businesses run on different, unique processes that make them stand out from the crowd. Our team at Dynamics Square is here to offer you a tailor-made solution that not only adapts to your requirements but also boosts your ability to achieve targeted goals.</p>
+                  <p>Let's discuss your major challenges and resolve them with a sustainable solution. We understand that businesses run on different, unique processes that make them stand out from the crowd. Our team at Dynamics Square is here to offer you a tailor-made solution that not only adapts to your requirements but also boosts your ability to achieve targeted goals.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                   <Link href="#exampleModal">
                     <a
@@ -444,9 +460,9 @@ const Education = () => {
               <Blog />
               <div className="col-lg-6 align-self-center">
               <Image
-                  src="/img/dynamics-365-for-education.png"
-                  alt="Dynamics 365 For education"
-                  width={708}
+                  src="/img/Microsoft-Cloud-Financial-Services-side.png"
+                  alt="Microsoft-Cloud-Financial-Services-side"
+                  width={661}
                   height={447}
                 />
               </div>
@@ -458,4 +474,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default MicrosoftCloudForFinancialServices;

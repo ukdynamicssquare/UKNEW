@@ -11,10 +11,10 @@ const CasetManagement = () => {
   return (
     <>
       <Head>
-        <title>Asset Management in Supply Chain Management | Dynamics Square UK</title>
+        <title>Case Management in Microsoft Dynamics 365 for Customer Service</title>
         <meta
           name="description"
-          content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction."
+          content="Efficiently handle customer cases with Microsoft Dynamics 365 Customer Service for simplified case management."
         />
         <link
           rel="canonical"
@@ -22,22 +22,19 @@ const CasetManagement = () => {
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
-        <meta property="og:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
+        <meta property="og:title" content="Case Management in Microsoft Dynamics 365 for Customer Service" />
+        <meta property="og:description" content="Efficiently handle customer cases with Microsoft Dynamics 365 Customer Service for simplified case management." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-customer-service/case-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/assest-manage-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
-        <meta name="twitter:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/assest-manage-banner.png" />
-
-        <meta name="robots" content="noindex, nofollow" />
-
+        <meta name="twitter:title" content="Case Management in Microsoft Dynamics 365 for Customer Service" />
+        <meta name="twitter:description" content="Efficiently handle customer cases with Microsoft Dynamics 365 Customer Service for simplified case management." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Case-Management-Banner.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -56,8 +53,8 @@ const CasetManagement = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/assest-manage-banner.png"
-                alt="Asset Management"
+                src="/img/Case-Management-Banner.png"
+                alt="Case-Management-Banner"
                 width={665} height={447}
               />
             </div>
@@ -92,7 +89,7 @@ const CasetManagement = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/track_assets.png" alt="track_assets" />
+                          <img src="/img/enhanced_case_forms.png" alt="enhanced_case_forms" />
                         </div>
                         <span>Enhanced Case Forms</span>
                       </button>
@@ -120,7 +117,7 @@ const CasetManagement = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
+                          <img src="/img/omnichannel_experience.png" alt="omnichannel_experience" />
                         </div>
                         <span>Omnichannel Experience</span>
                       </button>
@@ -148,7 +145,7 @@ const CasetManagement = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
+                          <img src="/img/automated_workflows.png" alt="automated_workflows" />
                         </div>
                         <span>Automated Workflows</span>
                       </button>
@@ -176,7 +173,7 @@ const CasetManagement = () => {
                         aria-controls="fin4"
                       >
                         <div className="wr-in">
-                          <img src="/img/optimise_machine_performances.png" alt="optimise_machine_performances" />
+                          <img src="/img/knowledge_base.png" alt="knowledge_base" />
                         </div>
                         <span>Knowledge Base</span>
                       </button>
@@ -211,7 +208,7 @@ const CasetManagement = () => {
                         aria-controls="fin5"
                       >
                         <div className="wr-in">
-                          <img src="/img/Warehouse-Picks.png" alt="Warehouse-Picks" />
+                          <img src="/img/sla_management.png" alt="sla_management" />
                         </div>
                         <span>SLA Management</span>
                       </button>
@@ -240,8 +237,8 @@ const CasetManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/mobile_accessibility.png"
-                            alt="mobile_accessibility"
+                            src="/img/track_customer_interactions.png"
+                            alt="track_customer_interactions"
                           />
                         </div>
                         <span>Track Customer Interactions</span>
@@ -271,8 +268,8 @@ const CasetManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/mobile_accessibility.png"
-                            alt="mobile_accessibility"
+                            src="/img/facilitates_communication.png"
+                            alt="facilitates_communication"
                           />
                         </div>
                         <span>Facilitates Communication</span>
@@ -302,8 +299,8 @@ const CasetManagement = () => {
                       >
                         <div className="wr-in">
                           <img
-                            src="/img/mobile_accessibility.png"
-                            alt="mobile_accessibility"
+                            src="/img/track_progress_and_resolution.png"
+                            alt="track_progress_and_resolution"
                           />
                         </div>
                         <span>Track Progress and Resolution</span>
@@ -356,17 +353,17 @@ const CasetManagement = () => {
               </header>
             </div>
           </div>
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
+          <div className="row justify-content-center">
+            {/* <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/assest-manage-side.png"
-                  alt="assest-manage-side"
-                  width={482} height={513}
+                  src="/img/Case-Management-Banner-side-pic.png"
+                  alt="Case-Management-Banner-side-pic"
+                  width={489} height={513}
                 />
               </div>
-            </div>
-            <div className='col-lg-6 align-self-center'>
+            </div> */}
+            <div className='col-lg-8 align-self-center'>
               <div className='piller-secr'>
                 <h4>Questions</h4>
                 <p>When the customer has a question about your service or the product, it is considered a case.</p>
@@ -442,7 +439,7 @@ const CasetManagement = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/preventive_maintenance.png" alt="preventive_maintenance" width={84} height={84} />
+                  <Image src="/img/enhanced_customer_satisfaction.png" alt="enhanced_customer_satisfaction" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Enhanced Customer Satisfaction</h3>
@@ -451,7 +448,7 @@ const CasetManagement = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/improve_maintenance_planning.png" alt="improve_maintenance_planning" width={84} height={84} />
+                  <Image src="/img/maximised_productivity.png" alt="maximised_productivity" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Maximised Productivity</h3>
@@ -463,7 +460,7 @@ const CasetManagement = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/extended_asset_life.png" alt="extended_asset_life" width={84} height={84} />
+                  <Image src="/img/effective_communication.png" alt="effective_communication" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Effective Communication</h3>
@@ -497,9 +494,9 @@ const CasetManagement = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/assest-manage-side.png"
-                  alt="assest-manage-side"
-                  width={482} height={513}
+                  src="/img/Case-Management-Banner-side-pic.png"
+                  alt="Case-Management-Banner-side-pic"
+                  width={489} height={513}
                 />
               </div>
             </div>
