@@ -22,13 +22,13 @@ const Customisation = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/our-services/customisation/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/customisation/"
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
         <meta property="og:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/customisation/" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/customisation/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Microsoft-Cloud-Financial-Services-banner.png" />
         <meta property="og:image:width" content="200" />
