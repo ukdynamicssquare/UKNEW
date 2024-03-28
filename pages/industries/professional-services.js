@@ -231,6 +231,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/icons-commerce_user-experience.svg"
                       alt="icons-commerce_user-experienc.svg"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -247,6 +249,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/icons_Customer-Feedback- (1).svg"
                       alt="Business Central Upgrade-icons"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -263,6 +267,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/connect-collaborate-1.svg"
                       alt="connect-collaborate-1"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -279,6 +285,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/icons-implementation-service_Sales-.svg"
                       alt="icons-implementation-service_Sales-"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -297,6 +305,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/icons-implementation-service_HR.svg"
                       alt="icons-implementation-service_HR"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -313,6 +323,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/Budgeting-Planning.svg"
                       alt="Budgeting-Planning"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -329,6 +341,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/Time-Expense-Management.svg"
                       alt="Time-Expense-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -346,6 +360,8 @@ const ProfessionalService = () => {
                     <img
                       src="/img/control-icon-analysis.svg"
                       alt="control-icon-analysis"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">

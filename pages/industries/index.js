@@ -31,7 +31,7 @@ const IndustriesList = () => {
                 src="/img/Dynamics-365-for-professional-services.png"
                 alt="Dynamics-365-for-professional-services"
                 width={790} height={470}
-
+                priority={true}
               />
             </div>
           </div>

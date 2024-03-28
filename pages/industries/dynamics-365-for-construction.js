@@ -169,6 +169,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/manage-schedule-resources.png"
                       alt="manage-schedule-resources"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -181,6 +183,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/enhanced-team-collaboration.png"
                       alt="enhanced-team-collaboration"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -193,6 +197,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/seamless-integration.png"
                       alt="seamless-integration"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -205,6 +211,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/real-time-reporting.png"
                       alt="real-time-reporting"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -219,6 +227,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/one-click-integration.png"
                       alt="one-click-integration"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -231,6 +241,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/comes-with-business-intelligence.png"
                       alt="comes-with-business-intelligence"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -243,6 +255,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/role-tailored-user-interface.png"
                       alt="role-tailored-user-interface"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -256,6 +270,8 @@ const Dynamics365ForConstruction = () => {
                     <img
                       src="/img/bulit-in-automation.png"
                       alt="bulit-in-automation"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -282,10 +298,12 @@ const Dynamics365ForConstruction = () => {
               <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
+                    <Image
                       src="/img/construction-side.png"
                       className="fix-im"
                       alt="construction-side"
+                      width={482}
+                      height={513}
                     />
                   </div>
                 </div>

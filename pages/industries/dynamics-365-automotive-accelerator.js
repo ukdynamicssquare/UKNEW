@@ -220,7 +220,7 @@ const Finance = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pics">
-                <img src="/img/Customer-360.png" alt="Customer-360" />
+                <Image src="/img/Customer-360.png" alt="Customer-360" width={840} height={540} />
               </div>
             </div>
           </div>
@@ -230,7 +230,7 @@ const Finance = () => {
           >
             <div className="col-lg-7">
               <div className="commen-lef-pics">
-                <img src="/img/B2C.png" alt="B2C" />
+                <Image src="/img/B2C.png" alt="B2C" width={840} height={540} />
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
@@ -251,14 +251,14 @@ const Finance = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pics">
-              <img src="/img/Lead-Disposition.png" alt="Lead-Dispositi" />
+              <Image src="/img/Lead-Disposition.png" alt="Lead-Dispositi" width={933} height={540} />
               </div>
             </div>
           </div>
           <div className="row pad9x align-items-center">
           <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pics">
-              <img src="/img/Vehicle-Inventory.png" alt="Vehicle-Inventory" />
+              <Image src="/img/Vehicle-Inventory.png" alt="Vehicle-Inventory" width={971} height={540} />
               </div>
             </div>
             <div className="col-lg-5 align-self-center">

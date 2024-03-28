@@ -185,6 +185,8 @@ const Education = () => {
                     <img
                       src="/img/Distribution-Delivery.svg"
                       alt="Distribution-Delivery"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -199,6 +201,8 @@ const Education = () => {
                     <img
                       src="/img/Asset-Management.svg"
                       alt="Asset-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -213,6 +217,8 @@ const Education = () => {
                     <img
                       src="/img/Customer-Management.svg"
                       alt="Customer-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -227,6 +233,8 @@ const Education = () => {
                     <img
                       src="/img/Production-Mnagement.svg"
                       alt="Production-Mnagement"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -243,6 +251,8 @@ const Education = () => {
                     <img
                       src="/img/Design-and-Training.svg"
                       alt="Design-and-Training"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -257,6 +267,8 @@ const Education = () => {
                     <img
                       src="/img/Service-Management.svg"
                       alt="Service-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -271,6 +283,8 @@ const Education = () => {
                     <img
                       src="/img/predict-opportunity.svg"
                       alt="predict-opportunity"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">

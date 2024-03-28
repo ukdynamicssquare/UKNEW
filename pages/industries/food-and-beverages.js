@@ -229,6 +229,8 @@ const Startup = () => {
                     <img
                       src="/img/Distribution-Delivery.svg"
                       alt="Distribution-Delivery"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -245,6 +247,8 @@ const Startup = () => {
                     <img
                       src="/img/Asset-Management.svg"
                       alt="Asset-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -261,6 +265,8 @@ const Startup = () => {
                     <img
                       src="/img/Customer-Management.svg"
                       alt="Customer-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -277,6 +283,8 @@ const Startup = () => {
                     <img
                       src="/img/Production-Mnagement.svg"
                       alt="Production-Mnagement"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -295,6 +303,8 @@ const Startup = () => {
                     <img
                       src="/img/Design-and-Training.svg"
                       alt="Design-and-Training"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -311,6 +321,8 @@ const Startup = () => {
                     <img
                       src="/img/Service-Management.svg"
                       alt="Service-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -327,6 +339,8 @@ const Startup = () => {
                     <img
                       src="/img/predict-opportunity.svg"
                       alt="predict-opportunity"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -344,6 +358,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-ax-_sales-management.svg"
                       alt="Sales-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -395,10 +411,12 @@ const Startup = () => {
               <div className="col-lg-6 align-items-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
+                    <Image
                       src="/img/food and beverages- side.png"
                       className="fix-im"
                       alt="food and beverages- side"
+                      width={553}
+                      height={531}
                     />
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
@@ -632,7 +650,7 @@ const Startup = () => {
             <div className="row top-2 gx-5">
               <Blog />
               <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Dynamics-food-beverages-Banner.png" alt="" />
+                <Image src="/img/n/Dynamics-food-beverages-Banner.png" width={790} height={470} alt="pic" />
               </div>
             </div>
           </div>

@@ -234,6 +234,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/custom-crm-solutions.svg"
                       alt="custom-crm-solutions"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -250,6 +252,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons_flexibility.svg"
                       alt="icons_flexibility"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -266,6 +270,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons_supply-chain (1).svg"
                       alt="icons_supply-chain (1)"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -283,6 +289,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons-power-automate_Enhanced-Efficiency (1).svg"
                       alt="icons-power-automate_Enhanced-Efficiency (1)"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -302,6 +310,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons_customer-relation.svg"
                       alt="icons_customer-relation"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -319,6 +329,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons_Improved-Visibility.svg"
                       alt="icons_Improved-Visibility"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -335,6 +347,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons_Streamline-Operations.svg"
                       alt="icons_Streamline-Operations"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -353,6 +367,8 @@ const Manufacturing = () => {
                     <img
                       src="/img/icons_Manufacturing-Intelligence.svg"
                       alt="icons_Manufacturing-Intelligence"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -376,10 +392,12 @@ const Manufacturing = () => {
               <div className="col-lg-6 align-self-center">
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
-                    <img
+                    <Image
                       src="/img/manufacturing-side.png"
                       className="fix-im"
                       alt="manufacturing side"
+                      width={553}
+                      height={531}
                     />
                     <div className="video-ytube video-ytubes">
                       <div className="popup-btn popup-btns">
@@ -774,7 +792,7 @@ const Manufacturing = () => {
             <div className="row top-2 gx-5">
               <Blog />
               <div className="col-lg-6 align-self-center">
-                <img src="/img/n/Cloud-For-Manufacturing-banner.png" alt="" />
+                <Image src="/img/n/Cloud-For-Manufacturing-banner.png" alt="pic" width={640} height={366}  priority={true} />
               </div>
             </div>
           </div>

@@ -213,6 +213,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-seamless-customisation.svg"
                       alt="icons-_seamless customisation"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -229,6 +231,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_centralised data.svg"
                       alt="centralised data"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -245,6 +249,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_manage customer.svg"
                       alt="icons-_manage customer"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -261,6 +267,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_decison making.svg"
                       alt="icons-_decison making"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -279,6 +287,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_connect collobrate.svg"
                       alt="icons-_connect collobrate"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -295,6 +305,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_drive automation.svg"
                       alt="icons-_drive automation"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -311,6 +323,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_enterprise mobility.svg"
                       alt="icons-_enterprise mobility"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -326,6 +340,8 @@ const Startup = () => {
                     <img
                       src="/img/icons-_Predict Opportunity.svg"
                       alt="icons-_Predict Opportunity"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">

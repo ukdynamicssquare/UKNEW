@@ -216,6 +216,8 @@ const Startup = () => {
                     <img
                       src="/img/designing-icon.svg"
                       alt="Design-and-Training"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -232,6 +234,8 @@ const Startup = () => {
                     <img
                       src="/img/planning-icon.svg"
                       alt="Planning-and-Sourcing"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -248,6 +252,8 @@ const Startup = () => {
                     <img
                       src="/img/Production-Mnagement.svg"
                       alt="Production-Mnagement"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -264,6 +270,8 @@ const Startup = () => {
                     <img
                       src="/img/Distribution-Delivery.svg"
                       alt="Business-Central-Support-icons"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -282,6 +290,8 @@ const Startup = () => {
                     <img
                       src="/img/Asset-Management.svg"
                       alt="Asset-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -298,6 +308,8 @@ const Startup = () => {
                     <img
                       src="/img/Sales-Management.svg"
                       alt="Sales-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -314,6 +326,8 @@ const Startup = () => {
                     <img
                       src="/img/connect-collaborate.svg"
                       alt="connect-collaborate"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -330,6 +344,8 @@ const Startup = () => {
                     <img
                       src="/img/Service-Management.svg"
                       alt="Service-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
@@ -368,7 +384,7 @@ const Startup = () => {
                     />
                     <div className="video-ytube">
                       <div className="popup-btn">
-                        <Link href="javascript:void(0)">
+                        <Link href="#javascript:void(0)">
                           <a onClick={() => setOpen(true)}>
                             <img
                               src="/img/video-Manufacturing.png"
