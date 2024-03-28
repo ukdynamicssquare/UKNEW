@@ -6,7 +6,7 @@ const HealthCheck = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Healthcare Accelerator | Dynamics Square UK</title>
+        <title>Microsoft Cloud for Healthcare | Dynamics Square UK</title>
         <meta
           name="description"
           content="Choose the cloud Microsoft Dynamics 365 for Healthcare industry to get a 360-degree view of your clinic while accelerating the business towards growth."
@@ -15,15 +15,30 @@ const HealthCheck = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-healthcare/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Cloud for Healthcare | Dynamics Square UK" />
+        <meta property="og:description" content="Choose the cloud Microsoft Dynamics 365 for Healthcare industry to get a 360-degree view of your clinic while accelerating the business towards growth." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-financial-services/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-for-Healthcare.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Microsoft Cloud for Healthcare | Dynamics Square UK" />
+        <meta name="twitter:description" content="Choose the cloud Microsoft Dynamics 365 for Healthcare industry to get a 360-degree view of your clinic while accelerating the business towards growth." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-for-Healthcare.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-              Dynamics 365 for Healthcare
+              Microsoft cloud for Healthcare
               </h1>
-              <p>Streamline your entire clinical operations and enhance the patient experience while opting Dynamics 365 for Healthcare Industry</p>
+              <p>Streamline your entire clinical operations and enhance the patient experience while opting Microsoft cloud for Healthcare Industry</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -51,10 +66,11 @@ const HealthCheck = () => {
       <section className="new-bgs">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-9">
+            <div className="col-lg-10">
             <header className="section-header">
             <h2>Dynamics 365 for Healthcare; a Powerful Clinic Management Solution</h2>
-            <p>Following the COVID-19 pandemic, healthcare has become one of the most volatile industries, requiring total reformation to deal with current situations. We have faced a lot of challenges during this tough time, witnessed the collapse of global healthcare, and found various flows in our existing systems, which we used to believe were complete and successful. This industry needs a digital transformation to smooth the global supply chain, track drug manufacturing and distribution, ensure the availability of medical equipment, track patient health, and much more. Implementing the right ERPs (enterprise resource planning) and CRMs (customer relationship management) can revolutionise the ways a business operates its processes. Dynamics 365 for the healthcare industry holds the power to become a boon in the era of technology and AI. Microsoft Dynamics 365 is so powerful that it can manage a company's finances while also running complex global supply chain operations. Before getting into more depth, let's get a sound knowledge of Dynamics 365. </p>
+            <p>Following the COVID-19 pandemic, healthcare has become one of the most volatile industries, requiring total reformation to deal with current situations. We have faced a lot of challenges during this tough time, witnessed the collapse of global healthcare, and found various flows in our existing systems, which we used to believe were complete and successful. This industry needs a digital transformation to smooth the global supply chain, track drug manufacturing and distribution, ensure the availability of medical equipment, track patient health, and much more. Implementing the right ERPs (enterprise resource planning) and CRMs (customer relationship management) can revolutionise the ways a business operates its processes.</p><p>
+            Dynamics 365 for the healthcare industry holds the power to become a boon in the era of technology and AI. Microsoft cloud for healthcare is so powerful that it can manage a company's finances while also running complex global supply chain operations. Before getting into more depth, let's get a sound knowledge of Microsoft Dynamics 365. </p>
           </header>
             </div>
           </div>
@@ -72,8 +88,8 @@ const HealthCheck = () => {
             <div className="col-lg-6 align-self-center">
               <div className="custom002">
                 <p><Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link> is a suite of <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft ERP solutions</a></Link> and CRM applications capable of managing the entire business. When it comes to number, more than 12 applications are available to support business in all ways.</p>
-                <p>This contains smart and intelligent applications, including ERP for SMBs (<Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>), <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 for Finance</a></Link> to manage complex finance operations, Dynamics 365 for Sales to manage the entire sales operations of a business, Microsoft Dynamics CRM to strengthen the customer-business relationship, and much more. </p>
-                <p>Built using the latest technologies of AI, BI, ML, and deep learning, Microsoft Dynamics 365 offers automation to push businesses towards greater productivity and enhanced ROI. Almost all apps under the Microsoft Dynamics suite come with flexible server deployment options, which include cloud, on-premises, and cloud. With the customer-centric approach, all applications offer exceptional operational efficiency and great customer experiences, resulting in eliminating redundancies from the system while accelerating the business for streamlined growth. </p>
+                <p>This contains smart and intelligent applications, including Dynamics 365 Business Central for SMBs, (<Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>), <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 for Finance</a></Link> to manage complex finance operations, Dynamics 365 for Sales to manage the entire sales operations of a business, Microsoft Dynamics CRM to strengthen the customer-business relationship, and much more. </p>
+                <p>Built using the latest technologies of AI, BI, ML, and deep learning, Microsoft cloud for healthcare offers automation to push businesses towards greater productivity and enhanced ROI. Almost all apps under the Microsoft Dynamics suite come with flexible server deployment options, which include cloud, on-premises, and cloud. With the customer-centric approach, all applications offer exceptional operational efficiency and great customer experiences, resulting in eliminating redundancies from the system while accelerating the business for streamlined growth. </p>
               </div>
             </div>
             <div className="col-lg-1 align-self-center"></div>
@@ -89,13 +105,15 @@ const HealthCheck = () => {
       <section className="busine_service_bottom custom001">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-10">
             <header className="section-header">
             <h2>What is the need of Dynamics 365 <br /> for healthcare?</h2>
+            <p>We are going through an era where building foolproof healthcare systems must be the priority. In the past few years, we have witnessed the loss of millions of lives due to various reasons, and among them, the global healthcare system is the major one. There can be various suitable and effective solutions to improve the existing healthcare system across various verticals among which Dynamics 365 for healtchare is the popular one. When we think about it in a technical way, implementing Dynamics 365 for healthcare accelerator can streamline and connect the operations of the entire system while leveraging the power of automation. </p>
+            <p>Dynamic 365 for healthcare industry is the right solution to manage the administrative processes of a business while also offering a comprehensive and clinical treatment system. It offers flawless features, including an interactive patient experience, medical records tracking, patient data management, patient communication management, and centralised clinical data. Such features allow the healthcare business to offer </p>
           </header>
             </div>
           </div>
-          <div className="row p-433">
+          <div className="row p-433 justify-content-center">
             <div className="col-lg-5 align-self-center">
               <div className="left-pic-nn">
                 <Image
@@ -106,11 +124,11 @@ const HealthCheck = () => {
               </div>
             </div>
 
-            <div className="col-lg-1 align-self-center"></div>
-            <div className="col-lg-6 align-self-center">
+            {/* <div className="col-lg-1 align-self-center"></div> */}
+            <div className="col-lg-5">
               <div className="custom002">
-                <p>We are going through an era where building foolproof healthcare systems must be the priority. In the past few years, we have witnessed the loss of millions of lives due to various reasons, and among them, the global healthcare system is the major one. There can be various suitable and effective solutions to improve the existing healthcare system across various verticals. When we think about it in a technical way, implementing Dynamics 365 for healthcare accelerator can streamline and connect the operations of the entire system while leveraging the power of automation. </p>
-                <p>Dynamic 365 for healthcare industry is the right solution to manage the administrative processes of a business while also offering a comprehensive and clinical treatment system. It offers flawless features, including an interactive patient experience, medical records tracking, patient data management, patient communication management, and centralised clinical data. Such features allow the healthcare business to offer </p>
+               
+              
                 <ul>
                   <li>Smooth patient journey</li>
                   <li>Fetching previous medical records </li>
@@ -170,9 +188,9 @@ const HealthCheck = () => {
       <section className="new-style-bg">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-lg-9">
             <header className="section-header">
-            <h2>Dynamics 365 for Healthcare; Top Benefits you Should Checkout</h2>
+            <h2>Microsoft cloud for Healthcare; Top Benefits you Should Checkout</h2>
             <p>Microsoft D365 Cloud for Healthcare is one of the top patient engagement hospital solutions that offers seamless features and a smooth business experience with a patient-centric approach. Using AI and analytics data, they were able to provide excellent patient satisfaction. Also, it resolves most clinical issues that they have encountered while optimising the results for a better output. It offers more benefits too, like: </p>
           </header>
             </div>
