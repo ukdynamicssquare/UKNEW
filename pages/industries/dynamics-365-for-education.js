@@ -300,6 +300,8 @@ const Education = () => {
                     <img
                       src="/img/icons-ax-_sales-management.svg"
                       alt="Sales-Management"
+                      width={48}
+                      height={48}
                     />
                   </div>
                   <div className="card_new_content">
