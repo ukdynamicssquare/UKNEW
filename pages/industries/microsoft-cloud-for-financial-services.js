@@ -66,6 +66,7 @@ const MicrosoftCloudForFinancialServices = () => {
                   alt="Microsoft-Cloud-Financial-Services-banner"
                   width={708}
                   height={447}
+                  priority={true}
                 />
               </div>
             </div>

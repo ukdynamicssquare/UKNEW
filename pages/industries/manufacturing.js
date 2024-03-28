@@ -11,6 +11,7 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
+  
   return (
     <>
       <Head>
@@ -63,7 +64,7 @@ const Startup = () => {
                   src="/img/Dynamics-manufacturing-Banner.png"
                   alt="Dynamics-manufacturing-Banner"
                   width={790} height={470}
-
+                  priority={true}
                 />
               </div>
             </div>
@@ -367,7 +368,7 @@ const Startup = () => {
                     />
                     <div className="video-ytube">
                       <div className="popup-btn">
-                        <Link href="#javascript:void(0)">
+                        <Link href="javascript:void(0)">
                           <a onClick={() => setOpen(true)}>
                             <img
                               src="/img/video-Manufacturing.png"

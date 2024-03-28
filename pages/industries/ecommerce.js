@@ -75,6 +75,7 @@ const Ecommerce = () => {
                   alt="Microsoft Dynamics 365 For Ecommerce"
                   width={723}
                   height={473}
+                  priority={true}
                 />
               </div>
             </div>

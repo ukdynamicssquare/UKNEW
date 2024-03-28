@@ -69,9 +69,12 @@ const Startup = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
+                <Image
                   src="/img/food-and-beverages-banner.png"
                   alt="Dynamics 365 For Food & Beverages"
+                  width={723}
+                  height={473}
+                  priority={true}
                 />
               </div>
             </div>

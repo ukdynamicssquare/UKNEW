@@ -72,9 +72,12 @@ const Manufacturing = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
+                <Image
                   src="/img/manufacturing-banner.png"
                   alt="Microsoft Cloud For Manufacturing"
+                  width={723}
+                  height={473}
+                  priority={true}
                 />
               </div>
             </div>

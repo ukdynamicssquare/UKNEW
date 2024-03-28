@@ -53,6 +53,7 @@ const Finance = () => {
                 alt="dynamics-365-automotive"
                 width={719}
                 height={447}
+                priority={true}
               />
             </div>
           </div>

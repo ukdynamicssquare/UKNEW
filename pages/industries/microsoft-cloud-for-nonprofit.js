@@ -76,6 +76,7 @@ const MicrosoftCloudForNonprofit = () => {
                   src="/img/Not-For-Profit-banner.png"
                   alt="Not-For-Profit-banner"
                   width={723} height={473}
+                  priority={true}
                 />
               </div>
             </div>

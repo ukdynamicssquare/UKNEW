@@ -51,6 +51,7 @@ const NonProfits = () => {
                   src="/img/Dynamics-non-profit-Banner.png"
                   alt="Dynamics-non-profit-Banner"
                   width={790} height={470}
+                  priority={true}
                 />
               </div>
             </div>

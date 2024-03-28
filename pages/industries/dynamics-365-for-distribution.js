@@ -54,9 +54,12 @@ const Dynamics365ForDistribution = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
+                <Image
                   src="/img/distribution-banner.png"
                   alt="distribution-banner"
+                  width={665}
+                  height={447}
+                  priority={true}
                 />
               </div>
             </div>

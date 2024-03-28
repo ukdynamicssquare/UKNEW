@@ -54,9 +54,12 @@ const Dynamics365ForConstruction = () => {
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img
+                <Image
                   src="/img/construction-banner.png"
                   alt="construction-banner"
+                  width={665}
+                  height={447}
+                  priority={true}
                 />
               </div>
             </div>

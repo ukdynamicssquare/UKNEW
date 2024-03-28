@@ -77,6 +77,7 @@ const ProfessionalService = () => {
                   src="/img/professional service banner.png"
                   alt="Dynamics 365 For Professional Services"
                   width={723} height={473}
+                  priority={true}
                 />
               </div>
             </div>

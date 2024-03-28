@@ -55,6 +55,7 @@ const Education = () => {
                   alt="Dynamics 365 For education"
                   width={708}
                   height={447}
+                  priority={true}
                 />
               </div>
             </div>

@@ -58,6 +58,7 @@ const HealthCheck = () => {
                 alt="Dynamics-365-for-Healthcare"
                 width={717}
                 height={484}
+                priority={true}
               />
             </div>
           </div>
