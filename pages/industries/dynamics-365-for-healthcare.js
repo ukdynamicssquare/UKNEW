@@ -248,7 +248,7 @@ const HealthCheck = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> 
     </>
   );
 };
