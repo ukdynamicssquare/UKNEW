@@ -33,7 +33,7 @@ const WhyUs = () => {
                 </p>
               </div>
               <div className="col-lg-6">
-                <Image src="/img/about-pic.png" alt="image" width={775} height={528} />
+                <Image src="/img/about-pic.png" alt="image" width={775} height={528}  priority = {true} />
               </div>
             </div>
           </div>

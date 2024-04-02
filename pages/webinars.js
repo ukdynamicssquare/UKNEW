@@ -27,9 +27,12 @@ const WebinarList = () => {
               </div> */}
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/Webinar-page-banner.png"
                 alt="Webinar-page-banner"
+                width={759}
+                height={447}
+                priority = {true}
               />
             </div>
           </div>

@@ -36,7 +36,7 @@ const BusinessCentralVSFinance = () => {
                 </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/bs-vsfin.png" alt="bs-vsfin" />
+              <Image src="/img/bs-vsfin.png" alt="bs-vsfin" width={602} height={315}  priority = {true} />
             </div>
           </div>
         </div>

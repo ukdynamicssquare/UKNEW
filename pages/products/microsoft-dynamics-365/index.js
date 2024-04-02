@@ -60,7 +60,7 @@ const D360 = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398} />
+              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398}  priority = {true} />
             </div>
           </div>
         </div>

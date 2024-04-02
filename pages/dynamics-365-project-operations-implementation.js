@@ -64,6 +64,7 @@ const ProjectOperationImplementation = () => {
                 src="/img/FieldServicebanner.png"
                 alt="Field-implementation-banner"
                 width={771} height={478}
+                priority = {true}
               />
             </div>
           </div>

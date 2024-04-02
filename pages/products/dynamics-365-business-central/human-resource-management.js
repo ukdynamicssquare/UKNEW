@@ -52,6 +52,7 @@ const HumanResourceManagements = () => {
                 src="/img/Human-Resource-Management-banner.png"
                 alt="Human-Resource-Management-banner"
                 width={665} height={447}
+                priority = {true}
               />
             </div>
           </div>

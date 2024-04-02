@@ -33,6 +33,7 @@ const MicrosoftDynamicsPartnerSheffield = () => {
                 src="/img/contact-us-pic.png"
                 alt="microsoft-dynamics-partner-sheffield"
                 width={692} height={526}
+                priority = {true}
               />
             </div>
           </div>

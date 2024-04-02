@@ -52,6 +52,7 @@ const AssetManagement = () => {
                 src="/img/assest-manage-banner.png"
                 alt="Asset Management"
                 width={665} height={447}
+                priority = {true}
               />
             </div>
           </div>

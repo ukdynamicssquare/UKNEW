@@ -102,6 +102,7 @@ const StartGuideGp = () => {
                 src="/img/dynamics-GP-BC-Ebook-banner-image.png"
                 alt="dynamics-GP-BC-Ebook-banner-image"
                 width={800} height={600}
+                priority = {true}
               />
             </div>
           </div>

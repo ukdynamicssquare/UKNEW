@@ -40,6 +40,7 @@ const CaseStudyTimosco = () => {
                   alt="business centeral implementation"
                   width={1024}
                   height={597}
+                  priority = {true}
                 />
               </div>
             </div>

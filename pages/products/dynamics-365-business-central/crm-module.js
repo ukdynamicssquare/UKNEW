@@ -41,6 +41,7 @@ const CrmModule = () => {
                 alt="CRM Module for Dynamics 365 Business Central"
                 width={709}
                 height={514}
+                priority = {true}
               />
             </div>
           </div>

@@ -55,6 +55,7 @@ const Erp = () => {
                 alt="Microsoft ERP-banner"
                 width={618}
                 height={417}
+                priority = {true}
               />
             </div>
           </div>

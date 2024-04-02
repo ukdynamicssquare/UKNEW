@@ -50,6 +50,7 @@ const CustomerVoice = () => {
                 alt="Dynamics 365 Customer Voice"
                 width={910}
                 height={638}
+                priority = {true}
               />
             </div>
           </div>

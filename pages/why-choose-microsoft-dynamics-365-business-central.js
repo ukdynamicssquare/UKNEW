@@ -37,9 +37,12 @@ const WhyChooseBc = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/wh-business-center-main.svg"
                 alt="wh-business-center-main"
+                width={644}
+                height={504}
+                priority = {true}
               />
             </div>
           </div>

@@ -61,6 +61,7 @@ const SalesOrderManagement = () => {
                 alt="Sales-and-Order-Management-banner"
                 width={665}
                 height={447}
+                priority = {true}
               />
             </div>
           </div>

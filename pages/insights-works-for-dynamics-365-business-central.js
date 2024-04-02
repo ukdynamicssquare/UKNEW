@@ -45,6 +45,7 @@ const Bcinsights = () => {
                 alt="Insights Works for Dynamics 365 Business Central"
                 width={991}
                 height={666}
+                priority = {true}
               />
             </div>
           </div>

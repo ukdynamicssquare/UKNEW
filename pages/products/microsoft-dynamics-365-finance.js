@@ -68,6 +68,7 @@ const Finance = () => {
                 alt="Microsoft Dynamics 365 Finance"
                 width={868}
                 height={487}
+                priority = {true}
               />
             </div>
           </div>

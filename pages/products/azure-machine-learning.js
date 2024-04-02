@@ -49,6 +49,7 @@ const AzureMachineLearning = () => {
                 src="/img/azure-machine-learning-banner.svg"
                 alt="azure-machine-learning-banner"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

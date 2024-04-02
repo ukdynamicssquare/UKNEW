@@ -46,6 +46,7 @@ const AzureDigitalTwins = () => {
                 alt="azure-digital-twins-banner"
                 width={1024}
                 height={586}
+                priority = {true}
               />
             </div>
           </div>

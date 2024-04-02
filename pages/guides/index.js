@@ -23,7 +23,7 @@ const Guides = () => {
               <p>Our guides provide in-depth analysis, emerging technology updates, advanced ERP and CRM solutions to help you grow.</p>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/guide-main-banner.png" alt="guide-main-banner" width={717} height={447} />
+              <Image src="/img/guide-main-banner.png" alt="guide-main-banner" width={717} height={447} priority = {true} />
             </div>
           </div>
         </div>

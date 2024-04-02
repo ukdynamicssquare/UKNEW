@@ -43,6 +43,7 @@ const WhyMigrade360 = () => {
                 src="/img/magentodynamics-365.png"
                 alt="magentodynamics-365"
                 width={660} height={464}
+                priority = {true}
               />
             </div>
           </div>

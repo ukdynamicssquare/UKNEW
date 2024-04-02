@@ -87,6 +87,7 @@ const StartGuideTwo = () => {
                 src="/img/dynamics-CRM-Ebook-featured-banner.png"
                 alt="dynamics-CRM-Ebook-featured-banner"
                 width={800} height={600}
+                priority = {true}
               />
             </div>
           </div>

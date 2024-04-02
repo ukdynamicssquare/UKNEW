@@ -62,6 +62,7 @@ const CustomerServiceImplementation = () => {
               <Image
                 src="/img/customer-service-banner.png"
                 alt="customer service Implementation banner"width={759} height={513}
+                priority = {true}
               />
             </div>
           </div>

@@ -84,6 +84,7 @@ const PowerBIGuide = () => {
                 src="/img/group-2308.png"
                 alt="The Ultimate Power BI Guide"
                 width={585} height={373}
+                priority = {true}
               />
             </div>
           </div>

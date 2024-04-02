@@ -55,6 +55,7 @@ const MicrosoftDynamics365Ai = () => {
                 src="/img/BC-Warehouse-Management.png"
                 alt="BC-Warehouse-Management"
                 width={718} height={447}
+                priority = {true}
               />
             </div>
           </div>

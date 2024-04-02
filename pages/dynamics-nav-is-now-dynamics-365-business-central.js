@@ -46,6 +46,7 @@ const DynamicsNavnowBusinessCentral = () => {
                 src="/img/Dynamics-NAV-busines-centeral.png"
                 alt="Dynamics-NAV-busines-centeral"
                 width={736} height={488}
+                priority = {true}
               />
             </div>
           </div>

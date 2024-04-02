@@ -38,7 +38,7 @@ const CaseStudyPasante = () => {
                 <Image
                   src="/img/Dynamics-365-Business-Central.png"
                   alt="business centeral implementation"
-                  width={1024} height={597}
+                  width={1024} height={597}   priority = {true}
                 />
               </div>
             </div>

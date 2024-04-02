@@ -51,6 +51,7 @@ const CloudvsOnpremise = () => {
                 src="/img/MicrosoftTeams-image-5.png"
                 alt="MicrosoftTeams-imag-5"
                 width={668} height={507}
+                priority = {true}
               />
             </div>
           </div>

@@ -40,6 +40,7 @@ const Startup = () => {
                   src="/img/CRM-header-banner.png"
                   alt="Bespoke CRM System"
                   width={1024} height={586}
+                  priority = {true}
                 />
               </div>
             </div>
@@ -141,7 +142,7 @@ const Startup = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">1</span></div>
+                <div className="wr-in"><span className="number-st">1</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Low Cost of Ownership </h3>
@@ -150,7 +151,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">2</span></div>
+                <div className="wr-in"><span className="number-st">2</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Subscription-Based Model </h3>
@@ -159,7 +160,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">3</span></div>
+                <div className="wr-in"><span className="number-st">3</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Align with Unique Business Needs </h3>
@@ -168,7 +169,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">4</span></div>
+                <div className="wr-in"><span className="number-st">4</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Implement and eliminate the Desired Tool or Feature </h3>
@@ -181,7 +182,7 @@ const Startup = () => {
             <div className="col-lg-6">
             <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">5</span></div>
+                <div className="wr-in"><span className="number-st">5</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Auto Updates and Upgrades </h3>
@@ -190,7 +191,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">6</span></div>
+                <div className="wr-in"><span className="number-st">6</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Advanced Reporting Tools </h3>
@@ -199,7 +200,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">7</span></div>
+                <div className="wr-in"><span className="number-st">7</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Seamless Integrations </h3>
@@ -208,7 +209,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">8</span></div>
+                <div className="wr-in"><span className="number-st">8</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Enhanced Focus and Productivity </h3>
@@ -255,7 +256,7 @@ const Startup = () => {
             <div className="col-lg-8">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">1</span></div>
+                <div className="wr-in"><span className="number-st">1</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Shortlist the Basic Features </h3>
@@ -264,7 +265,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">2</span></div>
+                <div className="wr-in"><span className="number-st">2</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Understand Customer Needs </h3>
@@ -273,7 +274,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">3</span></div>
+                <div className="wr-in"><span className="number-st">3</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Shortlist the Advanced or Specific Capabilities </h3>
@@ -282,7 +283,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">4</span></div>
+                <div className="wr-in"><span className="number-st">4</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Specify Budget </h3>
@@ -291,7 +292,7 @@ const Startup = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">5</span></div>
+                <div className="wr-in"><span className="number-st">5</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Choose a Partner </h3>

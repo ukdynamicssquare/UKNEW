@@ -44,7 +44,7 @@ const AzureSphere = () => {
                 src="/img/azure-sphere-banner.svg"
                 alt="azure-sphere-banner"
                 width={1024} height={586}
-
+                priority = {true}
               />
             </div>
           </div>

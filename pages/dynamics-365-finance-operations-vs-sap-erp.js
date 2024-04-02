@@ -50,7 +50,7 @@ const FinancevsSapErp = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Fno-Sap-Erp.png" alt="Fno-Sap-Erp" width={602} height={315}/>
+              <Image src="/img/Fno-Sap-Erp.png" alt="Fno-Sap-Erp" width={602} height={315} priority = {true} />
             </div>
           </div>
         </div>

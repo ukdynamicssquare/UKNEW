@@ -74,6 +74,7 @@ const PowerBIGuide = () => {
                 alt="what is business central"
                 width={992}
                 height={499}
+                priority = {true}
               />
             </div>
           </div>

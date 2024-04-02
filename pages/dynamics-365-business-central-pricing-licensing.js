@@ -41,6 +41,7 @@ const BusinessCentralPricingLicensing = () => {
                 src="/img/MicrosoftTeams-image-20.png"
                 alt="MicrosoftTeams-image-20"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

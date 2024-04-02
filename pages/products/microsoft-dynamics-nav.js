@@ -72,7 +72,7 @@ const MicrosoftDynamicsNAV = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/nav-banner.png" alt="Microsoft Dynamics NAV" width={1024} height={576} />
+              <Image src="/img/nav-banner.png" alt="Microsoft Dynamics NAV" width={1024} height={576}  priority = {true} />
             </div>
           </div>
         </div>

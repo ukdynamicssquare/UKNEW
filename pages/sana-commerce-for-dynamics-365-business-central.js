@@ -45,6 +45,7 @@ const Bcinsights = () => {
                 alt="Sana Commerce for Dynamics 365 Business Central"
                 width={1018}
                 height={687}
+                priority = {true}
               />
             </div>
           </div>

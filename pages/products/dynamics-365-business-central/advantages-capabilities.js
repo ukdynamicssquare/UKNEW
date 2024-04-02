@@ -53,6 +53,7 @@ const AdvantagesCapabilities = () => {
                 src="/img/advantage-capbilty.png"
                 alt="advantage-capbilty"
                 width={705} height={529}
+                priority = {true}
               />
             </div>
           </div>

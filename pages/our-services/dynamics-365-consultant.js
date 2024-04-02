@@ -25,7 +25,7 @@ const Dynamics365Consultant = () => {
                 <p>Get seamless support from top Dynamics 365 consultants based in UK to empower your business for growth, digital transformation, and success.</p>
               </div>
               <div className="col-lg-6">
-                <Image src="/img/Microsoft-Dynamics-365-consulting.png" alt="Microsoft-Dynamics-365-consulting" width={708} height={525} />
+                <Image src="/img/Microsoft-Dynamics-365-consulting.png" alt="Microsoft-Dynamics-365-consulting" width={708} height={525}  priority = {true} />
               </div>
             </div>
           </div>

@@ -54,6 +54,7 @@ const ManufacturingManagement = () => {
                 src="/img/manufacturing-management-banner.png"
                 alt="manufacturing-management-banner"
                 width={665} height={447}
+                priority = {true}
               />
             </div>
           </div>

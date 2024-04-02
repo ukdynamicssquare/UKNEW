@@ -68,6 +68,7 @@ const ImplementationServices = () => {
                 src="/img/implimenation-service-banner.png"
                 alt="Dynamics 365 implimenation service"
                 width={805} height={473}
+                priority = {true}
               />
             </div>
           </div>

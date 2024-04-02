@@ -39,6 +39,7 @@ const CrmTrading = () => {
                   src="/img/Dynamics-365-Business-Central.png"
                   alt="Business central casestudy"
                   width={1024} height={597}
+                  priority = {true}
                 />
               </div>
             </div>

@@ -47,6 +47,7 @@ const MicrosoftDynamicsPartnerGlasgow = () => {
                 src="/img/Microsoft-Dynamics-Partner-Glasgow.png"
                 alt="Microsoft-Dynamics-Partner-Glasgow"
                 width={768} height={501}
+                priority = {true}
               />
             </div>
           </div>

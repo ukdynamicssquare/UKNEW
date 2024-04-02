@@ -52,6 +52,7 @@ const BcNetSuite = () => {
                 alt="bc vs netsuite"
                 width={602}
                 height={315}
+                priority = {true}
               />
             </div>
           </div>

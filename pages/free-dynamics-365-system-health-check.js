@@ -44,9 +44,12 @@ const SystemHealth = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/why-Free-Health-Check-1024x-576.png"
                 alt="why-Free-Health-Check-1024x-576"
+                width={1024}
+                height={576}
+                priority = {true}
               />
             </div>
           </div>

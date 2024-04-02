@@ -59,6 +59,7 @@ Microsoft Dynamics 365 AI | Artificial intelligence
                 src="/img/Artificial-Intelligence-banner.png"
                 alt="AI-Banner"
                 width={723} height={499}
+                priority = {true}
               />
             </div>
           </div>

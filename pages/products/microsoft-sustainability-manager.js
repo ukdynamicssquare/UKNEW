@@ -43,6 +43,7 @@ const Microsoftsustainabilitymanager = () => {
                 src="/img/Microsoft-Sustainability-Manager.png"
                 alt="Microsoft Dynamics CRM"
                 width={665} height={447}
+                priority = {true}
               />
             </div>
           </div>

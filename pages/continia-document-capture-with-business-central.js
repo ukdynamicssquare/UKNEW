@@ -46,6 +46,7 @@ const Wms = () => {
                   src="/img/Continia-Document.png"
                   alt="Continia Document Capture"
                   width={960} height={666}
+                  priority = {true}
                 />
             </div>
           </div>

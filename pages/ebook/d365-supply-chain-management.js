@@ -102,7 +102,7 @@ const StartGuideThree = () => {
               <Image
                 src="/img/dynamics-SCM-Ebook-featured-banner.png"
                 alt="dynamics-SCM-Ebook-featured-banner"
-                width={800} height={600}
+                width={800} height={600} priority = {true}
               />
             </div>
           </div>

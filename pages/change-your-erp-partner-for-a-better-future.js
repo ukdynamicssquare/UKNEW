@@ -41,6 +41,7 @@ const UpgradeServices = () => {
                 alt="Change Your ERP Partner"
                width={723}
                height={517}
+               priority = {true}
               />
             </div>
           </div>

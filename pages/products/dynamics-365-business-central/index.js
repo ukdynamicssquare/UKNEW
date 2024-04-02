@@ -86,6 +86,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                 alt="Dynamics 365 Business Central partner"
                 width={1024}
                 height={597}
+                priority = {true}
               />
             </div>
           </div>

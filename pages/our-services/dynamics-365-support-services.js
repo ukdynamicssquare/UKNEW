@@ -53,6 +53,7 @@ const SupportServices = () => {
                 src="/img/support-service-banner.png"
                 alt="Microsoft Dynamics 365 Support"
                 width={805} height={473}
+                priority = {true}
               />
             </div>
           </div>

@@ -53,6 +53,7 @@ const SupplyChainManagements = () => {
                 src="/img/Supplychain-banner.png"
                 alt="Supplychain-banner"
                 width={665} height={447}
+                priority = {true}
               />
             </div>
           </div>

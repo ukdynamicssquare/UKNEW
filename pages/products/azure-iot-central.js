@@ -44,6 +44,7 @@ const AzureIoTCentral = () => {
                 src="/img/azure-iot-central-hero-image.svg"
                 alt="azure-iot-central-hero-image"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

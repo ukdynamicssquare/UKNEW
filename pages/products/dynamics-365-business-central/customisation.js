@@ -65,6 +65,7 @@ const Customisation = () => {
                   src="/img/Microsoft-Dynamics-365-Training.png"
                   alt="Microsoft-Dynamics-365-Training"
                   width={708} height={447}
+                  priority = {true}
                 />
               </div>
             </div>

@@ -45,7 +45,7 @@ const FinanceCloudvsOnpremise = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Dynamics365-SCM.png" alt="Dynamics365-SCM" width={668} height={507}/>
+              <Image src="/img/Dynamics365-SCM.png" alt="Dynamics365-SCM" width={668} height={507} priority = {true} />
             </div>
           </div>
         </div>

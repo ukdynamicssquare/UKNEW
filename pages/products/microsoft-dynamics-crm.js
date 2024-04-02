@@ -56,6 +56,7 @@ const MicrosoftDynamicsCrm = () => {
                 src="/img/CRM-header-banner.png"
                 alt="Microsoft Dynamics CRM"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

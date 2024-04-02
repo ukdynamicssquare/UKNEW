@@ -47,7 +47,7 @@ const Bccontinia = () => {
                 src="/img/Continia-bg.png"
                 alt="Continia for business central"
                 width={964}
-                height={452} />
+                height={452}   priority = {true} />
             </div>
           </div>
         </div>

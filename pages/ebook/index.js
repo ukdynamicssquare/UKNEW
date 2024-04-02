@@ -34,6 +34,7 @@ const EbookList = () => {
                 alt="Cover_Book_Moc"
                 width={582}
                 height={466}
+                priority = {true}
               />
             </div>
           </div>

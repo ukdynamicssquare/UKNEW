@@ -73,6 +73,7 @@ const MicrosoftDynamics365MixedReality = () => {
                 src="/img/Mixed-Reality-banner.png"
                 alt="D365 Mixed-Reality"
                 width={723} height={473}
+                priority = {true}
               />
             </div>
           </div>

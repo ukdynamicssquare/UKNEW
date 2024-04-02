@@ -24,9 +24,12 @@ const Locations = () => {
               <h2>Choose your location, we are here to help!</h2>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/Microsoft-Dynamics-Partner-Bristol-Location-768x501.png"
                 alt="Microsoft-Dynamics-Partner-Bristol-Location-768x501"
+                width={768}
+                height={501}
+                priority = {true}
               />
             </div>
           </div>

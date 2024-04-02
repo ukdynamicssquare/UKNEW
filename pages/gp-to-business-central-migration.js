@@ -58,6 +58,7 @@ const WhyMigrade360 = () => {
                 src="/img/why-migrate-36--banner.png"
                 alt="why-migrate-36--banner"
                 width={660} height={464}
+                priority = {true}
               />
             </div>
           </div>

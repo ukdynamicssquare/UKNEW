@@ -61,6 +61,7 @@ const PowerVirtualAgents = () => {
                 alt="virtual-agent-banner-01"
                 width={1024}
                 height={586}
+                priority = {true}
               />
             </div>
           </div>

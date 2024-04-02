@@ -61,6 +61,7 @@ const AzureIoT = () => {
                 alt="azure-Banner"
                 width={1024}
                 height={609}
+                priority = {true}
               />
             </div>
           </div>

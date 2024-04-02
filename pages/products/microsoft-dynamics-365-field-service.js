@@ -73,6 +73,7 @@ const FieldService = () => {
                 alt="Dynamics 365 Field Service"
                 width={771}
                 height={478}
+                priority = {true}
               />
             </div>
           </div>

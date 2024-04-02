@@ -73,6 +73,7 @@ const Index = () => {
                 src="/img/Supplychain banner.png"
                 alt="Dynamics 365 Supply Chain Management"
                 width={782} height={473}
+                priority = {true}
               />
             </div>
           </div>

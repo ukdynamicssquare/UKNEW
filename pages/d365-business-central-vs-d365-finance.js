@@ -47,7 +47,7 @@ const BCvsFinance = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/bcvsfinance.png" alt="bcvsfinance" width={562} height={298}/>
+              <Image src="/img/bcvsfinance.png" alt="bcvsfinance" width={562} height={298}   priority = {true} />
             </div>
           </div>
         </div>

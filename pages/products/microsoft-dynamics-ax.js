@@ -51,7 +51,7 @@ const MicrosoftDynamicsAX = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/ax-feature1.png" alt="Microsoft Dynamics AX" width={1024} height={609} />
+              <Image src="/img/ax-feature1.png" alt="Microsoft Dynamics AX" width={1024} height={609}  priority = {true} />
             </div>
           </div>
         </div>

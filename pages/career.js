@@ -28,7 +28,7 @@ const Career = () => {
                 </h1>
               </div>
               <div className="col-lg-6 align-self-center">
-                <img src="/img/carrer-banner.png" alt="carrer-banner" />
+                <Image src="/img/carrer-banner.png" alt="carrer-banner" width={747} height={473} priority = {true} />
               </div>
             </div>
           </div>

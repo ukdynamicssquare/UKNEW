@@ -45,6 +45,7 @@ const BusinessCentralSupport = () => {
                 alt="D365 Business Central Support-Banner"
                 width={1576}
                 height={1188}
+                priority = {true}
               />
             </div>
           </div>

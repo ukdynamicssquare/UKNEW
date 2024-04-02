@@ -60,6 +60,7 @@ const Finance = () => {
                 alt="business-center-new-banne"
                 width={868}
                 height={487}
+                priority = {true}
               />
             </div>
           </div>

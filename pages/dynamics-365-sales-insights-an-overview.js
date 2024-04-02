@@ -48,6 +48,7 @@ const SalesInsightsanOverview = () => {
                 src="/img/Sales-Insights-Overview-banner.png"
                 alt="Sales-Insights-Overview-banner"
                 width={793} height={497}
+                priority = {true}
               />
             </div>
           </div>

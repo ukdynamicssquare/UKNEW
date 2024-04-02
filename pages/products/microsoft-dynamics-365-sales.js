@@ -67,7 +67,7 @@ const colostyle= {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Sales-banner.png" alt="Dynamics 365 Sales" width={771} height={478} />
+              <Image src="/img/Sales-banner.png" alt="Dynamics 365 Sales" width={771} height={478}  priority = {true} />
             </div>
           </div>
         </div>

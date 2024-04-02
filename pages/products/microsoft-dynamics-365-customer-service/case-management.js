@@ -56,6 +56,7 @@ const CasetManagement = () => {
                 src="/img/Case-Management-Banner.png"
                 alt="Case-Management-Banner"
                 width={665} height={447}
+                priority = {true}
               />
             </div>
           </div>

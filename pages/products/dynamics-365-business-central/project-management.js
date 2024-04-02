@@ -39,6 +39,7 @@ const ProjectManagement = () => {
                 src="/img/Project-management-banner.png"
                 alt="Project-management-banner"
                 width={709} height={447}
+                priority = {true}
               />
             </div>
           </div>

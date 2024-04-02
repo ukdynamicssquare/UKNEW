@@ -57,6 +57,7 @@ const AzureIoTHub = () => {
                 src="/img/azure-iot-hub-banner.png"
                 alt="azure-iot-hub-banner"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

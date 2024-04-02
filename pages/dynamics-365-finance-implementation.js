@@ -53,6 +53,7 @@ const FinanceImplementation = () => {
                 src="/img/implimenation-service-banner.png"
                 alt="implimenation-service-banner"
                 width={805} height={473}
+                priority = {true}
               />
             </div>
           </div>

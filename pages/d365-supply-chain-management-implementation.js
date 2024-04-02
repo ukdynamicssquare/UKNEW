@@ -60,9 +60,12 @@ const SupplyChainImplementation = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img
+              <Image
                 src="/img/Supplychain banner.png"
                 alt="Supplychain Implementation banner"
+                width={782}
+                height={473}
+                priority = {true}
               />
             </div>
           </div>

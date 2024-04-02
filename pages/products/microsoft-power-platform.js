@@ -45,7 +45,7 @@ const PowerPlatform = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/power-platform.png" alt="power-platform" width={1024} height={586} />
+              <Image src="/img/power-platform.png" alt="power-platform" width={1024} height={586}  priority = {true} />
             </div>
           </div>
         </div>

@@ -42,9 +42,12 @@ const Wms = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img
+              <Image
                 src="/img/wms-bc-banner.png"
                 alt="wms business central mobile"
+                width={739}
+                height={471}
+                priority = {true}
               />
             </div>
           </div>

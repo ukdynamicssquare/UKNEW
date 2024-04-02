@@ -58,6 +58,7 @@ const BusinessCentralImplementation = () => {
                 src="/img/business-central-implementation-banner-1.svg"
                 alt="business-central-implementation-banner"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

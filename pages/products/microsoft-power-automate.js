@@ -55,6 +55,7 @@ const PowerAutomate = () => {
                 src="/img/power-automate-banner.svg"
                 alt="power-automate-banner"
                 width={1024} height={586}
+                priority = {true}
               />
             </div>
           </div>

@@ -36,7 +36,7 @@ const Dynamics365SalesCopilot = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/copilate-banner.png" alt="copilate-banner" width={728} height={447} />
+              <Image src="/img/copilate-banner.png" alt="copilate-banner" width={728} height={447}  priority = {true} />
             </div>
           </div>
         </div>

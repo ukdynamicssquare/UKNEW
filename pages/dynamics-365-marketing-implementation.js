@@ -58,9 +58,12 @@ const MarketingImplementation = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img
+              <Image
                 src="/img/FieldServicebanner.png"
                 alt="Field-implementation-banner"
+                width={771}
+                height={478}
+                priority = {true}
               />
             </div>
           </div>

@@ -56,7 +56,9 @@ const AboutUs = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <Image src="/img/about-pic.png" alt="About-us"
-                width={775} height={528} />
+                width={775} height={528} 
+                priority = {true}
+                />
               </div>
             </div>
           </div>
@@ -219,9 +221,9 @@ const AboutUs = () => {
                     <span>Co-Founder</span>
                     <p>"Nurturing people and investing in their capabilities to build a resilient organization."</p>
                   </div>
-                  {/* <div class="social">
+                  {/* <div className="social">
                     <Link href="https://www.linkedin.com/in/gauravg1">
-                      <i class="bi bi-linkedin"></i>
+                      <i className="bi bi-linkedin"></i>
                       </Link>
                     </div> */}
                 </div>
@@ -239,9 +241,9 @@ const AboutUs = () => {
                     <span>Co-Founder</span>
                     <p>"Helping companies with Digital Transformation using innovative Microsoft cloud technology"</p>
                   </div>
-                   <div class="social">
+                   <div className="social">
                     <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                      <a target="_blank"><i class="bi bi-linkedin" style={{fontSize:'26px'}}></i></a>
+                      <a target="_blank"><i className="bi bi-linkedin" style={{fontSize:'26px'}}></i></a>
                       </Link>
                     </div> 
                 </div>
@@ -256,9 +258,9 @@ const AboutUs = () => {
                     <span>The People Person</span>
                     <p>"Helping employees and organisations to achieve more through learning and development."</p>
                   </div>
-                  {/* <div class="social">
+                  {/* <div className="social">
                     <Link href="https://www.linkedin.com/in/dr-felton-lean-5941bb2b/">
-                      <i class="bi bi-linkedin"></i>
+                      <i className="bi bi-linkedin"></i>
                       </Link>
                     </div> */}
                 </div>

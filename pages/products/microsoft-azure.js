@@ -58,7 +58,7 @@ Microsoft Azure | Microsoft Azure Cloud Services
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/azurebanner.png" alt="microsoft-azure-Banner" width={728} height={466} />
+              <Image src="/img/azurebanner.png" alt="microsoft-azure-Banner" width={728} height={466}  priority = {true} />
             </div>
           </div>
         </div>

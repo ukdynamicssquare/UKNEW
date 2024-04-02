@@ -50,7 +50,7 @@ const BusinessCentralUpgrade = () => {
               <Image
                 src="/img/business-central-implementation-banner.svg"
                 alt="business-central-implementation-banner"
-                width={1024} height={586}
+                width={1024} height={586}   priority = {true}
               />
             </div>
           </div>

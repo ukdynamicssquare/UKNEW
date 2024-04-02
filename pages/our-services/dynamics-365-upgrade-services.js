@@ -51,6 +51,7 @@ const UpgradeServices = () => {
                 src="/img/upgrade-service-banner.png"
                 alt="Dynamics 365 Upgrade Services"
                 width={514} height={472}
+                priority = {true}
               />
             </div>
           </div>

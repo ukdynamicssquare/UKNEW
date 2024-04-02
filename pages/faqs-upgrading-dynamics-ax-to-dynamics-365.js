@@ -51,6 +51,7 @@ const FaqsUgradingDynamics = () => {
                 src="/img/AX-Dynamics-365-banner.png"
                 alt="AX-Dynamics-365-banner"
                 width={723} height={473}
+                priority = {true}
               />
             </div>
           </div>

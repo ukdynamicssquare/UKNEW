@@ -72,7 +72,7 @@ const ProjectOperations = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/project-operation-banner.png" alt="d365 project operation" />
+              <Image src="/img/project-operation-banner.png" alt="d365 project operation" width={778} height={506}  priority = {true} />
             </div>
           </div>
         </div>

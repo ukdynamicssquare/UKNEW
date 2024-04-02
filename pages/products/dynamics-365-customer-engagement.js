@@ -61,6 +61,7 @@ const Dynamics365CustomerEngagement = () => {
                 alt="D365 customer engagement"
                 width={699}
                 height={447}
+                priority = {true}
               />
             </div>
           </div>

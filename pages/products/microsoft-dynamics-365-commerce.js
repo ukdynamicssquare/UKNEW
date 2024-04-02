@@ -67,6 +67,7 @@ const Commerce = () => {
                 src="/img/commerce-banner.png"
                 alt="Dynamics 365 Commerce-Retail"
                 width={723} height={473}
+                priority = {true}
               />
             </div>
           </div>

@@ -86,7 +86,7 @@ const StartGuideOne = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center text-center">
-              <Image src="/img/three-book-mockup.png" alt="finance-banner-book" width={800} height={600} />
+              <Image src="/img/three-book-mockup.png" alt="finance-banner-book" width={800} height={600} priority = {true} />
             </div>
           </div>
         </div>

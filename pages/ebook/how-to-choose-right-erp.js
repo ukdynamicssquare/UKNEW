@@ -95,7 +95,7 @@ const Howtochooserighterp = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/erp-banner-book.png" alt="erp-banner-book" />
+              <Image src="/img/erp-banner-book.png" alt="erp-banner-book" width={980} height={578} priority = {true} />
             </div>
           </div>
         </div>

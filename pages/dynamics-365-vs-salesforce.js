@@ -42,6 +42,7 @@ const Dynamics365vsSalesForce = () => {
                 src="/img/dynamics-365-vs-salesforce-banner.png"
                 alt="dynamics-365-vs-salesforce-banner"
                 width={714} height={364}
+                priority = {true}
               />
             </div>
           </div>

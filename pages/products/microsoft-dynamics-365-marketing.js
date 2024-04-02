@@ -60,6 +60,7 @@ const Marketing = () => {
                 alt="Dynamics 365 Marketing"
                 width={808}
                 height={508}
+                priority = {true}
               />
             </div>
           </div>

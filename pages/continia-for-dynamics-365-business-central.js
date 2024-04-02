@@ -48,6 +48,7 @@ const Bccontinia = () => {
                 alt="Continia for business central"
                 width={964}
                 height={452}
+                priority = {true}
               />
             </div>
           </div>

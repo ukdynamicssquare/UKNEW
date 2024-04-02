@@ -37,7 +37,7 @@ const MigrateFandSC = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/why-migart.png" alt="why-migart" width={774} height={473} />
+              <Image src="/img/why-migart.png" alt="why-migart" width={774} height={473}  priority = {true} />
             </div>
           </div>
         </div>

@@ -52,6 +52,7 @@ const BCvsSap = () => {
                 alt="bc-vs-sap"
                 width={602}
                 height={315}
+                priority = {true}
               />
             </div>
           </div>

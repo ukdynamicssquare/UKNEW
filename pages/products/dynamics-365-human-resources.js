@@ -65,6 +65,7 @@ const HumanResource = () => {
                 src="/img/Human-Resource-banner.png"
                 alt="D365-Human-Resources"
                 width={778} height={473}
+                priority = {true}
               />
             </div>
           </div>

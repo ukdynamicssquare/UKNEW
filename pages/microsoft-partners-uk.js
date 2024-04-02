@@ -28,7 +28,7 @@ const PartnerUK = () => {
                 <p>We help businesses streamline operations, accelerate revenue, and eliminate complexities to achieve great success.</p>
               </div>
               <div className="col-lg-6">
-                <Image src="/img/microsoft-new-pic.png" alt="microsoft partners UK" width={751} height={566} />
+                <Image src="/img/microsoft-new-pic.png" alt="microsoft partners UK" width={751} height={566}  priority = {true} />
               </div>
             </div>
           </div>

@@ -52,6 +52,7 @@ const BusinessCentralFeatures = () => {
                 src="/img/Dynamics-365-Business-Central-Features-banner-side.png"
                 alt="Dynamics-365-Business-Central-Features-banner-side"
                 width={1576} height={1188}
+                priority = {true}
               />
             </div>
           </div>

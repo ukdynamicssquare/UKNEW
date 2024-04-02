@@ -172,6 +172,7 @@ const FinanceOperations = () => {
                 alt="Dynamics-365-Finance & operations-Banner"
                 width={868}
                 height={487}
+                priority = {true}
               />
             </div>
           </div>

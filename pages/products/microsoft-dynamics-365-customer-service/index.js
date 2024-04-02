@@ -68,6 +68,7 @@ const CustomerService = () => {
                 alt="Dynamics 365 Customer Service"
                 width={759}
                 height={513}
+                priority = {true}
               />
             </div>
           </div>

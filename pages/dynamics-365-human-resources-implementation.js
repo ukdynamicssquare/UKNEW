@@ -61,6 +61,7 @@ const HumanResourceImplementation = () => {
                 src="/img/Human-Resource-banner.png"
                 alt="Human-Resource-banner"
                 width={778} height={473}
+                priority = {true}
               />
             </div>
           </div>

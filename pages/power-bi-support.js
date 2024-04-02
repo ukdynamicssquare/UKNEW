@@ -43,7 +43,7 @@ const PowerBiSupport = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Power-BI-1024x586.webp" alt="Power-BI" width={1024} height={586} />
+              <Image src="/img/Power-BI-1024x586.webp" alt="Power-BI" width={1024} height={586}  priority = {true} />
             </div>
           </div>
         </div>
