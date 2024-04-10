@@ -118,7 +118,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                         <div className="blogs-info-list">
                           <div className="left-list">
                             <span className="user">
-                              <Link href={`/blog/author/${item.author.split(" ").join("-")}`}>{item.author}</Link>
+                              <Link href={`/blog/author/${encodeURIComponent(item.author.split(" ").join("-"))}`}>{item.author}</Link>
+                              
                             </span>
                             <span className="date">
                               <a>
@@ -175,10 +176,10 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                       <div className="blogs-content">
                         <div className="blogs-content-inner">
-                          <script>const trinityScript = document.createElement('script');
+                          {/* <script>const trinityScript = document.createElement('script');
                             trinityScript.setAttribute('fetchpriority', 'high');
                             trinityScript.src = 'https://trinitymedia.ai/player/trinity/2900012927/?pageURL=' + encodeURIComponent(window.location.href);
-                            document.body.appendChild(trinityScript);</script>
+                            document.body.appendChild(trinityScript);</script> */}
                           {parse(item.description)}
                           {/* {parse(item.description, {
                             replace: (domNode) => {

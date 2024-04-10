@@ -12243,6 +12243,39 @@ padding:0px 0px
 .pa-43{
   padding-top:25px
 }
+.com-sec-info{
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 30px 30px;
+}
+.com-sec-info h3{
+  text-align: center;
+  font-size: 22px;
+  color: var(--color-blue);
+  margin-bottom: 20px;
+
+}
+.cl-l{
+  display: flex;
+    gap: 5px;
+}
+.cl-l .col-l6{
+  flex-basis: 50%;
+  padding: 25px 0px 0px 0px;
+}
+.col-l6 p{
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.col-l6.col-l6-p p{
+  text-align: right;
+}
+.com-sec-info .cen-d{
+  margin-top: 25px;
+}
+.fsfs{
+  background-color: #f7f4f4;
+}
 @media (max-width: 1400px) {
 }
 

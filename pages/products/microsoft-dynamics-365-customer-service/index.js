@@ -78,7 +78,7 @@ const CustomerService = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-11">
+            <div className="col-lg-11">
               <header className="section-header">
                 <h2>
                   What is dynamics 365
@@ -209,7 +209,7 @@ const CustomerService = () => {
       <section className="busine_service_bottom">
         <div className="container">
         <div className="row justify-content-center">
-            <div class="col-lg-10">
+            <div className="col-lg-10">
               <header className="section-header">
                 <h2>Dynamics 365 Customer Service Capabilities </h2>
                 <p>D365 Customer Service can exceed your customer expectations from your business in minimal resources. Some of its capabilities that you should check are:  </p>
@@ -363,7 +363,7 @@ const CustomerService = () => {
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Dynamics 365 Customer Service Pricing</h2>
                 <p>Dynamics 365 Customer Service Pricing is simple and cost-effective for all businesses. It comes in two plans - Dynamics 365 Customer Service Professional and Enterprise.  </p>
@@ -767,7 +767,7 @@ const CustomerService = () => {
       <section className="blogs-extra">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Explore Our Recent Blogs & Resources</h2>
                 <p>
