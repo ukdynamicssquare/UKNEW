@@ -12410,6 +12410,12 @@ figure {
   }
 }
 @media (max-width: 992px) {
+  .left-side-hed {
+    margin-top: 0%;
+    top: initial;
+    transform: inherit;
+    padding-bottom: 20px;
+}
   .cont-into-bg .addre-rigt:after {
     display: none;
   }

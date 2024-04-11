@@ -55,7 +55,7 @@ const ShopifyConnectorBusinessCentral = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-10 col-md-9">
+            <div className="col-lg-10">
               <header className="section-header">
                 <h2>Uplift your E-commerce Business with the Collaboration of Shopify and Business Central </h2>
                 <p>In a world of sheer market competition, the success of a business depends on the systematic approach of leveraging technologies to simplify business operations and make data-driven decisions for better output. The collaboration of Dynamics 365 Business Central and Shopify can empower you to maximise profits and achieve your goals on time. </p>
@@ -159,7 +159,7 @@ const ShopifyConnectorBusinessCentral = () => {
 
       <section className="Solution-business-why">
         <div className="container">
-          <div className="row">
+          <div className="row rever-1">
             <div className="col-lg-6">
               <img src="/img/Project-operation-side image.png" alt="" />
             </div>
@@ -406,7 +406,7 @@ const ShopifyConnectorBusinessCentral = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-10 col-md-9">
+            <div className="col-lg-10">
               <header className="section-header">
                 <h2>Benefits of Shopify Connector </h2>
                 <p>The integration of Shopify with Business Central features numerous benefits for businesses. Some of the major benefits are: </p>
