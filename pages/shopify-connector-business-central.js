@@ -369,8 +369,8 @@ const ShopifyConnectorBusinessCentral = () => {
             <div className="row">
               <div className="col-lg-4">
                 <div class="left-side-hed">
-                  <h2>See how our customers drive impact</h2>
-                  <p>See how our customers drive impact By implementing Dynamics 365 Business Applications</p>
+                  <h2>Successful Shopify Integration with Business Central</h2>
+                  <p>We have integrated Shopify Connector into different industries to resolve the complex challenges and push them towards growth. Some of the case studies are:</p>
                 </div>
               </div>
               <div className="col-lg-1"></div>
