@@ -17,7 +17,21 @@ const ShopifyConnectorBusinessCentral = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/shopify-connector-business-central/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Shopify Connector for Business Central & Integration | Dynamics Square UK" />
+        <meta property="og:description" content="Streamline your operations with our Shopify Connector for Business Central, enabling seamless integration and efficient management. Boost your productivity now!" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/shopify-connector-business-central/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Shopify-Connector-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Shopify Connector for Business Central & Integration | Dynamics Square UK" />
+        <meta name="twitter:description" content="Streamline your operations with our Shopify Connector for Business Central, enabling seamless integration and efficient management. Boost your productivity now!" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Shopify-Connector-banner.png" />
       </Head>
 
 
@@ -25,7 +39,7 @@ const ShopifyConnectorBusinessCentral = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Shopify Connector for Microsoft Dynamics 365 Business Central </h1>
+              <h1>Shopify Connector for Microsoft Dynamics 365 Business Central</h1>
               <p>Digitalise your commerce business to serve global customers, earn maximised profits, and simplify your business operations with Shopify Connector for Microsoft Dynamics 365 Business Central.</p>
               <div>
                 <div className="text-center text-lg-start">
@@ -42,10 +56,10 @@ const ShopifyConnectorBusinessCentral = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/insightworks.png"
+                src="/img/Shopify-Connector-banner.png"
                 alt="Insights Works for Dynamics 365 Business Central"
-                width={991}
-                height={666}
+                width={1224}
+                height={672}
                 priority={true}
               />
             </div>
@@ -150,8 +164,8 @@ const ShopifyConnectorBusinessCentral = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <img src="/img/Project-operation-side image.png" alt="" />
+            <div className="col-lg-6 align-self-center">
+              <Image src="/img/all-in-one-bc.png" alt="all-in-one-bc" width={950} height={545} />
             </div>
           </div>
         </div>
@@ -160,8 +174,8 @@ const ShopifyConnectorBusinessCentral = () => {
       <section className="Solution-business-why">
         <div className="container">
           <div className="row rever-1">
-            <div className="col-lg-6">
-              <img src="/img/Project-operation-side image.png" alt="" />
+            <div className="col-lg-6 align-self-center">
+            <Image src="/img/Interactive-Shopfront.png" alt="Interactive-Shopfront" width={946} height={529} />
             </div>
             <div className="col-lg-6">
               <h2>Shopify: Your Interactive Shopfront for Global Customers </h2>
@@ -252,7 +266,7 @@ const ShopifyConnectorBusinessCentral = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <h2>Shopify Connector: Connect your Business Central with Shopify </h2>
+              <h2>Automate Your E-Commerce with the Shopify Connector</h2>
               <p>The Shopify Connector is an application that can establish a connection between Business Central and Shopify with ease. It builds a reciprocating connection between solutions so that an update in one of the solutions will take place in both and in real-time. </p>
 
               <p>With a full-user Business Central licence, a user can access Shopify Connector from Microsoft’s marketplace. After downloading, one can proceed to establish a connection by entering the necessary information, like APIs or access keys. </p>
@@ -270,7 +284,7 @@ const ShopifyConnectorBusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin7"
                       >
-                        <span>Optimised Order Management </span>
+                        <span>BI-Directional Sync</span>
                       </button>
                     </h3>
                     <div
@@ -294,7 +308,7 @@ const ShopifyConnectorBusinessCentral = () => {
                         aria-expanded="false"
                         aria-controls="fin8"
                       >
-                        <span>Auto Inventory Updates </span>
+                        <span>Streamline Stock Management</span>
                       </button>
                     </h3>
                     <div
@@ -334,8 +348,8 @@ const ShopifyConnectorBusinessCentral = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <img src="/img/Project-operation-side image.png" alt="" />
+            <div className="col-lg-6 align-self-center">
+            <Image src="/img/Automate-Your-E-Commerce.png" alt="Automate-Your-E-Commerce" width={870} height={513} />
             </div>
           </div>
         </div>
@@ -419,8 +433,8 @@ const ShopifyConnectorBusinessCentral = () => {
              <div className="style-grid-1">
                <div className="style-grid-icons">
                  <Image
-                   src="/img/supply-chain-icons.svg"
-                   alt="supply-chain-icons"
+                   src="/img/Increased-Sales-sofi.png"
+                   alt="Increased-Sales-sofi"
                    width={94} height={94}
                  />
                </div>
@@ -432,7 +446,7 @@ const ShopifyConnectorBusinessCentral = () => {
 
              <div className="style-grid-1">
                <div className="style-grid-icons">
-                 <Image src="/img/marketing-icons.svg" alt="marketing-icons"  width={94} height={94} />
+                 <Image src="/img/_Lowered-Overall-Costs.png" alt="Lowered-Overall-Costs"  width={94} height={94} />
                </div>
                <div className="style-grid-content">
                  <h3>Lowered Overall Costs </h3>
@@ -443,8 +457,8 @@ const ShopifyConnectorBusinessCentral = () => {
              <div className="style-grid-1">
                <div className="style-grid-icons">
                  <Image
-                   src="/img/Field-Service-icons.svg"
-                   alt="Field-Service-icons"
+                   src="/img/_Enhanced-Inventory-Management.png"
+                   alt="Enhanced-Inventory-Management"
                    width={94} height={94}
                  />
                </div>
@@ -458,7 +472,7 @@ const ShopifyConnectorBusinessCentral = () => {
            <div className="col-lg-6">
              <div className="style-grid-1">
                <div className="style-grid-icons">
-                 <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
+                 <Image src="/img/Increased-Customer-Satisfaction.png" alt="Increased-Customer-Satisfaction" width={94} height={94} />
                </div>
                <div className="style-grid-content">
                  <h3>Increased Customer Satisfaction </h3>
@@ -467,7 +481,7 @@ const ShopifyConnectorBusinessCentral = () => {
              </div>
              <div className="style-grid-1">
                <div className="style-grid-icons">
-                 <Image src="/img/sales.svg" alt="sales"  width={94} height={94} />
+                 <Image src="/img/_Centralises-Data.png" alt="Centralises-Data"  width={94} height={94} />
                </div>
                <div className="style-grid-content">
                  <h3>Centralises Data </h3>
@@ -476,7 +490,7 @@ const ShopifyConnectorBusinessCentral = () => {
              </div>
              <div className="style-grid-1">
                <div className="style-grid-icons">
-                 <Image src="/img/Customer-Service.svg" alt="Customer-Service"  width={94} height={94} />
+                 <Image src="/img/_Improved-Data-Accuracy-sofi.png" alt="Improved-Data-Accuracy-sofi"  width={94} height={94} />
                </div>
                <div className="style-grid-content">
                  <h3>Improved Data Accuracy </h3>
