@@ -86,7 +86,7 @@ const ShopifyConnectorBusinessCentral = () => {
           <div className="row">
             <div className="col-lg-6">
               <h2>Business Central: Your all-in-one Business Management Solution </h2>
-              <p>Microsoft Dynamics 365 Business Central is a powerful yet flexible solution with advanced tools and capabilities to manage a business from scratch. D365 BC is a cloud-based solution that can streamline different processes, centralise the entire database, offer collaboration opportunities, and empower you to make real-time decisions. </p>
+              <p><Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> is a powerful yet flexible solution with advanced tools and capabilities to manage a business from scratch. D365 BC is a cloud-based solution that can streamline different processes, centralise the entire database, offer collaboration opportunities, and empower you to make real-time decisions. </p>
               <p>For e-commerce companies, the implementation of Business Central acts as a backend solution that manages all back-office functions with full accuracy. However, it can perform other functions as well, like: </p>
               <div className="finace-acc finace-acc-nn" style={{ paddingTop: '20px' }}>
                 <div className="accordion" id="accnew">
@@ -269,7 +269,7 @@ const ShopifyConnectorBusinessCentral = () => {
               <h2>Automate Your E-Commerce with the Shopify Connector</h2>
               <p>The Shopify Connector is an application that can establish a connection between Business Central and Shopify with ease. It builds a reciprocating connection between solutions so that an update in one of the solutions will take place in both and in real-time. </p>
 
-              <p>With a full-user Business Central licence, a user can access Shopify Connector from Microsoft’s marketplace. After downloading, one can proceed to establish a connection by entering the necessary information, like APIs or access keys. </p>
+              <p>With a full-user <Link href="/dynamics-365-business-central-pricing-licensing/"><a>Business Central licence</a></Link>, a user can access Shopify Connector from Microsoft’s marketplace. After downloading, one can proceed to establish a connection by entering the necessary information, like APIs or access keys. </p>
 
               <p>The integration of Shopify with Business Central will eliminate manual ways of entering data into the system while automating different core e-commerce processes. Some of the major features you will be getting after successful integration are: </p>
               <div className="finace-acc finace-acc-nn" style={{ paddingTop: '20px' }}>
@@ -407,7 +407,7 @@ const ShopifyConnectorBusinessCentral = () => {
                   <div className="right-card">
                     <h3>Case Study 3: </h3>
                     <div className="right-card-con">
-                      <p><span>Challenge:</span>An electronics business is facing delays in processing online orders due to manual data entry in their ERP system. This critical issue is leading the business towards low order fulfilment rates and unsatisfied customers.</p>
+                      <p><span>Challenge:</span>An electronics business is facing delays in processing online orders due to manual data entry in their <Link href="/products/microsoft-dynamics-erp/"><a>ERP system</a></Link>. This critical issue is leading the business towards low order fulfilment rates and unsatisfied customers.</p>
                       <p><span className="blu">Solution:</span>The integration of Business Central with Shopify through Shopify Connector has solved the issue they were facing. Now, they can fulfil orders on time, eliminating the need to enter manual data. Also, the processing time has increased, and customers are happy with the service they are offering.</p>
                     </div>
                   </div>
