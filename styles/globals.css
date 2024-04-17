@@ -12410,6 +12410,19 @@ figure {
   }
 }
 @media (max-width: 992px) {
+  .cl-l {
+    flex-wrap: wrap;
+}
+.cl-l .col-l6 {
+  flex-basis: 100%;
+}
+.col-l6.col-l6-p p {
+  text-align: left;
+}
+.com-sec-info h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
   .left-side-hed {
     margin-top: 0%;
     top: initial;
