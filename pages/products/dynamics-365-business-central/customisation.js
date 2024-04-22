@@ -12,13 +12,10 @@ const Customisation = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <title>
-          Microsoft Dynamics 365 Training UK | Dynamics Square
-        </title>
+        <title>Customising: Microsoft Business Central | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Get Dynamics 365 trainings from the UK's leading Microsoft Solution Partners to properly utilize the solution and get most out of it."
+          content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance."
         />
         <link
           rel="canonical"
@@ -26,21 +23,19 @@ const Customisation = () => {
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
-        <meta property="og:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
+        <meta property="og:title" content="Customising: Microsoft Business Central | Dynamics Square UK" />
+        <meta property="og:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/customisation/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Microsoft-Cloud-Financial-Services-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Asset Management in Supply Chain Management | Dynamics Square UK" />
-        <meta name="twitter:description" content="Asset management in supply chain to optimise inventory, reduce costs, and improve efficiency. Key to seamless operations and customer satisfaction." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Microsoft-Cloud-Financial-Services-banner.png" />
-
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="twitter:title" content="Customising: Microsoft Business Central | Dynamics Square UK" />
+        <meta name="twitter:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero">
@@ -62,9 +57,9 @@ const Customisation = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <Image
-                  src="/img/Microsoft-Dynamics-365-Training.png"
-                  alt="Microsoft-Dynamics-365-Training"
-                  width={708} height={447}
+                  src="/img/Customise-Business-banner.png"
+                  alt="Customise-Business-banner"
+                  width={1120} height={672}
                   priority = {true}
                 />
               </div>
@@ -161,9 +156,9 @@ const Customisation = () => {
         <section className="industry_service_bottoms">
           <div className="container">
             <div
-              class="row justify-content-center"
+              className="row justify-content-center"
             >
-              <div class="col-lg-9">
+              <div className="col-lg-9">
                   <header className="section-header">
                     <h2>Possible Customisations with Business Central</h2>
                     <p>In general, Business Central offers endless possibilities of customisation that enable you to tailor it to your business requirements. However, some of the major customisations that must be discussed are given below: </p>
@@ -177,8 +172,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-commerce_user-experience.svg"
-                      alt="icons-commerce_user-experienc.svg"
+                      src="/img/User-Interface-bc.png"
+                      alt="User-Interface-bc.png"
                     />
                   </div>
                   <div className="card_new_content">
@@ -189,8 +184,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Extensions-bc.png"
+                      alt="Extensions-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -201,8 +196,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Data-Model-bc.png"
+                      alt="Data-Model-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -213,8 +208,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Reports and Dashboards.png"
+                      alt="Reports and Dashboards"
                     />
                   </div>
                   <div className="card_new_content">
@@ -225,8 +220,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Security-Permissions-bc.png"
+                      alt="Security-Permissions-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -240,8 +235,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/connect-collaborate-1.svg"
-                      alt="connect-collaborate-1"
+                      src="/img/Localisation-bc.png"
+                      alt="Localisation-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -252,8 +247,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-implementation-service_Sales-.svg"
-                      alt="icons-implementation-service_Sales-"
+                      src="/img/Branding-bc.png"
+                      alt="Branding-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -264,8 +259,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Workflow-Automation-bc.png"
+                      alt="Workflow-Automation-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -276,8 +271,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Role-based-Access-bc.png"
+                      alt="Role-based-Access-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -288,8 +283,8 @@ const Customisation = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Customer-Feedback- (1).svg"
-                      alt="Business Central Upgrade-icons"
+                      src="/img/Customise-Design-and-Personalisation-bc.png"
+                      alt="Customise-Design-and-Personalisation-bc"
                     />
                   </div>
                   <div className="card_new_content">
@@ -330,9 +325,9 @@ const Customisation = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <Image
-                      src="/img/proffesional service side.png"
+                      src="/img/Customise-Business-side-pic.png"
                       className="fix-im"
-                      alt="proffesional service side"
+                      alt="Customise-Business-side"
                       width={553} height={541}
                     />
 
