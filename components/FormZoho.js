@@ -17,7 +17,7 @@ const FormZoho = () => {
 
     try {
       // Exchange refresh token for access token
-      const authResponse = await fetch('https://accounts.zoho.com/oauth/v2/token', {
+      const authResponse = await fetch('https://accounts.zoho.in/oauth/v2/token', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ const FormZoho = () => {
         },
       };
 
-      const apiResponse = await fetch('https://www.zohoapis.com/crm/v2/Leads', {
+      const apiResponse = await fetch('https://www.zohoapis.in/crm/v2/Leads', {
         method: 'POST',
         headers: {
           'Authorization': `Zoho-oauthtoken ${accessToken}`,
