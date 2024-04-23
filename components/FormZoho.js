@@ -1,7 +1,4 @@
-// components/ContactForm.js
-
 import { useState } from 'react';
-import axios from 'axios';
 
 const FormZoho = () => {
   const [formData, setFormData] = useState({
@@ -20,17 +17,22 @@ const FormZoho = () => {
 
     try {
       // Exchange refresh token for access token
-      const authResponse = await axios.post(
-        'https://accounts.zoho.in/oauth/v2/token',
-        {
+      const authResponse = await fetch('https://accounts.zoho.com/oauth/v2/token', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+
           refresh_token: '1000.bd063b1f5307ae842054d5247eb54cfd.a8ea6e3c82be093cdad397a6f4c37f4b',
           client_id: '1000.RCESGIFMS3K5CP9EDQTCLP7VH9081W',
           client_secret: 'aacee8f5995bab8e889ba09fe80766d3cf2451a389',
           grant_type: 'refresh_token',
-        }
-      );
+        }),
+      });
 
-      const accessToken = authResponse.data.access_token;
+      const authData = await authResponse.json();
+      const accessToken = authData.access_token;
 
       // Use access token to make authenticated request to Zoho CRM API
       const leadData = {
@@ -43,18 +45,17 @@ const FormZoho = () => {
         },
       };
 
-      const apiResponse = await axios.post(
-        'https://www.zohoapis.in/crm/v2/Leads',
-        leadData,
-        {
-          headers: {
-            'Authorization': `Zoho-oauthtoken ${accessToken}`,
-            'Content-Type': 'application/json',
-          },
-        }
-      );
+      const apiResponse = await fetch('https://www.zohoapis.com/crm/v2/Leads', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Zoho-oauthtoken ${accessToken}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(leadData),
+      });
 
-      console.log(apiResponse.data);
+      const responseData = await apiResponse.json();
+      console.log(responseData);
 
       // Handle success
       console.log('Form submitted successfully!');
@@ -115,3 +116,4 @@ const FormZoho = () => {
 };
 
 export default FormZoho;
+
