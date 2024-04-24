@@ -7,16 +7,31 @@ const EbookList = () => {
   return (
     <>
       <Head>
-        <title>Ebook | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 eBooks | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Ebook Ultimate Guide to Choose the Right ERP For Your Business Learn More +"
+          content="Get your business to new heights with our Microsoft Dynamics 365 e-books and guides. Download now Today!"
         />
         <meta
           name="robots"
           content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         />
         <link rel="canonical" href="https://www.dynamicssquare.co.uk/ebook/" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Dynamics 365 eBooks | Dynamics Square UK" />
+        <meta property="og:description" content="Get your business to new heights with our Microsoft Dynamics 365 e-books and guides. Download now Today!" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/shopify-connector-business-central/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Cover_Book_Moc.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 eBooks | Dynamics Square UK" />
+        <meta name="twitter:description" content="Get your business to new heights with our Microsoft Dynamics 365 e-books and guides. Download now Today!" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Cover_Book_Moc.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
