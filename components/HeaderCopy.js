@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Image from "next/image";
 
 
-class Header extends Component {
+class HeaderCopy extends Component {
   componentDidMount() {
     let elementId = document.getElementById("header");
     document.addEventListener("scroll", () => {
@@ -1906,4 +1906,4 @@ class Header extends Component {
     );
   }
 }
-export default Header;
+export default HeaderCopy;
