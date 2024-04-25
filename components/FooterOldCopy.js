@@ -1,11 +1,11 @@
 import React, { useRef ,useState } from 'react';
-import Form from "./Form";
+import Form from "./FormOldCopy";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
 import Link from "next/link"; 
-const Footerold = () =>{
+const FooterOldCopy = () =>{
   
   const router = useRouter();
   const [display, setDisplay] = useState("dspn");
@@ -517,4 +517,4 @@ const Footerold = () =>{
     
     );
     }
-    export default Footerold
+    export default FooterOldCopy

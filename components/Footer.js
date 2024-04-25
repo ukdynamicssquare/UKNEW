@@ -1,4 +1,4 @@
-import React, { useRef ,useState } from 'react';
+import React, { useRef ,useState, useEffect } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
@@ -17,30 +17,72 @@ const Footer = () =>{
             .forEach(el => el.classList.remove("modal-backdrop"));
 }
 
-
-  const sendEmail = (e) => {
-    setDisplay("spinner-border text-success");
-    e.preventDefault();
-
-    emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
-
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-     
-      setTimeout(function() {
-        setCloseModal(true);
-        e.target.reset();
-        router.push("/thank-you/");
-      }, 500);
-      
+useEffect(() => {
+  // Load the Zoho script after DOM content is fully loaded
+  const loadScript = () => {
+    const script = document.createElement('script');
+    script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=7d98a8d359385b8d1798afa307a3c86d82bc80479df2e27b3a3c26ffc2a8ecd4aad0079010bb1de7c7499400fdc67cf9gidcb2e56e93109ad2008b2af840003a6d2a3190cf7c200ad12b766709849a5f597gid8a9ff4b6ce4e5d9b5e45f3bd3c55c86ef2a5bdbd2b757611fcfed3ff6306239egid6b7817c2b1048dc191afa600364b3bd1f34a12242ccaa99750718688c3d1e8bf&tw=0aa0ddf528e1e51427b4c971acb9d65405e7d1f11fdc8824cf64f544cd4d80bd`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+    script.async = true;
+    document.body.appendChild(script);
   };
+
+  if (document.readyState === 'complete') {
+    loadScript();
+  } else {
+    window.addEventListener('DOMContentLoaded', loadScript);
+  }
+
+  // Clean up function to remove the script when the component unmounts
+  return () => {
+    const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
+    if (script) {
+      script.remove();
+    }
+  };
+}, []);
+
+const handleSubmit = async (event) => {
+  setDisplay("spinner-border text-success");
+  event.preventDefault();
+  setDisplay("spinner-border text-success");
+  const formData = new FormData(event.target);
+  const url = 'https://crm.zoho.in/crm/WebToLeadForm';
+
+  try {
+      // Send email using EmailJS
+      await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', event.target, 'xIFtTfBj6NR498Plv');
+
+
+      // Submit form data to Zoho CRM
+      const response = await fetch(url, {
+          method: 'POST',
+          body: formData
+      });
+
+      if (response.ok) {
+          console.log('Form submitted successfully!');
+          // Reset form fields manually
+          event.target.querySelectorAll('input, textarea').forEach((field) => {
+              field.value = '';
+              // router.push('/thank-you/');
+          });
+
+          // Redirect to thank you page after 4 seconds
+          setTimeout(() => {
+            event.target.reset();
+              router.push('/thank-you/');
+          }, 100);
+      } else {
+          console.error('Failed to submit form:', response.statusText);
+      }
+  } catch (error) {
+      console.error('Error submitting form:', error);
+  }
+};
 
     return(
     <>
-    {!closeModal && 
+     {!closeModal && 
      <div
         className="modal fade form-main-model"
         id="exampleModal"
@@ -70,14 +112,22 @@ const Footer = () =>{
               with one of our Microsoft consultants.
             </p>
             <div className="modal-body">
-              <div className="main-form-wrper">
-                <form ref={form} onSubmit={sendEmail}>
+            <div className="main-form-wrper">
+             <form id='webform196947000014082098' onSubmit={handleSubmit} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082098' method='POST' acceptCharset='UTF-8'>
+             <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
+            value='1976372d81c8c887ec22b7f1cf5b83d759ddc661af97f10f96048ab274a9c79f' />
+                <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+                <input type='text' style={{ display: 'none' }} name='xmIwtLD'
+            value='37198717f72b12d3ca5e9b417164021d99d42e235ca33ef82c2cb73bd9907f883cb6752fe91da7174d2a0d4ea743d0bc' />
+                <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
+                <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
                   <div className="mb-3">
                     <input
                       type="text"
+                      id='Last_Name'
                       className="form-control"
                       placeholder="*Full Name"
-                      name="name"
+                      name="Last Name"
                       required
                     />
                     <input type="hidden" value={router.asPath} name="url" />
@@ -85,10 +135,11 @@ const Footer = () =>{
 
                   <div className="mb-3">
                     <input
+                      id='Email'
                       type="email"
                       className="form-control"
                       placeholder="*Work Email"
-                      name="email"
+                      name="Email"
                       pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
                     />
@@ -96,18 +147,20 @@ const Footer = () =>{
                   <div className="mb-3">
                     <input
                       type="text"
+                      id='Company'
                       className="form-control"
                       placeholder="*Company Name"
-                      name="company_name"
+                      name="Company"
                       required
                     />
                   </div>
                   <div className="mb-3">
                     <input
                       type="tel"
+                      id='Phone'
                       className="form-control"
                       placeholder="*Phone Number"
-                      name="phone"
+                      name="Phone"
                       pattern="^\d{10,13}$"
                       required
                     />
@@ -115,10 +168,10 @@ const Footer = () =>{
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      id="exampleFormControlTextarea1"
+                      id='Description'
                       placeholder="*How Can We Help You?"
                       rows="3"
-                      name="message"
+                      name="Description"
                       required
                     ></textarea>
                   </div>
@@ -128,10 +181,8 @@ const Footer = () =>{
                       checked
                       readOnly
                       className="form-check-input"
-                      id="exampleCheck1"
-                      aria-labelledby="lbl-main-checkbox"
                     />
-                    <label className="form-check-label" htmlFor="exampleCheck1">
+                    <label className="form-check-label">
                       I agree to the
                       <a href="/privacy-policy/" target="_blank">
                         {" "}
@@ -153,9 +204,9 @@ const Footer = () =>{
                     >
                       Submit
                     </button>
-                    <div className={display} role="status">
+                    {/* <div className={display} role="status">
                       <span className="visually-hidden">Loading...</span>
-                    </div>
+                    </div> */}
                   </div>
                 </form>
               </div>
