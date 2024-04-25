@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Image from "next/image";
 import PulseButton from "./PulseButton";
+import TimerModal from "./TimerModal";
 
 
 class Header extends Component {
@@ -22,6 +23,7 @@ class Header extends Component {
   render() {
     return (
       <>
+      <TimerModal />
         <header id="header" className="header">
           <div className="top-header-sec">
             <a href="mailto:info@dynamicssquare.co.uk">
