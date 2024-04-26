@@ -217,6 +217,9 @@ section {
   line-height: 1.6;
   font-weight: 500;
 }
+.main-form-wrper .text-danger{
+  font-size: 13px;
+}
 .faq .accordion-button {
   line-height: 28px;
 }

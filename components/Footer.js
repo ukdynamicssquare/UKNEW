@@ -1,221 +1,306 @@
-import React, { useRef ,useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
-import Link from "next/link"; 
-const Footer = () =>{
-  
+import Link from "next/link";
+const Footer = () => {
+
   const router = useRouter();
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [phoneError, setPhoneError] = useState("");
+  const [companyNameError, setCompanyNameError] = useState("");
+  const [messageError, setMessageError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
-  const [closeModal, setCloseModal]  = useState(false);
-  function handleCloseModal(){            
+  const [closeModal, setCloseModal] = useState(false);
+  function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
-            .forEach(el => el.classList.remove("modal-backdrop"));
-}
-
-useEffect(() => {
-  // Load the Zoho script after DOM content is fully loaded
-  const loadScript = () => {
-    const script = document.createElement('script');
-    script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=7d98a8d359385b8d1798afa307a3c86d82bc80479df2e27b3a3c26ffc2a8ecd4aad0079010bb1de7c7499400fdc67cf9gidcb2e56e93109ad2008b2af840003a6d2a3190cf7c200ad12b766709849a5f597gid8a9ff4b6ce4e5d9b5e45f3bd3c55c86ef2a5bdbd2b757611fcfed3ff6306239egid6b7817c2b1048dc191afa600364b3bd1f34a12242ccaa99750718688c3d1e8bf&tw=0aa0ddf528e1e51427b4c971acb9d65405e7d1f11fdc8824cf64f544cd4d80bd`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
-    script.async = true;
-    document.body.appendChild(script);
-  };
-
-  if (document.readyState === 'complete') {
-    loadScript();
-  } else {
-    window.addEventListener('DOMContentLoaded', loadScript);
+      .forEach(el => el.classList.remove("modal-backdrop"));
   }
 
-  // Clean up function to remove the script when the component unmounts
-  return () => {
-    const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
-    if (script) {
-      script.remove();
+  useEffect(() => {
+    // Load the Zoho script after DOM content is fully loaded
+    const loadScript = () => {
+      const script = document.createElement('script');
+      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=7d98a8d359385b8d1798afa307a3c86d82bc80479df2e27b3a3c26ffc2a8ecd4aad0079010bb1de7c7499400fdc67cf9gidcb2e56e93109ad2008b2af840003a6d2a3190cf7c200ad12b766709849a5f597gid8a9ff4b6ce4e5d9b5e45f3bd3c55c86ef2a5bdbd2b757611fcfed3ff6306239egid6b7817c2b1048dc191afa600364b3bd1f34a12242ccaa99750718688c3d1e8bf&tw=0aa0ddf528e1e51427b4c971acb9d65405e7d1f11fdc8824cf64f544cd4d80bd`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    if (document.readyState === 'complete') {
+      loadScript();
+    } else {
+      window.addEventListener('DOMContentLoaded', loadScript);
+    }
+
+    // Clean up function to remove the script when the component unmounts
+    return () => {
+      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
+      if (script) {
+        script.remove();
+      }
+    };
+  }, []);
+
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+    return emailRegex.test(String(email).toLowerCase());
+  };
+
+  const validatePhone = (phone) => {
+    const phoneRegex = /^\d{10,13}$/;
+    const isValid = phoneRegex.test(phone);
+    if (!isValid && phone.length > 0) {
+      setPhoneError("Please enter a valid phone number (10-13 digits).");
+    } else {
+      setPhoneError("");
+    }
+    return isValid;
+  };
+
+  const validateName = (Last_Name) => {
+    if (!Last_Name) {
+      setNameError("Please enter your full name.");
+      return false;
+    } else {
+      setNameError("");
+      return true;
     }
   };
-}, []);
 
-const handleSubmit = async (event) => {
-  setDisplay("spinner-border text-success");
-  event.preventDefault();
-  setDisplay("spinner-border text-success");
-  const formData = new FormData(event.target);
-  const url = 'https://crm.zoho.in/crm/WebToLeadForm';
+  const validateCompanyName = (companyName) => {
+    if (!companyName) {
+      setCompanyNameError("Please enter your company name.");
+      return false;
+    } else {
+      setCompanyNameError("");
+      return true;
+    }
+  };
 
-  try {
-      // Send email using EmailJS
-      await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', event.target, 'xIFtTfBj6NR498Plv');
+  const validateMessage = (message) => {
+    if (!message) {
+      setMessageError("Please enter your message.");
+      return false;
+    } else {
+      setMessageError("");
+      return true;
+    }
+  };
 
+  const sendEmail = async (e) => {
+    e.preventDefault();
 
-      // Submit form data to Zoho CRM
-      const response = await fetch(url, {
+    // Ensure that form.current is defined before accessing its properties
+    if (!form.current) {
+      console.error("Form reference is not set.");
+      return;
+    }
+
+    const formData = new FormData(form.current);
+    const url = 'https://crm.zoho.in/crm/WebToLeadForm';
+    let isValid = true;
+
+    isValid = validateName(formData.get('Last Name')) && isValid;
+    isValid = validateCompanyName(formData.get('Company')) && isValid;
+    isValid = validateMessage(formData.get('Description')) && isValid;
+
+    const email = formData.get('Email');
+    if (!validateEmail(email)) {
+      setEmailError("Please enter a valid work email address.");
+      isValid = false;
+    } else {
+      setEmailError(""); // Clear email error if email is valid
+    }
+
+    const phone = formData.get('phone');
+    if (phone && !validatePhone(phone)) {
+      isValid = false;
+    }
+
+    if (isValid) {
+      setIsSubmitting(true); // Start loading animation
+
+      try {
+        await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
+        const response = await fetch(url, {
           method: 'POST',
           body: formData
-      });
+        });
+       
+        if (!response.ok) {
+          throw new Error('Failed to submit form');
+        }
 
-      if (response.ok) {
-          console.log('Form submitted successfully!');
-          // Reset form fields manually
-          event.target.querySelectorAll('input, textarea').forEach((field) => {
-              field.value = '';
-              // router.push('/thank-you/');
-          });
-
-          // Redirect to thank you page after 4 seconds
-          setTimeout(() => {
-            event.target.reset();
-              router.push('/thank-you/');
-          }, 100);
-      } else {
-          console.error('Failed to submit form:', response.statusText);
+        console.log('Form submitted successfully!');
+        setTimeout(() => {
+          router.push("/thank-you/");
+        }, 300); // Redirect to thank-you page after 5 seconds
+      } catch (error) {
+        console.error('Error sending form:', error);
+        // Handle error, e.g., display error message to user
+      } finally {
+        setIsSubmitting(false); // Stop loading animation regardless of success or failure
       }
-  } catch (error) {
-      console.error('Error submitting form:', error);
-  }
-};
+    }
+  };
 
-    return(
+
+
+
+
+  return (
     <>
-     {!closeModal && 
-     <div
-        className="modal fade form-main-model"
-        id="exampleModal"
-        tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h4 className="modal-title" id="exampleModalLabel">
-                Request Callback
-              </h4>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-              <p></p>
-            </div>
-            <p>
-              Please complete the form below and we will be in touch or{" "}
-              <a href="tel:+2818990865" target="_self" rel="">
-                book a call
-              </a>{" "}
-              with one of our Microsoft consultants.
-            </p>
-            <div className="modal-body">
-            <div className="main-form-wrper">
-             <form id='webform196947000014082098' onSubmit={handleSubmit} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082098' method='POST' acceptCharset='UTF-8'>
-             <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
-            value='1976372d81c8c887ec22b7f1cf5b83d759ddc661af97f10f96048ab274a9c79f' />
-                <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-                <input type='text' style={{ display: 'none' }} name='xmIwtLD'
-            value='37198717f72b12d3ca5e9b417164021d99d42e235ca33ef82c2cb73bd9907f883cb6752fe91da7174d2a0d4ea743d0bc' />
-                <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
-                <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
-                  <div className="mb-3">
-                    <input
-                      type="text"
-                      id='Last_Name'
-                      className="form-control"
-                      placeholder="*Full Name"
-                      name="Last Name"
-                      required
-                    />
-                    <input type="hidden" value={router.asPath} name="url" />
-                  </div>
+      {!closeModal &&
+        <div
+          className="modal fade form-main-model"
+          id="exampleModal"
+          tabIndex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h4 className="modal-title" id="exampleModalLabel">
+                  Request Callback
+                </h4>
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <p></p>
+              </div>
+              <p>
+                Please complete the form below and we will be in touch or{" "}
+                <a href="tel:+2818990865" target="_self" rel="">
+                  book a call
+                </a>{" "}
+                with one of our Microsoft consultants.
+              </p>
+              <div className="modal-body">
+                <div id='crmWebToEntityForm' className="main-form-wrper">
+                  <form id='webform196947000014082098' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082098' method='POST' acceptCharset='UTF-8'>
+                    <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
+                      value='1976372d81c8c887ec22b7f1cf5b83d759ddc661af97f10f96048ab274a9c79f' />
+                    <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+                    <input type='text' style={{ display: 'none' }} name='xmIwtLD'
+                      value='37198717f72b12d3ca5e9b417164021d99d42e235ca33ef82c2cb73bd9907f883cb6752fe91da7174d2a0d4ea743d0bc' />
+                    <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
+                    <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
+                    <div className="mb-3">
+                      <input
+                        type="text"
+                        id='Last_Name'
+                        className="form-control"
+                        placeholder="*Full Name"
+                        name="Last Name"
+                        onBlur={() => validateName(form.current.name.value)}
+                        onChange={() => setNameError("")}
+                      />
+                      <input type="hidden" value={router.asPath} name="url" />
+                      {nameError && <small className="text-danger">{nameError}</small>}
+                    </div>
 
-                  <div className="mb-3">
-                    <input
-                      id='Email'
-                      type="email"
-                      className="form-control"
-                      placeholder="*Work Email"
-                      name="Email"
-                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
-                      required
-                    />
-                  </div>
-                  <div className="mb-3">
-                    <input
-                      type="text"
-                      id='Company'
-                      className="form-control"
-                      placeholder="*Company Name"
-                      name="Company"
-                      required
-                    />
-                  </div>
-                  <div className="mb-3">
-                    <input
-                      type="tel"
-                      id='Phone'
-                      className="form-control"
-                      placeholder="*Phone Number"
-                      name="Phone"
-                      pattern="^\d{10,13}$"
-                      required
-                    />
-                  </div>
-                  <div className="mb-3">
-                    <textarea
-                      className="form-control"
-                      id='Description'
-                      placeholder="*How Can We Help You?"
-                      rows="3"
-                      name="Description"
-                      required
-                    ></textarea>
-                  </div>
-                  <div className="mb-3 form-check">
-                    <input
-                      type="checkbox"
-                      checked
-                      readOnly
-                      className="form-check-input"
-                    />
-                    <label className="form-check-label">
-                      I agree to the
-                      <a href="/privacy-policy/" target="_blank">
-                        {" "}
-                        Privacy Policy{" "}
-                      </a>
-                      and
-                      <a href="/terms-of-use/" target="_blank">
-                        {" "}
-                        Terms of Service{" "}
-                      </a>
-                      .
-                    </label>
-                  </div>
+                    <div className="mb-3">
+                      <input
+                        type="email"
+                        className="form-control"
+                        placeholder="*Work Email"
+                        name="Email"
+                        onBlur={(e) => {
+                          if (!validateEmail(e.target.value)) {
+                            setEmailError("Please enter a valid work email address.");
+                          } else {
+                            setEmailError("");
+                          }
+                        }}
+                      />
+                      {emailError && <small className="text-danger">{emailError}</small>}
+                    </div>
+                    <div className="mb-3">
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="*Company Name"
+                        name="Company"
+                        onBlur={() => validateCompanyName(form.current.Company.value)}
+                        onChange={() => setCompanyNameError("")}
+                      />
+                      {companyNameError && <small className="text-danger">{companyNameError}</small>}
+                    </div>
+                    <div className="mb-3">
+                      <input
+                        type="tel"
+                        className="form-control"
+                        placeholder="*Phone Number"
+                        name="Phone"
+                        onBlur={(e) => validatePhone(e.target.value)}
+                        required
+                      />
+                      {phoneError && <small className="text-danger">{phoneError}</small>}
+                    </div>
+                    <div className="mb-3">
+                      <textarea
+                        className="form-control"
+                        id="exampleFormControlTextarea1"
+                        placeholder="*How Can We Help You?"
+                        rows="3"
+                        name="Description"
+                        onBlur={() => validateMessage(form.current.Description.value)}
+                        onChange={() => setMessageError("")}
+                      ></textarea>
+                      {messageError && <small className="text-danger">{messageError}</small>}
+                    </div>
+                    <div className="mb-3 form-check">
+                      <input
+                        type="checkbox"
+                        checked
+                        readOnly
+                        className="form-check-input"
+                      />
+                      <label className="form-check-label">
+                        I agree to the
+                        <a href="/privacy-policy/" target="_blank">
+                          {" "}
+                          Privacy Policy{" "}
+                        </a>
+                        and
+                        <a href="/terms-of-use/" target="_blank">
+                          {" "}
+                          Terms of Service{" "}
+                        </a>
+                        .
+                      </label>
+                    </div>
 
-                  <div className="spiner-wrper">
-                    <button
-                      type="submit"
-                      className="btn btn-primary fomr-submit"
-                    >
-                      Submit
-                    </button>
-                    {/* <div className={display} role="status">
+                    <div className="spiner-wrper">
+                      <button
+                        type="submit"
+                        className="btn btn-primary fomr-submit"
+                      >
+                        Submit
+                      </button>
+                      {/* <div className={display} role="status">
                       <span className="visually-hidden">Loading...</span>
                     </div> */}
-                  </div>
-                </form>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-                  }
+      }
 
       <section id="services" className="services bg-shape ovr-f hidesec">
         <div className="container" data-aos="fade-up">
@@ -310,7 +395,7 @@ const handleSubmit = async (event) => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                Izabella House, 24 - 26 Regents Place, City Centre, Birmingham
+                  Izabella House, 24 - 26 Regents Place, City Centre, Birmingham
                 </div>
               </div>
               <div className="contact-list">
@@ -318,7 +403,7 @@ const handleSubmit = async (event) => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                <a target="_self" rel="" href="tel:+441213182798">
+                  <a target="_self" rel="" href="tel:+441213182798">
                     +44 121 318 2798
                   </a>
                 </div>
@@ -356,7 +441,7 @@ const handleSubmit = async (event) => {
                 <div className="content-right">info@dynamicssquare.co.uk</div>
               </div>
             </div> */}
-            
+
           </div>
         </div>
       </div>
@@ -368,9 +453,9 @@ const handleSubmit = async (event) => {
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
                   <a><Image
-                      src="/img/dynamics_square_tm_logo_footer.svg"
-                      alt="Dynamics Square TM Logo"
-                    style={{marginBottom:"20px"}}
+                    src="/img/dynamics_square_tm_logo_footer.svg"
+                    alt="Dynamics Square TM Logo"
+                    style={{ marginBottom: "20px" }}
                     width={230} height={81}
                   /></a>
                 </Link>
@@ -392,7 +477,7 @@ const handleSubmit = async (event) => {
                   className="footer-img m-r"
                   width={230} height={120}
                 /> <br />
-                 {/* <Image
+                {/* <Image
                   src="/img/UK-badge.png"
                   alt="UK badge"
                   className="footer-img"
@@ -502,7 +587,7 @@ const handleSubmit = async (event) => {
                     rel=""
                     href="https://twitter.com/dsquare_uk"
                     className="twitter"
-                    aria-label="Twitter" 
+                    aria-label="Twitter"
                   >
                     <i className="bi bi-twitter"></i>
                   </a>
@@ -511,7 +596,7 @@ const handleSubmit = async (event) => {
                     rel=""
                     href="https://www.facebook.com/dynamicssquareuk/"
                     className="facebook"
-                    aria-label="Facebook" 
+                    aria-label="Facebook"
                   >
                     <i className="bi bi-facebook"></i>
                   </a>
@@ -520,7 +605,7 @@ const handleSubmit = async (event) => {
                     rel=""
                     href="https://www.instagram.com/dynamicssquareuk/"
                     className="instagram"
-                    aria-label="Instagram" 
+                    aria-label="Instagram"
                   >
                     <i className="bi bi-instagram"></i>
                   </a>
@@ -529,7 +614,7 @@ const handleSubmit = async (event) => {
                     rel=""
                     href="https://www.linkedin.com/showcase/dynamics-square-uk/"
                     className="linkedin"
-                    aria-label="Linkedin" 
+                    aria-label="Linkedin"
                   >
                     <i className="bi bi-linkedin"></i>
                   </a>
@@ -540,7 +625,7 @@ const handleSubmit = async (event) => {
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
                   </span>
-                 <FormFooterSubscriber />
+                  <FormFooterSubscriber />
                 </div>
               </div>
             </div>
@@ -558,14 +643,14 @@ const handleSubmit = async (event) => {
         </div>
       </footer>
       <div className='call-bb-wr'>
-      <button className="fixed-button wobble" type="button">
-      <a href="tel:+442071932502" target="_self" aria-label="telephone"><i className="bi bi-telephone-fill"></i></a>
-</button>
+        <button className="fixed-button wobble" type="button">
+          <a href="tel:+442071932502" target="_self" aria-label="telephone"><i className="bi bi-telephone-fill"></i></a>
+        </button>
 
       </div>
-    
+
     </>
-    
-    );
-    }
-    export default Footer
+
+  );
+}
+export default Footer
