@@ -64,8 +64,8 @@ const Footer = () => {
     return isValid;
   };
 
-  const validateName = (Last_Name) => {
-    if (!Last_Name) {
+  const validateName = (name) => {
+    if (!name) {
       setNameError("Please enter your full name.");
       return false;
     } else {
@@ -197,7 +197,7 @@ const Footer = () => {
                     <div className="mb-3">
                       <input
                         type="text"
-                        id='Last_Name'
+                        id="name"
                         className="form-control"
                         placeholder="*Full Name"
                         name="Last Name"
