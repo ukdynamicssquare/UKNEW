@@ -15,19 +15,19 @@ const Footer = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const [display, setDisplay] = useState("dspn");
-  const form = useRef();
+  
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
       .forEach(el => el.classList.remove("modal-backdrop"));
   }
-
+  const form = useRef();
   useEffect(() => {
     // Load the Zoho script after DOM content is fully loaded
     const loadScript = () => {
       const script = document.createElement('script');
-      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=7d98a8d359385b8d1798afa307a3c86d82bc80479df2e27b3a3c26ffc2a8ecd4aad0079010bb1de7c7499400fdc67cf9gidcb2e56e93109ad2008b2af840003a6d2a3190cf7c200ad12b766709849a5f597gid8a9ff4b6ce4e5d9b5e45f3bd3c55c86ef2a5bdbd2b757611fcfed3ff6306239egid6b7817c2b1048dc191afa600364b3bd1f34a12242ccaa99750718688c3d1e8bf&tw=0aa0ddf528e1e51427b4c971acb9d65405e7d1f11fdc8824cf64f544cd4d80bd`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=ff35fc84fead2bb8f7ee4371c237518663b4b89ebcf813141d6a58670bc2ecbede3086472f0597699cbf4a50db363e95gid07addfd1a31ff25f5879e269e263c5da8f28390f6f650c5d8d8852d2a93580c9gidef1953d0b493ba0ef4fc086c3f29386c9b755cde4750f62b191aee93c2653f29gid541e9a1a97e35246af4064b4a60813132b7d15a5f8c5f90779bb9a22ded79962&tw=8d56c88576e7dfe7877cba12b7c54a1c13a0215b28fc234745b78ab4d32555ab`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
       script.async = true;
       document.body.appendChild(script);
     };
@@ -189,11 +189,9 @@ const Footer = () => {
               <div className="modal-body">
                 <div id='crmWebToEntityForm' className="main-form-wrper">
                   <form id='webform196947000014082098' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082098' method='POST' acceptCharset='UTF-8'>
-                    <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
-                      value='1976372d81c8c887ec22b7f1cf5b83d759ddc661af97f10f96048ab274a9c79f' />
+                    <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ddd8c6934302410eb1e18ce3630a401e40eddc0f2e0cf25e5b2c3962bfebfbcf' />
                     <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-                    <input type='text' style={{ display: 'none' }} name='xmIwtLD'
-                      value='37198717f72b12d3ca5e9b417164021d99d42e235ca33ef82c2cb73bd9907f883cb6752fe91da7174d2a0d4ea743d0bc' />
+                    <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='ef05890eba0f9662528983bce3ce5ea84eb622cc32a31f3f2751bd3c84eeb71fbeb503f0aaeacdcb37096a71c6aeb020' />
                     <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
                     <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
                     <div className="mb-3">
