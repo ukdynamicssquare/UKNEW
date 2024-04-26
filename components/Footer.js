@@ -283,12 +283,22 @@ const Footer = () => {
                     </div>
 
                     <div className="spiner-wrper">
-                      <button
+                      {/* <button
                         type="submit"
                         className="btn btn-primary fomr-submit"
                       >
                         Submit
-                      </button>
+                      </button> */}
+                      <button
+                  id='formsubmit'
+                  type="submit"
+                  title='Submit'
+                  value='Submit'
+                  className="btn btn-primary fomr-submit"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Sending...' : ' Submit'}
+                </button>
                       {/* <div className={display} role="status">
                       <span className="visually-hidden">Loading...</span>
                     </div> */}
