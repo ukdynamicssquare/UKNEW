@@ -3,6 +3,7 @@ import FormFooterSubscriber from "../components/FormFooterSubscriber";
 import Form from "../components/Form";
 import Link from "next/link";
 import Image from "next/image";
+import LeadCaptureForm from "../components/LeadCaptureForm";
 const ContactUs = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const ContactUs = () => {
        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <main>
+        <LeadCaptureForm />
         <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
