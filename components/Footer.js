@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
 import Link from "next/link";
+import ReCAPTCHA from 'react-google-recaptcha';
 const Footer = () => {
 
   const router = useRouter();
@@ -15,7 +16,12 @@ const Footer = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const [display, setDisplay] = useState("dspn");
+  const [captchaVerified, setCaptchaVerified] = useState(false);
   
+  const handleCaptchaChange = (value) => {
+    setCaptchaVerified(true);
+  };
+
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
@@ -96,7 +102,10 @@ const Footer = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-
+    if (!captchaVerified) {
+      console.error('reCAPTCHA not verified');
+      return;
+    }
     // Ensure that form.current is defined before accessing its properties
     if (!form.current) {
       console.error("Form reference is not set.");
@@ -279,7 +288,11 @@ const Footer = () => {
                         .
                       </label>
                     </div>
-
+                    <ReCAPTCHA
+                sitekey="6Le6PcwpAAAAAKpYwYlpvlrO5ckC40YI6S_D8eFq" // Replace with your reCAPTCHA site key
+                onChange={handleCaptchaChange}
+              />
+              <br />
                     <div className="spiner-wrper">
                       {/* <button
                         type="submit"
