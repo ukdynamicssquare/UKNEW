@@ -21,7 +21,7 @@ const Footer = () => {
   const [isRecaptchaVerified, setIsRecaptchaVerified] = useState(false);
   const [recaptchaError, setRecaptchaError] = useState("");
   const recaptchaRef = useRef();
-  const RECAPTCHA_SITE_KEY = "6LfNIM0pAAAAACrmvGZzlbKZwoHzIJreGzyE5WxN";
+  const RECAPTCHA_SITE_KEY = "6LcpJc0pAAAAAEqpqhJA21kqjTWsKpnhsdrbaUej";
   function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
