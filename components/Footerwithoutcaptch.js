@@ -5,8 +5,7 @@ import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
 import Link from "next/link";
-import ReCAPTCHA from 'react-google-recaptcha';
-const Footer = () => {
+const Footerwithoutcaptch = () => {
 
   const router = useRouter();
   const [nameError, setNameError] = useState("");
@@ -16,12 +15,8 @@ const Footer = () => {
   const [messageError, setMessageError] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const [display, setDisplay] = useState("dspn");
-
+  
   const [closeModal, setCloseModal] = useState(false);
-  const [isRecaptchaVerified, setIsRecaptchaVerified] = useState(false);
-  const [recaptchaError, setRecaptchaError] = useState("");
-  const recaptchaRef = useRef();
-  const RECAPTCHA_SITE_KEY = "6LfNIM0pAAAAACrmvGZzlbKZwoHzIJreGzyE5WxN";
   function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
@@ -107,13 +102,6 @@ const Footer = () => {
       console.error("Form reference is not set.");
       return;
     }
-    // Check if reCAPTCHA is verified
-    if (!isRecaptchaVerified) {
-      setRecaptchaError("Please complete the reCAPTCHA challenge.");
-      return;
-    } else {
-      setRecaptchaError(""); // Clear reCAPTCHA error if verified
-    }
 
     const formData = new FormData(form.current);
     const url = 'https://crm.zoho.in/crm/WebToLeadForm';
@@ -145,7 +133,7 @@ const Footer = () => {
           method: 'POST',
           body: formData
         });
-
+       
         if (!response.ok) {
           throw new Error('Failed to submit form');
         }
@@ -270,19 +258,6 @@ const Footer = () => {
                       ></textarea>
                       {messageError && <small className="text-danger">{messageError}</small>}
                     </div>
-                    <div className="mb-3 form-check" style={{marginLeft:'-25px'}}>
-                      <ReCAPTCHA
-                        ref={recaptchaRef}
-                        sitekey={RECAPTCHA_SITE_KEY}
-                        onChange={(token) => {
-                          setIsRecaptchaVerified(true);
-                          setRecaptchaError(""); // Clear error message on successful verification
-                        }}
-                      />
-
-                      {/* Render reCAPTCHA error message */}
-                      {recaptchaError && <small className="text-danger">{recaptchaError}</small>}
-                    </div>
                     <div className="mb-3 form-check">
                       <input
                         type="checkbox"
@@ -304,7 +279,6 @@ const Footer = () => {
                         .
                       </label>
                     </div>
-                   
 
                     <div className="spiner-wrper">
                       {/* <button
@@ -314,15 +288,15 @@ const Footer = () => {
                         Submit
                       </button> */}
                       <button
-                        id='formsubmit'
-                        type="submit"
-                        title='Submit'
-                        value='Submit'
-                        className="btn btn-primary fomr-submit"
-                        disabled={isSubmitting}
-                      >
-                        {isSubmitting ? 'Sending...' : ' Submit'}
-                      </button>
+                  id='formsubmit'
+                  type="submit"
+                  title='Submit'
+                  value='Submit'
+                  className="btn btn-primary fomr-submit"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Sending...' : ' Submit'}
+                </button>
                       {/* <div className={display} role="status">
                       <span className="visually-hidden">Loading...</span>
                     </div> */}
@@ -687,4 +661,4 @@ const Footer = () => {
 
   );
 }
-export default Footer
+export default Footerwithoutcaptch
