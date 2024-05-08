@@ -31,7 +31,7 @@ const TestForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://blognew.dynamicssquare.co.uk/api/formData', formData);
+            const response = await axios.post(`${process.env.BACKEND_URL}`+'/api/formData', formData);
             console.log(response.data);
             setTimeout(function () {
                 e.target.reset();
