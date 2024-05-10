@@ -48,6 +48,16 @@ const [formData, setFormData] = useState({
           });
           if (response.ok) {
             console.log('Form submitted successfully');
+            emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+           
+            setTimeout(function() {
+              router.push("/thank-you/");
+            }, 1000);
           } else {
             console.error('Form submission failed');
           }
