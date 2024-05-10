@@ -59,7 +59,7 @@ const TestForm = () => {
         // Log form data before sending via EmailJS
         console.log('Form Data:', formData);
         
-        
+        //add email js code here
         
         // Redirect to thank you page after submission
         setTimeout(function() {
