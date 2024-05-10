@@ -36,6 +36,16 @@ const TestForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+        // Send form data via EmailJS
+        emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4')
+          .then((result) => {
+            console.log('EmailJS success:', result.text);
+          })
+          .catch((error) => {
+            console.error('EmailJS error:', error.text);
+          });
+
+
       const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
         method: 'POST',
         headers: {
@@ -49,14 +59,7 @@ const TestForm = () => {
         // Log form data before sending via EmailJS
         console.log('Form Data:', formData);
         
-        // Send form data via EmailJS
-        emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4')
-          .then((result) => {
-            console.log('EmailJS success:', result.text);
-          })
-          .catch((error) => {
-            console.error('EmailJS error:', error.text);
-          });
+        
         
         // Redirect to thank you page after submission
         setTimeout(function() {
