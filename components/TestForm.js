@@ -16,6 +16,8 @@ const TestForm = () => {
     phone:'',
     companyname:'',
     message: '',
+    job:'',
+    service:'',
     currentPageUrl:''
   });
 
@@ -114,6 +116,24 @@ const TestForm = () => {
               onChange={handleChange}
             />
           </div>
+          <div className="mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="job title"
+              name="job"
+              value={formData.job} 
+              onChange={handleChange}
+            />
+          </div>
+          <div className="mb-3">
+                <select className="form-select" name="service" aria-label="Default select example"  value={formData.service}   onChange={handleChange}>
+                  <option disabled hidden value="">Looking For?</option>
+                  <option value="Implementation">Implementation</option>
+                  <option value="Upgrade/Migration">Upgrade/Migration</option>
+                  <option value="Support">Support</option>
+                </select>
+              </div>
           <div className="mb-3">
             <textarea
               className="form-control"
