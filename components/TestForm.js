@@ -7,16 +7,9 @@ const TestForm = () => {
   const [display, setDisplay] = useState("dspn");
   const form = useRef();
   const [showModal, setShowModal] = useState(false);
-
-  useEffect(()=>{
-    setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
-  },[currentPageUrl]);    
-
-
   const [currentPageUrl, setCurrentPageUrl] = useState('');
-  useEffect(()=>{
-    setCurrentPageUrl(window.location.href);
-  },[]);
+
+
 
 const [formData, setFormData] = useState({
         name: '',
@@ -27,6 +20,16 @@ const [formData, setFormData] = useState({
         currentPageUrl:''
       });
 
+
+  
+      useEffect(()=>{
+        setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
+      },[currentPageUrl]);    
+    
+    
+      useEffect(()=>{
+        setCurrentPageUrl(window.location.href);
+      },[]);
 
      
       const handleChange = (e) => {
