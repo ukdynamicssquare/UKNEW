@@ -48,7 +48,7 @@ const TestForm = () => {
         console.log('Form Data:', formData);
         
         // Send form data via EmailJS
-        emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current.current, 'xIFtTfBj6NR498Plv')
+        emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv')
           .then((result) => {
             console.log('EmailJS success:', result.text);
           })
@@ -67,6 +67,7 @@ const TestForm = () => {
       console.error('Error submitting form:', error);
     }
   };
+  
 
   return (
     <div>
