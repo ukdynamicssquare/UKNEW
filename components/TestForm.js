@@ -48,13 +48,20 @@ const [formData, setFormData] = useState({
           });
           if (response.ok) {
             console.log('Form submitted successfully');
+            
+            // Log form data before sending via EmailJS
+            console.log('Form Data:', formData);
+            
+            // Send form data via EmailJS
             emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-           
+              .then((result) => {
+                console.log('EmailJS success:', result.text);
+              })
+              .catch((error) => {
+                console.error('EmailJS error:', error.text);
+              });
+            
+            // Redirect to thank you page after submission
             setTimeout(function() {
               router.push("/thank-you/");
             }, 1000);
@@ -66,32 +73,6 @@ const [formData, setFormData] = useState({
         }
       };
 
-
-
-
-
-
-
-
-
-
-    // setDisplay("spinner-border text-success");
-    // e.preventDefault();
-
-    // emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', form.current, 'xIFtTfBj6NR498Plv')
-    //   .then((result) => {
-    //       console.log(result.text);
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
-     
-    //   setTimeout(function() {
-    //     e.target.reset();
-    //     e.target.remove();
-    //     Cookies.set('popupModalShown', true, { expires: 1 });
-    //     setShowModal(false);
-    //     router.push("/thank-you/");
-    //   }, 1000);
       
 
 
