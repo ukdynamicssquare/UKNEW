@@ -81,6 +81,7 @@ const TestForm = () => {
               value={formData.name} 
               onChange={handleChange}
             />
+            <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
           </div>
           <div className="mb-3">
             <input
