@@ -1,4 +1,4 @@
-import React, { useRef ,useState } from 'react';
+import React, { useRef ,useState,useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 import Cookies from 'js-cookie';
@@ -8,13 +8,26 @@ const TestForm = () => {
   const form = useRef();
   const [showModal, setShowModal] = useState(false);
 
+  useEffect(()=>{
+    setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
+  },[currentPageUrl]);    
+
+
+  const [currentPageUrl, setCurrentPageUrl] = useState('');
+  useEffect(()=>{
+    setCurrentPageUrl(window.location.href);
+  },[]);
+
 const [formData, setFormData] = useState({
         name: '',
         email: '',
         phone:'',
         companyname:'',
-        message: ''
+        message: '',
+        currentPageUrl:''
       });
+
+
      
       const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -81,7 +94,7 @@ const [formData, setFormData] = useState({
                       name="name"
                       value={formData.name} onChange={handleChange}
                     />
-                    <input type="hidden" value={router.asPath} name="url" />
+                  <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
                   </div>
 
                   <div className="mb-3">
