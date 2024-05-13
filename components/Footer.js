@@ -62,7 +62,7 @@ const Footer = () => {
       setSubmitting(true);
       try {
         // Send form data via EmailJS
-        await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
+        await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
 
         const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
           method: 'POST',
