@@ -19,7 +19,7 @@ const TestForm = () => {
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
-  
+
   useEffect(()=>{
     setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
   },[currentPageUrl]);    
@@ -46,40 +46,52 @@ const TestForm = () => {
     setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const validationErrors = validateForm(formData);
-    if (Object.keys(validationErrors).length === 0) {
-      setSubmitting(true);
-      try {
-        // Send form data via EmailJS
-        await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  const validationErrors = validateForm(formData);
+  if (Object.keys(validationErrors).length === 0) {
+    setSubmitting(true);
+    try {
+      // Send form data via EmailJS
+      await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
 
-        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
+      const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        console.log('Form Data:', formData);
+        // Clear form data after successful submission
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          companyname: '',
+          message: '',
+          job: '',
+          service: '',
+          currentPageUrl: '',
         });
-        if (response.ok) {
-          console.log('Form submitted successfully');
-          console.log('Form Data:', formData);
-          setTimeout(() => {
-            router.push('/thank-you/');
-          }, 1000);
-        } else {
-          console.error('Form submission failed');
-        }
-      } catch (error) {
-        console.error('Error submitting form:', error);
-      } finally {
-        setSubmitting(false);
+        setTimeout(() => {
+          router.push('/thank-you/');
+        }, 1000);
+      } else {
+        console.error('Form submission failed');
       }
-    } else {
-      setErrors(validationErrors);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
+      setSubmitting(false);
     }
-  };
+  } else {
+    setErrors(validationErrors);
+  }
+};
+
 
   const validateForm = (formData) => {
     const errors = {};
