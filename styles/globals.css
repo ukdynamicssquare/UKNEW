@@ -1451,7 +1451,7 @@ section {
 .main-form-wrper-common {
   padding: 40px 30px;
   background: #fff;
-  height: auto;
+  height: 100%;
 }
 .main-form-wrper-common .fomr-submit {
   margin-top: 20px;
@@ -7968,8 +7968,8 @@ section {
     opacity: 1;
   }
   .extra-height {
-    height: 530px;
-    overflow: hidden;
+    /* height: 530px;
+    overflow: hidden; */
   }
 }
 @media (max-width: 992px) {

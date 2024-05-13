@@ -4,65 +4,133 @@ import { useRouter } from 'next/router';
 const Form = () => {
 
   const router = useRouter();
+  const form = useRef();
+  const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    companyname: '',
+    message: '',
+    // job: '',
+    // service: '',
+    currentPageUrl: '',
+  });
+  const [errors, setErrors] = useState({});
+  const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => {
-    // Load the Zoho script after DOM content is fully loaded
-    const loadScript = () => {
-      const script = document.createElement('script');
-      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=72fde086fe71742abe472f8f5f83bd8a9014a7d1dee6cd8f3f9ae50958c6a8e42ef776b61dc01558b65dc3a5430d7bcdgida70d14ebb06061ff99ccd8870a904e6cebd4cee039b6ada7e8abc04d0008c38dgid2fb1d0ab224cf29e67d99f002ddc9beb6322a4e938a349c3fffd7367a098a1e0gidbe99666b3f08eda521a98ba18c67439c9eb98ef83df7caf9975f0d20bd8b8d10&tw=21b88d0bb22c968d5ad29a3277797ff5563f6466461d13f8bdb43e4c2bd1ccb9`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
-      script.async = true;
-      document.body.appendChild(script);
-    };
-  
-    if (document.readyState === 'complete') {
-      loadScript();
-    } else {
-      window.addEventListener('DOMContentLoaded', loadScript);
+  useEffect(()=>{
+    setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
+  },[currentPageUrl]);    
+    
+  useEffect(()=>{
+    setCurrentPageUrl(window.location.href);
+  },[]);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    // Clear error message for the field being edited
+    setErrors((prevErrors) => ({ ...prevErrors, [name]: '' }));
+  };
+
+  const handlePhoneChange = (e) => {
+    const { value } = e.target;
+    // Replace any non-numeric characters with an empty string
+    const cleanedValue = value.replace(/\D/g, '');
+    // Limit to 13 characters
+    const truncatedValue = cleanedValue.slice(0, 13);
+    setFormData({ ...formData, phone: truncatedValue });
+    // Clear error message for the phone field
+    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
+  };
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  const validationErrors = validateForm(formData);
+  if (Object.keys(validationErrors).length === 0) {
+    setSubmitting(true);
+    try {
+      // Send form data via EmailJS
+      await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
+
+      const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        console.log('Form Data:', formData);
+        // Clear form data after successful submission
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          companyname: '',
+          message: '',
+          // job: '',
+          // service: '',
+          currentPageUrl: '',
+        });
+        setTimeout(() => {
+          router.push('/thank-you/');
+        }, 1000);
+      } else {
+        console.error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
+      setSubmitting(false);
     }
-  
-    // Clean up function to remove the script when the component unmounts
-    return () => {
-      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
-      if (script) {
-        script.remove();
-      }
-    };
-  }, []);
+  } else {
+    setErrors(validationErrors);
+  }
+};
 
-  const handleSubmit = async (event) => {
-      event.preventDefault();
-      const formData = new FormData(event.target);
-      const url = 'https://crm.zoho.in/crm/WebToLeadForm';
 
-      try {
-          // Send email using EmailJS
-          await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', event.target, 'xIFtTfBj6NR498Plv');
+  const validateForm = (formData) => {
+    const errors = {};
+    if (!formData.name.trim()) {
+      errors.name = 'Name is required';
+    }
+    if (!formData.email.trim()) {
+      errors.email = 'Email is required';
+    } else if (!isValidEmail(formData.email)) {
+      errors.email = 'Invalid email address';
+    }
+    if (!formData.phone.trim()) {
+      errors.phone = 'Phone number is required';
+    } else if (!isValidPhoneNumber(formData.phone)) {
+      errors.phone = 'Invalid phone number';
+    }
+    if (!formData.companyname.trim()) {
+      errors.companyname = 'Company name is required';
+    }
+    if (!formData.message.trim()) {
+      errors.message = 'Message is required';
+    }
+    // if (!formData.job.trim()) {
+    //   errors.job = 'Job title is required';
+    // }
+    // if (!formData.service.trim()) {
+    //   errors.service = 'Service selection is required';
+    // }
+    return errors;
+  };
 
-          // Submit form data to Zoho CRM
-          const response = await fetch(url, {
-              method: 'POST',
-              body: formData
-          });
+  const isValidEmail = (email) => {
+    // Basic email format validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+    return emailRegex.test(email);
+  };
 
-          if (response.ok) {
-              console.log('Form submitted successfully!');
-              // Reset form fields manually
-              event.target.querySelectorAll('input, textarea').forEach((field) => {
-                  field.value = '';
-                  // router.push('/thank-you/');
-              });
-
-              // Redirect to thank you page after 4 seconds
-              setTimeout(() => {
-                event.target.reset();
-                  router.push('/thank-you/');
-              }, 100);
-          } else {
-              console.error('Failed to submit form:', response.statusText);
-          }
-      } catch (error) {
-          console.error('Error submitting form:', error);
-      }
+  const isValidPhoneNumber = (phone) => {
+    // Phone number should be between 10 to 13 characters
+    return /^\d{10,13}$/.test(phone);
   };
 
 
@@ -92,103 +160,116 @@ const Form = () => {
     return (
       <>
       <div className="main-form-wrper">
-      <form id='webform196947000014082124' onSubmit={handleSubmit} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082124' method='POST' acceptCharset='UTF-8'>
-      <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
-            value='619b8b11b0ae6310b5470e689bcd13bbffaa7f91673dd30967f199c1f013985a' />
-         <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-         <input type='text' style={{ display: 'none' }} name='xmIwtLD'
-            value='cd676e510e147b9bacf3c870a1c020b55e43a92d6f1e564743ed0e51eda16ed8907ffa93299cd964c3ec1681faed91a3' />
-         <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
-         <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
-           <div className="mb-3">
-             <input
-               type="text"
-               id='Last_Name'
-               className="form-control"
-               placeholder="*Full Name"
-               name="Last Name"
-               required
-             />
-             <input type="hidden" value={router.asPath} name="url" />
-           </div>
+        <form ref={form} onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="*Full Name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+            />
+             <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+            {errors.name && <div className="text-danger">{errors.name}</div>}
+          </div>
+          <div className="mb-3">
+            <input
+              type="email"
+              className="form-control"
+              placeholder="*Work Email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+            />
+            {errors.email && <div className="text-danger">{errors.email}</div>}
+          </div>
+          <div className="mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="*Company Name"
+              name="companyname"
+              value={formData.companyname}
+              onChange={handleChange}
+            />
+            {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
+          </div>
+          <div className="mb-3">
+            <input
+              type="tel"
+              className="form-control"
+              placeholder="*Phone Number"
+              name="phone"
+              value={formData.phone}
+              onChange={handlePhoneChange}
+            />
+            {errors.phone && <div className="text-danger">{errors.phone}</div>}
+          </div>
+          {/* <div className="mb-3">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="* Job Title"
+              name="job"
+              value={formData.job}
+              onChange={handleChange}
+            />
+            {errors.job && <div className="text-danger">{errors.job}</div>}
+          </div>
+          <div className="mb-3">
+            <select
+              className="form-select"
+              name="service"
+              aria-label="Default select example"
+              value={formData.service}
+              onChange={handleChange}
+            >
+              <option disabled hidden value="">
+                Looking For?
+              </option>
+              <option value="Implementation">Implementation</option>
+              <option value="Upgrade/Migration">Upgrade/Migration</option>
+              <option value="Support">Support</option>
+            </select>
+            {errors.service && <div className="text-danger">{errors.service}</div>}
+          </div> */}
+          <div className="mb-3">
+            <textarea
+              className="form-control"
+              placeholder="*How Can We Help You?"
+              rows="3"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+            ></textarea>
+            {errors.message && <div className="text-danger">{errors.message}</div>}
+          </div>
+          <div className="mb-3 form-check">
+            <input type="checkbox" checked readOnly className="form-check-input" id="exampleCheck1" />
+            <label className="form-check-label">
+              I agree to the
+              <a href="/privacy-policy/" target="_blank">
+                {' '}
+                Privacy Policy{' '}
+              </a>
+              and
+              <a href="/terms-of-use/" target="_blank">
+                {' '}
+                Terms of Service{' '}
+              </a>
+              .
+            </label>
+          </div>
 
-           <div className="mb-3">
-             <input
-               id='Email'
-               type="email"
-               className="form-control"
-               placeholder="*Work Email"
-               name="Email"
-               pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
-               required
-             />
-           </div>
-           <div className="mb-3">
-             <input
-               type="text"
-               id='Company'
-               className="form-control"
-               placeholder="*Company Name"
-               name="Company"
-               required
-             />
-           </div>
-           <div className="mb-3">
-             <input
-               type="tel"
-               id='Phone'
-               className="form-control"
-               placeholder="*Phone Number"
-               name="Phone"
-               pattern="^\d{10,13}$"
-               required
-             />
-           </div>
-           <div className="mb-3">
-             <textarea
-               className="form-control"
-               id='Description'
-               placeholder="*How Can We Help You?"
-               rows="3"
-               name="Description"
-               required
-             ></textarea>
-           </div>
-           <div className="mb-3 form-check">
-             <input
-               type="checkbox"
-               checked
-               readOnly
-               className="form-check-input"
-             />
-             <label className="form-check-label">
-               I agree to the
-               <a href="/privacy-policy/" target="_blank">
-                 {" "}
-                 Privacy Policy{" "}
-               </a>
-               and
-               <a href="/terms-of-use/" target="_blank">
-                 {" "}
-                 Terms of Service{" "}
-               </a>
-               .
-             </label>
-           </div>
-
-           <div className="spiner-wrper">
-             <button
-               type="submit"
-               className="btn btn-primary fomr-submit"
-             >
-               Submit
-             </button>
-             {/* <div className={display} role="status">
-               <span className="visually-hidden">Loading...</span>
-             </div> */}
-           </div>
-         </form>
-       </div>
+          <div className="spiner-wrper">
+            <button type="submit" className="btn btn-primary fomr-submit" disabled={submitting}>
+              {submitting ? 'Submitting...' : 'Submit'}
+            </button>
+            {submitting && <div className="spinner-border text-primary" role="status"></div>}
+          </div>
+        </form>
+      </div>
  </>
     );
 }
