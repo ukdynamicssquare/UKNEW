@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LeadCaptureForm from "../components/LeadCaptureForm";
 import TestForm from "../components/TestForm";
-import FormNewUIBackTest from "../components/FormNewUIBackTest";
+import FormNewUIBackTest from "../components/FormNewUI";
 const ContactUs = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const ContactUs = () => {
        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <main>
-<FormNewUIBackTest />
+{/* <FormNewUIBackTest /> */}
 
 
        

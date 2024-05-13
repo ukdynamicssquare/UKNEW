@@ -2,157 +2,144 @@ import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 
-const FormNewUI = () => {
+const FormNewUIBackTest = () => {
   const router = useRouter();
-  const [nameError, setNameError] = useState("");
-  const [emailError, setEmailError] = useState("");
-  const [phoneError, setPhoneError] = useState("");
-  const [companyNameError, setCompanyNameError] = useState("");
-  const [messageError, setMessageError] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const form = useRef();
-
+  const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    companyname: '',
+    message: '',
+    job: '',
+    service: '',
+    currentPageUrl: '',
+    formtag:'Contact Us Form'
+  });
+  const [errors, setErrors] = useState({});
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
-    // Load the Zoho script after DOM content is fully loaded
-    const loadScript = () => {
-      const script = document.createElement('script');
-      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=75e5e8b5c1709521ebfaa5af17f541f15a8d2c442b923240377a68818e33bad096370e54b4fc0f0838b1c33bf07a1e3cgidfcf6850d87f437adffbb16a63b2030dc478b8c7c05e1c7c250912beb1f7f455agidf0bcbd4a3d828621cf3737f9f6278ccc2d37a9d433add202a3944f7b42c19ac0gid360cd4f69299d31ac772552cc0960219ad75b22d8dafea9f68a5dfe869f6f407&tw=6da3954f3a2164bbc4d4f060739c6fe5074f6c7acffb39b8b3f6ebc75a4e087e`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
-      script.async = true;
-      document.body.appendChild(script);
-    };
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
 
-    if (document.readyState === 'complete') {
-      loadScript();
-    } else {
-      window.addEventListener('DOMContentLoaded', loadScript);
-    }
-
-    // Clean up function to remove the script when the component unmounts
-    return () => {
-      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
-      if (script) {
-        script.remove();
-      }
-    };
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
   }, []);
 
-
-  const validateEmail = (email) => {
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
-    return emailRegex.test(String(email).toLowerCase());
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    // Clear error message for the field being edited
+    setErrors((prevErrors) => ({ ...prevErrors, [name]: '' }));
   };
 
-  const validatePhone = (phone) => {
-    const phoneRegex = /^\d{10,13}$/;
-    const isValid = phoneRegex.test(phone);
-    if (!isValid && phone.length > 0) {
-      setPhoneError("Please enter a valid phone number (10-13 digits).");
-    } else {
-      setPhoneError("");
-    }
-    return isValid;
+  const handlePhoneChange = (e) => {
+    const { value } = e.target;
+    // Replace any non-numeric characters with an empty string
+    const cleanedValue = value.replace(/\D/g, '');
+    // Limit to 13 characters
+    const truncatedValue = cleanedValue.slice(0, 13);
+    setFormData({ ...formData, phone: truncatedValue });
+    // Clear error message for the phone field
+    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
 
-  const validateName = (name) => {
-    if (!name) {
-      setNameError("Please enter your full name.");
-      return false;
-    } else {
-      setNameError("");
-      return true;
-    }
-  };
-
-  const validateCompanyName = (companyName) => {
-    if (!companyName) {
-      setCompanyNameError("Please enter your company name.");
-      return false;
-    } else {
-      setCompanyNameError("");
-      return true;
-    }
-  };
-
-  const validateMessage = (message) => {
-    if (!message) {
-      setMessageError("Please enter your message.");
-      return false;
-    } else {
-      setMessageError("");
-      return true;
-    }
-  };
-
-  const sendEmail = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Ensure that form.current is defined before accessing its properties
-    if (!form.current) {
-      console.error("Form reference is not set.");
-      return;
-    }
-
-    const formData = new FormData(form.current);
-    const url = 'https://crm.zoho.in/crm/WebToLeadForm';
-    let isValid = true;
-
-    isValid = validateName(formData.get('Last Name')) && isValid;
-    isValid = validateCompanyName(formData.get('Company')) && isValid;
-    isValid = validateMessage(formData.get('Description')) && isValid;
-
-    const email = formData.get('Email');
-    if (!validateEmail(email)) {
-      setEmailError("Please enter a valid work email address.");
-      isValid = false;
-    } else {
-      setEmailError(""); // Clear email error if email is valid
-    }
-
-    const phone = formData.get('phone');
-    if (phone && !validatePhone(phone)) {
-      isValid = false;
-    }
-
-    if (isValid) {
-      setIsSubmitting(true); // Start loading animation
-
+    const validationErrors = validateForm(formData);
+    if (Object.keys(validationErrors).length === 0) {
+      setSubmitting(true);
       try {
-        await emailjs.sendForm('service_x0eo9w8', 'template_20o8u0f', e.target, 'xIFtTfBj6NR498Plv');
-        const response = await fetch(url, {
+        // Send form data via EmailJS
+        await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
+
+        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
           method: 'POST',
-          body: formData
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
         });
-
-        if (!response.ok) {
-          throw new Error('Failed to submit form');
+        if (response.ok) {
+          console.log('Form submitted successfully');
+          console.log('Form Data:', formData);
+          // Clear form data after successful submission
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            companyname: '',
+            message: '',
+            job: '',
+            service: '',
+            currentPageUrl: '',
+            formtag:''
+          });
+          setTimeout(() => {
+            router.push('/thank-you/');
+          }, 1000);
+        } else {
+          console.error('Form submission failed');
         }
-
-        console.log('Form submitted successfully!');
-        setTimeout(() => {
-          router.push("/thank-you/");
-        }, 300); // Redirect to thank-you page after 5 seconds
       } catch (error) {
-        console.error('Error sending form:', error);
-        // Handle error, e.g., display error message to user
+        console.error('Error submitting form:', error);
       } finally {
-        setIsSubmitting(false); // Stop loading animation regardless of success or failure
+        setSubmitting(false);
       }
+    } else {
+      setErrors(validationErrors);
     }
+  };
+
+
+  const validateForm = (formData) => {
+    const errors = {};
+    if (!formData.name.trim()) {
+      errors.name = 'Name is required';
+    }
+    if (!formData.email.trim()) {
+      errors.email = 'Email is required';
+    } else if (!isValidEmail(formData.email)) {
+      errors.email = 'Invalid email address';
+    }
+    // if (!formData.phone.trim()) {
+    //   errors.phone = 'Phone number is required';
+    // } else if (!isValidPhoneNumber(formData.phone)) {
+    //   errors.phone = 'Invalid phone number';
+    // }
+    if (!formData.companyname.trim()) {
+      errors.companyname = 'Company name is required';
+    }
+    if (!formData.message.trim()) {
+      errors.message = 'Message is required';
+    }
+    // if (!formData.job.trim()) {
+    //   errors.job = 'Job title is required';
+    // }
+    // if (!formData.service.trim()) {
+    //   errors.service = 'Service selection is required';
+    // }
+    return errors;
+  };
+
+  const isValidEmail = (email) => {
+    // Basic email format validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+    return emailRegex.test(email);
+  };
+
+  const isValidPhoneNumber = (phone) => {
+    // Phone number should be between 10 to 13 characters
+    return /^\d{10,13}$/.test(phone);
   };
 
 
   return (
     <div className='rows-box-sh'>
-      <div id='crmWebToEntityForm' className="main-form-wrper main_form-wrper_contact">
-        <form id='webform196947000014082029' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads196947000014082029' method='POST' acceptCharset='UTF-8'>
-          <input type='text' style={{ display: 'none' }} name='xnQsjsdp'
-			value='f5c6c7223f1d12531ca55695a66e01bf52572d24ba60884f7ac486a711dd382e' />
-          <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-          <input type='text' style={{ display: 'none' }} name='xmIwtLD'
-			value='c3c08ed63bbfb986983fdb9dd44152fac7ab421cfdc9c5f76bbb2a8861665ce990d5895035b672d0b354ff9030fb4a16' />
-          <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
-          <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
+      <div className="main-form-wrper main_form-wrper_contact">
+        <form ref={form} onSubmit={handleSubmit}>
           <div className='row'>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -160,17 +147,16 @@ const FormNewUI = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Last Name"
-                  id="name"
-                  onBlur={() => validateName(form.current.name.value)}
-                  onChange={() => setNameError("")}
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
 
                 />
                 <label htmlFor="name">*Name</label>
-                <input type="hidden" value={router.asPath} name="url" />
-                <input type="hidden" value={router.asPath} name="LEADCF1" />
+                <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+                <input type="hidden" value="Contact Us Form" name="formtag" />
               </div>
-              {nameError && <small className="text-danger">{nameError}</small>}
+              {errors.name && <div className="text-danger">{errors.name}</div>}
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -178,10 +164,13 @@ const FormNewUI = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="LEADCF5"
+                  name="job"
+                  value={formData.job}
+                  onChange={handleChange}
                 />
                 <label htmlFor="Job">Job title</label>
               </div>
+              {errors.job && <div className="text-danger">{errors.job}</div>}
             </div>
 
             <div className='col-lg-12'>
@@ -190,18 +179,13 @@ const FormNewUI = () => {
                   type="email"
                   className="form-control"
                   placeholder=""
-                  name="Email"
-                  onBlur={(e) => {
-                    if (!validateEmail(e.target.value)) {
-                      setEmailError("Please enter a valid work email address.");
-                    } else {
-                      setEmailError("");
-                    }
-                  }}
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
                 <label htmlFor="email">*Work Email</label>
               </div>
-              {emailError && <small className="text-danger">{emailError}</small>}
+              {errors.email && <div className="text-danger">{errors.email}</div>}
             </div>
             <div className='col-lg-12'>
               <div className="mb-3 form-group">
@@ -209,12 +193,13 @@ const FormNewUI = () => {
                   type="tel"
                   className="form-control"
                   placeholder=""
-                  name="Phone"
-                  onBlur={(e) => validatePhone(e.target.value)}
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handlePhoneChange}
                 />
                 <label htmlFor="phone">Phone Number</label>
               </div>
-              {phoneError && <small className="text-danger">{phoneError}</small>}
+              {errors.phone && <div className="text-danger">{errors.phone}</div>}
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
@@ -222,38 +207,47 @@ const FormNewUI = () => {
                   type="text"
                   className="form-control"
                   placeholder=""
-                  name="Company"
-                  onBlur={() => validateCompanyName(form.current.Company.value)}
-                  onChange={() => setCompanyNameError("")}
+                  name="companyname"
+                  value={formData.companyname}
+                  onChange={handleChange}
                 />
                 <label htmlFor="Company Name">*Company Name</label>
               </div>
-              {companyNameError && <small className="text-danger">{companyNameError}</small>}
+              {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
-                <select className="form-select" name="LEADCF7" aria-label="Default select example" defaultValue="">
-                  <option disabled hidden value="">Looking For?</option>
+                <select
+                  className="form-select"
+                  name="service"
+                  aria-label="Default select example"
+                  value={formData.service}
+                  onChange={handleChange}
+                >
+                  <option disabled hidden value="">
+                    Looking For?
+                  </option>
                   <option value="Implementation">Implementation</option>
                   <option value="Upgrade/Migration">Upgrade/Migration</option>
                   <option value="Support">Support</option>
                 </select>
+
               </div>
+              {errors.service && <div className="text-danger">{errors.service}</div>}
             </div>
             <div className='col-lg-12'>
               <div className="mb-3 form-group">
                 <textarea
                   className="form-control"
-                  id="exampleFormControlTextarea1"
                   placeholder=""
                   rows="3"
-                  name="Description"
-                  onBlur={() => validateMessage(form.current.Description.value)}
-                  onChange={() => setMessageError("")}
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                 ></textarea>
                 <label htmlFor="message">*Any specific requirements or questions?</label>
               </div>
-              {messageError && <small className="text-danger">{messageError}</small>}
+              {errors.message && <div className="text-danger">{errors.message}</div>}
             </div>
             <div className='col-lg-12'>
               <div className="mb-3 form-check">
@@ -279,18 +273,12 @@ const FormNewUI = () => {
                 </label>
               </div>
               <div className="spiner-wrper">
-                {/* <div className='zcwf_col_fld'>
-                        <input type='submit' id='formsubmit' className='btn btn-primary fomr-submit formsubmit zcwf_button' value='Submit' title='Submit' />
-                    </div> */}
                 <button
-                  id='formsubmit'
                   type="submit"
-                  title='Submit'
-                  value='Submit'
                   className="btn btn-primary fomr-submit"
-                  disabled={isSubmitting}
+                  disabled={submitting} // Disable button while submitting
                 >
-                  {isSubmitting ? 'Sending...' : 'Let’s Connect'}
+                  {submitting ? 'Sending...' : 'Let’s Connect'}
                 </button>
               </div>
             </div>
@@ -302,13 +290,13 @@ const FormNewUI = () => {
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
                   <div className='icns-boxx'>
-                    <a href="tel:+12898070740" target="_self">
+                    <a href="tel:+442071932502" target="_self">
                       <img src="/img/group_call.png" alt="group_call" />
                       <span>Call</span>
                     </a>
                   </div>
                   <div className='icns-boxx'>
-                    <a href="mailto:info@dynamicssquare.com">
+                    <a href="mailto:info@dynamicssquare.co.uk">
                       <img src="/img/group_mail.png" alt="group_mail" />
                       <span>Email</span>
                     </a>
@@ -322,27 +310,32 @@ const FormNewUI = () => {
                   <span>
                     Sales Support:{" "}
                   </span>
-                  <span>+1 289 807 0740</span>
+                  <span>+44 (0) 207 193 2502 </span>
+                </div>
+                <div className="cont-info">
+                  <span>
+                    Technical Support:{" "}
+                  </span>
+                  <span>+44 (0) 207 097 8987 </span>
                 </div>
                 <div className="cont-info">
                   <span>
                     <span>
                       Email Us:{" "}
                     </span>
-                    <a href="mailto:info@dynamicssquare.com">
-                      info@dynamicssquare.com
+                    <a href="mailto:info@dynamicssquare.co.uk">
+                      info@dynamicssquare.co.uk
                     </a>
                   </span>
                 </div>
               </div>
             </div>
           </div>
-          {/* Do not remove this --- Analytics Tracking code starts */}
-          {/* <script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=948f4cd9be9bd0a0990742d73cae57054f6db4cf60fadf1c40179e618e27a154bc383e6d0864f0639a6bf156e9e0b82dgidcfca0836293a502444394c44154c5d181e2746b3c7b72fb2a29bbf5bd484edf3gid79441142bac69bf8063093608e61e40a0111ece3fbd86a8ba67d66f194a16099gidae57229cd5d755a9095560a43b789a9936b26d3eb67c9fc12f7c2a21479003b9&tw=e3f350a1f3532d71831c9cd9681bf1dca97bd3f0990fa5ae18c4613ed902cbb6'></script> */}
+
         </form>
       </div>
     </div>
   );
 }
 
-export default FormNewUI;
+export default FormNewUIBackTest;
