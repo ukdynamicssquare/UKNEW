@@ -17,6 +17,7 @@ const Formpop = () => {
     // job: '',
     // service: '',
     currentPageUrl: '',
+    formtag:'Timer Form'
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
@@ -76,7 +77,7 @@ const handleSubmit = async (e) => {
           // job: '',
           // service: '',
           currentPageUrl: '',
-          formtag:'Timer Form'
+        
         });
 
 
