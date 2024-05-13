@@ -15,6 +15,7 @@ const Form = () => {
     // job: '',
     // service: '',
     currentPageUrl: '',
+    formtag:'Footer Form'
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
@@ -171,6 +172,7 @@ const handleSubmit = async (e) => {
               onChange={handleChange}
             />
              <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+             <input type="hidden" value="Footer Form" name="formtag" />
             {errors.name && <div className="text-danger">{errors.name}</div>}
           </div>
           <div className="mb-3">

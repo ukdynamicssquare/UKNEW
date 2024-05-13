@@ -22,6 +22,7 @@ const Footer = () => {
     phone: '',
     companyname: '',
     message: '',
+    formtag:'CTA Form',
     // job: '',
     // service: '',
     currentPageUrl: '',
@@ -189,6 +190,7 @@ const Footer = () => {
                         onChange={handleChange}
                       />
                       <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+                      <input type="hidden" value="CTA Form" name="formtag" />
                       {errors.name && <div className="text-danger">{errors.name}</div>}
                     </div>
                     <div className="mb-3">

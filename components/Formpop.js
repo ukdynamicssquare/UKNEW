@@ -76,6 +76,7 @@ const handleSubmit = async (e) => {
           // job: '',
           // service: '',
           currentPageUrl: '',
+          formtag:'Timer Form'
         });
 
 
@@ -158,6 +159,7 @@ const handleSubmit = async (e) => {
             onChange={handleChange}
           />
            <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+           <input type="hidden" value="Timer Form" name="formtag" />
           {errors.name && <div className="text-danger">{errors.name}</div>}
         </div>
         <div className="mb-3">
