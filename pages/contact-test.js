@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LeadCaptureForm from "../components/LeadCaptureForm";
 import TestForm from "../components/TestForm";
+import FormNewUIBackTest from "../components/FormNewUIBackTest";
 const ContactUs = () => {
   return (
     <>
@@ -21,12 +22,15 @@ const ContactUs = () => {
        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <main>
+<FormNewUIBackTest />
+
+
        
         {/* <LeadCaptureForm /> */}
         <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
-            <TestForm />
+            {/* <TestForm /> */}
               <div className="col-lg-6 align-self-center">
                 <h1>Contact Us</h1>
                 <p>

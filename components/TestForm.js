@@ -141,7 +141,7 @@ const handleSubmit = async (e) => {
             <input
               type="text"
               className="form-control"
-              placeholder="* Full Name"
+              placeholder="*Full Name"
               name="name"
               value={formData.name}
               onChange={handleChange}
@@ -153,7 +153,7 @@ const handleSubmit = async (e) => {
             <input
               type="email"
               className="form-control"
-              placeholder="* Work Email"
+              placeholder="*Work Email"
               name="email"
               value={formData.email}
               onChange={handleChange}
@@ -164,7 +164,7 @@ const handleSubmit = async (e) => {
             <input
               type="text"
               className="form-control"
-              placeholder="* Company Name"
+              placeholder="*Company Name"
               name="companyname"
               value={formData.companyname}
               onChange={handleChange}
@@ -186,7 +186,7 @@ const handleSubmit = async (e) => {
             <input
               type="text"
               className="form-control"
-              placeholder="* Job Title"
+              placeholder="*Job Title"
               name="job"
               value={formData.job}
               onChange={handleChange}
@@ -213,7 +213,7 @@ const handleSubmit = async (e) => {
           <div className="mb-3">
             <textarea
               className="form-control"
-              placeholder="* How Can We Help You?"
+              placeholder="*How Can We Help You?"
               rows="3"
               name="message"
               value={formData.message}
