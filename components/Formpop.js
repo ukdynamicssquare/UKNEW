@@ -81,8 +81,8 @@ const handleSubmit = async (e) => {
 
 
         setTimeout(() => {
-          event.target.reset();
-          event.target.remove();
+          e.target.reset();
+          e.target.remove();
           Cookies.set('popupModalShown', true, { expires: 1 });
           setShowModal(false);
           router.push("/thank-you/");
