@@ -15,6 +15,7 @@ const FormNewUIBackTest = () => {
     job: '',
     service: '',
     currentPageUrl: '',
+    formtag:'Contact Us Form'
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
@@ -74,6 +75,7 @@ const FormNewUIBackTest = () => {
             job: '',
             service: '',
             currentPageUrl: '',
+            formtag:''
           });
           setTimeout(() => {
             router.push('/thank-you/');
@@ -152,6 +154,7 @@ const FormNewUIBackTest = () => {
                 />
                 <label htmlFor="name">*Name</label>
                 <input type="hidden" value={router.asPath} name="url" />
+                <input type="hidden" value="Contact Us Form" name="formtag" />
               </div>
               {errors.name && <div className="text-danger">{errors.name}</div>}
             </div>
