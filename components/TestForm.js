@@ -6,6 +6,7 @@ import Cookies from 'js-cookie';
 const TestForm = () => {
   const router = useRouter();
   const form = useRef();
+  const [currentPageUrl, setCurrentPageUrl] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -18,10 +19,14 @@ const TestForm = () => {
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
-
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl: window.location.href }));
-  }, []);
+  
+  useEffect(()=>{
+    setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
+  },[currentPageUrl]);    
+    
+  useEffect(()=>{
+    setCurrentPageUrl(window.location.href);
+  },[]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
