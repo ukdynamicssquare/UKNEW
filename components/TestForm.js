@@ -1,7 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
-import Cookies from 'js-cookie';
 
 const TestForm = () => {
   const router = useRouter();
@@ -250,5 +249,11 @@ const handleSubmit = async (e) => {
     </div>
   );
 };
+
+
+//pop up fomr email js code
+
+
+// await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
 
 export default TestForm;

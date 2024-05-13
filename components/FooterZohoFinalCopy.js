@@ -5,143 +5,165 @@ import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
 import Link from "next/link";
-const Footer = () => {
+import ReCAPTCHA from 'react-google-recaptcha';
+const FooterZohoFinalCopy = () => {
+
+  const router = useRouter();
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [phoneError, setPhoneError] = useState("");
+  const [companyNameError, setCompanyNameError] = useState("");
+  const [messageError, setMessageError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission
   const [display, setDisplay] = useState("dspn");
+
   const [closeModal, setCloseModal] = useState(false);
+  const [isRecaptchaVerified, setIsRecaptchaVerified] = useState(false);
+  const [recaptchaError, setRecaptchaError] = useState("");
+  const recaptchaRef = useRef();
+  const RECAPTCHA_SITE_KEY = "6LcpJc0pAAAAAEqpqhJA21kqjTWsKpnhsdrbaUej";
   function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
       .forEach(el => el.classList.remove("modal-backdrop"));
   }
-  const router = useRouter();
   const form = useRef();
-  const [currentPageUrl, setCurrentPageUrl] = useState('');
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    companyname: '',
-    message: '',
-    // job: '',
-    // service: '',
-    currentPageUrl: '',
-  });
-  const [errors, setErrors] = useState({});
-  const [submitting, setSubmitting] = useState(false);
-
   useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-  }, [currentPageUrl]);
+    // Load the Zoho script after DOM content is fully loaded
+    const loadScript = () => {
+      const script = document.createElement('script');
+      script.src = `https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=ff35fc84fead2bb8f7ee4371c237518663b4b89ebcf813141d6a58670bc2ecbede3086472f0597699cbf4a50db363e95gid07addfd1a31ff25f5879e269e263c5da8f28390f6f650c5d8d8852d2a93580c9gidef1953d0b493ba0ef4fc086c3f29386c9b755cde4750f62b191aee93c2653f29gid541e9a1a97e35246af4064b4a60813132b7d15a5f8c5f90779bb9a22ded79962&tw=8d56c88576e7dfe7877cba12b7c54a1c13a0215b28fc234745b78ab4d32555ab`; // Replace YOUR_ZOHO_SCRIPT_ID with your actual Zoho script ID
+      script.async = true;
+      document.body.appendChild(script);
+    };
 
-  useEffect(() => {
-    setCurrentPageUrl(window.location.href);
+    if (document.readyState === 'complete') {
+      loadScript();
+    } else {
+      window.addEventListener('DOMContentLoaded', loadScript);
+    }
+
+    // Clean up function to remove the script when the component unmounts
+    return () => {
+      const script = document.querySelector('script[src^="https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet"]');
+      if (script) {
+        script.remove();
+      }
+    };
   }, []);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-    // Clear error message for the field being edited
-    setErrors((prevErrors) => ({ ...prevErrors, [name]: '' }));
-  };
 
-  const handlePhoneChange = (e) => {
-    const { value } = e.target;
-    // Replace any non-numeric characters with an empty string
-    const cleanedValue = value.replace(/\D/g, '');
-    // Limit to 13 characters
-    const truncatedValue = cleanedValue.slice(0, 13);
-    setFormData({ ...formData, phone: truncatedValue });
-    // Clear error message for the phone field
-    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const validationErrors = validateForm(formData);
-    if (Object.keys(validationErrors).length === 0) {
-      setSubmitting(true);
-      try {
-        // Send form data via EmailJS
-        await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
-
-        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        });
-        if (response.ok) {
-          console.log('Form submitted successfully');
-          console.log('Form Data:', formData);
-          // Clear form data after successful submission
-          setFormData({
-            name: '',
-            email: '',
-            phone: '',
-            companyname: '',
-            message: '',
-            // job: '',
-            // service: '',
-            currentPageUrl: '',
-          });
-          setTimeout(() => {
-            router.push('/thank-you/');
-          }, 1000);
-        } else {
-          console.error('Form submission failed');
-        }
-      } catch (error) {
-        console.error('Error submitting form:', error);
-      } finally {
-        setSubmitting(false);
-      }
-    } else {
-      setErrors(validationErrors);
-    }
-  };
-
-
-  const validateForm = (formData) => {
-    const errors = {};
-    if (!formData.name.trim()) {
-      errors.name = 'Name is required';
-    }
-    if (!formData.email.trim()) {
-      errors.email = 'Email is required';
-    } else if (!isValidEmail(formData.email)) {
-      errors.email = 'Invalid email address';
-    }
-    if (!formData.phone.trim()) {
-      errors.phone = 'Phone number is required';
-    } else if (!isValidPhoneNumber(formData.phone)) {
-      errors.phone = 'Invalid phone number';
-    }
-    if (!formData.companyname.trim()) {
-      errors.companyname = 'Company name is required';
-    }
-    if (!formData.message.trim()) {
-      errors.message = 'Message is required';
-    }
-    // if (!formData.job.trim()) {
-    //   errors.job = 'Job title is required';
-    // }
-    // if (!formData.service.trim()) {
-    //   errors.service = 'Service selection is required';
-    // }
-    return errors;
-  };
-
-  const isValidEmail = (email) => {
-    // Basic email format validation
+  const validateEmail = (email) => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
-    return emailRegex.test(email);
+    return emailRegex.test(String(email).toLowerCase());
   };
 
-  const isValidPhoneNumber = (phone) => {
-    // Phone number should be between 10 to 13 characters
-    return /^\d{10,13}$/.test(phone);
+  const validatePhone = (phone) => {
+    const phoneRegex = /^\d{10,13}$/;
+    const isValid = phoneRegex.test(phone);
+    if (!isValid && phone.length > 0) {
+      setPhoneError("Please enter a valid phone number (10-13 digits).");
+    } else {
+      setPhoneError("");
+    }
+    return isValid;
   };
+
+  const validateName = (name) => {
+    if (!name) {
+      setNameError("Please enter your full name.");
+      return false;
+    } else {
+      setNameError("");
+      return true;
+    }
+  };
+
+  const validateCompanyName = (companyName) => {
+    if (!companyName) {
+      setCompanyNameError("Please enter your company name.");
+      return false;
+    } else {
+      setCompanyNameError("");
+      return true;
+    }
+  };
+
+  const validateMessage = (message) => {
+    if (!message) {
+      setMessageError("Please enter your message.");
+      return false;
+    } else {
+      setMessageError("");
+      return true;
+    }
+  };
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    // Ensure that form.current is defined before accessing its properties
+    if (!form.current) {
+      console.error("Form reference is not set.");
+      return;
+    }
+    // Check if reCAPTCHA is verified
+    if (!isRecaptchaVerified) {
+      setRecaptchaError("Please complete the reCAPTCHA challenge.");
+      return;
+    } else {
+      setRecaptchaError(""); // Clear reCAPTCHA error if verified
+    }
+
+    const formData = new FormData(form.current);
+    const url = 'https://crm.zoho.in/crm/WebToLeadForm';
+    let isValid = true;
+
+    isValid = validateName(formData.get('Last Name')) && isValid;
+    isValid = validateCompanyName(formData.get('Company')) && isValid;
+    isValid = validateMessage(formData.get('Description')) && isValid;
+
+    const email = formData.get('Email');
+    if (!validateEmail(email)) {
+      setEmailError("Please enter a valid work email address.");
+      isValid = false;
+    } else {
+      setEmailError(""); // Clear email error if email is valid
+    }
+
+    const phone = formData.get('phone');
+    if (phone && !validatePhone(phone)) {
+      isValid = false;
+    }
+
+    if (isValid) {
+      setIsSubmitting(true); // Start loading animation
+
+      try {
+        await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
+        const response = await fetch(url, {
+          method: 'POST',
+          body: formData
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to submit form');
+        }
+
+        console.log('Form submitted successfully!');
+        setTimeout(() => {
+          router.push("/thank-you/");
+        }, 300); // Redirect to thank-you page after 5 seconds
+      } catch (error) {
+        console.error('Error sending form:', error);
+        // Handle error, e.g., display error message to user
+      } finally {
+        setIsSubmitting(false); // Stop loading animation regardless of success or failure
+      }
+    }
+  };
+
+
 
 
 
@@ -177,87 +199,133 @@ const Footer = () => {
                 with one of our Microsoft consultants.
               </p>
               <div className="modal-body">
-                <div className="main-form-wrper">
-                  <form ref={form} onSubmit={handleSubmit}>
+                <div id='crmWebToEntityForm' className="main-form-wrper">
+                  <form id='webform196947000014082098' ref={form} onSubmit={sendEmail} action='https://crm.zoho.in/crm/WebToLeadForm' name='webform196947000014082098' method='POST' acceptCharset='UTF-8'>
+                    <input type='text' style={{ display: 'none' }} name='xnQsjsdp' value='ddd8c6934302410eb1e18ce3630a401e40eddc0f2e0cf25e5b2c3962bfebfbcf' />
+                    <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+                    <input type='text' style={{ display: 'none' }} name='xmIwtLD' value='ef05890eba0f9662528983bce3ce5ea84eb622cc32a31f3f2751bd3c84eeb71fbeb503f0aaeacdcb37096a71c6aeb020' />
+                    <input type='text' style={{ display: 'none' }} name='actionType' value='TGVhZHM=' />
+                    <input type='text' style={{ display: 'none' }} name='returnURL' value='https://www.dynamicssquare.co.uk/thank-you/' />
                     <div className="mb-3">
                       <input
                         type="text"
+                        id="name"
                         className="form-control"
                         placeholder="*Full Name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
+                        name="Last Name"
+                        onBlur={() => validateName(form.current.name.value)}
+                        onChange={() => setNameError("")}
                       />
-                      <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
-                      {errors.name && <div className="text-danger">{errors.name}</div>}
+                      <input type="hidden" value={router.asPath} name="url" />
+                      {nameError && <small className="text-danger">{nameError}</small>}
                     </div>
+
                     <div className="mb-3">
                       <input
                         type="email"
                         className="form-control"
                         placeholder="*Work Email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
+                        name="Email"
+                        onBlur={(e) => {
+                          if (!validateEmail(e.target.value)) {
+                            setEmailError("Please enter a valid work email address.");
+                          } else {
+                            setEmailError("");
+                          }
+                        }}
                       />
-                      {errors.email && <div className="text-danger">{errors.email}</div>}
+                      {emailError && <small className="text-danger">{emailError}</small>}
                     </div>
                     <div className="mb-3">
                       <input
                         type="text"
                         className="form-control"
                         placeholder="*Company Name"
-                        name="companyname"
-                        value={formData.companyname}
-                        onChange={handleChange}
+                        name="Company"
+                        onBlur={() => validateCompanyName(form.current.Company.value)}
+                        onChange={() => setCompanyNameError("")}
                       />
-                      {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
+                      {companyNameError && <small className="text-danger">{companyNameError}</small>}
                     </div>
                     <div className="mb-3">
                       <input
                         type="tel"
                         className="form-control"
                         placeholder="*Phone Number"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handlePhoneChange}
+                        name="Phone"
+                        onBlur={(e) => validatePhone(e.target.value)}
+                        required
                       />
-                      {errors.phone && <div className="text-danger">{errors.phone}</div>}
+                      {phoneError && <small className="text-danger">{phoneError}</small>}
                     </div>
-                  
                     <div className="mb-3">
                       <textarea
                         className="form-control"
+                        id="exampleFormControlTextarea1"
                         placeholder="*How Can We Help You?"
                         rows="3"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
+                        name="Description"
+                        onBlur={() => validateMessage(form.current.Description.value)}
+                        onChange={() => setMessageError("")}
                       ></textarea>
-                      {errors.message && <div className="text-danger">{errors.message}</div>}
+                      {messageError && <small className="text-danger">{messageError}</small>}
+                    </div>
+                    <div className="mb-3 form-check" style={{marginLeft:'-25px'}}>
+                      <ReCAPTCHA
+                        ref={recaptchaRef}
+                        sitekey={RECAPTCHA_SITE_KEY}
+                        onChange={(token) => {
+                          setIsRecaptchaVerified(true);
+                          setRecaptchaError(""); // Clear error message on successful verification
+                        }}
+                      />
+
+                      {/* Render reCAPTCHA error message */}
+                      {recaptchaError && <small className="text-danger">{recaptchaError}</small>}
                     </div>
                     <div className="mb-3 form-check">
-                      <input type="checkbox" checked readOnly className="form-check-input" id="exampleCheck1" />
+                      <input
+                        type="checkbox"
+                        checked
+                        readOnly
+                        className="form-check-input"
+                      />
                       <label className="form-check-label">
                         I agree to the
                         <a href="/privacy-policy/" target="_blank">
-                          {' '}
-                          Privacy Policy{' '}
+                          {" "}
+                          Privacy Policy{" "}
                         </a>
                         and
                         <a href="/terms-of-use/" target="_blank">
-                          {' '}
-                          Terms of Service{' '}
+                          {" "}
+                          Terms of Service{" "}
                         </a>
                         .
                       </label>
                     </div>
+                   
 
                     <div className="spiner-wrper">
-                      <button type="submit" className="btn btn-primary fomr-submit" disabled={submitting}>
-                        {submitting ? 'Submitting...' : 'Submit'}
+                      {/* <button
+                        type="submit"
+                        className="btn btn-primary fomr-submit"
+                      >
+                        Submit
+                      </button> */}
+                      <button
+                        id='formsubmit'
+                        type="submit"
+                        title='Submit'
+                        value='Submit'
+                        className="btn btn-primary fomr-submit"
+                        disabled={isSubmitting}
+                      >
+                        {isSubmitting ? 'Sending...' : ' Submit'}
                       </button>
-                      {submitting && <div className="spinner-border text-primary" role="status"></div>}
+                      {/* <div className={display} role="status">
+                      <span className="visually-hidden">Loading...</span>
+                    </div> */}
                     </div>
                   </form>
                 </div>
@@ -619,4 +687,4 @@ const Footer = () => {
 
   );
 }
-export default Footer
+export default FooterZohoFinalCopy
