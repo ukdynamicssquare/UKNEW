@@ -130,6 +130,7 @@ const TestForm = () => {
               value={formData.name}
               onChange={handleChange}
             />
+             <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
             {errors.name && <div className="text-danger">{errors.name}</div>}
           </div>
           <div className="mb-3">
