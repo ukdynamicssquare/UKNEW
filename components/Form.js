@@ -1,6 +1,10 @@
 import React, { useRef ,useState ,useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+
+
 const Form = () => {
 
   const router = useRouter();
@@ -17,6 +21,9 @@ const Form = () => {
     currentPageUrl: '',
     formtag:'Footer Form'
   });
+
+  const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
+
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
@@ -28,6 +35,36 @@ const Form = () => {
     setCurrentPageUrl(window.location.href);
   },[]);
 
+
+/*auto fetch*/
+useEffect(() => {
+  // Fetch IP information when the component mounts
+  fetchCountryCodeByIP();
+}, []);
+
+const fetchCountryCodeByIP = () => {
+  fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to fetch IP information');
+      }
+      return response.json();
+    })
+    .then(data => {
+      let countryCode = data.country_code.toLowerCase(); 
+      console.log("Country Code:", countryCode); // 
+      setDefaultCountryCode(countryCode);
+      console.log("Default Country Code:", defaultCountryCode); 
+    })
+    .catch(error => {
+      console.error('Error fetching IP information:', error);
+      setDefaultCountryCode('gb');
+    });
+};
+
+
+
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -35,13 +72,16 @@ const Form = () => {
     setErrors((prevErrors) => ({ ...prevErrors, [name]: '' }));
   };
 
-  const handlePhoneChange = (e) => {
-    const { value } = e.target;
-    // Replace any non-numeric characters with an empty string
-    const cleanedValue = value.replace(/\D/g, '');
-    // Limit to 13 characters
-    const truncatedValue = cleanedValue.slice(0, 13);
-    setFormData({ ...formData, phone: truncatedValue });
+  // const handlePhoneChange = (e) => {
+  //   const { value } = e.target;
+  //   const cleanedValue = value.replace(/\D/g, '');
+  //   const truncatedValue = cleanedValue.slice(0, 13);
+  //   setFormData({ ...formData, phone: truncatedValue });
+  //   setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
+  // };
+
+  const handlePhoneChange = (phone) => {
+    setFormData({ ...formData, phone });
     // Clear error message for the phone field
     setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
@@ -131,7 +171,7 @@ const handleSubmit = async (e) => {
 
   const isValidPhoneNumber = (phone) => {
     // Phone number should be between 10 to 13 characters
-    return /^\d{10,13}$/.test(phone);
+    return /^\d{10,15}$/.test(phone);
   };
 
 
@@ -198,14 +238,38 @@ const handleSubmit = async (e) => {
             {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
           </div>
           <div className="mb-3">
-            <input
+            {/* <input
               type="tel"
               className="form-control"
               placeholder="*Phone Number"
               name="phone"
               value={formData.phone}
               onChange={handlePhoneChange}
-            />
+            /> */}
+            <PhoneInput inputStyle={{ width: '100%', height: 'auto' }}
+                        country={defaultCountryCode} // Set default country code
+                        value={formData.phone}
+                        onChange={handlePhoneChange}
+                        inputClass="form-control" // CSS class for the input
+                        inputProps={{
+                          name: 'phone',
+                          required: true,
+                          autoFocus: true,
+                          onBlur: () => {
+                            if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
+                              if (!isValidPhoneNumber(formData.phone)) {
+                                setErrors({ ...errors, phone: 'Invalid phone number format' });
+                              } else {
+                                delete errors.phone; // Clear error if phone number is valid
+                              }
+                            } else {
+                              delete errors.phone; // Clear error if phone number is empty
+                            }
+                          }
+                        }}
+                        // onlyCountries={['us', 'ca', 'mx', 'gb']}
+                        excludeCountries={['pk']}
+                      />
             {errors.phone && <div className="text-danger">{errors.phone}</div>}
           </div>
           {/* <div className="mb-3">
