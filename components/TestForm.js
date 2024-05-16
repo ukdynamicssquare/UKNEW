@@ -1,6 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import axios from 'axios';
 
 const TestForm = () => {
   const router = useRouter();
@@ -12,20 +15,37 @@ const TestForm = () => {
     phone: '',
     companyname: '',
     message: '',
-    job: '',
-    service: '',
     currentPageUrl: '',
+    formtag: 'Footer Form'
   });
+  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); // Default to 'us'
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(()=>{
-    setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
-  },[currentPageUrl]);    
-    
-  useEffect(()=>{
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
     setCurrentPageUrl(window.location.href);
-  },[]);
+  }, []);
+
+  useEffect(() => {
+    // Fetch IP information when the component mounts
+    fetchCountryCodeByIP();
+  }, []);
+
+  const fetchCountryCodeByIP = () => {
+    axios.get('https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e')
+      .then(response => {
+        const countryCode = response.data.country_code.toLowerCase(); // Convert to lowercase
+        setDefaultCountryCode(countryCode);
+      })
+      .catch(error => {
+        console.error('Error fetching IP information:', error);
+        setDefaultCountryCode('us'); // Fallback to 'us' if the API call fails
+      });
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -34,63 +54,56 @@ const TestForm = () => {
     setErrors((prevErrors) => ({ ...prevErrors, [name]: '' }));
   };
 
-  const handlePhoneChange = (e) => {
-    const { value } = e.target;
-    // Replace any non-numeric characters with an empty string
-    const cleanedValue = value.replace(/\D/g, '');
-    // Limit to 13 characters
-    const truncatedValue = cleanedValue.slice(0, 13);
-    setFormData({ ...formData, phone: truncatedValue });
+  const handlePhoneChange = (phone) => {
+    setFormData({ ...formData, phone });
     // Clear error message for the phone field
     setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  const validationErrors = validateForm(formData);
-  if (Object.keys(validationErrors).length === 0) {
-    setSubmitting(true);
-    try {
-      // Send form data via EmailJS
-      await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const validationErrors = validateForm(formData);
+    if (Object.keys(validationErrors).length === 0) {
+      setSubmitting(true);
+      try {
+        // Send form data via EmailJS
+        await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
 
-      const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        console.log('Form submitted successfully');
-        console.log('Form Data:', formData);
-        // Clear form data after successful submission
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          companyname: '',
-          message: '',
-          job: '',
-          service: '',
-          currentPageUrl: '',
+        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
         });
-        setTimeout(() => {
-          router.push('/thank-you/');
-        }, 1000);
-      } else {
-        console.error('Form submission failed');
+        if (response.ok) {
+          console.log('Form submitted successfully');
+          console.log('Form Data:', formData);
+          // Clear form data after successful submission
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            companyname: '',
+            message: '',
+            currentPageUrl: '',
+            formtag: 'Footer Form'
+          });
+          setTimeout(() => {
+            router.push('/thank-you/');
+          }, 1000);
+        } else {
+          console.error('Form submission failed');
+        }
+      } catch (error) {
+        console.error('Error submitting form:', error);
+      } finally {
+        setSubmitting(false);
       }
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    } finally {
-      setSubmitting(false);
+    } else {
+      setErrors(validationErrors);
     }
-  } else {
-    setErrors(validationErrors);
-  }
-};
-
+  };
 
   const validateForm = (formData) => {
     const errors = {};
@@ -113,28 +126,22 @@ const handleSubmit = async (e) => {
     if (!formData.message.trim()) {
       errors.message = 'Message is required';
     }
-    if (!formData.job.trim()) {
-      errors.job = 'Job title is required';
-    }
-    if (!formData.service.trim()) {
-      errors.service = 'Service selection is required';
-    }
     return errors;
   };
 
   const isValidEmail = (email) => {
-    // Basic email format validation
     const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
     return emailRegex.test(email);
   };
 
   const isValidPhoneNumber = (phone) => {
+    const strippedPhone = phone.replace(/^\+?\d{1,4}/, '');
     // Phone number should be between 10 to 13 characters
-    return /^\d{10,13}$/.test(phone);
+    return /^\d{10,20}$/.test(phone);
   };
 
   return (
-    <div>
+    <>
       <div className="main-form-wrper">
         <form ref={form} onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -146,7 +153,8 @@ const handleSubmit = async (e) => {
               value={formData.name}
               onChange={handleChange}
             />
-             <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+            <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+            <input type="hidden" value="Footer Form" name="formtag" />
             {errors.name && <div className="text-danger">{errors.name}</div>}
           </div>
           <div className="mb-3">
@@ -172,43 +180,31 @@ const handleSubmit = async (e) => {
             {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
           </div>
           <div className="mb-3">
-            <input
-              type="tel"
-              className="form-control"
-              placeholder="* Phone Number"
-              name="phone"
+            <PhoneInput inputStyle={{width:'100%',height:'auto'}}
+              country={defaultCountryCode} // Set default country code
               value={formData.phone}
               onChange={handlePhoneChange}
+              inputClass="form-control" // CSS class for the input
+              inputProps={{
+                name: 'phone',
+                required: true,
+                autoFocus: true,
+                onBlur: () => {
+                  if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
+                    if (!isValidPhoneNumber(formData.phone)) {
+                      setErrors({ ...errors, phone: 'Invalid phone number format' });
+                    } else {
+                      delete errors.phone; // Clear error if phone number is valid
+                    }
+                  } else {
+                    delete errors.phone; // Clear error if phone number is empty
+                  }
+                }
+              }}
+              // onlyCountries={['us', 'ca', 'mx', 'gb']}
+              excludeCountries={['pk','cn']}
             />
             {errors.phone && <div className="text-danger">{errors.phone}</div>}
-          </div>
-          <div className="mb-3">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="*Job Title"
-              name="job"
-              value={formData.job}
-              onChange={handleChange}
-            />
-            {errors.job && <div className="text-danger">{errors.job}</div>}
-          </div>
-          <div className="mb-3">
-            <select
-              className="form-select"
-              name="service"
-              aria-label="Default select example"
-              value={formData.service}
-              onChange={handleChange}
-            >
-              <option disabled hidden value="">
-                Looking For?
-              </option>
-              <option value="Implementation">Implementation</option>
-              <option value="Upgrade/Migration">Upgrade/Migration</option>
-              <option value="Support">Support</option>
-            </select>
-            {errors.service && <div className="text-danger">{errors.service}</div>}
           </div>
           <div className="mb-3">
             <textarea
@@ -246,14 +242,8 @@ const handleSubmit = async (e) => {
           </div>
         </form>
       </div>
-    </div>
+    </>
   );
-};
-
-
-//pop up fomr email js code
-
-
-// await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
+}
 
 export default TestForm;

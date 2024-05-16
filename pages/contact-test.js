@@ -30,7 +30,7 @@ const ContactUs = () => {
         <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
-            {/* <TestForm /> */}
+            <TestForm />
               <div className="col-lg-6 align-self-center">
                 <h1>Contact Us</h1>
                 <p>
