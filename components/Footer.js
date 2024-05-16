@@ -68,6 +68,7 @@ const Footer = () => {
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
+        setDefaultCountryCode('gb');
       });
   };
 
