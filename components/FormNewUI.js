@@ -268,7 +268,7 @@ const FormNewUIBackTest = () => {
 
                 {/* <label htmlFor="phone">Phone Number</label> */}
               </div>
-              {errors.phone && <div className="text-danger">{errors.phone}</div>}
+              {/* {errors.phone && <div className="text-danger">{errors.phone}</div>} */}
             </div>
             <div className='col-lg-6'>
               <div className="mb-3 form-group">
