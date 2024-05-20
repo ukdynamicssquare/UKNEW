@@ -243,7 +243,7 @@ const ManufacturingManagement = () => {
                         <li>Automate Data Collection</li>
                         <li>Cost Budgeting</li>
                         <li>Warehouse Management</li>
-                        <li>nventory Management</li>
+                        <li>Inventory Management</li>
                         <li>Capacity Planning</li>
                         <li>Order Processing</li>
                         <li>Supply Planning</li>
