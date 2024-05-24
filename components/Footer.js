@@ -275,7 +275,7 @@ const Footer = () => {
                         inputProps={{
                           name: 'phone',
                           required: true,
-                          autoFocus: true,
+                          autoFocus: false,
                           onBlur: () => {
                             if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
                               if (!isValidPhoneNumber(formData.phone)) {
