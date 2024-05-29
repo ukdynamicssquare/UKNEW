@@ -29,8 +29,8 @@ class Header extends Component {
             <a href="mailto:info@dynamicssquare.co.uk">
               <span><i className="bi bi-envelope"></i> info@dynamicssquare.co.uk</span>
             </a>
-            <a href="tel:+442071932502">
-              <span><i className="bi bi-telephone"></i> 0207 193 2502</span>
+            <a href="tel:+442035141057">
+              <span><i className="bi bi-telephone"></i> 0203 514 1057</span>
             </a>
           </div>
           <div className="container-fluid">
