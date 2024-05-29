@@ -110,7 +110,7 @@ const ContactUs = () => {
                       <p>
                       International House 61 <br/>Mosley Street, Manchester, <br/>M2 3HZ, UK
                       </p>
-                      <p>+44 747 927 3380</p>
+                      <p>+44 745 994 8273</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-12">
@@ -548,7 +548,7 @@ const ContactUs = () => {
                           <div className="icons-left">
                             <i className="bi bi-telephone"></i>
                           </div>
-                          <div className="content-right">+44 747 927 3380</div>
+                          <div className="content-right">+44 7459 948273</div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">
