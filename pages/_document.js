@@ -53,7 +53,16 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-          <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script>
+          {/* <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script> */}
+          <script
+            id="zsiqchat"
+            async
+            dangerouslySetInnerHTML={{
+              __html: `
+              var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siq2c0a7348126da1eec1533d7b2fe81669a9a9454a36812c4485ee1ce065e0a657e9757eecc59243ed2c9ad7fb7bda1383", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zohopublic.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+              `
+            }}
+          />
         </body>
       </Html>
     )
