@@ -731,45 +731,37 @@ const MarketingImplementation = () => {
             <h2>Dynamics 365 Marketing Pricing</h2>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
-            <div className="col-lg-5 col-md-6">
+            <div className="col-lg-6 col-md-6">
               <div className="box box-22">
-                <h3>Dynamics 365 Marketing</h3>
-                <p>
-                  <b>
-                    For organisations without any other Dynamics 365 application
-                  </b>
-                </p>
+                <h3>
+                Dynamics 365 Marketing  <br /> (Dynamics 365 Insights – Journey)
+                </h3>
+                <p><b>New Customer</b></p>
                 <div className="price">
-                  <sup>£</sup>1,131.20<span>Per-User/Per Month</span>
+                  £1346<span>Per-Tenant/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">10,000 People Interacted and 100,00 People Unified</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="box box-22">
+                <h3>
+                Dynamics 365 Marketing Attach <br /> (Dynamics 365 Insights – Journey)
+                </h3>
+                <p><b>Existing Customer</b></p>
+                <div className="price">
+                  £792<span>Per-Tenant/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                    Includes 10,000 contacts, 100,000 interactions, 1,000 SMS
-                    Messages<sup>2</sup>
+                  10,000 People Interacted and 100,00 People Unified
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-5 col-md-6">
-              <div className="box box-22">
-                <h3>Dynamics 365 Marketing Attach</h3>
-                <p>
-                  <b>
-                    For organisations with a qualifying Dynamics 365 application
-                    <sup>3</sup>
-                  </b>
-                </p>
-                <div className="price">
-                  <sup>£</sup>565.60<span>Per-User/Per Month</span>
-                </div>
-                <ul>
-                  <li className="text-center">
-                    Includes 10,000 contacts, 100,000 interactions, 1,000 SMS
-                    Messages
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
 
             <div className="col-lg-12 col-md-12">
               <p
@@ -793,7 +785,7 @@ const MarketingImplementation = () => {
           </div>
         </div>
       </section>
-
+     
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
