@@ -7138,6 +7138,13 @@ section {
   line-height: 1.3;
 }
 
+.CookieConsent{
+  width: 93% !important;
+    padding: 10px 10px;
+}
+
+
+
 @media (min-width: 991px) {
   .mob-disp {
     display: none;
@@ -7469,6 +7476,13 @@ section {
   }
 }
 @media (max-width: 768px) {
+  .CookieConsent{
+  width: 100% !important;
+    padding: 10px 10px;
+}
+.CookieConsent>div{
+  flex: 100% !important;
+}
   .navbar {
     padding: 18px 10px 15px;
   }
