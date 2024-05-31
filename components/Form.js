@@ -1,4 +1,4 @@
-import React, { useRef ,useState ,useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 import PhoneInput from 'react-phone-input-2';
@@ -19,7 +19,7 @@ const Form = () => {
     // job: '',
     // service: '',
     currentPageUrl: '',
-    formtag:'Footer Form'
+    formtag: 'Footer Form'
   });
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
@@ -27,40 +27,40 @@ const Form = () => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(()=>{
-    setFormData((prevFormData)=>({...prevFormData, currentPageUrl}));
-  },[currentPageUrl]);    
-    
-  useEffect(()=>{
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
     setCurrentPageUrl(window.location.href);
-  },[]);
+  }, []);
 
 
-/*auto fetch*/
-useEffect(() => {
-  // Fetch IP information when the component mounts
-  fetchCountryCodeByIP();
-}, []);
+  /*auto fetch*/
+  useEffect(() => {
+    // Fetch IP information when the component mounts
+    fetchCountryCodeByIP();
+  }, []);
 
-const fetchCountryCodeByIP = () => {
-  fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to fetch IP information');
-      }
-      return response.json();
-    })
-    .then(data => {
-      let countryCode = data.country_code.toLowerCase(); 
-      console.log("Country Code:", countryCode); // 
-      setDefaultCountryCode(countryCode);
-      console.log("Default Country Code:", defaultCountryCode); 
-    })
-    .catch(error => {
-      console.error('Error fetching IP information:', error);
-      setDefaultCountryCode('gb');
-    });
-};
+  const fetchCountryCodeByIP = () => {
+    fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch IP information');
+        }
+        return response.json();
+      })
+      .then(data => {
+        let countryCode = data.country_code.toLowerCase();
+        console.log("Country Code:", countryCode); // 
+        setDefaultCountryCode(countryCode);
+        console.log("Default Country Code:", defaultCountryCode);
+      })
+      .catch(error => {
+        console.error('Error fetching IP information:', error);
+        setDefaultCountryCode('gb');
+      });
+  };
 
 
 
@@ -86,51 +86,51 @@ const fetchCountryCodeByIP = () => {
     setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  const validationErrors = validateForm(formData);
-  if (Object.keys(validationErrors).length === 0) {
-    setSubmitting(true);
-    try {
-      // Send form data via EmailJS
-      await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const validationErrors = validateForm(formData);
+    if (Object.keys(validationErrors).length === 0) {
+      setSubmitting(true);
+      try {
+        // Send form data via EmailJS
+        await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
 
-      const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        console.log('Form submitted successfully');
-        console.log('Form Data:', formData);
-        // Clear form data after successful submission
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          companyname: '',
-          message: '',
-          // job: '',
-          // service: '',
-          currentPageUrl: '',
+        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
         });
-        setTimeout(() => {
-          router.push('/thank-you/');
-        }, 1000);
-      } else {
-        console.error('Form submission failed');
+        if (response.ok) {
+          console.log('Form submitted successfully');
+          console.log('Form Data:', formData);
+          // Clear form data after successful submission
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            companyname: '',
+            message: '',
+            // job: '',
+            // service: '',
+            currentPageUrl: '',
+          });
+          setTimeout(() => {
+            router.push('/thank-you/');
+          }, 1000);
+        } else {
+          console.error('Form submission failed');
+        }
+      } catch (error) {
+        console.error('Error submitting form:', error);
+      } finally {
+        setSubmitting(false);
       }
-    } catch (error) {
-      console.error('Error submitting form:', error);
-    } finally {
-      setSubmitting(false);
+    } else {
+      setErrors(validationErrors);
     }
-  } else {
-    setErrors(validationErrors);
-  }
-};
+  };
 
 
   const validateForm = (formData) => {
@@ -175,7 +175,7 @@ const handleSubmit = async (e) => {
   };
 
 
-  
+
   // const router = useRouter();
   // const [display, setDisplay] = useState("dspn");
   // const form = useRef();
@@ -189,17 +189,17 @@ const handleSubmit = async (e) => {
   //     }, (error) => {
   //         console.log(error.text);
   //     });
-     
+
   //     setTimeout(function() {
   //       e.target.reset();
   //       router.push("/thank-you/");
   //     }, 500);
-      
+
   // };
 
 
-    return (
-      <>
+  return (
+    <>
       <div className="main-form-wrper">
         <form ref={form} onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -211,8 +211,8 @@ const handleSubmit = async (e) => {
               value={formData.name}
               onChange={handleChange}
             />
-             <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
-             <input type="hidden" value="Footer Form" name="formtag" />
+            <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+            <input type="hidden" value="Footer Form" name="formtag" />
             {errors.name && <div className="text-danger">{errors.name}</div>}
           </div>
           <div className="mb-3">
@@ -247,29 +247,30 @@ const handleSubmit = async (e) => {
               onChange={handlePhoneChange}
             /> */}
             <PhoneInput inputStyle={{ width: '100%', height: 'auto' }}
-                        country={defaultCountryCode} // Set default country code
-                        value={formData.phone}
-                        onChange={handlePhoneChange}
-                        inputClass="form-control" // CSS class for the input
-                        inputProps={{
-                          name: 'phone',
-                          required: true,
-                          autoFocus: false,
-                          onBlur: () => {
-                            if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
-                              if (!isValidPhoneNumber(formData.phone)) {
-                                setErrors({ ...errors, phone: 'Invalid phone number format' });
-                              } else {
-                                delete errors.phone; // Clear error if phone number is valid
-                              }
-                            } else {
-                              delete errors.phone; // Clear error if phone number is empty
-                            }
-                          }
-                        }}
-                        // onlyCountries={['us', 'ca', 'mx', 'gb']}
-                        excludeCountries={['pk']}
-                      />
+              country={defaultCountryCode} // Set default country code
+              value={formData.phone}
+              onChange={handlePhoneChange}
+              inputClass="form-control" // CSS class for the input
+              inputProps={{
+                name: 'phone',
+                required: true,
+                autoFocus: false,
+                onBlur: () => {
+                  if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
+                    if (!isValidPhoneNumber(formData.phone)) {
+                      setErrors({ ...errors, phone: 'Invalid phone number format' });
+                    } else {
+                      delete errors.phone; // Clear error if phone number is valid
+                    }
+                  } else {
+                    delete errors.phone; // Clear error if phone number is empty
+                  }
+                }
+              }}
+              // onlyCountries={['us', 'ca', 'mx', 'gb']}
+              countryCodeEditable={false}
+              excludeCountries={['pk']}
+            />
             {errors.phone && <div className="text-danger">{errors.phone}</div>}
           </div>
           {/* <div className="mb-3">
@@ -336,8 +337,8 @@ const handleSubmit = async (e) => {
           </div>
         </form>
       </div>
- </>
-    );
+    </>
+  );
 }
 
 export default Form;

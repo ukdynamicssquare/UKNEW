@@ -289,6 +289,7 @@ const Footer = () => {
                           }
                         }}
                         // onlyCountries={['us', 'ca', 'mx', 'gb']}
+                        countryCodeEditable={false}
                         excludeCountries={['pk']}
                       />
                       {errors.phone && <div className="text-danger">{errors.phone}</div>}
