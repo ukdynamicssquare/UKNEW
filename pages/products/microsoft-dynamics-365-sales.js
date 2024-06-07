@@ -391,6 +391,49 @@ const colostyle= {
           </div>
         </div>
       </section>
+      <section className="new-module-sec">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Microsoft Copilot for Dynamics 365 Sales</h2>
+                <p>Microsoft Copilot comes embedded in Dynamics 365 Sales and serves as an intelligent AI assistant to accelerate lead capture and closing deals faster. It is a boon for sales executives because it helps them resolve queries instantly and offers an optimum level of customer satisfaction.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-left">
+              <div class="over-la-pic-1">
+                <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+              </div>
+                <Image width={630} height={440} src="/img/sales-copilote-side-pic.png" alt="sales-copilote-side-pic" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-right">
+             
+                <div className="c-bi-po-inn">
+                  <h3>Faster Sales Cycle</h3>
+                  <p>Copilot is capable enough to summarise leads and opportunities to close deals with the minimum resources. Also, it can track the sales history to collect customer data and help sales professionals pitch personalised offers.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Improved Deal Closure Rate</h3>
+                  <p>Copilot can filter out the high-potential and critical leads so that a business can distribute the resources accordingly. With Copilot, we can identify cross-sell and upsell opportunities.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Optimised Processes</h3>
+                  <p>Sales executives can generate leads while optimising the process with a personalised approach. It aids businesses to build stronger relationships with customers, supercharging relationships.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Enhanced Customer Satisfaction</h3>
+                  <p>Drive a customer-centric approach to offer great customer satisfaction. Establish a streamlined communication channel to understand customer requirements and interests.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">

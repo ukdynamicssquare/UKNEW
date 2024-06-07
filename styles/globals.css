@@ -12404,6 +12404,30 @@ figure {
 .right-side .right-card .right-card-con p span.blu{
   border-color:var(--color-blue)
 }
+
+/*new sectiom module*/
+.new-module-sec{ 
+}
+.new-box-sect-left{
+  position: relative;
+}
+.new-box-sect-left .over-la-pic-1 {
+  position: absolute;
+  width: 891px;
+  top: -147px;
+  left: -102px;
+  opacity: 1;
+  z-index:-1
+}
+.new-box-sect-right .c-bi-po-inn{
+  padding-bottom: 5px;
+}
+.new-box-sect-right .c-bi-po-inn h3{
+  font-size:18px;
+  margin-bottom: 5px;
+}
+.new-box-sect-right p{}
+
 @media (max-width: 1400px) {
 }
 

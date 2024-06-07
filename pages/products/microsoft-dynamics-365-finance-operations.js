@@ -870,6 +870,49 @@ const FinanceOperations = () => {
           </div>
         </div>
       </section>
+      <section className="new-module-sec">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Copilot in Microsoft Finance and Operations</h2>
+                <p>D365 Finance is a complex yet powerful solution where Copilot simplifies most of the operations. Microsoft Copilot in Dynamics 365 Finance and Operations offers AI-based, comprehensive support to users so that they can streamline different financial processes.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-left">
+              <div class="over-la-pic-1">
+              <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+              </div>
+                <Image width={630} height={440} src="/img/f-and-o-copilote-side-pic.png" alt="f-and-o-copilote-side-pic" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-right">
+             
+                <div className="c-bi-po-inn">
+                  <h3>Effective Communication</h3>
+                  <p>Copilot eliminates the method of collecting data from different departments. It lets you summarise customer data and send personalised emails based on intentions to collect overdue payments.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Better Financial Health</h3>
+                  <p>Copilot captures the entire customer data to find exciting trends and pending issues of financial health. It empowers the team to build consistent cash flow to enhance financial health.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Enhance Business Productivity</h3>
+                  <p>Eliminate recurring and manual tasks with automation to enhance overall productivity. It enables users to focus on important tasks rather than being stuck with system redundancies.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Supports Team Collaboration</h3>
+                  <p>You can integrate other business solutions in the Microsoft Dynamics 365 ecosystem to enhance performance and establish seamless collaboration between different departments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">

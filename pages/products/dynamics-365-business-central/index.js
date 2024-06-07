@@ -1421,6 +1421,49 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
         </div>
       </section>
+      <section className="new-module-sec">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Microsoft Copilot in Business Central</h2>
+                <p>Microsoft has started integrating Dynamics 365 Copilot as an add-on with all its business solutions. A D365 copilot is an assistant that is available to resolve or simplify complex business processes, along with boosting creativity and overall efficiency.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-left">
+              <div class="over-la-pic-1">
+              <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+              </div>
+                <Image width={630} height={440} src="/img/bc-copilote-side-pic.png" alt="bc-copilote-side-pic" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-right">
+             
+                <div className="c-bi-po-inn">
+                  <h3>Launch Products Faster</h3>
+                  <p>Copilot helps businesses launch products faster in the market. You can easily upload a product picture, write compelling descriptions, and justify brand tone as per different product attributes.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Simplify Bank Reconciliation</h3>
+                  <p>Copilot comes with advanced tools and capabilities to simplify the entire process of reconciling bank statements. It will automatically fetch data to match transactions and maintain the ledger.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Added Developer Tools</h3>
+                  <p>Copilot comes with various developer tools to help you build and deploy the required add-ons to customers. Also, these custom AI generative experiences can be uploaded to Microsoft AppSource.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Enhanced Inventory Management</h3>
+                  <p>Copilot can analyse the data available in the database to make data-driven decisions. It can identify products with high as well as low levels to eliminate the chances of stockouts and overstocking.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">

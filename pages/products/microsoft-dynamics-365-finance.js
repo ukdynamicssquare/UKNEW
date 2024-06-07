@@ -16,7 +16,7 @@ const Finance = () => {
           name="description"
           content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today."
         />
-      <link
+        <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/"
         />
@@ -24,7 +24,7 @@ const Finance = () => {
           property="og:url"
           content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/"
         />
-       
+
       </Head>
 
       <ModalVideo
@@ -35,7 +35,7 @@ const Finance = () => {
         onClose={() => setOpen(false)}
       />
 
-<section className="Solution-banner hero-1 hero">
+      <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
@@ -53,11 +53,11 @@ const Finance = () => {
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Finance = () => {
                 alt="Microsoft Dynamics 365 Finance"
                 width={868}
                 height={487}
-                priority = {true}
+                priority={true}
               />
             </div>
           </div>
@@ -245,11 +245,11 @@ const Finance = () => {
               <div className="m-o-t m-o-t-b">
                 <Link href="#exampleModal">
                   <a
-                  data-bs-toggle="modal"
-                  
-                  className="btn-get-started scrollto"
-                >
-                  <span>Know More</span></a>
+                    data-bs-toggle="modal"
+
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Know More</span></a>
                 </Link>
               </div>
               {/* <div className="downlad_guid">
@@ -383,21 +383,21 @@ const Finance = () => {
                     <div className="popup-btn popup-btns">
                       <Link href="#javascript:void(0)">
                         <a
-                        
-                        onClick={() => setOpen(true)}
-                      >
-                        <img
-                          src="/img/video-Finance.png"
-                          alt="video-Finance"
-                          width={390}
-                          height={259}
-                        />
-                        <span className="cente-icns">
+
+                          onClick={() => setOpen(true)}
+                        >
                           <img
-                            src="/img/play_icons.svg"
-                            alt="play_icons"
+                            src="/img/video-Finance.png"
+                            alt="video-Finance"
+                            width={390}
+                            height={259}
                           />
-                        </span></a>
+                          <span className="cente-icns">
+                            <img
+                              src="/img/play_icons.svg"
+                              alt="play_icons"
+                            />
+                          </span></a>
                       </Link>
                     </div>
                   </div>
@@ -427,7 +427,7 @@ const Finance = () => {
                   </p>
                   <div className="action-content">
                     <Link href="/dynamics-365-finance-implementation/">
-                     <a target="_blank">Get Started</a>
+                      <a target="_blank">Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -447,10 +447,10 @@ const Finance = () => {
                     operations all through D365 Finance Upgrade.
                   </p>
                   <div className="action-content">
-                    <Link 
+                    <Link
                       href="#exampleModal">
-                        <a data-bs-toggle="modal">
-                      Get Started</a>
+                      <a data-bs-toggle="modal">
+                        Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -470,10 +470,10 @@ const Finance = () => {
                     our continuous support services.
                   </p>
                   <div className="action-content">
-                  <Link 
+                    <Link
                       href="#exampleModal">
-                        <a data-bs-toggle="modal">
-                      Get Started</a>
+                      <a data-bs-toggle="modal">
+                        Get Started</a>
                     </Link>
                   </div>
                 </div>
@@ -482,6 +482,53 @@ const Finance = () => {
           </div>
         </div>
       </section>
+
+      <section className="new-module-sec">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Copilot in Dynamics 365 Finance</h2>
+                <p>
+                  Microsoft Copilot is an AI chatbot that leverages the power of generative AI and business intelligence to fetch the most relatable answers to queries. It acts like a virtual assistant that is available 24*7 to simplify financial tasks and boost efficiency and productivity.
+                </p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-left">
+              <div class="over-la-pic-1">
+              <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+              </div>
+                <Image width={630} height={440} src="/img/finance-copilote-side-pic.png" alt="finance-copilote-side-pic" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="new-box-sect-right">
+             
+                <div className="c-bi-po-inn">
+                  <h3>Enhanced Collections Management</h3>
+                  <p>Copilot empowers you to summarise information about different accounts while notifying you about overdue payments. It helps businesses identify customers with remaining account balances.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Stable Communication</h3>
+                  <p>Establish a consistent communication channel with customers through various channels, including AI-generated emails or messages. Track all information to pitch with personalised offers.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Get Real-time Data Insights</h3>
+                  <p>Copilot captures the data to identify trends, market behaviour, and demand fluctuations to facilitate enhanced decision-making. Cloud deployments enable users to utilise real-time data for growth.</p>
+                </div>
+                <div className="c-bi-po-inn">
+                  <h3>Automate Manual Tasks</h3>
+                  <p>You can use automation to eliminate recurring and manual tasks from the system, resulting in increased efficiency and maximised productivity. Get an AI-generated summary to save a lot of time and effort.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">
@@ -512,7 +559,7 @@ const Finance = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Finance</h3>
                 <div className="price">
-                £147.90<span>Per-User/Per Month</span>
+                  £147.90<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -539,13 +586,13 @@ const Finance = () => {
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <Link  href="#exampleModal">
+                <Link href="#exampleModal">
                   <a
-                  data-bs-toggle="modal"
-                 
-                  className="btn-get-red"
-                >
-                  <span>Get Started Now</span></a>
+                    data-bs-toggle="modal"
+
+                    className="btn-get-red"
+                  >
+                    <span>Get Started Now</span></a>
                 </Link>
                 {/* <Link href="#about" className="btn-get-whit">
                               <span>See Licensing Guide</span>
@@ -567,11 +614,11 @@ const Finance = () => {
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get In Touch</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get In Touch</span></a>
                   </Link>
                 </div>
               </div>
@@ -925,7 +972,7 @@ const Finance = () => {
                 <ul>
                   <li>
                     <a
-                      
+
                       href="https://youtu.be/jTgqXkQvv1c"
                       target="_self"
                     >
@@ -935,7 +982,7 @@ const Finance = () => {
                   </li>
                   <li>
                     <a
-                      
+
                       href="https://youtu.be/jTgqXkQvv1c"
                       target="_self"
                     >
@@ -945,7 +992,7 @@ const Finance = () => {
                   </li>
                   <li>
                     <a
-                      
+
                       href="https://youtu.be/V8EErSL028w"
                       target="_self"
                     >
