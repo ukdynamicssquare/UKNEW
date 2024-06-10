@@ -892,7 +892,7 @@ export default function Home() {
                   <div className="app-head">
                     <div className='app-hovers'>
                       <figure>
-                        <img src="/img/app-head-icons-1.png" alt="Implementation" />
+                        <img src="/img/app-head-icons-1.png" alt="Implementation" width={48} height={48} />
                       </figure>
                       <video autoPlay muted playsInline loop>
                       
@@ -912,7 +912,7 @@ export default function Home() {
                   <div className="app-head">
                     <div className='app-hovers'>
                       <figure>
-                        <img src="/img/app-head-icons-2.png" alt="Implementation" />
+                        <img src="/img/app-head-icons-2.png" alt="Implementation"  width={48} height={48} />
                       </figure>
                       <video autoPlay playsInline muted loop>
                       <source  src="/video/Scale-video-2.mp4" type="video/mp4" />
@@ -932,7 +932,7 @@ export default function Home() {
                   <div className="app-head">
                     <div className='app-hovers'>
                       <figure>
-                        <img src="/img/app-head-icons-3.png" alt="Implementation" />
+                        <img src="/img/app-head-icons-3.png" alt="Implementation"  width={48} height={48} />
                       </figure>
                       <video autoPlay playsInline muted loop >
                       <source src="/video/Scale-video-3.mp4" type="video/mp4" />
@@ -951,7 +951,7 @@ export default function Home() {
                   <div className="app-head">
                     <div className='app-hovers'>
                       <figure>
-                        <img src="/img/app-head-icons-4.png" alt="Implementation" />
+                        <img src="/img/app-head-icons-4.png" alt="Implementation"  width={48} height={48} />
                       </figure>
                       <video autoPlay playsInline muted loop >
                       <source src="/video/Scale-video-4.mp4" type="video/mp4" />
@@ -970,7 +970,7 @@ export default function Home() {
                   <div className="app-head">
                     <div className='app-hovers'>
                       <figure>
-                        <img src="/img/app-head-icons-5.png" alt="Implementation" />
+                        <img src="/img/app-head-icons-5.png" alt="Implementation"  width={48} height={48} />
                       </figure>
                       <video autoPlay playsInline muted loop s>
                       <source src="/video/Scale-video-5.mp4" type="video/mp4" />
@@ -989,7 +989,7 @@ export default function Home() {
                   <div className="app-head">
                     <div className='app-hovers'>
                       <figure>
-                        <img src="/img/app-head-icons-6.png" alt="Implementation" />
+                        <img src="/img/app-head-icons-6.png" alt="Implementation"  width={48} height={48} />
                       </figure>
                       <video autoPlay playsInline muted loop >
                       <source src="/video/Scale-video-6.mp4" type="video/mp4" />
