@@ -329,13 +329,13 @@ export default function Home() {
                 <div className='col-flot-icons'>
                  
                   <figure>
-                    <img src="/img/cluth-patner.png" alt="cluth-patner" />
+                    <Image src="/img/cluth-patner.png" alt="cluth-patner" width={103} height={112} />
                   </figure>
                   <figure>
-                    <img src="/img/m-partner.png" alt="m-partner.png" />
+                    <Image src="/img/m-partner.png" alt="m-partner.png" width={223} height={62} />
                   </figure>
                   <figure>
-                    <img src="/img/trust-pilot-logo.png" alt="trust-pilot-logo.png" />
+                    <Image src="/img/trust-pilot-logo.png" alt="trust-pilot-logo.png" width={127} height={60} />
                   </figure>
                  
                 </div>
@@ -368,7 +368,7 @@ export default function Home() {
             <div className="vide-s-home" style={{ margin: '' }}>
 
               <video className="video-screen-home" playsInline autoPlay loop muted poster="/img/h-bnner.png">
-                <source src="/video/home-video.mp4" />
+                <source src="/video/home-video.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -391,14 +391,14 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="bg-h-color">
                   <figure>
-                    <img src="/img/parweld-new-logo.png" alt="parweld-new-logo" />
+                    <Image src="/img/parweld-new-logo.png" alt="parweld-new-logo" width={223} height={78} />
                   </figure>
                   <figure>
-                    <img src="/img/Arteak-new-logo.png" alt="Arteak-new-logo" />
+                    <Image src="/img/Arteak-new-logo.png" alt="Arteak-new-logo" width={241} height={78} />
                   </figure>
-                  <figure><img src="/img/Ncc-new-logo.png" alt="Ncc-new-logo" /></figure>
-                  <figure> <img src="/img/Comxo-new-logo.png" alt="Comxo-new-logo" /></figure>
-                  <figure> <img src="/img/mta-new-logo.png" alt="mta-new-logo" /></figure>
+                  <figure><img src="/img/Ncc-new-logo.png" alt="Ncc-new-logo" width={174} height={78} /></figure>
+                  <figure> <Image src="/img/Comxo-new-logo.png" alt="Comxo-new-logo" width={230} height={78} /></figure>
+                  <figure> <Image src="/img/mta-new-logo.png" alt="mta-new-logo" width={122} height={78} /></figure>
                   {/* <img src="/img/COMXO-LIMITED-logo.png" alt="client-logs" /> */}
 
                 </div>
@@ -848,7 +848,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <video className="video-l" autoPlay loop muted playsInline poster="">
-                    <source src="/video/animation-hover.mp4" />
+                    <source src="/video/animation-hover.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
@@ -864,13 +864,13 @@ export default function Home() {
                       </a>
                     </Link>
                   </div>
-                  <video className="video-r" autoPlay playsInline loop muted poster="">
-                    <source src="/video/animation-hover.mp4" />
+                  <video className="video-r" autoPlay loop muted playsInline poster="">
+                    <source src="/video/animation-hover.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
               <div className="col-lg-12">
-                <div className="post-mas"><img src="/img/mascut-png.png" alt="" /></div>
+                <div className="post-mas"><img src="/img/mascut-png.png" alt="mascut-png" /></div>
               </div>
             </div>
           </div>
@@ -894,7 +894,10 @@ export default function Home() {
                       <figure>
                         <img src="/img/app-head-icons-1.png" alt="Implementation" />
                       </figure>
-                      <video autoPlay muted playsInline loop src="/video/Scale-video-1.mp4" type="video/mp4"></video>
+                      <video autoPlay muted playsInline loop>
+                      
+                      <source src="/video/Scale-video-1.mp4" type="video/mp4" />
+                      </video>
                     </div>
                     <h3>Implementation</h3>
                   </div>
@@ -911,7 +914,10 @@ export default function Home() {
                       <figure>
                         <img src="/img/app-head-icons-2.png" alt="Implementation" />
                       </figure>
-                      <video autoPlay playsInline muted loop src="/video/Scale-video-2.mp4" type="video/mp4"></video>
+                      <video autoPlay playsInline muted loop>
+                      <source  src="/video/Scale-video-2.mp4" type="video/mp4" />
+                      
+                      </video>
                     </div>
                     <h3>Upgrade</h3>
                   </div>
@@ -928,7 +934,9 @@ export default function Home() {
                       <figure>
                         <img src="/img/app-head-icons-3.png" alt="Implementation" />
                       </figure>
-                      <video autoPlay playsInline muted loop src="/video/Scale-video-3.mp4" type="video/mp4"></video>
+                      <video autoPlay playsInline muted loop >
+                      <source src="/video/Scale-video-3.mp4" type="video/mp4" />
+                      </video>
                     </div>
                     <h3>Support</h3>
                   </div>
@@ -945,7 +953,9 @@ export default function Home() {
                       <figure>
                         <img src="/img/app-head-icons-4.png" alt="Implementation" />
                       </figure>
-                      <video autoPlay playsInline muted loop src="/video/Scale-video-4.mp4" type="video/mp4"></video>
+                      <video autoPlay playsInline muted loop >
+                      <source src="/video/Scale-video-4.mp4" type="video/mp4" />
+                      </video>
                     </div>
                     <h3>Consulting</h3>
                   </div>
@@ -962,7 +972,9 @@ export default function Home() {
                       <figure>
                         <img src="/img/app-head-icons-5.png" alt="Implementation" />
                       </figure>
-                      <video autoPlay playsInline muted loop src="/video/Scale-video-5.mp4" type="video/mp4"></video>
+                      <video autoPlay playsInline muted loop s>
+                      <source src="/video/Scale-video-5.mp4" type="video/mp4" />
+                      </video>
                     </div>
                     <h3>Audit</h3>
                   </div>
@@ -979,7 +991,9 @@ export default function Home() {
                       <figure>
                         <img src="/img/app-head-icons-6.png" alt="Implementation" />
                       </figure>
-                      <video autoPlay playsInline muted loop src="/video/Scale-video-6.mp4" type="video/mp4"></video>
+                      <video autoPlay playsInline muted loop >
+                      <source src="/video/Scale-video-6.mp4" type="video/mp4" />
+                      </video>
                     </div>
                     <h3>Training</h3>
                   </div>
@@ -1009,13 +1023,13 @@ export default function Home() {
               <div className="tabs-service-slide-solution">
                 <div className="nav nav-tabs mb-3" id="nav-tab-new" role="tablist">
 
-                  <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="E-commerce" /></div><span>E-commerce</span></button>
-                  <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="Education" /></div><span>Education</span></button>
-                  <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/manufacturing-ds-uk-ico.png" alt="Manufacturing" /></div><span>Manufacturing</span></button>
-                  <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" /></div><span>StartUp</span></button>
-                  <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="Not for Profit" /></div><span>Not for Profit</span></button>
-                  <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="Food & Beverages" /></div><span>Food & Beverages</span></button>
-                  <Link href="/industries/"><button className="nav-link"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" /></div><span><a>Explore More</a></span></button></Link>
+                  <button className="nav-link active" id="nav-industry-one-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-one" type="button" role="tab" aria-controls="nav-industry-one" aria-selected="true"><div className="rounded-circle"><img src="/img/shopping_cart.png" alt="E-commerce" width="32" height="32" /></div><span>E-commerce</span></button>
+                  <button className="nav-link" id="nav-industry-two-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-two" type="button" role="tab" aria-controls="nav-industry-two" aria-selected="true"><div className="rounded-circle"><img src="/img/school.png" alt="Education" width="32" height="32" /></div><span>Education</span></button>
+                  <button className="nav-link" id="nav-industry-three-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-three" type="button" role="tab" aria-controls="nav-industry-three" aria-selected="true"><div className="rounded-circle"><img src="/img/manufacturing-ds-uk-ico.png" alt="Manufacturing" width="32" height="32" /></div><span>Manufacturing</span></button>
+                  <button className="nav-link" id="nav-industry-four-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-four" type="button" role="tab" aria-controls="nav-industry-four" aria-selected="true"><div className="rounded-circle"><img src="/img/rocket_launch.png" alt="StartUp" width="32" height="32" /></div><span>StartUp</span></button>
+                  <button className="nav-link" id="nav-industry-five-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-five" type="button" role="tab" aria-controls="nav-industry-five" aria-selected="true"><div className="rounded-circle"><img src="/img/volunteer_activism.png" alt="Not for Profit" width="32" height="32" /></div><span>Not for Profit</span></button>
+                  <button className="nav-link" id="nav-industry-six-tab" data-bs-toggle="tab" data-bs-target="#nav-industry-six" type="button" role="tab" aria-controls="nav-industry-six" aria-selected="true"><div className="rounded-circle"><img src="/img/fastfood.png" alt="Food & Beverages" width="32" height="32" /></div><span>Food & Beverages</span></button>
+                  <Link href="/industries/"><button className="nav-link"><div className="rounded-circle"><img src="/img/add_circle.png" alt="Explore More" width="32" height="32" /></div><span><a>Explore More</a></span></button></Link>
 
 
 
@@ -1029,7 +1043,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/cart_new.mp4" />
+                            <source src="/video/cart_new.mp4" type="video/mp4" />
                           </video>
                         </div>
 
@@ -1060,7 +1074,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Ed.mp4" />
+                            <source src="/video/Ed.mp4" type="video/mp4" />
                           </video>
                         </div>
 
@@ -1091,7 +1105,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Manufacturing-Industry.mp4" />
+                            <source src="/video/Manufacturing-Industry.mp4" type="video/mp4" />
                           </video>
                         </div>
 
@@ -1122,7 +1136,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Rockets.mp4" />
+                            <source src="/video/Rockets.mp4"  type="video/mp4" />
                           </video>
                         </div>
 
@@ -1153,7 +1167,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Hand2.mp4" />
+                            <source src="/video/Hand2.mp4"  type="video/mp4" />
                           </video>
                         </div>
 
@@ -1184,7 +1198,7 @@ export default function Home() {
                       <div className="right-sect">
                         <div className="d-colomn">
                           <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Food-Beverages.mp4" />
+                            <source src="/video/Food-Beverages.mp4"  type="video/mp4" />
                           </video>
                         </div>
 
@@ -1239,7 +1253,7 @@ export default function Home() {
               </div>
               <div className="col-lg-6 align-self-center">
                 <figure className="acive-fig">
-                  <img src="/img/micro-about-pic.png" alt="micro-about-pic" />
+                  <Image src="/img/micro-about-pic.png" alt="micro-about-pic" width={669} height={543} />
                 </figure>
               </div>
             </div>
@@ -1247,7 +1261,7 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="w-achive-l">
                   <figure>
-                    <img src="/img/group.png" alt="group" />
+                  <Image src="/img/group.png" alt="group" width={98} height={98} />
                   </figure>
                 </div>
                 <div className="w-achive-b">
@@ -1258,7 +1272,7 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="w-achive-l">
                   <figure>
-                    <img src="/img/manage_accounts.png" alt="manage_accounts" />
+                  <Image src="/img/manage_accounts.png" alt="manage_accounts" width={98} height={98} />
                   </figure>
                 </div>
                 <div className="w-achive-b">
@@ -1270,7 +1284,7 @@ export default function Home() {
               <div className="col-lg-4">
                 <div className="w-achive-l">
                   <figure>
-                    <img src="/img/schedule.png" alt="schedule" />
+                    <Image src="/img/schedule.png" alt="schedule" width={98} height={98} />
                   </figure>
                 </div>
                 <div className="w-achive-b">
@@ -1309,28 +1323,28 @@ export default function Home() {
                   >
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' />
+                        <Image src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' width={241} height={78} />
                       </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/parweld-new-logo.png" alt='parweld-new-logo' />
+                        <Image src="/img/parweld-new-logo.png" alt='parweld-new-logo' width={223} height={78} />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/green-wireless-logo.png" alt='green-wireless-logo' />
+                        <Image src="/img/green-wireless-logo.png" alt='green-wireless-logo' width={163} height={72} />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/timesco-logo.png" alt='timesco-logo' />
+                        <Image src="/img/timesco-logo.png" alt='timesco-logo' width={191} height={40} />
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='thum-tab'>
-                        <img src="/img/omicron_engineering_blur.png" alt='omicron_engineering_blur' />
+                        <Image src="/img/omicron_engineering_blur.png" alt='omicron_engineering_blur' width={180} height={41} />
                       </div>
                     </SwiperSlide>
                     {/* <SwiperSlide>
@@ -1363,7 +1377,7 @@ export default function Home() {
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" />
+                              <Image src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" width={84} height={84} />
                               <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
                               <h5>Terence Turner</h5>
                               <span>General Manager</span>
@@ -1395,7 +1409,7 @@ export default function Home() {
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" />
+                              <Image src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" width={84} height={84}  />
                               <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional</p>
                               <h5>Jonathan W</h5>
                               <span>Technical Director</span>
@@ -1428,7 +1442,7 @@ export default function Home() {
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/avatar.png" alt="avatar" />
+                              <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
                               <p>Kudos to Dynamics Square for seamless implementation support.Their dedication made us confident in a successful launch!</p>
                               <h5>Andy Bird</h5>
                               <span>Managing Director</span>
@@ -1460,7 +1474,7 @@ export default function Home() {
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/avatar.png" alt="avatar" />
+                              <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
                               <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
                               <h5>Mark Shaxted</h5>
                               <span>Operations Manager</span>
@@ -1492,7 +1506,7 @@ export default function Home() {
                         <div className='col-lg-7'>
                           <div className='test-s-info'>
                             <figure>
-                              <img src="/img/avatar.png" alt="avatar" />
+                              <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
                               <p>Impressed by Dynamics Square's ERP upgrade & customization. Their virtual collaboration made our transition seamless. Highly recommend for business growth.</p>
                               <h5>Tristan Cliffe</h5>
                               <span>Director</span>
