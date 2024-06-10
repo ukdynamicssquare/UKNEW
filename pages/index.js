@@ -870,7 +870,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-12">
-                <div className="post-mas"><img src="/img/mascut-png.png" alt="mascut-png" /></div>
+                <div className="post-mas"><img src="/img/mascut-png.png" alt="mascut-png" width="341" height="341" /></div>
               </div>
             </div>
           </div>
