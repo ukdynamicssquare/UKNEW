@@ -23,7 +23,7 @@ const BusinessCentralPricingLicensing = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>Dynamics 365 Business Central Pricing & Licensing </h1>
-              <p>Meet your business needs within budget with Business Central Pricing (2023) </p>
+              <p>Meet your business needs within budget with Business Central Pricing (2024) </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal"><a
