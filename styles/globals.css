@@ -10131,6 +10131,15 @@ ul.checkmark li {
   border-radius: 5px;
   min-height: 300px;
 }
+.nav-to-bc-feature.h-heigt{
+  min-height: auto;
+}
+.nav-to-bc-feature.h-heigt.flex-fill{
+  flex: 1 1 auto !important;
+}
+.nav-to-bc-feature.h-heigt span{
+  color:#1a3b62
+}
 .nav-to-bc-feature h3 {
   font-size: 40px;
   font-weight: bold;

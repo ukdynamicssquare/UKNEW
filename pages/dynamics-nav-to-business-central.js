@@ -71,10 +71,7 @@ const DynamicsNavToBusinessCentral = () => {
               </header>
             </div>
           </div>
-
           <div>
-
-
           </div>
 
 
@@ -130,11 +127,6 @@ const DynamicsNavToBusinessCentral = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
 
         </div>
       </section>
@@ -202,6 +194,8 @@ const DynamicsNavToBusinessCentral = () => {
 
             </div>
           </div>
+
+
           <div className='row top-button-p'>
             <div className='col-lg-6'></div>
             <div className='col-lg-6'>
@@ -211,6 +205,144 @@ const DynamicsNavToBusinessCentral = () => {
               </div>
             </div>
           </div>
+
+        
+
+        </div>
+      </section>
+
+
+      <section id="services" className="services" style={{marginTop:'-120px',paddingBottom:'0px'}}>
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+              <h2>Upgrading to Business Central: Are You Being Pressured?</h2>
+              <p>Some Microsoft solution partners are pushing their existing NAV customers towards Business Central upgrades to boost their own revenue. This can be a stressful situation, especially for businesses who opted for cloud-based NAV deployments. Here's why:</p>
+              </header>
+            </div>
+          </div>
+         
+          <div className="row gy-2">
+            <div className="col-lg-4 col-md-6">
+              <div className="service-box service-box-nav">
+                <div className="top">
+                  <img
+                    src="/img/dashboard_customize.png"
+                    alt="dashboard_customize"
+                    width="48"
+                    height="48"
+                  />
+
+                </div>
+                <h3>Pressure to Migrate or Lose Support</h3>
+                <p>Microsoft partners are increasingly discontinuing support for cloud-hosted NAV environments, including those on Microsoft Azure or third-party hosting providers. This leaves businesses with two unappealing options: upgrade to Business Central or find a new partner willing to support their existing NAV system.</p>
+                {/* <Link href="/">
+                  <a className="read-more">
+                    <span>Know More</span>
+                  </a>
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="service-box service-box-nav">
+                <div className="top">
+                  <img
+                    src="/img/rule_settings.png"
+                    alt="rule_settings"
+                    width="48"
+                    height="48"
+                  />
+
+                </div>
+                <h3>Upgrade Costs Causing Discontent</h3>
+                <p>The upgrade fees quoted by such NAV partners can be substantial, often exceeding £100K. This is causing frustration among NAV users who feel pressured into a costly upgrade they may not be ready for.</p>
+                {/* <Link href="/">
+                  <a className="read-more">
+                    <span>Know More</span>
+                  </a>
+                </Link> */}
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="service-box service-box-nav">
+                <div className="top">
+                  <img
+                    src="/img/switch_access_2.png"
+                    alt="switch_access_2"
+                    width="48"
+                    height="48"
+                  />
+
+                </div>
+                <h3>Data Control Concerns</h3>
+                <p>Switching to a new partner can be complex, especially if existing partners control your NAV data and charge some fees for its retrieval. This raises security concerns and risks non-compliance with GDPR. Ensuring data security and regulatory compliance is crucial when entrusting your data to a third-party vendor.</p>
+                {/* <Link href="/">
+                  <a className="read-more">
+                    <span>Know More</span>
+                  </a>
+                </Link> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="nav-pro-bg-white-pd">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <header className="section-header">
+                <h2>A Better Option Exists: Dynamics Square</h2>
+                <p>At Dynamics Square, we understand your situation. Unlike many other partners, we offer a refreshingly different approach:</p>
+              </header>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="nav-bg">
+        <div className="container">
+          <div className="row expected-nav">
+            <div className="col-lg-4 d-flex">
+              <div className="nav-to-bc-feature h-heigt flex-fill">
+                <span>Upgrade at Your Pace</span>
+                <p>We don't pressure customers into unnecessary upgrades. If you're happy with NAV, we're happy to continue supporting you.</p>
+                {/* <a href="">Read More</a> */}
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="nav-to-bc-feature h-heigt flex-fill">
+                <span>Transparent and Fair Pricing</span>
+                <p>We offer competitive rates for our services, without the hefty upgrade fees that are causing so much frustration.</p>
+                {/* <a href="">Read More</a> */}
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="nav-to-bc-feature h-heigt flex-fill">
+                <span>Proven Reliability</span>
+                <p>Dynamics Square has earned a reputation for trustworthiness and reliability among businesses in the UK.</p>
+                {/* <a href="">Read More</a> */}
+              </div>
+            </div>
+
+            <div className="col-lg-12">
+              <p className="nav-bg-p-white">Whether you choose to upgrade to Business Central or continue using your existing NAV system, Dynamics Square is here to support you. We offer flexible solutions that consider your unique timeline and system complexities.<br/><br/><span>That's why we're known as the "people's company" – we put your needs first.</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <section className="bg-white pd-40">
+        <div className="container">
+      
 
           <div className="row pd-3335">
             <div className="col-lg-6 align-self-center">
@@ -829,13 +961,6 @@ const DynamicsNavToBusinessCentral = () => {
       </section>
 
 
-
-
-
-
-
-
-
       <section className="nav-bg">
         <div className="container">
           <div className="row expected-nav">
@@ -870,9 +995,6 @@ const DynamicsNavToBusinessCentral = () => {
           </div>
         </div>
       </section>
-
-
-
 
 
 
