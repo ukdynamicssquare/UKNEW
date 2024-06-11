@@ -12538,6 +12538,7 @@ figure {
   .bnn .btn-get-started {
     padding: .5rem 1.2rem;
         text-align: center;
+        width: 100%;
   }
 }
 
