@@ -76,7 +76,7 @@ const colostyle= {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>What is dynamics 365 Sales?</h2>
                 <p>
@@ -274,7 +274,59 @@ const colostyle= {
           </div>
         </div>
       </section>
-      <section className="busine_service_bottom">
+
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Sales Service</h2>
+                <p>We offer a full range of services to support you on your Dynamics 365 Sales journey including implementation, upgrade and support.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Proactively manage your sales with an improved customer experience by implementing Dynamics 365 Sales.</p>
+                <a href="/dynamics-365-sales-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Uplift your business deliveries by simply upgrading your system with Microsoft's Sales Management Solution.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Bring continuity and drive sales efficiency all through Dynamics 365 Sales support services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum D365 sales services suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -390,7 +442,7 @@ const colostyle= {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="new-module-sec">
         <div className="container">
           <div className="row justify-content-center">
@@ -404,7 +456,7 @@ const colostyle= {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-left">
-              <div class="over-la-pic-1">
+              <div className="over-la-pic-1">
                 <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
               </div>
                 <Image width={630} height={440} src="/img/sales-copilote-side-pic.png" alt="sales-copilote-side-pic" />
@@ -896,7 +948,7 @@ const colostyle= {
       <section className="blogs-extra">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Explore Our Recent Blogs & Resources</h2>
                 <p>

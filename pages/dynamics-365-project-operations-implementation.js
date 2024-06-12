@@ -751,7 +751,7 @@ const ProjectOperationImplementation = () => {
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Dynamics 365 Project Operations Pricing</h2>
                 <p>

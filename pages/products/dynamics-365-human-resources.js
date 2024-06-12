@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 const HumanResource = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -30,13 +30,13 @@ const HumanResource = () => {
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
        
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="yCJ7C1KS-Jw"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -309,7 +309,7 @@ const HumanResource = () => {
       <section className="new-style-bg">
         <div className="container">
         <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Microsoft Dynamics 365 Human Resources Benefits</h2>
                <p>Uplift your HR capabilities to add more opportunities for growth with Dynamics Square.</p>
@@ -319,7 +319,7 @@ const HumanResource = () => {
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
-              <div class="style-grid-icons">
+              <div className="style-grid-icons">
               <Image
                 src="/img/Seamless-Recruiting.svg"
                 alt="Seamless-Recruiting"
@@ -332,7 +332,7 @@ const HumanResource = () => {
                 </div>
               </div>
               <div className="style-grid-1">
-              <div class="style-grid-icons">
+              <div className="style-grid-icons">
               <Image
                 src="/img/Access-Automation.svg"
                 alt="Access-Automation"
@@ -347,7 +347,7 @@ const HumanResource = () => {
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
-              <div class="style-grid-icons">
+              <div className="style-grid-icons">
               <Image
                 src="/img/Time-and-Attendance-Management.svg"
                 alt="Time-and-Attendance-Management"
@@ -361,7 +361,7 @@ const HumanResource = () => {
               </div>
 
               <div className="style-grid-1">
-              <div class="style-grid-icons">
+              <div className="style-grid-icons">
               <Image
                 src="/img/Effortless-Reporting-Analytics.svg"
                 alt="Effortless-Reporting-Analytics"
@@ -464,8 +464,56 @@ const HumanResource = () => {
           </div>
         </div>
       </section>
-      
-      <section className="busine_service_bottom">
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Human Resources Service</h2>
+                <p>Boost your human resource capabilities and enhance employee engagement while availing our top-notch services.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Drive smoother human resourcing practices by Dynamics 365 Human Resources implementation.</p>
+                <a href="/dynamics-365-human-resources-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Update or upgrade your system with advanced human resource capabilities with Dynamics Square.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Maximise your resource utilisation and optimise your existing resources with our simple yet powerful Dynamics 365 support services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum D365 human resources service suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -577,7 +625,7 @@ const HumanResource = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="call-to-action-center hero-4">
         <div className="container">

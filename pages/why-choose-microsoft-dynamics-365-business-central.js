@@ -601,7 +601,7 @@ const WhyChooseBc = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">1</span></div>
+                <div className="wr-in"><span className="number-st">1</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Reduce Costs</h3>
@@ -610,7 +610,7 @@ const WhyChooseBc = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">2</span></div>
+                <div className="wr-in"><span className="number-st">2</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Boosts Sales </h3>
@@ -619,7 +619,7 @@ const WhyChooseBc = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">3</span></div>
+                <div className="wr-in"><span className="number-st">3</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Improves Customer Service </h3>
@@ -628,7 +628,7 @@ const WhyChooseBc = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">4</span></div>
+                <div className="wr-in"><span className="number-st">4</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Optimise Supply Chain </h3>
@@ -641,7 +641,7 @@ const WhyChooseBc = () => {
             <div className="col-lg-6">
             <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">5</span></div>
+                <div className="wr-in"><span className="number-st">5</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Global Connectivity</h3>
@@ -650,7 +650,7 @@ const WhyChooseBc = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">6</span></div>
+                <div className="wr-in"><span className="number-st">6</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Full Data Security</h3>
@@ -659,7 +659,7 @@ const WhyChooseBc = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">7</span></div>
+                <div className="wr-in"><span className="number-st">7</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Seamless Update or Upgrade</h3>
@@ -668,7 +668,7 @@ const WhyChooseBc = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                <div class="wr-in"><span class="number-st">8</span></div>
+                <div className="wr-in"><span className="number-st">8</span></div>
                 </div>
                 <div className="style-grid-content">
                   <h3>Centralised Database</h3>

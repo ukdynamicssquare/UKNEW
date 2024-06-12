@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Blog from "../../components/Blog";
 import Form from "../../components/Form";
 const ProjectOperations = () => {
@@ -38,13 +38,13 @@ const ProjectOperations = () => {
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png" />
 
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="yCJ7C1KS-Jw"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -81,7 +81,7 @@ const ProjectOperations = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>What is dynamics 365 Project Operations?</h2>
                 <p>Empower your team to drive visibility and agility for ensuring on-time project deliveries while optimizing budget for a maximum revenue with <strong>Dynamics 365 Project Operations</strong>. </p>
@@ -313,7 +313,7 @@ const ProjectOperations = () => {
       <section className="new-style-bg">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Microsoft Dynamics 365 Project Operations Benefits</h2>
                 <p>Optimise existing resources and generate more revenue using D365 Project Operations Modules.</p>
@@ -439,7 +439,56 @@ const ProjectOperations = () => {
           </div>
         </div>
       </section>
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Project Operations</h2>
+                <p>Avail a range of hassle-free implementation, upgrade, and support services to boost your project operations.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Manage your project seamlessly while leveraging the Dynamics 365 Project Service implementation service.</p>
+                <a href="/dynamics-365-project-operations-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Bring agility and build robust project operations with our enhanced and highly recommended support system.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
 
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Get instant support to drive a project-centric approach across your business operations with the D365 Project Operations Support Service.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum D365 project operations suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+{/* 
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -541,11 +590,11 @@ const ProjectOperations = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Dynamics 365 Project Operations Pricing</h2>
                 <p>
@@ -977,7 +1026,7 @@ const ProjectOperations = () => {
       <section className="blogs-extra">
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>Explore Our Recent Blogs & Resources</h2>
                 <p>

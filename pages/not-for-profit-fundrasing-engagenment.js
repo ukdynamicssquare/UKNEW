@@ -43,7 +43,7 @@ const DynamicsNavNotFor = () => {
                 <div className="col-lg-6">
                   <div className="ineer-div">
                     <div className="left">
-                      <i class="bi bi-check2-all"></i>
+                      <i className="bi bi-check2-all"></i>
                     </div>
                     <div className="right">
                       <p>
@@ -54,7 +54,7 @@ const DynamicsNavNotFor = () => {
                   </div>
                   <div className="ineer-div">
                     <div className="left">
-                      <i class="bi bi-check2-all"></i>
+                      <i className="bi bi-check2-all"></i>
                     </div>
                     <div className="right">
                       <p>
@@ -67,7 +67,7 @@ const DynamicsNavNotFor = () => {
                 <div className="col-lg-6">
                   <div className="ineer-div">
                     <div className="left">
-                      <i class="bi bi-check2-all"></i>
+                      <i className="bi bi-check2-all"></i>
                     </div>
                     <div className="right">
                       <p>
@@ -78,7 +78,7 @@ const DynamicsNavNotFor = () => {
                   </div>
                   <div className="ineer-div">
                     <div className="left">
-                      <i class="bi bi-check2-all"></i>
+                      <i className="bi bi-check2-all"></i>
                     </div>
                     <div className="right">
                       <p>

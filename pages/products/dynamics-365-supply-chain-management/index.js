@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import Image from "next/image";
 import Blog from "../../../components/Blog";
@@ -33,13 +33,13 @@ const Index = () => {
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Supplychain%20banner.png" />
       </Head>
 
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="R3Ol_-prHeI"
         onClose={() => setOpen(false)}
-      />
+      /> */}
 
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -404,7 +404,59 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="busine_service_bottom">
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Supply Chain Management Services</h2>
+                <p>Strategically Work Towards Fulfilling Your Financial Visions</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Elevate your business efficiency with our strategic and highly customized D365 Supply Chain Management.</p>
+                <a href="/d365-supply-chain-management-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Upgrade your business capabilities with our seamless Supply Chain upgrade services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Enjoy uninterrupted business flow to maximize growth with our premium support services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum supply chain management services suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -509,7 +561,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">

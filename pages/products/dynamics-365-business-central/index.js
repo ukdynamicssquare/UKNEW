@@ -1434,7 +1434,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-left">
-              <div class="over-la-pic-1">
+              <div className="over-la-pic-1">
               <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
               </div>
                 <Image width={630} height={440} src="/img/bc-copilote-side-pic.png" alt="bc-copilote-side-pic" />

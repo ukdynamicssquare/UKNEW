@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link"; 
 import Head from 'next/head';
 import Image from 'next/image';
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 const Commerce = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -30,13 +30,13 @@ const Commerce = () => {
         <meta property="twitter:description" content="Unify your back-office, in-store, and digital experience by empowering your system with our exclusive Microsoft Dynamics 365 Commerce packages." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/commerce-banner.png" />
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="yCJ7C1KS-Jw"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -77,7 +77,7 @@ const Commerce = () => {
       <section>
         <div className="container">
           <div className="row justify-content-center">
-            <div class="col-lg-9">
+            <div className="col-lg-9">
               <header className="section-header">
                 <h2>What is Dynamics 365 Commerce?</h2>
                 <p>
@@ -339,8 +339,57 @@ const Commerce = () => {
           </div>
         </div>
       </section>
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Commerce Services</h2>
+                <p>Avail rapid, safe, and sustainable services from a Microsoft certified partner: Dynamics Square.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Turn your running commerce into a profit-making machine by optimising existing processes after implementing D365 Commerce.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Boost your business operations for more profitability and easy scalability by eavailing seamless Dynamics 365 Commerce upgrade services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
 
-      <section className="busine_service_bottom">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Reduce the chances of errors and run processes without interruptions with our optimal Dynamics 365 upgrade services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum D365 commerce services suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -362,12 +411,7 @@ const Commerce = () => {
                           src="/img/video-Ecommerce.png"
                           alt="video-banner-commerce"
                         />
-                        {/* <span className="cente-icns">
-                        <img
-                          src="/img/play_icons.svg"
-                          alt="play_icons"
-                        />
-                      </span> */}
+                     
                       </Link>
                     </div>
                   </div>
@@ -448,32 +492,8 @@ const Commerce = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="call-to-action-center hero-4">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="call-to-action-content">
-                <h3>Connect & Share with Experts</h3>
-                <p>
-                  Let’s connect to share and discuss your business requirements
-                  to reveal revenue-generating solutions.
-                </p>
-                <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal">
-                    <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get Started Now</span></a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </section> */}
+   
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">
@@ -526,6 +546,31 @@ const Commerce = () => {
                 >
                   <span>Get Started Now</span></a>
                 </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Connect & Share with Experts</h3>
+                <p>
+                  Let’s connect to share and discuss your business requirements
+                  to reveal revenue-generating solutions.
+                </p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link href="#exampleModal">
+                    <a
+                    data-bs-toggle="modal"
+                    
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get Started Now</span></a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

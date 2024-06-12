@@ -382,14 +382,14 @@ const ShopifyConnectorBusinessCentral = () => {
       <div className="container">
             <div className="row">
               <div className="col-lg-4">
-                <div class="left-side-hed">
+                <div className="left-side-hed">
                   <h2>Successful Shopify Integration with Business Central</h2>
                   <p>We have integrated Shopify Connector into different industries to resolve the complex challenges and push them towards growth. Some of the case studies are:</p>
                 </div>
               </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-7">
-                <div class="right-side">
+                <div className="right-side">
                   <div className="right-card">
                     <h3>Case Study 1:</h3>
                     <div className="right-card-con">

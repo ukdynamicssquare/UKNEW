@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Head from 'next/head'
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
+import Image from "next/image";
 const MicrosoftDynamics365MixedReality = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -19,13 +20,13 @@ const MicrosoftDynamics365MixedReality = () => {
         />
        <meta name="robots" content="noindex,nofollow" />
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="3NJ6DulFK_g"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -294,7 +295,56 @@ const MicrosoftDynamics365MixedReality = () => {
           </div>
         </div>
       </section>
-      <section className="busine_service_bottom">
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Mixed Reality Services</h2>
+                <p>Take Your Business One Step Ahead.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Unlock new business potentials with our highly customized Mixed Reality implementation.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Upgrade your existing system capabilities to drive an effective and scalable Mixed Reality approach.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Drive continuity and growth in your business with our dedicated Mixed Reality support system.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum Mixed Reality to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -389,7 +439,7 @@ const MicrosoftDynamics365MixedReality = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">

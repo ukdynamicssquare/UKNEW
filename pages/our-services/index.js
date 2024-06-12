@@ -59,7 +59,7 @@ const Inedex = () => {
                 </h2>
               </div>
               <div className="custom-p-001">
-                <p class="ne4">
+                <p className="ne4">
                   We deliver comprehensive <b>Microsoft business solutions</b>{" "}
                   (&nbsp;
                   <Link
@@ -79,12 +79,12 @@ const Inedex = () => {
                   business transform into an ultra-efficient, customer-centric,
                   thriving organization.
                 </p>
-                <p class="ne4">
+                <p className="ne4">
                   We analyze your requirements, understand your unique work
                   style, and create a customized blueprint outlining solutions
                   ideal for your business.
                 </p>
-                <p class="ne4">
+                <p className="ne4">
                   If your internal processes are consumed by chaos, we'll
                   organize them. If you plan on establishing new clear-cut
                   guidelines and standards for work and conduct, we'll devise

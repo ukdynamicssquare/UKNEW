@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
@@ -22,13 +22,13 @@ const PowerBI = () => {
           href="https://www.dynamicssquare.co.uk/products/microsoft-power-bi/"
         />
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="Az1NOVaHexs"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -319,7 +319,56 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
-      <section className="busine_service_bottom">
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Your Trusted Power BI Partner</h2>
+                <p>Uplift Your Business with our Power BI Consulting Services.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Get Power BI Implementation customized and configured suited to your specific business needs.</p>
+                <a href="/power-bi-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            {/* <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Update or upgrade your system with advanced human resource capabilities with Dynamics Square.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div> */}
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Get our Power BI Support Services to fully meet your business needs. Contact our Power Expert Now.</p>
+                <a href="/power-bi-support/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum D365 Power BI service suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -373,16 +422,7 @@ const PowerBI = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="busine_service_bottom-right">
-                        <div className="card_new_img">
-                           <img src="/img/Business Central Upgrade-icons.svg" alt="Business Central Upgrade-icons" />
-                        </div>
-                        <div className="card_new_content">
-                           <h3>Upgrade</h3>
-                           <p>Bring innovation and drive agility in your financial operations all through D365 Finance Upgrade.</p>
-                           <div className="action-content"><Link href="#">Get Started</Link></div>
-                        </div>
-                     </div> */}
+            
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
                   <img
@@ -406,7 +446,7 @@ const PowerBI = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">

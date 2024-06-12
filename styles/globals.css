@@ -12469,7 +12469,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ebff",endCo
   display:block;
   font-weight: 600;
   font-size:14px;
- 
+  color: var(--color-blue);
 }
 .upgrade-box-one a .bi{
   display:inline-block;
@@ -12514,6 +12514,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ebff",endCo
   }
 }
 @media (max-width: 992px) {
+  .upgrade-box-one{
+    margin-bottom:20px
+  }
   .cl-l {
     flex-wrap: wrap;
 }

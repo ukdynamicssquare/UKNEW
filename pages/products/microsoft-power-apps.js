@@ -3,7 +3,7 @@ import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Blog from "../../components/Blog";
 const PowerApps = () => {
   const [isOpen, setOpen] = useState(false);
@@ -25,13 +25,13 @@ const PowerApps = () => {
         />
 
       </Head>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="Az1NOVaHexs"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -394,7 +394,56 @@ const PowerApps = () => {
           </div>
         </div>
       </section>
-      <section className="busine_service_bottom">
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Power Apps Service</h2>
+                <p>We offer a full range of services to support you on your Dynamics journey including implementation, upgrade and support.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Successfully implement Power Apps solutions by our experts to ensure your needs are met on time and within budget.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            {/* <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Update or upgrade your system with advanced human resource capabilities with Dynamics Square.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div> */}
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Get constant and seamless support from Dynamics Square team to manage your web and mobile apps.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum Power Apps suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -482,7 +531,7 @@ const PowerApps = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">

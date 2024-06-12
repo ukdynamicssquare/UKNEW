@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import Blog from "../../components/Blog";
 const MicrosoftDynamicsNAV = () => {
@@ -34,13 +34,13 @@ const MicrosoftDynamicsNAV = () => {
        
       </Head>
 
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="4sdOb8PUE-o"
         onClose={() => setOpen(false)}
-      />
+      /> */}
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -504,7 +504,7 @@ const MicrosoftDynamicsNAV = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div class="busine_service_bottom-left custom012">
+              <div className="busine_service_bottom-left custom012">
                 <Image
                   src="/img/microosoft-partner.png"
                   alt="microosoft-partner.png"
@@ -640,7 +640,57 @@ const MicrosoftDynamicsNAV = () => {
           </div>
         </div>
       </section>
-      <section className="busine_service_bottom">
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Microsoft Dynamics NAV
+                Partners UK</h2>
+                <p>Being a leading Microsoft Dynamics NAV partner in the UK, we offer you our cost-effective and advanced services.</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Drive seamless flow of your enterprise practices leveraging the power of Microsoft Dynamics NAV.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Upgrade your existing legacy or old Dynamics version with latest NAV version for a modernized and efficient solution.</p>
+                <a href="/dynamics-nav-to-business-central/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Drive consistency in your business operations and ensure smoother workflow by availing of our best Navision support.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum Dynamics NAV to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -652,11 +702,7 @@ const MicrosoftDynamicsNAV = () => {
                     alt="Dynamics 365 Finance Service"
                     width={520} height={513}
                   />
-                  {/* <img
-                    src="/img/ico6.svg"
-                    className="flot-img"
-                    alt="ico6"
-                  /> */}
+                
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
                       <Link href="#javascript:void(0)">
@@ -750,7 +796,7 @@ const MicrosoftDynamicsNAV = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Image from 'next/image';
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import Blog from "../../components/Blog";
 const Finance = () => {
@@ -27,13 +27,13 @@ const Finance = () => {
 
       </Head>
 
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
         videoId="NhoeKnSp7IM"
         onClose={() => setOpen(false)}
-      />
+      /> */}
 
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -368,8 +368,8 @@ const Finance = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
-                <h2>Dynamics 365 Finance Service</h2>
-                <p>Strategically Work Towards Fulfilling Your Financial Visions</p>
+                <h2>What Dynamics 365 Finance Service do we offer?</h2>
+                <p>Strategically work towards fulfilling your financial vision with Dynamics Square - most trusted and reliable Microsoft Solutions Partner in UK.</p>
               </header>
             </div>
           </div>
@@ -379,7 +379,7 @@ const Finance = () => {
                 <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
                 <h3>Implementation</h3>
                 <p>Get optimum D365 finance implementation services suited to your customised business needs.</p>
-                <a href="/dynamics-365-finance-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex">
@@ -402,10 +402,10 @@ const Finance = () => {
 
             <div className="col-lg-3 d-flex">
               <div className="upgrade-box-one d-flex-fil">
-              <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
                 <Image src="/img/forum.png" alt="forum" width={48} height={48} />
                 <h3>Consulting</h3>
-                <p>Get optimum D365 finance implementation services suited to your customised business needs</p>
+                <p>Get optimum D365 finance implementation services suited to your customised business needs.</p>
                 <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
@@ -545,7 +545,7 @@ const Finance = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-left">
-                <div class="over-la-pic-1">
+                <div className="over-la-pic-1">
                   <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
                 </div>
                 <Image width={630} height={440} src="/img/finance-copilote-side-pic.png" alt="finance-copilote-side-pic" />
@@ -578,16 +578,16 @@ const Finance = () => {
 
       <section id="pricing" className="pricing">
         <div className="container">
-         <div className="row justify-content-center">
-          <div className="col-lg-9">
-          <header className="section-header">
-            <h2>Dynamics 365 Finance Pricing</h2>
-            <p>
-              Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimise global financial complexities, and bring strategic impact on your financial system.
-            </p>
-          </header>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Finance Pricing</h2>
+                <p>
+                  Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimise global financial complexities, and bring strategic impact on your financial system.
+                </p>
+              </header>
+            </div>
           </div>
-         </div>
           <div className="row gy-4 p-9">
             <div className="col-lg-3">
               {/* <div className="box">
@@ -932,7 +932,7 @@ const Finance = () => {
                       apps or could be a third-party application. <br />
                       <br />
                       If you want to get more information or how it works,
-                      contact Dynamics Square, we can suggest and implement a
+                      contact Dynamics Square, we can suggest and <a href="/dynamics-365-finance-implementation/">implement</a> a
                       highly customised solution for your business.
                     </div>
                   </div>

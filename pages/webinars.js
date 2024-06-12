@@ -89,7 +89,7 @@ const WebinarList = () => {
                             <a href="https://www.youtube.com/watch?v=pzA1OdN79nI" target="_blank">Azure IoT Central Webinar</a>
                           </h5>
                           <p>Check out our new webinar on Azure IoT Central (A complete SaaS-based Solution) to understand how to make your IoT project more accessible and how modern manufacturers can leverage IoT with improved efficiency along with reduced complexity, time, and cost investment.</p>
-                          <div class="btn-003 btn-009"><a class="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=pzA1OdN79nI" target="_blank">Watch Now</a></div>
+                          <div className="btn-003 btn-009"><a className="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=pzA1OdN79nI" target="_blank">Watch Now</a></div>
                         </div>
                       </div>
                     </div>
@@ -110,7 +110,7 @@ const WebinarList = () => {
                             <a href="https://youtu.be/AzXqHqEoocY" target="_blank">Azure IoT Webinar</a>
                           </h5>
                           <p>Checkout our webinar on Azure IoT and how it will help transform your business digitally.</p>
-                          <div class="btn-003 btn-009"><a class="btn btn-sm btn-danger" href="https://youtu.be/AzXqHqEoocY" target="_blank">Watch Now</a></div>
+                          <div className="btn-003 btn-009"><a className="btn btn-sm btn-danger" href="https://youtu.be/AzXqHqEoocY" target="_blank">Watch Now</a></div>
                         </div>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ const WebinarList = () => {
                             <a href="https://www.youtube.com/watch?v=Evkj4zfpk0Q" target="_blank">Introduction to Power BI</a>
                           </h5>
                           <p>In this webinar you're going to learn all about Power BI through live demo! Power BI is a tool that allows accounting and finance managers and professionals to have relevant information at the right time to make strategic decisions in a flexible, centralized, and secure way. Transform your business with predictive analytics, data visualization, and information in real-time, thanks to Power BI.</p>
-                          <div class="btn-003 btn-009"><a class="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=Evkj4zfpk0Q" target="_blank">Watch Now</a></div>
+                          <div className="btn-003 btn-009"><a className="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=Evkj4zfpk0Q" target="_blank">Watch Now</a></div>
                         </div>
                       </div>
                     </div>
@@ -152,7 +152,7 @@ const WebinarList = () => {
                             <a href="https://www.youtube.com/watch?v=OI4H1Lxxk9E" target="_blank">Microsoft Dynamics 365 Fundraising & Engagement for Non-Profits</a>
                           </h5>
                           <p>Are you struggling to find the right solution to grow your donor base in the UK? Through this webinar, you will be able to identify new fundraising opportunities, turn donors into lifetime supporters, get an accurate understanding of fundraising outcomes, and automate donation processing with Fundraising and Engagement for Dynamics 365 Sales, a Microsoft solution built with MISSION CRM.</p>
-                          <div class="btn-003 btn-009"><a class="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=OI4H1Lxxk9E" target="_blank">Watch Now</a></div>
+                          <div className="btn-003 btn-009"><a className="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=OI4H1Lxxk9E" target="_blank">Watch Now</a></div>
                         </div>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ const WebinarList = () => {
                             <a href="https://www.youtube.com/watch?v=4sdOb8PUE-o" target="_blank">Dynamics NAV to Dynamics 365 Business Central Upgrade</a>
                           </h5>
                           <p>Considering upgrading from Dynamics NAV to Dynamics 365 Business Central? Get to know everything about Dynamics 365 Business central upgrade and why you need it. Look at this power-packed session along with a demo.</p>
-                          <div class="btn-003 btn-009"><a class="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=4sdOb8PUE-o" target="_blank">Watch Now</a></div>
+                          <div className="btn-003 btn-009"><a className="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=4sdOb8PUE-o" target="_blank">Watch Now</a></div>
                         </div>
                       </div>
                     </div>
