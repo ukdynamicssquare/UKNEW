@@ -363,9 +363,9 @@ const Finance = () => {
         </div>
       </section> */}
 
-      {/* <section className="busnes-upgrade-serve-one">
+      <section className="busnes-upgrade-serve-one">
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Dynamics 365 Finance Service</h2>
@@ -374,18 +374,45 @@ const Finance = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3">
-              <div className="upgrade-box-one">
-                <img src="/img/settings_b.png" alt="settings_b" />
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
                 <h3>Implementation</h3>
+                <p>Get optimum D365 finance implementation services suited to your customised business needs.</p>
+                <a href="/dynamics-365-finance-implementation/">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Bring innovation and drive agility in your financial operations all through D365 Finance Upgrade.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Ensure smoother and uninterrupted flow in your business with our continuous support services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one d-flex-fil">
+              <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
                 <p>Get optimum D365 finance implementation services suited to your customised business needs</p>
-                <a href="">Get Started <i className="bi bi-arrow-right"></i></a>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </section> */}
-
+      </section>
+      {/* 
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
@@ -398,11 +425,7 @@ const Finance = () => {
                     alt="Dynamics 365 Finance Service"
                     width={570} height={531}
                   />
-                  {/* <img
-                    src="/img/ico6.svg"
-                    className="flot-img"
-                    alt="ico6"
-                  /> */}
+           
                   <div className="video-ytube video-ytubes">
                     <div className="popup-btn popup-btns">
                       <Link href="#javascript:void(0)">
@@ -505,7 +528,7 @@ const Finance = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="new-module-sec">
         <div className="container">
@@ -522,15 +545,15 @@ const Finance = () => {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-left">
-              <div class="over-la-pic-1">
-              <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
-              </div>
+                <div class="over-la-pic-1">
+                  <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+                </div>
                 <Image width={630} height={440} src="/img/finance-copilote-side-pic.png" alt="finance-copilote-side-pic" />
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-right">
-             
+
                 <div className="c-bi-po-inn">
                   <h3>Enhanced Collections Management</h3>
                   <p>Copilot empowers you to summarise information about different accounts while notifying you about overdue payments. It helps businesses identify customers with remaining account balances.</p>
@@ -555,12 +578,16 @@ const Finance = () => {
 
       <section id="pricing" className="pricing">
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
             <h2>Dynamics 365 Finance Pricing</h2>
             <p>
               Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimise global financial complexities, and bring strategic impact on your financial system.
             </p>
           </header>
+          </div>
+         </div>
           <div className="row gy-4 p-9">
             <div className="col-lg-3">
               {/* <div className="box">

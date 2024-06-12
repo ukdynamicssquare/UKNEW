@@ -4635,7 +4635,7 @@ section {
 .inner-slider-cont h4 {
   font-size: 42px;
   font-weight: 600;
-  color: var(--color-red);
+  color: #dbc8c9;
 }
 .inner-slider-cont p {
   font-size: 24px;
@@ -12436,6 +12436,60 @@ figure {
   margin-bottom: 5px;
 }
 .new-box-sect-right p{}
+.busnes-upgrade-serve-one{}
+.upgrade-box-one{
+  position:relative;
+  -webkit-box-shadow:3px 3px 20px 0 rgba(43, 49, 100, 0.16);
+  -moz-box-shadow:3px 3px 20px 0 rgba(43, 49, 100, 0.16);
+  box-shadow: 3px 3px 20px 0 rgba(43, 49, 100, 0.16);
+ background: rgb(241,235,255);
+background: -moz-linear-gradient(167deg, #f1ebff 6%, #fff 29%);
+background: -webkit-linear-gradient(167deg, #f1ebff 6%, #fff 29%);
+background: linear-gradient(167deg, #f1ebff 6%, #fff 29%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ebff",endColorstr="#ffffff",GradientType=1);
+  padding: 30px 15px;
+  border-radius: 8px;
+  transition: all 0.45s ease-Out;
+}
+.upgrade-box-one img{}
+.upgrade-box-one h3{
+  font-size: 16px;
+    color: var(--color-blue);
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+.upgrade-box-one p{
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.upgrade-box-one a{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display:block;
+  font-weight: 600;
+  font-size:14px;
+ 
+}
+.upgrade-box-one a .bi{
+  display:inline-block;
+  transition: all 0.35s ease-Out;
+}
+.upgrade-box-one a:hover .bi{
+  transform:translateX(8px)
+}
+.d-flex-fil{
+  flex:1 1 auto
+}
+.upgrade-box-one:hover{
+  box-shadow: 12px 12px 20px 0 rgba(43, 49, 100, 0.16);
+}
+.image-backx{
+  position: absolute;
+    right: 0;
+    top: 0;
+}
+
 
 @media (max-width: 1400px) {
 }
