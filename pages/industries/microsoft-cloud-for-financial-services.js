@@ -48,7 +48,7 @@ const MicrosoftCloudForFinancialServices = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>Microsoft Cloud <br /> For Financial Services</h1>
-                <p>Effectively manage your students, staff, and stakeholders for the overall growth of the institution by implementing Microsoft Dynamics 365 for Financial Services.</p>
+                <p>Utilise powerful, adaptable, and flexible Microsoft Cloud solutions to streamline financial services and build strong customer relationships.</p>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a

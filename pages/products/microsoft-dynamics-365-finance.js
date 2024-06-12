@@ -362,6 +362,30 @@ const Finance = () => {
           </div>
         </div>
       </section> */}
+
+      {/* <section className="busnes-upgrade-serve-one">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>Dynamics 365 Finance Service</h2>
+                <p>Strategically Work Towards Fulfilling Your Financial Visions</p>
+              </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="upgrade-box-one">
+                <img src="/img/settings_b.png" alt="settings_b" />
+                <h3>Implementation</h3>
+                <p>Get optimum D365 finance implementation services suited to your customised business needs</p>
+                <a href="">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
       <section className="busine_service_bottom">
         <div className="container">
           <div className="row">
