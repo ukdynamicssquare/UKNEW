@@ -91,7 +91,8 @@ const MicrosoftCloudForFinancialServices = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>How is Microsoft Cloud aiding the Financial Industry?</h2>
-                <p>Microsoft Cloud empowers financial institutions with high-end data security, effective team collaboration, process automation, and real-time data insights for data-driven decision-making. With advanced cloud capabilities, Microsoft Cloud supports businesses by accepting global tax compliance to perform business across different nations.</p>
+                <p>Microsoft Cloud empowers financial institutions with high-end data security, effective team collaboration, process automation, and real-time data insights for data-driven decision-making. </p>
+                <p>With advanced cloud capabilities, Microsoft Dynamics Finance & Operations supports businesses with modern tools to perform smooth operations across global boundaries.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -231,7 +232,7 @@ const MicrosoftCloudForFinancialServices = () => {
                   </div>
                   <div className="card_new_content">
                     <h3>Dynamics 365 Fraud Protection</h3>
-                    <p>On a daily basis, we learn about fraud and crime in the financial industry. Dynamics 365 Fraud Protection enables the business to combat such issues by leveraging AI and ML technologies. It will find suspicious fraud patterns and give insights in real-time to prevent the loss of essential customer data.</p>
+                    <p>On a daily basis, we learn about fraud and crime in the financial industry. Dynamics 365 Fraud Protection enables businesses to combat such issues by leveraging AI and ML. It will find suspicious fraud patterns and give insights to eliminate any chances of data loss.</p>
                   </div>
                 </div>
                 <div className="busine_service_bottom-right-indst">
@@ -257,18 +258,108 @@ const MicrosoftCloudForFinancialServices = () => {
               <div className="col-lg-9">
                 <div className="call-to-action-content">
                   <h3>What Financial Challenges you are Facing?</h3>
-                  <p>Let's discuss your major challenges and resolve them with a sustainable solution. We understand that businesses run on different, unique processes that make them stand out from the crowd. Our team at Dynamics Square is here to offer you a tailor-made solution that not only adapts to your requirements but also boosts your ability to achieve targeted goals.</p>
+                  <p>Let’s discuss your major financial challenges that are hampering your business growth and resolve them with a sustainable solution.</p>
                   <div className="text-center m-o-t m-o-t-hv">
                   <Link href="#exampleModal">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Let's Get Started </span>
+                      <span>Connect with Financial Services Expert!</span>
                     </a>
                   </Link>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="busine_service_bottom">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 align-self-center">
+                <div className="busine_service_bottom-left">
+                  <div className="busine_service_bottom-right">
+                    <Image
+                      src="/img/dynamics-365-for-higher-education.png"
+                      className="fix-im"
+                      alt="dynamics-365-for-higher-education"
+                      width={483}
+                      height={513}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 d-flex align-self-center">
+                <div className="side-heading">
+                  <h2>Financial Management Made Easy for SMBs: Get Started with Business Central Today!</h2>
+                  <p>Managing financial operations in small and medium-sized businesses is a critical task that must be processed accurately without any scope of error. Because a financial error can cost businesses a lot while hampering the smoothness of other processes as well, regardless of department.</p>
+                  <p>However, you can track, manage, and control all financial operations using a powerful Microsoft ERP solution: Microsoft Business Central Cloud. It comes with sufficient tools and capabilities to manage all the financial operations of SMBs.</p>
+                  <p>Core financial functionalities in D365 Business Central are: credit management, cash book, sales ledger, purchase ledger, general ledger, accounts receivable, inter-company trading, and financial analysis.</p>
+                  <div className="text-lg-start">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get a Free Business Central Demo Now!</span>
+                    </a>
+                  </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="busine_service_bottom custom05">
+        <div className="container">
+          <div className="row">
+           
+            <div className="col-lg-6 align-self-center">
+              <div className="side-heading-custom-01">
+                <h2>Scale and Simplify your Finances with Dynamics 365 F&O: The Perfect Solution for Large Enterprises</h2>
+              </div>
+              <div className="custom-p-001">
+                <p>Businesses with complex financial operations need to streamline diverse processes while also pushing the business towards growth. Even so, they require a solution that understands their needs and aligns itself with their uniqueness using a set of customisations and integrations.</p>
+                <p>This is where Dynamics 365 Finance and Operations comes into place. It simplifies all complex financial processes using automation, advanced innovations, and modern business capabilities.</p>
+                <p>Microsoft F&O is built for large enterprises as it comes embedded with global compliance management, smooth scalability, and powerful integration options. Also, you can get 360° business visibility, real-time data insights, and a satisfactory level of reporting capabilities.</p>
+              </div>
+              <div className="">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get a Free Business Central Demo Now!</span>
+                    </a>
+                  </Link>
+                  </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left custom012">
+                <Image
+                  src="/img/microosoft-partner.png"
+                  alt="microosoft-partner.png"
+                  width={625} height={651}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <section>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+              <header className="section-header">
+              <h2>The Future of Finance is Here: Microsoft Copilot for Financial Services</h2>
+              <p>Microsoft Copilot is an AI assistant that aids businesses with various issues, whether it is finding exact financial data or resolving a customer’s query. It revolutionises the way a user deals with financial processes using real-time analysis and streamlined automation.</p>
+              <p>Copilot eliminates repetitive tasks from the system using automation, builds promising system workflows, and enhances the overall efficiency of users. It eradicates financial errors, adheres a business to global compliance, and promotes seamless integration within the Microsoft Dynamics Ecosystem.</p>
+              <p>Banks, investment firms, and different financial institutions can get various benefits from implementing Copilot in Microsoft Cloud solutions. However, most of the Dynamics 365 ERP or CRM solutions come inbuilt with Copilot and let you access its capabilities within the solution.</p>
+            </header>
               </div>
             </div>
           </div>
