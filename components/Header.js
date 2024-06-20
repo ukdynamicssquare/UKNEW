@@ -367,6 +367,7 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                
                                 </div>
                               </div>
                             </div>
@@ -831,6 +832,23 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/dynamics-365-business-central/customisation/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/dynamics-365-businesscentral.svg"
+                                            alt="businesscentral"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Business Central Customisations</span>
+                                          <p>Personalise Business Central to meet unique customer needs and boost ROI</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -938,6 +956,23 @@ class Header extends Component {
                                         <div className="content">
                                           <span>Continia Expense Management </span>
                                           <p>Monitor your entire corporate expenses while eliminating the chances of manual errors with Continia Expense Management</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/shopify-connector-business-central/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/shopify-integration-logo.svg"
+                                            alt="shopify-integration-logo"
+                                            width="48" height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Shopify Connector</span>
+                                          <p>Digitalise your business to serve global customers and earn maximum revenue</p>
                                         </div>
                                       </a>
                                     </div>
