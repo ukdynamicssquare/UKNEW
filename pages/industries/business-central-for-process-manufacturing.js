@@ -24,16 +24,16 @@ const Manufacturing = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing"
+          href="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing/"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing/" />
         <meta property="og:title" content="Microsoft Business Central for Process Manufacturing | Dynamics Square" />
         <meta property="og:description" content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing/" />
         <meta property="twitter:title" content="Microsoft Business Central for Process Manufacturing | Dynamics Square" />
         <meta property="twitter:description" content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
