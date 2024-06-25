@@ -58,7 +58,7 @@ const Manufacturing = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Free Business Central Demo!</span>
+                      <span>Get in Touch</span>
                     </a>
                   </Link>
                 </div>
@@ -529,142 +529,7 @@ const Manufacturing = () => {
             </div>
           </div>
         </section>
-        <section className="solution-faq faq">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8">
-                <header className="section-header">
-                  <h2>
-                    Have you got <br /> questions about Microsoft Cloud for Manufacturing?
-                  </h2>
-                  <p>Click through to our FAQ for the best answers!</p>
-                </header>
-              </div>
-            </div>
-            <div className="row justify-content-center mar-top-7">
-              <div className="col-lg-8">
-                <div className="accordion accordion-flush" id="faqlist1">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-1"
-                      >
-                        What is the Microsoft Cloud for Manufacturing?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-1"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Microsoft Cloud for Manufacturing is a solution built to offer sustainability using core operations, data sharing, and automation. It has the powerful capability of streamlining entire manufacturing processes while removing redundancies from the system to allow for continuous growth.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-2"
-                      >
-                        What are the features of Microsoft Cloud for Manufacturing?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-2"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          It provides numerous benefits to all businesses, regardless of their unique business operations or size. Some of the features include seamless customer management, effective workforce management, enhanced visibility of processes, pushing businesses towards digital transformation through AI, and much more.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-3"
-                      >
-                        Is Microsoft Cloud for Manufacturing an ERP or CRM?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-3"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          It is an ERP capable of streamlining business management processes related to manufacturing and similar domains. It can be implemented using cloud-based ERP or <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">on-premises servers</Link> , depending on the requirements of a business, whether large or small. Also, if you are looking for a better cloud-based ERP, you can go with Microsoft Dynamics 365, and if you are a SMB, <Link href="/products/dynamics-365-business-central/">Business Central</Link> would work great for your needs as it is adaptable and powerful for all industries.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-4"
-                      >
-                        Can Microsoft Cloud for Manufacturing enhance manufacturing capabilities?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-4"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Yes, because it understands the changing manufacturing needs and offers a modern solution to align with them. Microsoft constantly updates the features and capabilities it provides to all business solutions so that businesses can chart a course for long-term growth and revenue.
-                          .
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h3 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq-content-5"
-                      >
-                        Name the industries in which Microsoft Cloud for Manufacturing can be utilised?
-                      </button>
-                    </h3>
-                    <div
-                      id="faq-content-5"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#faqlist1"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          Microsoft Cloud for Manufacturing is available to all industries with manufacturing departments. However, <Link href="/industries/food-and-beverages/">food & beverages</Link>, <Link href="/industries/ecommerce/">e-commerce</Link>, <Link href="/industries/startups/">startups</Link>, metal product manufacturing, and more.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        
 
         <section className="blogs-extra">
           <div className="container">
