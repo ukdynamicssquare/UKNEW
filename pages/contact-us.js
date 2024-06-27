@@ -781,8 +781,8 @@ const ContactUs = () => {
                             <i className="bi bi-envelope"></i>
                           </div>
                           <div className="content-right">
-                            <a href="mailto:info@dynamicssquare.com">
-                              info@dynamicssquare.com
+                            <a href="mailto:info@dynamicssquare.ca">
+                              info@dynamicssquare.ca
                             </a>
                           </div>
                         </div>
@@ -810,8 +810,8 @@ const ContactUs = () => {
                             <i className="bi bi-envelope"></i>
                           </div>
                           <div className="content-right">
-                            <a href="mailto:info@dynamicssquare.com">
-                              info@dynamicssquare.com
+                            <a href="mailto:info@dynamicssquare.ca">
+                              info@dynamicssquare.ca
                             </a>
                           </div>
                         </div>
