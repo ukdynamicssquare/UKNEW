@@ -51,7 +51,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 <meta name="description" content={item.meta_description} />
                 <link
                   rel="canonical"
-                  href={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}`}
+                  href={`https://www.dynamicssquare.co.uk/blog/${item.title_slug}` +
+                    '/'}
                 />
                 {item.rank==1 && <meta name="robots" content="noindex, nofollow" />}
                 <meta property="og:title" content={item.meta_title} />
