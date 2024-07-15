@@ -15,7 +15,6 @@ const BusinessCentralForDiscreteManufacturing = () => {
     <>
       <Head>
         <title>Microsoft Business Central for discrete Manufacturing | Dynamics Square</title>
-        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution."
@@ -28,13 +27,13 @@ const BusinessCentralForDiscreteManufacturing = () => {
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-discrete-manufacturing/" />
         <meta property="og:title" content="Microsoft Business Central for discrete Manufacturing | Dynamics Square" />
         <meta property="og:description" content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution." />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Bc-Discrete-Manufacturing.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-discrete-manufacturing/" />
         <meta property="twitter:title" content="Microsoft Business Central for discrete Manufacturing | Dynamics Square" />
         <meta property="twitter:description" content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Bc-Discrete-Manufacturing.png" />
       </Head>
       <main>
         <section className="Solution-banner hero-1 hero">
@@ -56,10 +55,10 @@ const BusinessCentralForDiscreteManufacturing = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <Image
-                  src="/img/manufacturing-banner.png"
-                  alt="Microsoft Cloud For Manufacturing"
-                  width={723}
-                  height={473}
+                  src="/img/Bc-Discrete-Manufacturing.png"
+                  alt="Bc-Discrete-Manufacturing"
+                  width={939}
+                  height={502}
                   priority={true}
                 />
               </div>
@@ -67,12 +66,12 @@ const BusinessCentralForDiscreteManufacturing = () => {
           </div>
         </section>
        
-        <section className="Solution-business-why custom-pd-1">
+        <section style={{backgroundColor:'transparent'}} className="Solution-business-why custom-pd-1">
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
               <h2>How does Business Central Support Businesses with Discrete Manufacturing?</h2>
-              <p>Microsoft Dynamics 365 Business Central is the powerhouse for manufacturing businesses that run on discrete manufacturing processes due to its flexibility and ease of production.</p>
+              <p><a href="/products/dynamics-365-business-central/" target="_blank">Microsoft Dynamics 365 Business Central</a> is the powerhouse for manufacturing businesses that run on discrete manufacturing processes due to its flexibility and ease of production.</p>
               <p>It is capable and powerful of managing entire production processes by leveraging capabilities like inventory management, generating BOMs (bills of materials), and tracking progress in real-time. With cloud technology and automation functionality, it empowers manufacturers to achieve peak performance while simplifying diverse operations.</p>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -151,8 +150,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/custom-crm-solutions.svg"
-                      alt="custom-crm-solutions"
+                      src="/img/Smooth-Inventory-Management.png"
+                      alt="Smooth-Inventory-Management"
                       width={48}
                       height={48}
                     />
@@ -165,8 +164,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_flexibility.svg"
-                      alt="icons_flexibility"
+                      src="/img/BOM-Management.png"
+                      alt="BOM-Management"
                       width={48}
                       height={48}
                     />
@@ -179,8 +178,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_supply-chain (1).svg"
-                      alt="icons_supply-chain (1)"
+                      src="/img/Production-Planning-and-Scheduling.png"
+                      alt="Production-Planning-and-Scheduling"
                       width={48}
                       height={48}
                     />
@@ -193,8 +192,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-power-automate_Enhanced-Efficiency (1).svg"
-                      alt="icons-power-automate_Enhanced-Efficiency (1)"
+                      src="/img/Production-Tracking.png"
+                      alt="Production-Tracking"
                       width={48}
                       height={48}
                     />
@@ -209,8 +208,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_customer-relation.svg"
-                      alt="icons_customer-relation"
+                     src="/img/360-Degree-Visibility.png"
+                      alt="360-Degree-Visibility"
                       width={48}
                       height={48}
                     />
@@ -223,8 +222,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Improved-Visibility.svg"
-                      alt="icons_Improved-Visibility"
+                      src="/img/Promotes-Team-Collaboration.png"
+                      alt="Promotes-Team-Collaboration"
                       width={48}
                       height={48}
                     />
@@ -237,8 +236,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Streamline-Operations.svg"
-                      alt="icons_Streamline-Operations"
+                      src="/img/Product-Quality-Management.png"
+                      alt="Product-Quality-Management"
                       width={48}
                       height={48}
                     />
@@ -252,8 +251,8 @@ const BusinessCentralForDiscreteManufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Manufacturing-Intelligence.svg"
-                      alt="icons_Manufacturing-Intelligence"
+                      src="/img/Shop-Floor-Control.png"
+                      alt="Shop-Floor-Control"
                       width={48}
                       height={48}
                     />
@@ -288,9 +287,9 @@ const BusinessCentralForDiscreteManufacturing = () => {
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>How do I implement Microsoft Business Central for Manufacturing?</h2>
-                  <p>Microsoft Business Central ERP for manufacturing businesses is a perfect solution for growing businesses. Due to its advanced tools and automation capabilities, it promotes business efficiency while simplifying existing operations.</p>
+                  <p><a href="/blog/business-central-for-manufacturing/" target="_blank" >Microsoft Business Central ERP for manufacturing</a> businesses is a perfect solution for growing businesses. Due to its advanced tools and automation capabilities, it promotes business efficiency while simplifying existing operations.</p>
                   <p>Before moving forward with Business Central, you need to understand your business and its requirements, as the complexity of implementation varies from one business to another. However, Microsoft Business Central ERP implementation is a complex task unless you have a good partner.</p>
-                  <p>Once you have a certified Microsoft Solutions partner, like Dynamics Square, the entire process of Business Central implementation will be reliable and smooth in a cost-effective manner.</p>
+                  <p>Once you have a certified Microsoft Solutions partner, like Dynamics Square, the entire process of <a href="/dynamics-365-business-central-implementation/" target="_blank" >Business Central implementation</a> will be reliable and smooth in a cost-effective manner.</p>
                   <div className="text-lg-start mm-t" style={{marginTop:'-30px'}}>
                     <Link href="#exampleModal">
                       <a
@@ -506,11 +505,11 @@ const BusinessCentralForDiscreteManufacturing = () => {
             <header className="section-header">
               <h2>Explore Our Recent Blogs & Resources</h2>
             </header>
-            <div className="row top-2 gx-5">
+            <div className="row top-2 gx-5 justify-content-center">
               <Blog />
-              <div className="col-lg-6 align-self-center">
+              {/* <div className="col-lg-6 align-self-center">
                 <Image src="/img/n/Cloud-For-Manufacturing-banner.png" alt="pic" width={640} height={366} priority={true} />
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -17,7 +16,6 @@ const Manufacturing = () => {
     <>
       <Head>
         <title>Microsoft Business Central for Process Manufacturing | Dynamics Square</title>
-        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution."
@@ -30,21 +28,15 @@ const Manufacturing = () => {
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing/" />
         <meta property="og:title" content="Microsoft Business Central for Process Manufacturing | Dynamics Square" />
         <meta property="og:description" content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution." />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/BC-Process-Manufacturing.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/industries/business-central-for-process-manufacturing/" />
         <meta property="twitter:title" content="Microsoft Business Central for Process Manufacturing | Dynamics Square" />
         <meta property="twitter:description" content="Optimise your process manufacturing with Business Central. Streamline production, manage resources, and ensure quality with an integrated, scalable ERP solution." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/manufacturing-banner.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/BC-Process-Manufacturing.png" />
       </Head>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="XHOmBV4js_E"
-        onClose={() => setOpen(false)}
-      />
+  
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
@@ -65,10 +57,10 @@ const Manufacturing = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <Image
-                  src="/img/manufacturing-banner.png"
+                  src="/img/BC-Process-Manufacturing.png"
                   alt="Microsoft Cloud For Manufacturing"
-                  width={723}
-                  height={473}
+                  width={665}
+                  height={447}
                   priority={true}
                 />
               </div>
@@ -110,7 +102,7 @@ const Manufacturing = () => {
                       </div>
                     </div>
                     <div className="cintent-right">
-                      <p>Business Central for Manufacturing comes with a real-time inventory management system to help you track BOM (bill of materials) and product demand forecasting. Also, you can get live insights to eliminate any chances of overstocking and stock depletion. </p>
+                      <p><a href="/blog/business-central-for-manufacturing/" target="_blank" >Business Central for Manufacturing</a> comes with a real-time inventory management system to help you track BOM (bill of materials) and product demand forecasting. Also, you can get live insights to eliminate any chances of overstocking and stock depletion. </p>
                     </div>
                   </div>
 
@@ -166,8 +158,8 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/custom-crm-solutions.svg"
-                      alt="custom-crm-solutions"
+                      src="/img/BOM-with-Multi-Level-Consumption.png"
+                      alt="BOM-with-Multi-Level-Consumption"
                       width={48}
                       height={48}
                     />
@@ -180,8 +172,8 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_flexibility.svg"
-                      alt="icons_flexibility"
+                      src="/img/Production-Order-Management.png"
+                      alt="Production-Order-Management"
                       width={48}
                       height={48}
                     />
@@ -194,8 +186,8 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_supply-chain (1).svg"
-                      alt="icons_supply-chain (1)"
+                      src="/img/Work-in-Progress-Tracking.png"
+                      alt="Work-in-Progress-Tracking"
                       width={48}
                       height={48}
                     />
@@ -208,8 +200,8 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons-power-automate_Enhanced-Efficiency (1).svg"
-                      alt="icons-power-automate_Enhanced-Efficiency (1)"
+                      src="/img/Finite-Scheduling.png"
+                      alt="Finite-Scheduling"
                       width={48}
                       height={48}
                     />
@@ -224,8 +216,8 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_customer-relation.svg"
-                      alt="icons_customer-relation"
+                      src="/img/Batch-and-Lot-Management.png"
+                      alt="Batch-and-Lot-Management"
                       width={48}
                       height={48}
                     />
@@ -238,8 +230,8 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Improved-Visibility.svg"
-                      alt="icons_Improved-Visibility"
+                      src="/img/Formula-and-Production-Analysis.png"
+                      alt="Formula-and-Production-Analysis"
                       width={48}
                       height={48}
                     />
@@ -252,30 +244,30 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Streamline-Operations.svg"
-                      alt="icons_Streamline-Operations"
+                      src="/img/Industry-Specific-Reporting.png"
+                      alt="Industry-Specific-Reporting"
                       width={48}
                       height={48}
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Industry Specific Reporting</h3>
-                    <p>Build reports using pre-built templates in Business Central using data reporting and analysis capabilities. Also, you can integrate Power BI with Business Central to build advanced reports based on numerous parameters. </p>
+                    <p>Build reports using pre-built templates in Business Central using data reporting and analysis capabilities. Also, you can <a href="/blog/business-central-with-power-platform-integration/" target="_blank" >integrate Power BI with Business Central</a> to build advanced reports based on numerous parameters. </p>
                   </div>
                 </div>
 
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img text-center">
                     <img
-                      src="/img/icons_Manufacturing-Intelligence.svg"
-                      alt="icons_Manufacturing-Intelligence"
+                      src="/img/Integration-with-D365-Solutions.png"
+                      alt="Integration-with-D365-Solutions"
                       width={48}
                       height={48}
                     />
                   </div>
                   <div className="card_new_content">
                     <h3>Integration with D365 Solutions</h3>
-                    <p>Integrate Business Central with any solution available under the Microsoft Dynamics 365 ecosystem using Business Central extension technology. You can integrate Dynamics 365 Supply Chain Management to manage raw materials and optimise inventory.</p>
+                    <p>Integrate Business Central with any solution available under the Microsoft Dynamics 365 ecosystem using Business Central extension technology. You can integrate <a href="/products/dynamics-365-supply-chain-management/" target="_blank" rel="noopener noreferrer">Dynamics 365 Supply Chain Management</a> to manage raw materials and optimise inventory.</p>
                   </div>
                 </div>
               </div>
@@ -290,36 +282,20 @@ const Manufacturing = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <Image
-                      src="/img/manufacturing-side.png"
-                      className="fix-im"
+                      src="/img/BC-Process-Manufacturing-side.png"
+                      className="BC-Process-Manufacturing-side"
                       alt="manufacturing side"
-                      width={553}
-                      height={531}
+                      width={423}
+                      height={464}
                     />
-                    <div className="video-ytube video-ytubes">
-                      <div className="popup-btn popup-btns">
-                        <Link href="#javascript:void(0)">
-                          <a
-                            onClick={() => setOpen(true)}
-                          >
-                            <img
-                              src="/img/video-Manufacturing.png"
-                              alt="video-Manufacturing"
-                            />
-                            <span className="cente-icns">
-                              <img src="/img/play_icons.svg" alt="play_icons" />
-                            </span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                  
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 d-flex align-items-center">
                 <div className="side-heading">
                   <h2>Business Central for Manufacturing – Is it Customizable? </h2>
-                  <p>Microsoft Dynamics 365 Business Central is a powerful yet flexible Microsoft solution that can be personalised to meet unique business needs. With its cloud capabilities and AI-integrated system, you can modify Business Central to meet the specific needs of your business.</p>
+                  <p><a href="/products/dynamics-365-business-central/" target="_blank">Microsoft Business Central</a> is a powerful yet flexible Microsoft solution that can be personalised to meet unique business needs. With its cloud capabilities and AI-integrated system, you can modify Business Central to meet the specific needs of your business.</p>
                   <p>It empowers you to tailor the entire production process, set up automation to boost productivity, promote collaboration for a centralised approach, and integrate different solutions to meet uniqueness.</p>
                   <div className="text-lg-start mm-t">
                     <Link href="#exampleModal">
@@ -536,11 +512,11 @@ const Manufacturing = () => {
             <header className="section-header">
               <h2>Explore Our Recent Blogs & Resources</h2>
             </header>
-            <div className="row top-2 gx-5">
+            <div className="row top-2 gx-5 justify-content-center">
               <Blog />
-              <div className="col-lg-6 align-self-center">
+              {/* <div className="col-lg-6 align-self-center">
                 <Image src="/img/n/Cloud-For-Manufacturing-banner.png" alt="pic" width={640} height={366} priority={true} />
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
