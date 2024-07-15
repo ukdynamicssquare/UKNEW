@@ -37,6 +37,7 @@ const Manufacturing = () => {
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/BC-Process-Manufacturing.png" />
       </Head>
   
+  
       <main>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
