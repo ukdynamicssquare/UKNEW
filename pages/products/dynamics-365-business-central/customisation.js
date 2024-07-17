@@ -12,7 +12,7 @@ const Customisation = () => {
   return (
     <>
       <Head>
-        <title>Customising: Microsoft Business Central | Dynamics Square UK</title>
+        <title>Microsoft Business Central Customisation | Dynamics Square UK</title>
         <meta
           name="description"
           content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance."
@@ -23,7 +23,7 @@ const Customisation = () => {
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Customising: Microsoft Business Central | Dynamics Square UK" />
+        <meta property="og:title" content="Microsoft Business Central Customisation | Dynamics Square UK" />
         <meta property="og:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/customisation/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
@@ -33,7 +33,7 @@ const Customisation = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Customising: Microsoft Business Central | Dynamics Square UK" />
+        <meta name="twitter:title" content="Microsoft Business Central Customisation | Dynamics Square UK" />
         <meta name="twitter:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
       </Head>
@@ -356,7 +356,116 @@ const Customisation = () => {
             </div>
           </div>
         </section>
-
+        <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>Have you got questions <br/> about Customise Business Central?</h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >Can we customise Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Yes, Microsoft Business Central is a flexible cloud-based ERP solution that offers intense customisation options to all businesses, regardless of their requirements. When you want to customise this solution as per your needs, you can contact your Business Central partner to make things work according to you. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >My business is unique; can I go with Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>In the modern era of doing business, we get to see different methodologies to operate and generate revenue. Most businesses are following unique methods and approaches to perform in this competitive world. Microsoft understands this scenario and makes Business Central accept its uniqueness. Regardless of your business, Business Central can be customised to align it with evolving needs. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >What is customisation in Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Business Central follows an extension technology that allows standard customisation with just a click. It allows users to build tailor-made user interfaces and increase performance without the involvement of a Dynamics 365 customisation partner. In cases of complex requirements where the customisation needs to be built via coding, your Business Central implementation partner will build it for you. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >What is the difference between customisation and configuration in Dynamics 365? </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Configuration is something where a Dynamics 365 partner configures the solution for smooth working. Whereas customisation refers to personalising the system to meet the specific demands of a business while adding out-of-the-box functionalities to the solution. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >What is the cost of Business Central customisation? </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>If you are going for a fresh Business Central implementation, your Microsoft ERP partner will give you a unified quote that includes the cost of the standard implementation and required customizations. However, if you already have a Business Central system and want to customise it as per evolving business needs, you need to contact your partner and purchase the <a href="/d365-business-central-support/" target="_blank" ><b>Business Central support services</b></a> to customise the system as per demand. </p>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       </main>
     </>

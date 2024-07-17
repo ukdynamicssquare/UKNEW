@@ -6,7 +6,7 @@ const HealthCheck = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Cloud for Healthcare | Dynamics Square UK</title>
+        <title>Dyanamics 365 for Healthcare | Dynamics Square UK</title>
         <meta
           name="description"
           content="Choose the cloud Microsoft Dynamics 365 for Healthcare industry to get a 360-degree view of your clinic while accelerating the business towards growth."
@@ -17,7 +17,7 @@ const HealthCheck = () => {
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Cloud for Healthcare | Dynamics Square UK" />
+        <meta property="og:title" content="Dyanamics 365 for Healthcare | Dynamics Square UK" />
         <meta property="og:description" content="Choose the cloud Microsoft Dynamics 365 for Healthcare industry to get a 360-degree view of your clinic while accelerating the business towards growth." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/microsoft-cloud-for-financial-services/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
@@ -27,7 +27,7 @@ const HealthCheck = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Microsoft Cloud for Healthcare | Dynamics Square UK" />
+        <meta name="twitter:title" content="Dyanamics 365 for Healthcare | Dynamics Square UK" />
         <meta name="twitter:description" content="Choose the cloud Microsoft Dynamics 365 for Healthcare industry to get a 360-degree view of your clinic while accelerating the business towards growth." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-for-Healthcare.png" />
       </Head>
@@ -35,9 +35,7 @@ const HealthCheck = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>
-              Microsoft cloud for Healthcare
-              </h1>
+              <h1>Dyanamics 365 <br />for Healthcare</h1>
               <p>Streamline your entire clinical operations and enhance the patient experience while opting Microsoft cloud for Healthcare Industry</p>
               <div>
                 <div className="text-center text-lg-start">
@@ -192,7 +190,7 @@ const HealthCheck = () => {
             <div className="col-lg-9">
             <header className="section-header">
             <h2>Microsoft cloud for Healthcare; Top Benefits you Should Checkout</h2>
-            <p>Microsoft D365 Cloud for Healthcare is one of the top patient engagement hospital solutions that offers seamless features and a smooth business experience with a patient-centric approach. Using AI and analytics data, they were able to provide excellent patient satisfaction. Also, it resolves most clinical issues that they have encountered while optimising the results for a better output. It offers more benefits too, like: </p>
+            <p><a href="/blog/what-is-the-use-of-microsoft-cloud-in-healthcare/" target="_blank">Microsoft D365 Cloud for Healthcare</a> is one of the top patient engagement hospital solutions that offers seamless features and a smooth business experience with a patient-centric approach. Using AI and analytics data, they were able to provide excellent patient satisfaction. Also, it resolves most clinical issues that they have encountered while optimising the results for a better output. It offers more benefits too, like: </p>
           </header>
             </div>
           </div>
