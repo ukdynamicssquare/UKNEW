@@ -11026,9 +11026,9 @@ inner-info-left ul li span {
   color: #443c68;
 }
 .bnn .btn-get-started {
-  text-align: left;
+  text-align: center;
   margin-top: 10px;
-  padding: 10px 0px 10px 30px;
+  /* padding: 10px 0px 10px 30px; */
   display: block;
   width: 80%;
 }
