@@ -47,29 +47,16 @@ const WhyUs = () => {
                   <Image src="/img/why-side.png" alt="why-side" width={514} height={534} />
                 </div>
               </div>
-              <div className="col-lg-7 align-self-center">
+              <div className="col-lg-6 align-self-center">
                 <div className="domain-expertise-left domain-expertise-left-1">
                   <div className="title-header">
-                    <h3>
-                      You deserve the full return on each dollar you invest in
-                      your business solutions.
-                    </h3>
+                    <h3>Get More Out of Every Pound: Efficient Microsoft Business Solutions </h3>
                   </div>
 
                   <div className="domain-Expertise-list domain-Expertise-list-p">
                     <ul>
-                      <li>
-                        At Dynamics Square, our job is to act as your trusted
-                        partner, using our expert product knowledge and industry
-                        understanding to help you get the most out of your
-                        software systems.
-                      </li>
-                      <li>
-                        We've worked on hundreds of projects around the world,
-                        helping our clients find enterprise software solutions
-                        that push the boundaries of modern technology to solve
-                        problems and provide a positive ROI.
-                      </li>
+                      <li>At Dynamics Square, our sole job is to resolve the issues that you are facing with your business with premium and timeless solutions. As your trusted partner, our consultants utilise their years of experience and product expertise to help you get more out of your hard-earned investment. </li>
+                      <li>With a proven track record of working with hundreds of successful businesses around the world, we are helping them push the boundaries to capture more opportunities and generate maximum ROI.  </li>
                     </ul>
                   </div>
                 </div>
@@ -81,14 +68,10 @@ const WhyUs = () => {
         <section className="why-slider">
           <div className="container">
             <header className="section-header">
-              <h2>Why Dynamics Square?</h2>
-              <p>
-                We employ market leading technologies, consultants, processes
-                and proven methodologies to help clients to design, implement
-                and manage their business solutions that align to business
-                priorities, maximum return on their investment and to create
-                high performance organizations.
-              </p>
+              <h2>How Dynamics Square Can Transform Your Business? </h2>
+              <p>Dynamics Square is equipped with the perfect infrastructure to help any business achieve its goals with market-leading technologies and proven Microsoft methodologies. We help businesses understand their business and go for the solution that aligns with their unique requirements, ensuring optimum performance at all touch points. </p>
+              <p>As a global leader in Microsoft Solutions, Dynamics Square is driving digital transformation through automation and cloud-based technologies. With a strong foothold in the UK and a growing international presence across the USA, Australia, South Africa, Poland, Canada, the Netherlands, and Singapore, we empower businesses to achieve unprecedented growth on a worldwide scale. </p>
+              <p style={{color:'red',fontSize:'20px'}}><b>Global Reach, Local Support </b></p>
             </header>
             <div className="row pad-3y">
               <div className="col-lg-12">

@@ -69,19 +69,10 @@ const AboutUs = () => {
             <div className="col-lg-12">
               <div className="about-intr-wrpper">
                 <div className="left-content">
-                  <h3>
-                    We're Microsoft
-                    <br />
-                    Gold Partners
-                  </h3>
+                  <h3>We’re Microsoft <br/>Solutions Partner  </h3>
                 </div>
                 <div className="right-content">
-                  <p>
-                    As a Microsoft Gold Partner and trusted by 350+ clients
-                    worldwide, we're proactively delivering cloud technology
-                    solutions, training, and support from a team of 150+ highly
-                    skilled Microsoft consultants.
-                  </p>
+                  <p>As a Microsoft Gold Partner or Microsoft Solutions Partner, we are trusted by 350+ global clients for our reliable and smooth Dynamics 365 solutions. Our team of 150+ Microsoft consultants is proactively delivering cloud technology, high-tech innovations, effective training, and consistent support to ensure substantial growth for your organisation. </p>
                 </div>
               </div>
             </div>
@@ -104,7 +95,7 @@ const AboutUs = () => {
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="counter-sec inerr">
-                  <h3>12+</h3>
+                  <h3>14+</h3>
                   <p>Years Experience</p>
                 </div>
               </div>
@@ -386,7 +377,7 @@ const AboutUs = () => {
               <header className="section-header">
               <h2>Our Expertise and Capabilities</h2>
               <p><b>With us, businesses grow fast, strong, and at full throttle.</b></p>
-              <p>Here at Dynamics Square, our unique ways of consulting businesses with the latest IT technology solutions for over 11+ years are helping SMBs and large enterprises grow and scale through simplified best-in-class Microsoft cloud technology.</p>
+              <p>At Dynamics Square, we follow a unique approach to offer what’s best for the business while being cost-efficient at each stage of development. That’s why small to large businesses call us a “<b>people’s company</b>,” the company you can rely on! </p>
               </header>
               </div>
             </div>
@@ -580,8 +571,9 @@ const AboutUs = () => {
           <div className="row justify-content-center">
               <div className="col-lg-8">
                 <header className="section-header">
-                  <h2>Why Choose Dynamics Square?</h2>
-                  <p>We strive to make the latest technology simple to implement, effective, and accessible to all while encouraging innovation. Disrupting traditional ways of serving people is in our veins. We provide IT solutions and technology consulting at a reasonable cost and fixed price along with a specific solution that truly fits the business purpose.</p>
+                  <h2>Why Businesses Trust Dynamics Square?</h2>
+                  <p>Being a leading Microsoft Solutions Partner in the UK, Dynamics Square is embracing automation and tech-driven cloud solutions to help you achieve exponential growth while crossing global boundaries. Our core expertise is not just limited to the UK, as our presence is available in other parts of the world, including the USA, Australia, South Africa, Poland, Canada, the Netherlands, and Singapore. </p>
+                  <p style={{color:'red',fontSize:'20px'}}><b>Global Reach, Local Support </b></p>
                 </header>
               </div>
             </div>
@@ -591,7 +583,7 @@ const AboutUs = () => {
         <section className="marn-bus-bo">
           <div className="container">
             <header className="section-header">
-              <h2>Business Partners We Have Worked With</h2>
+              <h2 style={{color:'var(--color-blue)'}}>Business Partners We Have Worked With</h2>
             </header>
             <div className="row">
               <div className="col-lg-12">
