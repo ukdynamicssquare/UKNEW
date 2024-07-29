@@ -887,7 +887,7 @@ export default function Home() {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-4">
+              <div className="col-lg-4 d-flex">
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>
@@ -907,7 +907,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 d-flex">
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>
@@ -927,7 +927,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 d-flex">
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>
@@ -946,7 +946,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 d-flex">
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>
@@ -965,7 +965,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 d-flex">
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>
@@ -984,7 +984,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 d-flex">
                 <div className="business-app-card">
                   <div className="app-head">
                     <div className='app-hovers'>

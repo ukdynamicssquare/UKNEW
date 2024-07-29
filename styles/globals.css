@@ -11156,6 +11156,7 @@ inner-info-left ul li span {
     inset -2px -2px 0 0 rgba(255, 255, 255, 0.25);
   border-radius: 0px 0px 10px 10px;
   margin-bottom: 30px;
+  background: #fff;
 }
 .business-app-card > .app-head {
   background-image: radial-gradient(circle at 18% 133%, #7865af, #393053 69%);
