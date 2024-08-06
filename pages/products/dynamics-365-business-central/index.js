@@ -898,6 +898,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Coach Teams: Empower teams with deep insights into customer behaviour via real-time coaching.</li>
                       </ul>
                       <div className="call-butt">
+                      <Link href="/products/dynamics-365-business-central/sales-order-management/">
+                          <a
+                            className="btn-get-started btn-blue"
+                            target="_blank"
+                          >
+                            <span>Learn More</span>
+                          </a>
+                        </Link>
                         <Link href="#exampleModal">
                           <a
                             data-bs-toggle="modal"
@@ -992,6 +1000,14 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Workforce Insights: Gain deeper insights into performance to improve organisational efficiency.</li>
                       </ul>
                       <div className="call-butt">
+                      <Link href="/products/dynamics-365-business-central/human-resource-management/">
+                          <a
+                            className="btn-get-started btn-blue"
+                            target="_blank"
+                          >
+                            <span>Learn More</span>
+                          </a>
+                        </Link>
                         <Link href="#exampleModal">
                           <a
                             data-bs-toggle="modal"

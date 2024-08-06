@@ -13,11 +13,11 @@ const PowerApps = () => {
     <>
       <Head>
         <title>
-          Microsoft Power Apps Partner: Demo & Pricing UK | Dynamics Square
+          Microsoft Power Apps Partner UK | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Microsoft Power Apps can let you build low-code apps and drive swiftness across the core operations of the business. Call us for Demo & pricing! "
+          content="Microsoft Power Apps can let you build low-code apps and drive swiftness across the core operations of the business. Schedule a demo today!"
         />
         <link
           rel="canonical"
