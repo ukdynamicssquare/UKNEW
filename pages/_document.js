@@ -58,6 +58,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
           </Script>
+          <Script id="apollo" strategy="beforeInteractive">
+            {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script"); o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0, o.onload=function(){window.trackingFunctions.onLoad({appId:"66322a5ecb3cc6056bd458d4"})}, document.head.appendChild(o)}initApollo();
+                `}
+          </Script>
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
@@ -74,7 +78,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <NextScript />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
           {/* <script src="https://code-eu1.jivosite.com/widget/0vnMaZXeaH" async></script> */}
-          
+
           <script
             id="zsiqchat"
             async
