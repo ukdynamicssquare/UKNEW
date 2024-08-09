@@ -8,9 +8,8 @@ const MicrosoftDynamicsPartnerCardiff = () => {
     <>
       <Head>
       <title>Microsoft Dynamics Partner in Cardiff, UK | Dynamics Square</title>
-<meta name="description" content="Dynamics Square is Microsoft Dynamics Partner in Leeds. We help Leeds-based businesses to grow rapidly and sustainably by implementing Microsoft Dynamics Applications."/>
+<meta name="description" content="Looking for trusted Microsoft Dynamics 365 partner in Cardiff, UK? Our expert team provides tailored CRM & ERP solutions to boost business efficiency. Contact us today!"/>
 <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/microsoft-dynamics-partner-cardiff/" />
-<meta name="robots" content="noindex, nofollow" />
       </Head>
       
       <section className="Solution-banner hero-1 hero">
@@ -31,9 +30,9 @@ const MicrosoftDynamicsPartnerCardiff = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Microsoft-Dynamics-Partner-Leeds.png"
-                alt="Microsoft-Dynamics-Partner-Leeds"
-                width={768} height={501}
+                src="/img/Cardiff-pic.png"
+                alt="Cardiff-pic"
+                width={718} height={447}
                 priority = {true}
               />
             </div>
@@ -71,7 +70,7 @@ const MicrosoftDynamicsPartnerCardiff = () => {
             <h2>AI-Enabled Business Solution for Smart Businesses</h2>
             <p>Microsoft has always been ahead of time. It knows the challenges, pain points, and roadblocks that hinder a business from achieving its goals and becoming unstoppable. Whenever we witness an innovation or technology in the world of business, Microsoft starts to offer this as soon as it starts benefiting users. One such modern technology is AI (artificial intelligence).</p>
             <p>AI is booming and aiding businesses with automation, attaining great accuracy, achieving enhanced efficiency, lower operational costs, and greater productivity. In current scenarios, AI has become a word of mouth that all businesses want to try and integrate into their existing systems. </p>
-            <p>Nearly two-thirds (64%) of business owners believe AI will improve customer relationships. All Microsoft Dynamics 365 solutions (ERP + CRM) come embedded with AI, BI, ML, and IoT technology to offer its in-house tool – Microsoft Copilot, a powerful AI-assistance. Combined with modern technologies, Dynamics 365 solutions offer:
+            <p>Nearly two-thirds (64%) of business owners believe AI will improve customer relationships. All <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365 solutions</a> (ERP + CRM) come embedded with AI, BI, ML, and IoT technology to offer its in-house tool – Microsoft Copilot, a powerful AI-assistance. Combined with modern technologies, Dynamics 365 solutions offer:
 </p>
           </header>
           <div className="row p-lg-6">
