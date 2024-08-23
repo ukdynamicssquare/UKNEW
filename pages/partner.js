@@ -48,7 +48,7 @@ const Partner = () => {
                 </p>
                 <p>Insight Works specializes exclusively in add-ons for Microsoft Dynamics 365 Business Central. Products include mobile warehouse data collection, shop floor data collection, inventory management, integrated shipping, scheduling and more.</p>
                 <p>Insight Works is headquartered in Canada and boasts a European presence in the Netherlands and remote offices in the United States.</p>
-                <a href="https://www.dmsiworks.com/" target="_blank">
+                <a href="https://www.dmsiworks.com/" target="_blank" rel='no-follow'>
                www.dmsiworks.com
                 </a>
               </div>
@@ -66,7 +66,7 @@ const Partner = () => {
                 </p>
                 <p>Our passion is to build horizonal solutions as add-ons for Microsoft Dynamics NAV. These add-ons, the Anveo product family, is highly optimized to be implemented by other Microsoft Dynamics NAV partners on their own.</p>
                 <p>Anveo is sold world wide via more than 200 Anveo partners</p>
-                <a href="https://www.anveonav.com/en/" target="_blank">
+                <a href="https://www.anveonav.com/en/" target="_blank" rel='no-follow'>
                 www.anveonav.com
                 </a>
               </div>
@@ -92,7 +92,7 @@ const Partner = () => {
                 An Independent Software Vendor (ISV) of Microsoft Dynamics 365 Enterprise and Business Operations solutions. To Increase create software solutions and deliver services that enable companies to innovate as they serve their customers and collaborate with their partners and vendors.
                 </p>
                 <p>To Increase offers powerful Industry Specific and Add-on Solutions on Dynamics 365 for Operations, AX2012, and NAV.</p>
-                <a href="http://www.to-increase.com/" target="_blank">
+                <a href="http://www.to-increase.com/" target="_blank" rel='no-follow'>
                 www.to-increase.com
                 </a>
               </div>
@@ -108,7 +108,7 @@ const Partner = () => {
                 <p>
                 A Member of the Agiles Group provides certified industry solutions for shipping companies, fresh food and Non-food traders including BI Programs on Microsoft Dynamics NAV. beside from Industry solutions, Agiles deliver the only workflow application that is fully integrated for Microsoft Dynamics NAV.
                 </p>
-                <a href="http://en.agilesworkflow.com/" target="_blank">
+                <a href="http://en.agilesworkflow.com/" target="_blank" rel='no-follow'>
                 www.agilesworkflow.com
                 </a>
               </div>
@@ -134,7 +134,7 @@ const Partner = () => {
                 <p>
                 E-Con Solutions offers nearly 20 years of focused, expert, experience with CPQ for Microsoft Dynamics. Their proven, innovative toolset brings together everyone and everything involved in configuration, from first glance at your offerings through after-sales. More than 300 businesses and 25,000 users in 25 countries use e-Con every day to turn complexity into success.
                 </p>
-                <a href="https://e-consolutions.com/" target="_blank">
+                <a href="https://e-consolutions.com/" target="_blank" rel='no-follow'>
                 www.e-consolutions.com
                 </a>
               </div>
@@ -154,7 +154,7 @@ const Partner = () => {
                 </div>
                 <div className="custom002">
                   <p>WMS Mobile is a powerful solution capable of streamlining warehouse operations and optimising existing processes for enhanced ROI. Along with a user-friendly scanner solution, it offers seamless connectivity in online as well as offline modes, eliminating the dependability of a sustainable internet connection. WMS Mobile is so powerful that it easily integrates with Microsoft Dynamics 365 SCM/FO/AX or Microsoft Dynamics 365 BC/NAV without any issue, resulting in consistent growth and rapid scalability.</p>
-                  <a href="http://www.taskletfactory.com" target="_blank">
+                  <a href="http://www.taskletfactory.com" target="_blank" rel='no-follow'>
                   www.taskletfactory.com
                   </a>
                 </div>
@@ -183,11 +183,45 @@ const Partner = () => {
                 </div>
                 <div className="custom002">
                   <p>With more than 30 years of experience, Continia has been in the industry to automate and simplify complex financial processes. It has over 15000+ global customers who are availing of a fully connected experience after integrating this solution with Business Central. With effective use, you can automate up to 90% of your recurring and manual processes to get enhanced productivity and maximised revenue.</p>
-                  <a href="https://www.continia.com" target="_blank">
+                  <a href="https://www.continia.com" target="_blank" rel='no-follow'>
                   https://www.continia.com
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="busine_service_bottom custom0001">
+          <div className="container">
+            <div className="row g-5">
+            <div className="col-lg-8 align-self-center">
+            <div className="side-heading">
+                  <h3>
+                  Yavrio - Open Banking for ERPs
+                  </h3>
+                </div>
+                <div className="custom002">
+                  <p>Would you like to connect your bank accounts to Microsoft Business Central with ease?  Whether you're conducting domestic or international business, Yavrio streamlines your financial processes. Yavrio provides safe transaction services and bank feeds thanks to its connections to over 10,000 banks across the United Kingdom, Europe, the United States, and the Middle East. With the help of Dynamics Square, Yavrio created an easy-to-install application that enables you to link your bank accounts to Dynamics 365 Business Central.  </p>
+                  <ul>
+                    <li>Integrate Yavrio with your banking operations to streamline your authentication processes.  </li> 
+
+<li>Acquire current insights from financial data.   </li>
+
+<li>Increase output with efficient procedures that maintain security.  </li> 
+
+<li>Send secure transactions from Microsoft Dynamics 365 Business Central.  </li>
+                  </ul>
+                  <a href="https://www.yavr.io/" target="_blank" rel='no-follow'>
+                www.yavr.io
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-1 align-self-center"></div>
+              <div className="col-lg-3 align-self-center">
+                <img src="/img/Yavrio-CMYK.svg" alt="Yavrio-CMYK" />
+              </div>
+             
+             
             </div>
           </div>
         </section>
