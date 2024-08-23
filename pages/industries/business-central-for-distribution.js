@@ -7,10 +7,10 @@ const MicrosoftDynamics365Ai = () => {
   return (
     <>
       <Head>
-      <title>Business Central for Financial Management | Dynamics Square UK</title>
+        <title>Microsoft Business Central for Distribution Industry | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics 365 Business Central for financial management enhances with integrated tools, improving efficiency and insights for smarter business decisions."
+          content="Optimise your distribution business with Microsoft Business Central. Streamline operations, manage inventory, and drive growth with tailored solutions for the distribution industry."
         />
         <link
           rel="canonical"
@@ -29,7 +29,7 @@ const MicrosoftDynamics365Ai = () => {
                 <div className="text-center text-lg-start">
                   <Link
                     href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Explore Business Central</span></a>
+                      <span>Explore Business Central</span></a>
                   </Link>
                 </div>
               </div>
@@ -49,169 +49,154 @@ const MicrosoftDynamics365Ai = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>Deliver what your Customer Wants with D365 Business Central for Distribution</h2>
-            <p>Delivering the right product or services to the customer on time is the most critical business operation that needs to be fulfilled with precision for enriched growth. However, from procurement of raw materials to delivering the high-quality product on time, businesses struggle to streamline the distribution process.</p>
-            <p>Introducing Microsoft Dynamics 365 Business Central with a distribution module that can simplify all complexities while powering different distribution channels and supply chain operations. It empowers businesses to manage inventory, process orders on time, monitor item purchasing, and automate supply chain processes.</p>
-          </header>
-          </div>
-        </div>
-       
-        </div>
-      </section>
-      <section>
-        <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>Deliver what your Customer Wants with D365 Business Central for Distribution</h2>
-            <p>Delivering the right product or services to the customer on time is the most critical business operation that needs to be fulfilled with precision for enriched growth. However, from procurement of raw materials to delivering the high-quality product on time, businesses struggle to streamline the distribution process.</p>
-            <p>Introducing Microsoft Dynamics 365 Business Central with a distribution module that can simplify all complexities while powering different distribution channels and supply chain operations. It empowers businesses to manage inventory, process orders on time, monitor item purchasing, and automate supply chain processes.</p>
-          </header>
-          </div>
-        </div>
-          <div className="row p-lg-6">
-            <div className="col-lg-6">
-              <div className="finace-acc">
-                <div className="accordion" id="accnew">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin1"
-                        aria-expanded="false"
-                        aria-controls="fin1"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/General-Ledger.png" alt="General-Ledger" />
-                        </div>
-                        <span>General Ledger</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin1"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                       <p>Maintain, track, and streamline the financial transactions of all accounts to build accurate financial reports. Manage all accounts to track assets, liabilities, and expenses to calculate overall revenue.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin2"
-                        aria-expanded="false"
-                        aria-controls="fin2"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/Receivable-and-Payable-Accounts.png" alt="Receivable-and-Payable-Accounts" />
-                        </div>
-                        <span>Receivable and Payable Accounts</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin2"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>Settle all accounts receivable and payable using automated tools and calculate overall revenue. Also, track all financial transactions, including credits and debits, to perform a good bookkeeping process.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
+                <h2>Deliver what your Customer Wants with D365 Business Central for Distribution</h2>
+                <p>Delivering the right product or services to the customer on time is the most critical business operation that needs to be fulfilled with precision for enriched growth. However, from procurement of raw materials to delivering the high-quality product on time, businesses struggle to streamline the distribution process.</p>
+                <p>Introducing Microsoft Dynamics 365 Business Central with a distribution module that can simplify all complexities while powering different distribution channels and supply chain operations. It empowers businesses to manage inventory, process orders on time, monitor item purchasing, and automate supply chain processes.</p>
+              </header>
             </div>
+          </div>
 
+        </div>
+      </section>
+
+
+
+
+
+      <section className="Solution-business-why custom-pd-1">
+        <div className="container">
+          <div className="row gx-5">
             <div className="col-lg-6">
-              <hr className="mob-disp" />
-              <div className="finace-acc">
-                <div className="accordion" id="accnewadasd">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
-                        aria-expanded="false"
-                        aria-controls="fin3"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/Credit-and-Debit-Control.png" alt="Credit-and-Debit-Control" />
+              <h2>Why Choose Business Central for Distribution?</h2>
+              <p><a href="/products/dynamics-365-business-central/">Microsoft Business Central</a> is a complete ERP solution with powerful abilities for managing and connecting different business operations without any hassle. When we focus on the distribution capabilities of BC, it outperforms all leading solutions, leveraging automation, a centralised data repository, real-time data insights, and easy deployment.</p>
+              <p>It is an ideal solution for distribution as it is capable of optimising core operations, automating recurring tasks, tracking items using lot or serial number, efficient sales order management, and more such salient features as well.</p>
+            </div>
+            <div className="col-lg-6">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="finace-acc">
+                    <div className="accordion" id="accnew">
+                      <div className="accordion-item" style={{ marginBottom: '5px' }}>
+                        <h3 className="accordion-header" id="headingTwo">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#fin1"
+                            aria-expanded="false"
+                            aria-controls="fin1"
+                          >
+                            <div className="wr-in">
+                              <img src="/img/General-Ledger.png" alt="General-Ledger" />
+                            </div>
+                            <span>Comes with Broad Distribution Functionality</span>
+                          </button>
+                        </h3>
+                        <div
+                          id="fin1"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="headingTwo"
+                          data-bs-parent="#accnew"
+                        >
+                          <div className="accordion-body">
+                            <p>Business Central is more than just an ERP solution. With its customisability and scalability features, it becomes the perfect piece of a complex puzzle. With BC for distribution, you can:</p>
+                            <ul>
+                              <li>Get real-time visibility</li>
+                              <li>Perform proper order fulfilment</li>
+                              <li>Bring end-to-end visibility across entire supply chain</li>
+                            </ul>
+                          </div>
                         </div>
-                        <span>Credit and Debit Control</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin3"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnewadasd"
-                    >
-                      <div className="accordion-body">
-                       <p>Maintain a good practice of controlling the credit and debit of all customers while managing their accounts. Manage all timely credit and debit collections to smooth the cash flow for better revenue generation.</p>
                       </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin4"
-                        aria-expanded="false"
-                        aria-controls="fin4"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/Multi-Currency-System.png"
-                            alt="Multi-Currency-System"
-                          />
+
+                      <div className="accordion-item" style={{ marginBottom: '5px' }}>
+                        <h3 className="accordion-header" id="headingTwo">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#fin2"
+                            aria-expanded="false"
+                            aria-controls="fin2"
+                          >
+                            <div className="wr-in">
+                              <img src="/img/Receivable-and-Payable-Accounts.png" alt="Receivable-and-Payable-Accounts" />
+                            </div>
+                            <span>Enhanced Productivity and Efficiency</span>
+                          </button>
+                        </h3>
+                        <div
+                          id="fin2"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="headingTwo"
+                          data-bs-parent="#accnew"
+                        >
+                          <div className="accordion-body">
+                            <p>Business Central is the solution of the modern era, where businesses know the value of enhancing productivity and efficiency. Being a cloud-based solution, it offers endless opportunities to do so, like:</p>
+                            <ul>
+                              <li>Reduce manual errors with automation</li>
+                              <li>Ensures accurate data flow</li>
+                              <li>Get real-time data insights to make actionable decisions</li>
+                            </ul>
+                          </div>
                         </div>
-                        <span>Multi-Currency System</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin4"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnewadasd"
-                    >
-                      <div className="accordion-body">
-                       <p>Operate your business in more than one country to establish an international business. Centralise all customers regardless of their currency to maintain all transactions in a currency of your choice. </p>
+                      </div>
+                      <div className="accordion-item">
+                        <h3 className="accordion-header" id="headingThree">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#fin3"
+                            aria-expanded="false"
+                            aria-controls="fin3"
+                          >
+                            <div className="wr-in">
+                              <img src="/img/Receivable-and-Payable-Accounts.png" alt="Receivable-and-Payable-Accounts" />
+                            </div>
+                            <span>Lower Operational Costs</span>
+                          </button>
+                        </h3>
+                        <div
+                          id="fin3"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="headingThree"
+                          data-bs-parent="#accnew"
+                        >
+                          <div className="accordion-body">
+                            <p>With embedded AI and cloud computing, Business Central modernises the different processes to lower the operational cost while optimising numerous processes. It increases the ROI by:</p>
+                            <ul>
+                              <li>Eliminating manual tasks</li>
+                              <li>Lowering inventory carrying costs</li>
+                              <li>Ensuring efficient operations to increase sales</li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
+
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>Simplify your Financial Operations with D365 Business Central</h3>
-                <p>Implement Dynamics 365 Business Central to streamline and simplify all your financial operations while offering insightful reports. It will empower you to keep an eye on your different business processes, from getting a prospect to generating the sales invoice.</p>
+                <h3>Talk to Distribution Industry Experts!</h3>
+                <p>Let the experts understand your concerns and the areas where your business is lacking. Once they identify the areas for improvement, you will need a perfect solution to supercharge your business.</p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link  href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
+                  <Link href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
                     <span>Schedule a Free Demo!</span></a>
                   </Link>
                 </div>
@@ -221,83 +206,55 @@ const MicrosoftDynamics365Ai = () => {
         </div>
       </section>
 
-
-
-    <section className="busine_service_bottom custom05">
+      <section>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <div className="side-heading-custom-01">
-                <h2>Core Functionalities of Financial Management Module</h2>
-              </div>
-              <div className="custom-p-001">
-                <p>The financial module of <Link href="/products/dynamics-365-business-central/"><a target="_blank">Business Central</a></Link> comes with built-in intelligence to support the complex financial needs of the business. It can help you predict the requirements, perform financial forecasts, and optimise performance to make a business active for growth in all dimensions. The Dynamics 365 Business Central offers numerous functionalities to the business, among which some are discussed next:</p>
-                <div className="row" style={{paddingTop:'40px'}}>
-                  <div className="col-lg-6">
-         
-                  <ul>
-                      <li>Manage Multiple Currencies</li>
-                      <li>Manage Financial Log</li>
-                      <li>Bank Account Management</li>
-                      <li>Bank Reconciliation</li>
-                      <li>Cash Flow Management</li>
-                      <li>Forecast Requirements</li>
-                      <li>Assets Allocation</li>
-                      <li>Credit Management</li>
-                  </ul>
-           
-                  </div>
-                  <div className="col-lg-6">
-              
-                  <ul>
-                      <li>Budgeting</li>
-                      <li>Direct Debits</li>
-                      <li>General Ledger Management </li>
-                      <li>Allocate Costs</li>
-                      <li>Manage Revenue and Expenses</li>
-                      <li>Multiple Currency Management</li>
-                      <li>Maintaining Cash Flows </li>
-                      <li>Invoice Management</li>
-                  </ul>
-            
-                  </div>
-                </div>
-              </div>
+              <header className="section-header">
+                <h2>Dynamics 365 Business Central – An Ideal Solution to Modernise the Distribution Industry</h2>
+                <p>BC empowers businesses to control costs, manage vendor relationships with the business, understand modern customers, and streamline warehousing and logistics operations. Some other major benefits are:</p>
+              </header>
             </div>
           </div>
-        </div>
-      </section>
-    <section>
-      <div className="container">
-      <div className="row justify-content-center">
-          <div className="col-lg-10">
-          <header className="section-header">
-            <h2>D365 Business Central Financial Management Benefits</h2>
-            <p>The financial management module of Business Central offers numerous benefits that can help you get 360° financial control, scale your business to greater heights, provide advanced reporting capabilities, and more. Some of the core benefits are given below:</p>
-          </header>
-          </div>
-        </div>
-      <div className="row g-5">
+          <div className="row g-5">
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image src="/img/Get-360-Financial-Control.svg" alt="Get-360-Financial-Control" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Get 360° Financial Control</h3>
-                  <p>Get 360° visibility of all financial transactions and core processes to simplify decision-making, budgeting, bank reconciliation, and tracking resources.</p>
+                  <h3>Enhanced Supply Chain Visibility</h3>
+                  <p>Get a 360-degree view of the entire distribution chain in real-time to make data-driven decisions with enhanced collaboration with suppliers.</p>
                 </div>
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting"  width={84} height={84} />
+                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Advanced Financial Reporting</h3>
-                  <p>Reporting is an essential part that makes the business aware of all the activities. It will enable you to build financial reports containing data on all customers, including transactions and resources. </p>
+                  <h3>Seamless Integration</h3>
+                  <p>Business Central comes with Microsoft Extension Technology that lets the business integrate any solution of the Dynamics 365 ecosystem in just a few clicks.</p>
                 </div>
               </div>
-           
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting" width={84} height={84} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Improved Order fulfilment</h3>
+                  <p>Perform accurate and timely delivery of products to ensure precise order fulfilment throughout the sales cycle.</p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting" width={84} height={84} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Utilise Data Analytics</h3>
+                  <p>Cloud computing enables you to collect data in real time and utilise this data to make informed decisions for better efficiency.</p>
+                </div>
+              </div>
+
             </div>
             <div className="col-lg-6">
               <div className="style-grid-1">
@@ -309,57 +266,99 @@ const MicrosoftDynamics365Ai = () => {
                   />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Optimise Resources </h3>
-                  <p>Track, maintain, and optimise all resources to enhance the overall efficiency of the business. Manage procurement and inventory data to make realistic financial decisions.</p>
+                  <h3>Monitor Purchasing and Procurement</h3>
+                  <p>D365 BC for Distribution empowers you to manage suppliers, purchase orders, and maintain consistent vendor collaboration.</p>
                 </div>
               </div>
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Make-Proactive-Decisions.svg" alt="Make-Proactive-Decisions"  width={84} height={84} />
+                  <Image src="/img/Make-Proactive-Decisions.svg" alt="Make-Proactive-Decisions" width={84} height={84} />
                 </div>
                 <div className="style-grid-content">
-                  <h3>Make Proactive Decisions</h3>
-                  <p>Due to the Business Central cloud, you can get real-time insights to make informed decisions across different departments of the business and build a workable financial strategy.</p>
+                  <h3>Boost Supply Chain Operations</h3>
+                  <p>Get complete visibility over the entire supply chain, perform demand planning for resource optimisation, and perform efficient return management.</p>
                 </div>
               </div>
-            </div>
-          </div>
-      </div>
-    </section>
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image
+                    src="/img/Optimise-Resources.svg"
+                    alt="Optimise-Resources"
+                    width={84} height={84}
+                  />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Modernize Order Management</h3>
+                  <p>Leverage the integrated <a href="/blog/crm-functionality-in-dynamics-365-business-central/">CRM capabilities</a> to perform efficient sales order management and streamline order-to-cash processes.</p>
+                </div>
+              </div>
 
-    <section className="busine_service_bottom custom05">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/BC-Finance-module-side.png"
-                  alt="BC-Finance-module-side"
-                  width={482} height={513}
-                />
+              <div className="style-grid-1">
+                <div className="style-grid-icons">
+                  <Image src="/img/Make-Proactive-Decisions.svg" alt="Make-Proactive-Decisions" width={84} height={84} />
+                </div>
+                <div className="style-grid-content">
+                  <h3>Manages Complete Inventory</h3>
+                  <p>BC enables you to get complete visibility of stock levels across multiple store locations while efficiently handling goods.</p>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading-custom-01">
-                <h2>Financial Management in Industries</h2>
-              </div>
-              <div className="custom-p-001">
-                <p>The financial management module of Business Central offers streamlined account management along with managing customers, goods, and suppliers. Also, it provides great financial visibility and opens businesses to different opportunities for growth. With advanced tools and functionality, it enables the business to scale its processes to meet global customer demands. That's why it is the most suitable ERP solution for almost all businesses that are looking for ways to grow and expand their business. A few of the popular industries where <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">implementing the Business Central</a></Link> for Finance Management module can be a perfect fit are:  </p>
-                   <ul>
-                      <li>Manufacturing</li>
-                      <li>Automotive</li>
-                      <li>Not-for-profit</li>
-                      <li>Retail and Distribution</li>
-                      <li>Healthcare</li>
-                  </ul>
-           
-              </div>
+
             </div>
           </div>
         </div>
       </section>
-      
+
+      <section className="call-to-action-center hero-4">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="call-to-action-content">
+                  <h3>Future Proof your Distribution Process with Business Central</h3>
+                  <p>Simplify the distribution workflow and provide first-class customer service with Business Central.</p>
+                  <div className="text-center m-o-t m-o-t-hv">
+                    <Link href="#exampleModal">
+                      <a
+                        data-bs-toggle="modal"
+                        className="btn-get-started scrollto"
+                      >
+                        <span>Get a Free Business Central Trial Today!</span>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="busine_service_bottom">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 align-self-center">
+                <div className="busine_service_bottom-left">
+                  <div className="busine_service_bottom-right">
+                    <Image
+                      src="/img/Shopping-experience-side.png"
+                      className="fix-im"
+                      alt="Shopping-experience-side"
+                      width={522} height={513}
+                    />
+                  
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 d-flex align-items-center">
+                <div className="side-heading">
+                  <h2>Struggling with inventory management and order fulfilment?</h2>
+                  <p>The distribution company faced challenges with managing growing inventory, fulfilling orders efficiently, and making data-driven decisions. By implementing Business Central, they transformed their operations. Real-time inventory visibility, streamlined order processing, and advanced analytics empowered them to optimise stock levels, improve customer satisfaction, and identify new growth opportunities.</p>
+                 <p><b>The result?</b></p>
+                 <p style={{color:'#b5101f'}}>Increased efficiency, reduced costs, and a competitive edge.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </>
   );
 };
