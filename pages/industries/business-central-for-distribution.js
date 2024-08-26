@@ -16,9 +16,24 @@ const MicrosoftDynamics365Ai = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/business-central-for-distribution/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Business Central for Distribution Industry | Dynamics Square" />
+        <meta property="og:description" content="Optimise your distribution business with Microsoft Business Central. Streamline operations, manage inventory, and drive growth with tailored solutions for the distribution industry." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/human-resource-management/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/distribution-business-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Microsoft Business Central for Distribution Industry | Dynamics Square" />
+        <meta name="twitter:description" content="Optimise your distribution business with Microsoft Business Central. Streamline operations, manage inventory, and drive growth with tailored solutions for the distribution industry." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/distribution-business-banner.png" />
 
       </Head>
+      
       <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
@@ -36,9 +51,9 @@ const MicrosoftDynamics365Ai = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Business-Central-FInance-Mangment.png"
-                alt="Business-Central-FInance-Mangment"
-                width={718} height={447}
+                src="/img/distribution-business-banner.png"
+                alt="distribution-business-banner"
+                width={736} height={461}
                 priority={true}
                 quality={70}
               />
@@ -90,7 +105,7 @@ const MicrosoftDynamics365Ai = () => {
                             aria-controls="fin1"
                           >
                             <div className="wr-in">
-                              <img src="/img/General-Ledger.png" alt="General-Ledger" />
+                              <img src="/img/i-cons-01.png" alt="Comes with Broad Distribution Functionality" />
                             </div>
                             <span>Comes with Broad Distribution Functionality</span>
                           </button>
@@ -123,7 +138,7 @@ const MicrosoftDynamics365Ai = () => {
                             aria-controls="fin2"
                           >
                             <div className="wr-in">
-                              <img src="/img/Receivable-and-Payable-Accounts.png" alt="Receivable-and-Payable-Accounts" />
+                              <img src="/img/i-cons-02.png" alt="Enhanced Productivity and Efficiency" />
                             </div>
                             <span>Enhanced Productivity and Efficiency</span>
                           </button>
@@ -155,7 +170,7 @@ const MicrosoftDynamics365Ai = () => {
                             aria-controls="fin3"
                           >
                             <div className="wr-in">
-                              <img src="/img/Receivable-and-Payable-Accounts.png" alt="Receivable-and-Payable-Accounts" />
+                              <img src="/img/i-cons-03.png" alt="Lower Operational Costs" />
                             </div>
                             <span>Lower Operational Costs</span>
                           </button>
@@ -220,7 +235,7 @@ const MicrosoftDynamics365Ai = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Get-360-Financial-Control.svg" alt="Get-360-Financial-Control" width={84} height={84} />
+                  <Image src="/img/i-cons-04.png" alt="Enhanced Supply Chain Visibility" width={104} height={104} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Enhanced Supply Chain Visibility</h3>
@@ -229,7 +244,7 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting" width={84} height={84} />
+                  <Image src="/img/i-cons-05.png" alt="Seamless Integration" width={104} height={104} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Seamless Integration</h3>
@@ -238,7 +253,7 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting" width={84} height={84} />
+                  <Image src="/img/i-cons-06.png" alt="Improved Order fulfilment" width={104} height={104} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Improved Order fulfilment</h3>
@@ -247,7 +262,7 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Advanced-Financial-Reporting.svg" alt="Advanced-Financial-Reporting" width={84} height={84} />
+                  <Image src="/img/i-cons-07.png" alt="Utilise Data Analytics" width={104} height={104} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Utilise Data Analytics</h3>
@@ -260,9 +275,9 @@ const MicrosoftDynamics365Ai = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Optimise-Resources.svg"
-                    alt="Optimise-Resources"
-                    width={84} height={84}
+                    src="/img/i-cons-08.png"
+                    alt="Monitor Purchasing and Procurement"
+                    width={104} height={104}
                   />
                 </div>
                 <div className="style-grid-content">
@@ -273,7 +288,7 @@ const MicrosoftDynamics365Ai = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Make-Proactive-Decisions.svg" alt="Make-Proactive-Decisions" width={84} height={84} />
+                  <Image src="/img/i-cons-09.png" alt="Boost Supply Chain Operations" width={104} height={104} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Boost Supply Chain Operations</h3>
@@ -283,9 +298,9 @@ const MicrosoftDynamics365Ai = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Optimise-Resources.svg"
-                    alt="Optimise-Resources"
-                    width={84} height={84}
+                    src="/img/i-cons-10.png"
+                    alt="Modernize Order Management"
+                    width={104} height={104}
                   />
                 </div>
                 <div className="style-grid-content">
@@ -296,7 +311,7 @@ const MicrosoftDynamics365Ai = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Make-Proactive-Decisions.svg" alt="Make-Proactive-Decisions" width={84} height={84} />
+                  <Image src="/img/i-cons-11.png" alt="Manages Complete Inventory" width={104} height={104} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Manages Complete Inventory</h3>
@@ -338,10 +353,10 @@ const MicrosoftDynamics365Ai = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <Image
-                      src="/img/Shopping-experience-side.png"
+                      src="/img/struggling-inventory.png"
                       className="fix-im"
-                      alt="Shopping-experience-side"
-                      width={522} height={513}
+                      alt="struggling-inventory"
+                      width={483} height={514}
                     />
                   
                   </div>
