@@ -23,7 +23,7 @@ class Header extends Component {
   render() {
     return (
       <>
-      {/* <TimerModal /> */}
+        {/* <TimerModal /> */}
         <header id="header" className="header">
           <div className="top-header-sec">
             <a href="mailto:info@dynamicssquare.co.uk">
@@ -367,7 +367,7 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
-                                
+
                                 </div>
                               </div>
                             </div>
@@ -1377,6 +1377,9 @@ class Header extends Component {
                         <a href="/guides/">Guides</a>
                       </li>
                       <li>
+                        <a href="/white-papers/">White Papers</a>
+                      </li>
+                      <li>
                         <a href="/webinars/">Webinars</a>
                       </li>
                     </ul>
@@ -1931,6 +1934,9 @@ class Header extends Component {
                                 </li>
                                 <li>
                                   <a href="/guides/">Guides</a>
+                                </li>
+                                <li>
+                                  <a href="/white-papers/">White Papers</a>
                                 </li>
                                 <li>
                                   <a href="/webinars/">Webinars</a>
