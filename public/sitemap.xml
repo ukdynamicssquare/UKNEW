@@ -1284,11 +1284,7 @@
     <lastmod>2023-12-07T19:52:56+00:00</lastmod>
     <priority>0.33</priority>
   </url>
-  <url>
-    <loc>https://www.dynamicssquare.co.uk/dynamics-365-sales-copilot/</loc>
-    <lastmod>2023-12-05T19:52:56+00:00</lastmod>
-    <priority>0.33</priority>
-  </url>
+  
   <url>
     <loc>https://www.dynamicssquare.co.uk/blog/does-microsoft-still-support-dynamics-nav/</loc>
     <lastmod>2023-12-21T14:52:56+00:00</lastmod>
@@ -1629,6 +1625,16 @@
   <url>
     <loc>https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/service-management/</loc>
     <lastmod>2024-08-30T18:43:56+00:00</lastmod>
+    <priority>0.33</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/case-management-in-dynamics-365-customer-service/</loc>
+    <lastmod>2024-09-03T18:43:56+00:00</lastmod>
+    <priority>0.33</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-sales/copilot/</loc>
+    <lastmod>2024-09-03T18:43:56+00:00</lastmod>
     <priority>0.33</priority>
   </url>
 </urlset>     

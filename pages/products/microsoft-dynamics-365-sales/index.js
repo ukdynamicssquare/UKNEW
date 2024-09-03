@@ -4,7 +4,7 @@ import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
-import Blog from "../../components/Blog";
+import Blog from "../../../components/Blog";
 const Sales = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -449,7 +449,7 @@ const colostyle= {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Microsoft Copilot for Dynamics 365 Sales</h2>
-                <p>Microsoft Copilot comes embedded in Dynamics 365 Sales and serves as an intelligent AI assistant to accelerate lead capture and closing deals faster. It is a boon for sales executives because it helps them resolve queries instantly and offers an optimum level of customer satisfaction.</p>
+                <p><a href="/products/microsoft-dynamics-365-sales/copilot/">Microsoft Copilot comes embedded in Dynamics 365 Sales</a> and serves as an intelligent AI assistant to accelerate lead capture and closing deals faster. It is a boon for sales executives because it helps them resolve queries instantly and offers an optimum level of customer satisfaction.</p>
               </header>
             </div>
           </div>

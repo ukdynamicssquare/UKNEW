@@ -9,7 +9,7 @@ const Dynamics365SalesCopilot = () => {
     <>
       <Head>
       <title>Dynamics 365 Sales Copilot | Dynamics Square</title>
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/dynamics-365-sales-copilot/" />
+        <link rel="canonical" href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-sales/copilot/" />
         <meta name="description"
           content="Strengthen customer relationships, avail AI-powered sales insights, and automate sales processes leveraging the power of Dynamics 365 Sales Copilot."
         />

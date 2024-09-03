@@ -79,9 +79,7 @@ const Education = () => {
             <div className="row gx-5">
               <div className="col-lg-6 align-self-center">
                 <h2>
-                How Dynamics 365 for Education is the Best                  
-                  <br />
-                  CRM for Education Industry?
+                How Dynamics 365 for Education is the Best CRM + ERP for Education Industry?
                 </h2>
                 <p>
                 Microsoft Dynamics for Education offers powerful capabilities with a simplified user interface to enable all levels of users to properly utilise it. With <strong>Dynamics 365 for higher education</strong>, you can optimise the student journey, enhance staff engagement, maximise institution efficiency, provide data insights in real-time, forecast future possibilities, and predict results. 

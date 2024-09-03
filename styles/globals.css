@@ -12490,8 +12490,50 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ebff",endCo
     right: 0;
     top: 0;
 }
+/*industry home*/
+.heo-banner-industry{
+  position:relative;
+  padding: 80px 0px 0px;
+}
+.indu-heading-cenetr{
+  text-align: center;
+}
+.indu-heading-cenetr h1{
+  font-size: 40px !important;
+  font-weight: 600;
+  color: #393053;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.indu-heading-cenetr p{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  color: #443c68;
+  margin-bottom: 28px;
+}
+.indu-heading-cenetr .btn{
+  display: inline-block;
+  background: var(--color-red);
+    padding: 0.6rem 1.9rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.indu-heading-cenetr span{
+  display: block;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #7e75a6;
+}
+.bott-in-imag{
+  display: flex;
+    justify-content: space-between;
+}
+.bg-gradin-bl{
+  background-image: linear-gradient(to bottom, #e0dceb38 51%, rgba(99, 89, 133, 0));
 
-
+}
 @media (max-width: 1400px) {
 }
 
