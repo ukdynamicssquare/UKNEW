@@ -6,7 +6,8 @@
       { "source": "/dynamics-365-business-central-feature-comparison/", "destination": "/dynamics-nav-vs-business-central/", "statusCode": 301 },
       { "source": "/blog/best-crm-software/", "destination": "/blog/best-crm-software-for-small-business/", "statusCode": 301 },
       { "source": "/blog/power-apps-pricing-licensing/", "destination": "/blog/power-apps-pricing-licensing-uk/", "statusCode": 301 },
-      { "source": "/dynamics-365-sales-copilot/", "destination": "/products/microsoft-dynamics-365-sales/copilot/", "statusCode": 301 }
+      { "source": "/dynamics-365-sales-copilot/", "destination": "/products/microsoft-dynamics-365-sales/copilot/", "statusCode": 301 },
+      { "source": "/dynamics-365-business-central-pricing-licensing/", "destination": "/products/dynamics-365-business-central/pricing-licensing/", "statusCode": 301 }
     ]
   }
   

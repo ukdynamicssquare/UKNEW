@@ -416,12 +416,6 @@
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.dynamicssquare.co.uk/dynamics-365-business-central-pricing-licensing/</loc>
-    <lastmod>2023-06-08T15:47:56+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-
-  <url>
     <loc>https://www.dynamicssquare.co.uk/d365-business-central-support/</loc>
     <lastmod>2023-06-08T15:47:56+00:00</lastmod>
     <priority>0.64</priority>
@@ -1636,5 +1630,10 @@
     <loc>https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-sales/copilot/</loc>
     <lastmod>2024-09-03T18:43:56+00:00</lastmod>
     <priority>0.33</priority>
+  </url>
+    <url>
+    <loc>https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/pricing-licensing/</loc>
+    <lastmod>2024-09-03T18:43:56+00:00</lastmod>
+    <priority>0.64</priority>
   </url>
 </urlset>     

@@ -15,7 +15,7 @@ const BusinessCentralPricingLicensing = () => {
         />
           <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/dynamics-365-business-central-pricing-licensing/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/pricing-licensing/"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

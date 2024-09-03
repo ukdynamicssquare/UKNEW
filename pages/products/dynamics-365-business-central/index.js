@@ -1487,7 +1487,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <header className="section-header">
             <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
             <p>
-              Checkout the latest Dynamics 365 <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central Pricing</a></Link> and
+              Checkout the latest Dynamics 365 <Link href="/products/dynamics-365-business-central/pricing-licensing/"><a target="_blank">Business Central Pricing</a></Link> and
               capabilities of Essential, Premium, and Team Members plans.
             </p>
           </header>
