@@ -162,7 +162,120 @@ const IndustriesList = () => {
                 </a>
               </div>
             </div>
-            
+            <div className="col-lg-4 col-md-6 d-flex">
+              <div className="indut-card-one">
+                <a href="">
+                  <div className="pic">
+                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <h3>Startup </h3>
+                  </div>
+                  <div className="pic-body">
+                    <h4>Launch with Confidence<br/>Scale Later </h4>
+                    <ul>
+                      <li>Scalable Solutions</li>
+                      <li>Enhanced Efficiency</li>
+                      <li>Data-Driven Insights</li>
+                    </ul>
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 d-flex">
+              <div className="indut-card-one">
+                <a href="">
+                  <div className="pic">
+                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <h3>Not for Profit</h3>
+                  </div>
+                  <div className="pic-body">
+                    <h4>Empower Social Mission <br/>Make Greater Impact</h4>
+                    <ul>
+                      <li>Graded Resource Management </li>
+                      <li>Increased Donor Management </li>
+                      <li>Efficient Compliance Management </li>
+                    </ul>
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 d-flex">
+              <div className="indut-card-one">
+                <a href="">
+                  <div className="pic">
+                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <h3>Education</h3>
+                  </div>
+                  <div className="pic-body">
+                    <h4>Empower Students  <br/>Transform Teaching </h4>
+                    <ul>
+                      <li>Personalized Learning Experiences</li>
+                      <li>Improved Campus Management </li>
+                      <li>Enhanced Alumni Engagement </li>
+                    </ul>
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 d-flex">
+              <div className="indut-card-one">
+                <a href="">
+                  <div className="pic">
+                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <h3>E-Commerce </h3>
+                  </div>
+                  <div className="pic-body">
+                    <h4>Elevate Sales<br/>Capture Global Customers </h4>
+                    <ul>
+                      <li>Developed Customer Experience </li>
+                      <li>Maximised Inventory Management </li>
+                      <li>Omnichannel Integration </li>
+                    </ul>
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 d-flex">
+              <div className="indut-card-one">
+                <a href="">
+                  <div className="pic">
+                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <h3>Food & Beverages</h3>
+                  </div>
+                  <div className="pic-body">
+                    <h4>Drive Efficiency <br/>Boost Production </h4>
+                    <ul>
+                      <li>Improved Food Safety </li>
+                      <li>Great SCM Capability </li>
+                      <li>Strong Inventory Management </li>
+                    </ul>
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 d-flex">
+              <div className="indut-card-one">
+                <a href="">
+                  <div className="pic">
+                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <h3>Automotive Business </h3>
+                  </div>
+                  <div className="pic-body">
+                    <h4>Build Customer Trust <br/>Increase Team Efficiency </h4>
+                    <ul>
+                      <li>Streamined Customer Service </li>
+                      <li>Optimised Inventory Control </li>
+                      <li>Efficient Service Operations </li>
+                    </ul>
+                    <span>Learn More</span>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
