@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -6,9 +7,49 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
+import FormCaseScroll from "../../components/FormCaseScroll"; 
 
 
 const AccessDimensionErpToBusinessCentralMigration = () => {
+
+  const [showPopup, setShowPopup] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    // Check local storage to see if the form has already been submitted
+    const formSubmittedState = localStorage.getItem('formSubmitted') === 'true';
+    if (formSubmittedState) {
+      setShowPopup(false);
+      return; // Exit if the form was already submitted
+    }
+
+    const handleScroll = () => {
+      const position = window.scrollY;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const clientHeight = document.documentElement.clientHeight;
+      const scrolledPercentage = (position / (scrollHeight - clientHeight)) * 100;
+
+      setScrollPosition(scrolledPercentage);
+
+      if (scrolledPercentage > 10 && !showPopup) {
+        setShowPopup(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      document.body.style.overflow = "auto";
+    };
+  }, [scrollPosition, showPopup]);
+
+  const handlePopupClose = () => {
+    setShowPopup(false); // Hide the popup
+    localStorage.setItem('formSubmitted', 'true'); // Save state to local storage
+  };
+
+
   return (
     <>
       <Head>
@@ -22,6 +63,8 @@ const AccessDimensionErpToBusinessCentralMigration = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/access-dimension-erp-to-business-central-migration/"
         />
       </Head>
+
+      <div className={showPopup ? "blur-content" : ""}>
       <section className="hero-1 hero">
         <div className="container">
           <div className="row">
@@ -358,6 +401,18 @@ const AccessDimensionErpToBusinessCentralMigration = () => {
           </div>
         </div>
       </section>
+
+      </div>
+
+ {/* Pop-up Form */}
+ {showPopup && <FormCaseScroll onClose={handlePopupClose} />}
+      <style jsx>{`
+        .blur-content {
+          filter: blur(7px);
+          transition: filter 0.3s ease;
+        }
+      `}</style>
+
     </>
   );
 };
