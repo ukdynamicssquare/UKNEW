@@ -14,7 +14,7 @@ const PowerBiSupport = () => {
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/microsoft-power-bi/support/" />
-        <meta property="og:locale" content="GB" />
+         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -26,12 +26,12 @@ const PowerBiSupport = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-power-bi/support/"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/integration/"
         />
         <meta property="og:site_name" content="Dynamics Square UK" />
         <meta
           property="og:image"
-          content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.webp"
+          content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png"
         />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
@@ -48,7 +48,7 @@ const PowerBiSupport = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.webp"
+          content="https://www.dynamicssquare.co.uk/img/project-operation-banner.png"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -78,7 +78,7 @@ const PowerBiSupport = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Power-BI-1024x586.webp" alt="Power-BI" width={1024} height={586} priority={true} />
+              <Image src="/img/Power-BI-1024x586.webp" alt="Power-BI" width={1024} height={586}  priority = {true} />
             </div>
           </div>
         </div>

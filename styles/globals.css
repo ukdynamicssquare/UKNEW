@@ -12667,6 +12667,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ebff",endCo
 .pd-30-60{
   padding:20px 0px 30px
 }
+.why-slider-sec.why-sliderss{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 @media (max-width: 1400px) {
 }
 
