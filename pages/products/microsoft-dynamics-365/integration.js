@@ -13,7 +13,7 @@ const Integration = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/integration/ "
+          href="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/integration/"
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ const Integration = () => {
         />
         <meta
           property="og:url"
-          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/integration/ "
+          content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/integration/"
         />
         <meta property="og:site_name" content="Dynamics Square UK" />
         <meta
@@ -335,7 +335,7 @@ const Integration = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Enables optical character recognition for automatic data extraction from documents, saving time and reducing manual data entry. </p>
+                       <p><a href="/continia-document-capture-with-business-central/">Enables optical character recognition</a> for automatic data extraction from documents, saving time and reducing manual data entry. </p>
                       </div>
                     </div>
                   </div>
@@ -640,10 +640,10 @@ const Integration = () => {
               <div className="side-heading-custom-01">
                 <h2>Why Choose Dynamics Square for Dynamics 365 Integration? </h2>
                 <p>Being a leading Microsoft Solutions Partner in the UK, we can supercharge your business operations through innovation and modern technologies. We have: </p>
-                <p>Deep Expertise: With years of experience with Dynamics 365 and integration technologies, our team possesses the in-depth knowledge necessary to offer solutions that are precisely customised to meet your demands. </p>
-                <p>Comprehensive Services: From the initial assessment to ongoing assistance, we offer a wide range of services, such as integration consultancy, development, implementation, and maintenance. </p>
-                <p>Proven Track Record: Our outstanding track record of completing high-quality integration projects demonstrates our capacity to boost efficiency and create business value. </p>
-                <p>Customer-Centric Approach: To ensure that our solutions fully support your company goals, we put your needs first and work closely with you to understand your unique challenges and ambitions. </p>
+                <p><b>Deep Expertise</b>: With years of experience with Dynamics 365 and integration technologies, our team possesses the in-depth knowledge necessary to offer solutions that are precisely customised to meet your demands. </p>
+                <p><b>Comprehensive Services</b>: From the initial assessment to ongoing assistance, we offer a wide range of services, such as integration consultancy, development, implementation, and maintenance. </p>
+                <p><b>Proven Track Record</b>: Our outstanding track record of completing high-quality integration projects demonstrates our capacity to boost efficiency and create business value. </p>
+                <p><b>Customer-Centric Approach</b>: To ensure that our solutions fully support your company goals, we put your needs first and work closely with you to understand your unique challenges and ambitions. </p>
               </div>
               <div className="custom-p-001">
                 

@@ -6,14 +6,49 @@ const PowerBiSupport = () => {
   return (
     <>
       <Head>
-        <title>Power BI Support Service | Dynamics Square</title>
+        <title>Power BI Support & Services | Dynamics Square</title>
         <meta
           name="description"
-          content="Need help with Power BI? Connect with our Microsoft Power BI support partner now and resume your data visualisation without interruption."
+          content="Get expert Power BI support and services with Dynamics Square. Optimise your data analytics, visualisation, and reporting with our tailored Power BI solutions."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/power-bi-support/"
+          href="https://www.dynamicssquare.co.uk/products/microsoft-power-bi/support/" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Power BI Support & Services | Dynamics Square"
+        />
+        <meta
+          property="og:description"
+          content="Get expert Power BI support and services with Dynamics Square. Optimise your data analytics, visualisation, and reporting with our tailored Power BI solutions."
+        />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.co.uk/products/microsoft-power-bi/support/"
+        />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta
+          property="og:image"
+          content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.webp"
+        />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta
+          name="twitter:title"
+          content="Power BI Support & Services | Dynamics Square"
+        />
+        <meta
+          name="twitter:description"
+          content="Get expert Power BI support and services with Dynamics Square. Optimise your data analytics, visualisation, and reporting with our tailored Power BI solutions."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.dynamicssquare.co.uk/img/Power-BI-1024x586.webp"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -43,7 +78,7 @@ const PowerBiSupport = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Power-BI-1024x586.webp" alt="Power-BI" width={1024} height={586}  priority = {true} />
+              <Image src="/img/Power-BI-1024x586.webp" alt="Power-BI" width={1024} height={586} priority={true} />
             </div>
           </div>
         </div>

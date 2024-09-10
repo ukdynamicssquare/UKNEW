@@ -5,7 +5,7 @@ import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
 // import Blog from "../../components/Blog";
-import FormGuide from "../../components/FormGuide";
+import FormGuide from "../../../components/FormGuide";
 const PowerBI = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
