@@ -12643,6 +12643,30 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ebff",endCo
   color: #68608f;
   margin-bottom:0px
 }
+.bg-graya {
+  background: #f7f9fb;
+}
+.card-four{
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 8px 0px #00000017;
+  -webkit-box-shadow: 2px 2px 8px 0px #00000017;
+  box-shadow: 2px 2px 8px 0px #00000017;
+}
+.card-four h3{
+  font-size: 16px;
+    font-weight: 600;
+    color: var(--color-blue);
+    margin-bottom: 15px;
+}
+.card-four p{
+  font-size: 14px;
+  margin-bottom:0px
+}
+.pd-30-60{
+  padding:20px 0px 30px
+}
 @media (max-width: 1400px) {
 }
 
