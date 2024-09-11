@@ -291,7 +291,7 @@ const IndustriesList = () => {
               <div className="indut-icon-card-one">
                 <img src="/img/in-icon-01.png" alt="Successful Implementation" width={40} height={40} />
                 <h4>Successful Implementation</h4>
-                <p>350+ Businesses Trust Us: Successful businesses have chosen us for transformative results. </p>
+                <p>350+ Businesses Trust Us: Successful businesses have chosen us for /transformative results. </p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 d-flex">
