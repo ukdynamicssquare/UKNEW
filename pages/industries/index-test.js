@@ -25,7 +25,7 @@ const IndustriesList = () => {
               <div className="indu-heading-cenetr">
                 <h1>Unlock the Power of Dynamics 365 Tailored to Your Industry Needs</h1>
                 <p>Explore how Dynamics 365 transforms your industry, empowering your business to innovate, grow, and succeed.</p>
-                <a href="" className="btn">Contact Us</a>
+                <a href="/contact-us/" className="btn">Contact Us</a>
                 <span>Discover how we can customize Dynamics 365<br />
                   for your specific business needs.</span>
               </div>
@@ -44,13 +44,10 @@ const IndustriesList = () => {
 
       <section className="bg-gradin-bl">
         <div className="container">
-          <header className="section-header">
-            <h2>Choose your Industry</h2>
-          </header>
           <div className="row g-4">
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/microsoft-cloud-for-manufacturing/">
                   <div className="pic">
                     <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
                     <h3>Manufacturing</h3>
@@ -69,10 +66,10 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/dynamics-365-for-retail/">
                   <div className="pic">
-                    <img src="/img/rectangle-02.jpg" alt="Retail " />
-                    <h3>Retail </h3>
+                    <img src="/img/rectangle-02.jpg" alt="Retail" />
+                    <h3>Retail</h3>
                   </div>
                   <div className="pic-body">
                     <h4>Digitalise Retail <br/>Empower Customers </h4>
@@ -88,7 +85,7 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/dynamics-365-for-healthcare/">
                   <div className="pic">
                     <img src="/img/rectangle-03.jpg" alt="Healthcare" />
                     <h3>Healthcare</h3>
@@ -107,9 +104,9 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/microsoft-cloud-for-financial-services/">
                   <div className="pic">
-                    <img src="/img/rectangle-04.jpg" alt="Financial Services " />
+                    <img src="/img/rectangle-04.jpg" alt="Financial Services" />
                     <h3>Financial Services </h3>
                   </div>
                   <div className="pic-body">
@@ -126,7 +123,7 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/professional-services/">
                   <div className="pic">
                     <img src="/img/rectangle-05.jpg" alt="Professional Services " />
                     <h3>Professional Services </h3>
@@ -143,7 +140,7 @@ const IndustriesList = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 d-flex">
+            {/* <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
                 <a href="">
                   <div className="pic">
@@ -161,12 +158,12 @@ const IndustriesList = () => {
                   </div>
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/startups/">
                   <div className="pic">
-                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <img src="/img/rectangle-07.jpg" alt="Startup" />
                     <h3>Startup </h3>
                   </div>
                   <div className="pic-body">
@@ -183,9 +180,9 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/microsoft-cloud-for-nonprofit/">
                   <div className="pic">
-                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <img src="/img/rectangle-08.jpg" alt="Not for Profit" />
                     <h3>Not for Profit</h3>
                   </div>
                   <div className="pic-body">
@@ -202,9 +199,9 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/dynamics-365-for-education/">
                   <div className="pic">
-                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <img src="/img/rectangle-09.jpg" alt="Education" />
                     <h3>Education</h3>
                   </div>
                   <div className="pic-body">
@@ -221,10 +218,10 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/ecommerce/">
                   <div className="pic">
-                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
-                    <h3>E-Commerce </h3>
+                    <img src="/img/rectangle-10.jpg" alt="E-Commerce" />
+                    <h3>E-commerce</h3>
                   </div>
                   <div className="pic-body">
                     <h4>Elevate Sales<br/>Capture Global Customers </h4>
@@ -240,9 +237,9 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/food-and-beverages/">
                   <div className="pic">
-                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <img src="/img/rectangle-11.jpg" alt="Food & Beverages" />
                     <h3>Food & Beverages</h3>
                   </div>
                   <div className="pic-body">
@@ -259,9 +256,9 @@ const IndustriesList = () => {
             </div>
             <div className="col-lg-4 col-md-6 d-flex">
               <div className="indut-card-one">
-                <a href="">
+                <a href="/industries/dynamics-365-automotive-accelerator/">
                   <div className="pic">
-                    <img src="/img/rectangle-06.jpg" alt="Logistics and Transportation " />
+                    <img src="/img/rectangle-12.jpg" alt="Automotive Business" />
                     <h3>Automotive Business </h3>
                   </div>
                   <div className="pic-body">
