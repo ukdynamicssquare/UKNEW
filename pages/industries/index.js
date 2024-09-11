@@ -281,7 +281,7 @@ const IndustriesList = () => {
               <div className="ind-index-heading">
                     <h2>Why Choose Us </h2>
                     <h3>Your Business. Our Expertise </h3>
-                    <p>We’re more than a service provider; we're your strategic partner in growth. From simplifying business operations to resolving critical errors, our tailored solutions are designed to drive efficiency, improve profitability, and deliver exceptional results. </p>
+                    <p>We're more than a service provider; we're your strategic partner in growth. From simplifying business operations to resolving critical errors, our tailored solutions are designed to drive efficiency, improve profitability, and deliver exceptional results. </p>
               </div>
             </div>
           </div>
