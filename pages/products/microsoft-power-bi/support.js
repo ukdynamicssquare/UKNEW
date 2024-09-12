@@ -386,6 +386,101 @@ const PowerBiSupport = () => {
           </div>
         </div>
       </section>
+      <section className="solution-faq faq">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header">
+                <h2>Have you got <br /> questions about Microsoft Power BI Support</h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >What is included in Dynamics Square’s Power BI support services? </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Dynamics Square's Power BI support services are intended to provide comprehensive help across the whole Power BI ecosystem. We ensure that your reports and data sources are updated often by offering proactive monitoring to spot possible problems before they happen. Our team is dedicated to optimising the effectiveness and productivity of your Power BI deployment. To make sure you and your team are utilising the platform to its most potential, we also provide ongoing training and support. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >How can I get started with Power BI support from Dynamics Square? </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Make an appointment for a conversation with our team to begin utilising Dynamics Square's Power BI support. Following a thorough assessment of your particular requirements, we will collaborate with you to create a customised support plan that meets your objectives and your financial constraints. Our experienced team will make sure the onboarding process runs well so you can start using our support services straight away. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >What is the cost of Power BI support services from Dynamics Square? </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    For Power BI support services that are tailored to your company's unique needs, we provide variable pricing. In our opinion, the billing ought to be clear and upfront, letting you know exactly what to expect. Our purpose is to help you achieve your company objectives profitably and successfully by offering exceptional value in the form of support services. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >What are the options for customizing Power BI services for my organization? </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    We offer a wide range of customisable options to ensure that our Power BI services exactly meet the particular requirements of your business. Our team can design customised Power BI solutions, integrate Power BI with your existing systems, implement robust data governance and security protocols, and provide specific training and educational programs to empower your staff. 
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
