@@ -8,11 +8,11 @@ const D360 = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics 365 CRM & ERP Gold Partner UK | Dynamics Square
+          Microsoft Dynamics 365: Cloud CRM & ERP Solutions UK
         </title>
         <meta
           name="description"
-          content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square UK."
+          content="Need Microsoft Dynamics 365 cloud-based CRM and ERP solutions? Scale-up your business productivity by implementing Dynamics 365 apps with Dynamics Square UK."
         />
         <link
           rel="canonical"
@@ -21,19 +21,19 @@ const D360 = () => {
 
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content=" Microsoft Dynamics 365 CRM & ERP Gold Partner UK | Dynamics Square" />
-        <meta property="og:description" content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square UK." />
+        <meta property="og:title" content=" Microsoft Dynamics 365: Cloud CRM & ERP Solutions UK" />
+        <meta property="og:description" content="Need Microsoft Dynamics 365 cloud-based CRM and ERP solutions? Scale-up your business productivity by implementing Dynamics 365 apps with Dynamics Square UK." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/_next/image/?url=%2Fimg%2Fd360-banner.png&w=640&q=75" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/d360-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Microsoft Dynamics 365 CRM & ERP Gold Partner UK | Dynamics Square" />
-        <meta name="twitter:description" content="Need Microsoft Dynamics 365 CRM and ERP services? Scale-up your business productivity by implementing Dynamics 365 apps from Microsoft Gold Partner Dynamics Square UK." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/_next/image/?url=%2Fimg%2Fd360-banner.png&w=640&q=75" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365: Cloud CRM & ERP Solutions UK" />
+        <meta name="twitter:description" content="Need Microsoft Dynamics 365 cloud-based CRM and ERP solutions? Scale-up your business productivity by implementing Dynamics 365 apps with Dynamics Square UK." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/d360-banner.png" />
 
 
       </Head>
@@ -551,7 +551,7 @@ const D360 = () => {
               <header className="section-header">
                 <h2>How Much Microsoft Dynamics 365 Licensing & Cost?</h2>
                 <p>
-                  Microsoft provides two ways of Microsoft Dynamics 365 Licensing for the organisations. These plans are based on the apps and integrations that come under Microsoft Dynamics 365 and the number of users as per access to Dynamics 365.
+                  Microsoft provides two ways of Microsoft Dynamics 365 Licensing for the organisations. These plans are based on the apps and <a href="/products/microsoft-dynamics-365/integration/">integrations</a> that come under Microsoft Dynamics 365 and the number of users as per access to Dynamics 365.
                 </p>
               </header>
             </div>
