@@ -1108,23 +1108,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
               </div>
             </div> */}
-            <div className="col-lg-3">
-              <div className="team-memb">
-                <div className="tem-mem-pic tem-mem-pic-size">
-                  <img src="/img/04.png" alt="dr-felton-lean" />
-                </div>
-                <div className="tem-mem-info">
-                  <h4>Rohit Solanki</h4>
-                  <span>Customer Success manager</span>
-                  {/* <p>"Helping employees and organisations to achieve more through learning and development."</p> */}
-                </div>
-                {/* <div className="social">
-                  <Link href="https://www.linkedin.com/in/manish-g-74854a44">
-                    <a><i className="bi bi-linkedin" style={{ fontSize: '24px' }}></i></a>
-                  </Link>
-                </div> */}
-              </div>
-            </div>
+          
             <div className="col-lg-3">
               <div className="team-memb">
                 <div className="tem-mem-pic tem-mem-pic-size">
