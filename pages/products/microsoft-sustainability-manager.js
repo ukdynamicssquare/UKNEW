@@ -397,6 +397,133 @@ const Microsoftsustainabilitymanager = () => {
           </div>
         </div>
       </section>
+
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7">
+              {" "}
+              <header className="section-header">
+                <h2>
+                  Have you got questions about Microsoft Sustainability Manager?
+                </h2>
+                <p>Click through to our FAQ for the best answers!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="accrlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-1"
+                    >What is Microsoft sustainability manager used for? </button>
+                  </h3>
+                  <div
+                    id="accr-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Sustainability Manager is a comprehensive solution designed to assist businesses in their sustainability journey. It provides a wide range of tools for tracking, estimating, and reducing environmental impact in various ways. Businesses can effectively monitor and report on their sustainability activities, including waste reduction, energy efficiency, and carbon footprint tracking, with the help of Sustainability Manager, an integrated platform. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-2"
+                    >How does Microsoft Sustainability Manager help with carbon footprint management? </button>
+                  </h3>
+                  <div
+                    id="accr-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Sustainability Manager is essential for monitoring carbon footprints because it provides a structured framework for data gathering, calculation, analysis, and reporting. Businesses can use it to gather data on energy use, emissions, and other relevant variables. It then automatically calculates the organization's carbon footprint based on the data collected. Using its extensive analysis capabilities, the application may identify areas that require improvement and set precise reduction targets. Additionally, Sustainability Manager generates comprehensive reports that can be given to stakeholders as proof of their commitment to and progress in sustainability. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-3"
+                    >What data sources can be integrated with Microsoft Sustainability Manager? </button>
+                  </h3>
+                  <div
+                    id="accr-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>By facilitating the seamless integration of several data sources, Sustainability Manager makes it possible to conduct a thorough and accurate assessment of the environmental impact. Organisations can connect energy meters, building management systems, car tracking systems, and garbage management systems to provide real-time data and insights. This integration for Sustainability Manager ensures a complete view of an organization's sustainability performance. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-4"
+                    >Is Microsoft Sustainability Manager customisable to fit specific business needs? </button>
+                  </h3>
+                  <div
+                    id="accr-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>It is true that Microsoft Sustainability Manager can be customised to fit the unique requirements of different businesses. The tool can be configured by users to follow certain sustainability objectives, metrics, and reporting formats. Sustainability Manager's versatility allows it to be tailored to precisely align with the established workflows and procedures inside a business. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accr-content-5"
+                    >What industries can benefit from Microsoft Sustainability Manager? </button>
+                  </h3>
+                  <div
+                    id="accr-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accrlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Sustainability Manager is a helpful tool for companies in a variety of industries, including: </p>
+                      <ul>
+                        <li><b>Manufacturing:</b> To reduce energy consumption, waste, and pollution during the production process. </li>
+                        <li><b>Real estate:</b> To improve building energy efficiency and reduce operational costs. </li>
+                        <li><b>Transportation:</b> To reduce fuel use, limit emissions, and optimise travel routes. </li>
+                        <li><b>Retail:</b> To implement sustainable supply chain practices, reduce waste, and enhance brand reputation. </li>
+                        <li><b>Government:</b> To enforce rules and laws, promote sustainable development, and set a good example. </li>
+                      </ul>
+                      <p>Leading sustainable projects and keeping an eye on their environmental implications are the responsibilities of nonprofit organisations. </p>
+                      <p>By using Sustainability Manager, different businesses of different industries may effectively monitor and control their environmental impact, demonstrate their dedication to sustainability, and contribute to building a more sustainable future. </p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
