@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import Head from "next/head";
-import FormFooterSubscriber from "../components/FormFooterSubscriber";
+// import FormFooterSubscriber from "../components/FormFooterSubscriber";
 import Link from "next/link";
 import Image from "next/image";
 import FormNewUI from "../components/FormNewUI";
@@ -1249,7 +1249,7 @@ const ContactUs = () => {
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
                   </span>
-                  <FormFooterSubscriber />
+                  {/* <FormFooterSubscriber /> */}
                 </div>
               </div>
             </div>
