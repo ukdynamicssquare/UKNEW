@@ -12681,6 +12681,19 @@ figure {
   flex-direction: column;
   justify-content: center;
 }
+.error {
+  color: red;
+  font-size: 12px;
+}
+.spinner-wrapper-custom{
+  display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.spinner-wrapper-custo .text-success {
+  --bs-text-opacity: 1;
+  color: rgb(22 41 67) !important;
+}
 
 @media (max-width: 1400px) {
 }

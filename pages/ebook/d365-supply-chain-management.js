@@ -1,55 +1,58 @@
-import React, { useRef, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import emailjs from "@emailjs/browser";
-import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
+import CommonEbookForm from "../../components/CommonEbookForm";
 const StartGuideThree = () => {
-  const router = useRouter();
-  const [display, setDisplay] = useState("dspn");
-  const form = useRef();
-  const [closeModal, setCloseModal] = useState(false);
-  function handleCloseModal() {
-    document
-      .getElementById("exampleModal1")
-      .classList.remove("show", "d-block");
-    document
-      .querySelectorAll(".modal-backdrop")
-      .forEach((el) => el.classList.remove("modal-backdrop"));
-  }
-  const sendEmail = (e) => {
-    setDisplay("spinner-border text-success");
-    e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_4voumj7",
-        "template_68k24ku",
-        form.current,
-        "mJ38M6WTmU7KRrtuZ"
-      )
 
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
 
-    setTimeout(function () {
-      setCloseModal(true);
-      e.target.reset();
-      router.push("/guides/download/Pdf-d365-supply-chain-management/");
-    }, 500);
-  };
+
+
+
+
+
+
+
+
+  // const router = useRouter();
+  // const [display, setDisplay] = useState("dspn");
+  // const form = useRef();
+  // const [closeModal, setCloseModal] = useState(false);
+  // function handleCloseModal() {
+  //   document
+  //     .getElementById("exampleModal1")
+  //     .classList.remove("show", "d-block");
+  //   document
+  //     .querySelectorAll(".modal-backdrop")
+  //     .forEach((el) => el.classList.remove("modal-backdrop"));
+  // }
+  // const sendEmail = (e) => {
+  //   setDisplay("spinner-border text-success");
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_4voumj7",
+  //       "template_68k24ku",
+  //       form.current,
+  //       "mJ38M6WTmU7KRrtuZ"
+  //     )
+
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+
+  //   setTimeout(function () {
+  //     setCloseModal(true);
+  //     e.target.reset();
+  //     router.push("/guides/download/Pdf-d365-supply-chain-management/");
+  //   }, 500);
+  // };
 
   return (
     <>
@@ -77,12 +80,13 @@ const StartGuideThree = () => {
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/dynamics-SCM-Ebook-og.png" />
       </Head>
 
-      <section className="Solution-banner hero-1 hero">
+     <main>
+     <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>
-                A Complete Guide to Dynamics 365 <br /> Supply Chain Management
+                A Complete Guide to Dynamics 365 Supply Chain Management
               </h1>
               <br />
               <div>
@@ -418,8 +422,8 @@ const StartGuideThree = () => {
           </div>
         </div>
       </section>
-
-      {!closeModal && (
+      <CommonEbookForm />
+      {/* {!closeModal && (
         <div
           className="modal fade form-main-model"
           id="exampleModal1"
@@ -526,7 +530,8 @@ const StartGuideThree = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
+     </main>
     </>
   );
 };

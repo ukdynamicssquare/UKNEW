@@ -3,7 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import FormGuideBusinessCentral from "../../components/FormGuideBusinessCentral";
+// import FormGuideBusinessCentral from "../../components/FormGuideBusinessCentral";
+import FormGuide from "../../components/FormGuide";
 const PowerBIGuide = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [display, setDisplay] = useState("ds-none");
@@ -750,7 +751,7 @@ const PowerBIGuide = () => {
                 </div>
               </div>
               <div className="iner-pp">
-              <Link href="#BusinessCentralModals">
+              <Link href="#powerBIModals">
                   <a data-bs-toggle="modal" ><img
                     src="/img/business-guide-call-to-banner-1.png"
                     alt=""
@@ -1324,7 +1325,7 @@ const PowerBIGuide = () => {
                 </div>
               </div>
               <div className="iner-pp">
-              <Link href="#BusinessCentralModals">
+              <Link href="#powerBIModals">
                   <a data-bs-toggle="modal" ><img
                     src="/img/business-guide-call-to-banner-2.png"
                     alt=""
@@ -2290,7 +2291,7 @@ const PowerBIGuide = () => {
                 </div>
               </div>
               <div className="iner-pp">
-              <Link href="#BusinessCentralModals">
+              <Link href="#powerBIModals">
                   <a data-bs-toggle="modal" ><img
                     src="/img/business-guide-call-to-banner-3.png"
                     alt=""
@@ -2405,7 +2406,7 @@ const PowerBIGuide = () => {
                 </div>
               </div>
               <div className="iner-pp">
-              <Link href="#BusinessCentralModals">
+              <Link href="#powerBIModals">
                   <a data-bs-toggle="modal" ><img
                     src="/img/business-guide-call-to-banner-1.png"
                     alt=""
@@ -2740,7 +2741,7 @@ const PowerBIGuide = () => {
                 </p>
               </div>
               <div className="iner-pp">
-              <Link href="#BusinessCentralModals">
+              <Link href="#powerBIModals">
                   <a data-bs-toggle="modal" ><img
                     src="/img/business-guide-call-to-banner-3.png"
                     alt=""
@@ -2891,7 +2892,8 @@ const PowerBIGuide = () => {
           </div>
         </div>
       </section>
-      <FormGuideBusinessCentral />
+      {/* <FormGuideBusinessCentral /> */}
+      <FormGuide />
     </>
   );
 };

@@ -4,212 +4,174 @@ import emailjs from "@emailjs/browser";
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 
-const FormGuide = () => {
-
-  const router = useRouter();
-  const [display, setDisplay] = useState(false);
-  const [closeModal, setCloseModal] = useState(false);
-  const [errors, setErrors] = useState({});
-  const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company_name: '',
-    phone: '',
-  });
-  const form = useRef();
-
-
-/*auto fetch*/
-useEffect(() => {
-  // Fetch IP information when the component mounts
-  fetchCountryCodeByIP();
-}, []);
-
-const fetchCountryCodeByIP = () => {
-  fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to fetch IP information');
-      }
-      return response.json();
-    })
-    .then(data => {
-      let countryCode = data.country_code.toLowerCase(); 
-      console.log("Country Code:", countryCode); // 
-      setDefaultCountryCode(countryCode);
-      console.log("Default Country Code:", defaultCountryCode); 
-    })
-    .catch(error => {
-      console.error('Error fetching IP information:', error);
-      setDefaultCountryCode('gb');
+const CommonEbookForm = () => {
+    const router = useRouter();
+    const [display, setDisplay] = useState(false);
+    const [closeModal, setCloseModal] = useState(false);
+    const [errors, setErrors] = useState({});
+    const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); 
+    const [formData, setFormData] = useState({
+      name: '',
+      email: '',
+      company_name: '',
+      phone: '',
     });
-};
-
-  const validate = () => {
-    const newErrors = {};
-
-    if (!formData.name) {
-      newErrors.name = 'Full Name is required';
-    }
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
-    if (!emailPattern.test(formData.email)) {
-      newErrors.email = 'Invalid email address';
-    }
-    if (!formData.company_name) {
-      newErrors.company_name = 'Company Name is required';
-    }
-    if (!formData.phone.trim()) {
-      errors.phone = 'Phone number is required';
-    } else if (!isValidPhoneNumber(formData.phone)) {
-      errors.phone = 'Invalid phone number';
-    }
-    if (!formData.phone) {
-      newErrors.phone = 'Phone Number is required';
-    } else {
-      const phonePattern = /^\d{10,13}$/;
-      if (!phonePattern.test(formData.phone)) {
-        newErrors.phone = 'Invalid phone number';
-      }
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-    // Clear the error for the field being edited
-    if (errors[name]) {
-      setErrors({
-        ...errors,
-        [name]: '',
+    const form = useRef();
+  
+  
+  /*auto fetch*/
+  useEffect(() => {
+    // Fetch IP information when the component mounts
+    fetchCountryCodeByIP();
+  }, []);
+  
+  const fetchCountryCodeByIP = () => {
+    fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch IP information');
+        }
+        return response.json();
+      })
+      .then(data => {
+        let countryCode = data.country_code.toLowerCase(); 
+        console.log("Country Code:", countryCode); // 
+        setDefaultCountryCode(countryCode);
+        console.log("Default Country Code:", defaultCountryCode); 
+      })
+      .catch(error => {
+        console.error('Error fetching IP information:', error);
+        setDefaultCountryCode('gb');
       });
-    }
   };
-
-  const handlePhoneChange = (phone) => {
-    setFormData({ ...formData, phone });
-    // Clear error message for the phone field
-    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
-  };
-
-
-  const sendEmail = async (e) => {
-    e.preventDefault();
-    if (!validate()) {
-      return;
-    }
-
-
-
-    try {
-      const result = await emailjs.sendForm('service_4voumj7', 'template_68k24ku', form.current, 'mJ38M6WTmU7KRrtuZ');
-      console.log(result.text);
+  
+    const validate = () => {
+      const newErrors = {};
+  
+      if (!formData.name) {
+        newErrors.name = 'Full Name is required';
+      }
+      const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+      if (!emailPattern.test(formData.email)) {
+        newErrors.email = 'Invalid email address';
+      }
+      if (!formData.company_name) {
+        newErrors.company_name = 'Company Name is required';
+      }
+      if (!formData.phone.trim()) {
+        errors.phone = 'Phone number is required';
+      } else if (!isValidPhoneNumber(formData.phone)) {
+        errors.phone = 'Invalid phone number';
+      }
+      if (!formData.phone) {
+        newErrors.phone = 'Phone Number is required';
+      } else {
+        const phonePattern = /^\d{10,13}$/;
+        if (!phonePattern.test(formData.phone)) {
+          newErrors.phone = 'Invalid phone number';
+        }
+      }
+  
+      setErrors(newErrors);
+      return Object.keys(newErrors).length === 0;
+    };
+  
+    const handleChange = (e) => {
+      const { name, value } = e.target;
       setFormData({
-        name: '',
-        email: '',
-        company_name: '',
-        phone: '',
+        ...formData,
+        [name]: value,
       });
-
-      const redirectMapping = {
-          '/guides/power-bi-guide-for-smb/': 'https://www.dynamicssquare.co.uk/guides/download/power-guide-pdf/',
-          '/guides/business-central-guide-for-smb/': 'https://www.dynamicssquare.co.uk/guides/download/pdf-business-central-guide/',
-        };
-
-        const redirectUrl = redirectMapping[router.asPath];
-        router.push(redirectUrl);
-
-
-
-
-      // router.push("https://www.dynamicssquare.com/guides/download/power-guide-pdf/");
-    } catch (error) {
-      console.error(error.text);
-    } finally {
-      setDisplay(false);
-    }
-  };
-
-  const isValidPhoneNumber = (phone) => {
-    // Phone number should be between 10 to 13 characters
-    return /^\d{10,15}$/.test(phone);
-  };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  //   const router = useRouter();
-  //   const [display, setDisplay] = useState("dspn");
-  //   const form = useRef();
-  //   const [closeModal, setCloseModal]  = useState(false);
-  //   function handleCloseModal(){            
-  //     document.getElementById("exampleModal").classList.remove("show", "d-block");
-  //     document.querySelectorAll(".modal-backdrop")
-  //             .forEach(el => el.classList.remove("modal-backdrop"));
-  // }
+      // Clear the error for the field being edited
+      if (errors[name]) {
+        setErrors({
+          ...errors,
+          [name]: '',
+        });
+      }
+    };
+  
+    const handlePhoneChange = (phone) => {
+      setFormData({ ...formData, phone });
+      // Clear error message for the phone field
+      setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
+    };
   
   
-  //   const sendEmail = (e) => {
-  //     setDisplay("spinner-border text-success");
-  //     e.preventDefault();
+    const sendEmail = async (e) => {
+      e.preventDefault();
+      if (!validate()) {
+        return;
+      }
   
-  //     emailjs.sendForm('service_4voumj7', 'template_68k24ku', form.current, 'mJ38M6WTmU7KRrtuZ')
+      setDisplay(true);
   
-  //       .then((result) => {
-  //           console.log(result.text);
-  //       }, (error) => {
-  //           console.log(error.text);
-  //       });
-       
-  //       setTimeout(function() {
-  //         setCloseModal(true);
-  //         e.target.reset();
-  //         router.push("/guides/download/power-guide-pdf/");
-  //       }, 500);
-        
-  //   };
-
-
   
-  return (
-    <>
+      try {
+        const result = await emailjs.sendForm('service_4voumj7', 'template_68k24ku', form.current, 'mJ38M6WTmU7KRrtuZ');
+        console.log(result.text);
+        setFormData({
+          name: '',
+          email: '',
+          company_name: '',
+          phone: '',
+        });
+
+        const redirectMapping = {
+            '/ebook/d365-supply-chain-management/': 'https://www.dynamicssquare.co.uk/guides/download/Pdf-d365-supply-chain-management/',
+            '/ebook/dynamics-365-finance/': 'https://www.dynamicssquare.co.uk/guides/download/Pdf-guide-finance/',
+            '/ebook/dynamics-crm/': 'https://www.dynamicssquare.co.uk/guides/download/Pdf-dynamics-crm/',
+            '/ebook/gp-to-bc-migration/': 'https://www.dynamicssquare.co.uk/guides/download/Pdf-dynamics-gp-to-bc/',
+            '/ebook/how-to-choose-right-erp/': 'https://www.dynamicssquare.co.uk/thank-you/how-to-choose-right-erp/',
+            '/ebook/upgrade-nav-to-business-central/': 'https://www.dynamicssquare.co.uk/thank-you-for-registration/'
+          };
+
+          const redirectUrl = redirectMapping[router.asPath];
+          router.push(redirectUrl);
 
 
-{!closeModal && (
+
+
+        // router.push("https://www.dynamicssquare.com/guides/download/power-guide-pdf/");
+      } catch (error) {
+        console.error(error.text);
+      } finally {
+        setDisplay(false);
+      }
+    };
+  
+    const isValidPhoneNumber = (phone) => {
+      // Phone number should be between 10 to 13 characters
+      return /^\d{10,15}$/.test(phone);
+    };
+  
+
+
+
+
+
+
+
+
+
+
+
+    return (
+        <>
+
+        {!closeModal && (
             <div
               className="modal fade form-main-model"
-              id="powerBIModals"
+              id="exampleModal1"
               tabIndex="-1"
-              aria-labelledby="powerBIModalsLabel"
+              aria-labelledby="exampleModal1Label"
               aria-hidden="true"
             >
               <div className="modal-dialog modal-dialog-centered">
                 <div className="modal-content">
                   <div className="modal-header">
-                    <h4 className="modal-title" id="powerBIModalsLabel">
-                    Download as PDF
+                    <h4 className="modal-title" id="exampleModal1Label">
+                    Register For Free EBook
                     </h4>
                     <button
                       type="button"
@@ -219,7 +181,7 @@ const fetchCountryCodeByIP = () => {
                     ></button>
                     <p></p>
                   </div>
-                  <p>Get the guide in PDF format right in your inbox!</p>
+                  <p>Fill the form and receive it straight to your inbox.</p>
                   <div className="modal-body">
                     <div className="main-form-wrper">
     
@@ -342,8 +304,18 @@ const fetchCountryCodeByIP = () => {
             </div>
           )}
     
-    </>
-  );
-};
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </>
+    );
+}
 
-export default FormGuide;
+export default CommonEbookForm;

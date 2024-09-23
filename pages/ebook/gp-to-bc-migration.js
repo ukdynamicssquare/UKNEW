@@ -1,53 +1,51 @@
-import React, { useRef, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import emailjs from "@emailjs/browser";
-import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
+import CommonEbookForm from "../../components/CommonEbookForm";
 const StartGuideGp = () => {
-  const router = useRouter();
-  const [display, setDisplay] = useState("dspn");
-  const form = useRef();
-  const [closeModal, setCloseModal] = useState(false);
-  function handleCloseModal() {
-    document.getElementById("exampleModal1").classList.remove("show", "d-block");
-    document
-      .querySelectorAll(".modal-backdrop")
-      .forEach((el) => el.classList.remove("modal-backdrop"));
-  }
-  const sendEmail = (e) => {
-    setDisplay("spinner-border text-success");
-    e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_4voumj7",
-        "template_68k24ku",
-        form.current,
-        "mJ38M6WTmU7KRrtuZ"
-      )
 
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
 
-    setTimeout(function () {
-      setCloseModal(true);
-      e.target.reset();
-      router.push("/guides/download/Pdf-dynamics-gp-to-bc/");
-    }, 500);
-  };
+
+
+  // const router = useRouter();
+  // const [display, setDisplay] = useState("dspn");
+  // const form = useRef();
+  // const [closeModal, setCloseModal] = useState(false);
+  // function handleCloseModal() {
+  //   document.getElementById("exampleModal1").classList.remove("show", "d-block");
+  //   document
+  //     .querySelectorAll(".modal-backdrop")
+  //     .forEach((el) => el.classList.remove("modal-backdrop"));
+  // }
+  // const sendEmail = (e) => {
+  //   setDisplay("spinner-border text-success");
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_4voumj7",
+  //       "template_68k24ku",
+  //       form.current,
+  //       "mJ38M6WTmU7KRrtuZ"
+  //     )
+
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+
+  //   setTimeout(function () {
+  //     setCloseModal(true);
+  //     e.target.reset();
+  //     router.push("/guides/download/Pdf-dynamics-gp-to-bc/");
+  //   }, 500);
+  // };
 
   return (
     <>
@@ -78,7 +76,8 @@ const StartGuideGp = () => {
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/dynamics-GP-BC-Ebook-banner-image.png" />
       </Head>
 
-      <section className="Solution-banner hero-1 hero">
+     <main>
+     <section className="Solution-banner hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
@@ -344,114 +343,8 @@ const StartGuideGp = () => {
         </div>
       </section>
 
-      {!closeModal && (
-        <div
-          className="modal fade form-main-model"
-          id="exampleModal1"
-          tabIndex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h4 className="modal-title" id="exampleModalLabel">
-                  Register For Free EBook
-                </h4>
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-                <p></p>
-              </div>
-              <p>Fill the form and receive it straight to your inbox.</p>
-              <div className="modal-body">
-                <div className="main-form-wrper">
-                  <form ref={form} onSubmit={sendEmail}>
-                    <div className="mb-3">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="*Full Name"
-                        name="name"
-                        required
-                      />
-                      <input type="hidden" value={router.asPath} name="url" />
-                    </div>
-
-                    <div className="mb-3">
-                      <input
-                        type="email"
-                        className="form-control"
-                        placeholder="*Work Email"
-                        name="email"
-                        pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
-                        required
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="*Company Name"
-                        name="company_name"
-                        required
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <input
-                        type="tel"
-                        className="form-control"
-                        placeholder="*Phone Number"
-                        name="phone"
-                        pattern="^\d{10,13}$"
-                        required
-                      />
-                    </div>
-                    <div className="mb-3 form-check">
-                      <input
-                        type="checkbox"
-                        checked
-                        readOnly
-                        className="form-check-input"
-                        id="exampleCheck1"
-                      />
-                      <label
-                        className="form-check-label"
-                        htmlFor="exampleCheck1"
-                      >
-                        I agree to the {" "}
-                        <Link href="/privacy-policy/">
-                          <a target="_blank">Privacy Policy</a>
-                        </Link>{" "}
-                        and{" "}
-                        <Link href="/terms-of-use/" target="_blank">
-                        <a target="_blank">Terms of Service</a>
-                        </Link>
-                        .
-                      </label>
-                    </div>
-
-                    <div className="spiner-wrper">
-                      <button
-                        type="submit"
-                        className="btn btn-primary fomr-submit"
-                      >
-                        Download Now
-                      </button>
-                      <div className={display} role="status">
-                        <span className="visually-hidden">Loading...</span>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      <CommonEbookForm />
+     </main>
     </>
   );
 };
