@@ -535,10 +535,10 @@ const colostyle= {
                 <h3>
                   Dynamics 365 Sales
                   <br />
-                  Essentials
+                  Enterprise
                 </h3>
                 <div className="price">
-                £78.10<span>Per-User/Per Month</span>
+                £86.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="">
@@ -571,7 +571,7 @@ const colostyle= {
                   Premium
                 </h3>
                 <div className="price">
-                £111<span>Per-User/Per Month</span>
+                £123.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="">

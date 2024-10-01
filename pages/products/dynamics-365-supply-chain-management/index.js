@@ -572,7 +572,7 @@ const Index = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-3">
+            <div className="col-lg-1">
               {/* <div className="box">
                         <h4>Business Central<br />
                            Essentials
@@ -589,7 +589,7 @@ const Index = () => {
                        
                      </div> */}
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="box box-22">
                 <h3>
                   Dynamics 365
@@ -597,7 +597,7 @@ const Index = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                £147.90<span>Per-User/Per Month</span>
+                £172.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -612,7 +612,24 @@ const Index = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-5">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365
+                  <br />
+                  Supply Chain Management Premium
+                </h3>
+                <div className="price">
+                £246.60<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                    All dynamics 365 SCM standard features along with added Copilot capabilities
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-1">
               {/* <div className="box">
                         <h4>Business Central<br />
                            Essentials

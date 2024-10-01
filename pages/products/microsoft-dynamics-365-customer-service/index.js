@@ -425,7 +425,7 @@ const CustomerService = () => {
           </div>
 
           <div className="row gy-4 p-9">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-4">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service
@@ -461,15 +461,15 @@ const CustomerService = () => {
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-4">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service
                   <br />
-                  Essentials
+                  Enterprise
                 </h3>
                 <div className="price">
-                £78.10<span>Per-User/Per Month</span>
+                £86.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -495,6 +495,39 @@ const CustomerService = () => {
                     <i className="bi bi-check-lg"></i> Analytics and KPI reporting 
                   </li>
 
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365 Customer Service<br/> Premium
+                  <br />
+                  
+                </h3>
+                <div className="price">
+                £160.30<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li>
+                    <i className="bi bi-check-lg"></i> Transform customer engagement with an integrated contact center and CRM service solution all powered by generative AI.
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i> All features of the
+                    Professional set
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i> Unified service desk 
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i> Embedded intelligence 
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i> Service gamification
+                  </li>
+                  <li>
+                    <i className="bi bi-check-lg"></i> Customization and extensibility, etc.
+                  </li>
                 </ul>
               </div>
             </div>

@@ -589,7 +589,7 @@ const Finance = () => {
             </div>
           </div>
           <div className="row gy-4 p-9">
-            <div className="col-lg-3">
+            <div className="col-lg-2">
               {/* <div className="box">
                         <h4>Business Central<br />
                            Essentials
@@ -606,11 +606,11 @@ const Finance = () => {
                        
                      </div> */}
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-4">
               <div className="box box-22">
                 <h3>Dynamics 365 Finance</h3>
                 <div className="price">
-                  £147.90<span>Per-User/Per Month</span>
+                  £172.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -620,7 +620,20 @@ const Finance = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4">
+              <div className="box box-22">
+                <h3>Dynamics 365 Finance Premium</h3>
+                <div className="price">
+                  £246.60<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                     Enhance decision making with advanced business performance management.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2">
               {/* <div className="box">
                         <h3>Business Central<br />
                            Essentials
