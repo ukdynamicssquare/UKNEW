@@ -1,0 +1,182 @@
+{
+    "step1": {
+        "heading": "About Your Business",
+    "paragraph": "Tell us a bit of background on your business",
+        "fields": [
+            {
+                "label": "What industry are you in?",
+                "type": "select",
+                "name": "industry",
+                "options": [
+                    "Construction",
+                    "Distribution",
+                    "Education",
+                    "Energy/Utilities",
+                    "Engineering",
+                    "Finance, Accounting and Insurance",
+                    "Food and Beverage",
+                    "Government/Public Sector",
+                    "Health and Beauty",
+                    "Manufacturing - Discrete",
+                    "Manufacturing - Process",
+                    "Media/Publishing",
+                    "Not For Profit",
+                    "Professional or Other Services",
+                    "Retail",
+                    "Other"
+                ]
+            },
+            {
+                "label": "How many employees are there in your organisation?",
+                "type": "number",
+                "name": "employees"
+            },
+            {
+                "label": "What is your annual revenue?",
+                "type": "select",
+                "name": "annual_revenue",
+                "options": [
+                    "Less than 1 million",
+                    "2 to 10 million",
+                    "11 to 99 million",
+                    "100 to 249  million"
+                ]
+            },
+            {
+                "label": "Why are you looking for a new system?",
+                "type": "checkbox",
+                "name": "looking_for",
+                "options": [
+                    "This will be our first ERP solution",
+                    "We've outgrown our current solution",
+                    "We need additional functionality",
+                    "We need to upgrade our system"
+                ]
+            }
+        ]
+    },
+    "step2": {
+        "fields": [
+            {
+                "label": "What is your budget for the project?",
+                "type": "select",
+                "name": "budget_project",
+                "options": [
+                    "Less than 10k",
+                    "11 to 50k",
+                    "51 to 100k",
+                    "101 to 250k",
+                    "251 to 500k",
+                    "500 to 750k",
+                    "751 to 1 million",
+                    "More than 1 million"
+                    
+                ]
+            },
+            {
+                "label": "What's your expected timeline for this project?",
+                "type": "select",
+                "name": "expected_imeline",
+                "options": [
+                    "1 to 3 months",
+                    "4 to 9 months",
+                    "10 to 12 months",
+                    "13 to 18 months",
+                    "19 to 24 months",
+                    "More than 24 months" 
+                ]
+            },
+            {
+                "label": "Do you need a Finance system?",
+                "type": "radio",
+                "name": "financeSystem",
+                "layout": "inline", 
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "label": "Do you need a Fixed Asset register and/or Budgeting in your solution?",
+                "type": "radio",
+                "name": "Fixed_assets",
+                "layout": "inline", 
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "label": "How many companies does your business include?",
+                "type": "radio",
+                "layout": "", 
+                "name": "business_include",
+                "options": [
+                    "1",
+                    "2 to 5",
+                    "6 to 10",
+                    "More than 10"
+                ]
+            }
+        ]
+    },
+    "step3": {
+        "fields": [
+            
+            {
+                "label": "Does your business use Sales Orders and/or Purchase Orders?",
+                "type": "radio",
+                "name": "sales_orders",
+                "layout": "inline", 
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "label": "Do you hold Inventory?",
+                "type": "radio",
+                "name": "hold_inventry",
+                "layout": "inline", 
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "label": "Do you have a Warehouse? ",
+                "type": "radio",
+                "name": "ware_house",
+                "layout": "inline", 
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "label": "Do you Manufacture items? ",
+                "type": "radio",
+                "name": "manufacture_items",
+                "layout": "inline", 
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "label": "How many employees will need access to the system?",
+                "type": "number",
+                "name": "access_system"
+            },
+            {
+                "label": "How many of those employees will only need to view data or approve transactions?",
+                "type": "number",
+                "name": "employees_count"
+            }
+        ]
+    },
+    "step4": {
+        "heading": "Contact Information",
+    "paragraph": "Tell us where to send your report"
+    }
+}

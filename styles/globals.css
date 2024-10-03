@@ -12837,3 +12837,130 @@ figure {
     padding: 30px 0px 0px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pad-100 {
+  background: #fff;
+  padding: 30px 140px;
+}
+.servay-form-new {
+}
+.servay-form-new .form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d3557;
+  margin-bottom: 15px;
+}
+.servay-form-new .form-control {
+  height: 45px;
+  border: 2px solid #f1f0f4;
+  border-radius: 5px;
+  background-color: #f1f0f4;
+}
+.servay-form-new .form-select {
+  height: 45px;
+  border: 2px solid #f1f0f4;
+  border-radius: 5px;
+  background-color: #f1f0f4;
+}
+.servay-form-new .form-check {
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+.servay-form-new .form-check.form-check-inline{
+  margin-bottom: 0px;
+}
+.servay-form-new .form-check label{
+
+}
+.form-check .form-check-input {
+  margin-right: 1em;
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 0 !important;
+}
+.servay-form-new .mb-3 {
+  margin-bottom: 1.5rem !important;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.servay-form-new .btn {
+  padding: 0.6rem 3.5rem;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.form-check-input {
+}
+.servay-form-new .form-select:focus, .servay-form-new .form-control:focus {
+  border-color: #f1f0f4;
+  outline: 0;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.servay-form-new h4{
+color:#1d3557;
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+.c-f-headin{
+  margin-bottom: 25px;
+}
+.c-f-headin h2{
+  font-size: 24px;
+    font-weight: 600;
+    color: #1d3557;
+    margin-bottom: 5px;
+}
+.c-f-headin p{
+  font-size: 16px;
+    margin-bottom: 0;
+}
+.bg-dd{
+  background: #ededed;
+  margin-bottom: 100px;
+}
+.erp-head{
+  text-align: center;
+    padding-bottom: 20px;
+}
+.erp-head h1{
+  font-size: 36px !important;
+    font-weight: 600;
+    color: #1f2b53;
+}
+.erp-head p{}
+.main-form-wrper .text-danger {
+  font-size: 13px;
+}
