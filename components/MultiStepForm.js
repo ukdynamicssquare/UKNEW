@@ -1,463 +1,409 @@
 import { useState, useEffect } from 'react';
-import emailjs from 'emailjs-com';
-import { useRouter } from 'next/router';
+
 const MultiStepForm = () => {
-    const router = useRouter();
-    const [step, setStep] = useState(1);
-    const [formData, setFormData] = useState(null);
-    const [formValues, setFormValues] = useState({
-        industry: '',
-        employees: '',
-        annual_revenue: '',
-        regions: '',
-        looking_for: '',
-        financeSystem: '',
-        Fixed_assets: '',
-        budget_project: '',
-        expected_imeline: '',
-        business_include: '',
-        sales_orders: '',
-        hold_inventry: '',
-        ware_house: '',
-        manufacture_items: '',
-        access_system: '',
-        employees_count: '',
-        name: '',
-        email: '',
-        companyName: '',
-        phoneNumber: '',
-        agreement: false
+  const [questions, setQuestions] = useState([]);
+  const [currentStep, setCurrentStep] = useState(0);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    company: '',
+    agreed: false,
+  });
+  const [answered, setAnswered] = useState(false); // Track if the current question is answered
+  const [loading, setLoading] = useState(true); // Loading state for questions
+  const [showQuestion, setShowQuestion] = useState(false); // Manage question visibility
+  const [errorMessage, setErrorMessage] = useState(''); // Error message state
+  const [staticErrorMessages, setStaticErrorMessages] = useState({}); // Error messages for static fields
+  const [submitted, setSubmitted] = useState(false); // Track form submission status
+
+
+// Email validation pattern
+const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+
+// Phone number validation (10-15 digits only)
+const isValidPhoneNumber = (phone) => {
+  return /^\d{10,15}$/.test(phone);
+};
+
+
+
+
+
+  // Fetch the questions from the API
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      const response = await fetch('https://blognew.dynamicssquare.co.uk/api/get-all-questions/1');
+      const data = await response.json();
+      setQuestions(data);
+      setLoading(false); // Set loading to false after fetching
+    };
+
+    fetchQuestions();
+  }, []);
+
+  // Simulate a loading effect when moving to the next step
+  useEffect(() => {
+    if (!loading && currentStep < questions.length) {
+      setShowQuestion(false); // Reset visibility
+      const timer = setTimeout(() => {
+        setShowQuestion(true);
+      }, 100); // 2 seconds delay before showing the question
+      return () => clearTimeout(timer);
+    }
+  }, [currentStep, loading, questions]);
+
+  const handleInputChange = (quesId, value, isMultiSelect = false) => {
+    setFormData({
+      ...formData,
+      [quesId]: value,
     });
-    const [errors, setErrors] = useState({});
-    const [loading, setLoading] = useState(false);
-    const [successMessage, setSuccessMessage] = useState('');
 
-    // Fetch form data and set up polling
-    useEffect(() => {
-       const fetchData = async () => {
-    try {
-        // Fetch the form data from the API
-        const response = await fetch(`${process.env.BACKEND_URL}/api/get-all-questions/1`);
-        
-        // Parse the response as JSON
-        const data = await response.json();
-        
-        // Log the fetched data
-        console.log('Fetched API data:', data);
-        
-        // Update the state with the fetched data
-        setFormData(data);
-    } catch (error) {
-        // Log any errors
-        console.error('Error fetching data:', error);
+    if (isMultiSelect) {
+      // If multi-select, check if at least one option is selected
+      setAnswered(value.length > 0);
+      setErrorMessage(''); // Clear error message
+    } else {
+      // For single-select and radio options, automatically move to the next step when selected
+      if (value) {
+        setAnswered(true);
+        setErrorMessage(''); // Clear error message
+        setCurrentStep(currentStep + 1); // Automatically move to the next step
+      }
     }
-};
+  };
 
-        fetchData();
+  const handleNext = () => {
+    const currentQuestion = questions[currentStep];
 
-        const interval = setInterval(fetchData, 10000);
-        return () => clearInterval(interval);
-    }, []);
-
-    // Handle step navigation
-    const nextStep = () => {
-        if (!validateStep()) {
-            return;
-        }
-        setStep(step + 1);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
-    const prevStep = () => {
-        setStep(step - 1);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
-    // Handle form input changes
-    const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-
-        if (name === 'phoneNumber' && type === 'text') {
-            // Allow only numeric values
-            if (!/^\d*$/.test(value)) {
-                return;
-            }
-        }
-        if (name === 'name' && type === 'text') {
-            // Allow only letters and spaces for name
-            if (!/^[a-zA-Z\s]*$/.test(value)) {
-                return;
-            }
-        }
-
-        setFormValues((prevValues) => ({
-            ...prevValues,
-            [name]: type === 'checkbox' ? checked : value
-        }));
-    };
-
-    const handleCheckboxChange = (e) => {
-        const { name, value, checked } = e.target;
-        setFormValues((prevValues) => ({
-            ...prevValues,
-            [name]: checked
-                ? [...prevValues[name], value]
-                : prevValues[name].filter((item) => item !== value)
-        }));
-    };
-
-    // Validate fields for current step
-    const validateStep = () => {
-        let valid = true;
-        let errors = {};
-        const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
-        const isValidPhoneNumber = (phone) => {
-            // Phone number should be between 10 to 15 characters
-            return /^\d{10,15}$/.test(phone);
-        };
-
-        if (step === 4) {
-            if (!formValues.name) {
-                errors.name = 'Name is required';
-                valid = false;
-            }
-            if (!formValues.email) {
-                errors.email = 'Email is required';
-                valid = false;
-            } else if (!emailPattern.test(formValues.email)) {
-                errors.email = 'Email is invalid or is from a restricted domain';
-                valid = false;
-            }
-            if (!formValues.companyName) {
-                errors.companyName = 'Company Name is required';
-                valid = false;
-            }
-            if (!formValues.phoneNumber) {
-                errors.phoneNumber = 'Phone Number is required';
-                valid = false;
-            } else if (!isValidPhoneNumber(formValues.phoneNumber)) {
-                errors.phoneNumber = 'Phone Number must be between 10 to 15 digits and contain only numbers';
-                valid = false;
-            }
-            if (!formValues.agreement) {
-                errors.agreement = 'You must agree to the terms and conditions';
-                valid = false;
-            }
-        }
-
-        setErrors(errors);
-        return valid;
-    };
-
-    // Handle form submission
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        if (!validateStep()) {
-            return;
-        }
-
-        setLoading(true);
-        setSuccessMessage('');
-
-        try {
-            const result = await emailjs.send(
-                'service_fg00l58',
-                'template_25hm17g',
-                { ...formValues, url: router.asPath },
-                'QyvWavOKod6guRB-s'
-            );
-            console.log('Success:', result.text);
-            setSuccessMessage('Form submitted successfully!');
-            setFormValues({
-                industry: '',
-                employees: '',
-                annual_revenue: '',
-                regions: '',
-                financeSystem: '',
-                Fixed_assets: '',
-                looking_for: '',
-                sales_orders: '',
-                budget_project: '',
-                expected_imeline: '',
-                business_include: '',
-                hold_inventry: '',
-                ware_house: '',
-                manufacture_items: '',
-                access_system: '',
-                employees_count: '',
-                name: '',
-                email: '',
-                companyName: '',
-                phoneNumber: '',
-                agreement: false
-            });
-            // setStep(1);
-        } catch (error) {
-            console.error('Error:', error.text);
-            setSuccessMessage('An error occurred. Please try again.');
-        } finally {
-            setLoading(false);
-        }
-        setTimeout(function () {
-            e.target.reset();
-            router.push("/thank-you/");
-        }, 500);
-    };
-
-    if (!formData) {
-        return <div>Loading...</div>;
+    if (currentQuestion.type === 'single_select' && !formData[currentQuestion.ques_id]) {
+      setErrorMessage('Please select an option before moving to the next step.');
+      return;
     }
 
-    const renderDynamicFields = () => {
-        const stepData = formData[`step${step}`];
-        if (!stepData || !stepData.fields) {
-            return <div>Error: Step data not found.</div>;
-        }
+    if (currentQuestion.type === 'multi_select' && !(formData[currentQuestion.ques_id]?.length > 0)) {
+      setErrorMessage('Please select at least one option or skip this question.');
+      return;
+    }
 
-        return (
-            <>
-                {stepData.fields.map((field, index) => (
-                    <>
-                        <div className='f-start' key={index}>
-                            <h4>{field.label}</h4>
-                            <div className='mb-3'>
-                                {field.type === 'select' && (
-                                    <select
-                                        className="form-select"
-                                        aria-label="Default select example"
-                                        name={field.name}
-                                        value={formValues[field.name] || ''}
-                                        onChange={handleChange}
-                                    >
-                                        <option value="">Choose...</option>
-                                        {field.options.map((option, idx) => (
-                                            <option key={idx} value={option}>{option}</option>
-                                        ))}
-                                    </select>
-                                )}
-                                {field.type === 'text' && (
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        name={field.name}
-                                        value={formValues[field.name] || ''}
-                                        onChange={handleChange}
-                                    />
-                                )}
-                                {field.type === 'number' && (
-                                    <input
-                                        type="number"
-                                        className="form-control"
-                                        name={field.name}
-                                        value={formValues[field.name] || ''}
-                                        onChange={handleChange}
-                                    />
-                                )}
-                                {field.type === 'checkbox' && (
-                                    <>
-                                        {field.options.map((option, idx) => (
-                                            <div className="form-check" key={idx}>
-                                                <input
-                                                    className="form-check-input"
-                                                    type="checkbox"
-                                                    id={`${field.name}-${idx}`} // Unique ID for each checkbox
-                                                    name={field.name}
-                                                    value={option}
-                                                    checked={formValues[field.name] ? formValues[field.name].includes(option) : false}
-                                                    onChange={handleCheckboxChange}
-                                                />
-                                                <label className="form-check-label" htmlFor={`${field.name}-${idx}`}>
-                                                    {option}
-                                                </label>
-                                            </div>
-                                        ))}
-                                    </>
-                                )}
-                                {field.type === 'radio' && (
-                                    <>
-                                        {field.options.map((option, idx) => (
-                                            <div className={`form-check ${field.layout === 'inline' ? 'form-check-inline' : ''}`} key={idx}>
-                                                <input
-                                                    className="form-check-input"
-                                                    type="radio"
-                                                    name={field.name}
-                                                    id={`${field.name}-${idx}`} // Unique ID for each radio button
-                                                    value={option}
-                                                    checked={formValues[field.name] === option}
-                                                    onChange={handleChange}
-                                                />
-                                                <label className="form-check-label" htmlFor={`${field.name}-${idx}`}> {/* Unique ID for each label */}
-                                                    {option}
-                                                </label>
-                                            </div>
-                                        ))}
-                                    </>
-                                )}
-                            </div>
-                        </div>
-                    </>
-                ))}
-            </>
-        );
-    };
-    const currentStepData = formData[`step${step}`];
-    return (
-        <>
-            <section className='bg-dd'>
-                <div className='container'>
-                    <div className='row justify-content-center'>
-                        <div className='col-lg-7'>
-                            <div className='erp-head'>
-                                <h1>Get a quick quote for ERP</h1>
-                                <p>Streamline your Process Optimization and Automate Your Enterprise Data with Microsoft Dynamics ERP</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='row justify-content-center pad-100'>
-                        <div className='col-lg-7'>
-                            <ProgressBar step={step} />
-                            <div className='c-f-headin'>
-                                <h2>{currentStepData.heading}</h2>
-                                <p>{currentStepData.paragraph}</p>
-                            </div>
-                            <form className='servay-form-new' onSubmit={handleSubmit}>
-                                {step === 4 ? (
-                                    <>
-                                        <div className='f-start'>
-                                            <h4>Name</h4>
-                                            <div className='mb-3'>
-                                                <input
-                                                    type="text"
-                                                    className="form-control"
-                                                    name="name"
-                                                    value={formValues.name}
-                                                    onChange={handleChange}
-                                                />
-                                                <input type="hidden" value={router.asPath} name="url" />
-                                                {errors.name && <div className="error">{errors.name}</div>}
-                                            </div>
-                                        </div>
-                                        <div className='f-start'>
-                                            <h4>Email ID</h4>
-                                            <div className='mb-3'>
-                                                <input
-                                                    type="email"
-                                                    className="form-control"
-                                                    name="email"
-                                                    value={formValues.email}
-                                                    onChange={handleChange}
-                                                />
-                                                {errors.email && <div className="error">{errors.email}</div>}
-                                            </div>
-                                        </div>
-                                        <div className='f-start'>
-                                            <h4>Company Name</h4>
-                                            <div className='mb-3'>
-                                                <input
-                                                    type="text"
-                                                    className="form-control"
-                                                    name="companyName"
-                                                    value={formValues.companyName}
-                                                    onChange={handleChange}
-                                                />
-                                                {errors.companyName && <div className="error">{errors.companyName}</div>}
-                                            </div>
-                                        </div>
-                                        <div className='f-start'>
-                                            <h4>Phone Number</h4>
-                                            <div className='mb-3'>
-                                                <input
-                                                   type="text"
-                                                    className="form-control"
-                                                    name="phoneNumber"
-                                                    value={formValues.phoneNumber}
-                                                    onChange={handleChange}
-                                                     maxLength="15"
-                                                />
-                                                {errors.phoneNumber && <div className="error">{errors.phoneNumber}</div>}
-                                            </div>
-                                        </div>
-                                        <div className='f-start'>
-                                            <div className="form-check">
-                                                <input
-                                                    className="form-check-input"
-                                                    type="checkbox"
-                                                    name="agreement"
-                                                    checked={formValues.agreement}
-                                                    onChange={handleChange}
-                                                />
-                                                <label className="form-check-label">
-                                                    I agree to the terms and conditions
-                                                </label>
-                                                {errors.agreement && <div className="error">{errors.agreement}</div>}
-                                            </div>
-                                        </div>
-                                        <input type="hidden" value={router.asPath} name="url" /> {/* Hidden URL field */}
-                                        <button type="button" className='btn btn-secondary' onClick={prevStep}>
-                                            Previous
-                                        </button>
-                                        {loading ? (
-                                            <button type="button" className='btn btn-success' disabled>
-                                                Loading...
-                                            </button>
-                                        ) : (
-                                            <button type="submit" className='btn btn-success'>
-                                                Complete
-                                            </button>
-                                        )}
-                                        {successMessage && <div className="success">{successMessage}</div>}
-                                    </>
-                                ) : (
-                                    <>
-                                        {renderDynamicFields()}
-                                        {step > 1 && (
-                                            <button type="button" className='btn btn-secondary' onClick={prevStep}>
-                                                Previous
-                                            </button>
-                                        )}
-                                        {step < 4 && (
-                                            <button type="button" className='btn btn-success' onClick={nextStep}>
-                                                Next
-                                            </button>
-                                        )}
-                                    </>
-                                )}
-                            </form>
-                        </div>
-                    </div>
-                </div>
-               
-            </section>
-        </>
-    );
-};
+    setCurrentStep(currentStep + 1);
+    setAnswered(false); // Reset for the next question
+  };
 
-const ProgressBar = ({ step }) => {
-    const steps = 4;
-    const progress = (step / steps) * 100;
+  const handlePrevious = () => {
+    if (currentStep > 0) {
+      setCurrentStep(currentStep - 1);
+      setAnswered(true); // Show Next button for already answered questions
+      setErrorMessage(''); // Clear error message
+    }
+  };
 
-    return (
-        <div className="progress-bar-container">
-            <div className='bb-whi'>
-                <div className="progress-bar" style={{ width: `${progress}%` }}></div>
-            </div>
-            <p>{`Page ${step} of ${steps}`}</p>
-            <style jsx>{`
-        .progress-bar-container {
-          margin-bottom: 20px;
-        }
-        .progress-bar {
-          height: 5px;
-          background-color: #0070f3;
-          border-radius: 5px;
-        }
-          .bb-whi{
-          background: #cad9eb;
-          }
-      `}</style>
+  const handleSkip = () => {
+    setCurrentStep(currentStep + 1);
+    setAnswered(false); // Reset for the next question
+    setErrorMessage(''); // Clear error message
+  };
+
+  const handleStaticFieldChange = (e) => {
+    const { name, value, type } = e.target;
+
+    // Phone number validation (allow only digits)
+    if (name === 'phone' && type === 'tel') {
+      if (!/^\d*$/.test(value)) {
+        return; // Prevent non-numeric input
+      }
+    }
+
+    // Name validation (allow only letters and spaces)
+    if (name === 'name' && type === 'text') {
+      if (!/^[a-zA-Z\s]*$/.test(value)) {
+        return; // Prevent invalid characters
+      }
+    }
+
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleAgreementChange = (e) => {
+    setFormData({
+      ...formData,
+      agreement: e.target.checked,
+    });
+  };
+
+  const validateStaticFields = () => {
+    const errors = {};
+
+    // Name validation
+    if (!formData.name) {
+      errors.name = 'Name is required.';
+    } else if (!/^[a-zA-Z\s]*$/.test(formData.name)) {
+      errors.name = 'Name can only contain letters and spaces.';
+    }
+
+    // Email validation
+    if (!formData.email) {
+      errors.email = 'Email is required.';
+    } else if (!emailPattern.test(formData.email)) {
+      errors.email = 'Invalid email format or not allowed domain.';
+    }
+
+    // Phone validation
+    if (!formData.phone) {
+      errors.phone = 'Phone number is required.';
+    } else if (!isValidPhoneNumber(formData.phone)) {
+      errors.phone = 'Phone number must be between 10 and 15 digits.';
+    }
+
+    // Company name validation
+    if (!formData.company) {
+      errors.company = 'Company name is required.';
+    }
+
+    // Agreement checkbox validation
+    if (!formData.agreement) {
+      errors.agreement = 'You must agree to the terms.';
+    }
+
+    setStaticErrorMessages(errors);
+    return Object.keys(errors).length === 0; // Return true if no errors
+  };
+
+  const handleSubmit = async () => {
+    if (!validateStaticFields()) {
+      return; // Prevent submission if validation fails
+    }
+
+    console.log('Form Submitted', formData);
+    const response = await fetch('', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      setSubmitted(true); // Set submission status to true
+    } else {
+      alert('There was an error submitting the form.');
+    }
+  };
+
+  // Calculate progress (current step / total steps)
+  const totalSteps = questions.length + 1; // +1 for the static field step
+  const progress = (currentStep / totalSteps) * 100;
+
+  if (loading) return <div className="spinner"></div>; // Show loading spinner while fetching
+
+  const currentQuestion = questions[currentStep];
+
+  return (
+   <section>
+    <div className='container'>
+        <div className='row justify-content-center'>
+            <div className='col-lg-8'>
+            <div>
+      {/* Progress bar */}
+      <div className="progress-bar-container">
+        <div
+          className="progress-bar"
+          style={{ width: `${progress}%` }}
+        ></div>
+      </div>
+
+      {submitted ? ( // Show Thank you message if submitted
+        <div>
+          <h2>Thank you for your submission!</h2>
         </div>
-    );
+      ) : (
+        <>
+          <h2>Step {currentStep + 1} of {totalSteps}</h2>
+
+          {showQuestion ? (
+            currentStep < questions.length ? (
+              <QuestionForm
+                question={currentQuestion}
+                handleInputChange={handleInputChange}
+                formData={formData}
+                errorMessage={errorMessage} // Pass the error message to the QuestionForm
+              />
+            ) : (
+              <form className='servay-form-new'>
+                {/* Static form fields in the last step */}
+                <div className=''>
+                  <label>Name *</label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleStaticFieldChange}
+                    className='form-control'
+                  />
+                  {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
+                </div>
+                <div>
+                  <label>Email *</label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleStaticFieldChange}
+                      className='form-control'
+                  />
+                  {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
+                </div>
+                <div>
+                  <label>Phone *</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleStaticFieldChange}
+                      className='form-control'
+                  />
+                  {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
+                </div>
+                <div>
+                  <label>Company Name *</label>
+                  <input
+                    type="text"
+                    name="company"
+                    value={formData.company}
+                    onChange={handleStaticFieldChange}
+                      className='form-control'
+                  />
+                  {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    checked={formData.agreement}
+                    onChange={handleAgreementChange}
+                  />
+                  <label>I agree to the terms *</label>
+                  {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
+                </div>
+              </form>
+            )
+          ) : (
+            <div>Loading step...</div> // Show loading message when changing steps
+          )}
+
+          <div>
+            {/* Show previous button */}
+            {currentStep > 0 && <button onClick={handlePrevious}>Previous</button>}
+
+            {/* Show Next button for multi-select questions */}
+            {currentStep < questions.length && (
+              <button
+                onClick={() => {
+                  if (answered) {
+                    setCurrentStep(currentStep + 1);
+                  } else {
+                    setErrorMessage('Please answer the question before proceeding.');
+                  }
+                }}
+              >
+                Next
+              </button>
+            )}
+
+            {/* Submit button only on the last step */}
+            {currentStep === questions.length && (
+              <button onClick={handleSubmit}>Submit</button>
+            )}
+          </div>
+        </>
+      )}
+
+     
+    </div>
+            </div>
+        </div>
+    </div>
+   </section>
+  );
 };
+
+const QuestionForm = ({ question, handleInputChange, formData, errorMessage }) => {
+    const { ques_id, ques_name, type, mandatory, options } = question;
+  
+    return (
+      <div className='x-customasdasd'>
+        <label>{ques_name}{mandatory === "1" && ' *'}</label>
+  
+        {type === 'single_select' && (
+          <>
+            <select
+              onChange={(e) => handleInputChange(ques_id, e.target.value)}
+              value={formData[ques_id] || ''}
+            >
+              <option value="">Select an option</option>
+              {options.map((option, index) => (
+                <option key={index} value={option}>{option}</option>
+              ))}
+            </select>
+            {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
+          </>
+        )}
+  
+        {type === 'multi_select' && (
+          <>
+            <div className="form-check x-custom">
+              {options.map((option, index) => (
+                <div className='x-customs' key={index}>
+                  <input
+                    type="checkbox"
+                    className="form-check-input"
+                    id={`multi-select-${ques_id}-${index}`} // Unique ID for checkbox
+                    value={option}
+                    checked={formData[ques_id]?.includes(option) || false}
+                    onChange={(e) => {
+                      let selectedOptions = formData[ques_id] || [];
+                      if (e.target.checked) {
+                        selectedOptions = [...selectedOptions, option];
+                      } else {
+                        selectedOptions = selectedOptions.filter((opt) => opt !== option);
+                      }
+                      handleInputChange(ques_id, selectedOptions, true);
+                    }}
+                  />
+                  <label className="form-check-label" htmlFor={`multi-select-${ques_id}-${index}`}>{option}</label> {/* Link label to checkbox */}
+                </div>
+              ))}
+              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
+            </div>
+          </>
+        )}
+  
+        {type === 'radio' && (
+          <>
+              <div className="form-check x-custom">
+              {options.map((option, index) => (
+                <div className='x-customs' key={index}>
+                  <input
+                    type="radio"
+                      className="form-check-input"
+                    id={`radio-${ques_id}-${index}`} // Unique ID for radio button
+                    value={option}
+                    checked={formData[ques_id] === option}
+                    onChange={(e) => handleInputChange(ques_id, e.target.value)}
+                  />
+                  <label className="form-check-label" htmlFor={`radio-${ques_id}-${index}`}>{option}</label> {/* Link label to radio button */}
+                </div>
+              ))}
+              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
+            </div>
+          </>
+        )}
+  
+       
+      </div>
+    );
+  };
 
 export default MultiStepForm;

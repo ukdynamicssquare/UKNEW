@@ -12891,11 +12891,12 @@ figure {
 .servay-form-new .form-check label{
 
 }
-.form-check .form-check-input {
+.x-customasdasd .form-check .form-check-input {
   margin-right: 1em;
-  width: 1.3em;
-  height: 1.3em;
-  border-radius: 0 !important;
+    width: 48px;
+    height: 48px;
+    border-radius: 8% !important;
+    margin-left: 0px;
 }
 .servay-form-new .mb-3 {
   margin-bottom: 1.5rem !important;
@@ -12963,4 +12964,60 @@ margin-bottom: 15px;
 .erp-head p{}
 .main-form-wrper .text-danger {
   font-size: 13px;
+}
+.x-custom{
+  display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    gap: 30px;
+}
+.x-customs{
+  flex: 48% 1;
+    max-width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 5px 60px 0 rgba(22, 92, 196, 0.1);
+    border: solid 1px #e5e8f2;
+    padding: 30px;
+}
+.x-customs label{
+  display: block;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.servay-form-new  .form-check .form-check-input{
+
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.progress-bar {
+  height: 5px;
+  background-color: #4caf50;
+  transition: width 0.3s;
+}
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+.spinner {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto; /* Center the spinner */
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.error-message {
+  color: red;
+  margin-top: 5px;
 }

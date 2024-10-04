@@ -9,7 +9,7 @@ const MultiStepForm = () => {
     feedback: ''
   });
   const [errors, setErrors] = useState({});
-
+  // const response = await fetch('/data/formdata_two.json');
   const totalSteps = 3;
 
   const validateStep = () => {

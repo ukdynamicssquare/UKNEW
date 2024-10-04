@@ -1,0 +1,72 @@
+[
+    {
+        "ques_id": 7,
+        "ques_name": "Dynamics 365 Business Central?",
+        "type": "radio",
+        "mandatory": "1",
+        "options": [
+            "1-10",
+            "11-50",
+            "51-100",
+            "101-300"
+        ]
+    },
+    {
+        "ques_id": 8,
+        "ques_name": "How many users will need access to Dynamics 365 Business Central?",
+        "type": "single_select",
+        "mandatory": "1",
+        "options": [
+            "1-10",
+            "11-50",
+            "51-100",
+            "101-300"
+        ]
+    },
+    {
+        "ques_id": 9,
+        "ques_name": "Which modules do you need?",
+        "type": "multi_select",
+        "mandatory": "0",
+        "options": [
+            "Financial Management",
+            "Supply Chain Management",
+            "Sales and Marketing",
+            "Project Management",
+            "All of the above"
+        ]
+    },
+    {
+        "ques_id": 10,
+        "ques_name": "Do you need data migration from an existing system?",
+        "type": "single_select",
+        "mandatory": "1",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "ques_id": 11,
+        "ques_name": "Do you require any additional features?",
+        "type": "single_select",
+        "mandatory": "1",
+        "options": [
+            "Custom Reporting",
+            "Integration with other systems",
+            "Mobile Access",
+            "No, none required"
+        ]
+    },
+    {
+        "ques_id": 12,
+        "ques_name": "What level of support do you need?",
+        "type": "single_select",
+        "mandatory": "1",
+        "options": [
+            "Basic (Email support)",
+            "Standard (Phone support)",
+            "Premium (24/7 support)"
+        ]
+    }
+]
