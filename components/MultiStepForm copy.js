@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-const MultiStepForm = () => {
+const MultiStepFormasdasd = () => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     name: '',
@@ -156,4 +156,4 @@ const MultiStepForm = () => {
   );
 };
 
-export default MultiStepForm;
+export default MultiStepFormasdasd;

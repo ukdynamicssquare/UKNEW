@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const MultiStepForm = () => {
+const MultiStepFormss = () => {
   const [questions, setQuestions] = useState([]);
   const [currentStep, setCurrentStep] = useState(0);
   const [formData, setFormData] = useState({
@@ -204,8 +204,8 @@ const isValidPhoneNumber = (phone) => {
   return (
    <section>
     <div className='container'>
-        <div className='row justify-content-center shdee'>
-            <div className='col-lg-10'>
+        <div className='row justify-content-center'>
+            <div className='col-lg-8'>
             <div>
       {/* Progress bar */}
       <div className="progress-bar-container">
@@ -293,7 +293,7 @@ const isValidPhoneNumber = (phone) => {
             <div>Loading step...</div> // Show loading message when changing steps
           )}
 
-          <div className='cc-button'>
+          <div>
             {/* Show previous button */}
             {currentStep > 0 && <button onClick={handlePrevious}>Previous</button>}
 
@@ -333,28 +333,9 @@ const QuestionForm = ({ question, handleInputChange, formData, errorMessage }) =
     const { ques_id, ques_name, type, mandatory, options } = question;
   
     return (
-      <div className='x-customa-sd'>
-        <label className='t-ti-head'>{ques_name}{mandatory === "1" && ' *'}</label>
-        {type === 'radio' && (
-          <>
-              <div className="form-check x-custom">
-              {options.map((option, index) => (
-                <div className='x-customs' key={index}>
-                  <input
-                    type="radio"
-                      className="form-check-input"
-                    id={`radio-${ques_id}-${index}`} // Unique ID for radio button
-                    value={option}
-                    checked={formData[ques_id] === option}
-                    onChange={(e) => handleInputChange(ques_id, e.target.value)}
-                  />
-                  <label className="form-check-label" htmlFor={`radio-${ques_id}-${index}`}>{option}</label> {/* Link label to radio button */}
-                </div>
-              ))}
-              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
-            </div>
-          </>
-        )}
+      <div className='x-customasdasd'>
+        <label>{ques_name}{mandatory === "1" && ' *'}</label>
+  
         {type === 'single_select' && (
           <>
             <select
@@ -399,11 +380,30 @@ const QuestionForm = ({ question, handleInputChange, formData, errorMessage }) =
           </>
         )}
   
-      
+        {type === 'radio' && (
+          <>
+              <div className="form-check x-custom">
+              {options.map((option, index) => (
+                <div className='x-customs' key={index}>
+                  <input
+                    type="radio"
+                      className="form-check-input"
+                    id={`radio-${ques_id}-${index}`} // Unique ID for radio button
+                    value={option}
+                    checked={formData[ques_id] === option}
+                    onChange={(e) => handleInputChange(ques_id, e.target.value)}
+                  />
+                  <label className="form-check-label" htmlFor={`radio-${ques_id}-${index}`}>{option}</label> {/* Link label to radio button */}
+                </div>
+              ))}
+              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
+            </div>
+          </>
+        )}
   
        
       </div>
     );
   };
 
-export default MultiStepForm;
+export default MultiStepFormss;

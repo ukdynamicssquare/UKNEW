@@ -12891,7 +12891,7 @@ figure {
 .servay-form-new .form-check label{
 
 }
-.x-customasdasd .form-check .form-check-input {
+.x-customa-sd .form-check .form-check-input {
   margin-right: 1em;
     width: 48px;
     height: 48px;
@@ -12969,7 +12969,10 @@ margin-bottom: 15px;
   display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    gap: 30px;
+    gap: 20px;
+}
+.shdee{
+  
 }
 .x-customs{
   flex: 48% 1;
@@ -12977,17 +12980,55 @@ margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 5px 60px 0 rgba(22, 92, 196, 0.1);
     border: solid 1px #e5e8f2;
-    padding: 30px;
+    padding: 20px 30px;
+    border:1px solid transparent;
+    transition:.4s ease
+}
+.x-customs:hover{
+  border:1px solid #542784
 }
 .x-customs label{
   display: block;
   cursor: pointer;
   margin-top: 15px;
 }
+.t-ti-head{
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  display: block;
+  color: #1d3557;
+  margin-bottom: 40px;
+}
+.x-customs .form-check-input:checked {
+  background-color: #5096c1;
+  border-color: #ffffff;
+}
 .servay-form-new  .form-check .form-check-input{
 
 }
-
+.cc-button{
+  text-align:right
+}
+.cc-button button{
+  border-radius: 4px;
+  box-shadow: 0 5px 30px 0 rgba(65, 84, 241, 0.4);
+  background-color: #bb2b36;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+}
+.shdee{
+  border-radius: 24px;
+  box-shadow: 0 20px 40px 0 rgba(86, 106, 173, 0.16);
+  background-color: #fff;
+}
+.x-customa-sd{
+  /* border-radius: 24px;
+  box-shadow: 0 20px 40px 0 rgba(86, 106, 173, 0.16);
+  background-color: #fff; */
+  padding: 40px 80px;
+}
 .progress-bar-container {
   width: 100%;
   background-color: #f3f3f3;
