@@ -11311,6 +11311,7 @@ inner-info-left ul li span {
 .tab-industry-contant-one .right-sect {
   flex: 45%;
   max-width: 45%;
+  text-align:center
 }
 figure {
   margin: 0 0 0rem;

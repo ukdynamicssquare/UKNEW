@@ -1042,9 +1042,7 @@ export default function Home() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/cart_new.mp4" type="video/mp4" />
-                          </video>
+                        <Image width={414} height={465} src="/img/001.png" alt="E-commerce" />
                         </div>
 
                       </div>
@@ -1073,9 +1071,7 @@ export default function Home() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Ed.mp4" type="video/mp4" />
-                          </video>
+                        <Image  width={414} height={465} src="/img/002.png" alt="Education" />
                         </div>
 
                       </div>
@@ -1104,9 +1100,7 @@ export default function Home() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Manufacturing-Industry.mp4" type="video/mp4" />
-                          </video>
+                        <Image  width={414} height={465} src="/img/003.png" alt="Manufacturing" />
                         </div>
 
                       </div>
@@ -1135,9 +1129,7 @@ export default function Home() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Rockets.mp4"  type="video/mp4" />
-                          </video>
+                        <Image width={414} height={465} src="/img/004.png" alt="StartUp" />
                         </div>
 
                       </div>
@@ -1166,9 +1158,7 @@ export default function Home() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Hand2.mp4"  type="video/mp4" />
-                          </video>
+                        <Image width={414} height={465} src="/img/005.png" alt="Not For Profit" />
                         </div>
 
                       </div>
@@ -1197,9 +1187,7 @@ export default function Home() {
 
                       <div className="right-sect">
                         <div className="d-colomn">
-                          <video className="video-industr-sect" autoPlay playsInline loop muted poster="">
-                            <source src="/video/Food-Beverages.mp4"  type="video/mp4" />
-                          </video>
+                         <Image width={414} height={465} src="/img/006.png" alt="Food & Beverage" />
                         </div>
 
                       </div>
