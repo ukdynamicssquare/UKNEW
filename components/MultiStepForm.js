@@ -18,13 +18,13 @@ const MultiStepForm = () => {
   const [submitted, setSubmitted] = useState(false); // Track form submission status
 
 
-// Email validation pattern
-const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+  // Email validation pattern
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
 
-// Phone number validation (10-15 digits only)
-const isValidPhoneNumber = (phone) => {
-  return /^\d{10,15}$/.test(phone);
-};
+  // Phone number validation (10-15 digits only)
+  const isValidPhoneNumber = (phone) => {
+    return /^\d{10,15}$/.test(phone);
+  };
 
 
 
@@ -60,15 +60,16 @@ const isValidPhoneNumber = (phone) => {
     });
 
     if (isMultiSelect) {
-      // If multi-select, check if at least one option is selected
       setAnswered(value.length > 0);
-      setErrorMessage(''); // Clear error message
+      setErrorMessage('');
     } else {
-      // For single-select and radio options, automatically move to the next step when selected
+      // For single select (radio buttons), use a timeout to delay the next step
       if (value) {
         setAnswered(true);
-        setErrorMessage(''); // Clear error message
-        setCurrentStep(currentStep + 1); // Automatically move to the next step
+        setErrorMessage('');
+        setTimeout(() => {
+          setCurrentStep((prevStep) => prevStep + 1);
+        }, 500); // 2 seconds delay
       }
     }
   };
@@ -86,15 +87,14 @@ const isValidPhoneNumber = (phone) => {
       return;
     }
 
-    setCurrentStep(currentStep + 1);
-    setAnswered(false); // Reset for the next question
+    setCurrentStep((prevStep) => prevStep + 1);
+    setErrorMessage('');
   };
 
   const handlePrevious = () => {
     if (currentStep > 0) {
-      setCurrentStep(currentStep - 1);
-      setAnswered(true); // Show Next button for already answered questions
-      setErrorMessage(''); // Clear error message
+      setCurrentStep((prevStep) => prevStep - 1);
+      setErrorMessage('');
     }
   };
 
@@ -177,13 +177,40 @@ const isValidPhoneNumber = (phone) => {
       return; // Prevent submission if validation fails
     }
 
-    console.log('Form Submitted', formData);
-    const response = await fetch('', {
+    // Prepare dynamic form data based on the fetched questions
+    let dynamicData = {};
+
+    questions.forEach(question => {
+      const quesId = question.ques_id.toString(); // Convert question ID to string if necessary
+      const answer = formData[quesId];
+
+      // Handle multi-select answers (convert to array)
+      if (question.type === 'multi_select') {
+        dynamicData[quesId] = Array.isArray(answer) ? answer : []; // Ensure multi-select answers are arrays
+      } else {
+        dynamicData[quesId] = answer || ''; // For other types, store as a string
+      }
+    });
+
+    // Add static fields
+    const structuredData = {
+      ...dynamicData, // Spread the dynamic data
+      'est_id': '1', // Static field
+      'name': formData.name,
+      'email': formData.email,
+      'phone': formData.phone,
+      'terms_agree': formData.agreed ? 1 : 0, // Convert boolean to 1 or 0
+    };
+
+    console.log('Submitting Data:', structuredData);
+
+    // Make the API request
+    const response = await fetch('https://your-api-endpoint.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(structuredData),
     });
 
     if (response.ok) {
@@ -191,219 +218,219 @@ const isValidPhoneNumber = (phone) => {
     } else {
       alert('There was an error submitting the form.');
     }
-  };
+  }
 
   // Calculate progress (current step / total steps)
-  const totalSteps = questions.length + 1; // +1 for the static field step
-  const progress = (currentStep / totalSteps) * 100;
+  const totalSteps = questions.length + 1; // +1 for the static final step
+  const progress = currentStep < questions.length ? (currentStep / totalSteps) * 100 : 100; // 100% for the last static step
 
   if (loading) return <div className="spinner"></div>; // Show loading spinner while fetching
 
   const currentQuestion = questions[currentStep];
 
   return (
-   <section>
-    <div className='container'>
+    <section className='ks-pding'>
+      <div className='container'>
         <div className='row justify-content-center shdee'>
-            <div className='col-lg-10'>
+          <div className='col-lg-10'>
             <div>
-      {/* Progress bar */}
-      <div className="progress-bar-container">
-        <div
-          className="progress-bar"
-          style={{ width: `${progress}%` }}
-        ></div>
-      </div>
+              {/* Show the progress bar and current step only if it's not the last step */}
+              {currentStep < questions.length && (
+                <>
+                  <div className="progress-bar-container">
+                    <div
+                     className="progress-bar"
+                     style={{ width: `${progress}%` }}
+                    ></div>
+                  </div>
+                 <div className='tt-heading-box'>
+                 <h1>Save Time, Get Accurate ERP Pricing</h1>
+                 <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
+                 </div>
+                  {/* <h2>Step {currentStep + 1} of {totalSteps - 1}</h2> */}
+                </>
+              )}
 
-      {submitted ? ( // Show Thank you message if submitted
-        <div>
-          <h2>Thank you for your submission!</h2>
+              {submitted ? (
+                <div>
+                  <h2>Thank you for your submission!</h2>
+                </div>
+              ) : (
+                <>
+                  {showQuestion ? (
+                    currentStep < questions.length ? (
+                      <QuestionForm
+                        question={questions[currentStep]}
+                        handleInputChange={handleInputChange}
+                        formData={formData}
+                        errorMessage={errorMessage}
+                      />
+                    ) : (
+                      <form className='servay-form-new'>
+                       <div className='tt-heading-box'>
+                       <h2>Almot there!</h2>
+                       <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
+                       </div>
+                        <div>
+                          <label>Name *</label>
+                          <input
+                            type="text"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleStaticFieldChange}
+                            className='form-control'
+                          />
+                          {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
+                        </div>
+                        <div>
+                          <label>Email *</label>
+                          <input
+                            type="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleStaticFieldChange}
+                            className='form-control'
+                          />
+                          {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
+                        </div>
+                        <div>
+                          <label>Phone *</label>
+                          <input
+                            type="tel"
+                            name="phone"
+                            value={formData.phone}
+                            onChange={handleStaticFieldChange}
+                            className='form-control'
+                          />
+                          {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
+                        </div>
+                        <div>
+                          <label>Company Name *</label>
+                          <input
+                            type="text"
+                            name="company"
+                            value={formData.company}
+                            onChange={handleStaticFieldChange}
+                            className='form-control'
+                          />
+                          {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
+                        </div>
+                        <div>
+                          <input
+                            type="checkbox"
+                            checked={formData.agreement}
+                            onChange={handleAgreementChange}
+                          />
+                          <label>I agree to the terms *</label>
+                          {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
+                        </div>
+                        <button type="button" onClick={handleSubmit} className='btn-submit'>See Your Estimate</button>
+                      </form>
+                    )
+                  ) : (
+                    <div>Loading...</div>
+                  )}
+
+                  <div className='button-group ccx-button'>
+                    {currentStep > 0 && (
+                      <button  onClick={handlePrevious} className='btn-previous n-ned'>
+                        <i className="bi bi-arrow-left"></i>
+                      </button>
+                    )}
+                    {currentStep < questions.length && currentQuestion.type === 'multi_select' &&
+                      formData[questions[currentStep].ques_id]?.length > 0 && (
+                        <button onClick={handleNext} className='btn-next button-group-style'>
+                          Next
+                        </button>
+                      )}
+                    {/* Optionally, show a Skip button if desired */}
+                  </div>
+                </>
+              )}
+            </div>
+          </div>
         </div>
-      ) : (
+      </div>
+    </section>
+  );
+};
+
+
+const QuestionForm = ({ question, handleInputChange, formData, errorMessage }) => {
+  const { ques_id, ques_name, type, mandatory, options } = question;
+
+  return (
+    <div className='x-customa-sd'>
+      <label className='t-ti-head'>{ques_name}{mandatory === "1" && ' *'}</label>
+      {type === 'radio' && (
         <>
-          <h2>Step {currentStep + 1} of {totalSteps}</h2>
+          <div className="form-check x-custom">
+            {options.map((option, index) => (
+              <div className='x-customs' key={index}>
+                <input
+                  type="radio"
+                  className="form-check-input"
+                  id={`radio-${ques_id}-${index}`} // Unique ID for radio button
+                  value={option}
+                  checked={formData[ques_id] === option}
+                  onChange={(e) => handleInputChange(ques_id, e.target.value)}
+                />
+                <label className="form-check-label" htmlFor={`radio-${ques_id}-${index}`}>{option}</label> {/* Link label to radio button */}
+              </div>
+            ))}
+            {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
+          </div>
+        </>
+      )}
+      {type === 'single_select' && (
+        <>
+          <select
+            onChange={(e) => handleInputChange(ques_id, e.target.value)}
+            value={formData[ques_id] || ''}
+          >
+            <option value="">Select an option</option>
+            {options.map((option, index) => (
+              <option key={index} value={option}>{option}</option>
+            ))}
+          </select>
+          {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
+        </>
+      )}
 
-          {showQuestion ? (
-            currentStep < questions.length ? (
-              <QuestionForm
-                question={currentQuestion}
-                handleInputChange={handleInputChange}
-                formData={formData}
-                errorMessage={errorMessage} // Pass the error message to the QuestionForm
-              />
-            ) : (
-              <form className='servay-form-new'>
-                {/* Static form fields in the last step */}
-                <div className=''>
-                  <label>Name *</label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleStaticFieldChange}
-                    className='form-control'
-                  />
-                  {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
-                </div>
-                <div>
-                  <label>Email *</label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleStaticFieldChange}
-                      className='form-control'
-                  />
-                  {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
-                </div>
-                <div>
-                  <label>Phone *</label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleStaticFieldChange}
-                      className='form-control'
-                  />
-                  {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
-                </div>
-                <div>
-                  <label>Company Name *</label>
-                  <input
-                    type="text"
-                    name="company"
-                    value={formData.company}
-                    onChange={handleStaticFieldChange}
-                      className='form-control'
-                  />
-                  {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
-                </div>
-                <div>
-                  <input
-                    type="checkbox"
-                    checked={formData.agreement}
-                    onChange={handleAgreementChange}
-                  />
-                  <label>I agree to the terms *</label>
-                  {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
-                </div>
-              </form>
-            )
-          ) : (
-            <div>Loading step...</div> // Show loading message when changing steps
-          )}
-
-          <div className='cc-button'>
-            {/* Show previous button */}
-            {currentStep > 0 && <button onClick={handlePrevious}>Previous</button>}
-
-            {/* Show Next button for multi-select questions */}
-            {currentStep < questions.length && (
-              <button
-                onClick={() => {
-                  if (answered) {
-                    setCurrentStep(currentStep + 1);
-                  } else {
-                    setErrorMessage('Please answer the question before proceeding.');
-                  }
-                }}
-              >
-                Next
-              </button>
-            )}
-
-            {/* Submit button only on the last step */}
-            {currentStep === questions.length && (
-              <button onClick={handleSubmit}>Submit</button>
-            )}
+      {type === 'multi_select' && (
+        <>
+          <div className="form-check x-custom">
+            {options.map((option, index) => (
+              <div className='x-customs' key={index}>
+                <input
+                  type="checkbox"
+                  className="form-check-input"
+                  id={`multi-select-${ques_id}-${index}`} // Unique ID for checkbox
+                  value={option}
+                  checked={formData[ques_id]?.includes(option) || false}
+                  onChange={(e) => {
+                    let selectedOptions = formData[ques_id] || [];
+                    if (e.target.checked) {
+                      selectedOptions = [...selectedOptions, option];
+                    } else {
+                      selectedOptions = selectedOptions.filter((opt) => opt !== option);
+                    }
+                    handleInputChange(ques_id, selectedOptions, true);
+                  }}
+                />
+                <label className="form-check-label" htmlFor={`multi-select-${ques_id}-${index}`}>{option}</label> {/* Link label to checkbox */}
+              </div>
+            ))}
+            {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
           </div>
         </>
       )}
 
-     
+
+
+
     </div>
-            </div>
-        </div>
-    </div>
-   </section>
   );
 };
-
-const QuestionForm = ({ question, handleInputChange, formData, errorMessage }) => {
-    const { ques_id, ques_name, type, mandatory, options } = question;
-  
-    return (
-      <div className='x-customa-sd'>
-        <label className='t-ti-head'>{ques_name}{mandatory === "1" && ' *'}</label>
-        {type === 'radio' && (
-          <>
-              <div className="form-check x-custom">
-              {options.map((option, index) => (
-                <div className='x-customs' key={index}>
-                  <input
-                    type="radio"
-                      className="form-check-input"
-                    id={`radio-${ques_id}-${index}`} // Unique ID for radio button
-                    value={option}
-                    checked={formData[ques_id] === option}
-                    onChange={(e) => handleInputChange(ques_id, e.target.value)}
-                  />
-                  <label className="form-check-label" htmlFor={`radio-${ques_id}-${index}`}>{option}</label> {/* Link label to radio button */}
-                </div>
-              ))}
-              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
-            </div>
-          </>
-        )}
-        {type === 'single_select' && (
-          <>
-            <select
-              onChange={(e) => handleInputChange(ques_id, e.target.value)}
-              value={formData[ques_id] || ''}
-            >
-              <option value="">Select an option</option>
-              {options.map((option, index) => (
-                <option key={index} value={option}>{option}</option>
-              ))}
-            </select>
-            {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
-          </>
-        )}
-  
-        {type === 'multi_select' && (
-          <>
-            <div className="form-check x-custom">
-              {options.map((option, index) => (
-                <div className='x-customs' key={index}>
-                  <input
-                    type="checkbox"
-                    className="form-check-input"
-                    id={`multi-select-${ques_id}-${index}`} // Unique ID for checkbox
-                    value={option}
-                    checked={formData[ques_id]?.includes(option) || false}
-                    onChange={(e) => {
-                      let selectedOptions = formData[ques_id] || [];
-                      if (e.target.checked) {
-                        selectedOptions = [...selectedOptions, option];
-                      } else {
-                        selectedOptions = selectedOptions.filter((opt) => opt !== option);
-                      }
-                      handleInputChange(ques_id, selectedOptions, true);
-                    }}
-                  />
-                  <label className="form-check-label" htmlFor={`multi-select-${ques_id}-${index}`}>{option}</label> {/* Link label to checkbox */}
-                </div>
-              ))}
-              {errorMessage && <div className="error-message">{errorMessage}</div>} {/* Show error message */}
-            </div>
-          </>
-        )}
-  
-      
-  
-       
-      </div>
-    );
-  };
 
 export default MultiStepForm;

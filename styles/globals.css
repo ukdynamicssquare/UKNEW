@@ -12973,7 +12973,8 @@ margin-bottom: 15px;
     gap: 20px;
 }
 .shdee{
-  
+  position: relative;
+  min-height: 510px;
 }
 .x-customs{
   flex: 48% 1;
@@ -12992,6 +12993,7 @@ margin-bottom: 15px;
   display: block;
   cursor: pointer;
   margin-top: 15px;
+  font-size:16px
 }
 .t-ti-head{
   font-size: 24px;
@@ -13008,16 +13010,41 @@ margin-bottom: 15px;
 .servay-form-new  .form-check .form-check-input{
 
 }
-.cc-button{
+.cc-button,.button-group-style,{
   text-align:right
 }
-.cc-button button{
+.cc-button button,.ccx-button .button-group-style{
   border-radius: 4px;
   box-shadow: 0 5px 30px 0 rgba(65, 84, 241, 0.4);
   background-color: #bb2b36;
   color: #fff;
   border: none;
-  padding: 5px 15px;
+  padding: 10px 30px;
+  font-size: 22px;
+}
+.n-ned {
+  position: absolute;
+  top: 10px;
+  left: 19px;
+  border-radius: 50%;
+  background: #a4b5e0;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  font-size: 24px;
+}
+.ccx-button {
+  text-align: right;
+}
+.ccx-button .button-group-style {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.n-ned .button-group-style{
+
 }
 .shdee{
   border-radius: 24px;
@@ -13028,7 +13055,7 @@ margin-bottom: 15px;
   /* border-radius: 24px;
   box-shadow: 0 20px 40px 0 rgba(86, 106, 173, 0.16);
   background-color: #fff; */
-  padding: 40px 80px;
+  padding: 40px 80px 100px;
 }
 .progress-bar-container {
   width: 100%;
@@ -13039,7 +13066,7 @@ margin-bottom: 15px;
 }
 .progress-bar {
   height: 5px;
-  background-color: #4caf50;
+  background-image: linear-gradient(to left, #6ebbfc 69%, #0f45bf 30%);
   transition: width 0.3s;
 }
 .error-message {
@@ -13062,4 +13089,41 @@ margin-bottom: 15px;
 .error-message {
   color: red;
   margin-top: 5px;
+}
+
+.ks-pding{
+  padding-top: 185px;
+  padding-bottom: 260px;
+}
+
+.tt-heading-box {
+    text-align: center;
+    position: relative;
+    top: -190px;
+    margin-bottom: -125px;
+}
+.x-customs .form-check-input:checked[type=radio]{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-color: #007bff;
+}
+
+.tt-heading-box{}
+.tt-heading-box h1,.tt-heading-box h2{
+  background-image: linear-gradient(95deg, #307faf -3%, #542784 82%);
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tt-heading-box p{
+  font-size: 18px;
+  font-weight: 500;
+  color: #585858;
 }
