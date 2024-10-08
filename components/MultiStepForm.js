@@ -287,51 +287,55 @@ const MultiStepForm = () => {
                           <h2>Almot there!</h2>
                           <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
                         </div>
-                        <div>
-                          <label>Name *</label>
+                        <div  className="mb-3 form-group">
+                          {/* <label>Name *</label> */}
                           <input
                             type="text"
                             name="name"
                             value={formData.name}
                             onChange={handleStaticFieldChange}
                             className='form-control'
+                               placeholder='Name'
                           />
                           {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
                         </div>
-                        <div>
-                          <label>Email *</label>
+                        <div  className="mb-3 form-group">
+                          {/* <label>Email *</label> */}
                           <input
                             type="email"
                             name="email"
                             value={formData.email}
                             onChange={handleStaticFieldChange}
                             className='form-control'
+                            placeholder='Email'
                           />
                           {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
                         </div>
-                        <div>
-                          <label>Phone *</label>
+                        <div  className="mb-3 form-group">
+                          {/* <label>Phone *</label> */}
                           <input
                             type="tel"
                             name="phone"
                             value={formData.phone}
                             onChange={handleStaticFieldChange}
                             className='form-control'
+                               placeholder='Phone'
                           />
                           {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
                         </div>
-                        <div>
-                          <label>Company Name *</label>
+                        <div  className="mb-3 form-group">
+                          {/* <label>Company Name *</label> */}
                           <input
                             type="text"
                             name="company"
                             value={formData.company}
                             onChange={handleStaticFieldChange}
                             className='form-control'
+                               placeholder='Company Name'
                           />
                           {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
                         </div>
-                        <div>
+                        <div  className="mb-3 form-group">
                           <input
                             type="checkbox"
                             checked={formData.agreement}
@@ -340,7 +344,7 @@ const MultiStepForm = () => {
                           <label>I agree to the terms *</label>
                           {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
                         </div>
-                        <button type="button" onClick={handleSubmit} className='btn-submit'>See Your Estimate</button>
+                        <button type="button" onClick={handleSubmit} className='btn-submit button-group-stylea'>See Your Estimate</button>
                       </form>
                     )
                   ) : (
