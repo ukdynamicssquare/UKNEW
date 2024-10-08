@@ -268,7 +268,7 @@ const MultiStepForm = () => {
               )}
 
               {submitted ? (
-                <div>
+                <div className='tt-text-cet'>
                   <h2>Thank you for your submission!</h2>
                 </div>
               ) : (
