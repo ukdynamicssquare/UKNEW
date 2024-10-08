@@ -104,6 +104,22 @@ const MultiStepForm = () => {
     setErrorMessage(''); // Clear error message
   };
 
+
+  const isNextButtonVisible = () => {
+    if (currentStep < questions.length) {
+      const currentQuestion = questions[currentStep];
+      if (currentQuestion.type === 'multi_select') {
+        return formData[currentQuestion.ques_id]?.length > 0; // Show next if at least one option is selected
+      }
+      return !!formData[currentQuestion.ques_id]; // Show next if an option is selected
+    }
+    return false; // Always show next button for the last static step
+  };
+
+
+
+
+
   const handleStaticFieldChange = (e) => {
     const { name, value, type } = e.target;
 
@@ -239,14 +255,14 @@ const MultiStepForm = () => {
                 <>
                   <div className="progress-bar-container">
                     <div
-                     className="progress-bar"
-                     style={{ width: `${progress}%` }}
+                      className="progress-bar"
+                      style={{ width: `${progress}%` }}
                     ></div>
                   </div>
-                 <div className='tt-heading-box'>
-                 <h1>Save Time, Get Accurate ERP Pricing</h1>
-                 <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
-                 </div>
+                  <div className='tt-heading-box'>
+                    <h1>Save Time, Get Accurate ERP Pricing</h1>
+                    <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
+                  </div>
                   {/* <h2>Step {currentStep + 1} of {totalSteps - 1}</h2> */}
                 </>
               )}
@@ -267,10 +283,10 @@ const MultiStepForm = () => {
                       />
                     ) : (
                       <form className='servay-form-new'>
-                       <div className='tt-heading-box'>
-                       <h2>Almot there!</h2>
-                       <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
-                       </div>
+                        <div className='tt-heading-box'>
+                          <h2>Almot there!</h2>
+                          <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
+                        </div>
                         <div>
                           <label>Name *</label>
                           <input
@@ -333,17 +349,15 @@ const MultiStepForm = () => {
 
                   <div className='button-group ccx-button'>
                     {currentStep > 0 && (
-                      <button  onClick={handlePrevious} className='btn-previous n-ned'>
+                      <button onClick={handlePrevious} className='btn-previous n-ned'>
                         <i className="bi bi-arrow-left"></i>
                       </button>
                     )}
-                    {currentStep < questions.length && currentQuestion.type === 'multi_select' &&
-                      formData[questions[currentStep].ques_id]?.length > 0 && (
-                        <button onClick={handleNext} className='btn-next button-group-style'>
-                          Next
-                        </button>
-                      )}
-                    {/* Optionally, show a Skip button if desired */}
+                    {isNextButtonVisible() && (
+                      <button onClick={handleNext} className='btn-next button-group-style'>
+                        Next
+                      </button>
+                    )}
                   </div>
                 </>
               )}
