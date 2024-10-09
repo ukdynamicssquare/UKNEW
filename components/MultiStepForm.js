@@ -8,7 +8,7 @@ const MultiStepForm = () => {
     email: '',
     phone: '',
     company: '',
-    agreed: false,
+    // agreed: false,
   });
   const [answered, setAnswered] = useState(false); // Track if the current question is answered
   const [loading, setLoading] = useState(true); // Loading state for questions
@@ -226,7 +226,7 @@ const MultiStepForm = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(structuredData),
+      body: JSON.stringify(structuredData), 
     });
 
     if (response.ok) {
