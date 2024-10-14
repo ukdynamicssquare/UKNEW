@@ -55,6 +55,7 @@ function MyApp({ Component, pageProps }) {
     router.asPath == "/not-for-profit-fundrasing-engagenment/" ||
     router.asPath == "/guides/download/pdf-business-central-guide/" ||
     router.asPath == "/schedule-a-demo/" ||
+    router.asPath == "/test-form/" ||
     router.asPath == "/schedule-a-demo"
   ) {
     return (
