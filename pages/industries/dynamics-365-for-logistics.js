@@ -15,16 +15,30 @@ const MicrosoftCloudForNonprofit = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Retail Industry | Dynamics Square</title>
+     <title>Microsoft Business Central Customisation | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Discover how Dynamics Square enhances retail industry success with Dynamics 365, providing AI-driven omni-channel solutions for an exceptional retail experience."
+          content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-logistics/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Microsoft Business Central Customisation | Dynamics Square UK" />
+        <meta property="og:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-logistics/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Microsoft Business Central Customisation | Dynamics Square UK" />
+        <meta name="twitter:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
       </Head>
 
 
@@ -48,9 +62,9 @@ const MicrosoftCloudForNonprofit = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <Image
-                  src="/img/Dynamics-365-for-Retail.png"
-                  alt="Dynamics-365-for-Retail"
-                  width={718} height={447}
+                  src="/img/logistic-main-banner.png"
+                  alt="logistic-main-banner"
+                  width={665} height={447}
                   priority={true}
                 />
               </div>
@@ -161,8 +175,8 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/img/Workforce-Management.png"
-                      alt="Workforce-Management"
+                      src="/img/route-optimisation.png"
+                      alt="Route Optimisation "
                       width="48"
                       height="48"
                     />
@@ -175,8 +189,8 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/img/Establish-Loyalty.png"
-                      alt="Establish-Loyalty"
+                      src="/img/freight-rate-management.png"
+                      alt="Freight Rate Management"
                       width="48"
                       height="48"
                     />
@@ -189,8 +203,8 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/img/Integrations-with-Software.png"
-                      alt="Integrations-with-Software"
+                      src="/img/nventory-management.png"
+                      alt="Inventory Management"
                       width="48"
                       height="48"
                     />
@@ -205,8 +219,8 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/img/Comes-with-In-built-AI.png"
-                      alt="Comes-with-In-built-AI"
+                      src="/img/yard-management.png"
+                      alt="Yard Management"
                       width="48"
                       height="48"
                     />
@@ -219,8 +233,8 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/img/Streamline-Store-Operations.png"
-                      alt="Streamline-Store-Operations"
+                      src="/img/supply-chain-modelling.png"
+                      alt="supply-chain-modelling"
                       width="48"
                       height="48"
                     />
@@ -233,8 +247,8 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-right-indst">
                   <div className="card_new_img">
                     <img
-                      src="/img/Channel-Management.png"
-                      alt="Channel-Management"
+                      src="/img/sourcing-and-procurement.png"
+                      alt="Sourcing and procurement"
                       width="48"
                       height="48"
                     />
@@ -277,10 +291,10 @@ const MicrosoftCloudForNonprofit = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <Image
-                      src="/img/Shopping-experience-side.png"
+                      src="/img/logistic-side-image.png"
                       className="fix-im"
-                      alt="Shopping-experience-side"
-                      width={522} height={513}
+                      alt="logistic-side-image"
+                      width={482} height={513}
                     />
                   
                   </div>
