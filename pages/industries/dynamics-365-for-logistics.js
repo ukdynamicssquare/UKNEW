@@ -15,10 +15,10 @@ const MicrosoftCloudForNonprofit = () => {
   return (
     <>
       <Head>
-     <title>Microsoft Business Central Customisation | Dynamics Square UK</title>
+     <title>Dynamics 365 for Logistics industry | Dynamics Square</title>
         <meta
           name="description"
-          content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance."
+          content="Optimise logistics operations with Dynamics 365. Streamline supply chains, boost efficiency, and enhance real-time visibility across your logistics network."
         />
         <link
           rel="canonical"
@@ -26,19 +26,19 @@ const MicrosoftCloudForNonprofit = () => {
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Business Central Customisation | Dynamics Square UK" />
-        <meta property="og:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
+        <meta property="og:title" content="Dynamics 365 for Logistics industry | Dynamics Square" />
+        <meta property="og:description" content="Optimise logistics operations with Dynamics 365. Streamline supply chains, boost efficiency, and enhance real-time visibility across your logistics network." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-logistics/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/logistic-main-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Microsoft Business Central Customisation | Dynamics Square UK" />
-        <meta name="twitter:description" content="Unlock the full potential of Dynamics 365 Business Central with customisation, optimising workflows and enhancing business performance." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Customise-Business-banner.png" />
+        <meta name="twitter:title" content="Dynamics 365 for Logistics industry | Dynamics Square" />
+        <meta name="twitter:description" content="Optimise logistics operations with Dynamics 365. Streamline supply chains, boost efficiency, and enhance real-time visibility across your logistics network." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/logistic-main-banner.png" />
       </Head>
 
 
