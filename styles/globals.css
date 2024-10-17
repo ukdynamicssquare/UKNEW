@@ -13008,6 +13008,7 @@ margin-bottom: 15px;
   display: block;
   color: #1d3557;
   margin-bottom: 40px;
+  line-height: 1.4;
 }
 .x-customs .form-check-input:checked {
   background-color: #5096c1;
@@ -13241,5 +13242,8 @@ margin-bottom: 15px;
 }
 .tt-heading-box p {
   font-size: 14px;
+}
+.t-ti-head{
+  font-size: 18px;
 }
 }
