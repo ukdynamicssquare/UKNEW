@@ -12900,8 +12900,8 @@ font-size: 12px;
 }
 .x-customa-sd .form-check .form-check-input {
   margin-right: 1em;
-    width: 48px;
-    height: 48px;
+    width: 34px;
+    height: 34px;
     border-radius: 8% !important;
     margin-left: 0px;
 }
@@ -12987,7 +12987,7 @@ margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 5px 60px 0 rgba(22, 92, 196, 0.1);
     border: solid 1px #e5e8f2;
-    padding: 20px 30px;
+    padding: 15px 20px;
     border:1px solid transparent;
     transition:.4s ease
 }
@@ -12997,11 +12997,12 @@ margin-bottom: 15px;
 .x-customs label{
   display: block;
   cursor: pointer;
-  margin-top: 15px;
-  font-size:16px
+  margin-top: 8px;
+  font-size:16px;
+  line-height: 1.4;
 }
 .t-ti-head{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
   display: block;
@@ -13026,15 +13027,16 @@ margin-bottom: 15px;
   background-color: #bb2b36;
   color: #fff;
   border: none;
-  padding: 10px 30px;
-  font-size: 22px;
+  padding: 8px 38px;
+  font-size: 16px;
 }
 .button-group-stylea{
   background-color: #bb2b36;
   color: #fff;
   border: none;
-  padding: 10px 30px;
+  padding: 8px 25px;
   border-radius: 4px;
+  font-size: 16px;
 }
 .n-ned {
   position: absolute;
@@ -13054,8 +13056,9 @@ margin-bottom: 15px;
 }
 .ccx-button .button-group-style {
   position: absolute;
-  bottom: 30px;
+  top: 70%;
   right: 30px;
+  transform: translateY(-70%);
 }
 .n-ned .button-group-style{
 
@@ -13106,15 +13109,15 @@ margin-bottom: 15px;
 }
 
 .ks-pding{
-  padding-top: 185px;
+  padding-top: 110px;
   padding-bottom: 260px;
 }
 
 .tt-heading-box {
-    text-align: center;
-    position: relative;
-    top: -190px;
-    margin-bottom: -125px;
+  text-align: center;
+  position: relative;
+  top: -140px;
+  margin-bottom: -80px;
 }
 .x-customs .form-check-input:checked[type=radio]{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
@@ -13127,7 +13130,7 @@ margin-bottom: 15px;
 .tt-heading-box{}
 .tt-heading-box h1,.tt-heading-box h2{
   background-image: linear-gradient(95deg, #307faf -3%, #542784 82%);
-  font-size: 48px;
+  font-size: 30px !important;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -13154,4 +13157,37 @@ margin-bottom: 15px;
   font-size: 24px;
   color: #ee3442;
   font-weight: 600;
+}
+.myloading{
+  width:100%;
+  height:600px;
+  position:relative
+}
+.myloading .spinner{
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50px, -50px)
+}
+.s-fontz{
+
+}
+.s-fontz span{
+  margin-left: 14px;
+  font-size:14px
+}
+.tt-heading-box.tt-heading-box-two
+{
+  top: -165px;
+    margin-bottom: -90px;
+}
+@media (max-width:1400px){
+  .tt-heading-box.tt-heading-box-two
+{
+  top: -165px;
+    margin-bottom: -90px;
+}
+.tt-heading-box p{
+  font-size: 16px;
+}
 }

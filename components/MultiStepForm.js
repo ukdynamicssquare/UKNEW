@@ -240,7 +240,7 @@ const MultiStepForm = () => {
   const totalSteps = questions.length + 1; // +1 for the static final step
   const progress = currentStep < questions.length ? (currentStep / totalSteps) * 100 : 100; // 100% for the last static step
 
-  if (loading) return <div className="spinner"></div>; // Show loading spinner while fetching
+  if (loading) return <div className='myloading'><div className="spinner"></div></div>; // Show loading spinner while fetching
 
   const currentQuestion = questions[currentStep];
 
@@ -261,7 +261,7 @@ const MultiStepForm = () => {
                   </div>
                   <div className='tt-heading-box'>
                     <h1>Save Time, Get Accurate ERP Pricing</h1>
-                    <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
+                    {/* <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p> */}
                   </div>
                   {/* <h2>Step {currentStep + 1} of {totalSteps - 1}</h2> */}
                 </>
@@ -283,7 +283,7 @@ const MultiStepForm = () => {
                       />
                     ) : (
                       <form className='servay-form-new'>
-                        <div className='tt-heading-box'>
+                        <div className='tt-heading-box tt-heading-box-two'>
                           <h2>Almot there!</h2>
                           <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
                         </div>
@@ -341,7 +341,7 @@ const MultiStepForm = () => {
                             checked={formData.agreement}
                             onChange={handleAgreementChange}
                           />
-                          <label>I agree to the terms *</label>
+                          <label className='s-fontz'><span>I agree to the<a href="/privacy-policy/" target="_blank"> Privacy Policy</a>and<a href="/terms-of-use/" target="_blank"> Terms of Service </a>.</span></label>
                           {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
                         </div>
                         <button type="button" onClick={handleSubmit} className='btn-submit button-group-stylea'>See Your Estimate</button>
