@@ -249,7 +249,7 @@ const MultiStepForm = () => {
       <div className='container'>
         <div className='row justify-content-center shdee'>
           <div className='col-lg-10'>
-            <div>
+            <div className='f-cust-height'>
               {/* Show the progress bar and current step only if it's not the last step */}
               {currentStep < questions.length && (
                 <>
@@ -341,7 +341,7 @@ const MultiStepForm = () => {
                             checked={formData.agreement}
                             onChange={handleAgreementChange}
                           />
-                          <label className='s-fontz'><span>I agree to the<a href="/privacy-policy/" target="_blank"> Privacy Policy</a>and<a href="/terms-of-use/" target="_blank"> Terms of Service </a>.</span></label>
+                          <label className='s-fontz'><span>I agree to the<a href="/privacy-policy/" target="_blank"> Privacy Policy</a> and <a href="/terms-of-use/" target="_blank"> Terms of Service </a>.</span></label>
                           {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
                         </div>
                         <button type="button" onClick={handleSubmit} className='btn-submit button-group-stylea'>See Your Estimate</button>

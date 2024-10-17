@@ -12899,11 +12899,10 @@ font-size: 12px;
 
 }
 .x-customa-sd .form-check .form-check-input {
-  margin-right: 1em;
     width: 24px;
     height: 24px;
     /* border-radius: 8% !important; */
-    margin-left: 0px;
+    margin: 18px 15px;
 }
 .servay-form-new .mb-3 {
   margin-bottom: 1.5rem !important;
@@ -12979,7 +12978,10 @@ margin-bottom: 15px;
 }
 .shdee{
   position: relative;
-  /* min-height: 510px; */
+ 
+}
+.f-cust-height{
+  min-height: 350px;
 }
 .x-customs{
   flex: 48% 1;
@@ -12987,7 +12989,7 @@ margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 5px 60px 0 rgba(22, 92, 196, 0.1);
     border: solid 1px #e5e8f2;
-    padding: 15px 20px;
+    /* padding: 18px 20px; */
     border:1px solid transparent;
     transition:.4s ease
 }
@@ -12997,7 +12999,7 @@ margin-bottom: 15px;
 .x-customs label{
   display: block;
   cursor: pointer;
-  margin-top: 5px;
+  padding: 19px 15px;
   font-size:15px;
   line-height: 1.4;
 }
@@ -13057,7 +13059,7 @@ margin-bottom: 15px;
 }
 .ccx-button .button-group-style {
   position: absolute;
-  top: 70%;
+  top: 80%;
   right: 30px;
   transform: translateY(-70%);
 }
@@ -13181,7 +13183,7 @@ margin-bottom: 15px;
 .tt-heading-box.tt-heading-box-two
 {
   top: -165px;
-    margin-bottom: -90px;
+  margin-bottom: -125px;
 }
 @media (max-width:1400px){
   .tt-heading-box.tt-heading-box-two
