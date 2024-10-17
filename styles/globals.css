@@ -12863,7 +12863,7 @@ figure {
   padding: 30px 140px;
 }
 .servay-form-new {
-  padding: 30px 140px 0px;
+  padding: 30px 200px 0px;
 }
 .servay-form-new .form-label {
   font-size: 14px;
@@ -13140,9 +13140,10 @@ margin-bottom: 15px;
   -webkit-text-fill-color: transparent;
 }
 .tt-heading-box p{
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   color: #585858;
+  line-height: 1.5;
 }
 
 .tt-text-cet {
@@ -13189,5 +13190,56 @@ margin-bottom: 15px;
 }
 .tt-heading-box p{
   font-size: 16px;
+}
+}
+@media (max-width:992px){
+  .ks-pding {
+    padding-top: 150px;
+  }
+  .tt-heading-box.tt-heading-box-two {
+    top: -183px;
+    margin-bottom: -140px;
+}
+}
+@media (max-width:768px){
+  .x-customs{
+    flex: 100% 1;
+    max-width: 100%;
+  }
+  .ccx-button .button-group-style{
+    position: absolute;
+    top: inherit;
+    right: 30px;
+    transform: inherit;
+    bottom: 20px;
+  }
+  .x-customa-sd {
+    padding: 40px 20px 85px;
+}
+.n-ned {
+
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+}
+.servay-form-new {
+  padding: 30px 20px 0px;
+}
+.tt-heading-box.tt-heading-box-two{
+  margin-bottom: -120px;
+}
+.dd-fflex{
+  display: flex !important;
+        align-items: center;
+}
+.dd-fflex .s-fontz span{
+  line-height: 1.3;
+        display: inline-block;
+}
+.dd-fflex input{
+  margin-top: -20px;
+}
+.tt-heading-box p {
+  font-size: 14px;
 }
 }

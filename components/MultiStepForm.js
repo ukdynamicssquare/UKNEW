@@ -335,7 +335,7 @@ const MultiStepForm = () => {
                           />
                           {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
                         </div>
-                        <div  className="mb-3 form-group">
+                        <div  className="mb-3 form-group dd-fflex">
                           <input
                             type="checkbox"
                             checked={formData.agreement}
