@@ -12900,9 +12900,9 @@ font-size: 12px;
 }
 .x-customa-sd .form-check .form-check-input {
   margin-right: 1em;
-    width: 34px;
-    height: 34px;
-    border-radius: 8% !important;
+    width: 24px;
+    height: 24px;
+    /* border-radius: 8% !important; */
     margin-left: 0px;
 }
 .servay-form-new .mb-3 {
@@ -12979,7 +12979,7 @@ margin-bottom: 15px;
 }
 .shdee{
   position: relative;
-  min-height: 510px;
+  /* min-height: 510px; */
 }
 .x-customs{
   flex: 48% 1;
@@ -12997,8 +12997,8 @@ margin-bottom: 15px;
 .x-customs label{
   display: block;
   cursor: pointer;
-  margin-top: 8px;
-  font-size:16px;
+  margin-top: 5px;
+  font-size:15px;
   line-height: 1.4;
 }
 .t-ti-head{
@@ -13073,7 +13073,7 @@ margin-bottom: 15px;
   /* border-radius: 24px;
   box-shadow: 0 20px 40px 0 rgba(86, 106, 173, 0.16);
   background-color: #fff; */
-  padding: 40px 80px 100px;
+  padding: 40px 60px 100px;
 }
 .progress-bar-container {
   width: 100%;
@@ -13111,7 +13111,7 @@ margin-bottom: 15px;
 
 .ks-pding{
   padding-top: 110px;
-  padding-bottom: 260px;
+  padding-bottom: 140px;
 }
 
 .tt-heading-box {
@@ -13120,13 +13120,13 @@ margin-bottom: 15px;
   top: -140px;
   margin-bottom: -80px;
 }
-.x-customs .form-check-input:checked[type=radio]{
+/* .x-customs .form-check-input:checked[type=radio]{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
             border-color: #007bff;
-}
+} */
 
 .tt-heading-box{}
 .tt-heading-box h1,.tt-heading-box h2{
