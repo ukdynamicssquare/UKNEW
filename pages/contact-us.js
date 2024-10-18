@@ -1244,11 +1244,11 @@ const ContactUs = () => {
                   </a>
                 </div>
                 <div className="footer-bottm-subscriber">
-                  <p>Subscribe Newsletter</p>
+                  {/* <p>Subscribe Newsletter</p>
                   <span>
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
-                  </span>
+                  </span> */}
                   {/* <FormFooterSubscriber /> */}
                 </div>
               </div>
