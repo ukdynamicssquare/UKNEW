@@ -16,19 +16,24 @@ const ThankYou = () => {
           href="https://www.dynamicssquare.co.uk/thank-you/"
         />
       </Head>
-      <section className="Solution-banner" style={{paddingBottom:'160px'}}>
+      <section className="thnak-page">
         <div className="container">
-          <div className="row justify-content-center ">
-            <div className="col-lg-7 align-self-center text-center custom0004">
-              <h1>Thank You !</h1>
-              <h2>
-                Thanks for getting in touch - someone will contact you soon!
-              </h2>
-              <div className="text-center">
-                <div className="">
-                    <a href="/" className="btn-get-started scrollto"><span>Back to Home</span></a>
+          <div className="row justify-content-center">
+            <div className="col-lg-8 align-self-center">
+                <div className='iner-divv'>
+                <h1>Thank You !</h1>
+                <p>Hi there,</p>
+                <p>Thank you for contacting Dynamics Square! We’re excited to help you streamline your business with Microsoft Dynamics 365.</p>
+                <p>Our team will be in touch soon to discuss your needs. </p>
+                <p>Until then, stay updated with our latest updates and insights on <a href="https://www.linkedin.com/showcase/dynamics-square-uk/" target="_blank" ><b>LinkedIn</b></a>. </p>
+              <div className="text-left">
+                <div>
+                  <a href="/" className="btn-get-started scrollto">
+                    <span>Back to Home</span>
+                  </a>
                 </div>
               </div>
+                </div>
             </div>
           </div>
         </div>
