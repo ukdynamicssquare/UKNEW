@@ -82,11 +82,21 @@ const FormCaseScroll = ({ onClose }) => {
   //   setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   // };
 
-  const handlePhoneChange = (phone) => {
-    setFormData({ ...formData, phone });
-    // Clear error message for the phone field
-    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
+  // const handlePhoneChange = (phone) => {
+  //   setFormData({ ...formData, phone });
+
+  //   setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
+  // };
+
+  const handlePhoneChange = (phone, country) => {
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      phone,
+      defaultCountryName: country.name // Update country name based on the selected country
+    }));
+    setErrors(prevErrors => ({ ...prevErrors, phone: '' }));
   };
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -269,6 +279,7 @@ const FormCaseScroll = ({ onClose }) => {
               country={defaultCountryCode} // Set default country code
               value={formData.phone}
               onChange={handlePhoneChange}
+              onCountryChange={(country, countryData) => handlePhoneChange(formData.phone, countryData)}
               inputClass="form-control" // CSS class for the input
               inputProps={{
                 name: 'phone',
