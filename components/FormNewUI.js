@@ -17,6 +17,7 @@ const FormNewUIBackTest = () => {
     message: '',
     job: '',
     service: '',
+    countryName:'',
     currentPageUrl: '',
     formtag: 'Contact Us Form'
   });
@@ -24,6 +25,7 @@ const FormNewUIBackTest = () => {
   const [submitting, setSubmitting] = useState(false);
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
+  const [defaultCountryName, setDefaultCountryName] = useState(''); // Default to 'us'
 
 
 
@@ -51,8 +53,11 @@ const FormNewUIBackTest = () => {
       })
       .then(data => {
         let countryCode = data.country_code.toLowerCase();
+        let countryName=data.country_name;
         console.log("Country Code:", countryCode); // 
         setDefaultCountryCode(countryCode);
+        setDefaultCountryName(countryName);
+        
         console.log("Default Country Code:", defaultCountryCode);
       })
       .catch(error => {
@@ -117,6 +122,7 @@ const FormNewUIBackTest = () => {
             job: '',
             service: '',
             currentPageUrl: '',
+            countryName:'',
             formtag: ''
           });
           setTimeout(() => {
@@ -266,6 +272,7 @@ const FormNewUIBackTest = () => {
                   // onlyCountries={['us', 'ca', 'mx', 'gb']}
                   excludeCountries={['pk']}
                 />
+                <input type="hidden" value={defaultCountryName} name="countryName" />
 
                 {/* <label htmlFor="phone">Phone Number</label> */}
               </div>
