@@ -10,7 +10,6 @@ const FormCaseScroll = ({ onClose }) => {
 
   const form = useRef();
   const [currentPageUrl, setCurrentPageUrl] = useState('');
-  const [defaultCountryName, setDefaultCountryName] = useState(''); 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -20,8 +19,8 @@ const FormCaseScroll = ({ onClose }) => {
     // job: '',
     // service: '',
     currentPageUrl: '',
-    defaultCountryName: '',
-    formtag: 'Case Studies form'
+    formtag: 'Case Studies form',
+    defaultCountryName: '' 
   });
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
@@ -29,7 +28,13 @@ const FormCaseScroll = ({ onClose }) => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
- 
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+  }, []);
 
 
   /*auto fetch*/
@@ -48,10 +53,9 @@ const FormCaseScroll = ({ onClose }) => {
       })
       .then(data => {
         let countryCode = data.country_code.toLowerCase();
-        let countryName=data.country_name;
         console.log("Country Code:", countryCode); // 
         setDefaultCountryCode(countryCode);
-        setDefaultCountryName(countryName);
+        setFormData(prev => ({ ...prev, defaultCountryName: data.country_name }));
         console.log("Default Country Code:", defaultCountryCode);
       })
       .catch(error => {
@@ -60,17 +64,7 @@ const FormCaseScroll = ({ onClose }) => {
       });
   };
 
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-  }, [currentPageUrl]);
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, defaultCountryName }));
-  }, [defaultCountryName]);
 
-  useEffect(() => {
-    setCurrentPageUrl(window.location.href);
-    setDefaultCountryName(defaultCountryName);
-  }, []);
 
 
   const handleChange = (e) => {
@@ -125,7 +119,7 @@ const FormCaseScroll = ({ onClose }) => {
             // job: '',
             // service: '',
             currentPageUrl: '',
-            defaultCountryName: '',
+            defaultCountryName: ''
           });
 
           setFormSubmitted(true);
@@ -237,6 +231,7 @@ const FormCaseScroll = ({ onClose }) => {
             />
             <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
             <input type="hidden" value="Case Studies Form" name="formtag" />
+            <input type="hidden" value={formData.defaultCountryName} name="defaultCountryName" />
             {errors.name && <div className="text-danger">{errors.name}</div>}
           </div>
           <div className="mb-3">
@@ -295,7 +290,6 @@ const FormCaseScroll = ({ onClose }) => {
               countryCodeEditable={false}
               excludeCountries={['pk']}
             />
-             <input type="hidden" value={defaultCountryName} name="countryName" />
             {errors.phone && <div className="text-danger">{errors.phone}</div>}
           </div>
           {/* <div className="mb-3">
