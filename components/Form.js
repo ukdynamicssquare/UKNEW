@@ -10,6 +10,7 @@ const Form = () => {
   const router = useRouter();
   const form = useRef();
   const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [defaultCountryName, setDefaultCountryName] = useState(''); 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -19,6 +20,7 @@ const Form = () => {
     // job: '',
     // service: '',
     currentPageUrl: '',
+    defaultCountryName: '',
     formtag: 'Footer Form'
   });
 
@@ -27,13 +29,7 @@ const Form = () => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-  }, [currentPageUrl]);
-
-  useEffect(() => {
-    setCurrentPageUrl(window.location.href);
-  }, []);
+  
 
 
   /*auto fetch*/
@@ -52,8 +48,10 @@ const Form = () => {
       })
       .then(data => {
         let countryCode = data.country_code.toLowerCase();
+        let countryName=data.country_name;
         console.log("Country Code:", countryCode); // 
         setDefaultCountryCode(countryCode);
+        setDefaultCountryName(countryName);
         console.log("Default Country Code:", defaultCountryCode);
       })
       .catch(error => {
@@ -61,6 +59,19 @@ const Form = () => {
         setDefaultCountryCode('gb');
       });
   };
+
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, defaultCountryName }));
+  }, [defaultCountryName]);
+
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+    setDefaultCountryName(defaultCountryName);
+  }, []);
 
 
 
@@ -115,6 +126,7 @@ const Form = () => {
             // job: '',
             // service: '',
             currentPageUrl: '',
+            defaultCountryName: '',
           });
           setTimeout(() => {
             router.push('/thank-you/');
@@ -271,6 +283,7 @@ const Form = () => {
               countryCodeEditable={false}
               excludeCountries={['pk']}
             />
+            <input type="hidden" value={defaultCountryName} name="countryName" />
             {errors.phone && <div className="text-danger">{errors.phone}</div>}
           </div>
           {/* <div className="mb-3">
