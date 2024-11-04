@@ -10,6 +10,7 @@ const FormCaseScroll = ({ onClose }) => {
 
   const form = useRef();
   const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [defaultCountryName, setDefaultCountryName] = useState(''); 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -19,6 +20,7 @@ const FormCaseScroll = ({ onClose }) => {
     // job: '',
     // service: '',
     currentPageUrl: '',
+    defaultCountryName: '',
     formtag: 'Case Studies form'
   });
 
@@ -27,13 +29,7 @@ const FormCaseScroll = ({ onClose }) => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-  }, [currentPageUrl]);
-
-  useEffect(() => {
-    setCurrentPageUrl(window.location.href);
-  }, []);
+ 
 
 
   /*auto fetch*/
@@ -52,8 +48,10 @@ const FormCaseScroll = ({ onClose }) => {
       })
       .then(data => {
         let countryCode = data.country_code.toLowerCase();
+        let countryName=data.country_name;
         console.log("Country Code:", countryCode); // 
         setDefaultCountryCode(countryCode);
+        setDefaultCountryName(countryName);
         console.log("Default Country Code:", defaultCountryCode);
       })
       .catch(error => {
@@ -62,7 +60,17 @@ const FormCaseScroll = ({ onClose }) => {
       });
   };
 
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, defaultCountryName }));
+  }, [defaultCountryName]);
 
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+    setDefaultCountryName(defaultCountryName);
+  }, []);
 
 
   const handleChange = (e) => {
@@ -117,6 +125,7 @@ const FormCaseScroll = ({ onClose }) => {
             // job: '',
             // service: '',
             currentPageUrl: '',
+            defaultCountryName: '',
           });
 
           setFormSubmitted(true);
@@ -286,6 +295,7 @@ const FormCaseScroll = ({ onClose }) => {
               countryCodeEditable={false}
               excludeCountries={['pk']}
             />
+             <input type="hidden" value={defaultCountryName} name="countryName" />
             {errors.phone && <div className="text-danger">{errors.phone}</div>}
           </div>
           {/* <div className="mb-3">
