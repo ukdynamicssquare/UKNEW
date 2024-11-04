@@ -9,6 +9,7 @@ const FormNewUIBackTest = () => {
   const router = useRouter();
   const form = useRef();
   const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [defaultCountryName, setDefaultCountryName] = useState(''); // Default to 'us'
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -25,7 +26,7 @@ const FormNewUIBackTest = () => {
   const [submitting, setSubmitting] = useState(false);
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
-  const [defaultCountryName, setDefaultCountryName] = useState(''); // Default to 'us'
+
 
 
 
