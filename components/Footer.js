@@ -20,6 +20,7 @@ const Footer = () => {
   const router = useRouter();
   const form = useRef();
   const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [defaultCountryName, setDefaultCountryName] = useState(''); // Default to 'us'
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,6 +28,7 @@ const Footer = () => {
     companyname: '',
     message: '',
     formtag: 'CTA Form',
+    defaultCountryName: '',
     // job: '',
     // service: '',
     currentPageUrl: '',
@@ -37,13 +39,6 @@ const Footer = () => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-  }, [currentPageUrl]);
-
-  useEffect(() => {
-    setCurrentPageUrl(window.location.href);
-  }, []);
 
 
   /*auto fetch*/
@@ -62,8 +57,10 @@ const Footer = () => {
       })
       .then(data => {
         let countryCode = data.country_code.toLowerCase(); 
+        let countryName=data.country_name;
         console.log("Country Code:", countryCode); // 
         setDefaultCountryCode(countryCode);
+        setDefaultCountryName(countryName);
         console.log("Default Country Code:", defaultCountryCode); 
       })
       .catch(error => {
@@ -72,6 +69,19 @@ const Footer = () => {
       });
   };
 
+  
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, defaultCountryName }));
+  }, [defaultCountryName]);
+
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+    setDefaultCountryName(defaultCountryName);
+  }, []);
 
 
   const handleChange = (e) => {
@@ -128,6 +138,7 @@ const Footer = () => {
             // job: '',
             // service: '',
             currentPageUrl: '',
+            defaultCountryName: '',
           });
           setTimeout(() => {
             router.push('/thank-you/');
@@ -292,6 +303,7 @@ const Footer = () => {
                         countryCodeEditable={false}
                         excludeCountries={['pk']}
                       />
+                       <input type="hidden" value={defaultCountryName} name="countryName" />
                       {errors.phone && <div className="text-danger">{errors.phone}</div>}
                     </div>
 
