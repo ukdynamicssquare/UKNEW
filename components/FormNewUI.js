@@ -18,7 +18,7 @@ const FormNewUIBackTest = () => {
     message: '',
     job: '',
     service: '',
-    countryName:'USA',
+    countryName:'',
     currentPageUrl: '',
     formtag: 'Contact Us Form'
   });
@@ -26,17 +26,6 @@ const FormNewUIBackTest = () => {
   const [submitting, setSubmitting] = useState(false);
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
-
-
-
-
-  useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-  }, [currentPageUrl]);
-
-  useEffect(() => {
-    setCurrentPageUrl(window.location.href);
-  }, []);
 
   /*auto fetch*/
   useEffect(() => {
@@ -66,6 +55,24 @@ const FormNewUIBackTest = () => {
         setDefaultCountryCode('gb');
       });
   };
+
+
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, defaultCountryName }));
+  }, [defaultCountryName]);
+
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+    setDefaultCountryName(defaultCountryName);
+  }, []);
+
+
+
+
 
 
 
