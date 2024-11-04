@@ -62,7 +62,7 @@ const FormNewUIBackTest = () => {
   }, [currentPageUrl]);
 
   useEffect(() => {
-    setFormData((prevFormData) => ({ ...prevFormData, countryName }));
+    setFormData((prevFormData) => ({ ...prevFormData, defaultCountryName }));
   }, [defaultCountryName]);
 
   useEffect(() => {
