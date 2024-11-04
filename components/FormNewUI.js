@@ -18,8 +18,8 @@ const FormNewUIBackTest = () => {
     message: '',
     job: '',
     service: '',
-    countryName:'',
     currentPageUrl: '',
+    defaultCountryName: '',
     formtag: 'Contact Us Form'
   });
   const [errors, setErrors] = useState({});
@@ -129,8 +129,7 @@ const FormNewUIBackTest = () => {
             message: '',
             job: '',
             service: '',
-            currentPageUrl: '',
-            countryName:'',
+            currentPageUrl: '', 
             formtag: ''
           });
           setTimeout(() => {
