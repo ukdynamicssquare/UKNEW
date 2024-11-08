@@ -8,7 +8,6 @@ const EstimateForm = () => {
     setToggle(!toggle);
   };
 
-  
   return (
     <div style={containerStyle}>
       {/* Assembly Section */}
