@@ -16,7 +16,6 @@ const TestForm = () => {
             <MultiStepFormNew />
 
 
-
             </section>
             <FooterHide />
         </div>
