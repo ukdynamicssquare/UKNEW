@@ -56,6 +56,7 @@ function MyApp({ Component, pageProps }) {
     router.asPath == "/guides/download/pdf-business-central-guide/" ||
     router.asPath == "/schedule-a-demo/" ||
     router.asPath == "/test-form/" ||
+    router.asPath == "/erp-implementation-price-calculator/" ||
     router.asPath == "/schedule-a-demo"
   ) {
     return (

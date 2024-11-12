@@ -13208,6 +13208,189 @@ margin-bottom: 15px;
   
 }
 
+
+/*new code*/
+.x-customa-sd-d{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  margin-bottom: 3px;
+}
+.errp-left{
+  flex: 70% 1;
+  max-width: 70%;
+  width: 70%;
+  background: #f8f8f8;
+  border: 1px solid #ffffff;
+  padding: 30px;
+}
+.errp-left .see-more-less{
+  color: #3c6db3;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.errp-left p{
+  margin-bottom:0px
+}
+.errp-left ul{
+  padding-top: 15px;
+}
+.errp-left ul li{
+  font-size: 14px;
+    margin-bottom: 5px;
+    color: #1d3557;
+}
+.errp-left .t-ti-heads{
+  display: block;
+  font-size: 16px;
+  color: #1d3557;
+  font-weight: 500;
+}
+.errp-right{
+  text-align: center;
+    flex: 30%;
+    max-width: 30%;
+    width: 30%;
+}
+
+.newhh-he{
+  display: flex;
+  justify-content: space-between;
+  background: #f1f0f4;
+    padding: 15px 30px;
+}
+.newhh-he h3{
+  margin-bottom: 0;
+    font-size: 24px;
+    color: #1d3557;
+    font-weight:500
+}
+.newhh-he span{
+  margin-bottom: 0;
+    font-size: 16px;
+    color: #1d3557;
+    font-weight:500;
+    display: inline-block;
+}
+
+.main-heding-large{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.main-heding-large h1{
+  color: var(--color-blue);
+    padding: 0 0 10px;
+}
+.main-heding-large p{
+}
+/* Container for the switch */
+.switch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.erp-new-price-wrper{
+  padding-bottom:300px
+}
+.show-form-btn{
+  text-align: right;
+    margin-right: 50px;
+}
+.show-form-btn .btn{
+  border-radius:25px
+}
+.servay-form-new-erp {
+  padding: 0;
+  width: 60%;
+  padding-top: 40px;
+}
+/* Switch wrapper */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px; /* Adjust width */
+  height: 44px;
+}
+
+/* Hide the checkbox input */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #949494;
+  transition: 0.4s;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+/* The slider when the checkbox is checked (active state) */
+.switch input:checked + .slider {
+  background-color: #1d3557; /* Green when Yes is selected */
+}
+
+/* The slider knob */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  left: 9px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+/* Move the knob to the right when checked */
+.switch input:checked + .slider:before {
+  transform: translateX(46px); /* Move knob to the right when Yes is selected */
+}
+
+/* Text for Yes and No */
+.text-left, .text-right {
+  position: absolute;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-left {
+  left: 10px;
+}
+
+.text-right {
+  right: 10px;
+}
+
+/* Adjust active label text */
+.switch input:checked + .slider .text-left {
+  color: #fff; /* Color when Yes is selected */
+}
+
+.switch input:checked + .slider .text-right {
+  color: #fff; /* Color when No is selected */
+}
+
+
+
 @media (max-width:1400px){
   .tt-heading-box.tt-heading-box-two
 {
@@ -13293,90 +13476,3 @@ margin-bottom: 15px;
 
 
 
-/* Container for the switch */
-.switch-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-/* Switch wrapper */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 80px; /* Adjust width */
-  height: 34px;
-}
-
-/* Hide the checkbox input */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: 0.4s;
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 5px;
-}
-
-/* The slider when the checkbox is checked (active state) */
-.switch input:checked + .slider {
-  background-color: #4caf50; /* Green when Yes is selected */
-}
-
-/* The slider knob */
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  border-radius: 50%;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: 0.4s;
-}
-
-/* Move the knob to the right when checked */
-.switch input:checked + .slider:before {
-  transform: translateX(46px); /* Move knob to the right when Yes is selected */
-}
-
-/* Text for Yes and No */
-.text-left, .text-right {
-  position: absolute;
-  font-size: 12px;
-  color: white;
-  font-weight: bold;
-}
-
-.text-left {
-  left: 10px;
-}
-
-.text-right {
-  right: 10px;
-}
-
-/* Adjust active label text */
-.switch input:checked + .slider .text-left {
-  color: #fff; /* Color when Yes is selected */
-}
-
-.switch input:checked + .slider .text-right {
-  color: #fff; /* Color when No is selected */
-}

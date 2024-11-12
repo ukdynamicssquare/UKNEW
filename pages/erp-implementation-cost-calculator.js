@@ -12,7 +12,7 @@ const TestForm = () => {
                 <meta name="robots" content="noindex, nofollow" />
             </Head>
 
-            <section>
+            <section className='erp-new-price-wrper'>
             <MultiStepFormNew />
 
             </section>

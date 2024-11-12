@@ -87,7 +87,7 @@ const MultiStepFormNew = () => {
   };
 
   const handleSubmit = async () => {
-    console.log("handleSubmit triggered"); 
+    console.log("handleSubmit triggered");
     if (!validateStaticFields()) return;
 
     let dynamicData = {};
@@ -139,9 +139,28 @@ const MultiStepFormNew = () => {
     }
   };
 
+  //hide form div
+  // State to track visibility of the content and the button
+  const [showContent, setShowContent] = useState(false);
+
+  const handleButtonClick = () => {
+    // Show the content and hide the button when clicked
+    setShowContent(true);
+  };
+
   return (
-    <section className="ks-pding">
+    <div className="ks-pdingaa">
       <div className="container">
+
+        <div className='row justify-content-center'>
+          <div className='col-lg-10'>
+            <div className='main-heding-large'>
+              <h1>Dynamics 365 Business Central Implementation Price Calculator</h1>
+              <p>Easily create your customized fixed price package by simply selecting the capabilities you want in Dynamics 365 Business Central.</p>
+            </div>
+          </div>
+        </div>
+
         <div className="row justify-content-center shdee">
           <div className="col-lg-10">
             <div className="f-cust-height">
@@ -156,80 +175,95 @@ const MultiStepFormNew = () => {
                   ) : (
                     <>
                       {fetchError && <div className="error-message">{fetchError}</div>} {/* Error handling for fetch */}
+                      <div className='newhh-he'>
+                        <h3>Capabilities</h3>
+                        <span>Select options</span>
+                      </div>
                       {questions.map((question, index) => (
                         <QuestionForm
                           key={index}
                           question={question}
+                          index={index}
                           handleInputChange={handleInputChange}
                           formData={formData}
                           staticErrorMessages={staticErrorMessages} // Pass error messages for dynamic fields
                         />
                       ))}
-                      <form  onSubmit={(e) => e.preventDefault()} className="servay-form-new">
-                        <div className="tt-heading-box tt-heading-box-two">
-                          <h2>Almost there!</h2>
-                          <p>
-                            Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.
-                          </p>
-                        </div>
-                        <div className="mb-3 form-group">
-                          <input
-                            type="text"
-                            name="name"
-                            value={formData.name}
-                            onChange={handleStaticFieldChange}
-                            className="form-control"
-                            placeholder="Name"
-                          />
-                          {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
-                        </div>
-                        <div className="mb-3 form-group">
-                          <input
-                            type="email"
-                            name="email"
-                            value={formData.email}
-                            onChange={handleStaticFieldChange}
-                            className="form-control"
-                            placeholder="Email"
-                          />
-                          {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
-                        </div>
-                        <div className="mb-3 form-group">
-                          <input
-                            type="tel"
-                            name="phone"
-                            value={formData.phone}
-                            onChange={handleStaticFieldChange}
-                            className="form-control"
-                            placeholder="Phone"
-                          />
-                          {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
-                        </div>
-                        <div className="mb-3 form-group">
-                          <input
-                            type="text"
-                            name="company"
-                            value={formData.company}
-                            onChange={handleStaticFieldChange}
-                            className="form-control"
-                            placeholder="Company Name"
-                          />
-                          {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
-                        </div>
-                        <div className="mb-3 form-group dd-fflex">
-                          <input type="checkbox" checked={formData.agreement} onChange={handleAgreementChange} />
-                          <label className="s-fontz">
-                            <span>
-                              I agree to the <a href="/privacy-policy/" target="_blank">Privacy Policy</a> and{' '}
-                              <a href="/terms-of-use/" target="_blank">Terms of Service</a>.
-                            </span>
-                          </label>
-                          {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
-                        </div>
-                        <button type="button" onClick={handleSubmit} className="btn-submit button-group-stylea">
-                          See Your Estimate
-                        </button>
-                      </form>
+                      <div className='show-form-btn'> 
+                        {!showContent && (
+                          <a className='btn btn-get-started' onClick={handleButtonClick}>
+                            Send My Estimate
+                          </a>
+                        )}
+
+                      </div>
+                      {showContent && (
+                        <form onSubmit={(e) => e.preventDefault()} className="servay-form-new servay-form-new-erp">
+                          <div className="tt-heading-boxx tt-heading-box-twox">
+                            <h2>Almost there!</h2>
+                            <p>
+                              Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.
+                            </p>
+                          </div>
+                          <div className="mb-3 form-group">
+                            <input
+                              type="text"
+                              name="name"
+                              value={formData.name}
+                              onChange={handleStaticFieldChange}
+                              className="form-control"
+                              placeholder="Name*"
+                            />
+                            {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
+                          </div>
+                          <div className="mb-3 form-group">
+                            <input
+                              type="email"
+                              name="email"
+                              value={formData.email}
+                              onChange={handleStaticFieldChange}
+                              className="form-control"
+                              placeholder="Email*"
+                            />
+                            {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
+                          </div>
+                          <div className="mb-3 form-group">
+                            <input
+                              type="tel"
+                              name="phone"
+                              value={formData.phone}
+                              onChange={handleStaticFieldChange}
+                              className="form-control"
+                              placeholder="Phone*"
+                            />
+                            {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
+                          </div>
+                          <div className="mb-3 form-group">
+                            <input
+                              type="text"
+                              name="company"
+                              value={formData.company}
+                              onChange={handleStaticFieldChange}
+                              className="form-control"
+                              placeholder="Company Name*"
+                            />
+                            {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
+                          </div>
+                          <div className="mb-3 form-group dd-fflex">
+                            <input type="checkbox" checked={formData.agreement} onChange={handleAgreementChange} />
+                            <label className="s-fontz">
+                              <span>
+                                I agree to the <a href="/privacy-policy/" target="_blank">Privacy Policy</a> and{' '}
+                                <a href="/terms-of-use/" target="_blank">Terms of Service</a>.
+                              </span>
+                            </label>
+                            {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
+                          </div>
+                          <button type="button" onClick={handleSubmit} className="btn-submit button-group-stylea">
+                            See Your Estimate
+                          </button>
+                        </form>
+                      )}
                     </>
                   )}
                 </>
@@ -238,56 +272,90 @@ const MultiStepFormNew = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-const QuestionForm = ({ question, handleInputChange, formData, staticErrorMessages }) => {
+const QuestionForm = ({ question, handleInputChange, index, formData, staticErrorMessages }) => {
   const { ques_id, ques_title, ques_details, type, mandatory, options } = question;
 
+  // State to manage whether the content is expanded or collapsed for each question
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  useEffect(() => {
+    // By default, expand the first question (index 0)
+    if (index === 0) {
+      setIsExpanded(true);
+    }
+  }, [index]);
+
+  const toggleDetails = () => {
+    setIsExpanded((prevState) => !prevState);
+  };
+
+
   return (
-    <div className="x-customa-sd">
-      <label className="t-ti-head">
-        {ques_title}
-        {mandatory === '1' && ' *'}
-      </label>
-      <p dangerouslySetInnerHTML={{ __html: ques_details }}></p>
-
-      {type === 'radio' && (
-        <div className="switch-container">
-          <label className="switch">
-            <input
-              type="checkbox"
-              checked={formData[ques_id] === "Yes"}
-              onChange={(e) => handleInputChange(ques_id, e.target.checked ? "Yes" : "No")}
-            />
-            <span className="slider">
-              <span className="text-left">Yes</span>
-              <span className="text-right">No</span>
+    <div className="x-customa-sd-d">
+      <div className="errp-left">
+        <label className="t-ti-heads">
+          {ques_title}
+          {mandatory === '1' && ' *'}
+          <span
+            className="see-more-less"
+            onClick={toggleDetails}
+          >
+            {isExpanded ? ' - See Less' : ' - See More'}
+          </span>
+        </label>
+        <p>
+          {isExpanded ? (
+            <span dangerouslySetInnerHTML={{ __html: ques_details }}></span>
+          ) : (
+            <span>
+              {/* No content shown here initially, just a placeholder or an empty space */}
             </span>
-          </label>
-        </div>
-      )}
+          )}
 
-      {type === 'multi_select' && (
-        <div>
-          {options.map((option, index) => (
-            <div key={index} className="form-check x-custom">
+        </p>
+      </div>
+      <div className='errp-right'>
+        {type === 'radio' && (
+          <div className="switch-container">
+            <label className="switch">
               <input
                 type="checkbox"
-                className="form-check-input"
-                id={`multi-select-${ques_id}-${index}`}
-                value={option}
-                checked={formData[ques_id]?.includes(option)}
-                onChange={(e) => handleInputChange(ques_id, e.target.checked ? [...formData[ques_id], option] : formData[ques_id]?.filter((opt) => opt !== option))}
+                checked={formData[ques_id] === "Yes"}
+                onChange={(e) => handleInputChange(ques_id, e.target.checked ? "Yes" : "No")}
               />
-              <label className="form-check-label" htmlFor={`multi-select-${ques_id}-${index}`}>
-                {option}
-              </label>
-            </div>
-          ))}
-        </div>
-      )}
+              <span className="slider">
+                <span className="text-left">Yes</span>
+                <span className="text-right">No</span>
+              </span>
+            </label>
+          </div>
+        )}
+
+        {type === 'multi_select' && (
+          <div>
+            {options.map((option, index) => (
+              <div key={index} className="form-check x-custom">
+                <input
+                  type="checkbox"
+                  className="form-check-input"
+                  id={`multi-select-${ques_id}-${index}`}
+                  value={option}
+                  checked={formData[ques_id]?.includes(option)}
+                  onChange={(e) => handleInputChange(ques_id, e.target.checked ? [...formData[ques_id], option] : formData[ques_id]?.filter((opt) => opt !== option))}
+                />
+                <label className="form-check-label" htmlFor={`multi-select-${ques_id}-${index}`}>
+                  {option}
+                </label>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
 
       {staticErrorMessages[ques_id] && <div className="error-message">{staticErrorMessages[ques_id]}</div>}
     </div>
