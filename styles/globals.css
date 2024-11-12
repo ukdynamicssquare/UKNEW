@@ -13294,7 +13294,7 @@ margin-bottom: 15px;
   margin-top: 10px;
 }
 .erp-new-price-wrper{
-  padding-bottom:300px
+  /* padding-bottom:300px */
 }
 .show-form-btn{
   text-align: right;
@@ -13332,6 +13332,9 @@ margin-bottom: 15px;
     margin-top: 20px;
     color: #3F51B5;
   
+}
+.pdd-180{
+  padding-bottom: 160px;
 }
 
 /* Hide the checkbox input */
@@ -13421,12 +13424,15 @@ margin-bottom: 15px;
 }
 @media (max-width:1100px){
   
-.servay-form-new {
+/* .servay-form-new {
   padding: 20px 120px 0;
-}
+} */
 
 }
 @media (max-width:992px){
+  .servay-form-new-erp{
+    width:100%
+  }
   .ks-pding {
     padding-top: 150px;
   }
