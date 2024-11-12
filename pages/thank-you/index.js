@@ -26,7 +26,7 @@ const ThankYou = () => {
                 <p>Thank you for contacting Dynamics Square! We’re excited to help you streamline your business with Microsoft Dynamics 365.</p>
                 <p>Our team will be in touch soon to discuss your needs. </p>
                 <p>Until then, stay updated with our latest updates and insights on <a href="https://www.linkedin.com/showcase/dynamics-square-uk/" target="_blank" ><b>LinkedIn</b></a>. </p>
-              <div className="text-left">
+              <div className="text-leftaa">
                 <div>
                   <a href="/" className="btn-get-started scrollto">
                     <span>Back to Home</span>

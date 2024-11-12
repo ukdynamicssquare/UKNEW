@@ -13315,6 +13315,24 @@ margin-bottom: 15px;
   width: 100px; /* Adjust width */
   height: 44px;
 }
+.loading-scrren{
+  width:100%;
+  height:100vh;
+  position:relative
+}
+.loading-scrren>div{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.tt-text-cets h2{
+  font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #3F51B5;
+  
+}
 
 /* Hide the checkbox input */
 .switch input {

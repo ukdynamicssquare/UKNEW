@@ -14,6 +14,7 @@ const MultiStepFormNew = () => {
   const [staticErrorMessages, setStaticErrorMessages] = useState({});
   const [fetchError, setFetchError] = useState(''); // New state for fetch errors
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
   const isValidPhoneNumber = (phone) => /^\d{10,15}$/.test(phone);
@@ -90,6 +91,8 @@ const MultiStepFormNew = () => {
     console.log("handleSubmit triggered");
     if (!validateStaticFields()) return;
 
+    setIsSubmitting(true);
+
     let dynamicData = {};
     questions.forEach((question) => {
       const quesId = question.ques_id.toString();
@@ -123,6 +126,7 @@ const MultiStepFormNew = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(structuredData),
       });
+      setIsSubmitting(false);
 
       if (!response.ok) {
         throw new Error('Failed to submit the form');
@@ -133,9 +137,21 @@ const MultiStepFormNew = () => {
 
       // If response is successful, handle form submission state here
       setSubmitted(true);
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        company: '',
+        agreement: false,
+      });
+      // setQuestions([]);
+      setStaticErrorMessages({});
+
+
     } catch (error) {
       console.error('Submission Error:', error.message); // Log any error if submission fails
       alert('There was an error submitting the form.');
+      setIsSubmitting(false);
     }
   };
 
@@ -164,110 +180,129 @@ const MultiStepFormNew = () => {
         <div className="row justify-content-center shdee">
           <div className="col-lg-10">
             <div className="f-cust-height">
-              {submitted ? (
-                <div className="tt-text-cet">
-                  <h2>Thank you for your submission!</h2>
-                </div>
-              ) : (
-                <>
-                  {loading ? (
-                    <div>Loading...</div>
-                  ) : (
-                    <>
-                      {fetchError && <div className="error-message">{fetchError}</div>} {/* Error handling for fetch */}
-                      <div className='newhh-he'>
-                        <h3>Capabilities</h3>
-                        <span>Select options</span>
+
+              <>
+
+                {loading ? (
+                  <div className='loading-scrren'>
+                    <div>
+                      <div class="spinner-border text-primary" role="status">
+                        <span class="sr-only"></span>
                       </div>
-                      {questions.map((question, index) => (
-                        <QuestionForm
-                          key={index}
-                          question={question}
-                          index={index}
-                          handleInputChange={handleInputChange}
-                          formData={formData}
-                          staticErrorMessages={staticErrorMessages} // Pass error messages for dynamic fields
-                        />
-                      ))}
-                      <div className='show-form-btn'> 
-                        {!showContent && (
-                          <a className='btn btn-get-started' onClick={handleButtonClick}>
-                            Send My Estimate
-                          </a>
+                    </div>
+                  </div>
+                ) : (
+                  <>
+                    {fetchError && <div className="error-message">{fetchError}</div>} {/* Error handling for fetch */}
+                    <div className='newhh-he'>
+                      <h3>Capabilities</h3>
+                      <span>Select options</span>
+                    </div>
+                    {questions.map((question, index) => (
+                      <QuestionForm
+                        key={index}
+                        question={question}
+                        index={index}
+                        handleInputChange={handleInputChange}
+                        formData={formData}
+                        staticErrorMessages={staticErrorMessages} // Pass error messages for dynamic fields
+                      />
+                    ))}
+                    <div className='show-form-btn'>
+                      {!showContent && (
+                        <a className='btn btn-get-started' onClick={handleButtonClick}>
+                          Send My Estimate
+                        </a>
+                      )}
+
+                    </div>
+                    {showContent && (
+                      <form onSubmit={(e) => e.preventDefault()} className="servay-form-new servay-form-new-erp">
+                        <div className="tt-heading-boxx tt-heading-box-twox">
+                          <h2>Almost there!</h2>
+                          <p>
+                            Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.
+                          </p>
+                        </div>
+                        <div className="mb-3 form-group">
+                          <input
+                            type="text"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleStaticFieldChange}
+                            className="form-control"
+                            placeholder="Name*"
+                          />
+                          {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
+                        </div>
+                        <div className="mb-3 form-group">
+                          <input
+                            type="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleStaticFieldChange}
+                            className="form-control"
+                            placeholder="Email*"
+                          />
+                          {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
+                        </div>
+                        <div className="mb-3 form-group">
+                          <input
+                            type="tel"
+                            name="phone"
+                            value={formData.phone}
+                            onChange={handleStaticFieldChange}
+                            className="form-control"
+                            placeholder="Phone*"
+                          />
+                          {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
+                        </div>
+                        <div className="mb-3 form-group">
+                          <input
+                            type="text"
+                            name="company"
+                            value={formData.company}
+                            onChange={handleStaticFieldChange}
+                            className="form-control"
+                            placeholder="Company Name*"
+                          />
+                          {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
+                        </div>
+                        <div className="mb-3 form-group dd-fflex">
+                          <input type="checkbox" checked={formData.agreement} onChange={handleAgreementChange} />
+                          <label className="s-fontz">
+                            <span>
+                              I agree to the <a href="/privacy-policy/" target="_blank">Privacy Policy</a> and{' '}
+                              <a href="/terms-of-use/" target="_blank">Terms of Service</a>.
+                            </span>
+                          </label>
+                          {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
+                        </div>
+                        {/* <button type="button" onClick={handleSubmit} className="btn-submit button-group-stylea">
+                           See Your Estimate
+                         </button> */}
+                        <button type="button" onClick={handleSubmit} className='btn-submit button-group-stylea' >
+                          {isSubmitting ? 'Submitting...' : 'See Your Estimate'}
+                        </button>
+
+                        {submitted ? (
+                          <div className="tt-text-cets">
+                            <h2>Thank you for using our ERP Price Calculator! Your custom estimate has been emailed—please check your inbox.</h2>
+                            <p></p>
+                          </div>
+                        ) : (
+                          <></>
                         )}
 
-                      </div>
-                      {showContent && (
-                        <form onSubmit={(e) => e.preventDefault()} className="servay-form-new servay-form-new-erp">
-                          <div className="tt-heading-boxx tt-heading-box-twox">
-                            <h2>Almost there!</h2>
-                            <p>
-                              Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.
-                            </p>
-                          </div>
-                          <div className="mb-3 form-group">
-                            <input
-                              type="text"
-                              name="name"
-                              value={formData.name}
-                              onChange={handleStaticFieldChange}
-                              className="form-control"
-                              placeholder="Name*"
-                            />
-                            {staticErrorMessages.name && <div className="error-message">{staticErrorMessages.name}</div>}
-                          </div>
-                          <div className="mb-3 form-group">
-                            <input
-                              type="email"
-                              name="email"
-                              value={formData.email}
-                              onChange={handleStaticFieldChange}
-                              className="form-control"
-                              placeholder="Email*"
-                            />
-                            {staticErrorMessages.email && <div className="error-message">{staticErrorMessages.email}</div>}
-                          </div>
-                          <div className="mb-3 form-group">
-                            <input
-                              type="tel"
-                              name="phone"
-                              value={formData.phone}
-                              onChange={handleStaticFieldChange}
-                              className="form-control"
-                              placeholder="Phone*"
-                            />
-                            {staticErrorMessages.phone && <div className="error-message">{staticErrorMessages.phone}</div>}
-                          </div>
-                          <div className="mb-3 form-group">
-                            <input
-                              type="text"
-                              name="company"
-                              value={formData.company}
-                              onChange={handleStaticFieldChange}
-                              className="form-control"
-                              placeholder="Company Name*"
-                            />
-                            {staticErrorMessages.company && <div className="error-message">{staticErrorMessages.company}</div>}
-                          </div>
-                          <div className="mb-3 form-group dd-fflex">
-                            <input type="checkbox" checked={formData.agreement} onChange={handleAgreementChange} />
-                            <label className="s-fontz">
-                              <span>
-                                I agree to the <a href="/privacy-policy/" target="_blank">Privacy Policy</a> and{' '}
-                                <a href="/terms-of-use/" target="_blank">Terms of Service</a>.
-                              </span>
-                            </label>
-                            {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
-                          </div>
-                          <button type="button" onClick={handleSubmit} className="btn-submit button-group-stylea">
-                            See Your Estimate
-                          </button>
-                        </form>
-                      )}
-                    </>
-                  )}
-                </>
-              )}
+
+                      </form>
+                    )}
+                  </>
+                )}
+              </>
+
+
+
             </div>
           </div>
         </div>
