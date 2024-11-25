@@ -22,7 +22,7 @@ const MultiStepFormNew = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/get-all-questions-new/1');
+        const response = await fetch('https://blognew.dynamicssquare.co.uk/api/get-all-questions/1');
         if (!response.ok) throw new Error('Failed to fetch questions');
         const data = await response.json();
         setQuestions(data);
@@ -312,7 +312,7 @@ const MultiStepFormNew = () => {
 };
 
 const QuestionForm = ({ question, handleInputChange, index, formData, staticErrorMessages }) => {
-  const { ques_id, ques_title, ques_details, type, mandatory, options } = question;
+  const { ques_id, ques_title,ques_name, ques_details, type, mandatory, options } = question;
 
   // State to manage whether the content is expanded or collapsed for each question
   const [isExpanded, setIsExpanded] = useState(false);
@@ -333,7 +333,7 @@ const QuestionForm = ({ question, handleInputChange, index, formData, staticErro
     <div className="x-customa-sd-d">
       <div className="errp-left">
         <label className="t-ti-heads">
-          {ques_title}
+          {ques_name}
           {mandatory === '1' && ' *'}
           <span
             className="see-more-less"
