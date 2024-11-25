@@ -335,12 +335,12 @@ const QuestionForm = ({ question, handleInputChange, index, formData, staticErro
         <label className="t-ti-heads">
           {ques_name}
           {mandatory === '1' && ' *'}
-          <span
+          <div
             className="see-more-less"
             onClick={toggleDetails}
           >
             {isExpanded ? ' - See Less' : ' - See More'}
-          </span>
+          </div>
         </label>
         <p>
           {isExpanded ? (
