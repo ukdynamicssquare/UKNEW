@@ -171,8 +171,8 @@ const MultiStepFormNew = () => {
         <div className='row justify-content-center'>
           <div className='col-lg-10'>
             <div className='main-heding-large'>
-              <h1>Dynamics 365 Business Central Implementation Price Calculator</h1>
-              <p>Easily create your customized fixed price package by simply selecting the capabilities you want in Dynamics 365 Business Central.</p>
+              <h1>Dynamics 365 ERP Implementation Price Calculator</h1>
+              <p>Easily create your customised fixed price package by simply selecting the capabilities you want in Dynamics 365 ERP.</p>
             </div>
           </div>
         </div>

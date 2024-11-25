@@ -8,8 +8,30 @@ const TestForm = () => {
     return (
         <div>
             <Head>
-                <title>test form</title>
-                <meta name="robots" content="noindex, nofollow" />
+            <title>ERP Implementation Pricing Calculator</title>
+        <meta
+          name="description"
+          content="Calculate your ERP implementation pricing with our easy-to-use calculator. Get accurate estimates tailored to your business needs. Start planning today!"
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.co.uk/erp-implementation-cost-calculator/"
+        />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ERP Implementation Pricing Calculator" />
+        <meta property="og:description" content="Calculate your ERP implementation pricing with our easy-to-use calculator. Get accurate estimates tailored to your business needs. Start planning today!" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/erp-implementation-cost-calculator/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="ERP Implementation Pricing Calculator" />
+        <meta name="twitter:description" content="Calculate your ERP implementation pricing with our easy-to-use calculator. Get accurate estimates tailored to your business needs. Start planning today!" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/" />
             </Head>
 
             <section>
