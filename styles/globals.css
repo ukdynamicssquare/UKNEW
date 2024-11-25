@@ -13233,7 +13233,9 @@ margin-bottom: 15px;
   margin-left: 20px;
 }
 .errp-left p{
-  margin-bottom:0px
+  margin-bottom:0px;
+  color: #1d3557;
+  font-size: 14px;
 }
 .errp-left ul{
   padding-top: 15px;
