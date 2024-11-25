@@ -196,7 +196,7 @@ const MultiStepFormNew = () => {
                     {fetchError && <div className="error-message">{fetchError}</div>} {/* Error handling for fetch */}
                     <div className='newhh-he'>
                       <h3>Capabilities</h3>
-                      <span>Select options</span>
+                      <span>Select Options</span>
                     </div>
                     {questions.map((question, index) => (
                       <QuestionForm
