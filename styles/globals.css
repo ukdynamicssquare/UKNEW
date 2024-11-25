@@ -13459,6 +13459,9 @@ margin-bottom: 15px;
 }
 }
 @media (max-width:768px){
+  .show-form-btn .btn{
+    font-size: 16px;
+  }
   .newhh-he h3{
     font-size: 18px;
   }
