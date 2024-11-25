@@ -39,9 +39,9 @@ const TestForm = () => {
             </section>
             <section className='erp-new-price-wrper'>
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <div className="col-lg-10 col-md-10">
-                            <header className="section-header" style={{textAlign:'left'}}>
+                            <header className="section-header">
                                 <h2 className="hhd-colo">ERP Implementation Cost Calculator Tool </h2>
                                 <p>Save Time, Get Accurate ERP Pricing </p>
                                 <p>One of the biggest concerns of the businesses is to identify the exact cost of ERP implementation. Because it empowers businesses to optimise their finances, get a transparent view of ERP adaptation, and get a rough estimation of overall cost.   </p>
@@ -55,8 +55,8 @@ const TestForm = () => {
             </section>
             <section className="Solution-business-why custom-pd-1">
                 <div className="container">
-                    <div className="row gx-5">
-                        <div className="col-lg-10 align-self-center">
+                    <div className="row gx-5 justify-content-center">
+                        <div className="col-lg-10 align-self-center" style={{textAlign:'center'}}>
                             <h2 className="hhd-colo">Benefits of the ERP Pricing Calculator </h2>
                             <p>The basics of our ERP ROI calculator are simple. This tool considers the costs of different parameters that come under an ERP implementation and shows you the complete cost implementation. Such parameters are: </p>
                             <p><b>ERP Pricing Calculator</b> = software cost + deployment cost (cloud/on-premises) + customisation cost + number of users + types of license fees + integration cost + software training cost + post implementation support cost. </p>
