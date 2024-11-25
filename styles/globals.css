@@ -13305,8 +13305,9 @@ margin-bottom: 15px;
 
 }
 .show-form-btn .btn{
-  border-radius:25px;
+  border-radius: 50px;
   padding: 0.9rem 3.7rem;
+  font-size: 19px;
 }
 .tt-heading-box-twox{
   text-align:center;
