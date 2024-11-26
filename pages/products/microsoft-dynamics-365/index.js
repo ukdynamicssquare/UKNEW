@@ -68,6 +68,20 @@ const D360 = () => {
 
       <section className="busine_service_bottom custom001">
         <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <header className="section-header">
+                <h2>What Is Microsoft Dynamics 365?</h2>
+                <p>
+                  <Link href="/products/microsoft-dynamics-365/">
+                    <a target="_blank">Microsoft Dynamics 365</a>
+                  </Link>{" "}
+                  is a power pack collection of Microsoft apps and other add-ons to meet the ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) needs. It is a refreshed version of Dynamics Suite that delivers new ways to manage a business. Microsoft not only wants to simplify business management but also wants to redefine the user experience.
+                </p>
+                <p>MS Dynamics 365 enables users to seamlessly manage the finance, handling, sales, purchase, inventory, CRM, manufacturing, and more. Microsoft Dynamics 365 establish the connection between all SaaS (Software as Service) apps and services to transform the communication between the organisation and the customer. It is a cloud-based software solution with the mixed capabilities of ERP and CRM.</p>
+              </header>
+            </div>
+          </div>
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left">
@@ -96,19 +110,8 @@ const D360 = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <div className="side-heading">
-                <h2>
-                  What Is Microsoft Dynamics 365?
-                </h2>
-              </div>
               <div className="custom002">
-                <p>
-                  <Link href="/products/microsoft-dynamics-365/">
-                    <a target="_blank">Microsoft Dynamics 365</a>
-                  </Link>{" "}
-                  is a power pack collection of Microsoft apps and other add-ons to meet the ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) needs. It is a refreshed version of Dynamics Suite that delivers new ways to manage a business. Microsoft not only wants to simplify business management but also wants to redefine the user experience.
-                </p>
-                <p>MS Dynamics 365 enables users to seamlessly manage the finance, handling, sales, purchase, inventory, CRM, manufacturing, and more. Microsoft Dynamics 365 establish the connection between all SaaS (Software as Service) apps and services to transform the communication between the organisation and the customer. It is a cloud-based software solution with the mixed capabilities of ERP and CRM.</p>
+                
                 <ul>
                   <li>Microsoft Dynamics 365 is based on Microsoft Azure, a cloud computing service operated and managed by Microsoft.</li>
                   <li>Azure data centres are available worldwide to make the apps and other integrations connected with you 24/7.</li>
@@ -449,95 +452,107 @@ const D360 = () => {
               </header>
             </div>
           </div>
-          <div className="row g-5">
-            <div className="col-lg-6">
-              <div className="style-grid-1">
+          <div className="row g-3">
+      
+              <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
                   <Image src="/img/group-2122.png" alt="Business-Central" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Business Central</h3>
                   <p>
-                    Business Central: Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability.
+                    Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability.
                   </p>
                   <Link href="/products/dynamics-365-business-central/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
+              </div>
 
-              <div className="style-grid-1">
+              <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
                   <Image src="/img/group-2138.png" alt="Sales" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Sales</h3>
                   <p>
-                    D365 for Sales: Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
+                    Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
                   </p>
                   <Link href="/products/microsoft-dynamics-365-sales/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
+              </div>
 
 
-              <div className="style-grid-1">
+             <div className="col-lg-4 d-flex">
+             <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
                   <Image src="/img/group-2123.png" alt="Finance" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Finance</h3>
                   <p>
-                    D365 Finance: Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI.
+                    Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI.
                   </p>
                   <Link href="/products/microsoft-dynamics-365-finance/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6">
+             </div>
+        
+      
 
 
-              <div className="style-grid-1">
+             <div className="col-lg-4 d-flex">
+             <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
                   <Image src="/img/group-2126.png" alt="Supply-chain" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Supply Chain Management </h3>
                   <p>
-                    D365 Supply Chain: Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
+                    Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
                   </p>
                   <Link href="/products/dynamics-365-supply-chain-management/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
+             </div>
 
-              <div className="style-grid-1">
+             <div className="col-lg-4 d-flex">
+             <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
                   <Image src="/img/group-2136.png" alt="Customer-Service" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Field Service</h3>
                   <p>
-                    D365 Field Service: Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
+                    Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
                   </p>
                   <Link href="/products/microsoft-dynamics-365-field-service/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
+             </div>
 
-              <div className="style-grid-1">
+             <div className="col-lg-4 d-flex">
+             <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
                   <Image src="/img/group-2139.png" alt="Marketing" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Dynamics 365 Marketing</h3>
                   <p>
-                    D365 for Marketing: Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
+                    Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
                   </p>
                   <Link href="/products/microsoft-dynamics-365-marketing/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
+             </div>
 
-            </div>
+           
           </div>
-          <div className="row" style={{ paddingTop: '40px' }}>
-            <div className="col-lg-12">
-              <p><strong>Microsoft Dynamics 365 offers more business management tools to aid you with all business operations like, Microsoft Dynamics 365 Customer Service, Microsoft Dynamics Customer Engagement, Dynamics 365 Commerce, Dynamics 365 Project Operations, and Microsoft Dynamics 365 Human Resources.</strong></p>
+          <div className="row justify-content-center" style={{ paddingTop: '40px' }}>
+            <div className="col-lg-8">
+              <p className="text-center"><strong>Microsoft Dynamics 365 offers more business management tools to aid you with all business operations like, Microsoft Dynamics 365 Customer Service, Microsoft Dynamics Customer Engagement, Dynamics 365 Commerce, Dynamics 365 Project Operations, and Microsoft Dynamics 365 Human Resources.</strong></p>
 
             </div>
           </div>

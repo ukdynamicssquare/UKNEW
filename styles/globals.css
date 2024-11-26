@@ -13424,6 +13424,26 @@ margin-bottom: 15px;
   color: #fff; /* Color when No is selected */
 }
 
+.style-grid-1.style-grid-33{
+  flex: initial;
+  display: block;
+  flex-wrap: wrap;
+  padding: 30px;
+  background: #fffafa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 12%);
+}
+.style-grid-1.style-grid-33 .style-grid-icons{
+  flex: 100%;
+  max-width: 100%;
+  margin-right: 0;
+  margin-bottom: -20px;
+}
+.style-grid-1.style-grid-33 .style-grid-content{
+  flex: 100%;
+  max-width: 100%;
+}
+
 
 
 @media (max-width:1400px){
