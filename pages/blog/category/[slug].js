@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
+// import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 import { useRouter } from 'next/router';
 import Pagination from "../../../components/Pagination";
 import { paginate } from "../../../helpers/paginate";
@@ -151,7 +151,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
         <div className="container">
           <div className="row justify-content-center row-bg">
             <div className="col-lg-6">
-              <div className="form-subscriber-card">
+              {/* <div className="form-subscriber-card">
                 <div className="sub-head">
                   <h3>Join our newsletter</h3>
                   <p>
@@ -161,7 +161,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                   </p>
                 </div>
                 <BlogSubscriberForm />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Head from "next/head";
-import BlogSubscriberForm from "../../components/BlogSubscriberForm";
+// import BlogSubscriberForm from "../../components/BlogSubscriberForm";
 import styles from "../../styles/Home.module.css";
 import Pagination from "../../components/Pagination";
 import { paginate } from "../../helpers/paginate";
 import { useState } from "react";
+import Link from "next/link";
 
 export async function getServerSideProps() {
   const res = await fetch(process.env.BACKEND_URL + "/api/allblog");
@@ -226,7 +227,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                       ))}
                   </div>
                   <div className="col-lg-6 ">
-                    <div className="form-subscriber-card">
+                    {/* <div className="form-subscriber-card">
                       <div className="sub-head">
                         <h3>Join our newsletter</h3>
                         <p>
@@ -236,8 +237,12 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                         </p>
                       </div>
                       <BlogSubscriberForm />
+                    </div> */}
+                     <div className="prom-bann" style={{textAlign:'center'}}>
+                      <Link href="/schedule-a-demo/"><a target="_blank" style={{ marginBottom: '20px', display: 'block' }}><Image src="/img/blog-side-pic-top.png" width={413} height={350} alt="d605-left" /></a></Link>
                     </div>
                   </div>
+                
                 </div>
               </div>
             </div>
@@ -355,7 +360,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
               <div className="container">
                 <div className="row justify-content-center row-bg">
                   <div className="col-lg-6">
-                    <div className="form-subscriber-card">
+                    {/* <div className="form-subscriber-card">
                       <div className="sub-head">
                         <h3>Join our newsletter</h3>
                         <p>
@@ -365,7 +370,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                         </p>
                       </div>
                       <BlogSubscriberForm />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

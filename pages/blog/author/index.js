@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
+// import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 
 export async function getServerSideProps(context) {
   let slug = context.query.slug;

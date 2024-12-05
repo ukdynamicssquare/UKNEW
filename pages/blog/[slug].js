@@ -5,7 +5,7 @@ import parse from "html-react-parser";
 import Image from "next/image";
 import cheerio from 'cheerio';
 import { useRouter } from 'next/router';
-import BlogSubscriberForm from "../../components/BlogSubscriberForm";
+// import BlogSubscriberForm from "../../components/BlogSubscriberForm";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -330,7 +330,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 </div>
               </div>
 
-              <div className="bootom-blogs-sub">
+              {/* <div className="bootom-blogs-sub">
                 <div className="container">
                   <div className="row justify-content-center row-bg">
                     <div className="col-lg-6">
@@ -348,7 +348,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           ))}
       </section>

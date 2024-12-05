@@ -8943,7 +8943,7 @@ ul.checkmark li {
 .blogs-lates h1 a,
 .blogs-lates h2 a,
 .blogs-lates h3 a {
-  font-size: 42px !important;
+  font-size: 32px !important;
   font-weight: bold;
   margin-bottom: 20px;
   color: #1d3557;
@@ -9251,7 +9251,7 @@ ul.checkmark li {
   color: #fff;
 }
 .blogs-lates.blogs-lates-top-head h1 {
-  font-size: 48px !important;
+  font-size: 40px !important;
   font-weight: 700;
   margin-bottom: 20px;
   color: #1d3557;
@@ -9271,11 +9271,11 @@ ul.checkmark li {
   overflow: hidden;
 }
 .blogs-content p {
-  font-size: 18px;
-  line-height: 2;
+  font-size: 17px;
+  line-height: 1.7;
   /* letter-spacing: 0.02px; */
   color: #273266;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs-content h2 {
   font-size: 30px;
@@ -9291,9 +9291,11 @@ ul.checkmark li {
   line-height: 1.25;
   color: #1d3557;
   /* letter-spacing: 0.05px; */
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs-content h4 {
+  color: #273266;
+  margin-bottom: 20px;
 }
 .blogs-content a {
 }
@@ -9304,13 +9306,13 @@ ul.checkmark li {
   line-height: 2;
   /* letter-spacing: 0.02px; */
   color: #273266;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs-content ul li,
 .blogs-content ul li p,
 .blogs-content ul li a,
 .blogs-content ul li p a {
-  font-size: 18px;
+  font-size: 17px;
   /* letter-spacing: 0.02px; */
   margin-bottom: 15px;
 }
@@ -9584,6 +9586,7 @@ ul.checkmark li {
   border: 1px solid #ddd;
   padding: 10px;
   color: #273266;
+  font-size: 17px;
 }
 
 .blogs-ex-side-cate ul {
@@ -9666,7 +9669,7 @@ ul.checkmark li {
 @media (min-width: 1201px) and (max-width: 1400px) {
   .blogs-lates h1 a,
   .blogs-lates.blogs-lates-top-head h1 {
-    font-size: 40px !important;
+    font-size: 32px !important;
   }
   .blogs-lates h2 a,
   .blogs-lates h3 a {

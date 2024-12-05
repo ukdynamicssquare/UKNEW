@@ -2,7 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from 'next/router';
-import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
+// import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 import Pagination from "../../../components/Pagination";
 import { paginate } from "../../../helpers/paginate";
 import { useState } from "react";
@@ -185,7 +185,7 @@ function Authors({authorslist, blgsbyauthorslist }) {
         <div className="container">
           <div className="row justify-content-center row-bg">
             <div className="col-lg-6">
-              <div className="form-subscriber-card">
+              {/* <div className="form-subscriber-card">
                 <div className="sub-head">
                   <h3>Join our newsletter</h3>
                   <p>
@@ -195,7 +195,7 @@ function Authors({authorslist, blgsbyauthorslist }) {
                   </p>
                 </div>
                 <BlogSubscriberForm />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
