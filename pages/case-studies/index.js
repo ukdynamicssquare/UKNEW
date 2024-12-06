@@ -612,6 +612,24 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img src="/img/WH-Scout.jpg" alt="WH-Scout" />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>A leading business in the design and manufacturing of lifting and handling solution has achieved 40% more transparency in sales and stock with Power BI implementation. </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/microsoft-power-bi-implementation/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -664,6 +682,7 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
                 <div
