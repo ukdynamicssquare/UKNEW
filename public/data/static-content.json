@@ -1,0 +1,7 @@
+{
+  "question1": "What service are you interested in?",
+  "options1": ["Option A", "Option B", "Option C"],
+  "responseA": "Here's the information about Option A: We provide top-notch AI solutions tailored for your business.",
+  "responseB": "Here's the information about Option B: We offer comprehensive web development services to boost your online presence.",
+  "responseC": "Here's the information about Option C: Contact us for more details on our customized solutions."
+}
