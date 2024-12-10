@@ -7,6 +7,8 @@ import Header from "../components/Header";
 import CookieConsent from "react-cookie-consent";
 import { useState, useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
+import HeaderWork from "../components/HeaderWork";
+import Footer from "../components/Footer";
 
 // function MyApp({ Component, pageProps }) {
 
@@ -80,6 +82,29 @@ function MyApp({ Component, pageProps }) {
           "Accept", you consent to the use of ALL the cookies. Do not sell my
           personal information.
         </CookieConsent>
+      </>
+    );
+  }
+
+  if (
+    router.asPath == "/newapi/"
+    
+  ) {
+    return (
+      <>
+         <HeaderWork />
+        <Component {...pageProps} />
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          cookieName="myAwesomeCookieName2"
+        >
+          We use cookies on our website to give you the most relevant experience
+          by remembering your preferences and repeat visits. By clicking
+          "Accept", you consent to the use of ALL the cookies. Do not sell my
+          personal information.
+        </CookieConsent>
+        <Footer />
       </>
     );
   }
