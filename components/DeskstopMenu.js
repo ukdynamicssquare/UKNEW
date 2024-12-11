@@ -12,7 +12,7 @@ const DeskstopMenu = () => {
           </a>
           <div className="megamenu-list">
             <div className="left-list">
-              <div className="d-flex align-items-start">
+              <div className="d-flex">
                 <div
                   className="nav flex-column nav-pills me-3"
                   id="v-pills-tab"
@@ -26,7 +26,7 @@ const DeskstopMenu = () => {
                     data-bs-target="#v-pills-home"
                   >
                     <a href="#">
-                      <span>Dynamics 365</span>
+                      <span>By Size</span>
                     </a>
                   </div>
                   <div
@@ -37,7 +37,7 @@ const DeskstopMenu = () => {
                     aria-selected="false"
                   >
                     <a href="#">
-                      <span>Add-Ons</span>
+                      <span>Business Application</span>
                     </a>
                   </div>
                   <div
@@ -48,10 +48,10 @@ const DeskstopMenu = () => {
                     aria-selected="false"
                   >
                     <a href="#">
-                      <span>Azure IoT</span>
+                      <span>Power Platform</span>
                     </a>
                   </div>
-                  <div
+                  {/* <div
                     className="nav-link"
                     id="v-pills-messages-tab"
                     data-bs-toggle="pill"
@@ -61,8 +61,8 @@ const DeskstopMenu = () => {
                     <a href="#">
                       <span>Power Platform</span>
                     </a>
-                  </div>
-                  <div
+                  </div> */}
+                  {/* <div
                     className="nav-link"
                     id="v-pills-settings-tab"
                     data-bs-toggle="pill"
@@ -72,7 +72,7 @@ const DeskstopMenu = () => {
                     <a href="#">
                       <span>Legacy Dynamics</span>
                     </a>
-                  </div>
+                  </div> */}
                   <div
                     className="nav-link"
                     id="v-pills-settingss-tab"
@@ -91,7 +91,89 @@ const DeskstopMenu = () => {
                     id="v-pills-home"
                   >
                     <div className="container">
-                      <div className="row g-1">
+                       <div className="row">
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-azure/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/azure.svg"
+                                  alt="azure"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Microsoft Azure</span>
+                                <p>
+                                  Create secure, future-ready cloud
+                                  solutions
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365/mixed-reality/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/mixed-Reality-icons.svg"
+                                  alt="mixed-Reality-icons"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Mixed Reality</span>
+                                <p>
+                                  Technology that modernises your
+                                  workforce
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-ai/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/AI.svg"
+                                  alt="AI"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Artificial Intelligence</span>
+                                <p>
+                                  Leverage Microsoft's deep learning
+                                  technology
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-sustainability-manager/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/Sustainability-Manager.png"
+                                  alt="AI"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Sustainability Manager</span>
+                                <p>
+                                  Record, report, and reduce the environmental impact
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                     
+                      </div> 
+                      {/* <div className="row g-1">
                         <div className='col-lg-12'>
                           <div className='mm-title'>
                             <p>ERP</p>
@@ -332,12 +414,254 @@ const DeskstopMenu = () => {
                           </div>
                         </div>
 
-                      </div>
+                      </div> */}
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="v-pills-profile">
+                  <div className="tab-pane fade" id="v-pills-addon">
                     <div className="container">
-                      <div className="row">
+                        <div className="row g-1">
+                        <div className='col-lg-12'>
+                          <div className='mm-title'>
+                            <p>ERP</p>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/dynamics-365-business-central/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-businesscentral.svg"
+                                  alt="dynamics-365-businesscentral"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Startup</span>
+                                <p>Everything you need, fast.</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-finance/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-finance.svg"
+                                  alt="dynamics-365-finance"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Finance</span>
+                                <p>Improve your finance practices</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/dynamics-365-supply-chain-management/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-supplychainmanagement.svg"
+                                  alt="dynamics-365-supplychainmanagement"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Supply Chain</span>
+                                <p>
+                                  Optimize operations and drive agile
+                                  Supply Chain
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/dynamics-365-customer-engagement/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-customer-engagement.svg"
+                                  alt="dynamics-365-customer-engagement"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Customer Engagement</span>
+                                <p>
+                                  Improve Your marketing capabilities
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-sales/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-sales.svg"
+                                  alt="dynamics-365-sales"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Sales</span>
+                                <p>
+                                  Drive end-to-end sales practices
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-customer-service/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-customer-service.svg"
+                                  alt="dynamics-365-customer-service"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Customer Service</span>
+                                <p>
+                                  Drive omnichannel customer
+                                  experience
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className='col-lg-12'>
+                          <div className='mm-title'>
+                            <p>CRM-Customer Engagement</p>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-field-service/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-fieldservice.svg"
+                                  alt="dynamics-365-fieldservice"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Field Service</span>
+                                <p>
+                                  Drive connected and collaborated
+                                  field service
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-commerce/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-commerce.svg"
+                                  alt="dynamics-365-commerce"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Commerce</span>
+                                <p>
+                                  Unify Your Back-Office, In-Store,
+                                  And Digital Experience
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/dynamics-365-project-operations/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-project-management.svg"
+                                  alt="dynamics-365-project-management"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Project Operations</span>
+                                <p>
+                                  Automate and streamline your
+                                  projects
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365-marketing/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-marketing.svg"
+                                  alt="dynamics-365-marketing"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Marketing</span>
+                                <p>
+                                  Maximize ROI with integrated
+                                  Marketing
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/dynamics-365-human-resources/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-HRM.svg"
+                                  alt="dynamics-365-HRM"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Human Resource</span>
+                                <p>
+                                  Optimize Your Resource Utilization
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/microsoft-dynamics-365/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/d365-icon.png"
+                                  alt="d365-icon"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Dynamics 365 Suite</span>
+                                <p>Empower the Business with a suite of Advanced Solutions </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+
+                      </div> 
+                      {/* <div className="row">
                         <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/products/azure-iot-hub/">
@@ -457,12 +781,12 @@ const DeskstopMenu = () => {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div
                     className="tab-pane fade"
-                    id="v-pills-messages"
+                    id="v-pills-profile"
                   >
                     <div className="container">
                       <div className="row">
@@ -549,7 +873,7 @@ const DeskstopMenu = () => {
                       </div>
                     </div>
                   </div>
-                  <div
+                  {/* <div
                     className="tab-pane fade"
                     id="v-pills-settings"
                   >
@@ -674,8 +998,8 @@ const DeskstopMenu = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div
+                  </div> */}
+                  {/* <div
                     className="tab-pane fade"
                     id="v-pills-settingss"
                   >
@@ -815,10 +1139,10 @@ const DeskstopMenu = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div
                     className="tab-pane fade"
-                    id="v-pills-addon"
+                    id="v-pills-settingss"
                   >
                     <div className="container">
                       <div className="row">

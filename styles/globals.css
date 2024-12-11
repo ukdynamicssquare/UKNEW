@@ -13660,8 +13660,8 @@ color:#625390 !important
   position:relative
 }
 .pp-absol{
-  position: absolute;
-  bottom: 10px;
+  /* position: absolute;
+  bottom: 10px; */
 }
 .pp-absol a{
   padding:15px
@@ -13669,13 +13669,19 @@ color:#625390 !important
 .pp-absol img{
   width:100%
 }
+.megamenu-new .megamenu-list .left-list .nav-pills {
+  margin-right: 0 !important;
+  flex: 30% 1;
+  max-width: 30%;
+  min-height: 443px;
+}
 .megamenu-new .megamenu-list .tab-content{
   background-color: #f3f2f6 !important;
   border-radius: 0px 8px 8px 8px;
   overflow-y: auto;
-  height: 650px;
+
   min-height: inherit !important;
-  padding-top: 8px !important;
+  padding-top: 15px !important;
 }
 .navbar .dropdown.megamenu.megamenu-new .megamenu-list {
   width: 90%;
@@ -13727,10 +13733,10 @@ color:#625390 !important
 
 @media (max-width:1440px){
   .megamenu-new .megamenu-list .tab-content{
-    height: 500px;
+    height: auto;
   }
  .navbar .dropdown.megamenu.megamenu-new .megamenu-list{
-  height: 530px;
+  height: auto;
   }
 }
 /*enu new  code end*/
