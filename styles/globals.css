@@ -13568,13 +13568,7 @@ margin-bottom: 15px;
   border-radius: 8px 0px 0px 8px !important;
   background-color: #f3f2f6 !important;
 }
-.megamenu-new .megamenu-list .tab-content{
-  background-color: #f3f2f6 !important;
-  border-radius: 0px 8px 8px 8px;
-  overflow-y: auto;
-  height: 650px;
-  min-height: inherit !important;
-}
+
 
 .megamenu-new .megamenu-list .left-list .nav-pills .nav-link  a{
   color:#000 !important
@@ -13675,27 +13669,68 @@ color:#625390 !important
 .pp-absol img{
   width:100%
 }
+.megamenu-new .megamenu-list .tab-content{
+  background-color: #f3f2f6 !important;
+  border-radius: 0px 8px 8px 8px;
+  overflow-y: auto;
+  height: 650px;
+  min-height: inherit !important;
+  padding-top: 8px !important;
+}
 .navbar .dropdown.megamenu.megamenu-new .megamenu-list {
   width: 90%;
   margin: 0 auto;
+  height: auto;
+  overflow-y: scroll;
 }
 /* width */
-.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar {
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar ,.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar {
   width: 4px;
 }
 
 /* Track */
-.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-track {
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-track ,.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
  
 /* Handle */
-.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-thumb {
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-thumb ,.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar-thumb {
   background: #999; 
 }
 
 /* Handle on hover */
-.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-thumb:hover {
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-thumb:hover,.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar-thumb:hover {
   background: #111; 
+}
+
+
+
+/* width */
+.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar-track {
+  background: #fff; 
+}
+ 
+/* Handle */
+.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar-thumb {
+  background: #fff; 
+}
+
+/* Handle on hover */
+.navbar .dropdown.megamenu.megamenu-new .megamenu-list::-webkit-scrollbar-thumb:hover {
+  background: #fff; 
+}
+
+@media (max-width:1440px){
+  .megamenu-new .megamenu-list .tab-content{
+    height: 500px;
+  }
+ .navbar .dropdown.megamenu.megamenu-new .megamenu-list{
+  height: 530px;
+  }
 }
 /*enu new  code end*/
