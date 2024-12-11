@@ -1306,12 +1306,14 @@ const DeskstopMenu = () => {
                   </li>
 
                 </ul>
-                <div className='pp-absol'>
-                  <a href="?"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
-                </div>
+               
               </div>
             </div>
+            <div className='pp-absol'>
+                  <a href="?"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
+                </div>
           </div>
+          
         </li>
 
         <li className="dropdown dropdown-smal-mega">

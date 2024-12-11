@@ -13660,8 +13660,10 @@ color:#625390 !important
   position:relative
 }
 .pp-absol{
-  /* position: absolute;
-  bottom: 10px; */
+  position: absolute;
+  right: 15px;
+  bottom: 3px;
+  width: 300px;
 }
 .pp-absol a{
   padding:15px
