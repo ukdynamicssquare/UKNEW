@@ -13570,10 +13570,12 @@ margin-bottom: 15px;
 }
 .megamenu-new .megamenu-list .tab-content{
   background-color: #f3f2f6 !important;
-}
-.megamenu-new .megamenu-list .tab-content {
   border-radius: 0px 8px 8px 8px;
+  overflow-y: auto;
+  height: 650px;
+  min-height: inherit !important;
 }
+
 .megamenu-new .megamenu-list .left-list .nav-pills .nav-link  a{
   color:#000 !important
   }
@@ -13619,5 +13621,81 @@ color:#625390 !important
   font-size: 14px;
   font-weight: bold;
   color: #000;
+}
+.rigt-list-menu-new{
+
+}
+.rigt-list-menu.rigt-list-menu-new p{
+  font-size: 14px;
+  color: #000;
+}
+.right-list .rigt-list-menu.rigt-list-menu-new li{
+  padding:0px 15px 15px
+}
+.right-list .rigt-list-menu.rigt-list-menu-new li a{
+  display: block;
+  border-radius: 8px;
+  background-color: #f3f2f6;
+  padding: 15px;
+  font-size: 14px;
+  transition:0.4s ease
+}
+.right-list .rigt-list-menu.rigt-list-menu-new li span{
+  display: block
+}
+.rigt-list-menu-new .menu-title-new{
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 3px;
+}
+.rigt-list-menu-new .menu-title-para{
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+.rigt-list-menu-new .menu-title-link{
+  color:#b5101f;
+  text-decoration: underline;
+}
+.rigt-list-menu-new .menu-title-link .bi{}
+.right-list .rigt-list-menu.rigt-list-menu-new li a:hover{
+  color: inherit !important;
+  background: #ffffff;
+  box-shadow: 4px 4px 15px 0px rgb(0 0 0 / 19%);
+}
+.p-relativ{
+  position:relative
+}
+.pp-absol{
+  position: absolute;
+  bottom: 10px;
+}
+.pp-absol a{
+  padding:15px
+}
+.pp-absol img{
+  width:100%
+}
+.navbar .dropdown.megamenu.megamenu-new .megamenu-list {
+  width: 90%;
+  margin: 0 auto;
+}
+/* width */
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-thumb {
+  background: #999; 
+}
+
+/* Handle on hover */
+.megamenu-new .megamenu-list .tab-content::-webkit-scrollbar-thumb:hover {
+  background: #111; 
 }
 /*enu new  code end*/
