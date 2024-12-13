@@ -14,10 +14,10 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Services & Process | Dynamics Square UK</title>
+        <title>Dynamics 365 Implementation Services UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets."
+          content="Dynamics Square provides trusted solutions through a proven Dynamics 365 implementation service to businesses across the UK, as your requirements and budgets."
         />
         <link
           rel="canonical"
@@ -25,14 +25,14 @@ const ImplementationServices = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/" />
-        <meta property="og:title" content="Dynamics 365 Implementation Services Partner" />
-        <meta property="og:description" content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets." />
+        <meta property="og:title" content="Dynamics 365 Implementation Services UK | Dynamics Square" />
+        <meta property="og:description" content="Dynamics Square provides trusted solutions through a proven Dynamics 365 implementation service to businesses across the UK, as your requirements and budgets." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/" />
-        <meta property="twitter:title" content="Dynamics 365 Implementation Services Partner" />
-        <meta property="twitter:description" content="Dynamics Square delivers trusted solutions through a proven Dynamics 365 Implementation process to businesses across the UK, As your requirements & budgets." />
+        <meta property="twitter:title" content="Dynamics 365 Implementation Services UK | Dynamics Square" />
+        <meta property="twitter:description" content="Dynamics Square provides trusted solutions through a proven Dynamics 365 implementation service to businesses across the UK, as your requirements and budgets." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
         
