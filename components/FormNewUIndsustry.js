@@ -5,7 +5,7 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 
 
-const FormNewUI = () => {
+const FormNewUIndsustry = () => {
   const router = useRouter();
   const form = useRef();
   const [currentPageUrl, setCurrentPageUrl] = useState('');
@@ -108,7 +108,7 @@ const FormNewUI = () => {
       setSubmitting(true);
       try {
         // Send form data via EmailJS
-        await emailjs.sendForm('service_x0eo9w8', 'template_20o8u0f', e.target, 'xIFtTfBj6NR498Plv');
+        await emailjs.sendForm('service_x0eo9w8', 'template_e2eswsj', e.target, 'xIFtTfBj6NR498Plv');
 
         const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
           method: 'POST',
@@ -129,7 +129,8 @@ const FormNewUI = () => {
             message: '',
             job: '',
             service: '',
-            currentPageUrl: '', 
+            currentPageUrl: '',
+            companyname: '', 
             formtag: ''
           });
           setTimeout(() => {
@@ -159,17 +160,17 @@ const FormNewUI = () => {
     } else if (!isValidEmail(formData.email)) {
       errors.email = 'Invalid email address';
     }
-    // if (!formData.phone.trim()) {
-    //   errors.phone = 'Phone number is required';
-    // } else if (!isValidPhoneNumber(formData.phone)) {
-    //   errors.phone = 'Invalid phone number';
-    // }
+    if (!formData.phone.trim()) {
+      errors.phone = 'Phone number is required';
+    } else if (!isValidPhoneNumber(formData.phone)) {
+      errors.phone = 'Invalid phone number';
+    }
     if (!formData.companyname.trim()) {
       errors.companyname = 'Company name is required';
     }
-    if (!formData.message.trim()) {
-      errors.message = 'Message is required';
-    }
+    // if (!formData.message.trim()) {
+    //   errors.message = 'Message is required';
+    // }
     // if (!formData.job.trim()) {
     //   errors.job = 'Job title is required';
     // }
@@ -196,7 +197,7 @@ const FormNewUI = () => {
       <div className="main-form-wrper main_form-wrper_contact">
         <form ref={form} onSubmit={handleSubmit}>
           <div className='row'>
-            <div className='col-lg-6'>
+            <div className='col-lg-12'>
               <div className="mb-3 form-group">
                 <input
                   type="text"
@@ -209,24 +210,11 @@ const FormNewUI = () => {
                 />
                 <label htmlFor="name">*Name</label>
                 <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
-                <input type="hidden" value="Contact Us Form" name="formtag" />
+                <input type="hidden" value="Main Form" name="formtag" />
               </div>
               {errors.name && <div className="text-danger">{errors.name}</div>}
             </div>
-            <div className='col-lg-6'>
-              <div className="mb-3 form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder=""
-                  name="job"
-                  value={formData.job}
-                  onChange={handleChange}
-                />
-                <label htmlFor="Job">Job title</label>
-              </div>
-              {errors.job && <div className="text-danger">{errors.job}</div>}
-            </div>
+           
 
             <div className='col-lg-12'>
               <div className="mb-3 form-group">
@@ -285,7 +273,7 @@ const FormNewUI = () => {
               </div>
               {errors.phone && <div className="text-danger">{errors.phone}</div>}
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-12'>
               <div className="mb-3 form-group">
                 <input
                   type="text"
@@ -299,26 +287,7 @@ const FormNewUI = () => {
               </div>
               {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
             </div>
-            <div className='col-lg-6'>
-              <div className="mb-3 form-group">
-                <select
-                  className="form-select"
-                  name="service"
-                  aria-label="Default select example"
-                  value={formData.service}
-                  onChange={handleChange}
-                >
-                  <option disabled hidden value="">
-                    Looking For?
-                  </option>
-                  <option value="Implementation">Implementation</option>
-                  <option value="Upgrade/Migration">Upgrade/Migration</option>
-                  <option value="Support">Support</option>
-                </select>
-
-              </div>
-              {errors.service && <div className="text-danger">{errors.service}</div>}
-            </div>
+          
             <div className='col-lg-12'>
               <div className="mb-3 form-group">
                 <textarea
@@ -368,54 +337,7 @@ const FormNewUI = () => {
             </div>
 
           </div>
-          <div className='row pa-43'>
-            <div className='col-lg-5'>
-              <div className='text-center text-center-ff'>
-                <p>Get in touch Instantly</p>
-                <div className='coant-ii d-flex'>
-                  <div className='icns-boxx'>
-                    <a href="tel:+442071932502" target="_self">
-                      <img src="/img/group_call.png" alt="group_call" />
-                      <span>Call</span>
-                    </a>
-                  </div>
-                  <div className='icns-boxx'>
-                    <a href="mailto:info@dynamicssquare.co.uk">
-                      <img src="/img/group_mail.png" alt="group_mail" />
-                      <span>Email</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-7 align-self-center'>
-              <div className="addre-rigt-new">
-                <div className="cont-info">
-                  <span>
-                    Sales Support:{" "}
-                  </span>
-                  <span> +44 (0) 207 193 2502</span> <br/><span style={{marginLeft:'102px'}}> +44 (0) 203 514 1057</span>
-                
-                </div>
-                <div className="cont-info">
-                  <span>
-                    Technical Support:{" "}
-                  </span>
-                  <span>+44 (0) 207 097 8987 </span>
-                </div>
-                <div className="cont-info">
-                  <span>
-                    <span>
-                      Email Us:{" "}
-                    </span>
-                    <a href="mailto:info@dynamicssquare.co.uk">
-                      info@dynamicssquare.co.uk
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+         
 
         </form>
       </div>
@@ -423,4 +345,4 @@ const FormNewUI = () => {
   );
 }
 
-export default FormNewUI;
+export default FormNewUIndsustry;

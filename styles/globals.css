@@ -12699,6 +12699,86 @@ figure {
   color: rgb(22 41 67) !important;
 }
 
+/*new smb design*/
+.top-banner-new{}
+.top-banner-new h1{
+  color: #63448b;
+  font-size: 15px !important;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.top-banner-new h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: #393053;
+  margin-bottom: 15px;
+}
+.top-banner-new p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #443c68;
+  margin-bottom: 30px;
+}
+.top-banner-new ul{
+  padding-left: 0;
+    list-style: none;
+}
+.top-banner-new ul li{
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #443c68;
+}
+.top-banner-new ul li .bi{
+  color: #b697d7;
+  margin-right: 10px;
+}
+.card-20{
+  background-color: #f1f0f4;
+  padding:25px 16px;
+  border-radius:8px
+}
+.card-20 h3{
+  font-size: 16px;
+  font-weight: bold;
+  color: #393053;
+}
+.card-20 p{
+  margin-bottom:0px;
+  font-size: 15px;
+  line-height: 1.5 !important;
+  color: #443c68;
+}
+.card-21{
+  padding:0px 80px
+}
+.card-21 span{
+  font-size: 29px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+  color: #d73d3d;
+  display:block
+}
+.card-21 h3{
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666a7a;
+}
+.ps-realtive{
+  position: relative;
+  overflow: hidden;
+}
+.sh-border-one{
+  position: absolute;
+  border: 1px dotted #d3d3d3;
+  transform: rotate(90deg);
+}
+
 @media (max-width: 1400px) {
 }
 
