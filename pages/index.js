@@ -1285,9 +1285,9 @@ export default function Home() {
         </section>
         <section>
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-9">
-                <div className="home-side-new-heading">
+                <div className="home-side-new-heading text-center" style={{paddingBottom:"40px"}}>
                   <h2>See how our customers drive impact</h2>
                   <p>By implementing Dynamics 365 Business Applications</p>
                 </div>
@@ -1362,7 +1362,7 @@ export default function Home() {
                   >
                     <SwiperSlide>
                       <div className='row pd-20'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 d-flex'>
                           <div className='test-s-info'>
                             <figure>
                               <Image src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" width={84} height={84} />
@@ -1394,7 +1394,7 @@ export default function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='row pd-20'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 d-flex'>
                           <div className='test-s-info'>
                             <figure>
                               <Image src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" width={84} height={84}  />
@@ -1427,7 +1427,7 @@ export default function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='row pd-20'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 d-flex'>
                           <div className='test-s-info'>
                             <figure>
                               <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
@@ -1459,7 +1459,7 @@ export default function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='row pd-20'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 d-flex'>
                           <div className='test-s-info'>
                             <figure>
                               <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
@@ -1491,7 +1491,7 @@ export default function Home() {
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className='row pd-20'>
-                        <div className='col-lg-7'>
+                        <div className='col-lg-7 d-flex'>
                           <div className='test-s-info'>
                             <figure>
                               <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
