@@ -447,7 +447,7 @@ const MicrosoftCloudForNonprofit = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header-two">
-                  <h2>Check out some of our <br/>case studies</h2>
+                  <h2>Check out some of our <br />case studies</h2>
                 </header>
               </div>
             </div>
@@ -524,21 +524,21 @@ const MicrosoftCloudForNonprofit = () => {
               </div>
 
               <div className="col-lg-12 text-center">
-              <div className="bnt-tras">
-                <a href="/case-studies/">Read more success stories</a>
+                <div className="bnt-tras">
+                  <a href="/case-studies/">Read more success stories</a>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </section>
 
-        <section className="achive-sec">
+        <section className="achive-sec achive-sec-new">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9">
-                <div className="achive-left text-center">
+                <div className="achive-left achive-left-new text-center">
                   <h3>Fuel Your Startup’s Journey with the Right Tools. See How Dynamics Square Can Help</h3>
-    
+
                   <div className="btn-welcome">
                     <Link href="/about-us/">
                       <a
@@ -547,16 +547,26 @@ const MicrosoftCloudForNonprofit = () => {
                         <span>Find out our Approach</span>
                       </a>
                     </Link>
+                    <p style={{ paddingTop: '20px' }}>With no-obligation Free Consultation</p>
                   </div>
                 </div>
               </div>
-              
+
             </div>
-            <div className="row world-achive">
+            <div className='row'>
+              <div className='col-lg-12'>
+                <div class="section-title">
+                  <span class="line"></span>
+                  <h3>About Dynamics Square</h3>
+                  <span class="line"></span>
+                </div>
+              </div>
+            </div>
+            <div className="row world-achive world-achive-center">
               <div className="col-lg-4">
                 <div className="w-achive-l">
                   <figure>
-                  <Image src="/img/group.png" alt="group" width={98} height={98} />
+                    <Image src="/img/group.png" alt="group" width={98} height={98} />
                   </figure>
                 </div>
                 <div className="w-achive-b">
@@ -567,7 +577,7 @@ const MicrosoftCloudForNonprofit = () => {
               <div className="col-lg-4">
                 <div className="w-achive-l">
                   <figure>
-                  <Image src="/img/manage_accounts.png" alt="manage_accounts" width={98} height={98} />
+                    <Image src="/img/manage_accounts.png" alt="manage_accounts" width={98} height={98} />
                   </figure>
                 </div>
                 <div className="w-achive-b">

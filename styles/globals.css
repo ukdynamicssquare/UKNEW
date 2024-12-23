@@ -12907,8 +12907,71 @@ padding:60px 60px
 .btn-get-star:hover{
   background:#ffffff;
 }
+.bordr-heading{
+  display:block;
+  text-align:center
+}
+.bordr-heading h3{
+  color: #bfbace;
+  font-weight: bold;
+  font-size: 32px;
+  position: relative;
+}
+.bordr-heading h3::before{
+  content: "";
+    position: absolute;
+    border: 1px dashed #f3f3f3;
+    width: 100%;
+    left: 0;
+    top: 20px;
+    z-index: -2;
+}
+.bordr-heading h3::after{
+  content: "";
+    position: absolute;
+    background: #7865af;
+    background-image: radial-gradient(circle at 50% -36%, #7865af, #393053 69%);
+    left: 50%;
+    width: 480px;
+    height: 42px;
+    transform: translateX(-50%);
+    top: 0px;
+    z-index: -1;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; 
+  padding: 20px;
+}
+
+.section-title h3 {
+  color:#bfbace;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 40px 0px 40px;
+  display: inline-block;
+    padding: 0px 40px;
+}
+
+.section-title .line {
+  flex: 1;
+  height: 0; 
+  border-top:  2px dashed rgb(149 134 192 / 42%);
+  max-width: 390px; 
+}
+.achive-sec.achive-sec-new{
+  padding: 60px 0px 60px;
+}
 
 @media (max-width: 1400px) {
+  .top-banner-new h2 {
+    font-size: 36px;
+}
+.section-header-two h2 {
+  font-size: 32px;
+}
 }
 
 @media (max-width: 1200px) {
@@ -13023,9 +13086,56 @@ padding:60px 60px
     text-align: center;
     width: 100%;
   }
+  .new-cta-one {
+    padding: 30px 30px;
+    border-radius: 50px;
+}
+.section-header-two h2 {
+  font-size: 24px;
+}
+.achive-sec.achive-sec-new{
+  padding: 40px 15px 0px;
+}
 }
 
 @media (max-width: 768px) {
+  .section-header-two br{
+    display: none;
+  }
+  .world-achive-center{
+    text-align:center
+  }
+  .section-title{
+    gap:0;
+    padding:0;
+  }
+  .world-achive-center .w-achive-b{
+    justify-content: center;
+  }
+  .card-21 {
+    padding: 0px 40px;
+}
+  .world-achive .w-achive-b h4 {
+    font-size: 32px;
+}
+  .section-title h3{
+    padding:0px;
+    display:block;
+    font-size: 24px;
+    text-align:center
+  }
+  .top-banner-new h2 {
+    font-size: 32px;
+}
+  .new-cta-one-body h2{
+    font-size: 28px;
+  }
+  .btn-get-star{
+    padding: .9rem 1rem;
+  }
+  .section-header-two h2, {
+    font-size: 24px;
+}
   .indut-card-one .pic-body h4,
   .indu-heading-cenetr p,
   .ind-index-heading p {

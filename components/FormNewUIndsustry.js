@@ -16,11 +16,9 @@ const FormNewUIndsustry = () => {
     phone: '',
     companyname: '',
     message: '',
-    job: '',
-    service: '',
     currentPageUrl: '',
     defaultCountryName: '',
-    formtag: 'Contact Us Form'
+    formtag: 'Main Form'
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
@@ -127,15 +125,13 @@ const FormNewUIndsustry = () => {
             phone: '',
             defaultCountryName: '',
             message: '',
-            job: '',
-            service: '',
             currentPageUrl: '',
             companyname: '', 
             formtag: ''
           });
           setTimeout(() => {
             router.push('/thank-you/');
-          }, 1000);
+          }, 500);
         } else {
           console.error('Form submission failed');
         }
