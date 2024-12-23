@@ -12976,6 +12976,58 @@ padding:60px 60px
 .achive-sec.achive-sec-new{
   margin-top:0px
 }
+.card-44{
+  border-radius: 8px;
+  background-color: #f1f0f4;
+  padding: 24px 24px 50px;
+  position: relative;
+  transition:.4s ease;
+  border: 1px solid transparent;
+}
+.card-44 .tags-strip{
+  font-size: 14px;
+  font-weight: 600;
+  color: #625390;
+  background: transparent;
+  display: inline-block;
+  border: 1px solid #625390;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  transition:.5s ease
+}
+.card-44 .card-head{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.card-44 .card-head img{}
+.card-44 .card-head h3{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.card-44 .card-body{}
+.card-44 .card-body .cat-float{
+  position: absolute;
+  bottom: 15px;
+}
+.card-44 .card-body .cat-float span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #d73d3d;
+}
+.card-44:hover .tags-strip{
+  background: #625390;
+  color:#fff;
+  border: 1px solid #625390;
+}
+.card-44:hover{
+  border: 1px solid #625390;
+}
+.card-44:hover .cat-float span{
+  color:#625390;
+}
 @media (max-width: 1400px) {
   .top-banner-new h2 {
     font-size: 36px;

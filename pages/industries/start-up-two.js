@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper';
 import FormNewUIndsustry from "../../components/FormNewUIndsustry";
-const MicrosoftCloudFor = () => {
+const MicrosoftCloudForNonpro = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
@@ -34,13 +34,13 @@ const MicrosoftCloudFor = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Dynamics 365 for Startup</h1>
-                <h2>Get Started with Microsoft Solutions to Fuel Your Growth</h2>
-                <p>Discover tools that grow with you, from day one to launch day</p>
+                <h1>Dynamics 365 for Small-Business</h1>
+                <h2>Simplify Your Business Operations with ERP Tailored for Small Businesses!</h2>
+                <p>Revolutionize how your business works with tools built to streamline, scale, and succeed.</p>
                 <ul>
-                  <li><i className="bi bi-check-circle-fill"></i>  Simplified Setup</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  real-time insights</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  flexibility for every growth</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Boost Efficiency</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Reduce costs</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Make smarter decisions</li>
                 </ul>
 
               </div>
@@ -59,8 +59,8 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Challenges</span>
-                  <h2>Unify your Diverse Retail Business with Dynamics 365 for Retail </h2>
-                  <p>Overcoming Startup Challenges with Microsoft ERP Solutions</p>
+                  <h2>Running a Small Business? Here’s What’s Standing in Your Way:</h2>
+                  {/* <p>Overcoming Startup Challenges with Microsoft ERP Solutions</p> */}
                 </header>
               </div>
             </div>
@@ -137,15 +137,110 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Key Solution</span>
-                  <h2>Microsoft Business Central-
-                    Your all-in-one solution for smarter business management</h2>
+                  <h2>A Smarter Way to Run Your Business</h2>
+                </header>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className='col-lg-3 d-flex'>
+                <div className="card-44">
+                  <a href="#">
+                    <p className='tags-strip'>
+                      Core Recommendation
+                    </p>
+                    <div className="card-head">
+                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <h3>Dynamics 365<br/>
+                        Business Central</h3>
+                    </div>
+                    <div className="card-body">
+                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <div className='cat-float'>
+                        <span>Get Started</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className='col-lg-3 d-flex'>
+                <div className="card-44">
+                  <a href="#">
+                    <p className='tags-strip'>
+                      Core Recommendation
+                    </p>
+                    <div className="card-head">
+                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <h3>Dynamics 365<br/>
+                        Business Central</h3>
+                    </div>
+                    <div className="card-body">
+                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <div className='cat-float'>
+                        <span>Get Started</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className='col-lg-3 d-flex'>
+                <div className="card-44">
+                  <a href="#">
+                    <p className='tags-strip'>
+                      Core Recommendation
+                    </p>
+                    <div className="card-head">
+                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <h3>Dynamics 365<br/>
+                        Business Central</h3>
+                    </div>
+                    <div className="card-body">
+                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <div className='cat-float'>
+                        <span>Get Started</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className='col-lg-3 d-flex'>
+                <div className="card-44">
+                  <a href="#">
+                    <p className='tags-strip'>
+                      Core Recommendation
+                    </p>
+                    <div className="card-head">
+                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <h3>Dynamics 365<br/>
+                        Business Central</h3>
+                    </div>
+                    <div className="card-body">
+                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <div className='cat-float'>
+                        <span>Get Started</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <header className="section-header-two">
+                  <span>Features</span>
+                  <h2>Why Choose Dynamics 365 Business Central</h2>
                 </header>
               </div>
             </div>
             <div className="row d-none d-md-block">
               <div className="col-lg-12">
                 <div className="chal-pic-banner">
-                  <img src="/img/smart-busimess-mamangemt.png" alt="smart-busimess-mamangemt" />
+                  <img src="/img/group-35368.png" alt="smart-busimess-mamangemt" />
                 </div>
               </div>
             </div>
@@ -190,7 +285,7 @@ const MicrosoftCloudFor = () => {
                   </div>
                 </div>
                 <div className='abs-pic'>
-                <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
+                  <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
                 </div>
               </div>
 
@@ -613,4 +708,4 @@ const MicrosoftCloudFor = () => {
   );
 };
 
-export default MicrosoftCloudFor;
+export default MicrosoftCloudForNonpro;
