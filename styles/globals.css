@@ -12973,6 +12973,9 @@ padding:60px 60px
     right: -76px;
     width: 330px;
 }
+.achive-sec.achive-sec-new{
+  margin-top:0px
+}
 @media (max-width: 1400px) {
   .top-banner-new h2 {
     font-size: 36px;
