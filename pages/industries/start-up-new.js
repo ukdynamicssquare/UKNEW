@@ -181,7 +181,7 @@ const MicrosoftCloudForNonprofit = () => {
 
         <section>
           <div className="container">
-            <div className="row justify-content-center">
+            <div className="row justify-content-center p-realtive">
               <div className="col-lg-12">
                 <div className="new-cta-one">
                   <div className="new-cta-one-body">
@@ -189,7 +189,11 @@ const MicrosoftCloudForNonprofit = () => {
                     <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">Want to know more?</a>
                   </div>
                 </div>
+                <div className='abs-pic'>
+                <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
+                </div>
               </div>
+
             </div>
           </div>
         </section>

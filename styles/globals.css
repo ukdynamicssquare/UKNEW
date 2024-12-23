@@ -12964,7 +12964,15 @@ padding:60px 60px
 .achive-sec.achive-sec-new{
   padding: 60px 0px 60px;
 }
-
+.p-realtive{
+  position:relative
+}
+.abs-pic{
+  position: absolute;
+    top: -31px;
+    right: -76px;
+    width: 330px;
+}
 @media (max-width: 1400px) {
   .top-banner-new h2 {
     font-size: 36px;
@@ -12975,6 +12983,9 @@ padding:60px 60px
 }
 
 @media (max-width: 1200px) {
+  .abs-pic{
+   display:none
+  }
   .cont-into-bg .addre-rigt:after,
   .cont-into-bg .addre-left:after {
     display: none;
@@ -13088,7 +13099,7 @@ padding:60px 60px
   }
   .new-cta-one {
     padding: 30px 30px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .section-header-two h2 {
   font-size: 24px;
@@ -13128,7 +13139,7 @@ padding:60px 60px
     font-size: 32px;
 }
   .new-cta-one-body h2{
-    font-size: 28px;
+    font-size: 24px;
   }
   .btn-get-star{
     padding: .9rem 1rem;
