@@ -142,8 +142,8 @@ const MicrosoftCloudForNonpro = () => {
               </div>
             </div>
 
-            <div className="row">
-              <div className='col-lg-3 d-flex'>
+            <div className="row g-2">
+              <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
@@ -163,7 +163,7 @@ const MicrosoftCloudForNonpro = () => {
                   </a>
                 </div>
               </div>
-              <div className='col-lg-3 d-flex'>
+              <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
@@ -183,7 +183,7 @@ const MicrosoftCloudForNonpro = () => {
                   </a>
                 </div>
               </div>
-              <div className='col-lg-3 d-flex'>
+              <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
@@ -203,7 +203,7 @@ const MicrosoftCloudForNonpro = () => {
                   </a>
                 </div>
               </div>
-              <div className='col-lg-3 d-flex'>
+              <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
@@ -233,7 +233,7 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Features</span>
-                  <h2>Why Choose Dynamics 365 Business Central</h2>
+                  <h2>Why Choose Dynamics 365 Business Central</h2>eatures
                 </header>
               </div>
             </div>
@@ -284,9 +284,9 @@ const MicrosoftCloudForNonpro = () => {
                     <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">Want to know more?</a>
                   </div>
                 </div>
-                <div className='abs-pic'>
+                {/* <div className='abs-pic'>
                   <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
-                </div>
+                </div> */}
               </div>
 
             </div>

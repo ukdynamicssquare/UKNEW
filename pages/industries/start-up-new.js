@@ -189,9 +189,9 @@ const MicrosoftCloudFor = () => {
                     <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">Want to know more?</a>
                   </div>
                 </div>
-                <div className='abs-pic'>
+                {/* <div className='abs-pic'>
                 <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
-                </div>
+                </div> */}
               </div>
 
             </div>
