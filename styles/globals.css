@@ -13028,6 +13028,11 @@ padding:60px 60px
 .card-44:hover .cat-float span{
   color:#625390;
 }
+@media (max-width: 1600px){
+  .cc-height{
+    height:100px
+  }
+}
 @media (max-width: 1400px) {
   .top-banner-new h2 {
     font-size: 36px;

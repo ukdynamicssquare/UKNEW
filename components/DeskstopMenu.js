@@ -417,7 +417,7 @@ const DeskstopMenu = () => {
                       </div> */}
                     </div>
                   </div>
-                  <div className="tab-pane fade" id="v-pills-addon">
+                  <div className="tab-pane cc-height fade" id="v-pills-addon">
                     <div className="container">
                         <div className="row g-1">
                         <div className='col-lg-12'>
