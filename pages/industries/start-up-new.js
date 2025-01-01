@@ -35,12 +35,12 @@ const MicrosoftCloudFor = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>Dynamics 365 for Startup</h1>
-                <h2>Get Started with Microsoft Solutions to Fuel Your Growth</h2>
-                <p>Discover tools that grow with you, from day one to launch day</p>
+                <h2>Scale Smarter, Grow Faster with Microsoft Solutions</h2>
+                <p>Acquire tools that can help your business evolve from your first day to your breakthrough success.</p>
                 <ul>
-                  <li><i className="bi bi-check-circle-fill"></i>  Simplified Setup</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  real-time insights</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  flexibility for every growth</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Effortless Setup</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Real-Time Data Insights</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Scalable Solutions for Growth</li>
                 </ul>
 
               </div>
@@ -59,7 +59,7 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Challenges</span>
-                  <h2>Unify your Diverse Retail Business with Dynamics 365 for Retail </h2>
+                  <h2>Tackling Startup Hurdles with Microsoft ERP Solutions</h2>
                   <p>Overcoming Startup Challenges with Microsoft ERP Solutions</p>
                 </header>
               </div>
@@ -74,58 +74,58 @@ const MicrosoftCloudFor = () => {
               <div className="dashed-border"></div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Tight Budgets and Resource Crunches</h3>
+                  <p>No hefty upfront costs! No overextending of your budget! Set your business up for success by acquiring enterprise-grade tools with startup-friendly pricing options.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>38% </span>oof startups fail due to cash flow problems</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Data Silos and Disconnected Systems</h3>
+                  <p>Bid adieu to scattered tools and fragmented information. Integrate your operations on a unified platform to enable seamless data flow and informed decision-making.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>82% </span>of organizations report challenges with data integration.</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Manual Workflows and Inefficiencies</h3>
+                  <p>Reduce administrative burden with automation. Focus on innovation while your routine tasks handle themselves.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>40%  </span>increase in productivity due to automation</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Compliance and Regulatory Demands</h3>
+                  <p>Stay ahead of legal and regulatory requirements with built-in tools for reporting and compliance management—no stress, no hassle.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>56%  </span>of startups find regulatory compliance burdensome</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Resource Constraints and Project Management</h3>
+                  <p>Maximize efficiency by allocating resources smartly and tracking projects in real-time, ensuring smooth operations even with a lean team.</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-12 text-center">
               <div className="bnt-tras">
-                <a href="">Read More</a>
+                <a href="#">Explore More!</a>
               </div>
             </div>
 
@@ -137,8 +137,7 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Key Solution</span>
-                  <h2>Microsoft Business Central-
-                    Your all-in-one solution for smarter business management</h2>
+                  <h2>Microsoft Dynamics 365 Business Central—Your Comprehensive Solution for Smarter Business Management</h2>
                 </header>
               </div>
             </div>
@@ -153,24 +152,24 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-12">
                 <div className="card-233">
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>AI-Powered Assistance</h3>
+                    <p>Get intelligent, context-driven insights to streamline tasks and improve decisions.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Live Data Insights</h3>
+                    <p>Access real-time performance metrics for sales, finances, and inventory.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Actionable Alerts</h3>
+                    <p>Get notified for critical tasks, pending approvals, and probable issues.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Financial Mastery</h3>
+                    <p>Effortlessly keep track of cash flow, manage budgets, and supervise accounts with confidence.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Seamless Integrations</h3>
+                    <p>Easily connect Microsoft tools like Teams, Office, and third-party apps to get more done.</p>
                   </div>
                 </div>
               </div>
@@ -185,8 +184,8 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-12">
                 <div className="new-cta-one">
                   <div className="new-cta-one-body">
-                    <h2>You can <span>save upto 40%</span> on implementation and upgrade costs!</h2>
-                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">Want to know more?</a>
+                    <h2> <span>Save upto 40%</span> on deployment and upgrade costs!</h2>
+                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">See How It Works for Your Startup?</a>
                   </div>
                 </div>
                 {/* <div className='abs-pic'>
@@ -204,7 +203,8 @@ const MicrosoftCloudFor = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Use Cases</span>
-                  <h2>See how our customers drive impact</h2>
+                  <h2>See How Startups Drive Impact with Dynamics 365</h2>
+                  <p>Join a growing community of startups making use of Microsoft tools to transform challenges into opportunities. Hear their success stories.</p>
                 </header>
               </div>
             </div>

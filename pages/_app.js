@@ -87,7 +87,8 @@ function MyApp({ Component, pageProps }) {
   }
 
   if (
-    router.asPath == "/newapi/"
+    router.asPath == "/newapi/" ||
+    router.asPath == "/industries/start-up-new/"
     
   ) {
     return (
