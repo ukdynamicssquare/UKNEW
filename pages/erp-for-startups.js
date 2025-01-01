@@ -34,7 +34,7 @@ const ErpMicrosoftCloudFor = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Dynamics 365 for Startup</h1>
+                <h1>Dynamics 365 ERP for Startup</h1>
                 <h2>Scale Smarter, Grow Faster with Microsoft Solutions</h2>
                 <p>Acquire tools that can help your business evolve from your first day to your breakthrough success.</p>
                 <ul>
