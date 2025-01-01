@@ -9,21 +9,21 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper';
-import FormNewUIndsustry from "../../components/FormNewUIndsustry";
-const MicrosoftCloudFor = () => {
+import FormNewUIndsustry from "../components/FormNewUIndsustry";
+const ErpMicrosoftCloudFor = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Retail Industry | Dynamics Square</title>
+        <title>Cloud ERP for Startups UK | Dynamics Square</title>
         <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
-          content="Discover how Dynamics Square enhances retail industry success with Dynamics 365, providing AI-driven omni-channel solutions for an exceptional retail experience."
+          content="Find the best ERP solutions for startups! Streamline operations, enhance productivity, and drive growth with tailored ERP systems for small businesses in UK."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-retail/"
+          href="https://www.dynamicssquare.co.uk/erp-for-startups/"
         />
 
       </Head>
@@ -613,4 +613,4 @@ const MicrosoftCloudFor = () => {
   );
 };
 
-export default MicrosoftCloudFor;
+export default ErpMicrosoftCloudFor;
