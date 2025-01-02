@@ -25,7 +25,7 @@ const DeskstopMenu = () => {
                     data-bs-toggle="pill"
                     data-bs-target="#v-pills-home"
                   >
-                    <a href="#">
+                    <a>
                       <span>By Size</span>
                     </a>
                   </div>
@@ -36,7 +36,7 @@ const DeskstopMenu = () => {
                     data-bs-target="#v-pills-addon"
                     aria-selected="false"
                   >
-                    <a href="#">
+                    <a>
                       <span>ERP</span>
                     </a>
                   </div>
@@ -47,7 +47,7 @@ const DeskstopMenu = () => {
                     data-bs-target="#v-pills-CRM"
                     aria-selected="false"
                   >
-                    <a href="#">
+                    <a>
                       <span>CRM</span>
                     </a>
                   </div>
@@ -58,7 +58,7 @@ const DeskstopMenu = () => {
                     data-bs-target="#v-pills-profile"
                     aria-selected="false"
                   >
-                    <a href="#">
+                    <a>
                       <span>Power Platform</span>
                     </a>
                   </div>

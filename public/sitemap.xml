@@ -1677,9 +1677,30 @@
     <lastmod>2024-12-13T14:38:54+00:00</lastmod>
     <priority>0.51</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.dynamicssquare.co.uk/blog/dynamics-365-data-migration-step-by-step/</loc>
     <lastmod>2024-12-26T14:38:54+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/the-role-of-ai-and-erp-in-healthcare/</loc>
+    <lastmod>2025-01-02T14:38:54+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+   <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/why-on-premises-customers-are-moving-to-cloud/</loc>
+    <lastmod>2025-01-02T14:38:54+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+   <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/assortment-management-in-dynamics-365-transforms-retail/</loc>
+    <lastmod>2025-01-02T14:38:54+00:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+   <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/dynamics-365-data-migration-step-by-step/</loc>
+    <lastmod>2025-01-02T14:38:54+00:00</lastmod>
     <priority>0.51</priority>
   </url>
 </urlset>     

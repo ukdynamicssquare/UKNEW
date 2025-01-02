@@ -13961,7 +13961,8 @@ margin-bottom: 15px;
 
 
 .megamenu-new .megamenu-list .left-list .nav-pills .nav-link  a{
-  color:#000 !important
+  color:#000 !important;
+  cursor:pointer
   }
 .megamenu-new .megamenu-list .left-list .nav-pills .nav-link.active a{
 color:#625390 !important
@@ -14077,6 +14078,7 @@ color:#625390 !important
   min-height: 400px !important;
   padding-top: 15px !important;
 }
+
 .navbar .dropdown.megamenu.megamenu-new .megamenu-list {
   width: 90%;
   margin: 0 auto;
