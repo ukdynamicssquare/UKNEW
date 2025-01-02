@@ -37,7 +37,18 @@ const DeskstopMenu = () => {
                     aria-selected="false"
                   >
                     <a href="#">
-                      <span>Business Application</span>
+                      <span>ERP</span>
+                    </a>
+                  </div>
+                  <div
+                    className="nav-link"
+                    id="v-pills-CRM-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#v-pills-CRM"
+                    aria-selected="false"
+                  >
+                    <a href="#">
+                      <span>CRM</span>
                     </a>
                   </div>
                   <div
@@ -420,11 +431,11 @@ const DeskstopMenu = () => {
                   <div className="tab-pane cc-height fade" id="v-pills-addon">
                     <div className="container">
                         <div className="row g-1">
-                        <div className='col-lg-12'>
+                        {/* <div className='col-lg-12'>
                           <div className='mm-title'>
                             <p>ERP</p>
                           </div>
-                        </div>
+                        </div> */}
                         <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/products/dynamics-365-business-central/">
@@ -538,11 +549,21 @@ const DeskstopMenu = () => {
                             </a>
                           </div>
                         </div>
-                        <div className='col-lg-12'>
+                       
+
+                      </div> 
+                      
+                    </div>
+                  </div>
+                  <div className="tab-pane cc-height fade" id="v-pills-CRM">
+                    <div className="container">
+                        <div className="row g-1">
+                        
+                        {/* <div className='col-lg-12'>
                           <div className='mm-title'>
                             <p>CRM-Customer Engagement</p>
                           </div>
-                        </div>
+                        </div> */}
                         <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/products/microsoft-dynamics-365-field-service/">
@@ -661,127 +682,7 @@ const DeskstopMenu = () => {
                         </div>
 
                       </div> 
-                      {/* <div className="row">
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/azure-iot-hub/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/iot-hub.svg"
-                                  alt="iot-hub"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>IoT Hub</span>
-                                <p>
-                                  Connect, monitor, and control
-                                  millions of devices
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/azure-iot-central/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/iot-central.svg"
-                                  alt="iot-central"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>IoT Central</span>
-                                <p>
-                                  Register, connect, and manage
-                                  devices
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/azure-sphere/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/iot-sphere.svg"
-                                  alt="iot-sphere"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>Azure Sphere</span>
-                                <p>
-                                  An embedded security solution for
-                                  your devices
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/azure-iot-edge/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/iot-edge.svg"
-                                  alt="iot-edge"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>IoT Edge</span>
-                                <p>
-                                  Extend cloud business intelligence &
-                                  analytics
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/azure-digital-twins/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/digital-twins.svg"
-                                  alt="digital-twins"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>Digital Twins</span>
-                                <p>
-                                  Create digital representation of IoT
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/azure-machine-learning/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/machine-learning.svg"
-                                  alt="machine-learning"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>Machine Learning</span>
-                                <p>
-                                  Drive improved enterprise grade
-                                  Machine Learning
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      </div> */}
+                      
                     </div>
                   </div>
                   <div
@@ -1272,8 +1173,8 @@ const DeskstopMenu = () => {
                 </div>
               </div>
             </div>
-            <div className="right-list p-relativ">
-              <div className="rigt-list-menu rigt-list-menu-new">
+            <div className="right-list ">
+              <div className="rigt-list-menu rigt-list-menu-new p-relativ">
                 <p>Essential Tool</p>
                 <ul>
                   <li>
@@ -1306,12 +1207,12 @@ const DeskstopMenu = () => {
                   </li>
 
                 </ul>
-               
+                <div className='pp-absol'>
+                  <a href="/"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
+                </div>
               </div>
             </div>
-            <div className='pp-absol'>
-                  <a href="?"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
-                </div>
+           
           </div>
           
         </li>

@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps }) {
 
   if (
     router.asPath == "/newapi/" ||
-    router.asPath == "/erp-for-startup/"
+    router.asPath == "/erp-for-startups/"
     
   ) {
     return (

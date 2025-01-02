@@ -14050,14 +14050,16 @@ color:#625390 !important
   position:relative
 }
 .pp-absol{
-  position: absolute;
+  /* position: absolute;
   right: 15px;
   bottom: 3px;
-  width: 300px;
+  width: 300px; */
+  margin-top: -17px;
+    padding-right: 15px;
 }
-.pp-absol a{
+/* .pp-absol a{
   padding:15px
-}
+} */
 .pp-absol img{
   width:100%
 }
@@ -14065,14 +14067,14 @@ color:#625390 !important
   margin-right: 0 !important;
   flex: 30% 1;
   max-width: 30%;
-  min-height: 443px;
+  /* min-height: 443px; */
 }
 .megamenu-new .megamenu-list .tab-content{
   background-color: #f3f2f6 !important;
   border-radius: 0px 8px 8px 8px;
   overflow-y: auto;
 
-  min-height: inherit !important;
+  min-height: 400px !important;
   padding-top: 15px !important;
 }
 .navbar .dropdown.megamenu.megamenu-new .megamenu-list {
