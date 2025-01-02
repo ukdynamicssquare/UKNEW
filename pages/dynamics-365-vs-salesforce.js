@@ -6,7 +6,7 @@ const Dynamics365vsSalesForce = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 vs Salesforce CRM: Quick Comparison 2024</title>
+        <title>Dynamics 365 vs Salesforce CRM: Quick Comparison 2025</title>
         <meta
           name="description"
           content="Explore a quick comparison of Dynamics 365 vs Salesforce CRM. Check out features, pros and cons and pricing also. Read which one is the best fit for your business needs?"

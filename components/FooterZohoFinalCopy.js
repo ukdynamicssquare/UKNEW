@@ -667,7 +667,7 @@ const FooterZohoFinalCopy = () => {
         </div>
         <div className="container">
           <div className="copyright">
-            &copy; Copyright &nbsp;<span>2024 Dynamics Square.</span>
+            &copy; Copyright &nbsp;<span>2025 Dynamics Square.</span>
             <div className="footer-extra-link">
               <Link href="/terms-of-use/">Terms of Use </Link>
               <Link href="/cookie-policy/">| Cookie </Link>

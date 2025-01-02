@@ -6,7 +6,7 @@ const BCvsFinance = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics NAV vs Business Central (2024) | Dynamics Square UK</title>
+        <title>Microsoft Dynamics NAV vs Business Central (2025) | Dynamics Square UK</title>
         <meta
           name="description"
           content="Dynamics NAV is an established ERP solution. Business Central: a cloud-based, modernised version with enhanced features for SMBs. Choose based on your needs."
@@ -17,7 +17,7 @@ const BCvsFinance = () => {
         />
        <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Dynamics NAV vs Business Central (2024) | Dynamics Square UK" />
+        <meta property="og:title" content="Microsoft Dynamics NAV vs Business Central (2025) | Dynamics Square UK" />
         <meta property="og:description" content="Dynamics NAV is an established ERP solution. Business Central: a cloud-based, modernised version with enhanced features for SMBs. Choose based on your needs." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-customer-service/case-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
@@ -27,7 +27,7 @@ const BCvsFinance = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Microsoft Dynamics NAV vs Business Central (2024) | Dynamics Square UK" />
+        <meta name="twitter:title" content="Microsoft Dynamics NAV vs Business Central (2025) | Dynamics Square UK" />
         <meta name="twitter:description" content="Dynamics NAV is an established ERP solution. Business Central: a cloud-based, modernised version with enhanced features for SMBs. Choose based on your needs." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/nav-vs-business-central.png" />
       </Head>
