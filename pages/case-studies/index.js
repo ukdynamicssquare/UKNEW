@@ -120,6 +120,52 @@ const CategoryList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
+                            src="/img/orth-care.png"
+                            alt="orth-care"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Dynamics Square, we're passionate about empowering businesses to achieve their full potential. 
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/nav-2013-r2-to-business-central-upgrade/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/Summit-Systems.png"
+                            alt="Summit-Systems"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Dynamics Square is a trusted Microsoft Solutions Partner that drives digital transformation for worldwide businesses.
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/microsoft-business-central-implementation/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
                             src="/img/case-studies-1.jpg"
                             alt="crm-trading"
                           />
@@ -469,6 +515,29 @@ const CategoryList = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
+                  <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/orth-care.png"
+                            alt="orth-care"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Dynamics Square, we're passionate about empowering businesses to achieve their full potential. 
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/nav-2013-r2-to-business-central-upgrade/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -566,6 +635,29 @@ const CategoryList = () => {
                   aria-labelledby="v-pills-profile-tab"
                 >
                   <div className="row">
+                  <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/Summit-Systems.png"
+                            alt="Summit-Systems"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Dynamics Square is a trusted Microsoft Solutions Partner that drives digital transformation for worldwide businesses.
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/microsoft-business-central-implementation/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
