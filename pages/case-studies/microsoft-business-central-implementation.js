@@ -30,7 +30,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
 
       setScrollPosition(scrolledPercentage);
 
-      if (scrolledPercentage > 9999 && !showPopup) {
+      if (scrolledPercentage > 10 && !showPopup) {
         setShowPopup(true);
       }
     };
