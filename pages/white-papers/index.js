@@ -59,7 +59,7 @@ const WhitePaper = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 d-flex">
                       <div className="card card-custom-1 p-3">
                         <a
                           href="/white-papers/micorosoft-copilot/"
@@ -81,6 +81,35 @@ const WhitePaper = () => {
                             <a
                               className="btn btn-sm btn-danger"
                               href="/white-papers/micorosoft-copilot/"
+                            >
+                              Read Now
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 d-flex">
+                      <div className="card card-custom-1 p-3">
+                        <a
+                          href="/white-papers/micorosoft-finance/"
+                          className="over-ff text-center"
+                        >
+                          <img
+                            className="card-img-top"
+                            src="/img/finacne-white-paper-category.png"
+                            alt="white paper finance"
+                          />
+                        </a>
+                        <div className="card-body">
+                          <h5 className="card-title">
+                            <a href="/white-papers/micorosoft-finance/">
+                            Dynamics 365 Finance with Copilot WhitePaper
+                            </a>
+                          </h5>
+                          <div className="btn-003 btn-009">
+                            <a
+                              className="btn btn-sm btn-danger"
+                              href="/white-papers/micorosoft-finance/"
                             >
                               Read Now
                             </a>
