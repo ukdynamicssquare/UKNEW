@@ -59,7 +59,7 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Challenges</span>
-                  <h2>Running a Small Business? Here’s What’s Standing in Your Way:</h2>
+                  <h2>Are These Business Hurdles Depriving You of the Success You Deserve?:</h2>
                   {/* <p>Overcoming Startup Challenges with Microsoft ERP Solutions</p> */}
                 </header>
               </div>
@@ -137,7 +137,8 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Key Solution</span>
-                  <h2>A Smarter Way to Run Your Business</h2>
+                  <h2>Smarter Solutions for Growing Businesses</h2>
+                  <p>For a small business, every decision counts! It can be hard to keep track of finances, customer relationships, and growth. Microsoft Dynamics 365 makes these things easier by giving you customised solutions that work in great tandem to facilitate smooth operations. This saves you time and helps you make intelligent choices. Get the tools you need to beat the competition and steer your business to achieve greatness. </p>
                 </header>
               </div>
             </div>
@@ -155,7 +156,7 @@ const MicrosoftCloudForNonpro = () => {
                         Business Central</h3>
                     </div>
                     <div className="card-body">
-                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <p>Streamline operations, manage finances effectively, and integrate seamlessly with other Microsoft tools.</p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -167,15 +168,15 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
-                      Core Recommendation
+                    For CRM Needs
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
                       <h3>Dynamics 365<br/>
-                        Business Central</h3>
+                      Sales</h3>
                     </div>
                     <div className="card-body">
-                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <p>Centralize customer data, track leads, and close deals faster with AI-driven insights and simplified quoting.</p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -187,15 +188,15 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
-                      Core Recommendation
+                    For Marketing Needs
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
                       <h3>Dynamics 365<br/>
-                        Business Central</h3>
+                      Customer Insights</h3>
                     </div>
                     <div className="card-body">
-                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <p>Discover patterns, predict behaviour, and create personalized customer journeys.</p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -207,15 +208,15 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="#">
                     <p className='tags-strip'>
-                      Core Recommendation
+                    To Extend ERP Functionality
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
-                      <h3>Dynamics 365<br/>
-                        Business Central</h3>
+                      <h3>Microsoft <br/>
+                      Power Platform</h3>
                     </div>
                     <div className="card-body">
-                      <p>Streamlines operations, enhances financial management, and integrates seamlessly with Microsoft tools.</p>
+                      <p>Create custom apps, automate repetitive tasks, and visualize key metrics with real-time dashboards.</p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -233,7 +234,7 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Features</span>
-                  <h2>Why Choose Dynamics 365 Business Central</h2>eatures
+                  <h2>Why Choose Dynamics 365?</h2>
                 </header>
               </div>
             </div>
@@ -248,24 +249,24 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-12">
                 <div className="card-233">
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Affordable Solutions, Powerful Returns</h3>
+                    <p>Flexible plans designed to maximize value and deliver measurable returns.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Quick Setup, Easy to Use</h3>
+                    <p>Intuitive interfaces get you up and running fast.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Be More Efficient with Automation</h3>
+                    <p>Streamline workflows, minimize errors, and free up time for strategic priorities.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Centralized Insights</h3>
+                    <p>Access all your data in one place to make better decisions faster.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Limited Budget and Resources</h3>
-                    <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it.</p>
+                    <h3>Adapts as You Scale</h3>
+                    <p>Features that evolve with your business needs, ensuring long-term adaptability.</p>
                   </div>
                 </div>
               </div>
@@ -281,7 +282,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="new-cta-one">
                   <div className="new-cta-one-body">
                     <h2>You can <span>save upto 40%</span> on implementation and upgrade costs!</h2>
-                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">Want to know more?</a>
+                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">See How It Works for Your Business?</a>
                   </div>
                 </div>
                 {/* <div className='abs-pic'>
