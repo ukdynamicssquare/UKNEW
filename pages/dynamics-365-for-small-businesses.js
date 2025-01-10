@@ -9,21 +9,21 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper';
-import FormNewUIndsustry from "../../components/FormNewUIndsustry";
+import FormNewUIndsustry from "../components/FormNewUIndsustry";
 const MicrosoftCloudForNonpro = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Retail Industry | Dynamics Square</title>
+        <title>Dynamics 365 for Small Businesses UK</title>
         <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
-          content="Discover how Dynamics Square enhances retail industry success with Dynamics 365, providing AI-driven omni-channel solutions for an exceptional retail experience."
+          content="Explore Dynamics 365 for small businesses! Boost efficiency, improve customer engagement, and streamline operations with Microsoft's powerful business solutions."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/industries/dynamics-365-for-retail/"
+          href="https://www.dynamicssquare.co.uk/dynamics-365-for-small-businesses/"
         />
 
       </Head>
@@ -35,12 +35,12 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>Dynamics 365 for Small-Business</h1>
-                <h2>Simplify Your Business Operations with ERP Tailored for Small Businesses!</h2>
-                <p>Revolutionize how your business works with tools built to streamline, scale, and succeed.</p>
+                <h2>Imagine, Achieve, and Thrive with Smart Business Solutions</h2>
+                <p>Transform how your business runs with tools designed to streamline processes, scale efficiently, and fuel success.</p>
                 <ul>
-                  <li><i className="bi bi-check-circle-fill"></i>  Boost Efficiency</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  Reduce costs</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  Make smarter decisions</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  •	Accelerate your workflows</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  •	Optimize your spending</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  •	Make data-driven choices</li>
                 </ul>
 
               </div>
