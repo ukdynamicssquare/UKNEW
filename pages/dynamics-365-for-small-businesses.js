@@ -38,9 +38,9 @@ const MicrosoftCloudForNonpro = () => {
                 <h2>Imagine, Achieve, and Thrive with Smart Business Solutions</h2>
                 <p>Transform how your business runs with tools designed to streamline processes, scale efficiently, and fuel success.</p>
                 <ul>
-                  <li><i className="bi bi-check-circle-fill"></i>  •	Accelerate your workflows</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  •	Optimize your spending</li>
-                  <li><i className="bi bi-check-circle-fill"></i>  •	Make data-driven choices</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Accelerate your workflows</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Optimize your spending</li>
+                  <li><i className="bi bi-check-circle-fill"></i>  Make data-driven choices</li>
                 </ul>
 
               </div>
