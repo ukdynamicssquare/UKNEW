@@ -5139,6 +5139,26 @@ section {
   max-width: 85%;
   margin-top: 15px;
 }
+.style-grid-1.style-grid-09{}
+.style-grid-1.style-grid-09 .grid-i-tick{
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px #01297042;
+  -moz-box-shadow: 0 0 10px #01297042;
+  -webkit-box-shadow: 0 0 10px #01297042;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #bb2b36;
+  font-size: 24px;
+}
+.style-grid-1.style-grid-09 .style-grid-icons{
+  flex: 12%;
+  max-width: 12%;
+}
 .style-grid-content h3,
 .style-grid-content h4 {
   font-size: 18px;

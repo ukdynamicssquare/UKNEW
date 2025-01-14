@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Link from "next/link"; 
+import Link from "next/link";
 import Head from 'next/head';
 import Image from 'next/image';
 // import ModalVideo from "react-modal-video";
@@ -53,11 +53,11 @@ const Commerce = () => {
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Commerce = () => {
                 src="/img/commerce-banner.png"
                 alt="Dynamics 365 Commerce-Retail"
                 width={723} height={473}
-                priority = {true}
+                priority={true}
               />
             </div>
           </div>
@@ -493,11 +493,75 @@ const Commerce = () => {
           </div>
         </div>
       </section> */}
-   
+
+      <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Dynamics 365 Commerce</h2>
+            <p>Meet Copilot in Dynamics 365 Commerce, your friendly assistant that makes managing retail a breeze. Microsoft Copilot is designed to make things easier, improve the customer experience, and help you make better business choices.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Personalised Customer Recommendations</h3>
+                  <p>Microsoft Copilot makes product recommendations based on what the customer likes. This makes shopping easier and more fun for your audience, making sure they find what they love.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Efficient Inventory Management</h3>
+                  <p>No more guessing! Copilot keeps an eye on your stock levels and tells you how to avoid stockouts or overstocking scenarios, so your shelves are always just right.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Simplified Content Creation</h3>
+                  <p>Write compelling product descriptions! Copilot helps you write product descriptions and marketing materials, which saves you time and effort while ensuring your marketing content has quality.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Intelligent Sales Insights</h3>
+                  <p>Uncover hidden insights about your business like never before! Copilot gives you useful sales insights that you can use to spot trends and make choices that are based on facts and will help your business grow.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="pricing" className="pricing">
         <div className="container">
-          <header className="section-header">
+        <header className="section-header">
             <h2>Dynamics 365 Commerce pricing</h2>
+
             <p>
               Below, check out the most efficient D365 Commerce pricing for this
               powerful business application.
@@ -540,11 +604,11 @@ const Commerce = () => {
               <div className="price-btn price-btnasd d-flex justify-content-center">
                 <Link href="#exampleModal">
                   <a
-                  data-bs-toggle="modal"
-                  
-                  className="btn-get-red"
-                >
-                  <span>Get Started Now</span></a>
+                    data-bs-toggle="modal"
+
+                    className="btn-get-red"
+                  >
+                    <span>Get Started Now</span></a>
                 </Link>
               </div>
             </div>
@@ -564,11 +628,11 @@ const Commerce = () => {
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get Started Now</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get Started Now</span></a>
                   </Link>
                 </div>
               </div>
