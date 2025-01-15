@@ -140,7 +140,7 @@ const DeskstopMenu = () => {
                         </div>
                         <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
-                            <a href="/products/microsoft-dynamics-365-ai/">
+                            <a href="/dynamics-365-for-medium-businesses/">
                               <div className="pic">
                                 <img
                                   src="/img/menu-icons/group-3535.png"

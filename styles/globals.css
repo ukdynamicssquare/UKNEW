@@ -12860,6 +12860,7 @@ figure {
   padding-bottom: 15px;
   scroll-padding-left: 10%; /* Ensures initial offset for the second card */
 }
+
 .card-233 .card-233-body{
   display: block;
   padding: 20px;
@@ -12885,6 +12886,41 @@ figure {
   white-space: normal; 
   word-wrap: break-word;
   overflow: hidden; 
+}
+.card-234{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:15px
+} 
+.card-234 .card-233-body{
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 25px 0px rgb(68 58 99 / 12%);
+  -moz-box-shadow: 0px 0px 25px 0px rgb(68 58 99 / 12%);
+  box-shadow: 0px 0px 25px 0px rgb(68 58 99 / 12%);
+  padding: 18px;
+  border-radius: 8px;
+}
+.card-234 .card-233-body h3{
+  display: flex;
+      gap: 10px;
+      font-size: 15px;
+      color: #34325d;
+}
+.card-234 .card-233-body h3 span{
+  display: inline-flex;
+      background: #7f7fa5;
+      height: 24px;
+      width: 24px;
+      justify-content: center;
+      align-items: center;
+      margin-left: -11px;
+      color: #fff;
+      font-size: 16px;
+}
+.card-234 .card-233-body p{
+  font-size: 15px;
+    padding-left: 20px;
+    line-height: 1.4;
 }
 
 .new-cta-one{
@@ -13085,6 +13121,9 @@ padding:60px 60px
   }
 }
 @media (max-width: 992px) {
+  .card-234{
+    grid-template-columns: repeat(2, 1fr);
+  }
   .upgrade-box-one {
     margin-bottom: 20px;
   }
@@ -13190,6 +13229,15 @@ padding:60px 60px
 }
 
 @media (max-width: 768px) {
+  .card-234{
+    display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+  }
+  .card-234 .card-233-body{
+    flex: 1 0 85%;
+    margin: 10px 5px;
+  }
   .section-header-two br{
     display: none;
   }
@@ -13892,6 +13940,15 @@ margin-bottom: 15px;
   }
 }
 @media (max-width:768px){
+  .mobie-scroll-small{
+    display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+  }
+  .mobie-scroll-small>*{
+    flex: 1 0 85%;
+  }
   .show-form-btn .btn{
     font-size: 16px;
   }
