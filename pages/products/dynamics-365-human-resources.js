@@ -646,6 +646,68 @@ const HumanResource = () => {
           </div>
         </div>
       </section>
+      <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Dynamics 365 Human Resources</h2>
+            <p>Copilot in Dynamics 365 Human Resources simplifies HR tasks, empowering teams to focus on what matters most, and that is supporting people. It uses AI to make HR processes smarter and more efficient. With Copilot, HR becomes more human, creating better experiences for employees and managers alike.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Effortless Job Descriptions</h3>
+                  <p>Copilot crafts job descriptions based on role requirements, saving time and ensuring your postings are clear, inclusive, and tailored to attract the right talent.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Personalised Onboarding Plans</h3>
+                  <p>It generates onboarding plans customised to each new hire’s role and team, helping them settle in quickly and feel supported from day one.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Smart Policy Summaries</h3>
+                  <p>Complex HR policies are simplified into concise, easy-to-understand summaries, making it easier for employees to find and follow workplace guidelines.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Instant Employee Insights</h3>
+                  <p>Copilot delivers insights into employee engagement, growth opportunities, and retention trends, enabling HR teams to make data-informed decisions that truly benefit the workforce.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">

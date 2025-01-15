@@ -510,6 +510,68 @@ const FieldService = () => {
           </div>
         </div>
       </section> */}
+       <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Dynamics 365 Field Service</h2>
+            <p>Copilot in Dynamics 365 Field Service is your helpful assistant, simplifying complex tasks and making field service operations smoother. With AI-driven suggestions and automation, it empowers teams to work smarter, not harder and deliver exceptional service every day.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Proactive Work Order Suggestions</h3>
+                  <p>Copilot analyses patterns and customer history to recommend the next best actions for work orders, ensuring your team is always one step ahead.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Intelligent Scheduling Assistance</h3>
+                  <p>It helps schedule the right technician with the right skills at the right time, balancing workloads efficiently while keeping customer satisfaction high.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Automated Report Generation</h3>
+                  <p>Creating reports is hassle-free with Copilot. It quickly summarises field data into clear, professional reports, giving your team more time to focus on service.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>On-the-Go Knowledge Sharing</h3>
+                  <p>Technicians can access AI-curated knowledge articles directly in the field, making troubleshooting faster and reducing downtime for customers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">

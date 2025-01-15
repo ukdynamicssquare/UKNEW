@@ -562,6 +562,68 @@ const Index = () => {
           </div>
         </div>
       </section> */}
+       <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Dynamics 365 Supply Chain Management</h2>
+            <p>Copilot in Dynamics 365 Supply Chain Management makes it easy for businesses to handle the complicated aspects of the supply chain. Artificial intelligence (AI) is used to make things easier, more efficient, and run more smoothly everywhere. With Copilot, supply chain management becomes more intuitive, allowing your team to focus on delivering value at every stage.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Smarter Demand Forecasting</h3>
+                  <p>Copilot analyses historical trends and market data to predict demand, helping you optimise inventory levels and reduce overstock or shortages.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Effortless Supplier Communication</h3>
+                  <p>It drafts supplier communications, such as order requests or follow-ups, saving time and maintaining clarity in your supplier relationships.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Proactive Risk Alerts</h3>
+                  <p>Copilot identifies potential supply chain disruptions, like delays or shortages, and provides actionable recommendations to mitigate risks before they impact operations</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Clear Inventory Insights</h3>
+                  <p>It delivers concise inventory summaries, highlighting key metrics like stock availability and reorder points, so you’re always ready to meet customer needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">

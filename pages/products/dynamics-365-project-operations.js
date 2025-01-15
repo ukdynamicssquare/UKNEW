@@ -591,6 +591,68 @@ const ProjectOperations = () => {
           </div>
         </div>
       </section> */}
+       <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Dynamics 365 Project Operations</h2>
+            <p>Copilot in Dynamics 365 Project Operations is your trusted assistant, helping you simplify project management tasks and work smarter. It brings AI-powered efficiency to every step of your project journey. With Copilot, project management becomes simpler and more productive which lets your team focus on delivering value every step of the way.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Effortless Project Planning</h3>
+                  <p>Copilot suggests timelines, resources, and budgets based on historical data, helping you plan projects quickly while staying aligned with goals and constraints.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Smart Resource Recommendations</h3>
+                  <p>It identifies the best-suited team members for tasks based on skills, availability, and past performance, ensuring your projects run smoothly from start to finish.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Quick Financial Insights</h3>
+                  <p>Copilot provides clear financial summaries and makes it easy to keep track of costs, revenues, and profits. This gives you useful information to keep your projects' finances in good shape.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Hassle-Free Status Updates</h3>
+                  <p>It generates concise, professional project status reports by summarising progress, challenges, and milestones, helping you keep stakeholders informed effortlessly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">

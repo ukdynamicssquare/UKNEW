@@ -80,7 +80,7 @@ const ErpMicrosoftCloudFor = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>38% </span>oof startups fail due to cash flow problems</h3>
+                  <h3><span>38% </span>of startups fail due to cash flow problems</h3>
                 </div>
               </div>
               <div className="col-lg-4">

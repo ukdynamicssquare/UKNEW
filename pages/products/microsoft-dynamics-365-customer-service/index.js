@@ -411,6 +411,68 @@ const CustomerService = () => {
           </div>
         </div>
       </section> */}
+       <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Dynamics 365 Customer Service</h2>
+            <p>Copilot in Dynamics 365 Customer Service transforms how teams deliver support. Simplifying tasks and providing AI-driven insights enable quicker resolutions and better customer experiences. With Copilot, customer service becomes more intuitive and impactful, empowering your team to focus on what matters most, and that is, delighting your customers.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Instant Case Summaries</h3>
+                  <p>Copilot summarises case details and customer interactions, giving agents all the context they need to resolve issues efficiently and confidently.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Suggested Responses</h3>
+                  <p>It offers helpful, pre-drafted responses for common queries, allowing agents to reply faster while maintaining a professional and empathetic tone.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Knowledge Article Generation</h3>
+                  <p>Copilot helps turn closed cases into knowledge-based articles, so your team always has the most up-to-date information to help customers. </p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Sentiment Analysis Insights</h3>
+                  <p>It evaluates customer sentiment during interactions, helping agents adjust their approach to foster positive experiences and stronger relationships.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="pricing" className="pricing">
         <div className="container">
           <div className="row justify-content-center">
