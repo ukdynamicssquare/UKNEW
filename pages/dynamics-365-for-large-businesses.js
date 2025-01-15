@@ -16,7 +16,7 @@ const MicrosoftCloudForNonpro = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Small Businesses UK</title>
+        <title>Dynamics 365 for Large Businesses UK</title>
         <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
@@ -24,7 +24,7 @@ const MicrosoftCloudForNonpro = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/dynamics-365-for-medium-businesses/"
+          href="https://www.dynamicssquare.co.uk/dynamics-365-for-large-businesses/"
         />
 
       </Head>
@@ -35,17 +35,16 @@ const MicrosoftCloudForNonpro = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Dynamics 365 for Medium Businesses</h1>
-                <h2>Take your business global with confidence and clarity</h2>
-                <p>Expand without limits! Gain the confidence to succeed in a connected global market.</p>
+                <h1>Dynamics 365 for Large Businesses</h1>
+                <h2>Empower Your Enterprise to Lead on a Global Scale</h2>
+                <p>Accelerate transformation with tools designed to keep your enterprise ahead in a rapidly evolving global market.</p>
                 <ul>
-                  <li><i className="bi bi-check-circle-fill"></i>Faster time-to-market</li>
-                  <li><i className="bi bi-check-circle-fill"></i>Global reach</li>
-                  <li><i className="bi bi-check-circle-fill"></i>Omnichannel customer engagements</li>
-                  <li><i className="bi bi-check-circle-fill"></i>Optimized supply chain</li>
-                  <li><i className="bi bi-check-circle-fill"></i>AI-powered insights</li>
+                  <li><i className="bi bi-check-circle-fill"></i>Accelerated product delivery</li>
+                  <li><i className="bi bi-check-circle-fill"></i>Global operations alignment</li>
+                  <li><i className="bi bi-check-circle-fill"></i>Unified customer engagement strategies</li>
+                  <li><i className="bi bi-check-circle-fill"></i>Resilient and agile supply chains</li>
+                  <li><i className="bi bi-check-circle-fill"></i>Advanced analytics for strategic decision-making</li>
                 </ul>
-
               </div>
               <div className="col-lg-1"></div>
               <div className="col-lg-5 align-self-center">
@@ -62,7 +61,7 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Challenges</span>
-                  <h2>Medium-Sized Business, Big Challenges? Here’s What Might Be Slowing You Down:</h2>
+                  <h2>Big Dreams Throw Great Challenges. Here’s What Could Be Holding You Back: </h2>
                   {/* <p>Overcoming Startup Challenges with Microsoft ERP Solutions</p> */}
                 </header>
               </div>
@@ -77,8 +76,8 @@ const MicrosoftCloudForNonpro = () => {
               <div className="dashed-border"></div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Managing growth effectively</h3>
-                  <p>Balancing growth with stability can be tough, but with the right tools, it becomes achievable.</p>
+                  <h3>Scaling Without Compromise </h3>
+                  <p>Expanding globally often creates challenges in maintaining operational consistency and efficiency. </p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
@@ -88,8 +87,8 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Recruiting and retaining skilled employees</h3>
-                  <p>Hiring and keeping the best talent requires effort and strategy, but it’s key to success.</p>
+                  <h3>Retaining and Developing Talent </h3>
+                  <p>Innovative HR tactics and tools help make sure that employees are happy and loyal, which is important for building a strong workforce. </p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
@@ -99,8 +98,8 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Attracting customers and retaining them</h3>
-                  <p>Finding and keeping happy customers is challenging, but their loyalty is what drives your business.</p>
+                  <h3>Surpassing Customer Expectations </h3>
+                  <p>Meeting rising customer demands across multiple channels is vital for sustained loyalty and growth. </p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
@@ -110,8 +109,8 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Developing new products or innovation</h3>
-                  <p>Innovation can feel overwhelming, but it’s the lifeblood that keeps your business ahead of the competition.</p>
+                  <h3>Innovation in the Face of Complexity </h3>
+                  <p>Balancing operational requirements along with the need to introduce innovation can slow down progress and the ability to respond to market changes. </p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
@@ -121,8 +120,8 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited access to advanced solutions</h3>
-                  <p>Limited resources shouldn’t limit your potential; affordable, powerful solutions can level the playing field.</p>
+                  <h3>Navigating Compliance Across Regions </h3>
+                  <p>Adhering to diverse regulatory frameworks across borders requires robust tools to minimize risk and maintain trust. </p>
                 </div>
               </div>
             </div>
@@ -141,25 +140,25 @@ const MicrosoftCloudForNonpro = () => {
                 <header className="section-header-two">
                   <span>Key Solution</span>
                   <h2>Grow and Thrive with Advanced Business Solutions</h2>
-                  <p>Medium-sized businesses often face growing pains—managing expanding teams, supply chains, and customer expectations. Microsoft Dynamics 365 empowers you to scale confidently, offering real-time insights, automation, and enhanced collaboration. It’s the perfect partner to refine processes and support your ambitions. Focus on what you do best while we help you operate smarter and grow faster.</p>
+                  <p>Large enterprises must overcome intricate challenges, from managing diverse operations to delivering exceptional customer experiences. Microsoft Dynamics 365 offers enterprise-ready tools to optimize your workflows, foster collaboration, and meet business objectives with confidence. </p>
                 </header>
               </div>
             </div>
 
             <div className="row g-2 mobie-scroll-small">
-              <div className='col-lg-3 col-md-6 d-flex'>
+            <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="/products/dynamics-365-business-central/">
+                  <a href="/products/dynamics-365-supply-chain-management/">
                     <p className='tags-strip'>
-                      Core Recommendation
+                    Core Recommendation 
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" width={48} height={48} />
-                      <h3>Dynamics 365<br/>
-                        Business Central</h3>
+                      <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="supplychainmanagement" width={48} height={48} />
+                      <h3>Supply Chain <br/>
+                      Management</h3>
                     </div>
                     <div className="card-body">
-                      <p>Streamlines processes, makes financial management better, and works in tandem with Microsoft tools.</p>
+                      <p>Achieve end-to-end supply chain visibility and form strong supplier relationships with real-time insights. </p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -167,7 +166,7 @@ const MicrosoftCloudForNonpro = () => {
                   </a>
                 </div>
               </div>
-              <div className='col-lg-3 col-md-6 d-flex'>
+              {/* <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-sales/">
                     <p className='tags-strip'>
@@ -186,12 +185,12 @@ const MicrosoftCloudForNonpro = () => {
                     </div>
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-finance/">
                     <p className='tags-strip'>
-                    For Financial Precision
+                    For Operational Excellence 
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-finance.svg" alt="finance" width={48} height={48} />
@@ -199,47 +198,7 @@ const MicrosoftCloudForNonpro = () => {
                       Finance</h3>
                     </div>
                     <div className="card-body">
-                      <p>Automate accounting, improve financial visibility, and ensure compliance with ease.</p>
-                      <div className='cat-float'>
-                        <span>Get Started</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-6 d-flex'>
-                <div className="card-44">
-                  <a href="/products/dynamics-365-supply-chain-management/">
-                    <p className='tags-strip'>
-                    Manufacturing and Supply Chain
-                    </p>
-                    <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="supplychainmanagement" width={48} height={48} />
-                      <h3>Supply Chain <br/>
-                      Management</h3>
-                    </div>
-                    <div className="card-body">
-                      <p>Reimagine operations with demand forecasting, supplier management, and real-time supply chain analytics.</p>
-                      <div className='cat-float'>
-                        <span>Get Started</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div className='col-lg-3 col-md-6 d-flex'>
-                <div className="card-44">
-                  <a href="/products/dynamics-365-human-resources/">
-                    <p className='tags-strip'>
-                    For Workforce Empowerment
-                    </p>
-                    <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-HRM.svg" alt="supplychainmanagement" width={48} height={48} />
-                      <h3>Dynamics 365  <br/>
-                      Human Resources</h3>
-                    </div>
-                    <div className="card-body">
-                      <p>Enhance employee experience, simplify HR processes, and improve workforce productivity.</p>
+                      <p>Gain financial clarity and automate processes to drive better decisions and ensure compliance. </p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -251,7 +210,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-customer-service/">
                     <p className='tags-strip'>
-                    For Customer Excellence
+                    For Exceptional Customer Experiences 
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-customer-service.svg" alt="dynamics-365-customer-service" width={48} height={48} />
@@ -259,7 +218,7 @@ const MicrosoftCloudForNonpro = () => {
                       Customer Service</h3>
                     </div>
                     <div className="card-body">
-                      <p>Deliver exceptional support with AI insights, omnichannel engagement, and seamless case management.</p>
+                      <p>Deliver seamless support across channels with AI-enhanced service and case resolution. </p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -271,7 +230,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-field-service/">
                     <p className='tags-strip'>
-                    For Field Operations
+                    Dynamics 365 Field Service 
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-fieldservice.svg" alt="dynamics-365-fieldservice"  width={48} height={48} />
@@ -279,7 +238,28 @@ const MicrosoftCloudForNonpro = () => {
                       Field Service </h3>
                     </div>
                     <div className="card-body">
-                      <p>Improve on-site service delivery with intelligent scheduling and real-time updates.</p>
+                      <p>Enhance field operations with precise scheduling and live updates to exceed customer expectations. </p>
+                      <div className='cat-float'>
+                        <span>Get Started</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div className='col-lg-3 col-md-6 d-flex'>
+                <div className="card-44">
+                  <a href="#" style={{pointerEvents:'none'}}>
+                    <p className='tags-strip'>
+                    For Seamless Operations 
+                    </p>
+                    <div className="card-head">
+                      <img src="/img/menu-icons/Customer-Insights.png" alt="customer_insights" width={48} height={48} />
+                      <h3>Dynamics 365  <br/>
+                      Electronic Invoicing </h3>
+                    </div>
+                    <div className="card-body">
+                      <p>Gain actionable customer insights to drive engagement and loyalty.</p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -289,17 +269,17 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="/products/microsoft-power-platform/">
+                  <a href="#" style={{pointerEvents:'none'}}>
                     <p className='tags-strip'>
-                    For Productivity Boost
+                    Remote Assist 
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/power-pltform.png" alt="power-apps" width={48} height={48} />
-                      <h3>Microsoft <br/>
-                      Power Platform</h3>
+                      <img src="/img/menu-icons/Customer-Insights.png" alt="customer_insights" width={48} height={48} />
+                      <h3>Dynamics 365  <br/>
+                      Remote Assist  </h3>
                     </div>
                     <div className="card-body">
-                      <p>Build custom apps, automate tasks, and generate real-time dashboards to improve workflows.</p>
+                      <p>Helps empower remote teams with real-time collaboration tools for faster problem-solving. </p>
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -327,6 +307,29 @@ const MicrosoftCloudForNonpro = () => {
                   </a>
                 </div>
               </div>
+
+
+              <div className='col-lg-3 col-md-6 d-flex'>
+                <div className="card-44">
+                  <a href="/products/microsoft-power-platform/">
+                    <p className='tags-strip'>
+                    For Productivity Boost
+                    </p>
+                    <div className="card-head">
+                      <img src="/img/menu-icons/power-pltform.png" alt="power-apps" width={48} height={48} />
+                      <h3>Microsoft <br/>
+                      Power Platform</h3>
+                    </div>
+                    <div className="card-body">
+                      <p>Design custom apps, automate workflows, and visualize data to streamline complex tasks. </p>
+                      <div className='cat-float'>
+                        <span>Get Started</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+             
              
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
@@ -352,7 +355,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="#" style={{pointerEvents:'none'}}> 
                     <p className='tags-strip'>
-                    For Security & Fraud Prevention
+                    For Risk Management 
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/fraud-protection.png" alt="fraud-protection" width={48} height={48} />
@@ -393,69 +396,62 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-12">
                 <div className="card-234">
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Streamlined Growth Management</h3>
-                    <p>Effortlessly manage business expansion with integrated solutions that ensure smooth scaling and profitability.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Seamless Global Growth </h3>
+                    <p>As your business grows, you can use tools that help it run internationally while still being relevant locally. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Talent Empowerment and Retention</h3>
-                    <p>Improve employee experience, streamline HR processes, and retain top talent to support long-term growth.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Workforce Empowerment </h3>
+                    <p>Foster a motivated workforce with intuitive tools for HR management and employee development. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Customer-Centric Innovation</h3>
-                    <p>Easily innovate and improve your products or services based on deep customer insights and AI-driven analytics.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Customer-Centered Innovation </h3>
+                    <p>Keep customers at the forefront by delivering tailored solutions and experiences. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Simplified Financial Management</h3>
-                    <p>Gain full financial control with automated accounting, accurate forecasting, and real-time budget visibility.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Enhanced Financial Oversight </h3>
+                    <p>Simplify complex financial processes with automated insights and comprehensive reporting. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Optimized Supply Chain Visibility</h3>
-                    <p>Address supply chain challenges with real-time insights, accurate demand forecasting, and stronger supplier relationships.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Agile Supply Chain Management </h3>
+                    <p>Adapt quickly to changes with supply chain tools designed for resilience and responsiveness. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Data-Driven Decisions at Your Fingertips</h3>
-                    <p>Leverage AI-powered insights to make informed decisions, predict trends, and unlock new growth opportunities.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Real-Time Insights </h3>
+                    <p>Use advanced analytics to guide decisions and stay ahead of market demands. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Effortless Regulatory Compliance</h3>
-                    <p>Simplify compliance with built-in tools that keep you up-to-date with the latest regulations and requirements.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Simplified Compliance </h3>
+                    <p>Stay up to date with global regulations using integrated compliance tools. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Omnichannel Engagement Made Simple</h3>
-                    <p>Engage customers across all touchpoints with a seamless experience that increases satisfaction and loyalty.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Unified Customer Engagement </h3>
+                    <p>Build trust and loyalty through consistent, multi-channel customer experiences. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Agile and Flexible Solutions</h3>
-                    <p>Adapt easily to changing market demands and evolving business needs with scalable and customizable features.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Flexible and Scalable Solutions </h3>
+                    <p>Tailor Dynamics 365 to meet your unique needs and expand capabilities as your business grows. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Global Expansion with Local Adaptability</h3>
-                    <p>Take your business globally without losing the local touch; kudos to tools that ensure smooth international operations.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Built-In Fraud Detection </h3>
+                    <p>Reduce the risks by using strong tools to stop scams and keep your business safe. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Increased Efficiency with Automation</h3>
-                    <p>Reduce manual work and streamline operations by automating key tasks, freeing up resources for innovation.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Automation That Works </h3>
+                    <p>Free up resources by automating time-intensive processes across departments. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Centralized Collaboration</h3>
-                    <p>Foster teamwork across departments with centralized tools that connect your entire workforce in real-time.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Collaborative Excellence </h3>
+                    <p>Break down silos and enable teams to work together more effectively with centralized solutions. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Real-Time Analytics for Smarter Growth</h3>
-                    <p>Make confident decisions with access to real-time dashboards, tracking KPIs, and performance metrics.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Smarter Business Growth </h3>
+                    <p>Track performance metrics and KPIs to make informed decisions and stay on target. </p>
                   </div>
                   <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Customizable to Fit Your Business</h3>
-                    <p>Tailor the platform to your unique workflows, ensuring the solution adapts to your specific business needs.</p>
+                    <h3><span><i className="bi bi-check2"></i></span>Tools for Global Success </h3>
+                    <p>Operate seamlessly across international borders with adaptable, localized solutions.</p>
                   </div>
-                  <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Integrated Fraud Protection</h3>
-                    <p>Protect your business from fraud with advanced detection tools that ensure a secure operating environment.</p>
-                  </div>
-                  <div className="card-233-body">
-                    <h3><span><i className="bi bi-check2"></i></span>Cost-Effective and Scalable Solutions</h3>
-                    <p>Enjoy significant cost savings with a solution that grows with your business, adapting to new challenges.</p>
-                  </div>
+              
                  
                 </div>
                 
@@ -471,8 +467,8 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-12">
                 <div className="new-cta-one">
                   <div className="new-cta-one-body">
-                    <h2>You can <span>save upto 40%</span> on deployment and upgrade costs!</h2>
-                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">See how it addresses your business challenges and accelerates growth</a>
+                    <h2><span>Save 40% </span> on deployment and upgrade costs!</h2>
+                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">See how this can make a real difference for your business and take it to the next level</a>
                   </div>
                 </div>
                 {/* <div className='abs-pic'>
@@ -827,7 +823,7 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="achive-left achive-left-new text-center">
-                  <h3>Time to Take Your Medium Business Up A Notch with the Right Tools</h3>
+                  <h3>Let’s Move Your Business Forward</h3>
 
                   <div className="btn-welcome">
                     <Link href="/about-us/">
@@ -837,7 +833,7 @@ const MicrosoftCloudForNonpro = () => {
                         <span>Get Started Today!</span>
                       </a>
                     </Link>
-                    <p style={{ paddingTop: '20px' }}>See How Dynamics Square Can Help!</p>
+                    <p style={{ paddingTop: '20px' }}>Ready to simplify complexities, connect globally, and elevate customer experiences?</p>
                   </div>
                 </div>
               </div>
