@@ -82,7 +82,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>77% </span>of business leaders face rising costs when scaling operations</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -93,7 +93,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>46% </span>of leaders face workforce challenges, including talent shortages</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -104,7 +104,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>80% </span>of consumers prioritize experience alongside products or services</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -115,7 +115,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>53% </span>of executives face operational complexities in innovation</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -166,26 +166,7 @@ const MicrosoftCloudForNonpro = () => {
                   </a>
                 </div>
               </div>
-              {/* <div className='col-lg-3 col-md-6 d-flex'>
-                <div className="card-44">
-                  <a href="/products/microsoft-dynamics-365-sales/">
-                    <p className='tags-strip'>
-                    For CRM Needs
-                    </p>
-                    <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-sales.svg" alt="dynamics-365-salesl" width={48} height={48} />
-                      <h3>Dynamics 365<br/>
-                      Sales</h3>
-                    </div>
-                    <div className="card-body">
-                      <p>Facilitates centralized customer data, AI-driven insights, lead tracking, and simplified quoting processes.</p>
-                      <div className='cat-float'>
-                        <span>Get Started</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div> */}
+  
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-finance/">
@@ -210,7 +191,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-customer-service/">
                     <p className='tags-strip'>
-                    For Exceptional Customer Experiences 
+                    For Great Customer Experiences
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-customer-service.svg" alt="dynamics-365-customer-service" width={48} height={48} />

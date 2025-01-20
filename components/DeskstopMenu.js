@@ -116,7 +116,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Startup</span>
-                                <p>Everything you need, fast.</p>
+                                <p>Smart ERP solutions to kickstart your growth</p>
                               </div>
                             </a>
                           </div>
@@ -133,7 +133,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Small Business</span>
-                                <p>Everything you need, fast.</p>
+                                <p>Simplifying business for small, ambitious teams</p>
                               </div>
                             </a>
                           </div>
@@ -150,7 +150,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Mid Size</span>
-                                <p>Automate tasks and delight employees.</p>
+                                <p>Powering growth for mid-sized businesses.</p>
                               </div>
                             </a>
                           </div>
@@ -167,7 +167,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Enterprise</span>
-                                <p>Go global and scale up operations.</p>
+                                <p>Advanced ERP for large, global enterprises</p>
                               </div>
                             </a>
                           </div>
@@ -830,7 +830,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Continia integration</span>
-                                <p>Scan, analyse, and process documents with optimum quality.</p>
+                                <p>Scan, analyse, and process documents with optimum quality</p>
                               </div>
                             </a>
                           </div>
@@ -847,7 +847,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Insight Works</span>
-                                <p>Optimise your inventory and distribution operations effortlessly.</p>
+                                <p>Optimise your inventory and distribution operations effortlessly</p>
                               </div>
                             </a>
                           </div>
@@ -864,7 +864,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Sana Commerce</span>
-                                <p>Avail a cloud e-commerce solution to supercharge your online store.</p>
+                                <p>Avail a cloud e-commerce solution to supercharge your online store</p>
                               </div>
                             </a>
                           </div>
@@ -881,7 +881,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Mobile WMS BC</span>
-                                <p>Optimize your warehouse operations, simplify your inventory management, and boost your profits</p>
+                                <p>Optimize warehouse operations, simplify inventory, boost profits</p>
                               </div>
                             </a>
                           </div>
@@ -898,7 +898,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Continia OCR</span>
-                                <p>Transform your document management, avail seamless document processing and effortlessly manage your documents</p>
+                                <p>Transform document management, streamline processing, manage easily</p>
                               </div>
                             </a>
                           </div>
@@ -915,7 +915,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Continia Expense Management </span>
-                                <p>Monitor your entire corporate expenses while eliminating the chances of manual errors with Continia Expense Management</p>
+                                <p>Monitor corporate expenses, eliminate manual errors with Continia</p>
                               </div>
                             </a>
                           </div>
@@ -932,7 +932,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Shopify Connector</span>
-                                <p>Digitalise your business to serve global customers and earn maximum revenue</p>
+                                <p>Digitalize your business to reach global customers</p>
                               </div>
                             </a>
                           </div>

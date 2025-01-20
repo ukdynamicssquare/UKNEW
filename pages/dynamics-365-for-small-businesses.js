@@ -74,52 +74,52 @@ const MicrosoftCloudForNonpro = () => {
               <div className="dashed-border"></div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Managing Growth vs. Profitability</h3>
+                  <p>Balancing expansion while keeping profitability intact can be daunting without the right tools.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>38% </span>of startups fail because of cash flow</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Disconnected Data and Compliance Woes</h3>
+                  <p>Managing operations and compliance becomes needlessly hard when dealing with fragmented data and spreadsheets.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>82% </span>of organizations struggle with data integration</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Aligning Operations with Strategic Goals</h3>
+                  <p>Turning big plans into actionable results is challenging without streamlined processes.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>40% </span>of productivity boost achieved through automation</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Budget and Resource Constraints</h3>
+                  <p>Advanced tools often feel out of reach due to limited resources.</p>
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>56% </span>of startups find compliance regulations challenging</h3>
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="card-20">
-                  <h3>Limited Budget and Resources</h3>
-                  <p>Get enterprise-level tools at startup-friendly prices. Avoid costly IT setups and pay only for what you need, when you need it."</p>
+                  <h3>Scaling Operations Effectively</h3>
+                  <p>Growth brings complexity; handle it with scalable solutions.</p>
                 </div>
               </div>
             </div>

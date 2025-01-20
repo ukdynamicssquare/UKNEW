@@ -83,7 +83,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>74% </span>of business leaders report rising costs hinder growth</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -94,7 +94,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>46% </span>of medium business leaders face labor shortages</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -105,7 +105,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>22% </span>of small businesses fail due to low demand</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -116,7 +116,7 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className="col-lg-4 align-self-center">
                 <div className="card-21">
-                  <h3><span>29% </span>of startups run out of cash before they can scale</h3>
+                  <h3><span>77% </span>of mid-sized firms find advanced business solutions expensive</h3>
                 </div>
               </div>
               <div className="col-lg-4">
@@ -211,7 +211,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/dynamics-365-supply-chain-management/">
                     <p className='tags-strip'>
-                    Manufacturing and Supply Chain
+                    Manufacturing & Supply Chain
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="supplychainmanagement" width={48} height={48} />
