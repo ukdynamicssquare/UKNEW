@@ -146,7 +146,7 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row g-2">
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="#">
+                  <a href="/products/dynamics-365-business-central/">
                     <p className='tags-strip'>
                       Core Recommendation
                     </p>
@@ -166,12 +166,12 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="#">
+                  <a href="/products/microsoft-dynamics-365-sales/">
                     <p className='tags-strip'>
                     For CRM Needs
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <img src="/img/menu-icons/dynamics-365-sales.svg" alt="businesscentral" />
                       <h3>Dynamics 365<br/>
                       Sales</h3>
                     </div>
@@ -186,12 +186,12 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="#">
+                  <a href="#" style={{pointerEvents:'none'}}>
                     <p className='tags-strip'>
                     For Marketing Needs
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <img src="/img/menu-icons/Customer-Insights.png" alt="businesscentral" />
                       <h3>Dynamics 365<br/>
                       Customer Insights</h3>
                     </div>
@@ -206,12 +206,12 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="#">
+                  <a href="/products/microsoft-power-platform/">
                     <p className='tags-strip'>
                     To Extend ERP Functionality
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <img src="/img/menu-icons/power-pltform.png" alt="businesscentral" />
                       <h3>Microsoft <br/>
                       Power Platform</h3>
                     </div>

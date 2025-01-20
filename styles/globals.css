@@ -12893,12 +12893,15 @@ figure {
   gap:15px
 } 
 .card-234 .card-233-body{
-  background-color: #fff;
+  background-color: #fff; 
+  padding: 18px;
+  border-radius: 8px;
+  transition:.4s ease
+}
+.card-234 .card-233-body:hover{
   -webkit-box-shadow: 0px 0px 25px 0px rgb(68 58 99 / 12%);
   -moz-box-shadow: 0px 0px 25px 0px rgb(68 58 99 / 12%);
   box-shadow: 0px 0px 25px 0px rgb(68 58 99 / 12%);
-  padding: 18px;
-  border-radius: 8px;
 }
 .card-234 .card-233-body h3{
   display: flex;
@@ -12907,14 +12910,13 @@ figure {
       color: #34325d;
 }
 .card-234 .card-233-body h3 span{
-  display: inline-flex;
-      background: #7f7fa5;
+  display: inline-flex; 
       height: 24px;
       width: 24px;
       justify-content: center;
       align-items: center;
       margin-left: -11px;
-      color: #fff;
+      color:  #b5101f;
       font-size: 16px;
 }
 .card-234 .card-233-body p{
