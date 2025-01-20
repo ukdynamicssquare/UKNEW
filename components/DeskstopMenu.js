@@ -920,7 +920,7 @@ const DeskstopMenu = () => {
                             </a>
                           </div>
                         </div>
-                        <div className="col-md-6">
+                        {/* <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/shopify-connector-business-central/">
                               <div className="pic">
@@ -936,7 +936,7 @@ const DeskstopMenu = () => {
                               </div>
                             </a>
                           </div>
-                        </div>
+                        </div> */}
 
                       </div>
                     </div>
