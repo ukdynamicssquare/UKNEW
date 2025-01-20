@@ -360,7 +360,7 @@ const MicrosoftCloudForNonpro = () => {
                       Fraud Protection</h3>
                     </div>
                     <div className="card-body">
-                      <p>Safeguard your business with advanced fraud detection and prevention capabilities.</p>
+                      <p>Safeguard your business with advanced fraud detection and prevention capabilities.</p> 
                       <div className='cat-float'>
                         <span>Get Started</span>
                       </div>
@@ -830,7 +830,7 @@ const MicrosoftCloudForNonpro = () => {
                   <h3>Time to Take Your Medium Business Up A Notch with the Right Tools</h3>
 
                   <div className="btn-welcome">
-                    <Link href="/about-us/">
+                    <Link href="/contact-us/">
                       <a
                         className="btn-get-started scrollto"
                       >

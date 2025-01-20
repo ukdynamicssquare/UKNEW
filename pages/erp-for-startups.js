@@ -123,11 +123,11 @@ const ErpMicrosoftCloudFor = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-12 text-center">
+            {/* <div className="col-lg-12 text-center">
               <div className="bnt-tras">
                 <a href="#">Explore More!</a>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </section>
@@ -544,7 +544,7 @@ const ErpMicrosoftCloudFor = () => {
                   <h3>Fuel Your Startup’s Journey with the Right Tools. See How Dynamics Square Can Help</h3>
 
                   <div className="btn-welcome">
-                    <Link href="/about-us/">
+                    <Link href="/contact-us/">
                       <a
                         className="btn-get-started scrollto"
                       >

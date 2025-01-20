@@ -826,7 +826,7 @@ const MicrosoftCloudForNonpro = () => {
                   <h3>Let’s Move Your Business Forward</h3>
 
                   <div className="btn-welcome">
-                    <Link href="/about-us/">
+                    <Link href="/contact-us/">
                       <a
                         className="btn-get-started scrollto"
                       >
