@@ -16,11 +16,10 @@ const MicrosoftCloudForNonpro = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Large Businesses UK</title>
-        <meta name="robots" content="noindex, nofollow" />
+        <title>Dynamics 365 for Large Businesses | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Explore Dynamics 365 for small businesses! Boost efficiency, improve customer engagement, and streamline operations with Microsoft's powerful business solutions."
+          content="Dynamics 365 for Large Businesses enhances efficiency, automates processes, and provides insights to drive growth and scalability."
         />
         <link
           rel="canonical"
@@ -255,7 +254,7 @@ const MicrosoftCloudForNonpro = () => {
                     Remote Assist 
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/Customer-Insights.png" alt="customer_insights" width={48} height={48} />
+                      <img src="/img/menu-icons/Dynamics-365-Remote.png" alt="customer_insights" width={48} height={48} />
                       <h3>Dynamics 365  <br/>
                       Remote Assist  </h3>
                     </div>

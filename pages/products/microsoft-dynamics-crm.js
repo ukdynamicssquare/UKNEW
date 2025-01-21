@@ -526,23 +526,21 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row pad9x">
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 Project Operations</h3>
-                <p>
-                Manage your sales, resource utilization, project management, and financial flow leveraging a single integrated app to close more deals, faster the project delivery, and drive maximized outcomes. To enhance your system capabilities and drive innovation throughout their project management process, enterprises can integrate their project service automation with their existing tools.
-                </p>
+                <h3>Dynamics 365 Field Service</h3>
+                <p>An all-inclusive solution, Dynamics 365 Field Service is a powerful Microsoft Dynamics CRM that simplifies field service operations, increasing productivity and customer happiness. It has tools like scheduling, resource management, and real-time communication. Thanks to its IoT integration, predictive maintenance, and mobile capabilities, field professionals can provide proactive, efficient service at any time and place.</p>
                 <div className="cltt-actt">
-                  <Link href="/products/dynamics-365-project-operations/">
+                  <Link href="/products/microsoft-dynamics-365-field-service/">
                   <a target="_blank">Learn More</a>
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
-              <div className="commen-lef-pic">
+              <div className="commen-lef-pic text-center">
                 <Image
-                  src="/img/Project-Service-Automation.png"
+                  src="/img/FieldServicebanner.png"
                   alt="Project-Service-Automation"
-                  width={1025} height={587}
+                  width={600} height={380}
                 />
               </div>
             </div>

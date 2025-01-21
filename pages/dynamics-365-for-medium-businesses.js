@@ -16,11 +16,10 @@ const MicrosoftCloudForNonpro = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Small Businesses UK</title>
-        <meta name="robots" content="noindex, nofollow" />
+        <title>Dynamics 365 for Medium Businesses | Dynamics Square UK</title>
         <meta
           name="description"
-          content="Explore Dynamics 365 for small businesses! Boost efficiency, improve customer engagement, and streamline operations with Microsoft's powerful business solutions."
+          content="Unlock growth with Dynamics 365 for Medium Businesses—streamline operations, boost productivity, and drive smarter decisions with powerful ERP & CRM tools."
         />
         <link
           rel="canonical"

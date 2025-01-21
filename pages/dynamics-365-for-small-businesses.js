@@ -16,7 +16,6 @@ const MicrosoftCloudForNonpro = () => {
     <>
       <Head>
         <title>Dynamics 365 for Small Businesses UK</title>
-        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Explore Dynamics 365 for small businesses! Boost efficiency, improve customer engagement, and streamline operations with Microsoft's powerful business solutions."
@@ -34,7 +33,7 @@ const MicrosoftCloudForNonpro = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Dynamics 365 for Small-Business</h1>
+                <h1>Dynamics 365 for Small Businesses</h1>
                 <h2>Imagine, Achieve, and Thrive with Smart Business Solutions</h2>
                 <p>Transform how your business runs with tools designed to streamline processes, scale efficiently, and fuel success.</p>
                 <ul>
@@ -151,7 +150,7 @@ const MicrosoftCloudForNonpro = () => {
                       Core Recommendation
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="businesscentral" />
+                      <img src="/img/menu-icons/dynamics-365-businesscentral.svg" width={48} height={48} alt="businesscentral" />
                       <h3>Dynamics 365<br/>
                         Business Central</h3>
                     </div>
@@ -171,7 +170,7 @@ const MicrosoftCloudForNonpro = () => {
                     For CRM Needs
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/dynamics-365-sales.svg" alt="businesscentral" />
+                      <img src="/img/menu-icons/dynamics-365-sales.svg" width={48} height={48} alt="businesscentral" />
                       <h3>Dynamics 365<br/>
                       Sales</h3>
                     </div>
@@ -191,7 +190,7 @@ const MicrosoftCloudForNonpro = () => {
                     For Marketing Needs
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/Customer-Insights.png" alt="businesscentral" />
+                      <img src="/img/menu-icons/Customer-Insights.png" width={48} height={48} alt="businesscentral" />
                       <h3>Dynamics 365<br/>
                       Customer Insights</h3>
                     </div>
@@ -211,7 +210,7 @@ const MicrosoftCloudForNonpro = () => {
                     To Extend ERP Functionality
                     </p>
                     <div className="card-head">
-                      <img src="/img/menu-icons/power-pltform.png" alt="businesscentral" />
+                      <img src="/img/menu-icons/power-pltform.png" width={48} height={48} alt="businesscentral" />
                       <h3>Microsoft <br/>
                       Power Platform</h3>
                     </div>
@@ -241,7 +240,7 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row d-none d-md-block">
               <div className="col-lg-12">
                 <div className="chal-pic-banner">
-                  <img src="/img/group-35368.png" alt="smart-busimess-mamangemt" />
+                  <img src="/img/group-35368.png" width={48} height={48} alt="smart-busimess-mamangemt" />
                 </div>
               </div>
             </div>

@@ -278,6 +278,26 @@ const DeskstopMenu = () => {
                             </a>
                           </div>
                         </div>
+                        <div className="col-md-6">
+                          <div className="list-itmes-maga-menu">
+                            <a href="/products/dynamics-365-project-operations/">
+                              <div className="pic">
+                                <img
+                                  src="/img/menu-icons/dynamics-365-project-management.svg"
+                                  alt="dynamics-365-project-management"
+                                  width="48" height="48"
+                                />
+                              </div>
+                              <div className="content">
+                                <span>Project Operations</span>
+                                <p>
+                                  Automate and streamline your
+                                  projects
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
 
                       </div> 
                       
@@ -352,26 +372,7 @@ const DeskstopMenu = () => {
                           </div>
                         </div>
                       
-                        <div className="col-md-6">
-                          <div className="list-itmes-maga-menu">
-                            <a href="/products/dynamics-365-project-operations/">
-                              <div className="pic">
-                                <img
-                                  src="/img/menu-icons/dynamics-365-project-management.svg"
-                                  alt="dynamics-365-project-management"
-                                  width="48" height="48"
-                                />
-                              </div>
-                              <div className="content">
-                                <span>Project Operations</span>
-                                <p>
-                                  Automate and streamline your
-                                  projects
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
+                      
                       
                         {/* <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
@@ -949,7 +950,7 @@ const DeskstopMenu = () => {
                 <p>Essential Tool</p>
                 <ul>
                   <li>
-                    <a href="/dynamics-nav-to-business-central/">
+                    <a href="/erp-implementation-cost-calculator/">
                       <span className='menu-title-new'>
                         Get Your ERP Cost Estimate
                       </span>
@@ -962,7 +963,7 @@ const DeskstopMenu = () => {
                       
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/dynamics-nav-to-business-central/">
                       <span className='menu-title-new'>
                         Get Your ERP Cost Estimate
@@ -975,11 +976,11 @@ const DeskstopMenu = () => {
                       </span>
                       
                     </a>
-                  </li>
+                  </li> */}
 
                 </ul>
                 <div className='pp-absol'>
-                  <a href="/"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
+                  <a href="/products/microsoft-dynamics-365/"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
                 </div>
               </div>
             </div>

@@ -16,7 +16,6 @@ const ErpMicrosoftCloudFor = () => {
     <>
       <Head>
         <title>Cloud ERP for Startups UK | Dynamics Square</title>
-        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Find the best ERP solutions for startups! Streamline operations, enhance productivity, and drive growth with tailored ERP systems for small businesses in UK."
@@ -34,7 +33,7 @@ const ErpMicrosoftCloudFor = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
-                <h1>Dynamics 365 ERP for Startup</h1>
+                <h1>Dynamics 365 ERP for Startups</h1>
                 <h2>Scale Smarter, Grow Faster with Microsoft Solutions</h2>
                 <p>Acquire tools that can help your business evolve from your first day to your breakthrough success.</p>
                 <ul>
