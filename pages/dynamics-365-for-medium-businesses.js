@@ -140,7 +140,7 @@ const MicrosoftCloudForNonpro = () => {
                 <header className="section-header-two">
                   <span>Key Solution</span>
                   <h2>Grow and Thrive with Advanced Business Solutions</h2>
-                  <p>Medium-sized businesses often face growing pains—managing expanding teams, supply chains, and customer expectations. Microsoft Dynamics 365 empowers you to scale confidently, offering real-time insights, automation, and enhanced collaboration. It’s the perfect partner to refine processes and support your ambitions. Focus on what you do best while we help you operate smarter and grow faster.</p>
+                  <p>Medium-sized businesses often face growing pains—managing expanding teams, supply chains, and customer expectations. <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> empowers you to scale confidently, offering real-time insights, automation, and enhanced collaboration. It’s the perfect partner to refine processes and support your ambitions. Focus on what you do best while we help you operate smarter and grow faster.</p>
                 </header>
               </div>
             </div>

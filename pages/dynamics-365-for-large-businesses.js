@@ -139,7 +139,7 @@ const MicrosoftCloudForNonpro = () => {
                 <header className="section-header-two">
                   <span>Key Solution</span>
                   <h2>Grow and Thrive with Advanced Business Solutions</h2>
-                  <p>Large enterprises must overcome intricate challenges, from managing diverse operations to delivering exceptional customer experiences. Microsoft Dynamics 365 offers enterprise-ready tools to optimize your workflows, foster collaboration, and meet business objectives with confidence. </p>
+                  <p>Large enterprises must overcome intricate challenges, from managing diverse operations to delivering exceptional customer experiences. <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> offers enterprise-ready tools to optimize your workflows, foster collaboration, and meet business objectives with confidence. </p>
                 </header>
               </div>
             </div>

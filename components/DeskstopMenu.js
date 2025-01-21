@@ -979,8 +979,8 @@ const DeskstopMenu = () => {
                   </li> */}
 
                 </ul>
-                <div className='pp-absol'>
-                  <a href="/products/microsoft-dynamics-365/"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
+                <div className='pp-absol' style={{marginTop:'100px'}}>
+                  <a href="/blog/microsoft-dynamics-copilot/"><img src="/img/menu--ss.png" alt="menu--ss" /></a>
                 </div>
               </div>
             </div>

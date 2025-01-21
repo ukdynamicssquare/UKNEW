@@ -137,7 +137,7 @@ const MicrosoftCloudForNonpro = () => {
                 <header className="section-header-two">
                   <span>Key Solution</span>
                   <h2>Smarter Solutions for Growing Businesses</h2>
-                  <p>For a small business, every decision counts! It can be hard to keep track of finances, customer relationships, and growth. Microsoft Dynamics 365 makes these things easier by giving you customised solutions that work in great tandem to facilitate smooth operations. This saves you time and helps you make intelligent choices. Get the tools you need to beat the competition and steer your business to achieve greatness. </p>
+                  <p>For a small business, every decision counts! It can be hard to keep track of finances, customer relationships, and growth. <a href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</a> makes these things easier by giving you customised solutions that work in great tandem to facilitate smooth operations. This saves you time and helps you make intelligent choices. Get the tools you need to beat the competition and steer your business to achieve greatness. </p>
                 </header>
               </div>
             </div>
@@ -240,7 +240,7 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row d-none d-md-block">
               <div className="col-lg-12">
                 <div className="chal-pic-banner">
-                  <img src="/img/group-35368.png" width={48} height={48} alt="smart-busimess-mamangemt" />
+                  <img src="/img/group-35368.png" alt="smart-busimess-mamangemt" />
                 </div>
               </div>
             </div>
