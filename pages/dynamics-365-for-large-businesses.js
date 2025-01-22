@@ -821,10 +821,10 @@ const MicrosoftCloudForNonpro = () => {
             </div>
             <div className='row'>
               <div className='col-lg-12'>
-                <div class="section-title">
-                  <span class="line"></span>
+                <div className="section-title">
+                  <span className="line"></span>
                   <h3>About Dynamics Square</h3>
-                  <span class="line"></span>
+                  <span className="line"></span>
                 </div>
               </div>
             </div>
