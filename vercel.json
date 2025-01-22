@@ -8,7 +8,8 @@
       { "source": "/blog/power-apps-pricing-licensing/", "destination": "/blog/power-apps-pricing-licensing-uk/", "statusCode": 301 },
       { "source": "/dynamics-365-sales-copilot/", "destination": "/products/microsoft-dynamics-365-sales/copilot/", "statusCode": 301 },
       { "source": "/dynamics-365-business-central-pricing-licensing/", "destination": "/products/dynamics-365-business-central/pricing-licensing/", "statusCode": 301 },
-      { "source": "/power-bi-support/", "destination": "/products/microsoft-power-bi/support/", "statusCode": 301 }
+      { "source": "/power-bi-support/", "destination": "/products/microsoft-power-bi/support/", "statusCode": 301 },
+      { "source": "/case-studies/nav09-nav18-upgrade/", "destination": "/case-studies/nav2009-nav18-upgrade/", "statusCode": 301 }
     ]
   }
   

@@ -177,7 +177,7 @@ const CategoryList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/nav09-nav18-upgrade/"
+                            href="/case-studies/nav2009-nav18-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -553,7 +553,7 @@ const CategoryList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/nav09-nav18-upgrade/"
+                            href="/case-studies/nav2009-nav18-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study

@@ -62,7 +62,7 @@ const CrmTrading = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/nav09-nav18-upgrade/"
+          href="https://www.dynamicssquare.co.uk/case-studies/nav2009-nav18-upgrade/"
         />
       </Head>
       <div className={showPopup ? "blur-content" : ""}>
@@ -104,7 +104,7 @@ const CrmTrading = () => {
                   /></div>
                 </div></div>
                 <div className="col-lg-9">
-                  <p>A leading wholesaler of fragrance, skincare, hair-care, and cosmetics has decided for NAV 2009 to NAV 2018 upgrade for enhancing their overall operational efficiency. They were having 35 years of experience in the beauty industry and serving their products to a number of brands like Calvin Klein, Davidoff, Vera Wang, Marc Jacobs, and Sarah Jessica Parker. With a warehouse based in the UK, they are ready to source any products and deliver them to the destination within the UK and abroad. Also, they are available in trade shows like Spring and Autumn Fairs at NEC Birmingham, Cosmoprof in Bologna, and the TFWA show in Cannes to showcase their wide variety of premium products.</p>
+                  <p>CRM Trading is a leading wholesaler of fragrance, skincare, hair-care, and cosmetics has decided for NAV 2009 to NAV 2018 upgrade for enhancing their overall operational efficiency. They were having 35 years of experience in the beauty industry and serving their products to a number of brands like Calvin Klein, Davidoff, Vera Wang, Marc Jacobs, and Sarah Jessica Parker. With a warehouse based in the UK, they are ready to source any products and deliver them to the destination within the UK and abroad. Also, they are available in trade shows like Spring and Autumn Fairs at NEC Birmingham, Cosmoprof in Bologna, and the TFWA show in Cannes to showcase their wide variety of premium products.</p>
                 </div>
               </div>
             </div>

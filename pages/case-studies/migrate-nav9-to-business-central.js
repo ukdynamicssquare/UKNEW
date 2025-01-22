@@ -97,7 +97,7 @@ const CaseStudyArteak = () => {
                   />
                 </div>
                 <div className="col-lg-9 align-self-center">
-                  <p>Based on London, the company is serving its expertise in HSSE consulting and operational services. They offer a wide range of services to its national as well as international clients to consistently manage the HSE (Health, Safety, and Environment) and register unhindered growth.</p>
+                  <p>Based on London, Arteak Ltd is serving its expertise in HSSE consulting and operational services. They offer a wide range of services to its national as well as international clients to consistently manage the HSE (Health, Safety, and Environment) and register unhindered growth.</p>
                 </div>
               </div>
             </div>
