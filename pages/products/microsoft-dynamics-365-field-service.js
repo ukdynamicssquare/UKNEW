@@ -921,7 +921,7 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      D365 Field Service offers a multitude of key capabilities
+                      Dynamics 365 Field Service offers a multitude of key capabilities
                       to improve, automate, and streamline your field service
                       operations:
                       <br />

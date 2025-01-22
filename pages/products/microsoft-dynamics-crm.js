@@ -70,7 +70,7 @@ const MicrosoftDynamicsCrm = () => {
             <h2>
             What Is Microsoft Dynamics CRM?
             </h2>
-            <p>Microsoft Dynamics CRM (currently known as <Link href="/products/dynamics-365-customer-engagement/"><a target="_blank">Dynamics 365 Customer Engagement</a></Link>) is a customer relationship management software which enables businesses to streamline their processes from sales & marketing to service divisions to customers and delivery. Implementing Microsoft's CRM solution can help brands to strengthen their customer relationship as well as support customer retention. Enterprises can bring process automation and data centralization that enables transformation throughout the organizational flow.</p>
+            <p>Microsoft Dynamics CRM (currently known as <Link href="/products/dynamics-365-customer-engagement/"><a target="_blank">Dynamics 365 Customer Engagement</a></Link>) is a customer relationship management software which enables businesses to streamline their processes from sales & marketing to service divisions to customers and delivery. Implementing Microsoft's CRM solution can help brands to strengthen their customer relationship as well as support customer retention. Enterprises can bring process automation and data centralization that enables transformation throughout the organizational flow. And now, with the integration of the AI-powered assistant called Copilot, managing processes with Dynamics 365 CRM has become easier than ever.</p>
             </header>
             </div>
           </div>
@@ -89,8 +89,8 @@ const MicrosoftDynamicsCrm = () => {
                 </h2>
               </div>
               <div className="custom002">
-                <p>If you want to enable sales & service automation, efficiently connect & engage customers, and improve your customer anticipations, choose Microsoft Dynamics CRM solution. With the help of Dynamics CRM you can leverage AI efficiency and IoT connected data-driven practices, streamline your enterprise practices, build & sustain customer relationships, increase productivity, and impact your revenue model.</p>
-                <p>With the help of Dynamics CRM, you can seamlessly align your sales & marketing, improve team collaboration, and ensure the success of your digital campaigns. Moreover, you can automate data, streamline tasks, understand your customers’ behavior, elevate sales level, and bring transparency in your entire sales process with real-time efficiency to maximize your growth potentials.</p>
+                <p>If you want to enable sales & service automation, efficiently connect & engage customers, and improve your customer anticipations, choose a Microsoft Dynamics CRM solution. With the help of Dynamics CRM, you can leverage Copilot powered AI efficiency and IoT connected data-driven practices, streamline your enterprise practices, build & sustain customer relationships, increase productivity, and impact your revenue model.</p>
+                <p>With the help of Dynamics CRM, you can seamlessly align your sales & marketing, improve team collaboration, and ensure the success of your digital campaigns. Moreover, you can automate data, streamline tasks, understand your customers’ behavior, elevate sales level, and bring transparency in your entire sales process with real-time efficiency to maximize your growth potential.</p>
               </div>
             </div>
           </div>
@@ -450,14 +450,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 for Sales</h3>
-                <p>
-                  Maximize your sales capabilities by bringing transparency and
-                  efficiency throughout your sales practices. Engage with your
-                  customers wherever they are in real-time, build sustainable
-                  customer relationships to impact or accelerate your sales.
-                  Streamline your sales data, collaborate with your team
-                  seamlessly, empower your workforce to adapt quickly.
-                </p>
+                <p>Maximize your sales capabilities by bringing transparency and efficiency throughout your sales practices. Engage with your customers wherever they are in real-time, build sustainable customer relationships to impact or accelerate your sales. Streamline your sales data, collaborate with your team seamlessly, and empower your workforce to adapt quickly. Besides, with out-of-the-box Copilot integration, you can speed up various processes like record summarisation, meeting preparation, email assistance, and more.</p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-sales/">
                     <a target="_blank">Learn More</a>
@@ -472,13 +465,7 @@ const MicrosoftDynamicsCrm = () => {
               <div className="commen-rit-info">
                 <h3>Dynamics 365 for Customer Service</h3>
                 <p>
-                  Support your customers with real-time efficiency and serve
-                  them a personalized experience. Empower your team to
-                  collaborate and drive optimal experiences with highly embedded
-                  tools to respond to your customers. Proactively manage your
-                  customers' issues and fix them <Link target="_blank" href="/products/microsoft-dynamics-365-ai/"><a target="_blank">leveraging AI insights</a></Link> & IoT
-                  connected devices as well as provide optimal support to your
-                  customers.
+                Support your customers with real-time efficiency and serve them with a personalized experience. Empower your team to collaborate and drive optimal experiences with highly embedded tools to respond to your customers. Proactively manage your customers' issues and fix them <Link target="_blank" href="/products/microsoft-dynamics-365-ai/"><a target="_blank">leveraging AI insights</a></Link> by Microsoft Copilot & IoT connected devices as well as provide optimal support to your customers. Copilot in Dynamics 365 Customer Service helps with rapid response generation, case summarisation, and virtual agent creation, among several other tasks.
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-customer-service/">
@@ -510,10 +497,8 @@ const MicrosoftDynamicsCrm = () => {
             </div>
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 for Marketing</h3>
-                <p>
-                Microsoft Dynamics Marketing enables your marketing team to easily plan and execute campaigns using the power of Excel and Power BI. With this tool, you can measure campaign performance across channels from start to finish, engage customers one-to-one, build your sales pipeline, and demonstrate the impact of your marketing investments in real-time. This tool is essential for any marketing team that wants to bring their vision to life and see the results of their efforts in an easy-to-understand format.
-                </p>
+                <h3>Dynamics 365 for Customer Insights – Journeys</h3>
+                <p>Dynamics 365 Customer Insights – Journeys, previously known as Microsoft Dynamics Marketing, enables your marketing team to easily plan and execute campaigns using the power of Excel and Power BI. With this tool, you can measure campaign performance across channels from start to finish, engage customers one-to-one, build your sales pipeline, and demonstrate the impact of your marketing investments in real-time. This tool is essential for any marketing team that wants to bring their vision to life and see the results of their efforts in an easy-to-understand format. Besides, the powerful integration of Copilot empowers your professionals with capabilities like real-time campaign development, segment creation, lead qualification, and profile summarization</p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-marketing/">
                   <a target="_blank">Learn More</a>
@@ -527,7 +512,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
                 <h3>Dynamics 365 Field Service</h3>
-                <p>An all-inclusive solution, Dynamics 365 Field Service is a powerful Microsoft Dynamics CRM that simplifies field service operations, increasing productivity and customer happiness. It has tools like scheduling, resource management, and real-time communication. Thanks to its IoT integration, predictive maintenance, and mobile capabilities, field professionals can provide proactive, efficient service at any time and place.</p>
+                <p>An all-inclusive solution, Dynamics 365 Field Service is a powerful Microsoft Dynamics CRM that simplifies field service operations, increasing productivity and customer happiness. It has tools like scheduling, resource management, and real-time communication. Thanks to its IoT integration, predictive maintenance, and mobile capabilities, field professionals can provide proactive, efficient service at any time and place. Besides, built-in Copilot capabilities help your workforce with scheduling optimization, knowledge base access, and customer interaction insights.</p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-dynamics-365-field-service/">
                   <a target="_blank">Learn More</a>
