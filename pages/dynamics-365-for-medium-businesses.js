@@ -35,7 +35,7 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>Dynamics 365 for Medium Businesses</h1>
-                <h2>Take your business global with confidence and clarity</h2>
+                <h2>Take Your Business Global with Confidence and Clarity</h2>
                 <p>Expand without limits! Gain the confidence to succeed in a connected global market.</p>
                 <ul>
                   <li><i className="bi bi-check-circle-fill"></i>Faster time-to-market</li>
@@ -210,7 +210,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/dynamics-365-supply-chain-management/">
                     <p className='tags-strip'>
-                    Manufacturing & Supply Chain
+                    Production & Supply Chain
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-supplychainmanagement.svg" alt="supplychainmanagement" width={48} height={48} />
@@ -351,7 +351,7 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="#" style={{pointerEvents:'none'}}> 
                     <p className='tags-strip'>
-                    For Security & Fraud Prevention
+                    Security & Fraud Prevention
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/fraud-protection.png" alt="fraud-protection" width={48} height={48} />

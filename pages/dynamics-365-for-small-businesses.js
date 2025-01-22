@@ -58,7 +58,7 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-9">
                 <header className="section-header-two">
                   <span>Challenges</span>
-                  <h2>Are These Business Hurdles Depriving You of the Success You Deserve?:</h2>
+                  <h2>Are These Business Hurdles Depriving You of the Success You Deserve?</h2>
                   {/* <p>Overcoming Startup Challenges with Microsoft ERP Solutions</p> */}
                 </header>
               </div>

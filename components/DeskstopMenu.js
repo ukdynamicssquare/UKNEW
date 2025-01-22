@@ -167,7 +167,7 @@ const DeskstopMenu = () => {
                               </div>
                               <div className="content">
                                 <span>Enterprise</span>
-                                <p>Advanced ERP for large, global enterprises</p>
+                                <p>Advanced ERP solutions for large, global enterprises</p>
                               </div>
                             </a>
                           </div>
