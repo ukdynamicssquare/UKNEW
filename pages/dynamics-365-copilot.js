@@ -334,16 +334,16 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row">
               <div className="col-lg-12 p-0">
                 <Swiper
-                  slidesPerView={4} /* Show 4 slides at a time */
+                  slidesPerView={5} /* Show 4 slides at a time */
                   spaceBetween={10} /* Space between slides */
                   pagination={{
                     clickable: true,
                   }}
                   modules={[]}
                   className="mySwiperss"
-                // loop={true} 
-                // speed={1000} 
-                // centeredSlides={true} 
+                loop={true} 
+                speed={1000} 
+                centeredSlides={true} 
                 >
                   <SwiperSlide>
                     <div className='slider-card-001'>
