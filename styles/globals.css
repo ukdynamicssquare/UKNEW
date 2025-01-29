@@ -13969,7 +13969,95 @@ figure {
   color: #443c68;
   margin-bottom:0px
 }
-.card557{}
+.card557{
+  padding: 10px;
+}
+.card557 .card-233-body h3{
+  font-size: 16px;
+  font-weight: 600;
+  color: #443c68;
+  display: flex;
+  gap: 15px;
+}
+.card557 .card-233-body h3 span{}
+.card557 p{
+  font-size: 15px;
+  line-height: 1.5;
+  color: #443c68;
+  padding-left: 30px;
+}
+.img-backs-sid{
+  position:relative
+}
+.img-backs-sid .im-one{
+  position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 0;
+}
+.img-backs-sid .im-two{}
+.bg-22-or{
+  background-image: radial-gradient(circle at 52% -14%, #7865af, #393053 58%);
+  overflow:hidden
+}
+.headin-444{
+  text-align:center;
+  padding-bottom:30px
+}
+.headin-444 h3{
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+.headin-444 p{
+  color: #f0eff3;
+}
+.mySwiperss {
+  width: 100vw; 
+  /* margin-left: calc(-50% + 15px) !important ; */
+  overflow: hidden; 
+}
+
+.mySwiperss .swiper-wrapper {
+  display: flex;
+}
+
+.mySwiperss .swiper-slide {
+  height: auto;
+  display: flex
+;
+}
+.slider-card-001{
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 30px 25px 15px;
+}
+.slider-card-001 img{
+  margin-bottom: 15px;
+}
+.slider-card-001 h3{
+  font-size: 16px;
+  font-weight: bold;
+  color: #443c68;
+  margin-bottom: 15px;
+}
+.slider-card-001 ul{
+  padding-left: 0;
+    list-style: none;
+}
+.slider-card-001 ul li{
+  display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    gap: 10px;
+    color: #443c68;
+}
+.slider-card-001 ul li .bi{
+  color:#7865af
+}
+.slider-card-001 ul li .bi{}
+
 @media (max-width: 1400px) {
   .tt-heading-box.tt-heading-box-two {
     top: -165px;

@@ -174,32 +174,254 @@ const ErpMicrosoftCloudFor = () => {
 
         <section>
           <div className='container'>
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-9">
-                <header className="section-header-two-side">
-                  <h2>Dynamics 365 Copilot Empowers <br />Microsoft CRM Solutions</h2>
+                <header className="section-header-two section-header-two-p-c">
+                  <h2>Dynamics 365 Copilot Empowers Microsoft CRM Solutions</h2>
                   <p>Microsoft Dynamics 365 Copilot enhances customer relationship management (CRM) by transforming how businesses interact with customers and manage relationships. It works with the Dynamics 365 Sales, Customer Service, and Customer Insights solutions to give customers the best experiences possible.</p>
-                  <span>Features & Benefits:</span>
                 </header>
               </div>
             </div>
 
 
             <div className='row'>
-              <div className='col-lg-8'>
-                  <div className='row'>
-                    <div className='col-lg-6'>
-                      <div className='card-234'>
-                        <div className='card-233-body'>
-                          <h3><span><i className="bi bi-check2"></i></span>Automated Follow-ups</h3>
-                        </div>
-                        <p>Sends personalized email follow-ups after customer interactions.</p>
+              <div className='col-lg-7'>
+                <div className='row'>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Automated Follow-ups</h3>
                       </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
                     </div>
                   </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Real-Time Suggestions</h3>
+                      </div>
+                      <p>Tells you what to do next while you're talking to a customer.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Data Simplification</h3>
+                      </div>
+                      <p>Creates summaries of interactions with customers for future reference.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Task Prioritization</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className='col-lg-4'>
-                <img src="" alt="" />
+              <div className='col-lg-5'>
+                <div className='img-backs-sid'>
+                  <img src="/img/copil-side.png" alt="copil-side" className='im-two' />
+                  <img src="/img/bb-gg.png" alt="copil-side" className='im-one' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className='container'>
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                {/* <header className="section-header-two-side">
+                  <h2>Dynamics 365 Copilot Empowers <br />Microsoft CRM Solutions</h2>
+                  <p>Microsoft Dynamics 365 Copilot enhances customer relationship management (CRM) by transforming how businesses interact with customers and manage relationships. It works with the Dynamics 365 Sales, Customer Service, and Customer Insights solutions to give customers the best experiences possible.</p>
+                  <span>Features & Benefits:</span>
+                </header> */}
+                <header className="section-header-two section-header-two-p-c">
+                  <h2>Dynamics 365 Copilot Empowers Microsoft CRM Solutions</h2>
+                  <p>Microsoft Dynamics 365 Copilot enhances customer relationship management (CRM) by transforming how businesses interact with customers and manage relationships. It works with the Dynamics 365 Sales, Customer Service, and Customer Insights solutions to give customers the best experiences possible.</p>
+                </header>
+              </div>
+            </div>
+
+
+            <div className='row'>
+              <div className='col-lg-7 order-2'>
+                <div className='row'>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Automated Follow-ups</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Real-Time Suggestions</h3>
+                      </div>
+                      <p>Tells you what to do next while you're talking to a customer.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Data Simplification</h3>
+                      </div>
+                      <p>Creates summaries of interactions with customers for future reference.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Task Prioritization</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-lg-5 order-1'>
+                <div className='img-backs-sid'>
+                  <img src="/img/copil-side.png" alt="copil-side" className='im-two' />
+                  <img src="/img/bb-gg.png" alt="copil-side" className='im-one' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-22-or">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="headin-444">
+                  <h3>Make Your Business More Efficient <br />with Microsoft Copilot!</h3>
+                  <p>Microsoft Copilot is built into many Dynamics 365 solutions, giving businesses a cohesive set of tools that work in tandem together. These solutions, with the help of Copilot, offer easy-to-use features that make things run more smoothly and get more things done.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-12 p-0">
+                <Swiper
+                  slidesPerView={4} /* Show 4 slides at a time */
+                  spaceBetween={10} /* Space between slides */
+                  pagination={{
+                    clickable: true,
+                  }}
+                  modules={[]}
+                  className="mySwiperss"
+                // loop={true} 
+                // speed={1000} 
+                // centeredSlides={true} 
+                >
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-01.png" alt="chapter-01" />
+                      <h3>Dynamics 365 Sales</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-02.png" alt="chapter-01" />
+                      <h3>Supply Chain Management</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-03.png" alt="chapter-01" />
+                      <h3>Customer Service</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-04.png" alt="chapter-01" />
+                      <h3>Copilot in Marketing</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-05.png" alt="chapter-01" />
+                      <h3>Dynamics 365 Marketng</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-06.png" alt="chapter-01" />
+                      <h3>Dynamics 365 power BI</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+
+
+
+                </Swiper>
               </div>
             </div>
           </div>
@@ -221,7 +443,7 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row d-none d-md-block">
               <div className="col-lg-12">
                 <div className="chal-pic-banner">
-                  <img src="/img/smart-busimess-mamangemt.png" alt="smart-busimess-mamangemt" />
+                  <img src="/img/colilte-full-banner.png" alt="colilte-full-banner" />
                 </div>
               </div>
             </div>
@@ -253,6 +475,74 @@ const ErpMicrosoftCloudFor = () => {
             </div>
           </div>
         </section>
+        
+        <section>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <header className="section-header-two">
+                  <span>Key Solution</span>
+                  <h2>Microsoft Dynamics 365 Business Central—Your Comprehensive Solution for Smarter Business Management</h2>
+                </header>
+              </div>
+            </div>
+            <div className="row d-none d-md-block">
+              <div className="col-lg-12">
+                <div className="chal-pic-banner">
+                  <img src="/img/colilte-full-banne-1.png" alt="colilte-full-banner" />
+                </div>
+              </div>
+            </div>
+            <div className='row' style={{paddingTop:"60px"}}>
+                  <div className='col-lg-4 d-flex'>
+                    <div className='card556'>
+                      <div className='card-233-body'>
+                        <h3>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-4 d-flex'>
+                    <div className='card556'>
+                      <div className='card-233-body'>
+                        <h3>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-4 d-flex'>
+                    <div className='card556'>
+                      <div className='card-233-body'>
+                        <h3>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-4 d-flex'>
+                    <div className='card556'>
+                      <div className='card-233-body'>
+                        <h3>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-4 d-flex'>
+                    <div className='card556'>
+                      <div className='card-233-body'>
+                        <h3>Customer Insights</h3>
+                      </div>
+                      <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                    </div>
+                  </div>
+            
+                </div>
+          </div>
+        </section>
 
 
         <section>
@@ -274,413 +564,12 @@ const ErpMicrosoftCloudFor = () => {
           </div>
         </section>
 
-        <section>
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <header className="section-header-two">
-                  <span>Use Cases</span>
-                  <h2>See How Startups Drive Impact with Dynamics 365</h2>
-                  <p>Join a growing community of startups making use of Microsoft tools to transform challenges into opportunities. Hear their success stories.</p>
-                </header>
-              </div>
-            </div>
-
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='test-slider-tab-list'>
-                  <Swiper
-                    onSwiper={setThumbsSwiper}
-                    spaceBetween={30}
-                    slidesPerView={5}
-                    freeMode={true}
-                    watchSlidesProgress={true}
-                    modules={[FreeMode, Navigation, Thumbs]}
-                    className="mySwiper"
-                  >
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <Image src="/img/Arteak-new-logo.png" alt='Arteak-new-logo' width={241} height={78} />
-                      </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <Image src="/img/parweld-new-logo.png" alt='parweld-new-logo' width={223} height={78} />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <Image src="/img/green-wireless-logo.png" alt='green-wireless-logo' width={163} height={72} />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <Image src="/img/timesco-logo.png" alt='timesco-logo' width={191} height={40} />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <Image src="/img/omicron_engineering_blur.png" alt='omicron_engineering_blur' width={180} height={41} />
-                      </div>
-                    </SwiperSlide>
-                    {/* <SwiperSlide>
-                      <div className='thum-tab'>
-                        <img src="/img/Comxo-new-logo.png" alt='tbalist' />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='thum-tab'>
-                        <img src="/img/Md-new-logo.png" alt='tbalist' />
-                      </div>
-                    </SwiperSlide> */}
-                  </Swiper>
-                </div>
-
-                <div className='test-slider-contant'>
-                  <Swiper
-                    style={{
-                      '--swiper-navigation-color': '#736799',
-                      '--swiper-pagination-color': '#736799',
-                    }}
-                    spaceBetween={10}
-                    navigation={true}
-                    thumbs={{ swiper: thumbsSwiper }}
-                    modules={[FreeMode, Navigation, Thumbs]}
-                    className="mySwiper2"
-                  >
-                    <SwiperSlide>
-                      <div className='row pd-20'>
-                        <div className='col-lg-7 d-flex'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <Image src="/img/testimonials/Terence-Turner.png" alt="erence-Turner" width={84} height={84} />
-                              <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
-                              <h5>Terence Turner</h5>
-                              <span>General Manager</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              2X
-                            </div>
-                            <div className='r-left'>
-                              <p>Precision in <br />Financial Analytics</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              80%
-                            </div>
-                            <div className='r-left'>
-                              <p>Productivity Boost <br /> from Automation</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row pd-20'>
-                        <div className='col-lg-7 d-flex'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <Image src="/img/testimonials/Jonathan-W.png" alt="Jonathan-W" width={84} height={84} />
-                              <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional</p>
-                              <h5>Jonathan W</h5>
-                              <span>Technical Director</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              3X
-                            </div>
-                            <div className='r-left'>
-                              <p>Growth in ROI</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              70%
-                            </div>
-                            <div className='r-left'>
-                              <p>Improved <br />Finance Efficiency </p>
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row pd-20'>
-                        <div className='col-lg-7 d-flex'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
-                              <p>Kudos to Dynamics Square for seamless implementation support.Their dedication made us confident in a successful launch!</p>
-                              <h5>Andy Bird</h5>
-                              <span>Managing Director</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              2X
-                            </div>
-                            <div className='r-left'>
-                              <p>Optimized <br />Replenishment Procedures</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              60%
-                            </div>
-                            <div className='r-left'>
-                              <p>Operational <br />Efficiency Surge</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row pd-20'>
-                        <div className='col-lg-7 d-flex'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
-                              <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
-                              <h5>Mark Shaxted</h5>
-                              <span>Operations Manager</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              2X
-                            </div>
-                            <div className='r-left'>
-                              <p>Growth in <br />Production Capacity</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              70%
-                            </div>
-                            <div className='r-left'>
-                              <p>Increase <br />in ROI </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className='row pd-20'>
-                        <div className='col-lg-7 d-flex'>
-                          <div className='test-s-info'>
-                            <figure>
-                              <Image src="/img/avatar.png" alt="avatar" width={84} height={84} />
-                              <p>Impressed by Dynamics Square's ERP upgrade & customization. Their virtual collaboration made our transition seamless. Highly recommend for business growth.</p>
-                              <h5>Tristan Cliffe</h5>
-                              <span>Director</span>
-                            </figure>
-                          </div>
-                        </div>
-                        <div className='col-lg-5'>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              2X
-                            </div>
-                            <div className='r-left'>
-                              <p>Improved Deliverable <br />Timeliness</p>
-                            </div>
-                          </div>
-                          <div className='test-inf-achive'>
-                            <div className='f-left'>
-                              95%
-                            </div>
-                            <div className='r-left'>
-                              <p>Enhanced Client<br />Understanding</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
 
 
-                  </Swiper>
-                </div>
-              </div>
 
+     
 
-            </div>
-
-          </div>
-        </section>
-
-
-        <section>
-          <div className='container'>
-            <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <header className="section-header-two">
-                  <h2>Check out some of our <br />case studies</h2>
-                </header>
-              </div>
-            </div>
-            <div className='row'>
-              <div className="col-lg-4 d-flex">
-                <div className="commen-box-2 commen-box-9">
-                  <div className="icons icons-0102">
-                    <img
-                      src="/img/case-studies-1.jpg"
-                      alt="crm-trading"
-                    />
-                  </div>
-                  <div className="commen-boc-2-info">
-                    <p>
-                      UK's top personal care brand boosted operational efficiency up to 4X by upgrading from Dynamics NAV 2009 to Dynamics NAV 2018.
-                    </p>
-                  </div>
-                  <div className="btn-003">
-                    <a
-                      href="/case-studies/nav09-nav18-upgrade/"
-                      className="btn btn md btn-danger"
-                    >
-                      Read Case Study
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 d-flex">
-                <div className="commen-box-2 commen-box-9">
-                  <div className="icons icons-0102">
-                    <img
-                      src="/img/case-studies-2.jpg"
-                      alt="case-studies-2.jpg"
-                    />
-                  </div>
-                  <div className="commen-boc-2-info">
-                    <p>
-                      UK's top sexual wellness brand improved productivity by up to 68% by upgrading to Business Central On-premise from Dynamics NAV.
-                    </p>
-                  </div>
-                  <div className="btn-003">
-                    <a
-                      href="/case-studies/nav09-to-business-central-upgrade/"
-                      className="btn btn md btn-danger"
-                    >
-                      Read Case Study
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 d-flex">
-                <div className="commen-box-2 commen-box-9">
-                  <div className="icons icons-0102">
-                    <img
-                      src="/img/case-studies-3.jpg"
-                      alt="timesco-logo"
-                    />
-                  </div>
-                  <div className="commen-boc-2-info">
-                    <p>
-                      A medical instrument supplier and manufacturer doubled revenue and improved production capacity by upgrading to Business Central Online from Dynamics NAV.
-                    </p>
-                  </div>
-                  <div className="btn-003">
-                    <a
-                      href="/case-studies/nav13R2-to-business-central/ "
-                      className="btn btn md btn-danger"
-                    >
-                      Read Case Study
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-12 text-center">
-                <div className="bnt-tras">
-                  <a href="/case-studies/">Read more success stories</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="achive-sec achive-sec-new">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <div className="achive-left achive-left-new text-center">
-                  <h3>Fuel Your Startup’s Journey with the Right Tools. See How Dynamics Square Can Help</h3>
-
-                  <div className="btn-welcome">
-                    <Link href="/contact-us/">
-                      <a
-                        className="btn-get-started scrollto"
-                      >
-                        <span>Find out our Approach</span>
-                      </a>
-                    </Link>
-                    <p style={{ paddingTop: '20px' }}>With no-obligation Free Consultation</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className="section-title">
-                  <span className="line"></span>
-                  <h3>About Dynamics Square</h3>
-                  <span className="line"></span>
-                </div>
-              </div>
-            </div>
-            <div className="row world-achive world-achive-center">
-              <div className="col-lg-4">
-                <div className="w-achive-l">
-                  <figure>
-                    <Image src="/img/group.png" alt="group" width={98} height={98} />
-                  </figure>
-                </div>
-                <div className="w-achive-b">
-                  <h4>350+</h4>
-                  <p><span>Project Succesess</span>Over 350 projects delivered & counting! Join our journey to success.</p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="w-achive-l">
-                  <figure>
-                    <Image src="/img/manage_accounts.png" alt="manage_accounts" width={98} height={98} />
-                  </figure>
-                </div>
-                <div className="w-achive-b">
-                  <h4>150+</h4>
-                  <p><span>Microsoft Certified Consultant
-                  </span>Proactive & dedicated Microsoft experts at your service.</p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="w-achive-l">
-                  <figure>
-                    <Image src="/img/schedule.png" alt="schedule" width={98} height={98} />
-                  </figure>
-                </div>
-                <div className="w-achive-b">
-                  <h4>24/<span>7</span></h4>
-                  <p><span>Dedicated Support</span>Get help anytime with our full range of services</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    
 
 
 
