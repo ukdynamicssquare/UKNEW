@@ -12723,9 +12723,7 @@ figure {
 /*new smb design*/
 .top-banner-new {
 }
-.top-banner-new-bg{
-  background-image: linear-gradient(to bottom, #f1f0f4, rgba(241, 240, 244, 0));
-}
+.top-banner-new-bg{}
 .top-banner-new h1 {
   color: #63448b;
   font-size: 15px !important;
@@ -14090,7 +14088,6 @@ figure {
 }
 .video-screen-home-d{
   width: 100%;
-  mix-blend-mode: multiply;
 }
 
 @media (max-width: 1400px) {
