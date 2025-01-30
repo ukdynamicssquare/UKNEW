@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
-import { FreeMode, Navigation, Thumbs } from 'swiper';
+import { FreeMode, Navigation, Thumbs, Mousewheel } from 'swiper';
 const ErpMicrosoftCloudFor = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
@@ -334,17 +334,30 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row">
               <div className="col-lg-12 p-0">
                 <Swiper
-                  slidesPerView={5} /* Show 4 slides at a time */
-                  spaceBetween={10} /* Space between slides */
-                  pagination={{
-                    clickable: true,
-                  }}
-                  modules={[]}
+                  spaceBetween={10}
+                  grabCursor={true}
+                  modules={[Navigation, Mousewheel]}
                   className="mySwiperss"
-                loop={true} 
-                speed={1000} 
-                centeredSlides={true} 
+                  loop={false}
+                  speed={1000}
+                  centeredSlides={false}
+                  breakpoints={{
+                    640: {
+                      slidesPerView: 1
+                    },
+                    768: {
+                      slidesPerView: 2
+                    },
+                    1024: {
+                      slidesPerView: 2
+                    },
+                    1200: {
+                      slidesPerView: 3
+                    },
+                  }}
                 >
+
+
                   <SwiperSlide>
                     <div className='slider-card-001'>
                       <img src="/img/chapter-01.png" alt="chapter-01" />
@@ -475,7 +488,7 @@ const ErpMicrosoftCloudFor = () => {
             </div>
           </div>
         </section>
-        
+
         <section>
           <div className="container">
             <div className="row justify-content-center">
@@ -493,54 +506,54 @@ const ErpMicrosoftCloudFor = () => {
                 </div>
               </div>
             </div>
-            <div className='row' style={{paddingTop:"60px"}}>
-                  <div className='col-lg-4 d-flex'>
-                    <div className='card556'>
-                      <div className='card-233-body'>
-                        <h3>Customer Insights</h3>
-                      </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
-
-                    </div>
+            <div className='row g-3' style={{ paddingTop: "60px" }}>
+              <div className='col-lg-4 d-flex'>
+                <div className='card556'>
+                  <div className='card-233-body'>
+                    <h3>Customer Insights</h3>
                   </div>
-                  <div className='col-lg-4 d-flex'>
-                    <div className='card556'>
-                      <div className='card-233-body'>
-                        <h3>Customer Insights</h3>
-                      </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
+                  <p>Sends personalized email follow-ups after customer interactions.</p>
 
-                    </div>
-                  </div>
-                  <div className='col-lg-4 d-flex'>
-                    <div className='card556'>
-                      <div className='card-233-body'>
-                        <h3>Customer Insights</h3>
-                      </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
-
-                    </div>
-                  </div>
-                  <div className='col-lg-4 d-flex'>
-                    <div className='card556'>
-                      <div className='card-233-body'>
-                        <h3>Customer Insights</h3>
-                      </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
-
-                    </div>
-                  </div>
-                  <div className='col-lg-4 d-flex'>
-                    <div className='card556'>
-                      <div className='card-233-body'>
-                        <h3>Customer Insights</h3>
-                      </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
-
-                    </div>
-                  </div>
-            
                 </div>
+              </div>
+              <div className='col-lg-4 d-flex'>
+                <div className='card556'>
+                  <div className='card-233-body'>
+                    <h3>Customer Insights</h3>
+                  </div>
+                  <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                </div>
+              </div>
+              <div className='col-lg-4 d-flex'>
+                <div className='card556'>
+                  <div className='card-233-body'>
+                    <h3>Customer Insights</h3>
+                  </div>
+                  <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                </div>
+              </div>
+              <div className='col-lg-4 d-flex'>
+                <div className='card556'>
+                  <div className='card-233-body'>
+                    <h3>Customer Insights</h3>
+                  </div>
+                  <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                </div>
+              </div>
+              <div className='col-lg-4 d-flex'>
+                <div className='card556'>
+                  <div className='card-233-body'>
+                    <h3>Customer Insights</h3>
+                  </div>
+                  <p>Sends personalized email follow-ups after customer interactions.</p>
+
+                </div>
+              </div>
+
+            </div>
           </div>
         </section>
 
@@ -567,9 +580,9 @@ const ErpMicrosoftCloudFor = () => {
 
 
 
-     
 
-    
+
+
 
 
 
