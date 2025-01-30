@@ -36,7 +36,7 @@ const ErpMicrosoftCloudFor = () => {
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/copilot-new-banner.png" />
       </Head>
       <main>
-        <section className="top-banner-new">
+        <section className="top-banner-new top-banner-new-bg">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
