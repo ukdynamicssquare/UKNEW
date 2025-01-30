@@ -15,16 +15,25 @@ const ErpMicrosoftCloudFor = () => {
     <>
       <Head>
         <title>Dynamics 365 Copilot Services - AI-Powered assistance</title>
-        <meta name="robots" content='noindex, nofollow' />
         <meta
           name="description"
           content="Enhance productivity with Dynamics 365 Copilot Services—AI-powered assistance for automation, insights, and collaboration. Streamline workflows and drive efficiency!"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/erp-for-startups/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-copilot/"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-copilot/" />
+        <meta property="og:title" content="Dynamics 365 Copilot Services - AI-Powered assistance" />
+        <meta property="og:description" content="Enhance productivity with Dynamics 365 Copilot Services—AI-powered assistance for automation, insights, and collaboration. Streamline workflows and drive efficiency" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/copilot-new-banner.png" />
 
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-copilot/" />
+        <meta property="twitter:title" content="Dynamics 365 Copilot Services - AI-Powered assistance" />
+        <meta property="twitter:description" content="Enhance productivity with Dynamics 365 Copilot Services—AI-powered assistance for automation, insights, and collaboration. Streamline workflows and drive efficiency" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/copilot-new-banner.png" />
       </Head>
       <main>
         <section className="top-banner-new">
@@ -47,7 +56,10 @@ const ErpMicrosoftCloudFor = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className='text-center'>
-                  <Image src="/img/copilot-new-banner.png" alt="bcvsfinance" width={622} height={347} priority={true} />
+                  <video className="video-screen-home-d" playsInline autoPlay loop muted poster="/img/copilot-new-banner.png">
+                    <source src="/video/copiltvide.mp4" type="video/mp4" />
+                  </video>
+                  {/* <Image src="/img/copilot-new-banner.png" alt="bcvsfinance" width={622} height={347} priority={true} /> */}
                 </div>
               </div>
             </div>
@@ -113,7 +125,7 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header-two section-header-two-p-c">
-                  <h2>Dynamics 365 Copilot Empowers <br/>Microsoft CRM Solutions</h2>
+                  <h2>Dynamics 365 Copilot Empowers <br />Microsoft CRM Solutions</h2>
                   <p>Microsoft Dynamics 365 Copilot enhances customer relationship management (CRM) by transforming how businesses interact with customers and manage relationships. It works with the Dynamics 365 Sales, Customer Service, and Customer Insights solutions to give customers the best experiences possible.</p>
                 </header>
               </div>
@@ -189,7 +201,7 @@ const ErpMicrosoftCloudFor = () => {
                   <span>Features & Benefits:</span>
                 </header> */}
                 <header className="section-header-two section-header-two-p-c">
-                  <h2>Dynamics 365 Copilot in <br/>Microsoft ERP Solutions</h2>
+                  <h2>Dynamics 365 Copilot in <br />Microsoft ERP Solutions</h2>
                   <p>Microsoft Copilot comes integrated into ERP solutions like Dynamics 365 Finance, Supply Chain Management, and Commerce. It improves back-end processes that help businesses run more smoothly.</p>
                 </header>
               </div>
@@ -305,78 +317,107 @@ const ErpMicrosoftCloudFor = () => {
 
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-01.png" alt="chapter-01" />
-                      <h3>Dynamics 365 Sales</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Automatically generates meeting summaries and follow-up suggestions based on customer interactions</span></li>
-                        <li><i className="bi bi-check2"></i><span>Provides predictive analytics to identify and prioritize high-potential leads.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Keeps an eye on sales trends to improve strategies in real-time.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Facilitates seamless integration with Microsoft Teams for collaborative sales planning.</span></li>
-                      </ul>
+                      <div>
+                        <img src="/img/chapter-01.png" alt="chapter-01" />
+                        <h3>Dynamics 365 Sales</h3>
+                        <ul>
+                          <li><i className="bi bi-check2"></i><span>Automatically generates meeting summaries and follow-up suggestions based on customer interactions</span></li>
+                          <li><i className="bi bi-check2"></i><span>Provides predictive analytics to identify and prioritize high-potential leads.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Keeps an eye on sales trends to improve strategies in real-time.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Facilitates seamless integration with Microsoft Teams for collaborative sales planning.</span></li>
+                        </ul>
+                      </div>
+                      <div className='text-al'>
+                        <a href="/products/microsoft-dynamics-365-sales/" className='links-new-1'>Learn More</a>
+                      </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-03.png" alt="chapter-01" />
-                      <h3>Dynamics 365 Customer Service</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Real-time suggestions for resolving customer issues more effectively.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps provide AI-driven templates for faster, personalized responses.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Assists with case management by forecasting resolution times and next best actions</span></li>
-                        <li><i className="bi bi-check2"></i><span>Improves the level of service by keeping track of performance and analyzing feedback.</span></li>
-                      </ul>
+                      <div>
+                        <img src="/img/chapter-03.png" alt="chapter-01" />
+                        <h3>Dynamics 365 Customer Service</h3>
+                        <ul>
+                          <li><i className="bi bi-check2"></i><span>Real-time suggestions for resolving customer issues more effectively.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Helps provide AI-driven templates for faster, personalized responses.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Assists with case management by forecasting resolution times and next best actions</span></li>
+                          <li><i className="bi bi-check2"></i><span>Improves the level of service by keeping track of performance and analyzing feedback.</span></li>
+                        </ul>
+                      </div>
+                      <div className='text-al'>
+                        <a href="/products/microsoft-dynamics-365-customer-service/" className='links-new-1'>Learn More</a>
+                      </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-04.png" alt="chapter-01" />
-                      <h3>Dynamics 365 Marketing</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Offers personalized campaign suggestions tailored to audience behavior.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Enables automated email generation for targeted outreach.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Tracks campaign performance and provides actionable insights</span></li>
-                        <li><i className="bi bi-check2"></i><span>Supports integration with LinkedIn for extended audience reach.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Automated meeting summaries.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Intelligent deal predictions and follow-up suggestions.</span></li>
-                      </ul>
+                      <div>
+                        <img src="/img/chapter-04.png" alt="chapter-01" />
+                        <h3>Dynamics 365 Marketing</h3>
+                        <ul>
+                          <li><i className="bi bi-check2"></i><span>Offers personalized campaign suggestions tailored to audience behavior.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Enables automated email generation for targeted outreach.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Tracks campaign performance and provides actionable insights</span></li>
+                          <li><i className="bi bi-check2"></i><span>Supports integration with LinkedIn for extended audience reach.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Automated meeting summaries.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Intelligent deal predictions and follow-up suggestions.</span></li>
+                        </ul>
+                      </div>
+                      <div className='text-al'>
+                        <a href="/products/microsoft-dynamics-365-marketing/" className='links-new-1'>Learn More</a>
+                      </div>
                     </div>
                   </SwiperSlide>
-                 
-                 
+
+
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-05.png" alt="chapter-01" />
-                      <h3>Dynamics 365 Finance</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Keeps track of costs automatically and gives detailed financial reports.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps with budgeting and planning your finances based on predictive insights. </span></li>
-                        <li><i className="bi bi-check2"></i><span>Monitors compliance with changing regulations.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Makes audits easier by using AI to summarize financial info. </span></li>
-                      </ul>
+                      <div>
+                        <img src="/img/chapter-05.png" alt="chapter-01" />
+                        <h3>Dynamics 365 Finance</h3>
+                        <ul>
+                          <li><i className="bi bi-check2"></i><span>Keeps track of costs automatically and gives detailed financial reports.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Helps with budgeting and planning your finances based on predictive insights. </span></li>
+                          <li><i className="bi bi-check2"></i><span>Monitors compliance with changing regulations.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Makes audits easier by using AI to summarize financial info. </span></li>
+                        </ul>
+                      </div>
+                      <div className='text-al'>
+                        <a href="/products/microsoft-dynamics-365-finance/" className='links-new-1'>Learn More</a>
+                      </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-02.png" alt="chapter-01" />
-                      <h3>Dynamics 365 SCM</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information. </span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
-                      </ul>
+                      <div>
+                        <img src="/img/chapter-02.png" alt="chapter-01" />
+                        <h3>Dynamics 365 SCM</h3>
+                        <ul>
+                          <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information. </span></li>
+                          <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                        </ul></div>
+                      <div className='text-al'>
+                        <a href="/products/dynamics-365-supply-chain-management/" className='links-new-1'>Learn More</a>
+                      </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-06.png" alt="chapter-01" />
-                      <h3>Dynamics 365 Commerce</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Personalizes shopping experiences with AI-driven product recommendations.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Analyzes how customers act to make sales and marketing plans better.  </span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates order management and tracking.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Enhances in-store and online integration for unified commerce.</span></li>
-                      </ul>
+                      <div>
+                        <img src="/img/chapter-06.png" alt="chapter-01" />
+                        <h3>Dynamics 365 Commerce</h3>
+                        <ul>
+                          <li><i className="bi bi-check2"></i><span>Personalizes shopping experiences with AI-driven product recommendations.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Analyzes how customers act to make sales and marketing plans better.  </span></li>
+                          <li><i className="bi bi-check2"></i><span>Automates order management and tracking.</span></li>
+                          <li><i className="bi bi-check2"></i><span>Enhances in-store and online integration for unified commerce.</span></li>
+                        </ul>
+                      </div>
+                      <div className='text-al'>
+                        <a href="/products/microsoft-dynamics-365-commerce/" className='links-new-1'>Learn More</a>
+                      </div>
                     </div>
                   </SwiperSlide>
 
@@ -413,7 +454,7 @@ const ErpMicrosoftCloudFor = () => {
               <div className="col-lg-12">
                 <div className="card-233">
                   <div className="card-233-body">
-                    <h3>•	Integrated Workspaces</h3>
+                    <h3>Integrated Workspaces</h3>
                     <p>It's built right into Microsoft Teams, which makes it easy for people to work together.</p>
                   </div>
                   <div className="card-233-body">
@@ -445,7 +486,7 @@ const ErpMicrosoftCloudFor = () => {
                 <header className="section-header-two">
                   <span>Features</span>
                   <h2>Future-Ready with Dynamics 365 Copilot</h2>
-                  <p>Microsoft Dynamics 365 Copilot keeps businesses future-ready by continuously evolving with new AI capabilities. Integrated with many business solutions within Dynamics 365 suite, it gives you an edge over competition by making your process more efficient.</p>
+                  <p>Microsoft Dynamics 365 Copilot keeps businesses future-ready by continuously evolving with new AI capabilities. Integrated with many business solutions within <a href="/products/microsoft-dynamics-365/">Dynamics 365 suite</a>, it gives you an edge over competition by making your process more efficient.</p>
                 </header>
               </div>
             </div>
@@ -508,7 +549,7 @@ const ErpMicrosoftCloudFor = () => {
         </section>
 
 
-        <section style={{overflow:'hidden'}}>
+        <section style={{ overflow: 'hidden' }}>
           <div className="container">
             <div className="row justify-content-center p-realtive">
               <div className="col-lg-12">
@@ -520,8 +561,8 @@ const ErpMicrosoftCloudFor = () => {
                   </div>
                 </div>
                 <div className='abs-pic abs-pic-n'>
-                <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
-                </div> 
+                  <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
+                </div>
               </div>
 
             </div>
