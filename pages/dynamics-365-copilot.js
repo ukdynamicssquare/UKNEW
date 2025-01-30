@@ -14,11 +14,11 @@ const ErpMicrosoftCloudFor = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Copilot| Dynamics Square</title>
+        <title>Dynamics 365 Copilot Services - AI-Powered assistance</title>
         <meta name="robots" content='noindex, nofollow' />
         <meta
           name="description"
-          content="Find the best ERP solutions for startups! Streamline operations, enhance productivity, and drive growth with tailored ERP systems for small businesses in UK."
+          content="Enhance productivity with Dynamics 365 Copilot Services—AI-powered assistance for automation, insights, and collaboration. Streamline workflows and drive efficiency!"
         />
         <link
           rel="canonical"
@@ -105,70 +105,6 @@ const ErpMicrosoftCloudFor = () => {
 
             </div>
 
-            {/* <div className="row g-5 ps-realtive">
-              <div className="dashed-border"></div>
-              <div className="dashed-border"></div>
-              <div className="dashed-border"></div>
-              <div className="dashed-border"></div>
-              <div className="dashed-border"></div>
-              <div className="dashed-border"></div>
-              <div className="col-lg-4">
-                <div className="card-20">
-                  <h3>Tight Budgets and Resource Crunches</h3>
-                  <p>No hefty upfront costs! No overextending of your budget! Set your business up for success by acquiring enterprise-grade tools with startup-friendly pricing options.</p>
-                </div>
-              </div>
-              <div className="col-lg-4 align-self-center">
-                <div className="card-21">
-                  <h3><span>38% </span>of startups fail due to cash flow problems</h3>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="card-20">
-                  <h3>Data Silos and Disconnected Systems</h3>
-                  <p>Bid adieu to scattered tools and fragmented information. Integrate your operations on a unified platform to enable seamless data flow and informed decision-making.</p>
-                </div>
-              </div>
-              <div className="col-lg-4 align-self-center">
-                <div className="card-21">
-                  <h3><span>82% </span>of organizations report challenges with data integration.</h3>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="card-20">
-                  <h3>Manual Workflows and Inefficiencies</h3>
-                  <p>Reduce administrative burden with automation. Focus on innovation while your routine tasks handle themselves.</p>
-                </div>
-              </div>
-              <div className="col-lg-4 align-self-center">
-                <div className="card-21">
-                  <h3><span>40%  </span>increase in productivity due to automation</h3>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="card-20">
-                  <h3>Compliance and Regulatory Demands</h3>
-                  <p>Stay ahead of legal and regulatory requirements with built-in tools for reporting and compliance management—no stress, no hassle.</p>
-                </div>
-              </div>
-              <div className="col-lg-4 align-self-center">
-                <div className="card-21">
-                  <h3><span>56%  </span>of startups find regulatory compliance burdensome</h3>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="card-20">
-                  <h3>Resource Constraints and Project Management</h3>
-                  <p>Maximize efficiency by allocating resources smartly and tracking projects in real-time, ensuring smooth operations even with a lean team.</p>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="col-lg-12 text-center">
-              <div className="bnt-tras">
-                <a href="#">Explore More!</a>
-              </div>
-            </div> */}
-
           </div>
         </section>
 
@@ -177,7 +113,7 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header-two section-header-two-p-c">
-                  <h2>Dynamics 365 Copilot Empowers Microsoft CRM Solutions</h2>
+                  <h2>Dynamics 365 Copilot Empowers <br/>Microsoft CRM Solutions</h2>
                   <p>Microsoft Dynamics 365 Copilot enhances customer relationship management (CRM) by transforming how businesses interact with customers and manage relationships. It works with the Dynamics 365 Sales, Customer Service, and Customer Insights solutions to give customers the best experiences possible.</p>
                 </header>
               </div>
@@ -201,7 +137,16 @@ const ErpMicrosoftCloudFor = () => {
                       <div className='card-233-body'>
                         <h3><span><i className="bi bi-check2"></i></span>Customer Insights</h3>
                       </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
+                      <p>Provides actionable intelligence about customer preferences and trends.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Task Prioritization</h3>
+                      </div>
+                      <p>Uses AI to suggest and prioritize high-impact tasks.</p>
 
                     </div>
                   </div>
@@ -220,15 +165,6 @@ const ErpMicrosoftCloudFor = () => {
                         <h3><span><i className="bi bi-check2"></i></span>Data Simplification</h3>
                       </div>
                       <p>Creates summaries of interactions with customers for future reference.</p>
-
-                    </div>
-                  </div>
-                  <div className='col-lg-6 d-flex'>
-                    <div className='card557'>
-                      <div className='card-233-body'>
-                        <h3><span><i className="bi bi-check2"></i></span>Task Prioritization</h3>
-                      </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
 
                     </div>
                   </div>
@@ -253,8 +189,8 @@ const ErpMicrosoftCloudFor = () => {
                   <span>Features & Benefits:</span>
                 </header> */}
                 <header className="section-header-two section-header-two-p-c">
-                  <h2>Dynamics 365 Copilot Empowers Microsoft CRM Solutions</h2>
-                  <p>Microsoft Dynamics 365 Copilot enhances customer relationship management (CRM) by transforming how businesses interact with customers and manage relationships. It works with the Dynamics 365 Sales, Customer Service, and Customer Insights solutions to give customers the best experiences possible.</p>
+                  <h2>Dynamics 365 Copilot in <br/>Microsoft ERP Solutions</h2>
+                  <p>Microsoft Copilot comes integrated into ERP solutions like Dynamics 365 Finance, Supply Chain Management, and Commerce. It improves back-end processes that help businesses run more smoothly.</p>
                 </header>
               </div>
             </div>
@@ -275,36 +211,45 @@ const ErpMicrosoftCloudFor = () => {
                   <div className='col-lg-6 d-flex'>
                     <div className='card557'>
                       <div className='card-233-body'>
-                        <h3><span><i className="bi bi-check2"></i></span>Customer Insights</h3>
+                        <h3><span><i className="bi bi-check2"></i></span>Financial Accuracy</h3>
                       </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
+                      <p>Helps with budgeting and forecasting by analyzing historical data.</p>
 
                     </div>
                   </div>
                   <div className='col-lg-6 d-flex'>
                     <div className='card557'>
                       <div className='card-233-body'>
-                        <h3><span><i className="bi bi-check2"></i></span>Real-Time Suggestions</h3>
+                        <h3><span><i className="bi bi-check2"></i></span>Inventory Management</h3>
                       </div>
-                      <p>Tells you what to do next while you're talking to a customer.</p>
+                      <p>Uses predictive analytics to find the best stock levels and cut down on waste.</p>
 
                     </div>
                   </div>
                   <div className='col-lg-6 d-flex'>
                     <div className='card557'>
                       <div className='card-233-body'>
-                        <h3><span><i className="bi bi-check2"></i></span>Data Simplification</h3>
+                        <h3><span><i className="bi bi-check2"></i></span>Procurement Simplification</h3>
                       </div>
-                      <p>Creates summaries of interactions with customers for future reference.</p>
+                      <p>Automates vendor comparisons and purchase order creation.</p>
 
                     </div>
                   </div>
                   <div className='col-lg-6 d-flex'>
                     <div className='card557'>
                       <div className='card-233-body'>
-                        <h3><span><i className="bi bi-check2"></i></span>Task Prioritization</h3>
+                        <h3><span><i className="bi bi-check2"></i></span>Compliance Assistance</h3>
                       </div>
-                      <p>Sends personalized email follow-ups after customer interactions.</p>
+                      <p>Tracks regulatory changes and suggests updates to policies.</p>
+
+                    </div>
+                  </div>
+                  <div className='col-lg-6 d-flex'>
+                    <div className='card557'>
+                      <div className='card-233-body'>
+                        <h3><span><i className="bi bi-check2"></i></span>Report Generation</h3>
+                      </div>
+                      <p>Creates detailed financial and operational reports on demand.</p>
 
                     </div>
                   </div>
@@ -312,7 +257,7 @@ const ErpMicrosoftCloudFor = () => {
               </div>
               <div className='col-lg-5 order-1'>
                 <div className='img-backs-sid'>
-                  <img src="/img/copil-side.png" alt="copil-side" className='im-two' />
+                  <img src="/img/fincial-acc-pci.png" alt="copil-side" className='im-two' />
                   <img src="/img/bb-gg.png" alt="copil-side" className='im-one' />
                 </div>
               </div>
@@ -325,7 +270,7 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="headin-444">
-                  <h3>Make Your Business More Efficient <br />with Microsoft Copilot!</h3>
+                  <h2>Dynamics 365 Solutions Integrated with Copilot</h2>
                   <p>Microsoft Copilot is built into many Dynamics 365 solutions, giving businesses a cohesive set of tools that work in tandem together. These solutions, with the help of Copilot, offer easy-to-use features that make things run more smoothly and get more things done.</p>
                 </div>
               </div>
@@ -363,57 +308,60 @@ const ErpMicrosoftCloudFor = () => {
                       <img src="/img/chapter-01.png" alt="chapter-01" />
                       <h3>Dynamics 365 Sales</h3>
                       <ul>
-                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
-                      </ul>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className='slider-card-001'>
-                      <img src="/img/chapter-02.png" alt="chapter-01" />
-                      <h3>Supply Chain Management</h3>
-                      <ul>
-                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automatically generates meeting summaries and follow-up suggestions based on customer interactions</span></li>
+                        <li><i className="bi bi-check2"></i><span>Provides predictive analytics to identify and prioritize high-potential leads.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Keeps an eye on sales trends to improve strategies in real-time.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Facilitates seamless integration with Microsoft Teams for collaborative sales planning.</span></li>
                       </ul>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
                       <img src="/img/chapter-03.png" alt="chapter-01" />
-                      <h3>Customer Service</h3>
+                      <h3>Dynamics 365 Customer Service</h3>
                       <ul>
-                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Real-time suggestions for resolving customer issues more effectively.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps provide AI-driven templates for faster, personalized responses.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Assists with case management by forecasting resolution times and next best actions</span></li>
+                        <li><i className="bi bi-check2"></i><span>Improves the level of service by keeping track of performance and analyzing feedback.</span></li>
                       </ul>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
                       <img src="/img/chapter-04.png" alt="chapter-01" />
-                      <h3>Copilot in Marketing</h3>
+                      <h3>Dynamics 365 Marketing</h3>
                       <ul>
-                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Offers personalized campaign suggestions tailored to audience behavior.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Enables automated email generation for targeted outreach.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Tracks campaign performance and provides actionable insights</span></li>
+                        <li><i className="bi bi-check2"></i><span>Supports integration with LinkedIn for extended audience reach.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Automated meeting summaries.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Intelligent deal predictions and follow-up suggestions.</span></li>
+                      </ul>
+                    </div>
+                  </SwiperSlide>
+                 
+                 
+                  <SwiperSlide>
+                    <div className='slider-card-001'>
+                      <img src="/img/chapter-05.png" alt="chapter-01" />
+                      <h3>Dynamics 365 Finance</h3>
+                      <ul>
+                        <li><i className="bi bi-check2"></i><span>Keeps track of costs automatically and gives detailed financial reports.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps with budgeting and planning your finances based on predictive insights. </span></li>
+                        <li><i className="bi bi-check2"></i><span>Monitors compliance with changing regulations.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Makes audits easier by using AI to summarize financial info. </span></li>
                       </ul>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className='slider-card-001'>
-                      <img src="/img/chapter-05.png" alt="chapter-01" />
-                      <h3>Dynamics 365 Marketng</h3>
+                      <img src="/img/chapter-02.png" alt="chapter-01" />
+                      <h3>Dynamics 365 SCM</h3>
                       <ul>
                         <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information. </span></li>
                         <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
                         <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
                       </ul>
@@ -422,12 +370,12 @@ const ErpMicrosoftCloudFor = () => {
                   <SwiperSlide>
                     <div className='slider-card-001'>
                       <img src="/img/chapter-06.png" alt="chapter-01" />
-                      <h3>Dynamics 365 power BI</h3>
+                      <h3>Dynamics 365 Commerce</h3>
                       <ul>
-                        <li><i className="bi bi-check2"></i><span>Helps with demand forecasting to optimize inventory levels.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Helps you work in tandem with vendors with real-time information.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Automates the creation of purchase orders and restocking alerts.</span></li>
-                        <li><i className="bi bi-check2"></i><span>Reduces operational disruptions with predictive maintenance insights.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Personalizes shopping experiences with AI-driven product recommendations.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Analyzes how customers act to make sales and marketing plans better.  </span></li>
+                        <li><i className="bi bi-check2"></i><span>Automates order management and tracking.</span></li>
+                        <li><i className="bi bi-check2"></i><span>Enhances in-store and online integration for unified commerce.</span></li>
                       </ul>
                     </div>
                   </SwiperSlide>
@@ -448,8 +396,9 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header-two">
-                  <span>Key Solution</span>
-                  <h2>Microsoft Dynamics 365 Business Central—Your Comprehensive Solution for Smarter Business Management</h2>
+                  <span>Key Features</span>
+                  <h2>Enhancing Collaboration with Copilot</h2>
+                  <p>Improved productivity is the outcome of better teamwork! Dynamics 365 Copilot helps you achieve that by connecting with tools like Microsoft Teams and Office 365 so that professionals can smoothly communicate and collaborate on existing and new projects.</p>
                 </header>
               </div>
             </div>
@@ -464,24 +413,24 @@ const ErpMicrosoftCloudFor = () => {
               <div className="col-lg-12">
                 <div className="card-233">
                   <div className="card-233-body">
-                    <h3>AI-Powered Assistance</h3>
-                    <p>Get intelligent, context-driven insights to streamline tasks and improve decisions.</p>
+                    <h3>•	Integrated Workspaces</h3>
+                    <p>It's built right into Microsoft Teams, which makes it easy for people to work together.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Live Data Insights</h3>
-                    <p>Access real-time performance metrics for sales, finances, and inventory.</p>
+                    <h3>Document Automation</h3>
+                    <p>Based on the data you give it, it writes reports, presentations, and letters.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Actionable Alerts</h3>
-                    <p>Get notified for critical tasks, pending approvals, and probable issues.</p>
+                    <h3>Task Coordination</h3>
+                    <p>Assigns and tracks team tasks with intelligent suggestions.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Financial Mastery</h3>
-                    <p>Effortlessly keep track of cash flow, manage budgets, and supervise accounts with confidence.</p>
+                    <h3>Meeting Summaries: </h3>
+                    <p>Generates concise summaries of team meetings.</p>
                   </div>
                   <div className="card-233-body">
-                    <h3>Seamless Integrations</h3>
-                    <p>Easily connect Microsoft tools like Teams, Office, and third-party apps to get more done.</p>
+                    <h3>Knowledge Sharing</h3>
+                    <p>Quickly retrieves documents and insights from organizational data.</p>
                   </div>
                 </div>
               </div>
@@ -494,8 +443,9 @@ const ErpMicrosoftCloudFor = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <header className="section-header-two">
-                  <span>Key Solution</span>
-                  <h2>Microsoft Dynamics 365 Business Central—Your Comprehensive Solution for Smarter Business Management</h2>
+                  <span>Features</span>
+                  <h2>Future-Ready with Dynamics 365 Copilot</h2>
+                  <p>Microsoft Dynamics 365 Copilot keeps businesses future-ready by continuously evolving with new AI capabilities. Integrated with many business solutions within Dynamics 365 suite, it gives you an edge over competition by making your process more efficient.</p>
                 </header>
               </div>
             </div>
@@ -510,45 +460,45 @@ const ErpMicrosoftCloudFor = () => {
               <div className='col-lg-4 d-flex'>
                 <div className='card556'>
                   <div className='card-233-body'>
-                    <h3>Customer Insights</h3>
+                    <h3>Always Learning</h3>
                   </div>
-                  <p>Sends personalized email follow-ups after customer interactions.</p>
+                  <p>Adapts based on what the user wants to do better.</p>
 
                 </div>
               </div>
               <div className='col-lg-4 d-flex'>
                 <div className='card556'>
                   <div className='card-233-body'>
-                    <h3>Customer Insights</h3>
+                    <h3>Regular Updates</h3>
                   </div>
-                  <p>Sends personalized email follow-ups after customer interactions.</p>
+                  <p>Constant upgrades to features help ensure that the tools are always up to the minute. </p>
 
                 </div>
               </div>
               <div className='col-lg-4 d-flex'>
                 <div className='card556'>
                   <div className='card-233-body'>
-                    <h3>Customer Insights</h3>
+                    <h3>Adaptability</h3>
                   </div>
-                  <p>Sends personalized email follow-ups after customer interactions.</p>
+                  <p>Expands as per the needs of the business and provides custom solutions.</p>
 
                 </div>
               </div>
               <div className='col-lg-4 d-flex'>
                 <div className='card556'>
                   <div className='card-233-body'>
-                    <h3>Customer Insights</h3>
+                    <h3>Advanced Analytics: </h3>
                   </div>
-                  <p>Sends personalized email follow-ups after customer interactions.</p>
+                  <p>Uses statistical models to make more accurate forecasts.</p>
 
                 </div>
               </div>
               <div className='col-lg-4 d-flex'>
                 <div className='card556'>
                   <div className='card-233-body'>
-                    <h3>Customer Insights</h3>
+                    <h3>Security First: </h3>
                   </div>
-                  <p>Sends personalized email follow-ups after customer interactions.</p>
+                  <p>Protects sensitive data with enterprise-grade security measures.</p>
 
                 </div>
               </div>
@@ -558,34 +508,25 @@ const ErpMicrosoftCloudFor = () => {
         </section>
 
 
-        <section>
+        <section style={{overflow:'hidden'}}>
           <div className="container">
             <div className="row justify-content-center p-realtive">
               <div className="col-lg-12">
                 <div className="new-cta-one">
-                  <div className="new-cta-one-body">
-                    <h2> <span>Save upto 40%</span> on deployment and upgrade costs!</h2>
-                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">See How It Works for Your Startup?</a>
+                  <div className="new-cta-one-body new-cta-one-body-padd">
+                    <h2>Ready to tap into the potential of Dynamics 365 Copilot? </h2>
+                    <p>Experience intelligent automation, enhanced decision-making, and seamless operations at your command!</p>
+                    <a href="#exampleModal" data-bs-toggle="modal" className="btn-get-star">Know More!</a>
                   </div>
                 </div>
-                {/* <div className='abs-pic'>
+                <div className='abs-pic abs-pic-n'>
                 <img src="/img/sahpe-2212-pic.png" alt="sahpe-2212-pic" />
-                </div> */}
+                </div> 
               </div>
 
             </div>
           </div>
         </section>
-
-
-
-
-
-
-
-
-
-
 
       </main>
     </>

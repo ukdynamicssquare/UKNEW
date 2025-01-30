@@ -14005,7 +14005,7 @@ figure {
   text-align:center;
   padding-bottom:30px
 }
-.headin-444 h3{
+.headin-444 h2{
   color: #ffffff;
   text-transform: capitalize;
   font-size: 42px;
@@ -14058,8 +14058,21 @@ figure {
   color:#7865af
 }
 .slider-card-001 ul li .bi{}
+.abs-pic.abs-pic-n{
+    top: 11px;
+    right: -87px;
+    width: 325px;
+}
+.new-cta-one-body-padd{
+
+}
 
 @media (max-width: 1400px) {
+  .abs-pic.abs-pic-n{
+    top: 46px;
+    right: -96px;
+    width: 298px;
+}
   .tt-heading-box.tt-heading-box-two {
     top: -165px;
     margin-bottom: -90px;
@@ -14069,6 +14082,9 @@ figure {
   }
   .newhh-he span {
     margin-right: 45px;
+  }
+  .headin-444 h2{
+    font-size: 32px;
   }
 }
 @media (max-width: 1100px) {
@@ -14087,8 +14103,17 @@ figure {
     top: -183px;
     margin-bottom: -140px;
   }
+  .headin-444 h2{
+    font-size: 24px;
+  }
+  .top-banner-new {
+    text-align: center;
+}
 }
 @media (max-width: 768px) {
+  .mySwiperss{
+    padding: 0px 15px !important;
+  }
   .mobie-scroll-small {
     display: flex;
     flex-wrap: nowrap;
