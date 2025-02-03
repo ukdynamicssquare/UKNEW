@@ -359,8 +359,12 @@ const QuestionForm = ({ question, handleInputChange, index, formData, staticErro
             <label className="switch">
               <input
                 type="checkbox"
-                checked={formData[ques_id] === "Yes"}
+                // checked={formData[ques_id] === "Yes"}
+                // onChange={(e) => handleInputChange(ques_id, e.target.checked ? "Yes" : "No")}
+                //old code
+                checked={formData[ques_id] === "Yes" || (index === 0 && formData[ques_id] === undefined)} // Make "Yes" checked by default for the first question
                 onChange={(e) => handleInputChange(ques_id, e.target.checked ? "Yes" : "No")}
+                disabled={index === 0} // Disable the radio button for the first question
               />
               <span className="slider">
                 <span className="text-left">Yes</span>

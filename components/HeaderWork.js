@@ -1,61 +1,87 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import DeskstopMenu from "./DeskstopMenu";
 import MobileMenu from "./MobileMenu";
+import { useRouter } from "next/router";
 // import TimerModal from "./TimerModal";
 
+const HeaderWork = () => {
+  const [isFixed, setIsFixed] = useState(false);
+  const router = useRouter();
 
-class HeaderWork extends Component {
-  componentDidMount() {
-    let elementId = document.getElementById("header");
-    document.addEventListener("scroll", () => {
+  // Define the specific link where you want to add the class
+  const specificPath = "/home-one"; // Change this to your desired link
+  const isSpecificPath = router.pathname === specificPath;
+
+// Determine which logo to show based on the current route
+const getLogoSrc = () => {
+  switch (router.pathname) {
+    case "/home-one":
+      return "/img/dynamics_square_tm_logo_footer.svg";  // Replace with the logo for the About page
+    // case "/services":
+    //   return "/img/services_logo.svg"; 
+
+    default:
+      return "/img/dynamics_square_tm_logo.svg"; // Default logo
+  }
+};
+
+  useEffect(() => {
+    const handleScroll = () => {
       if (window.scrollY > 170) {
-        elementId.classList.add("fixed-top");
+        setIsFixed(true);
       } else {
-        elementId.classList.remove("fixed-top");
+        setIsFixed(false);
       }
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Scroll to top on component mount
     window.scrollTo(0, 0);
-  }
-  componentWillUnmount() {
-    this._isMounted = false;
-  }
 
-  render() {
-    return (
-      <>
-        {/* <TimerModal /> */}
-        <header id="header" className="header">
-          <div className="top-header-sec">
-            <a href="mailto:info@dynamicssquare.co.uk">
-              <span><i className="bi bi-envelope"></i> info@dynamicssquare.co.uk</span>
-            </a>
-            <a href="tel:+442071932502">
-              <span><i className="bi bi-telephone"></i> 0207 193 2502</span>
-            </a>
-          </div>
-          <div className="container-fluid">
+    // Clean up on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-            <nav id="navbar" className="navbar">
-              <div className="left-logo">
-                <a href="/" className="logo">
-                  <img
-                    src="/img/dynamics_square_tm_logo.svg"
-                    alt="Dynamics Square TM Logo"
-                    width="282"
-                    height="19"
-                  />
-                </a>
-              </div>
-              <div className="right-nav">
-                <DeskstopMenu />
-              </div>
-            </nav>
-           <MobileMenu />
-          </div>
-        </header>
-      </>
-    );
-  }
-}
+  return (
+    <>
+      {/* <TimerModal /> */}
+      <header
+        id="header"
+        className={`header ${isFixed ? 'fixed-top' : ''} ${isSpecificPath ? 'specific-header' : ''}`}
+      >
+        <div className="top-header-sec">
+          <a href="mailto:info@dynamicssquare.co.uk">
+            <span><i className="bi bi-envelope"></i> info@dynamicssquare.co.uk</span>
+          </a>
+          <a href="tel:+442071932502">
+            <span><i className="bi bi-telephone"></i> 0207 193 2502</span>
+          </a>
+        </div>
+        <div className="container-fluid">
+          <nav id="navbar" className="navbar">
+            <div className="left-logo">
+              <a href="/" className="logo">
+                <img
+                    src={getLogoSrc()}
+                  alt="Dynamics Square TM Logo"
+                  width="282"
+                  height="19"
+                />
+              </a>
+            </div>
+            <div className="right-nav">
+              <DeskstopMenu />
+            </div>
+          </nav>
+          <MobileMenu />
+        </div>
+      </header>
+    </>
+  );
+};
+
 export default HeaderWork;

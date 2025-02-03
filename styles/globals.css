@@ -14430,3 +14430,129 @@ figure {
   }
 }
 /*enu new  code end*/
+
+.home-baner-head-new{
+  background-image: radial-gradient(circle at 68% 158%, #d73d3d, rgba(215, 61, 61, 0) 51%), radial-gradient(circle at 50% -43%, #7865af, #393053 78%);
+  /* background:#000; */
+    background-blend-mode: color-dodge;
+    height: 600px;
+}
+.home-baner-head-new{
+  position:relative;
+  overflow: hidden;
+  height:100vh;
+  margin-top:-80px
+}
+.home-baner-head{
+  position: relative;
+  z-index: 2;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.home-baner-head h1{
+  font-size: 18px !important;
+  color: #fff;
+}
+.home-baner-head h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+.home-baner-head p{
+  color: #fff;
+  font-size: 22px;
+}
+.floting-b{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:1;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+  opacity: 0.5;
+
+}
+.orbit-parent {
+  width: 1000px;
+  height: 1000px;
+  border: 2px dashed #776a9a;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+  animation: rotate 100s linear infinite;
+}
+.orbit-child  {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #776a9a;
+  animation: rotate 90s linear infinite;
+}
+
+.orbit-child.child1 {
+  width: 800px;
+  height: 800px;
+  animation: rotate-revere 60s linear infinite;
+}
+.orbit-child.child2 {
+  width: 600px;
+  height: 600px;
+  animation-duration: 130s;
+}
+.orbit-child.child3 {
+  width: 400px;
+  height: 400px;
+  animation: rotate-revere 40s linear infinite;
+}
+.btn-home{
+  background-color:#f1f0f4;
+  font-size: 20px;
+  color: #544a81;
+  padding: 0.9rem 1rem;
+  transition:.4s ease
+}
+.btn-home span{
+  transform: rotate(45deg);
+  display: inline-block;
+  transition:.4s ease
+}
+
+.btn-home:hover{
+  background:#000;
+  color: #fff;
+}
+.btn-home:hover span{
+  padding-left: 20px;
+}
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+@keyframes rotate-revere {
+  from {
+      transform: rotate(360deg);
+  }
+  to {
+      transform: rotate(0deg);
+  }
+}
+.specific-header{
+ position:relative
+}
+.specific-header .top-header-sec{
+display:none
+}
+.specific-header .navbar a, .specific-header .navbar a:focus{
+  color: #f5f5f5;
+}
