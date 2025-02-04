@@ -14454,15 +14454,29 @@ figure {
 .home-baner-head h1{
   font-size: 18px !important;
   color: #fff;
+  margin-bottom: 20px;
 }
 .home-baner-head h2{
   font-size: 48px;
   font-weight: bold;
   color: #fff;
+  margin-bottom: 20px;
 }
 .home-baner-head p{
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.specialtitle{
+  position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 19px;
+}
+.specialtitle p{
+  font-family: Devonshire;
+  font-size: 36px;
+  color: #fff;
 }
 .floting-b{
   position:absolute;
@@ -14518,19 +14532,24 @@ figure {
   padding: 0.9rem 1rem;
   transition:.4s ease
 }
+.btn-home img{
+  animation: fades 3s linear infinite;
+}
 .btn-home span{
-  transform: rotate(45deg);
   display: inline-block;
-  transition:.4s ease
+  transition:.4s ease;
+  padding-left:5px
 }
 
-.btn-home:hover{
-  background:#000;
-  color: #fff;
+.btn-home:hover,.btn-home:active,.btn-home:focus{
+  background: #1b0d41bf;
+    color: #fff;
+    border-color: #55477b;
 }
 .btn-home:hover span{
   padding-left: 20px;
 }
+
 @keyframes rotate {
   from {
       transform: rotate(0deg);
@@ -14547,6 +14566,11 @@ figure {
       transform: rotate(0deg);
   }
 }
+
+@keyframes fades {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 .specific-header{
  position:relative
 }
@@ -14556,3 +14580,41 @@ display:none
 .specific-header .navbar a, .specific-header .navbar a:focus{
   color: #f5f5f5;
 }
+.mySwip{
+  position: relative;
+  overflow: hidden;
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  mask-image: radial-gradient(
+    circle at center,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(0, 0, 0, 0) 90%
+  );
+}
+ /* .mySwip::before,
+.mySwip::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 25%; 
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  backdrop-filter: blur(1.7px);
+}
+
+.mySwip::before {
+  left: 0;
+  background: linear-gradient(to right, rgb(68 58 100 / 79%), rgb(62 52 91 / 22%));
+}
+
+.mySwip::after {
+  right: 0;
+  background: linear-gradient(to left, rgb(68 58 100 / 79%), rgb(62 52 91 / 22%));
+}
+.mySwip .swiper-wrapper{
+  transition-timing-function: linear !important;
+}  */
