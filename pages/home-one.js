@@ -6,13 +6,13 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
-import { FreeMode, Navigation, Thumbs, Mousewheel,Autoplay } from 'swiper';
+import { FreeMode, Navigation, Thumbs, Mousewheel, Autoplay } from 'swiper';
 
 
 const HomeOne = () => {
     return (
         <>
-            <Head> 
+            <Head>
                 <title>
                     Dynamics Square Home New
                 </title>
@@ -50,14 +50,14 @@ const HomeOne = () => {
                         <div className='row'>
                             <div className='col-lg-12 p-0'>
                                 <Swiper
-                                 autoplay={{
-                                    delay: 0,
-                                    disableOnInteraction: false,
-                                    pauseOnMouseEnter: true,
-                                  }}
+                                    autoplay={{
+                                        delay: 0,
+                                        disableOnInteraction: false,
+                                        pauseOnMouseEnter: true,
+                                    }}
                                     spaceBetween={10}
                                     grabCursor={true}
-                                    modules={[Navigation, Mousewheel,Autoplay]}
+                                    modules={[Navigation, Mousewheel, Autoplay]}
                                     className="mySwip"
                                     loop={true}
                                     speed={30000}
@@ -139,6 +139,159 @@ const HomeOne = () => {
                         </div>
                     </div>
                 </section>
+
+                <section>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-md-8'>
+                                <div className='new-title-heading'>
+                                    <h2>Why Work with Us?</h2>
+                                    <p>At Dynamics Square, we don’t just implement Microsoft solutions—we help businesses unlock their full potential. As your trusted Microsoft Business Solutions Partner, we transform the way you work by turning challenges into opportunities with tailored consulting, seamless implementation, and dedicated support.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='accive-new-list'>
+                                    <span>350+</span>
+                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='accive-new-list'>
+                                    <span>150+</span>
+                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='accive-new-list'>
+                                    <span>350+</span>
+                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='accive-new-list'>
+                                    <span>12+</span>
+                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row case-div-o'>
+                            <div className='col-lg-12'>
+                                <h3>See how our customers drive impact</h3>
+                            </div>
+
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-666'>
+                                    <div className='crad-img'>
+                                        <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-666'>
+                                    <div className='crad-img'>
+                                        <img src="/img/case-imgs-2.jpg" alt="case-imgs-2" />
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-666'>
+                                    <div className='crad-img'>
+                                        <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-666'>
+                                    <div className='crad-img'>
+                                        <img src="/img/case-imgs-4.jpg" alt="case-imgs-4" />
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='col-lg-12 text-center to-22'>
+                                <a href="#" className='btn-red btn'>Explore more use cases <i className="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='bg-gra-sc'>
+                    <div className='container'>
+                        <div className='row justify-content-center'>
+                            <div className='col-md-9'>
+                                <div className='new-title-heading title-heading-center'>
+                                    <h2>Our Services, Simplified</h2>
+                                    <p>At Dynamics Square, we don’t just implement Microsoft solutions—we help businesses unlock their full potential. As your trusted Microsoft Business Solutions Partner, we transform the way you work by turning challenges into opportunities with tailored consulting, seamless implementation, and dedicated support.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='row g-3 m--t-40'>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-667'>
+                                    <div className='card-top'>
+                                        <img src="/img/serve-ic-01.png" alt="serve-ic-01" />
+                                        <h3>Consulting</h3>
+                                        <p>We analyze your current processes and identify areas where Microsoft Dynamics can add value, ensuring every feature aligns with your needs.</p>
+                                    </div>
+                                    {/* <a href="#">Read more</a> */}
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-667'>
+                                    <div className='card-top'>
+                                        <img src="/img/serve-ic-02.png" alt="serve-ic-02" />
+                                        <h3>Implementation</h3>
+                                        <p>From Business Central to Dynamics 365 Finance and beyond, we handle every detail for a smooth, disruption-free deployment.</p>
+                                    </div>
+                                    {/* <a href="#">Read more</a> */}
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-667'>
+                                    <div className='card-top'>
+                                        <img src="/img/serve-ic-03.png" alt="serve-ic-03" />
+                                        <h3>Upgrade</h3>
+                                        <p>Our team works behind the scenes to keep your systems running at peak performance while you focus on growing your business.</p>
+                                    </div>
+                                    {/* <a href="#">Read more</a> */}
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='card-667'>
+                                    <div className='card-top'>
+                                        <img src="/img/serve-ic-04.png" alt="serve-ic-04" />
+                                        <h3>Ongoing Support</h3>
+                                        <p>Our team works behind the scenes to keep your systems running at peak performance while you focus on growing your business.</p>
+                                    </div>
+                                    {/* <a href="#">Read more</a> */}
+                                </div>
+                            </div>
+                            <div className='col-lg-12 text-center to-22'>
+                                <a href="#" className='btn-red btn'>Discover our industry expertise <i className="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </main>
 
 
