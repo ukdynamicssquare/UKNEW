@@ -382,6 +382,61 @@ const HomeOne = () => {
                     </div>
                 </section>
 
+                <section className='bg-gra-sc'>
+                    <div className='container'>
+                        <div className='row justify-content-center'>
+                            <div className='col-md-9'>
+                                <div className='new-title-heading title-heading-center'>
+                                    <h2>What our Customer says</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='row g-3 m--t-40'>
+                            <div className='col-lg-4 d-flex'>
+                                <div className='card-669 card-669-p card-669-liner'>
+                                    <img src="/img/testimonials/Terence-Turner.png" alt="card-669-01" />
+                                    <h3>Terence Turner</h3>
+                                    <span>General Manager</span>
+                                    <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 d-flex'>
+                                <div className='card-669 card-669-p'>
+                                    <img src="/img/testimonials/Jonathan-W.png" alt="card-669-01" />
+                                    <h3>Jonathan W</h3>
+                                    <span>Technical Director</span>
+                                    <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 d-flex'>
+                                <div className='card-669 card-669-p card-669-liner'>
+                                    <img src="/img/avatar.png" alt="card-669-01" />
+                                    <h3>Mark Shaxted</h3>
+                                    <span>Operations Manager</span>
+                                    <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </section>
+
+                <section className='bg-gra-sc'>
+                    <div className='container'>
+                        <div className='row justify-content-center'>
+                            <div className='col-md-9'>
+                                <div className='new-title-heading title-heading-center'>
+                                    <h2>Resources Tagline</h2>
+                                    <p>Ready to move beyond legacy systems and inefficiencies? Dynamics Square combines technical expertise with a customer-centric approach to ensure your business gets the tools it needs to succeed.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                    </div>
+                </section>
+
             </main>
 
 
