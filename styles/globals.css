@@ -14432,16 +14432,13 @@ figure {
 /*enu new  code end*/
 
 .home-baner-head-new{
-  background-image: radial-gradient(circle at 68% 158%, #d73d3d, rgba(215, 61, 61, 0) 51%), radial-gradient(circle at 50% -43%, #7865af, #393053 78%);
-  /* background:#000; */
-    background-blend-mode: color-dodge;
-    height: 600px;
-}
-.home-baner-head-new{
   position:relative;
   overflow: hidden;
   height:100vh;
-  margin-top:-80px
+  margin-top:-80px;
+  background-image: radial-gradient(circle at 68% 158%, #d73d3d, rgba(215, 61, 61, 0) 51%), radial-gradient(circle at 50% -43%, #7865af, #393053 78%);
+  padding-bottom: 40px;
+    background-blend-mode: color-dodge;
 }
 .home-baner-head{
   position: relative;
@@ -14618,3 +14615,23 @@ display:none
 .mySwip .swiper-wrapper{
   transition-timing-function: linear !important;
 }  */
+.client-home-new-list{
+  position: relative;
+    z-index: 2;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.client-home-new-list p{
+  color: #fff;
+    margin-bottom: 30px;
+}
+.client-home-new-list ul{
+  display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+.client-home-new-list ul li{}
+.client-home-new-list ul li img{}

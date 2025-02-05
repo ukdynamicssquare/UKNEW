@@ -12,7 +12,7 @@ import { FreeMode, Navigation, Thumbs, Mousewheel,Autoplay } from 'swiper';
 const HomeOne = () => {
     return (
         <>
-            <Head>
+            <Head> 
                 <title>
                     Dynamics Square Home New
                 </title>
@@ -109,6 +109,32 @@ const HomeOne = () => {
                                     </SwiperSlide>
 
                                 </Swiper>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-md-12'>
+                                <div className='client-home-new-list'>
+                                    <p>Trusted by 500 Businesses</p>
+                                    <ul>
+                                        <li>
+                                            <img src="/img/cli-1.png" alt="cli-1.png" />
+                                        </li>
+                                        <li>
+                                            <img src="/img/cli-2.png" alt="cli-2.png" />
+                                        </li>
+                                        <li>
+                                            <img src="/img/cli-3.png" alt="cli-3.png" />
+                                        </li>
+                                        <li>
+                                            <img src="/img/cli-4.png" alt="cli-4.png" />
+                                        </li>
+                                        <li>
+                                            <img src="/img/cli-5.png" alt="cli-5.png" />
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
