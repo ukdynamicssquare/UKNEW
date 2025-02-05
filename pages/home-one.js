@@ -292,6 +292,96 @@ const HomeOne = () => {
                     </div>
                 </section>
 
+                <section className='bg-gra-scs'>
+                    <div className='container'>
+                        <div className='row justify-content-center'>
+                            <div className='col-md-9'>
+                                <div className='new-title-heading title-heading-center'>
+                                    <h2>Our Industry Expertise</h2>
+                                    <p>At Dynamics Square, we don’t just implement Microsoft solutions—we help businesses unlock their full potential. As your trusted Microsoft Business Solutions Partner, we transform the way you work by turning challenges into opportunities with tailored consulting, seamless implementation, and dedicated support.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='row g-3 m--t-40'>
+                            <div className='col-lg-4 d-flex'>
+                                <div className='card-668'>
+                                    <a href="#">
+                                        <img src="/img/ind-i-01.jpg" alt="serve-ic-01" />
+                                        <h3>Education</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 d-flex'>
+                                <div className='card-668'>
+                                    <a href="#">
+                                        <img src="/img/ind-i-03.jpg" alt="serve-ic-01" />
+                                        <h3>Manufacturing</h3>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='col-lg-4 d-flex'>
+                                <div className='card-668'>
+                                    <a href="#">
+                                        <img src="/img/ind-i-01.jpg" alt="serve-ic-01" />
+                                        <h3>Food & Beverages</h3>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className='col-lg-12 text-center to-22'>
+                                <a href="#" className='btn-red btn'>Discover our industry expertise <i className="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='bg-gra-scs'>
+                    <div className='container'>
+                        <div className='row justify-content-center'>
+                            <div className='col-md-9'>
+                                <div className='new-title-heading title-heading-center'>
+                                    <h2>How We Works? It’s Simple.</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='row g-4 m--t-40'>
+                            <div className='col-lg-6 d-flex'>
+                                <div className='card-669'>
+                                    <img src="/img/card-669-01.png" alt="card-669-01" />
+                                    <h3>Understand Your Needs</h3>
+                                    <p>We’ll start with a deep dive into your business challenges and objectives.</p>
+                                </div>
+                            </div>
+
+                            <div className='col-lg-6 d-flex'>
+                                <div className='card-669 card-669-liner'>
+                                    <img src="/img/card-669-02.png" alt="card-669-01" />
+                                    <h3>Craft the Solution</h3>
+                                    <p>Using Microsoft’s suite of tools, we design a customized roadmap for your transformation.</p>
+                                </div>
+                            </div>
+
+                            <div className='col-lg-6 d-flex'>
+                                <div className='card-669 card-669-liner'>
+                                    <img src="/img/card-669-03.png" alt="card-669-01" />
+                                    <h3>Seamless Deployment</h3>
+                                    <p>Our team handles everything from integration to training, so you can hit the ground running.</p>
+                                </div>
+                            </div>
+
+                            <div className='col-lg-6 d-flex'>
+                                <div className='card-669 '>
+                                    <img src="/img/card-669-04.png" alt="card-669-01" />
+                                    <h3>Support that Scales</h3>
+                                    <p>With ongoing monitoring and optimization, we ensure your solutions evolve as your business grows.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </main>
 
 
