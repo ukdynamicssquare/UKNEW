@@ -422,7 +422,7 @@ const HomeOne = () => {
                     </div>
                 </section>
 
-                <section className='bg-gra-sc'>
+                <section className='bg-gra-scs'>
                     <div className='container'>
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
