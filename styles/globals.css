@@ -14434,7 +14434,7 @@ figure {
 .home-baner-head-new{
   position:relative;
   overflow: hidden;
-  height:100vh;
+  height:100%;
   margin-top:-80px;
   background-image: radial-gradient(circle at 68% 158%, #d73d3d, rgba(215, 61, 61, 0) 51%), radial-gradient(circle at 50% -43%, #7865af, #393053 78%);
   padding-bottom: 40px;
@@ -14628,10 +14628,11 @@ display:none
     margin-bottom: 30px;
 }
 .client-home-new-list ul{
-  display: flex
-;
+  display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
+    padding-left: 0;
 }
 .client-home-new-list ul li{}
 .client-home-new-list ul li img{}
