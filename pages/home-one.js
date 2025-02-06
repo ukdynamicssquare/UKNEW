@@ -7,6 +7,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs, Mousewheel, Autoplay } from 'swiper';
+import FooterNew from '../components/FooterNew';
 
 
 const HomeOne = () => {
@@ -184,7 +185,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
-                                        <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
+                                        <img src="/img/case-imgs-2.jpg" alt="case-imgs-1" />
                                         <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
                                     <div className='card-666-anc'>
@@ -195,7 +196,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
-                                        <img src="/img/case-imgs-2.jpg" alt="case-imgs-2" />
+                                        <img src="/img/case-imgs-3.jpg" alt="case-imgs-2" />
                                         <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
                                     <div className='card-666-anc'>
@@ -315,7 +316,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 d-flex'>
                                 <div className='card-668'>
                                     <a href="#">
-                                        <img src="/img/ind-i-03.jpg" alt="serve-ic-01" />
+                                        <img src="/img/ind-i-02.jpg" alt="serve-ic-01" />
                                         <h3>Manufacturing</h3>
                                     </a>
                                 </div>
@@ -323,7 +324,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 d-flex'>
                                 <div className='card-668'>
                                     <a href="#">
-                                        <img src="/img/ind-i-01.jpg" alt="serve-ic-01" />
+                                        <img src="/img/ind-i-03.jpg" alt="serve-ic-01" />
                                         <h3>Food & Beverages</h3>
                                     </a>
                                 </div>
@@ -382,7 +383,7 @@ const HomeOne = () => {
                     </div>
                 </section>
 
-                <section className='bg-gra-sc'>
+                <section className='bg-gra-scss'>
                     <div className='container'>
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
@@ -417,7 +418,7 @@ const HomeOne = () => {
                                     <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
                                 </div>
                             </div>
-                    
+
                         </div>
                     </div>
                 </section>
@@ -433,13 +434,65 @@ const HomeOne = () => {
                             </div>
                         </div>
 
-                      
+                        <div className='row'>
+                            <div className='col-lg-3'>
+                                <div className='card-666 card-666-1'>
+                                    <div className='crad-img'>
+                                        <img src="/img/res-tag-01.jpg" alt="res-tag-01" />
+                                        <span><a href="/products/dynamics-365-copilot/">Copilot</a></span>
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="/products/dynamics-365-copilot/">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-3'>
+                                <div className='card-666 card-666-1'>
+                                    <div className='crad-img'>
+                                        <img src="/img/res-tag-02.jpg" alt="res-tag-01" />
+                                        <span><a href="/white-papers/">Whitepaper</a></span>
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="/white-papers/">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-3'>
+                                <div className='card-666 card-666-1'>
+                                    <div className='crad-img'>
+                                        <img src="/img/res-tag-03.jpg" alt="res-tag-01" />
+                                        <span><a href="/guides/">Guide</a></span>
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="/guides/">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-3'>
+                                <div className='card-666 card-666-1'>
+                                    <div className='crad-img'>
+                                        <img src="/img/res-tag-04.jpg" alt="res-tag-01" />
+                                        <span><a href="/erp-implementation-cost-calculator/">Calculator</a></span>
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                    </div>
+                                    <div className='card-666-anc'>
+                                        <a href="/erp-implementation-cost-calculator/">Read more <i className="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </section>
 
             </main>
 
 
+            <FooterNew />
 
         </>
     );

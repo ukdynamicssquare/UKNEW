@@ -59,7 +59,8 @@ function MyApp({ Component, pageProps }) {
     router.asPath == "/schedule-a-demo/" ||
     router.asPath == "/test-form/" ||
     router.asPath == "/erp-implementation-cost-calculator/" ||
-    router.asPath == "/schedule-a-demo"
+    router.asPath == "/schedule-a-demo" ||
+    router.asPath == "/home-one/"
   ) {
     return (
       <>
