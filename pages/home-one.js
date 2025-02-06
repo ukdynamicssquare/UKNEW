@@ -36,7 +36,7 @@ const HomeOne = () => {
                                 <div className='home-baner-head'>
                                     <h1>Microsoft Experts for UK Businesses</h1>
                                     <h2>When results count, <br/>Dynamics Square delivers! </h2>
-                                    <p>We believe, "Technology empowers businesses, not complicates them!" We are committed to taking your growth to the next level, are you?</p>
+                                    <p>By implementing Microsoft’s AI-powered solutions, we empower businesses to streamline operations, boost efficiency, and scale with confidence. Ready to take the next step?</p>
                                     <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>
 
                                 </div>
