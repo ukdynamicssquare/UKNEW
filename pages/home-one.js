@@ -35,8 +35,8 @@ const HomeOne = () => {
                                 </div>
                                 <div className='home-baner-head'>
                                     <h1>Microsoft Experts for UK Businesses</h1>
-                                    <h2>When results count, Dynamics Square delivers! We believe, "Technology empowers businesses, not complicates them!"</h2>
-                                    <p>We are committed to taking your growth to the next level, are you?</p>
+                                    <h2>When results count, <br/>Dynamics Square delivers! </h2>
+                                    <p>We believe, "Technology empowers businesses, not complicates them!" We are committed to taking your growth to the next level, are you?</p>
                                     <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>
 
                                 </div>
@@ -178,14 +178,14 @@ const HomeOne = () => {
                         </div>
                         <div className='row case-div-o'>
                             <div className='col-lg-12'>
-                                <h3>We Deliver What Matters—Because Your Growth Matters Most</h3>
+                                <h3>See how our customers drive impact</h3>
                             </div>
 
                             <div className='col-lg-3 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-2.jpg" alt="case-imgs-1" />
-                                        <p>Our sales doubled in 18 months. Thanks to Dynamics Square!</p>
+                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -196,7 +196,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-3.jpg" alt="case-imgs-2" />
-                                        <p>Customer retention increased by 87%. The difference is night and day.</p>
+                                        <p>How car restoration and customization company has enhanced their ROI by 30%</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -207,7 +207,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
-                                        <p>We saved 35% operational costs within a year.</p>
+                                        <p>UK's top defence apparel manufacturer boosted efficiency and accuracy by 50%</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -218,7 +218,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-4.jpg" alt="case-imgs-4" />
-                                        <p>Their expertise brought clarity to our complex processes.</p>
+                                        <p>Leading manufacturer of orthopedic implants has gained 80% more visibility</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -233,7 +233,7 @@ const HomeOne = () => {
                     </div>
                 </section>
 
-                <section className='bg-gra-sc'>
+                <section className='bg-gra-sc op-01'>
                     <div className='container'>
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
@@ -341,7 +341,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2>How We Works? It’s Simple.</h2>
+                                    <h2 style={{marginBottom:'0px'}}>How We Works? It’s Simple</h2>
                                 </div>
                             </div>
                         </div>
@@ -387,7 +387,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2>What our Customer says</h2>
+                                    <h2 style={{marginBottom:'0px'}}>What our Customer says</h2>
                                 </div>
                             </div>
                         </div>
@@ -427,13 +427,13 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2>Resources Tagline</h2>
-                                    <p>Ready to move beyond legacy systems and inefficiencies? Dynamics Square combines technical expertise with a customer-centric approach to ensure your business gets the tools it needs to succeed.</p>
+                                    <h2>Resources & Insights</h2>
+                                    <p>Discover knowledge-packed resources designed to help you make informed decisions.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className='row'>
+                        <div className='row m--t-40'>
                             <div className='col-lg-3'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
@@ -462,7 +462,7 @@ const HomeOne = () => {
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-03.jpg" alt="res-tag-01" />
-                                        <span><a href="/guides/">Guide</a></span>
+                                        <span><a href="/guides/">Ebook</a></span>
                                         <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
                                     <div className='card-666-anc'>
