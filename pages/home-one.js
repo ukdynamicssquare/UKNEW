@@ -34,11 +34,10 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                                 <div className='home-baner-head'>
-                                    <h1>UK's Trusted Microsoft Solutions Partner</h1>
-                                    <h2>We future-proof your business
-                                        with scalable Microsoft solutions</h2>
-                                    <p>Enabling smooth growth and transformation as your business evolves</p>
-                                    <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' alt='icons' /> Get started <span><i className="bi bi-arrow-right-circle"></i></span></a>
+                                    <h1>Microsoft Experts for UK Businesses</h1>
+                                    <h2>When results count, Dynamics Square delivers! We believe, "Technology empowers businesses, not complicates them!"</h2>
+                                    <p>We are committed to taking your growth to the next level, are you?</p>
+                                    <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>
 
                                 </div>
                                 <div className='specialtitle'>
@@ -146,8 +145,8 @@ const HomeOne = () => {
                         <div className='row'>
                             <div className='col-md-8'>
                                 <div className='new-title-heading'>
-                                    <h2>Why Work with Us?</h2>
-                                    <p>At Dynamics Square, we don’t just implement Microsoft solutions—we help businesses unlock their full potential. As your trusted Microsoft Business Solutions Partner, we transform the way you work by turning challenges into opportunities with tailored consulting, seamless implementation, and dedicated support.</p>
+                                    <h2>Your Partner: At a Glance</h2>
+                                    <p>We have been consistently delivering impactful solutions, earning trust through innovation & commitment and empowering businesses to achieve excellence.</p>
                                 </div>
                             </div>
                         </div>
@@ -155,38 +154,38 @@ const HomeOne = () => {
                             <div className='col-lg-3 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>350+</span>
-                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                    <p>Successful Project Deployments</p>
                                 </div>
                             </div>
                             <div className='col-lg-3 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>150+</span>
-                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                    <p>Skilled Professionals</p>
                                 </div>
                             </div>
                             <div className='col-lg-3 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>350+</span>
-                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                    <p>Years of Excellence</p>
                                 </div>
                             </div>
                             <div className='col-lg-3 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>12+</span>
-                                    <p>Microsoft-certified technical consultants are just a call away to help you out</p>
+                                    <p>Industry Penetration</p>
                                 </div>
                             </div>
                         </div>
                         <div className='row case-div-o'>
                             <div className='col-lg-12'>
-                                <h3>See how our customers drive impact</h3>
+                                <h3>We Deliver What Matters—Because Your Growth Matters Most</h3>
                             </div>
 
                             <div className='col-lg-3 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-2.jpg" alt="case-imgs-1" />
-                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                        <p>Our sales doubled in 18 months. Thanks to Dynamics Square!</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -197,7 +196,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-3.jpg" alt="case-imgs-2" />
-                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                        <p>Customer retention increased by 87%. The difference is night and day.</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -208,7 +207,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
-                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                        <p>We saved 35% operational costs within a year.</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -219,7 +218,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-4.jpg" alt="case-imgs-4" />
-                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                        <p>Their expertise brought clarity to our complex processes.</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="#">Read more <i className="bi bi-arrow-right"></i></a>
@@ -228,7 +227,7 @@ const HomeOne = () => {
                             </div>
 
                             <div className='col-lg-12 text-center to-22'>
-                                <a href="#" className='btn-red btn'>Explore more use cases <i className="bi bi-arrow-right"></i></a>
+                                <a href="/case-studies/" className='btn-red btn'>Explore more use cases <i className="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +239,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Our Services, Simplified</h2>
-                                    <p>At Dynamics Square, we don’t just implement Microsoft solutions—we help businesses unlock their full potential. As your trusted Microsoft Business Solutions Partner, we transform the way you work by turning challenges into opportunities with tailored consulting, seamless implementation, and dedicated support.</p>
+                                    <p>Explore how we can help you achieve business clarity and success through:</p>
                                 </div>
                             </div>
                         </div>
@@ -251,7 +250,7 @@ const HomeOne = () => {
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-01.png" alt="serve-ic-01" />
                                         <h3>Consulting</h3>
-                                        <p>We analyze your current processes and identify areas where Microsoft Dynamics can add value, ensuring every feature aligns with your needs.</p>
+                                        <p>Expert guidance to optimise your business processes.</p>
                                     </div>
                                     {/* <a href="#">Read more</a> */}
                                 </div>
@@ -261,7 +260,7 @@ const HomeOne = () => {
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-02.png" alt="serve-ic-02" />
                                         <h3>Implementation</h3>
-                                        <p>From Business Central to Dynamics 365 Finance and beyond, we handle every detail for a smooth, disruption-free deployment.</p>
+                                        <p>Expert execution for a smooth transition and business continuity.</p>
                                     </div>
                                     {/* <a href="#">Read more</a> */}
                                 </div>
@@ -271,7 +270,7 @@ const HomeOne = () => {
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-03.png" alt="serve-ic-03" />
                                         <h3>Upgrade</h3>
-                                        <p>Our team works behind the scenes to keep your systems running at peak performance while you focus on growing your business.</p>
+                                        <p>Regular upgrades to maintain system competitiveness.</p>
                                     </div>
                                     {/* <a href="#">Read more</a> */}
                                 </div>
@@ -281,13 +280,13 @@ const HomeOne = () => {
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-04.png" alt="serve-ic-04" />
                                         <h3>Ongoing Support</h3>
-                                        <p>Our team works behind the scenes to keep your systems running at peak performance while you focus on growing your business.</p>
+                                        <p>Proactive solutions to keep your systems running smoothly.</p>
                                     </div>
                                     {/* <a href="#">Read more</a> */}
                                 </div>
                             </div>
                             <div className='col-lg-12 text-center to-22'>
-                                <a href="#" className='btn-red btn'>Discover our industry expertise <i className="bi bi-arrow-right"></i></a>
+                                <a href="/our-services/" className='btn-red btn'>Explore More! <i className="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -299,7 +298,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Our Industry Expertise</h2>
-                                    <p>At Dynamics Square, we don’t just implement Microsoft solutions—we help businesses unlock their full potential. As your trusted Microsoft Business Solutions Partner, we transform the way you work by turning challenges into opportunities with tailored consulting, seamless implementation, and dedicated support.</p>
+                                    <p>We bring industry-specific expertise to address the unique challenges of:</p>
                                 </div>
                             </div>
                         </div>
@@ -440,7 +439,7 @@ const HomeOne = () => {
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-01.jpg" alt="res-tag-01" />
                                         <span><a href="/products/dynamics-365-copilot/">Copilot</a></span>
-                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                        <p>Microsoft Copilot: The Catalyst for Transformation in Your Business - Download Now!</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="/products/dynamics-365-copilot/">Read more <i className="bi bi-arrow-right"></i></a>
@@ -452,7 +451,7 @@ const HomeOne = () => {
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-02.jpg" alt="res-tag-01" />
                                         <span><a href="/white-papers/">Whitepaper</a></span>
-                                        <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
+                                        <p>The Future of Finance Management</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="/white-papers/">Read more <i className="bi bi-arrow-right"></i></a>
