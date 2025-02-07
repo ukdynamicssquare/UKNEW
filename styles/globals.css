@@ -14700,6 +14700,9 @@ display:none
   font-weight: 600;
   border-radius: 3px;
 }
+.card-666 .crad-img img{
+  transition:.4s ease
+}
 .card-666 .crad-img span a{
   background-image: linear-gradient(to right, #984b6e, #60518c);
   -webkit-background-clip: text;
@@ -14721,7 +14724,7 @@ display:none
 .card-666.card-666-1 .card-666-anc{
   padding-left:0px
 }
-.card-666:hover{
+.card-666:hover img{
   /* -webkit-box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   -moz-box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35); */
@@ -14767,7 +14770,8 @@ display:none
   background-color: #fff;
   padding:30px 19px 25px;
   border-radius: 8px;
-  transition:0.4s all ease-out
+  transition:0.4s all ease-out;
+  z-index:1
 }
 .card-667 .card-top{}
 .card-667 .card-top img{
@@ -14791,6 +14795,7 @@ display:none
   -webkit-box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   -moz-box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+  z-index:2
 }
 .card-668{
   position: relative;
@@ -14841,7 +14846,8 @@ display:none
   background-image: linear-gradient(130deg, #e9e6f4 8%, #f8f6ff 85%); 
   padding:60px;
   border-radius:8px;
-  transition:.4s ease
+  transition:.4s ease;
+  z-index:1
 }
 .card-669.card-669-liner{
   background-color: #e9e6f4; 
@@ -14866,6 +14872,7 @@ display:none
   -webkit-box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   -moz-box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+  z-index:2
 }
 
 .card-669.card-669-p{
