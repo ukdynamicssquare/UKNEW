@@ -378,7 +378,7 @@ const FooterNew = () => {
         <div className="footer-top top-pd-2020">
           <div className="container-fluid">
             <div className="row gy-4">
-              <div className="col-lg-3 col-md-12 footer-info">
+              <div className="col-lg-3 col-md-6 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
                   <a><Image
                     src="/img/dynamics_square_tm_logo_footer.svg"
@@ -420,9 +420,9 @@ const FooterNew = () => {
                   </div>
                 </div>
               </div>
-              <div className='col-lg-7'>
+              <div className='col-lg-7 col-md-12'>
                 <div className='row'>
-                <div className="col-lg-3 col-12 footer-links">
+                <div className="col-lg-3 col-md-6 col-sm-6 col-12 footer-links">
                     <p>QUICK LINKS</p>
                     <ul>
                       <li>
@@ -463,7 +463,7 @@ const FooterNew = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="col-lg-3 col-12 footer-links">
+                  <div className="col-lg-3 col-md-6 col-sm-6 col-12 footer-links">
                     <p>SERVICES</p>
                     <ul>
                       <li>
@@ -510,7 +510,7 @@ const FooterNew = () => {
                     </ul>
                   </div>
 
-                  <div className="col-lg-3 col-12 footer-links">
+                  <div className="col-lg-3 col-md-6 col-sm-6 col-12 footer-links">
                     <p>INDUSTRIES</p>
                     <ul>
                       <li>
@@ -550,7 +550,7 @@ const FooterNew = () => {
                     </ul>
                   </div>
 
-                  <div className="col-lg-3 col-12 footer-links">
+                  <div className="col-lg-3 col-md-6 col-sm-6 col-12 footer-links">
                     <p>POPULAR PRODUCTS</p>
                     <ul>
                       <li>
@@ -590,7 +590,7 @@ const FooterNew = () => {
                 </div>
               </div>
 
-              <div className="col-lg-2 col-md-12 text-md-start">
+              <div className="col-lg-2  col-md-12 text-md-start">
                 <div className='btnuu '>
                   <p>GET IN TOUCH</p>
                 <a href="#">Request Consultation <i class="bi bi-arrow-right"></i></a>
