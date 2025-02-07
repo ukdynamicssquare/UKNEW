@@ -143,7 +143,7 @@ const HomeOne = () => {
                 <section>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-md-8'>
+                            <div className='col-lg-8 col-md-12 col-sm-12'>
                                 <div className='new-title-heading'>
                                     <h2>Your Partner: At a Glance</h2>
                                     <p>We have been consistently delivering impactful solutions, earning trust through innovation & commitment and empowering businesses to achieve excellence.</p>
@@ -151,25 +151,25 @@ const HomeOne = () => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>500+</span>
                                     <p>Successful Project Deployments</p>
                                 </div>
                             </div>
-                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>150+</span>
                                     <p>Skilled Professionals</p>
                                 </div>
                             </div>
-                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>12+</span>
                                     <p>Years of Excellence</p>
                                 </div>
                             </div>
-                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>11+</span>
                                     <p>Industry Penetration</p>
@@ -181,7 +181,7 @@ const HomeOne = () => {
                                 <h3>See how our customers drive impact</h3>
                             </div>
 
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-2.jpg" alt="case-imgs-1" />
@@ -192,7 +192,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-3.jpg" alt="case-imgs-2" />
@@ -203,7 +203,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
@@ -214,7 +214,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <img src="/img/case-imgs-4.jpg" alt="case-imgs-4" />
@@ -245,7 +245,7 @@ const HomeOne = () => {
                         </div>
 
                         <div className='row g-3 m--t-40 '>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-01.png" alt="serve-ic-01" />
@@ -255,7 +255,7 @@ const HomeOne = () => {
                                     {/* <a href="#">Read more</a> */}
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-02.png" alt="serve-ic-02" />
@@ -265,7 +265,7 @@ const HomeOne = () => {
                                     {/* <a href="#">Read more</a> */}
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-03.png" alt="serve-ic-03" />
@@ -275,7 +275,7 @@ const HomeOne = () => {
                                     {/* <a href="#">Read more</a> */}
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
                                         <img src="/img/serve-ic-04.png" alt="serve-ic-04" />
@@ -304,7 +304,7 @@ const HomeOne = () => {
                         </div>
 
                         <div className='row g-3 m--t-40 sliding-row'>
-                            <div className='col-lg-4 d-flex sliding-col'>
+                            <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
                                         <img src="/img/ind-i-01.jpg" alt="serve-ic-01" />
@@ -312,7 +312,7 @@ const HomeOne = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-4 d-flex sliding-col'>
+                            <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
                                         <img src="/img/ind-i-02.jpg" alt="serve-ic-01" />
@@ -320,7 +320,7 @@ const HomeOne = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-4 d-flex sliding-col'>
+                            <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
                                         <img src="/img/ind-i-03.jpg" alt="serve-ic-01" />
@@ -347,7 +347,7 @@ const HomeOne = () => {
                         </div>
 
                         <div className='row g-4 m--t-40'>
-                            <div className='col-lg-6 d-flex'>
+                            <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669'>
                                     <img src="/img/card-669-01.png" alt="card-669-01" />
                                     <h3>Understand Your Needs</h3>
@@ -355,7 +355,7 @@ const HomeOne = () => {
                                 </div>
                             </div>
 
-                            <div className='col-lg-6 d-flex'>
+                            <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-liner'>
                                     <img src="/img/card-669-02.png" alt="card-669-01" />
                                     <h3>Craft the Solution</h3>
@@ -363,7 +363,7 @@ const HomeOne = () => {
                                 </div>
                             </div>
 
-                            <div className='col-lg-6 d-flex'>
+                            <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-liner'>
                                     <img src="/img/card-669-03.png" alt="card-669-01" />
                                     <h3>Seamless Deployment</h3>
@@ -371,7 +371,7 @@ const HomeOne = () => {
                                 </div>
                             </div>
 
-                            <div className='col-lg-6 d-flex'>
+                            <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669 '>
                                     <img src="/img/card-669-04.png" alt="card-669-01" />
                                     <h3>Support that Scales</h3>
@@ -393,7 +393,7 @@ const HomeOne = () => {
                         </div>
 
                         <div className='row g-3 m--t-40'>
-                            <div className='col-lg-4 d-flex'>
+                            <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-p card-669-liner'>
                                     <img src="/img/testimonials/Terence-Turner.png" alt="card-669-01" />
                                     <h3>Terence Turner</h3>
@@ -401,7 +401,7 @@ const HomeOne = () => {
                                     <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
                                 </div>
                             </div>
-                            <div className='col-lg-4 d-flex'>
+                            <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-p'>
                                     <img src="/img/testimonials/Jonathan-W.png" alt="card-669-01" />
                                     <h3>Jonathan W</h3>
@@ -409,7 +409,7 @@ const HomeOne = () => {
                                     <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional.</p>
                                 </div>
                             </div>
-                            <div className='col-lg-4 d-flex'>
+                            <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-p card-669-liner'>
                                     <img src="/img/avatar.png" alt="card-669-01" />
                                     <h3>Mark Shaxted</h3>
@@ -434,7 +434,7 @@ const HomeOne = () => {
                         </div>
 
                         <div className='row m--t-40'>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-01.jpg" alt="res-tag-01" />
@@ -446,7 +446,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-02.jpg" alt="res-tag-01" />
@@ -458,7 +458,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-03.jpg" alt="res-tag-01" />
@@ -470,7 +470,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <img src="/img/res-tag-04.jpg" alt="res-tag-01" />
