@@ -350,7 +350,7 @@ const FooterNew = () => {
 
       }
 
-      <section id="services" className="services">
+      <section id="services" className="services mo-top-30">
         <div className="container" data-aos="fade-up">
           <div className='row justify-content-center'>
             <div className='col-lg-10'>

@@ -151,27 +151,27 @@ const HomeOne = () => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
-                                    <span>350+</span>
+                                    <span>500+</span>
                                     <p>Successful Project Deployments</p>
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
                                     <span>150+</span>
                                     <p>Skilled Professionals</p>
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
-                                    <span>350+</span>
+                                    <span>12+</span>
                                     <p>Years of Excellence</p>
                                 </div>
                             </div>
-                            <div className='col-lg-3 d-flex'>
+                            <div className='col-lg-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
-                                    <span>12+</span>
+                                    <span>11+</span>
                                     <p>Industry Penetration</p>
                                 </div>
                             </div>
@@ -244,7 +244,7 @@ const HomeOne = () => {
                             </div>
                         </div>
 
-                        <div className='row g-3 m--t-40'>
+                        <div className='row g-3 m--t-40 '>
                             <div className='col-lg-3 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
@@ -303,8 +303,8 @@ const HomeOne = () => {
                             </div>
                         </div>
 
-                        <div className='row g-3 m--t-40'>
-                            <div className='col-lg-4 d-flex'>
+                        <div className='row g-3 m--t-40 sliding-row'>
+                            <div className='col-lg-4 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
                                         <img src="/img/ind-i-01.jpg" alt="serve-ic-01" />
@@ -312,7 +312,7 @@ const HomeOne = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-4 d-flex'>
+                            <div className='col-lg-4 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
                                         <img src="/img/ind-i-02.jpg" alt="serve-ic-01" />
@@ -320,7 +320,7 @@ const HomeOne = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-4 d-flex'>
+                            <div className='col-lg-4 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
                                         <img src="/img/ind-i-03.jpg" alt="serve-ic-01" />
