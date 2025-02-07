@@ -435,22 +435,13 @@ const FooterNew = () => {
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/contact-us/">Contact Us</Link>
-                      </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>
                         <Link href="/partner/">Our Partners</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/why-us/">Why Us</Link>
+                        <Link href="/contact-us/">Contact Us</Link>
                       </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>
-                        <Link href="/our-services/">Our Services</Link>
-                      </li>
-                     
-                     
+                    
                       <li>
                         <i className="bi bi-chevron-right"></i>
                         <a
@@ -465,9 +456,10 @@ const FooterNew = () => {
                         <i className="bi bi-chevron-right"></i>
                         <Link href="/privacy-policy/">Privacy policy</Link>
                       </li>
+                     
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/modern-slavery-act/">Modern Slavery Act</Link>
+                        <Link href="/erp-implementation-cost-calculator/">Tools</Link>
                       </li>
                     </ul>
                   </div>
@@ -476,136 +468,122 @@ const FooterNew = () => {
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/dynamics-365-business-central/">
-                          Business Central
+                        <Link href="/our-services/dynamics-365-implementation-services/">
+                          Implementation
                         </Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/microsoft-dynamics-365-finance/">
-                          Finance
+                        <Link href="/our-services/dynamics-365-upgrade-services/">
+                        Upgrade
                         </Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/dynamics-365-supply-chain-management/">
-                          Supply Chain
+                        <Link href="/our-services/dynamics-365-support-services/">
+                        Support
                         </Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/microsoft-dynamics-365-sales/">
-                          Sales
+                        <Link href="/our-services/dynamics-365-consultant/">
+                        Consulting
                         </Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/microsoft-power-bi/">
-                          Power BI
+                        <Link href="">
+                        Audit
                         </Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/microsoft-azure/">Azure IoT</Link>
+                        <Link href="/our-services/dynamics-365-training/">Training</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/microsoft-dynamics-erp/">
-                          ERP (NAV/GP/AX)
+                        <Link href="">
+                        Integration
                         </Link>
                       </li>
-                      <li>
-                        <i className="bi bi-chevron-right"></i>
-                        <Link href="/products/microsoft-dynamics-crm/">
-                          CRM
-                        </Link>
-                      </li>
+                     
                     </ul>
                   </div>
-                 
+
                   <div className="col-lg-3 col-12 footer-links">
                     <p>INDUSTRIES</p>
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/about-us/">About us</Link>
+                        <Link href="/industries/microsoft-cloud-for-nonprofit/">Not For Profit</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/why-us/">Why Us</Link>
+                        <Link href="/industries/dynamics-365-for-retail/">Trade & Distribution</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/our-services/">Our Services</Link>
+                        <Link href="/industries/microsoft-cloud-for-manufacturing/">Manufacturing</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/partner/">Our Partners</Link>
+                        <Link href="/industries/food-and-beverages/">Food & Beverage</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/contact-us/">Contact Us</Link>
+                        <Link href="/industries/microsoft-cloud-for-financial-services/">Financial Services</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
                         <a
-                          href="https://www.dynamicssquare.co.uk/blog/"
-                          rel=""
-                          target="_self"
-                        >
-                          Blogs
-                        </a>
+                          href="/industries/professional-services/"
+                        >Professional Services</a>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/privacy-policy/">Privacy policy</Link>
+                        <Link href="/industries/dynamics-365-for-healthcare/">Healthcare</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/modern-slavery-act/">Modern Slavery Act</Link>
+                        <Link href="">Energy</Link>
                       </li>
                     </ul>
                   </div>
+
                   <div className="col-lg-3 col-12 footer-links">
-                    <p>PRODUCT</p>
+                    <p>POPULAR PRODUCTS</p>
                     <ul>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/about-us/">About us</Link>
+                        <Link href="/products/microsoft-dynamics-365/">Dynamics 365</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/why-us/">Why Us</Link>
+                        <Link href="/products/dynamics-365-business-central/">Business Central</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/our-services/">Our Services</Link>
+                        <Link href="/products/microsoft-dynamics-365-finance/">Finance</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/partner/">Our Partners</Link>
+                        <Link href="/products/dynamics-365-supply-chain-management/">Supply Chain</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/contact-us/">Contact Us</Link>
+                        <Link href="/products/microsoft-dynamics-365-marketing/">Marketing</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <a
-                          href="https://www.dynamicssquare.co.uk/blog/"
-                          rel=""
-                          target="_self"
-                        >
-                          Blogs
-                        </a>
+                        <Link href="/products/microsoft-dynamics-365-sales/">Sales</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/privacy-policy/">Privacy policy</Link>
+                        <Link href="/products/microsoft-dynamics-365-customer-service/">Customer Service</Link>
                       </li>
                       <li>
                         <i className="bi bi-chevron-right"></i>
-                        <Link href="/modern-slavery-act/">Modern Slavery Act</Link>
+                        <Link href="/products/microsoft-dynamics-365-field-service/">Field Service</Link>
                       </li>
                     </ul>
                   </div>
@@ -620,6 +598,15 @@ const FooterNew = () => {
                 <p>FOLLOW US</p>
 
                 <div className="social-links">
+                <a
+                    target="_blank"
+                    rel=""
+                    href="https://www.linkedin.com/showcase/dynamics-square-uk/"
+                    className="linkedin"
+                    aria-label="Linkedin"
+                  >
+                    <i className="bi bi-linkedin"></i>
+                  </a>
                   <a
                     target="_blank"
                     rel=""
@@ -647,15 +634,7 @@ const FooterNew = () => {
                   >
                     <i className="bi bi-instagram"></i>
                   </a>
-                  <a
-                    target="_blank"
-                    rel=""
-                    href="https://www.linkedin.com/showcase/dynamics-square-uk/"
-                    className="linkedin"
-                    aria-label="Linkedin"
-                  >
-                    <i className="bi bi-linkedin"></i>
-                  </a>
+                  
                 </div>
                 <div className="footer-bottm-subscriber">
                 <div className='award-ssd'>
