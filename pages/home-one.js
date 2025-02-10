@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs, Mousewheel, Autoplay } from 'swiper';
 import FooterNew from '../components/FooterNew';
+import Image from 'next/image';
 
 
 const HomeOne = () => {
@@ -35,13 +36,13 @@ const HomeOne = () => {
                                 </div>
                                 <div className='home-baner-head'>
                                     <h1>Microsoft Experts for UK Businesses</h1>
-                                    <h2>When results count, <br/>Dynamics Square delivers! </h2>
+                                    <h2>When results count, <br />Dynamics Square delivers! </h2>
                                     <p>By implementing Microsoft’s AI-powered solutions, we empower businesses to streamline operations, boost efficiency, and scale with confidence. Ready to take the next step?</p>
-                                    <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>
+                                    <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' width={26} height={26} alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>
 
                                 </div>
                                 <div className='specialtitle'>
-                                    <p>and see the magic <img src="/img/mask-group-aa.png" alt="mask-group-aa" /></p>
+                                    <p>and see the magic <img src="/img/mask-group-aa.png" width={87} height={87} alt="mask-group-aa" /></p>
                                 </div>
                             </div>
                         </div>
@@ -84,27 +85,27 @@ const HomeOne = () => {
 
                                     <SwiperSlide>
                                         <div className='slider0-img'>
-                                            <img src="/img/cad-i-1.png" alt="cad-i-1.png" />
+                                            <Image src="/img/cad-i-1.png" alt="cad-i-1.png" width={467} height={230} />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider0-img'>
-                                            <img src="/img/cad-i-2.png" alt="cad-i-1.png" />
+                                            <Image src="/img/cad-i-2.png" alt="cad-i-1.png" width={467} height={230} />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider0-img'>
-                                            <img src="/img/cad-i-3.png" alt="cad-i-1.png" />
+                                        <Image src="/img/cad-i-3.png" alt="cad-i-1.png" width={467} height={230} />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider0-img'>
-                                            <img src="/img/cad-i-4.png" alt="cad-i-1.png" />
+                                        <Image src="/img/cad-i-4.png" alt="cad-i-1.png" width={467} height={230} />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider0-img'>
-                                            <img src="/img/cad-i-5.png" alt="cad-i-1.png" />
+                                        <Image src="/img/cad-i-5.png" alt="cad-i-1.png" width={467} height={230} />
                                         </div>
                                     </SwiperSlide>
 
@@ -119,19 +120,19 @@ const HomeOne = () => {
                                     <p>Trusted by 500 Businesses</p>
                                     <ul>
                                         <li>
-                                            <img src="/img/cli-1.png" alt="cli-1.png" />
+                                            <Image src="/img/cli-1.png" alt="cli-1.png" width={223} height={78} />
                                         </li>
                                         <li>
-                                            <img src="/img/cli-2.png" alt="cli-2.png" />
+                                            <Image src="/img/cli-2.png" alt="cli-2.png" width={174} height={78} />
                                         </li>
                                         <li>
-                                            <img src="/img/cli-3.png" alt="cli-3.png" />
+                                            <Image src="/img/cli-3.png" alt="cli-3.png" width={230} height={78} />
                                         </li>
                                         <li>
-                                            <img src="/img/cli-4.png" alt="cli-4.png" />
+                                            <Image src="/img/cli-4.png" alt="cli-4.png" width={241} height={78} />
                                         </li>
                                         <li>
-                                            <img src="/img/cli-5.png" alt="cli-5.png" />
+                                            <Image src="/img/cli-5.png" alt="cli-5.png" width={122} height={78} />
                                         </li>
                                     </ul>
                                 </div>
@@ -184,7 +185,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
-                                        <img src="/img/case-imgs-2.jpg" alt="case-imgs-1" />
+                                        <Image src="/img/case-imgs-2.jpg" alt="case-imgs-1" width={610} height={592} />
                                         <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
                                     <div className='card-666-anc'>
@@ -195,7 +196,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
-                                        <img src="/img/case-imgs-3.jpg" alt="case-imgs-2" />
+                                        <Image src="/img/case-imgs-3.jpg" alt="case-imgs-2" width={610} height={592} />
                                         <p>How car restoration and customization company has enhanced their ROI by 30%</p>
                                     </div>
                                     <div className='card-666-anc'>
@@ -206,7 +207,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
-                                        <img src="/img/case-imgs-1.jpg" alt="case-imgs-1" />
+                                        <Image src="/img/case-imgs-1.jpg" alt="case-imgs-1" width={610} height={592} />
                                         <p>UK's top defence apparel manufacturer boosted efficiency and accuracy by 50%</p>
                                     </div>
                                     <div className='card-666-anc'>
@@ -217,7 +218,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
-                                        <img src="/img/case-imgs-4.jpg" alt="case-imgs-4" />
+                                        <Image src="/img/case-imgs-4.jpg" alt="case-imgs-4" width={610} height={592} />
                                         <p>Leading manufacturer of orthopedic implants has gained 80% more visibility</p>
                                     </div>
                                     <div className='card-666-anc'>
@@ -248,7 +249,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
-                                        <img src="/img/serve-ic-01.png" alt="serve-ic-01" />
+                                        <img src="/img/serve-ic-01.png" alt="serve-ic-01" width={40} height={40} />
                                         <h3>Consulting</h3>
                                         <p>Expert guidance to optimise your business processes.</p>
                                     </div>
@@ -258,7 +259,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
-                                        <img src="/img/serve-ic-02.png" alt="serve-ic-02" />
+                                        <img src="/img/serve-ic-02.png" alt="serve-ic-02"  width={40} height={40} />
                                         <h3>Implementation</h3>
                                         <p>Expert execution for a smooth transition and business continuity.</p>
                                     </div>
@@ -268,7 +269,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
-                                        <img src="/img/serve-ic-03.png" alt="serve-ic-03" />
+                                        <img src="/img/serve-ic-03.png" alt="serve-ic-03"  width={40} height={40} />
                                         <h3>Upgrade</h3>
                                         <p>Regular upgrades to maintain system competitiveness.</p>
                                     </div>
@@ -278,7 +279,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-667'>
                                     <div className='card-top'>
-                                        <img src="/img/serve-ic-04.png" alt="serve-ic-04" />
+                                        <img src="/img/serve-ic-04.png" alt="serve-ic-04"  width={40} height={40} />
                                         <h3>Ongoing Support</h3>
                                         <p>Proactive solutions to keep your systems running smoothly.</p>
                                     </div>
@@ -307,7 +308,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
-                                        <img src="/img/ind-i-01.jpg" alt="serve-ic-01" />
+                                        <Image src="/img/ind-i-01.jpg" alt="serve-ic-01" width={818} height={792} />
                                         <h3>Education</h3>
                                     </a>
                                 </div>
@@ -315,7 +316,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
-                                        <img src="/img/ind-i-02.jpg" alt="serve-ic-01" />
+                                        <Image src="/img/ind-i-02.jpg" alt="serve-ic-01" width={818} height={792} />
                                         <h3>Manufacturing</h3>
                                     </a>
                                 </div>
@@ -323,7 +324,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="#">
-                                        <img src="/img/ind-i-03.jpg" alt="serve-ic-01" />
+                                        <Image src="/img/ind-i-03.jpg" alt="serve-ic-01" width={818} height={792} />
                                         <h3>Food & Beverages</h3>
                                     </a>
                                 </div>
@@ -341,7 +342,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2 style={{marginBottom:'0px'}}>How We Works? It’s Simple</h2>
+                                    <h2 style={{ marginBottom: '0px' }}>How We Works? It’s Simple</h2>
                                 </div>
                             </div>
                         </div>
@@ -349,7 +350,7 @@ const HomeOne = () => {
                         <div className='row g-4 m--t-40'>
                             <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669'>
-                                    <img src="/img/card-669-01.png" alt="card-669-01" />
+                                    <Image src="/img/card-669-01.png" alt="card-669-01" width={340} height={235} />
                                     <h3>Understand Your Needs</h3>
                                     <p>We’ll start with a deep dive into your business challenges and objectives.</p>
                                 </div>
@@ -357,7 +358,7 @@ const HomeOne = () => {
 
                             <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-liner'>
-                                    <img src="/img/card-669-02.png" alt="card-669-01" />
+                                    <Image src="/img/card-669-02.png" alt="card-669-01" width={340} height={235} />
                                     <h3>Craft the Solution</h3>
                                     <p>Using Microsoft’s suite of tools, we design a customized roadmap for your transformation.</p>
                                 </div>
@@ -365,7 +366,7 @@ const HomeOne = () => {
 
                             <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-liner'>
-                                    <img src="/img/card-669-03.png" alt="card-669-01" />
+                                    <Image src="/img/card-669-03.png" alt="card-669-01" width={340} height={235} />
                                     <h3>Seamless Deployment</h3>
                                     <p>Our team handles everything from integration to training, so you can hit the ground running.</p>
                                 </div>
@@ -373,7 +374,7 @@ const HomeOne = () => {
 
                             <div className='col-lg-6 col-md-6 col-sm-6 d-flex'>
                                 <div className='card-669 '>
-                                    <img src="/img/card-669-04.png" alt="card-669-01" />
+                                    <img src="/img/card-669-04.png" alt="card-669-01" width={340} height={235} />
                                     <h3>Support that Scales</h3>
                                     <p>With ongoing monitoring and optimization, we ensure your solutions evolve as your business grows.</p>
                                 </div>
@@ -387,7 +388,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2 style={{marginBottom:'0px'}}>What our Customer says</h2>
+                                    <h2 style={{ marginBottom: '0px' }}>What our Customer says</h2>
                                 </div>
                             </div>
                         </div>
@@ -395,7 +396,7 @@ const HomeOne = () => {
                         <div className='row g-3 m--t-40'>
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-p card-669-liner'>
-                                    <img src="/img/testimonials/Terence-Turner.png" alt="card-669-01" />
+                                    <img src="/img/testimonials/Terence-Turner.png" alt="card-669-01" width={126} height={126} />
                                     <h3>Terence Turner</h3>
                                     <span>General Manager</span>
                                     <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
@@ -403,7 +404,7 @@ const HomeOne = () => {
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-p'>
-                                    <img src="/img/testimonials/Jonathan-W.png" alt="card-669-01" />
+                                    <img src="/img/testimonials/Jonathan-W.png" alt="card-669-01" width={126} height={126} />
                                     <h3>Jonathan W</h3>
                                     <span>Technical Director</span>
                                     <p>We have worked with Dynamics Square since 2019. Our working relationship has built during this period, and we have found them to be very professional.</p>
@@ -411,7 +412,7 @@ const HomeOne = () => {
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                                 <div className='card-669 card-669-p card-669-liner'>
-                                    <img src="/img/avatar.png" alt="card-669-01" />
+                                    <img src="/img/avatar.png" alt="card-669-01" width={126} height={126} />
                                     <h3>Mark Shaxted</h3>
                                     <span>Operations Manager</span>
                                     <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
@@ -437,7 +438,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
-                                        <img src="/img/res-tag-01.jpg" alt="res-tag-01" />
+                                        <Image src="/img/res-tag-01.jpg" alt="res-tag-01" width={610} height={610} />
                                         <span><a href="/products/dynamics-365-copilot/">Copilot</a></span>
                                         <p>Microsoft Copilot: The Catalyst for Transformation in Your Business - Download Now!</p>
                                     </div>
@@ -449,7 +450,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
-                                        <img src="/img/res-tag-02.jpg" alt="res-tag-01" />
+                                        <Image src="/img/res-tag-02.jpg" alt="res-tag-01" width={610} height={610} />
                                         <span><a href="/white-papers/">Whitepaper</a></span>
                                         <p>The Future of Finance Management</p>
                                     </div>
@@ -461,7 +462,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
-                                        <img src="/img/res-tag-03.jpg" alt="res-tag-01" />
+                                        <Image src="/img/res-tag-03.jpg" alt="res-tag-01" width={610} height={610} />
                                         <span><a href="/guides/">Ebook</a></span>
                                         <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
@@ -473,7 +474,7 @@ const HomeOne = () => {
                             <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
-                                        <img src="/img/res-tag-04.jpg" alt="res-tag-01" />
+                                        <Image src="/img/res-tag-04.jpg" alt="res-tag-01" width={610} height={610} />
                                         <span><a href="/erp-implementation-cost-calculator/">Calculator</a></span>
                                         <p>UK's top sexual wellness brand improved productivity by up to 68%</p>
                                     </div>
