@@ -166,13 +166,13 @@ const HomeOne = () => {
                             </div>
                             <div className='col-lg-3 col-md-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
-                                    <span>12+</span>
+                                    <span>14+</span>
                                     <p>Years of industry mastery, delivering excellence in every solution.</p>
                                 </div>
                             </div>
                             <div className='col-lg-3 col-md-3 col-sm-6 col-6 d-flex'>
                                 <div className='accive-new-list'>
-                                    <span>11+</span>
+                                    <span>12+</span>
                                     <p>Industries transformed with cutting-edge technology and innovation.</p>
                                 </div>
                             </div>
