@@ -239,7 +239,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2>Our Services, Simplified</h2>
+                                    <h2>Our Services: Smart & Simple</h2>
                                     <p>We merge strategy, technology, and years of deep industry expertise to engineer and deliver solutions that drive real results.</p>
                                 </div>
                             </div>
