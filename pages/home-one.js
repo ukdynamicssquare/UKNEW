@@ -342,7 +342,8 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2 style={{ marginBottom: '0px' }}>Our method? As straightforward as your goals!</h2>
+                                    <h2>Our method? As straightforward as your goals!</h2>
+                                    <p>Simplify transformation with a Microsoft Dynamics 365 implementation partner dedicated to your growth.</p>
                                 </div>
                             </div>
                         </div>
@@ -388,7 +389,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2 style={{ marginBottom: '0px' }}>We Deliver What Matters—Because Your Growth Matters Most</h2>
+                                    <h2>We Deliver What Matters—Because Your Growth Matters Most</h2>
                                     <p>At Dynamics Square, we’ve guided businesses to optimise operations and boost performance. From 4x revenue growth to an 87% jump in customer retention, our results speak volumes.</p>
                                 </div>
                             </div>
