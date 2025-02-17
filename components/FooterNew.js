@@ -357,8 +357,8 @@ const FooterNew = () => {
               <div className="row bbb-colooer">
                 <div className='col-lg-5 align-self-center'>
                   <div className='foot-tag-head'>
-                    <h3>Let’s build the future of your business—together</h3>
-                    <p>Dynamics Square combines technical expertise with a customer-centric approach to ensure your business gets the tools it needs to succeed.</p>
+                    <h3>Let’s build the future of your business—together!</h3>
+                    <p>The right technology can change everything, and Dynamics Square ensures your business gets the tools it needs to succeed. Take the first step towards smarter solutions now!</p>
                   </div>
                 </div>
                 <div className='col-lg-7'>
