@@ -308,24 +308,35 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="/industries/dynamics-365-for-education/">
-                                        <Image src="/img/ind-i-01.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <img src="/img/ind-i-01.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <div className='flt'>
                                         <h3>Education</h3>
+                                        <p>Modernising education with technology-driven solutions and tools.</p>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="/industries/microsoft-cloud-for-manufacturing/">
-                                        <Image src="/img/ind-i-02.jpg" alt="serve-ic-01" width={818} height={792} />
+                                    <img src="/img/ind-i-02.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <div className='flt'>
                                         <h3>Manufacturing</h3>
+                                        <p>Implementing automation for improved manufacturing performance.</p>
+                                        </div>
+                                        
                                     </a>
                                 </div>
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="/industries/food-and-beverages/">
-                                        <Image src="/img/ind-i-03.jpg" alt="serve-ic-01" width={818} height={792} />
+                                    <img src="/img/ind-i-03.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <div className='flt'>
                                         <h3>Food & Beverages</h3>
+                                        <p>Manage supply and inventory processes with real-time data.</p>
+                                        </div>
+                                       
                                     </a>
                                 </div>
                             </div>
