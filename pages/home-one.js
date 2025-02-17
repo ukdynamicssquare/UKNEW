@@ -441,11 +441,11 @@ const HomeOne = () => {
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <Image src="/img/res-tag-01.jpg" alt="res-tag-01" width={610} height={610} />
-                                        <span><a href="/products/dynamics-365-copilot/">Copilot</a></span>
-                                        <p>Microsoft Copilot: The Catalyst for Transformation in Your Business - Download Now!</p>
+                                        <span><a href="/white-papers/micorosoft-copilot/">Whitepaper</a></span>
+                                        <p>Microsoft Copilot: The Catalyst for Transformation in Your Business.</p>
                                     </div>
                                     <div className='card-666-anc'>
-                                        <a href="/products/dynamics-365-copilot/">Read more <i className="bi bi-arrow-right"></i></a>
+                                        <a href="/white-papers/micorosoft-copilot/">Read more <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -453,11 +453,11 @@ const HomeOne = () => {
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <Image src="/img/res-tag-02.jpg" alt="res-tag-01" width={610} height={610} />
-                                        <span><a href="/white-papers/">Whitepaper</a></span>
-                                        <p>The Future of Finance Management</p>
+                                        <span><a href="/white-papers/micorosoft-finance/">Whitepaper</a></span>
+                                        <p>The Future of Finance Management.</p>
                                     </div>
                                     <div className='card-666-anc'>
-                                        <a href="/white-papers/">Read more <i className="bi bi-arrow-right"></i></a>
+                                        <a href="/white-papers/micorosoft-finance/">Read more <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -465,8 +465,8 @@ const HomeOne = () => {
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <Image src="/img/res-tag-03.jpg" alt="res-tag-01" width={610} height={610} />
-                                        <span><a href="/guides/">Ebook</a></span>
-                                        <p>A Complete Guide to Dynamics CRM</p>
+                                        <span><a href="/guides/">Guide</a></span>
+                                        <p>A Complete Guide to Dynamics CRM.</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="/guides/">Read more <i className="bi bi-arrow-right"></i></a>
@@ -477,8 +477,8 @@ const HomeOne = () => {
                                 <div className='card-666 card-666-1'>
                                     <div className='crad-img'>
                                         <Image src="/img/res-tag-04.jpg" alt="res-tag-01" width={610} height={610} />
-                                        <span><a href="/erp-implementation-cost-calculator/">Guide</a></span>
-                                        <p>See How Business Central Drives SMB Automation, Digital Transformation, and Profitability</p>
+                                        <span><a href="/erp-implementation-cost-calculator/">Calculator</a></span>
+                                        <p>Dynamics 365 ERP Implementation Price Calculator.</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="/erp-implementation-cost-calculator/">Read more <i className="bi bi-arrow-right"></i></a>
