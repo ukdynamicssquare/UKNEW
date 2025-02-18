@@ -14,10 +14,10 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Implementation Services UK | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Implementation Services</title>
         <meta
           name="description"
-          content="Dynamics Square provides trusted solutions through a proven Dynamics 365 implementation service to businesses across the UK, as your requirements and budgets."
+          content="Expert Dynamics 365 implementation services for seamless integration, improved efficiency, and business transformation. Contact us Dynamics Square UK for a consultation!"
         />
         <link
           rel="canonical"
@@ -25,14 +25,14 @@ const ImplementationServices = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/" />
-        <meta property="og:title" content="Dynamics 365 Implementation Services UK | Dynamics Square" />
-        <meta property="og:description" content="Dynamics Square provides trusted solutions through a proven Dynamics 365 implementation service to businesses across the UK, as your requirements and budgets." />
+        <meta property="og:title" content="Microsoft Dynamics 365 Implementation Services" />
+        <meta property="og:description" content="Expert Dynamics 365 implementation services for seamless integration, improved efficiency, and business transformation. Contact us Dynamics Square UK for a consultation!" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/our-services/dynamics-365-implementation-services/" />
-        <meta property="twitter:title" content="Dynamics 365 Implementation Services UK | Dynamics Square" />
-        <meta property="twitter:description" content="Dynamics Square provides trusted solutions through a proven Dynamics 365 implementation service to businesses across the UK, as your requirements and budgets." />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Implementation Services" />
+        <meta property="twitter:description" content="Expert Dynamics 365 implementation services for seamless integration, improved efficiency, and business transformation. Contact us Dynamics Square UK for a consultation!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/implimenation-service-banner.png" />
 
         
@@ -80,17 +80,9 @@ const ImplementationServices = () => {
           <div className="row">
             <div className="col-lg-12">
               <header className="section-header">
-                <h2>
-                  Implementation of Microsoft Dynamics 365 <br />
-                  ERP and CRM Solutions
-                </h2>
-                <p>
-                  To ensure a successful implementation comprises choosing a
-                  domain-specific solution, modernized methodologies, and a
-                  trustworthy Dynamics 365 implementation partner embedded with
-                  the high-end understanding, right skill set, and ability to
-                  deliver within eligible time-frame and cost.
-                </p>
+                <h2>Implementation of Microsoft Dynamics 365 ERP and CRM Solutions </h2>
+                <p>To ensure a successful implementation, it is crucial to choose a domain-specific solution, leverage modernized methodologies, and collaborate with a trustworthy Dynamics 365 implementation partner like Dynamics Square.  </p>
+                <p>An ideal partner needs to possess deep industry expertise, a refined skill set, and a proven ability to deliver high-quality results within the defined time frame and budget, while ensuring seamless integration, scalability, and long-term business value.  </p>
               </header>
             </div>
           </div>
@@ -140,17 +132,7 @@ const ImplementationServices = () => {
       <section className="custom-bg-001 hero-001">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="custom-bg-001-left">
-                <h2>
-                  Delivering
-                  <br />
-                  Domain-Specific & <br />
-                  Agile Implementation Approach
-                </h2>
-              </div>
-            </div>
-            <div className="col-lg-6">
+          <div className="col-lg-5">
               <div className="custom-bg-001-right">
                 <Image
                   src="/img/Dynamics-365-overview.svg"
@@ -160,6 +142,15 @@ const ImplementationServices = () => {
                 />
               </div>
             </div>
+            <div className="col-lg-1"></div>
+            <div className="col-lg-6 align-self-center">
+              <div className="custom-bg-001-left">
+                <h2>Delivering Domain-Specific & Agile Implementation Approach </h2>
+                <p>A successful Dynamics 365 implementation involves technical competence, industry-specific knowledge, and a flexible approach to changing business needs. We achieve seamless integration, minimal disruption, and faster time-to-value with domain-driven strategies and adaptable approaches.  </p>
+                <p>Our agile implementation methodology emphasises iterative development, continuous feedback loops, and scalable solutions that meet your long-term goals. Whether you're in <a href="/industries/dynamics-365-for-retail/">retail</a>, manufacturing, healthcare, or finance, we tailor every step to improve operational efficiency, user adoption, and business growth. </p>
+              </div>
+            </div>
+          
           </div>
         </div>
       </section>
