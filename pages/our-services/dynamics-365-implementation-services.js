@@ -848,8 +848,8 @@ const ImplementationServices = () => {
                       <p>
                         Dynamics Square is one of the leading implementation
                         support partners in the UK and has been providing its
-                        services for the last 11 years. Our team is an expert in
-                        consulting, implementing, upgrade, and providing support
+                        services for the last 14 years. Our team is an expert in
+                        <a href="/our-services/dynamics-365-consultant/">consulting</a>, implementing, upgrade, and providing support
                         for modules of Dynamics Square.
                       </p>
                     </div>
@@ -972,7 +972,7 @@ const ImplementationServices = () => {
                           D365 Supply Chain Management services
                         </Link>
                         , users have to pay a subscription fee starting from
-                        £135.70 per user per month.
+                        £172.60 per user per month.
                       </p>
                     </div>
                   </div>
