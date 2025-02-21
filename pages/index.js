@@ -395,7 +395,7 @@ const HomeOne = () => {
                         <div className='row'>
                             <div className='col-md-12'>
                                 <div className='client-home-new-list'>
-                                    <p>Trusted by 500 Businesses</p>
+                                    <p>Trusted by 500+ Businesses</p>
                                     <ul>
                                         <li>
                                             <Image src="/img/cli-1.png" alt="cli-1.png" width={223} height={78} />
@@ -629,7 +629,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2>Your Business: Our Expertise!  </h2>
+                                    <h2>Smart Solutions for Every Business </h2>
                                     <p>Stay agile and adaptable with modern solutions meant for giving you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. </p>
                                 </div>
                             </div>
