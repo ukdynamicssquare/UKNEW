@@ -464,10 +464,10 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <Image src="/img/case-imgs-2.jpg" alt="case-imgs-1" width={610} height={592} />
-                                        <p>A top UK sexual wellness brand enhanced efficiency by up to 68%.</p>
+                                        <p>London’s top college boosts departmental synergy by 80% with a system upgrade.</p>
                                     </div>
                                     <div className='card-666-anc'>
-                                        <a href="/case-studies/nav09-to-business-central-upgrade/">Read more <i className="bi bi-arrow-right"></i></a>
+                                        <a href="/case-studies/upgrade-from-nav09-to-business-central/">Read more <i className="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
