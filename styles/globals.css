@@ -14813,6 +14813,10 @@ display:none
   box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
   z-index:2
 }
+.card-667.card-667-hover{
+  box-shadow:none;
+  background:transparent
+}
 .card-668{
   position: relative;
   overflow: hidden;

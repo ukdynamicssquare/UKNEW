@@ -378,7 +378,7 @@ const FooterNew = () => {
         <div className="footer-top top-pd-2020">
           <div className="container-fluid">
             <div className="row gy-4">
-              <div className="col-lg-3 col-md-6 footer-info">
+              <div className="col-lg-3 col-md-6 footer-info" style={{marginTop:'0px'}}>
                 <Link href="/" className="logo d-flex align-items-center">
                   <a><Image
                     src="/img/dynamics_square_tm_logo_footer.svg"
@@ -500,12 +500,12 @@ const FooterNew = () => {
                         <i className="bi bi-chevron-right"></i>
                         <Link href="/our-services/dynamics-365-training/">Training</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <i className="bi bi-chevron-right"></i>
                         <Link href="">
                         Integration
                         </Link>
-                      </li>
+                      </li> */}
                      
                     </ul>
                   </div>
@@ -543,10 +543,10 @@ const FooterNew = () => {
                         <i className="bi bi-chevron-right"></i>
                         <Link href="/industries/dynamics-365-for-healthcare/">Healthcare</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <i className="bi bi-chevron-right"></i>
                         <Link href="">Energy</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
 
@@ -591,10 +591,10 @@ const FooterNew = () => {
               </div>
 
               <div className="col-lg-2  col-md-12 text-md-start">
-                <div className='btnuu '>
+                {/* <div className='btnuu '>
                   <p>GET IN TOUCH</p>
                 <a href="#">Request Consultation <i class="bi bi-arrow-right"></i></a>
-                </div>
+                </div> */}
                 <p>FOLLOW US</p>
 
                 <div className="social-links">

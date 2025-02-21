@@ -10,13 +10,13 @@ const HeaderWork = () => {
   const router = useRouter();
 
   // Define the specific link where you want to add the class
-  const specificPath = "/home-one"; // Change this to your desired link
+  const specificPath = "/"; // Change this to your desired link
   const isSpecificPath = router.pathname === specificPath;
 
 // Determine which logo to show based on the current route
 const getLogoSrc = () => {
   switch (router.pathname) {
-    case "/home-one":
+    case "/":
       return "/img/dynamics_square_tm_logo_footer.svg";  // Replace with the logo for the About page
     // case "/services":
     //   return "/img/services_logo.svg"; 
