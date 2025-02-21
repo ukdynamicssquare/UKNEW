@@ -14815,7 +14815,8 @@ display:none
 }
 .card-667.card-667-hover{
   box-shadow:none;
-  background:transparent
+  background:transparent;
+  padding: 0px 10px 10px;
 }
 .card-668{
   position: relative;

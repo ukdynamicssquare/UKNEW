@@ -497,7 +497,7 @@ const HomeOne = () => {
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <Image src="/img/case-imgs-4.jpg" alt="case-imgs-4" width={610} height={592} />
-                                        <p>Strategic advancements led an orthopedic implant manufacturer to 80% more visibility</p>
+                                        <p>Strategic advancements led an orthopedic implant manufacturer to 60% more visibility.</p>
                                     </div>
                                     <div className='card-666-anc'>
                                         <a href="/case-studies/upgrading-to-dynamics-365-business-central/">Read more <i className="bi bi-arrow-right"></i></a>
@@ -585,7 +585,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="/industries/dynamics-365-for-education/">
-                                        <img src="/img/ind-i-01.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <Image src="/img/ind-i-01.jpg" alt="serve-ic-01" width={818} height={792} />
                                         <div className='flt'>
                                             <h3>Education</h3>
                                             <p>Modernising education with technology-driven solutions and tools.</p>
