@@ -313,7 +313,7 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                                 <div className='home-baner-head'>
-                                    <h1>Microsoft Experts for UK Businesses</h1>
+                                    <h1>UK's Trusted Microsoft Dynamics 365 Partner</h1>
                                     <h2>When results count, <br />Dynamics Square delivers! </h2>
                                     <p>Dominate and thrive with AI-powered Microsoft solutions. With Dynamics Square, Your Success is Powered by Years of Proven Expertise—No Matter the Industry!</p>
                                     <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' width={26} height={26} alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>

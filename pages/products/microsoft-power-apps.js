@@ -394,6 +394,68 @@ const PowerApps = () => {
           </div>
         </div>
       </section>
+      <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Power Apps </h2>
+            <p>Microsoft Copilot enables AI-powered automation, app optimisation, and intelligent recommendations in Power Apps, hence simplifying app development. It helps users create and run apps with little code required. </p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>AI-Driven App Creation </h3>
+                  <p>Copilot suggests layouts, components, and workflows depending on business demands so users can create low-code apps faster. It simplifies app development by lowering the need for manual setups. </p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Conversational Automation </h3>
+                  <p>Copilot facilitates internal and customer process automation driven by artificial intelligence. It can improve user engagement by generating automated responses, handling requests, and instantly starting processes. </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Enhanced Data Integration </h3>
+                  <p>Copilot guarantees flawless integration with Microsoft Dataverse, third-party APIs, and business systems by cleverly connecting and mapping data from many sources. This quickens data-driven decision-making. </p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Streamline Repetitive Tasks </h3>
+                  <p>Automate approvals, notifications, and repeated activities to replace manual interventions. AI-generated summaries from Copilot offer rapid process overviews, hence improving efficiency and lowering workload. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="busnes-upgrade-serve-one">
         <div className="container">
           <div className="row justify-content-center">

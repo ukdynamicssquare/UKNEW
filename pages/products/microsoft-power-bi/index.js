@@ -282,6 +282,68 @@ const PowerBI = () => {
           </div>
         </div>
       </section>
+      <section style={{paddingBottom:'0px'}}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Copilot in Power BI </h2>
+            <p>Microsoft Copilot enhances Power BI features. It enables business users and data analysts to rapidly review and understand data. Acting as an intelligent assistant, real-time, AI-generated insights help to simplify decision-making, automate activities, and improve reports. </p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Advanced Data Storytelling </h3>
+                  <p>By aggregating important trends, anomalies, and business patterns, Copilot turns unprocessed data into gripping stories. It saves hours of laborious analysis by automatically creating reports and dashboards with insightful commentary. </p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Interactive Query Assistance </h3>
+                  <p>Users can interact with Copilot using natural language to ask complex queries and receive accurate, contextual insights. It eliminates the need for extensive DAX or SQL knowledge, making data analytics more accessible. </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Real-time Insights & Predictive Analytics </h3>
+                  <p>Copilot offers forecast insights and constantly watches data patterns to enable companies to make proactive decisions. Real-time updates from cloud-based artificial intelligence models guarantee reliable, data-backed strategies. </p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Automate Report Generation </h3>
+                  <p>Reduce manual effort with AI-driven report creation. Copilot automates data structuring, visualisation, and summary writing, ensuring teams focus more on analysis rather than repetitive tasks.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="new-call-to-power-bi">
         <div className="container">
           <div className="row justify-content-center">
