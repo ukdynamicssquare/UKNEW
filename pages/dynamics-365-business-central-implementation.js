@@ -16,7 +16,7 @@ const BusinessCentralImplementation = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Business Central Implementation | Dynamics Square
+          Dynamics 365 Business Central Implementation Partner | Dynamics Square™
         </title>
         <meta
           name="description"

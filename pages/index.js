@@ -15,22 +15,22 @@ const HomeOne = () => {
     return (
         <>
             <Head>
-                <title>Trusted Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™</title>
+                <title>Trusted Microsoft Dynamics 365 Partner in UK - Dynamics Square™</title>
                 <meta
                     name="description"
-                    content="As a leading Microsoft Dynamics 365 Partner in the UK, our experts help businesses achieve desired results with the implementation of Dynamics 365 apps such as Business Central, NAV, AX, and Power BI. Contact us Today!"
+                    content="As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!"
                 />
                 <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.dynamicssquare.co.uk/" />
-                <meta property="og:title" content="Trusted Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™" />
-                <meta property="og:description" content="Dynamics Square is UK's leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
+                <meta property="og:title" content="Trusted Microsoft Dynamics 365 Partner in UK - Dynamics Square™" />
+                <meta property="og:description" content="As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!" />
                 <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/home-page-og.png" />
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/" />
-                <meta property="twitter:title" content="Trusted Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™" />
-                <meta property="twitter:description" content="Dynamics Square is UK's leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services." />
+                <meta property="twitter:title" content="Trusted Microsoft Dynamics 365 Partner in UK - Dynamics Square™" />
+                <meta property="twitter:description" content="As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!" />
                 <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/home-page-og.png" />
 
                 <script
@@ -67,9 +67,9 @@ const HomeOne = () => {
                                     "@type": "WebSite",
                                     "@id": "https://www.dynamicssquare.co.uk/#website",
                                     url: "https://www.dynamicssquare.co.uk/",
-                                    name: "Trusted Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™",
+                                    name: "Trusted Microsoft Dynamics 365 Partner in UK - Dynamics Square™",
                                     description:
-                                        "Dynamics Square is UK's leading Microsoft Dynamics 365 Partner. We help businesses implement Microsoft Dynamics 365 solutions. Contact us to know more.",
+                                        "As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!",
                                     publisher: {
                                         "@id": "https://www.dynamicssquare.co.uk/#organization",
                                     },
@@ -596,7 +596,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="/industries/microsoft-cloud-for-manufacturing/">
-                                        <img src="/img/ind-i-02.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <Image src="/img/ind-i-02.jpg" alt="serve-ic-01" width={818} height={792} />
                                         <div className='flt'>
                                             <h3>Manufacturing</h3>
                                             <p>Implementing automation for improved manufacturing performance.</p>
@@ -608,7 +608,7 @@ const HomeOne = () => {
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
                                 <div className='card-668'>
                                     <a href="/industries/food-and-beverages/">
-                                        <img src="/img/ind-i-03.jpg" alt="serve-ic-01" width={818} height={792} />
+                                        <Image src="/img/ind-i-03.jpg" alt="serve-ic-01" width={818} height={792} />
                                         <div className='flt'>
                                             <h3>Food & Beverages</h3>
                                             <p>Manage supply and inventory processes with real-time data.</p>
@@ -762,7 +762,7 @@ const HomeOne = () => {
                                     <img src="/img/avatar.png" alt="card-669-01" width={126} height={126} />
                                     <h3>Mark Shaxted</h3>
                                     <span>Operations Manager</span>
-                                    <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading us from NAV2018 to Business Central. They offer great value and professionalism.</p>
+                                    <p>Dynamics Square has been a solid partner for 4 years, skillfully upgrading our Microsoft Dynamics NAV to Dynamics 365 Business Central. They offer great value and professionalism.</p>
                                 </div>
                             </div>
 
