@@ -14822,7 +14822,7 @@ display:none
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  height: 380px;
+  max-height: 380px;
 }
   /* .card-668::after{
     content: "";
@@ -15115,6 +15115,12 @@ padding: 8px 0;
   }
   .new-title-heading h2{
     font-size: 38px;
+  }
+  .card-668 .flt {
+    bottom: -10%;
+  }
+  .card-668:hover a .flt {
+    bottom: 2%;
   }
 }
 
