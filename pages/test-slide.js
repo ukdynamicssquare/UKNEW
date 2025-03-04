@@ -11,6 +11,8 @@ export default function Home() {
       const ScrollTrigger = ScrollTriggerModule.default;
       const ScrollToPlugin = ScrollToPluginModule.default;
 
+      // Force GPU acceleration globally
+      gsap.config({ force3D: true });
       gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
       let panels = gsap.utils.toArray('.panel');
@@ -26,18 +28,18 @@ export default function Home() {
         });
       }
 
-      // Clear any previous triggers
+      // Clear any previous ScrollTriggers to avoid duplicates
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
       panels.forEach((eachPanel, i) => {
-        // When scrolling down: trigger when the panel's top reaches 80% of the viewport height
+        // Scrolling down trigger
         ScrollTrigger.create({
           trigger: eachPanel,
           start: "top 80%",
           onEnter: () => goToSection(i)
         });
 
-        // When scrolling up: trigger when the panel's bottom reaches 20% of the viewport height
+        // Scrolling up trigger
         ScrollTrigger.create({
           trigger: eachPanel,
           start: "bottom 20%",
@@ -52,28 +54,28 @@ export default function Home() {
     <div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-primary text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
       >
         <h1>Section 1</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula.</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-secondary text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
       >
         <h1>Section 2</h1>
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-success text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
       >
         <h1>Section 3</h1>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-danger text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
       >
         <h1>Section 4</h1>
         <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
