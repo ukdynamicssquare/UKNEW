@@ -1,11 +1,17 @@
+import Head from 'next/head';
 import useSectionScroll from '../hooks/useSectionScroll';
+
 
 export default function Home() {
   // Initialize the section scroll behavior with default settings.
   useSectionScroll();
 
   return (
-    <div>
+    <>
+    <Head>
+      <title>test slide</title>
+    <meta name="robots" content="noindex, nofollow" />
+    </Head>
       {/* Full-page panels */}
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-primary text-white text-center p-4"
@@ -35,6 +41,6 @@ export default function Home() {
         <h1>Section 4</h1>
         <p>Content for Section 4</p>
       </div>
-    </div>
+    </>
   );
 }
