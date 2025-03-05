@@ -3,7 +3,7 @@ import Head from 'next/head';
 import useLocomotiveScroll from '../hooks/useLocomotiveScroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css'; // Import default styles
 
-export default function Home() {
+export default function SlideTwo() {
   // Create a ref for the scroll container.
   const containerRef = useRef(null);
 

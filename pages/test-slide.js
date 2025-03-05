@@ -1,20 +1,22 @@
 import Head from 'next/head';
 import useSectionScroll from '../hooks/useSectionScroll';
 import useHorizontalScroll from '../hooks/useHorizontalScroll';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-export default function Home() {
-  // Initialize the section scroll behavior with default settings.
-  useSectionScroll();
+export default function SlideThree() {
+  // Initialize vertical section scroll behavior.
+  // We exclude events from the horizontal container.
+  useSectionScroll({ excludeSelector: '.horizontal-container' });
+  // Initialize horizontal scroll behavior.
   useHorizontalScroll();
 
   return (
     <>
-    <Head>
-      <title>test slide</title>
-    <meta name="robots" content="noindex, nofollow" />
-    </Head>
-      {/* Full-page panels */}
+      <Head>
+        <title>Test Slide</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      {/* Full-page vertical panels */}
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-primary text-white text-center p-4"
         style={{ transform: 'translateZ(0)' }}
@@ -44,60 +46,51 @@ export default function Home() {
         <p>Content for Section 4</p>
       </div>
 
-
-      <div
-      className="horizontal-container"
-      style={{
-        display: 'flex',
-        overflow: 'hidden', // ensure horizontal layout without scrollbars
-      }}
-    >
-      <div
-        className="card-slide"
-        style={{
-          minWidth: '100vw',
-          height: '100vh',
-          background: '#f44336',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#fff'
-        }}
-      >
-        <h1>Slide 1</h1>
+      {/* Horizontal slider section */}
+      <div className="horizontal-container" style={{ display: 'flex', overflow: 'hidden' }}>
+        <div
+          className="card-slide"
+          style={{
+            minWidth: '100vw',
+            height: '100vh',
+            background: '#f44336',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#fff'
+          }}
+        >
+          <h1>Slide 1</h1>
+        </div>
+        <div
+          className="card-slide"
+          style={{
+            minWidth: '100vw',
+            height: '100vh',
+            background: '#4caf50',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#fff'
+          }}
+        >
+          <h1>Slide 2</h1>
+        </div>
+        <div
+          className="card-slide"
+          style={{
+            minWidth: '100vw',
+            height: '100vh',
+            background: '#2196f3',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            color: '#fff'
+          }}
+        >
+          <h1>Slide 3</h1>
+        </div>
       </div>
-      <div
-        className="card-slide"
-        style={{
-          minWidth: '100vw',
-          height: '100vh',
-          background: '#4caf50',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#fff'
-        }}
-      >
-        <h1>Slide 2</h1>
-      </div>
-      <div
-        className="card-slide"
-        style={{
-          minWidth: '100vw',
-          height: '100vh',
-          background: '#2196f3',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#fff'
-        }}
-      >
-        <h1>Slide 3</h1>
-      </div>
-    </div>
-
-
-    
     </>
   );
 }
