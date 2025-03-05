@@ -1,10 +1,12 @@
 import Head from 'next/head';
 import useSectionScroll from '../hooks/useSectionScroll';
+import useHorizontalScroll from '../hooks/useHorizontalScroll';
 
 
 export default function Home() {
   // Initialize the section scroll behavior with default settings.
   useSectionScroll();
+  useHorizontalScroll();
 
   return (
     <>
@@ -41,6 +43,61 @@ export default function Home() {
         <h1>Section 4</h1>
         <p>Content for Section 4</p>
       </div>
+
+
+      <div
+      className="horizontal-container"
+      style={{
+        display: 'flex',
+        overflow: 'hidden', // ensure horizontal layout without scrollbars
+      }}
+    >
+      <div
+        className="card-slide"
+        style={{
+          minWidth: '100vw',
+          height: '100vh',
+          background: '#f44336',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: '#fff'
+        }}
+      >
+        <h1>Slide 1</h1>
+      </div>
+      <div
+        className="card-slide"
+        style={{
+          minWidth: '100vw',
+          height: '100vh',
+          background: '#4caf50',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: '#fff'
+        }}
+      >
+        <h1>Slide 2</h1>
+      </div>
+      <div
+        className="card-slide"
+        style={{
+          minWidth: '100vw',
+          height: '100vh',
+          background: '#2196f3',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: '#fff'
+        }}
+      >
+        <h1>Slide 3</h1>
+      </div>
+    </div>
+
+
+    
     </>
   );
 }
