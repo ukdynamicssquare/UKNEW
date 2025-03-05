@@ -11,38 +11,39 @@ export default function Home() {
       const ScrollTrigger = ScrollTriggerModule.default;
       const ScrollToPlugin = ScrollToPluginModule.default;
 
-      // Force GPU acceleration globally
-      gsap.config({ force3D: true });
       gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
+      // Get all panels and use a flag to prevent overlapping scroll animations
       let panels = gsap.utils.toArray('.panel');
       let isScrolling = false;
 
       function goToSection(i) {
-        if (isScrolling) return;
+        if (isScrolling) return; // Prevent overlapping animations
         isScrolling = true;
         gsap.to(window, {
           scrollTo: { y: i * window.innerHeight, autoKill: false, ease: "power3.inOut" },
           duration: 0.85,
-          onComplete: () => { isScrolling = false; }
+          onComplete: () => {
+            isScrolling = false; // Reset flag when done
+          }
         });
       }
 
-      // Clear any previous ScrollTriggers to avoid duplicates
+      // Kill any existing ScrollTriggers to avoid duplicates
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
       panels.forEach((eachPanel, i) => {
-        // Scrolling down trigger
+        // Trigger on scrolling down: when top of panel hits bottom of viewport
         ScrollTrigger.create({
           trigger: eachPanel,
-          start: "top 80%",
+          start: "top bottom",
           onEnter: () => goToSection(i)
         });
 
-        // Scrolling up trigger
+        // Trigger on scrolling up: when top of panel hits top of viewport
         ScrollTrigger.create({
           trigger: eachPanel,
-          start: "bottom 20%",
+          start: "top top",
           onEnterBack: () => goToSection(i)
         });
       });
@@ -54,28 +55,28 @@ export default function Home() {
     <div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-primary text-white text-center p-4"
-        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
+        style={{ willChange: 'transform, opacity' }}
       >
         <h1>Section 1</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula.</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-secondary text-white text-center p-4"
-        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
+        style={{ willChange: 'transform, opacity' }}
       >
         <h1>Section 2</h1>
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-success text-white text-center p-4"
-        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
+        style={{ willChange: 'transform, opacity' }}
       >
         <h1>Section 3</h1>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-danger text-white text-center p-4"
-        style={{ transform: 'translate3d(0,0,0)', willChange: 'transform, opacity' }}
+        style={{ willChange: 'transform, opacity' }}
       >
         <h1>Section 4</h1>
         <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
