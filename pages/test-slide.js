@@ -3,83 +3,106 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   useEffect(() => {
+    let isScrolling = false;
+    let currentSection = 0;
+
     async function loadGsap() {
       const gsapModule = await import('gsap');
-      const ScrollTriggerModule = await import('gsap/ScrollTrigger');
       const ScrollToPluginModule = await import('gsap/ScrollToPlugin');
       const gsap = gsapModule.default;
-      const ScrollTrigger = ScrollTriggerModule.default;
       const ScrollToPlugin = ScrollToPluginModule.default;
+      gsap.registerPlugin(ScrollToPlugin);
 
-      gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+      // Pre-set panels for GPU acceleration
+      gsap.set('.panel', {
+        force3D: true,
+        willChange: 'transform, opacity',
+        backfaceVisibility: 'hidden'
+      });
 
-      // Get all panels and use a flag to prevent overlapping scroll animations
-      let panels = gsap.utils.toArray('.panel');
-      let isScrolling = false;
+      const panels = document.querySelectorAll('.panel');
 
-      function goToSection(i) {
-        if (isScrolling) return; // Prevent overlapping animations
+      function goToSection(index) {
+        if (index < 0 || index >= panels.length) return;
         isScrolling = true;
+        currentSection = index;
         gsap.to(window, {
-          scrollTo: { y: i * window.innerHeight, autoKill: false, ease: "power3.inOut" },
-          duration: 0.85,
+          scrollTo: { y: index * window.innerHeight, autoKill: false },
+          duration: 0.65,
+          ease: "power3.inOut",
+          force3D: true,
           onComplete: () => {
-            isScrolling = false; // Reset flag when done
+            isScrolling = false;
           }
         });
       }
 
-      // Kill any existing ScrollTriggers to avoid duplicates
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      function handleWheel(e) {
+        // Prevent additional scroll events while animating
+        if (isScrolling) {
+          e.preventDefault();
+          return;
+        }
+        // Scrolling down
+        if (e.deltaY > 0 && currentSection < panels.length - 1) {
+          e.preventDefault();
+          goToSection(currentSection + 1);
+        }
+        // Scrolling up
+        else if (e.deltaY < 0 && currentSection > 0) {
+          e.preventDefault();
+          goToSection(currentSection - 1);
+        }
+      }
 
-      panels.forEach((eachPanel, i) => {
-        // Trigger on scrolling down: when top of panel hits bottom of viewport
-        ScrollTrigger.create({
-          trigger: eachPanel,
-          start: "top bottom",
-          onEnter: () => goToSection(i)
-        });
+      // Attach the wheel event listener with passive set to false
+      window.addEventListener('wheel', handleWheel, { passive: false });
 
-        // Trigger on scrolling up: when top of panel hits top of viewport
-        ScrollTrigger.create({
-          trigger: eachPanel,
-          start: "top top",
-          onEnterBack: () => goToSection(i)
-        });
-      });
+      // Cleanup on unmount
+      return () => {
+        window.removeEventListener('wheel', handleWheel);
+      };
     }
-    loadGsap();
+
+    const cleanupPromise = loadGsap();
+
+    // Cleanup if needed (in case loadGsap returns a cleanup function)
+    return () => {
+      cleanupPromise.then((cleanup) => {
+        if (typeof cleanup === 'function') cleanup();
+      });
+    };
   }, []);
 
   return (
     <div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-primary text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 1</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula.</p>
+        <p>Content for Section 1</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-secondary text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 2</h1>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
+        <p>Content for Section 2</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-success text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 3</h1>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+        <p>Content for Section 3</p>
       </div>
       <div
         className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-danger text-white text-center p-4"
-        style={{ willChange: 'transform, opacity' }}
+        style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 4</h1>
-        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+        <p>Content for Section 4</p>
       </div>
     </div>
   );
