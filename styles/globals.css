@@ -14592,6 +14592,15 @@ display:none
 .specific-header .mobile-nav-toggle{
   color:#fff
 }
+.specific-header #button-2 a{
+  background: #f1f0f4;
+    color: #544a81;
+}
+.specific-header #button-2 a:hover, .specific-header #button-2 a:active, .specific-header #button-2 a:focus {
+  background: #1b0d41bf;
+  color: #fff;
+  border-color: #55477b;
+}
 .mySwip{
   position: relative;
   overflow: hidden;

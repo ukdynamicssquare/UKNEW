@@ -240,7 +240,7 @@ const MicrosoftCloudForNonpro = () => {
             <div className="row d-none d-md-block">
               <div className="col-lg-12">
                 <div className="chal-pic-banner">
-                  <img src="/img/group-35368.png" alt="smart-busimess-mamangemt" />
+                  <Image src="/img/group-35368.png" width={1305} height={313} alt="smart-busimess-mamangemt" />
                 </div>
               </div>
             </div>
@@ -554,9 +554,11 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-4 d-flex">
                 <div className="commen-box-2 commen-box-9">
                   <div className="icons icons-0102">
-                    <img
+                    <Image
                       src="/img/case-studies-1.jpg"
                       alt="crm-trading"
+                      width={850}
+                      height={410}
                     />
                   </div>
                   <div className="commen-boc-2-info">
@@ -577,9 +579,11 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-4 d-flex">
                 <div className="commen-box-2 commen-box-9">
                   <div className="icons icons-0102">
-                    <img
+                    <Image
                       src="/img/case-studies-2.jpg"
                       alt="case-studies-2.jpg"
+                      width={850}
+                      height={410}
                     />
                   </div>
                   <div className="commen-boc-2-info">
@@ -601,9 +605,11 @@ const MicrosoftCloudForNonpro = () => {
               <div className="col-lg-4 d-flex">
                 <div className="commen-box-2 commen-box-9">
                   <div className="icons icons-0102">
-                    <img
+                    <Image
                       src="/img/case-studies-3.jpg"
                       alt="timesco-logo"
+                      width={850}
+                      height={410}
                     />
                   </div>
                   <div className="commen-boc-2-info">
