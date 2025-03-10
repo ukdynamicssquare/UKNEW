@@ -577,7 +577,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Your Industry? Our Expertise!</h2>
-                                    <p>Dynamics Square brings decades of profound industry expertise that merges ongoing industry insights with Microsoft technology to help you capitalise on your biggest opportunities. As a trusted Microsoft Dynamics 365 implementation partner, we deliver solutions that customised for your business growth. </p>
+                                    <p>Dynamics Square brings decades of profound industry expertise that merges ongoing industry insights with Microsoft technology to help you capitalise on your biggest opportunities. As a trusted Microsoft Dynamics 365 implementation partner, we deliver solutions customised for your business growth. </p>
                                 </div>
                             </div>
                         </div>
