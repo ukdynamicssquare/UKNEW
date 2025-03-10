@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default function ExpandableCard() {
     const [expandedIndex, setExpandedIndex] = useState(-1);
 
-  const toggleCard = (index) => {
+  const onMouseEnter = (index) => {
     if (expandedIndex === index) {
       setExpandedIndex(-1);
     } else {
@@ -47,7 +47,7 @@ export default function ExpandableCard() {
           {listItems.map((item, index) => (
             <li key={index}>
               <div className="item">
-                <a className="button" onClick={() => toggleCard(index)}>
+                <a className="button" onMouseEnter={() => onMouseEnter(index)}>
                   {item.name}
                 </a>
               </div>
@@ -58,7 +58,7 @@ export default function ExpandableCard() {
           <div key={index} className={`expandable-section ${expandedIndex === index ? 'expanded' : ''}`}>
             {expandedIndex === index && (
               <div className="cards card-cent">
-                <span className="close-btn" onClick={() => toggleCard(index)}>
+                <span className="close-btn" onMouseEnter={() => onMouseEnter(index)}>
                   &times;
                 </span>
                 <div className='heding-tots'>{item.heading}</div>
