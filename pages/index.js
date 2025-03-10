@@ -425,7 +425,7 @@ const HomeOne = () => {
                             <div className='col-lg-8 col-md-12 col-sm-12'>
                                 <div className='new-title-heading'>
                                     <h2>Dynamics Square: Your Microsoft Solutions Partner</h2>
-                                    <p>As a Dynamics 365 implementation partner, we have been consistently delivering impactful solutions, earning trust through innovation & commitment and empowering businesses to achieve excellence, no matter what the industry.</p>
+                                    <p>As a Dynamics 365 implementation partner, we have been consistently delivering impactful solutions, earning trust through innovation & commitment and empowering businesses to achieve excellence, irrespective of the industry.</p>
                                 </div>
                             </div>
                         </div>
@@ -565,7 +565,7 @@ const HomeOne = () => {
                                 </div>
                             </div>
                             <div className='col-lg-12 text-center to-22'>
-                                <a href="/our-services/" className='btn-red btn'>Explore More! <i className="bi bi-arrow-right"></i></a>
+                                <a href="/our-services/" className='btn-red btn'>Explore More <i className="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -577,7 +577,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Your Industry? Our Expertise!</h2>
-                                    <p>Dynamics Square brings decades of deep industry expertise that merges ongoing industry insights with Microsoft technology to help you capitalise on your biggest opportunities.</p>
+                                    <p>Dynamics Square brings decades of profound industry expertise that merges ongoing industry insights with Microsoft technology to help you capitalise on your biggest opportunities. As a trusted Microsoft Dynamics 365 implementation partner, we deliver solutions that customised for your business growth. </p>
                                 </div>
                             </div>
                         </div>
@@ -734,7 +734,7 @@ const HomeOne = () => {
                         <div className='row justify-content-center'>
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
-                                    <h2>We Deliver What Matters—Because Your Growth Matters Most</h2>
+                                    <h2>Delivering Impact Where It Matters Because You Deserve More </h2>
                                     <p>At Dynamics Square, we’ve guided businesses to optimise operations and boost performance. From 4x revenue growth to an 87% jump in customer retention, our results speak volumes.</p>
                                 </div>
                             </div>
