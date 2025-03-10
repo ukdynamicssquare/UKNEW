@@ -13,18 +13,18 @@ const HeaderWork = () => {
   const specificPath = "/"; // Change this to your desired link
   const isSpecificPath = router.pathname === specificPath;
 
-// Determine which logo to show based on the current route
-const getLogoSrc = () => {
-  switch (router.pathname) {
-    case "/":
-      return "/img/dynamics_square_tm_logo_footer.svg";  // Replace with the logo for the About page
-    // case "/services":
-    //   return "/img/services_logo.svg"; 
+  // Determine which logo to show based on the current route
+  const getLogoSrc = () => {
+    switch (router.pathname) {
+      case "/":
+        return "/img/dynamics_square_tm_logo_footer.svg";  // Replace with the logo for the About page
+      // case "/services":
+      //   return "/img/services_logo.svg"; 
 
-    default:
-      return "/img/dynamics_square_tm_logo.svg"; // Default logo
-  }
-};
+      default:
+        return "/img/dynamics_square_tm_logo.svg"; // Default logo
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,6 +35,16 @@ const getLogoSrc = () => {
       }
     };
 
+
+    // Handle hover tab switching
+    const navLinks = document.querySelectorAll(".nav-link");
+    navLinks.forEach((link) => {
+      link.addEventListener("mouseenter", (event) => {
+        const targetTab = new bootstrap.Tab(event.target);
+        targetTab.show();
+      });
+    });
+
     window.addEventListener("scroll", handleScroll);
 
     // Scroll to top on component mount
@@ -43,6 +53,9 @@ const getLogoSrc = () => {
     // Clean up on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      navLinks.forEach((link) => {
+        link.removeEventListener("mouseenter", () => { });
+      });
     };
   }, []);
 
@@ -66,7 +79,7 @@ const getLogoSrc = () => {
             <div className="left-logo">
               <a href="/" className="logo">
                 <img
-                    src={getLogoSrc()}
+                  src={getLogoSrc()}
                   alt="Dynamics Square TM Logo"
                   width="282"
                   height="19"
