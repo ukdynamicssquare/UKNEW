@@ -2,7 +2,11 @@
 import { useState } from 'react';
 import staticContent from '../public/data/static-content.json'; // Assuming static content is in a JSON file
 import Head from 'next/head';
-Head
+
+import dynamic from 'next/dynamic';
+const ScrollReveal = dynamic(() => import('../components/ScrollReveal'), {
+    ssr: false,
+  });
 
 export default function Newapi({ content }) {
     const [currentStep, setCurrentStep] = useState(0);
@@ -30,7 +34,8 @@ export default function Newapi({ content }) {
         <title>Testing Auto Page</title>
         <meta name="robots" content="noindex, nofollow"></meta>
       </Head>
-        <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+       <div className='container-fluid' style={{background:"#000000",height:"100vh",color:"#ffffff"}}>
+       <div style={{ padding: '20px 10px 500px', fontFamily: 'Arial, sans-serif' }}>
             <h1>Welcome to Our B2B Platform</h1>
 
             {currentStep === 0 && (
@@ -61,6 +66,24 @@ export default function Newapi({ content }) {
                 </div>
             )}
         </div>
+
+
+
+
+
+
+
+        <ScrollReveal
+  baseOpacity={0}
+  enableBlur={true}
+  baseRotation={5}
+  blurStrength={10}
+>
+  When does a man die? When he is hit by a bullet? No! When he suffers a disease?
+  No! When he ate a soup made out of a poisonous mushroom?
+  No! A man dies when he is forgotten!
+</ScrollReveal>
+       </div>
       </>
     );
 }
