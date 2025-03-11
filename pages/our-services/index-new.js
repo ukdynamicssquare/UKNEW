@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Link from "next/link";
 import Image from "next/image";
 import useSectionScroll from '../../hooks/useSectionScroll';
-import { Button } from 'bootstrap';
 const Inedex = () => {
 
   useSectionScroll({ excludeSelector: '.horizontal-container' });
@@ -31,19 +30,25 @@ const Inedex = () => {
               <h2>Microsoft Business Applications,
                 Tailored for Your Success</h2>
               <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
-             
+              <button 
+          id="scrollToSection2" 
+          className="btn btn-light mt-3"
+          onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+        >
+          Go to Section 2
+        </button>
               <div className="text-center">
-                <button onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}><a
+                <Link href="#kasd"><a
                   className="btn-get-started scrollto"
                 >
                   <span>Schedule a Demo</span></a>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section  className="panel" style={{ transform: 'translateZ(30)',background:"#ddd",top:"100px" }}>
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(30)',background:"#ddd",top:"100px" }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -63,7 +68,7 @@ const Inedex = () => {
         </div>
       </section>
 
-      <section  className="panel" style={{ transform: 'translateZ(30)',background:"#ddd",top:"100px" }}>
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(30)',background:"#ddd",top:"100px" }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
