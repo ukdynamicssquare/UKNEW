@@ -15204,6 +15204,9 @@ padding: 8px 0;
 .mo-top-30{
   margin-top: -70px;
 }
+
+
+
 /* .sliding-row{
   overflow-x: scroll;
         overflow-y: hidden;
@@ -15220,7 +15223,12 @@ padding: 8px 0;
 
 }
 
-
+.panel{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh !important;
+}
 
 /* .scroll-reveal {
   margin: 20px 0;

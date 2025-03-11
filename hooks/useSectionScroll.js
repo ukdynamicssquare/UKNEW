@@ -33,7 +33,7 @@ export default function useSectionScroll({
         currentSectionRef.current = index;
         gsap.to(window, {
           scrollTo: { y: index * window.innerHeight, autoKill: false },
-          duration: 0.85,
+          duration: 0.30,
           ease: "power3.inOut",
           force3D: true,
           onComplete: () => {

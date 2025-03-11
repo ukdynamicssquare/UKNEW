@@ -25,21 +25,21 @@ export default function SlideThree() {
         <p>Content for Section 1</p>
       </div>
       <div
-        className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-secondary text-white text-center p-4"
+        className="panel-full-scroll vh-100 d-flex flex-column align-items-center justify-content-center bg-secondary text-white text-center p-4"
         style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 2</h1>
         <p>Content for Section 2</p>
       </div>
       <div
-        className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-success text-white text-center p-4"
+        className="panel-full-scroll vh-100 d-flex flex-column align-items-center justify-content-center bg-success text-white text-center p-4"
         style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 3</h1>
         <p>Content for Section 3</p>
       </div>
       <div
-        className="panel vh-100 d-flex flex-column align-items-center justify-content-center bg-danger text-white text-center p-4"
+        className="panel-full-scroll vh-100 d-flex flex-column align-items-center justify-content-center bg-danger text-white text-center p-4"
         style={{ transform: 'translateZ(0)' }}
       >
         <h1>Section 4</h1>
@@ -47,50 +47,7 @@ export default function SlideThree() {
       </div>
 
       {/* Horizontal slider section */}
-      <div className="horizontal-container" style={{ display: 'flex', overflow: 'hidden' }}>
-        <div
-          className="card-slide"
-          style={{
-            minWidth: '100vw',
-            height: '100vh',
-            background: '#f44336',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#fff'
-          }}
-        >
-          <h1>Slide 1</h1>
-        </div>
-        <div
-          className="card-slide"
-          style={{
-            minWidth: '100vw',
-            height: '100vh',
-            background: '#4caf50',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#fff'
-          }}
-        >
-          <h1>Slide 2</h1>
-        </div>
-        <div
-          className="card-slide"
-          style={{
-            minWidth: '100vw',
-            height: '100vh',
-            background: '#2196f3',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            color: '#fff'
-          }}
-        >
-          <h1>Slide 3</h1>
-        </div>
-      </div>
+     
     </>
   );
 }
