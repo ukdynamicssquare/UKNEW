@@ -9,7 +9,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { FreeMode, Navigation, Thumbs } from 'swiper';
-import ExpandableCard from '../components/ExpandableCard';
+import ExpandableCard from '../../components/ExpandableCard';
 
 
 export default function HomeOld() {
@@ -24,7 +24,7 @@ export default function HomeOld() {
           name="description"
           content="Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!"
         />
-        <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
+        <link rel="canonical" href="https://www.dynamicssquare.co.uk/location/dynamics-365-partner-london/" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/" />
         <meta property="og:title" content="Dynamics 365 Partner in London UK | Dynamics Square™" />
