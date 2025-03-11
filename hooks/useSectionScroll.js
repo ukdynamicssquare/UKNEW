@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 
 export default function useSectionScroll({ 
   panelSelector = '.panel', 
-  excludeSelector = '.horizontal-container'
+  excludeSelector = '.horizontal-container' 
 } = {}) {
   const isScrollingRef = useRef(false);
   const currentSectionRef = useRef(0);
@@ -16,7 +16,7 @@ export default function useSectionScroll({
       const ScrollToPlugin = ScrollToPluginModule.default;
       gsap.registerPlugin(ScrollToPlugin);
 
-      // Pre-set panels for GPU acceleration
+      // Optimize for GPU acceleration
       gsap.set(panelSelector, {
         force3D: true,
         willChange: 'transform, opacity',
@@ -31,9 +31,10 @@ export default function useSectionScroll({
         if (index < 0 || index >= panels.length) return;
         isScrollingRef.current = true;
         currentSectionRef.current = index;
+
         gsap.to(window, {
           scrollTo: { y: index * window.innerHeight, autoKill: false },
-          duration: 0.30,
+          duration: 0.45, // Slower for smoothness
           ease: "power3.inOut",
           force3D: true,
           onComplete: () => {
@@ -43,25 +44,17 @@ export default function useSectionScroll({
       }
 
       function handleWheel(e) {
-        // If the wheel event originates within the horizontal container,
-        // let it pass through for the horizontal hook to handle.
-        if (e.target.closest(excludeSelector)) {
-          return;
-        }
-        // Prevent overlapping animations.
+        if (e.target.closest(excludeSelector)) return; // Ignore horizontal scroll areas
         if (isScrollingRef.current) {
           e.preventDefault();
           return;
         }
         const currentScroll = window.scrollY;
 
-        // Scrolling down
         if (e.deltaY > 0 && currentSectionRef.current < panels.length - 1) {
           e.preventDefault();
           goToSection(currentSectionRef.current + 1);
-        }
-        // Scrolling up
-        else if (e.deltaY < 0) {
+        } else if (e.deltaY < 0) {
           if (currentScroll > lastPanelOffset) {
             e.preventDefault();
             goToSection(panels.length - 1);
