@@ -6,6 +6,7 @@ export default function useSectionScroll({
 } = {}) {
   const isScrollingRef = useRef(false);
   const currentSectionRef = useRef(0);
+  let panels = [];
 
   useEffect(() => {
     let cleanup;
@@ -16,25 +17,24 @@ export default function useSectionScroll({
       const ScrollToPlugin = ScrollToPluginModule.default;
       gsap.registerPlugin(ScrollToPlugin);
 
-      // Optimize for GPU acceleration
       gsap.set(panelSelector, {
         force3D: true,
         willChange: 'transform, opacity',
         backfaceVisibility: 'hidden'
       });
 
-      const panels = document.querySelectorAll(panelSelector);
+      panels = document.querySelectorAll(panelSelector);
       if (!panels.length) return;
       const lastPanelOffset = (panels.length - 1) * window.innerHeight;
 
       function goToSection(index) {
         if (index < 0 || index >= panels.length) return;
         isScrollingRef.current = true;
-        currentSectionRef.current = index;
+        currentSectionRef.current = index; // Update section reference
 
         gsap.to(window, {
           scrollTo: { y: index * window.innerHeight, autoKill: false },
-          duration: 0.45, // Slower for smoothness
+          duration: 0.45, 
           ease: "power3.inOut",
           force3D: true,
           onComplete: () => {
@@ -44,11 +44,12 @@ export default function useSectionScroll({
       }
 
       function handleWheel(e) {
-        if (e.target.closest(excludeSelector)) return; // Ignore horizontal scroll areas
+        if (e.target.closest(excludeSelector)) return;
         if (isScrollingRef.current) {
           e.preventDefault();
           return;
         }
+
         const currentScroll = window.scrollY;
 
         if (e.deltaY > 0 && currentSectionRef.current < panels.length - 1) {
@@ -65,8 +66,25 @@ export default function useSectionScroll({
         }
       }
 
+      function handleKeyDown(e) {
+        if (isScrollingRef.current) return;
+
+        if (e.key === "ArrowDown" && currentSectionRef.current < panels.length - 1) {
+          e.preventDefault();
+          goToSection(currentSectionRef.current + 1);
+        } 
+        else if (e.key === "ArrowUp" && currentSectionRef.current > 0) {
+          e.preventDefault();
+          goToSection(currentSectionRef.current - 1);
+        }
+      }
+
       window.addEventListener('wheel', handleWheel, { passive: false });
-      cleanup = () => window.removeEventListener('wheel', handleWheel);
+      window.addEventListener('keydown', handleKeyDown);
+      cleanup = () => {
+        window.removeEventListener('wheel', handleWheel);
+        window.removeEventListener('keydown', handleKeyDown);
+      };
     }
 
     loadGsap();
@@ -75,4 +93,25 @@ export default function useSectionScroll({
       if (cleanup) cleanup();
     };
   }, [panelSelector, excludeSelector]);
+
+  return { goToSection: (index) => {
+    if (index < 0 || index >= panels.length) return;
+    currentSectionRef.current = index; // Ensure the reference is updated
+    isScrollingRef.current = true;
+
+    import('gsap').then(({ default: gsap }) => {
+      import('gsap/ScrollToPlugin').then(({ default: ScrollToPlugin }) => {
+        gsap.registerPlugin(ScrollToPlugin);
+        gsap.to(window, {
+          scrollTo: { y: index * window.innerHeight, autoKill: false },
+          duration: 0.45,
+          ease: "power3.inOut",
+          force3D: true,
+          onComplete: () => {
+            isScrollingRef.current = false;
+          }
+        });
+      });
+    });
+  }};
 }

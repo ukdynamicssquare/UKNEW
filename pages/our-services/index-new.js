@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import useSectionScroll from '../../hooks/useSectionScroll';
 const Inedex = () => {
-
-  useSectionScroll({ excludeSelector: '.horizontal-container' });
+  const { goToSection } = useSectionScroll()
+  // useSectionScroll({ excludeSelector: '.horizontal-container' });
 
   return (
     <>
@@ -22,7 +22,7 @@ const Inedex = () => {
       </Head>
 
 
-      <section className="panel" style={{ transform: 'translateZ(30)' }}>
+      <section className="panel panel-new-haed" style={{ transform: 'translateZ(0)' }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 text-center">
@@ -33,7 +33,8 @@ const Inedex = () => {
               <button 
           id="scrollToSection2" 
           className="btn btn-light mt-3"
-          onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+          // onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+          onClick={() => goToSection(1)}
         >
           Go to Section 2
         </button>
@@ -48,11 +49,10 @@ const Inedex = () => {
           </div>
         </div>
       </section>
-      <section id='kasd' className="panel" style={{ transform: 'translateZ(30)',background:"#ddd",top:"100px" }}>
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)',backgroundColor:'rgb(244 240 250)'}}>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <h1>OUR SERVICES</h1>
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
               <h2>Microsoft Business Applications,
                 Tailored for Your Success</h2>
               <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
@@ -64,15 +64,25 @@ const Inedex = () => {
                 </Link>
               </div>
             </div>
+            <div className='col-lg-6 align-self-center'>
+              <div className='bacg-over'>
+              <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id='kasd' className="panel" style={{ transform: 'translateZ(30)',background:"#ddd",top:"100px" }}>
+
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)'}}>
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <h1>OUR SERVICES</h1>
+          <div className="row">
+          <div className='col-lg-6 align-self-center'>
+              <div className='bacg-over'>
+              <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
               <h2>Microsoft Business Applications,
                 Tailored for Your Success</h2>
               <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
@@ -84,10 +94,34 @@ const Inedex = () => {
                 </Link>
               </div>
             </div>
+           
           </div>
         </div>
       </section>
 
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)',backgroundColor:'rgb(244 240 250)'}}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <h2>Microsoft Business Applications,
+                Tailored for Your Success</h2>
+              <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
+              <div className="text-center text-lg-start">
+                <Link href="#kasd"><a
+                  className="btn-get-started scrollto"
+                >
+                  <span>Schedule a Demo</span></a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-6 align-self-center'>
+              <div className='bacg-over'>
+              <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
