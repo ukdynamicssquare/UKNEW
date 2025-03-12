@@ -4399,7 +4399,7 @@ section {
   text-align: center;
 }
 .right-list .rigt-list-menu {
-  padding: 15px 0;
+  padding: 0;
 }
 .right-list .rigt-list-menu p {
   font-size: 16px;
@@ -14302,11 +14302,12 @@ figure {
   border-radius: 8px;
   background-color: #f3f2f6;
   padding: 15px;
-  font-size: 14px;
+  font-size: 13px;
   transition: 0.4s ease;
 }
 .right-list .rigt-list-menu.rigt-list-menu-new li span {
   display: block;
+  font-size: 13px;
 }
 .rigt-list-menu-new .menu-title-new {
   font-weight: bold;
@@ -14356,12 +14357,12 @@ figure {
   border-radius: 0px 8px 8px 8px;
   overflow-y: auto;
 
-  min-height: 400px !important;
+  min-height: 415px !important;
   padding-top: 15px !important;
 }
 
 .navbar .dropdown.megamenu.megamenu-new .megamenu-list {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   height: auto;
   overflow-y: scroll;

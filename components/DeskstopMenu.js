@@ -11,7 +11,7 @@ const DeskstopMenu = () => {
             <i className="bi bi-chevron-down"></i>
           </a>
           <div className="megamenu-list">
-            <div className="left-list">
+            <div className="left-list d-flex">
               <div className="d-flex">
                 <div
                   className="nav flex-column nav-pills me-3"
@@ -945,7 +945,7 @@ const DeskstopMenu = () => {
                 </div>
               </div>
             </div>
-            <div className="right-list ">
+            <div className="right-list d-flex ">
               <div className="rigt-list-menu rigt-list-menu-new p-relativ">
                 <p>Essential Tool</p>
                 <ul>
@@ -963,23 +963,23 @@ const DeskstopMenu = () => {
                       
                     </a>
                   </li>
-                  {/* <li>
+                  <li>
                     <a href="/dynamics-nav-to-business-central/">
                       <span className='menu-title-new'>
-                        Get Your ERP Cost Estimate
+                      Dynamics NAV To Business Central Upgrade
                       </span>
                       <span className='menu-title-para'>
-                        Quick, free, and tailored to your business.
+                      Ensure a smoother transition for you, without costing a million bucks! 
                       </span>
                       <span className='menu-title-link'>
-                        Check Now <i className="bi bi-arrow-right"></i>
+                        Read more <i className="bi bi-arrow-right"></i>
                       </span>
                       
                     </a>
-                  </li> */}
+                  </li>
 
                 </ul>
-                <div className='pp-absol' style={{marginTop:'100px'}}>
+                <div className='pp-absol' style={{marginTop:'2px'}}>
                   <a href="/products/dynamics-365-copilot/"><img src="/img/menu--ss.png" width={706} height={180} alt="menu--ss" /></a>
                 </div>
               </div>
