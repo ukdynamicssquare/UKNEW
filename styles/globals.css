@@ -15242,7 +15242,7 @@ padding: 8px 0;
   margin-bottom: 12px;
   
 }
-.panel-new-haed h2{
+.panel-new-haed h2,.panel-new-haed-side h2{
   font-size: 48px;
   font-weight: bold;
   color: #63448b;
@@ -15252,6 +15252,14 @@ padding: 8px 0;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.panel-new-haed-side .s-ttgs{
+  font-size: 15px !important;
+  letter-spacing: 4.5px;
+  font-weight: 500;
+  color: #63448b;
+  margin-bottom: 12px;
+  
 }
 .bacg-over{
   position: relative;

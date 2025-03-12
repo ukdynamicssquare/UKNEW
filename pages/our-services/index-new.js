@@ -30,14 +30,14 @@ const Inedex = () => {
               <h2>Microsoft Business Applications,
                 Tailored for Your Success</h2>
               <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
-              <button 
-          id="scrollToSection2" 
-          className="btn btn-light mt-3"
-          // onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-          onClick={() => goToSection(1)}
-        >
-          Go to Section 2
-        </button>
+              <button
+                id="scrollToSection2"
+                className="btn btn-light mt-3"
+                // onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+                onClick={() => goToSection(1)}
+              >
+                Go to Section 2
+              </button>
               <div className="text-center">
                 <Link href="#kasd"><a
                   className="btn-get-started scrollto"
@@ -49,7 +49,58 @@ const Inedex = () => {
           </div>
         </div>
       </section>
-      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)',backgroundColor:'rgb(244 240 250)'}}>
+      <section id='kasd' className="panel panel-new-haed-side" style={{ transform: 'translateZ(0)', backgroundColor: 'rgb(244 240 250)' }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <span className='s-ttgs'>Consulting</span>
+              <h2>Microsoft Business Applications,
+                Tailored for Your Success</h2>
+              <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
+              <div className="text-center text-lg-start">
+                <Link href="#kasd"><a
+                  className="btn-get-started scrollto"
+                >
+                  <span>Schedule a Demo</span></a>
+                </Link>
+              </div>
+            </div>
+            <div className='col-lg-6 align-self-center'>
+              <div className='bacg-over'>
+                <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)' }}>
+        <div className="container">
+          <div className="row">
+            <div className='col-lg-6 align-self-center'>
+              <div className='bacg-over'>
+                <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <h2>Microsoft Business Applications,
+                Tailored for Your Success</h2>
+              <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
+              <div className="text-center text-lg-start">
+                <Link href="#kasd"><a
+                  className="btn-get-started scrollto"
+                >
+                  <span>Schedule a Demo</span></a>
+                </Link>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)', backgroundColor: 'rgb(244 240 250)' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -66,57 +117,7 @@ const Inedex = () => {
             </div>
             <div className='col-lg-6 align-self-center'>
               <div className='bacg-over'>
-              <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)'}}>
-        <div className="container">
-          <div className="row">
-          <div className='col-lg-6 align-self-center'>
-              <div className='bacg-over'>
-              <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
-              </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <h2>Microsoft Business Applications,
-                Tailored for Your Success</h2>
-              <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
-              <div className="text-center text-lg-start">
-                <Link href="#kasd"><a
-                  className="btn-get-started scrollto"
-                >
-                  <span>Schedule a Demo</span></a>
-                </Link>
-              </div>
-            </div>
-           
-          </div>
-        </div>
-      </section>
-
-      <section id='kasd' className="panel" style={{ transform: 'translateZ(0)',backgroundColor:'rgb(244 240 250)'}}>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <h2>Microsoft Business Applications,
-                Tailored for Your Success</h2>
-              <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
-              <div className="text-center text-lg-start">
-                <Link href="#kasd"><a
-                  className="btn-get-started scrollto"
-                >
-                  <span>Schedule a Demo</span></a>
-                </Link>
-              </div>
-            </div>
-            <div className='col-lg-6 align-self-center'>
-              <div className='bacg-over'>
-              <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
+                <Image src="/img/our-ser-01.png" width={363} height={321} alt="Our Services" />
               </div>
             </div>
           </div>
