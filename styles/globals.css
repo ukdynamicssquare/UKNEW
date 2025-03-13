@@ -14526,10 +14526,10 @@ figure {
   animation: rotate-revere 40s linear infinite;
 }
 .btn-home{
-  background-color:#f1f0f4;
-  font-size: 20px;
-  color: #544a81;
-  padding: 0.9rem 1rem;
+  background-color:#f1f0f4 !important;
+  font-size: 20px !important;
+  color: #544a81 !important;
+  padding: 0.9rem 1rem !important;
   transition:.4s ease;
   position:relative
 }
@@ -14543,9 +14543,9 @@ figure {
 }
 
 .btn-home:hover,.btn-home:active,.btn-home:focus{
-  background: #1b0d41bf;
-    color: #fff;
-    border-color: #55477b;
+  background: #1b0d41bf !important;
+    color: #fff !important;
+    border-color: #55477b !important;
 }
 .btn-home:hover span{
   padding-left: 20px;
