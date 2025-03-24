@@ -20,6 +20,7 @@ export default function HomeOld() {
     <>
       <Head>
         <title>Dynamics 365 Partner in London UK | Dynamics Square™</title>
+        <meta name='robots' content='noindex, nofollow' />
         <meta
           name="description"
           content="Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!"
