@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,55 +6,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-import FormCaseScroll from "../../components/FormCaseScroll"; 
 
 const CrmTrading = () => {
-
-  const [showPopup, setShowPopup] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    // Check local storage to see if the form has already been submitted
-    const formSubmittedState = localStorage.getItem('formSubmitted') === 'true';
-    if (formSubmittedState) {
-      setShowPopup(false);
-      return; // Exit if the form was already submitted
-    }
-
-    const handleScroll = () => {
-      const position = window.scrollY;
-      const scrollHeight = document.documentElement.scrollHeight;
-      const clientHeight = document.documentElement.clientHeight;
-      const scrolledPercentage = (position / (scrollHeight - clientHeight)) * 100;
-
-      setScrollPosition(scrolledPercentage);
-
-      if (scrolledPercentage > 10 && !showPopup) {
-        setShowPopup(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      document.body.style.overflow = "auto";
-    };
-  }, [scrollPosition, showPopup]);
-
-  const handlePopupClose = () => {
-    setShowPopup(false); // Hide the popup
-    localStorage.setItem('formSubmitted', 'true'); // Save state to local storage
-  };
-
-
-
-
 
   return (
     <>
       <Head>
-      <title>Dynamics NAV 2009 to NAV 2018 Upgrade | Case Study</title>
+        <title>Dynamics NAV 2009 to NAV 2018 Upgrade | Case Study</title>
         <meta
           name="description"
           content="UK's leading fragrance supplier worked with Dynamics Square to upgrade from Dynamics NAV 2009 to Dynamics NAV 2018. Read the case story to gain insights."
@@ -65,7 +22,6 @@ const CrmTrading = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/nav2009-nav18-upgrade/"
         />
       </Head>
-      <div className={showPopup ? "blur-content" : ""}>
       <section className="hero-1 hero">
         <div className="container">
           <div className="row">
@@ -84,7 +40,7 @@ const CrmTrading = () => {
                   src="/img/Dynamics-365-Business-Central.png"
                   alt="Business central casestudy"
                   width={1024} height={597}
-                  priority = {true}
+                  priority={true}
                 />
               </div>
             </div>
@@ -98,11 +54,11 @@ const CrmTrading = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-               <div> <div><img
+                  <div> <div><img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
                   /></div>
-                </div></div>
+                  </div></div>
                 <div className="col-lg-9">
                   <p>CRM Trading is a leading wholesaler of fragrance, skincare, hair-care, and cosmetics has decided for NAV 2009 to NAV 2018 upgrade for enhancing their overall operational efficiency. They were having 35 years of experience in the beauty industry and serving their products to a number of brands like Calvin Klein, Davidoff, Vera Wang, Marc Jacobs, and Sarah Jessica Parker. With a warehouse based in the UK, they are ready to source any products and deliver them to the destination within the UK and abroad. Also, they are available in trade shows like Spring and Autumn Fairs at NEC Birmingham, Cosmoprof in Bologna, and the TFWA show in Cannes to showcase their wide variety of premium products.</p>
                 </div>
@@ -122,7 +78,7 @@ const CrmTrading = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407}/>
+              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407} />
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -402,7 +358,7 @@ const CrmTrading = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598}/>
+              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598} />
             </div>
           </div>
         </div>
@@ -445,10 +401,10 @@ const CrmTrading = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span></a>
+                      href="#exampleModal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -457,17 +413,6 @@ const CrmTrading = () => {
         </div>
       </section>
 
-
-      </div>
-
-       {/* Pop-up Form */}
-       {showPopup && <FormCaseScroll onClose={handlePopupClose} />}
-      <style jsx>{`
-        .blur-content {
-          filter: blur(7px);
-          transition: filter 0.3s ease;
-        }
-      `}</style>
 
     </>
   );

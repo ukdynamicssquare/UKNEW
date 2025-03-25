@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,48 +6,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-import FormCaseScroll from "../../components/FormCaseScroll"; 
+
 
 const CaseStudyPasante = () => {
-  const [showPopup, setShowPopup] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
 
-  useEffect(() => {
-    // Check local storage to see if the form has already been submitted
-    const formSubmittedState = localStorage.getItem('formSubmitted') === 'true';
-    if (formSubmittedState) {
-      setShowPopup(false);
-      return; // Exit if the form was already submitted
-    }
-
-    const handleScroll = () => {
-      const position = window.scrollY;
-      const scrollHeight = document.documentElement.scrollHeight;
-      const clientHeight = document.documentElement.clientHeight;
-      const scrolledPercentage = (position / (scrollHeight - clientHeight)) * 100;
-
-      setScrollPosition(scrolledPercentage);
-
-      if (scrolledPercentage > 10 && !showPopup) {
-        setShowPopup(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      document.body.style.overflow = "auto";
-    };
-  }, [scrollPosition, showPopup]);
-
-  const handlePopupClose = () => {
-    setShowPopup(false); // Hide the popup
-    localStorage.setItem('formSubmitted', 'true'); // Save state to local storage
-  };
-    return (
-      <>
-        <Head>
+  return (
+    <>
+      <Head>
         <title>Dynamics NAV 2009 to Business Central On-Premise Upgrade</title>
         <meta
           name="description"
@@ -58,9 +22,8 @@ const CaseStudyPasante = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/case-studies/nav09-to-business-central-upgrade/"
         />
-        </Head>
-        <div className={showPopup ? "blur-content" : ""}>
-        <section className="hero-1 hero">
+      </Head>
+      <section className="hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -77,7 +40,7 @@ const CaseStudyPasante = () => {
                 <Image
                   src="/img/Dynamics-365-Business-Central.png"
                   alt="business centeral implementation"
-                  width={1024} height={597}   priority = {true}
+                  width={1024} height={597} priority={true}
                 />
               </div>
             </div>
@@ -91,7 +54,7 @@ const CaseStudyPasante = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                <img
+                  <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
                   />
@@ -115,7 +78,7 @@ const CaseStudyPasante = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407}/>
+              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407} />
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -149,7 +112,7 @@ const CaseStudyPasante = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                    Their business was expanding, but the older version of NAV was not allowing them to scale in terms of technology and functionality. They want to upgrade their NAV version to{" "}
+                      Their business was expanding, but the older version of NAV was not allowing them to scale in terms of technology and functionality. They want to upgrade their NAV version to{" "}
                       <Link
                         href="/products/dynamics-365-business-central/"
                         target="_blank"
@@ -490,11 +453,11 @@ const CaseStudyPasante = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    href="#exampleModal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span></a>
+                      data-bs-toggle="modal"
+                      href="#exampleModal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -502,20 +465,10 @@ const CaseStudyPasante = () => {
           </div>
         </div>
       </section>
-      
-      </div>
 
-       {/* Pop-up Form */}
-       {showPopup && <FormCaseScroll onClose={handlePopupClose} />}
-      <style jsx>{`
-        .blur-content {
-          filter: blur(7px);
-          transition: filter 0.3s ease;
-        }
-      `}</style>
-      </>
-    );
-  };
+    </>
+  );
+};
 
-  export default CaseStudyPasante;
-  
+export default CaseStudyPasante;
+

@@ -11,45 +11,6 @@ import { Autoplay, FreeMode, Pagination } from "swiper";
 
 const CaseStudyTimosco = () => {
 
-
-  const [showPopup, setShowPopup] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    // Check local storage to see if the form has already been submitted
-    const formSubmittedState = localStorage.getItem('formSubmitted') === 'true';
-    if (formSubmittedState) {
-      setShowPopup(false);
-      return; // Exit if the form was already submitted
-    }
-
-    const handleScroll = () => {
-      const position = window.scrollY;
-      const scrollHeight = document.documentElement.scrollHeight;
-      const clientHeight = document.documentElement.clientHeight;
-      const scrolledPercentage = (position / (scrollHeight - clientHeight)) * 100;
-
-      setScrollPosition(scrolledPercentage);
-
-      if (scrolledPercentage > 10 && !showPopup) {
-        setShowPopup(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      document.body.style.overflow = "auto";
-    };
-  }, [scrollPosition, showPopup]);
-
-  const handlePopupClose = () => {
-    setShowPopup(false); // Hide the popup
-    localStorage.setItem('formSubmitted', 'true'); // Save state to local storage
-  };
-
-
   return (
     <>
       <Head>
@@ -63,7 +24,6 @@ const CaseStudyTimosco = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/nav13R2-to-business-central/ "
         />
       </Head>
-      <div className={showPopup ? "blur-content" : ""}>
       <section className="hero-1 hero">
         <div className="container">
           <div className="row">
@@ -83,7 +43,7 @@ const CaseStudyTimosco = () => {
                   alt="business centeral implementation"
                   width={1024}
                   height={597}
-                  priority = {true}
+                  priority={true}
                 />
               </div>
             </div>
@@ -97,7 +57,7 @@ const CaseStudyTimosco = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                <img
+                  <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
                   />
@@ -426,16 +386,7 @@ const CaseStudyTimosco = () => {
         </div>
       </section>
 
-      </div>
 
-{/* Pop-up Form */}
-{showPopup && <FormCaseScroll onClose={handlePopupClose} />}
-<style jsx>{`
-  .blur-content {
-    filter: blur(7px);
-    transition: filter 0.3s ease;
-  }
-`}</style>
     </>
   );
 };

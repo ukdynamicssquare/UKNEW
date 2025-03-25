@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,47 +6,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-import FormCaseScroll from "../../components/FormCaseScroll"; 
+
 
 const MicrosoftPowerBiImplementation = () => {
 
-
-  const [showPopup, setShowPopup] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    // Check local storage to see if the form has already been submitted
-    const formSubmittedState = localStorage.getItem('formSubmitted') === 'true';
-    if (formSubmittedState) {
-      setShowPopup(false);
-      return; // Exit if the form was already submitted
-    }
-
-    const handleScroll = () => {
-      const position = window.scrollY;
-      const scrollHeight = document.documentElement.scrollHeight;
-      const clientHeight = document.documentElement.clientHeight;
-      const scrolledPercentage = (position / (scrollHeight - clientHeight)) * 100;
-
-      setScrollPosition(scrolledPercentage);
-
-      if (scrolledPercentage > 10 && !showPopup) {
-        setShowPopup(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      document.body.style.overflow = "auto";
-    };
-  }, [scrollPosition, showPopup]);
-
-  const handlePopupClose = () => {
-    setShowPopup(false); // Hide the popup
-    localStorage.setItem('formSubmitted', 'true'); // Save state to local storage
-  };
 
 
   return (
@@ -63,7 +25,7 @@ const MicrosoftPowerBiImplementation = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/microsoft-power-bi-implementation/"
         />
       </Head>
-      <div className={showPopup ? "blur-content" : ""}>
+
       <section className="hero-1 hero">
         <div className="container">
           <div className="row">
@@ -118,7 +80,7 @@ const MicrosoftPowerBiImplementation = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="Case studies Dynamicsquare" width={487} height={404}/>
+              <Image src="/img/cast-stu-pic.png" alt="Case studies Dynamicsquare" width={487} height={404} />
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -254,7 +216,7 @@ const MicrosoftPowerBiImplementation = () => {
                           </div>
                         </div>
                       </div>
-                    </SwiperSlide>  
+                    </SwiperSlide>
                     <SwiperSlide>
                       <div className="swiper-slide">
                         <div className="swiper-slide">
@@ -333,7 +295,7 @@ const MicrosoftPowerBiImplementation = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Group1435.png" alt="Dynamics square casestudy" width={640} height={598}/>
+              <Image src="/img/Group1435.png" alt="Dynamics square casestudy" width={640} height={598} />
             </div>
           </div>
         </div>
@@ -378,11 +340,11 @@ const MicrosoftPowerBiImplementation = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -390,16 +352,6 @@ const MicrosoftPowerBiImplementation = () => {
           </div>
         </div>
       </section>
-        </div>
-
-         {/* Pop-up Form */}
-       {showPopup && <FormCaseScroll onClose={handlePopupClose} />}
-       <style jsx>{`
-         .blur-content {
-           filter: blur(7px);
-           transition: filter 0.3s ease;
-         }
-       `}</style>
 
     </>
   );

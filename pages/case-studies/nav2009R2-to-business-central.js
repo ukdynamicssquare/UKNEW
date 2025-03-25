@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -7,48 +6,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-import FormCaseScroll from "../../components/FormCaseScroll"; 
 
 const CaseStudyCqc = () => {
-  const [showPopup, setShowPopup] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
 
-  useEffect(() => {
-    // Check local storage to see if the form has already been submitted
-    const formSubmittedState = localStorage.getItem('formSubmitted') === 'true';
-    if (formSubmittedState) {
-      setShowPopup(false);
-      return; // Exit if the form was already submitted
-    }
-
-    const handleScroll = () => {
-      const position = window.scrollY;
-      const scrollHeight = document.documentElement.scrollHeight;
-      const clientHeight = document.documentElement.clientHeight;
-      const scrolledPercentage = (position / (scrollHeight - clientHeight)) * 100;
-
-      setScrollPosition(scrolledPercentage);
-
-      if (scrolledPercentage > 10 && !showPopup) {
-        setShowPopup(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      document.body.style.overflow = "auto";
-    };
-  }, [scrollPosition, showPopup]);
-
-  const handlePopupClose = () => {
-    setShowPopup(false); // Hide the popup
-    localStorage.setItem('formSubmitted', 'true'); // Save state to local storage
-  };
-    return (
-      <>
-        <Head>
+  return (
+    <>
+      <Head>
         <title>NAV 9 R2 to Dynamics 365 Business Central Upgrade</title>
         <meta
           name="description"
@@ -58,10 +21,10 @@ const CaseStudyCqc = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/case-studies/nav2009R2-to-business-central/"
         />
-          
-        </Head>
-        <div className={showPopup ? "blur-content" : ""}>
-        <section className="hero-1 hero">
+
+      </Head>
+
+      <section className="hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -91,7 +54,7 @@ const CaseStudyCqc = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                <img
+                  <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
                   />
@@ -115,7 +78,7 @@ const CaseStudyCqc = () => {
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={487} height={407}/>
+              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={487} height={407} />
             </div>
             <div className="col-lg-6">
               <div className="content-icons-modil-1">
@@ -244,7 +207,7 @@ const CaseStudyCqc = () => {
                             <p>
                               Dynamics Square upgraded the ERP of the company from{" "}
                               <Link href="/dynamics-nav-to-business-central/">
-                               
+
                                 NAV to Microsoft Dynamics 365 Business Central
                                 Online.
                               </Link>
@@ -445,7 +408,7 @@ const CaseStudyCqc = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598}  />
+              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598} />
             </div>
           </div>
         </div>
@@ -496,11 +459,11 @@ const CaseStudyCqc = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -508,20 +471,10 @@ const CaseStudyCqc = () => {
           </div>
         </div>
       </section>
-      
-      </div>
 
-       {/* Pop-up Form */}
-       {showPopup && <FormCaseScroll onClose={handlePopupClose} />}
-      <style jsx>{`
-        .blur-content {
-          filter: blur(7px);
-          transition: filter 0.3s ease;
-        }
-      `}</style>
-      </>
-    );
-  };
+    </>
+  );
+};
 
-  export default CaseStudyCqc;
-  
+export default CaseStudyCqc;
+
