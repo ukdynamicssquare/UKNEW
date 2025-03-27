@@ -79,7 +79,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                   What are The <br />
                   Business Challenges
                 </h2>
-                <p>Summit Systems Ltd., a seasoned player in the plastic automation industry, was seeking to streamline its operations and support its recent expansion into recycling. The company faced several challenges:</p>
+                <p>The UK’s leading plastic automation company was seeking to streamline its operations and support its recent expansion into recycling. The company faced several challenges:</p>
               </header>
             </div>
           </div>
@@ -145,7 +145,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Solution Delivered</h2>
-                <p>Dynamics Square, a trusted Microsoft Dynamics partner, was chosen to implement Dynamics 365 Business Central. The solution addressed Summit Systems' specific needs:</p>
+                <p>Dynamics Square, a trusted Microsoft Dynamics partner, was chosen to implement Dynamics 365 Business Central. The solution addressed Clients' specific needs:</p>
               </header>
             </div>
           </div>
@@ -267,7 +267,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Customizations and Configurations: Tailored the solution to meet Summit Systems' unique business processes and requirements.</p>
+                              <p>Customizations and Configurations: Tailored the solution to meet Clients' unique business processes and requirements.</p>
                             </div>
                           </div>
                         </div>
