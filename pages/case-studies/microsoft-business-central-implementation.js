@@ -145,7 +145,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Solution Delivered</h2>
-                <p>Dynamics Square, a trusted Microsoft Dynamics partner, was chosen to implement Dynamics 365 Business Central. The solution addressed clients' specific needs:</p>
+                <p>Dynamics Square, a trusted Microsoft Dynamics partner, was chosen to implement Dynamics 365 Business Central. The solution addressed client's specific needs:</p>
               </header>
             </div>
           </div>
@@ -267,7 +267,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Customizations and Configurations: Tailored the solution to meet clients' unique business processes and requirements.</p>
+                              <p>Customizations and Configurations: Tailored the solution to meet client's unique business processes and requirements.</p>
                             </div>
                           </div>
                         </div>
