@@ -16,7 +16,7 @@ const MultiStepFormNew = () => {
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!hotmail.co.in)(?!hotmail.co.uk)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)(?!outlook.co.uk)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
   const isValidPhoneNumber = (phone) => /^\d{10,15}$/.test(phone);
 
   useEffect(() => {
