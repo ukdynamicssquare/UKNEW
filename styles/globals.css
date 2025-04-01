@@ -15211,7 +15211,7 @@ padding: 8px 0;
 .case-new-content-text::before{
   content: "";
   position: absolute;
-  top: 70px;
+  top: 60px;
   left: 40px;
   bottom: 0;
   width: 4px;
@@ -15252,6 +15252,46 @@ padding: 80px 0px;
   z-index: 2;
   background-color: #f1f0f4;
 }
+.case-result-side{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.case-result-item{
+  position: relative;
+  padding-right: 60px;
+}
+.case-result-item::before{
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  bottom:0;
+  width: 4px;
+  height: 60%;
+  background-image: linear-gradient(to right, #984b6e 50%, #60518c 150%);
+  border-radius: 8px;
+}
+.case-result-item p{
+  font-size: 14px;
+  color: #444444;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+.case-result-item p b{
+  font-size: 16px;
+  display: block;
+}
+.case-result-border{
+  position: relative;
+  border-right: 2px solid transparent; 
+  border-image: linear-gradient(to right, #984b6e 50%, #60518c 150%);
+  border-image-slice: 1;
+}
+
+
+
 
 @media (max-width: 1440px) {
   .home-baner-head h2 {

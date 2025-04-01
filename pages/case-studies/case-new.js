@@ -90,7 +90,7 @@ const CaseNew = () => {
                             <div className='col-lg-12 text-center'>
                                 <div className='ce-image'>
                                     <img src="/img/business-center-new-banner.png" alt="Case Study" className='img-fluid' />
-                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className='row g-3'>
@@ -122,6 +122,63 @@ const CaseNew = () => {
                             <div className='col-lg-3 d-flex'>
                                 <div className='case-challenge-card gg-white'>
                                     <p><b>Integration Challenges:</b> Difficulty in integrating with other systems, such as the warehouse management system and mobile applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='case-result-wrap'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='case-challenge-header'>
+                                <h2>Results & Impact</h2>
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='col-lg-4 case-result-border'>
+                                <div className='case-result-side'>
+                                    <div className='case-result-item'>
+                                        <p><b>30% Increase</b>
+                                            in Operational Efficiency by automating core processes.</p>
+                                    </div>
+                                    <div className='case-result-item'>
+                                        <p><b>30% Increase</b>
+                                            in Operational Efficiency by automating core processes.</p>
+                                    </div>
+                                    <div className='case-result-item'>
+                                        <p><b>30% Increase</b>
+                                            in Operational Efficiency by automating core processes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-8'>
+                                <div className='row g-3'>
+                                    <div className='col-lg-6 d-flex'>
+                                        <div className='case-challenge-card gg-gray'>
+                                            <p><b>Limited Scalability:</b> The existing system struggled to handle increased business volume and complexity.</p>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 d-flex'>
+                                        <div className='case-challenge-card gg-gray'>
+                                            <p><b>Inefficient Processes:</b> Manual processes and data entry errors hindered productivity.</p>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 d-flex'>
+                                        <div className='case-challenge-card gg-gray'>
+                                            <p><b>Lack of Real-Time Insights:</b> Limited visibility into inventory levels, sales performance, and financial data.</p>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 d-flex'>
+                                        <div className='case-challenge-card gg-gray'>
+                                            <p><b>Integration Challenges:</b> Difficulty in integrating with other systems, such as the warehouse management system and mobile applications.</p>
+                                        </div>
+                                    </div>
+                                    <div className='col-lg-6 d-flex'>
+                                        <div className='case-challenge-card gg-gray'>
+                                            <p><b>Integration Challenges:</b> Difficulty in integrating with other systems, such as the warehouse management system and mobile applications.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
