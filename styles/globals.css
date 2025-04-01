@@ -15120,6 +15120,129 @@ padding: 8px 0;
 }
 } */
 
+/*case-new banner*/
+.case-new-banner{
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0px 160px;
+}
+.case-new-banner::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+  background: rgb(120,101,175);
+  background: -moz-linear-gradient(270deg, rgba(120,101,175,1) 0%, rgba(57,48,83,1) 100%);
+  background: -webkit-linear-gradient(270deg, rgba(120,101,175,1) 0%, rgba(57,48,83,1) 100%);
+  background: linear-gradient(270deg, rgba(120,101,175,1) 0%, rgba(57,48,83,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7865af",endColorstr="#393053",GradientType=1);
+}
+
+.case-new-banner-text{
+  position: relative;
+  z-index: 2;
+}
+.case-new-banner span{
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 4.5px;
+  color: #f9f9fb;
+}
+.case-new-banner h1{
+  font-size: 16px !important;
+  background-image: linear-gradient(to right, #f36789, #cabcff 100%);
+  margin-bottom: 20px;
+  font-size: 48px !important;
+  font-weight: bold;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.case-challenge-header{
+  margin-bottom: 40px;
+}
+.case-challenge-header h2{
+  font-size: 32px !important;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #984b6e, #60518c);
+  font-family: Lato;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+} 
+.case-challenge-header p{
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.case-new-content{
+  position: relative;
+  z-index: 2;
+  margin-top: -80px;
+}
+.case-new-content-text{
+  border-radius: 8px;
+  box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+  background-color: #fff;
+  padding: 50px 70px;
+  position: relative;
+  
+}
+.case-new-content-text h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #984b6e, #60518c);
+  font-family: Lato;
+  font-size: 32px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.case-new-content-text::before{
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  bottom: 0;
+  width: 4px;
+  height: 48%;
+  background: #f1f0f4;
+}
+.case-new-content-text p{
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.case-challenge{
+
+}
+.case-challenge-card{
+  border-radius: 8px;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.gg-gray{
+  background-color: #f1f0f4;
+}
+.case-challenge-card p{
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 0px;
+}
+
+
 @media (max-width: 1440px) {
   .home-baner-head h2 {
     font-size: 42px;
