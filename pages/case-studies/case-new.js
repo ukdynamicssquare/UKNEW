@@ -136,7 +136,7 @@ const CaseNew = () => {
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-lg-4 case-result-border'>
+                            <div className='col-lg-3'>
                                 <div className='case-result-side'>
                                     <div className='case-result-item'>
                                         <p><b>30% Increase</b>
@@ -152,6 +152,7 @@ const CaseNew = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className='col-lg-1 case-result-border'></div>
                             <div className='col-lg-8'>
                                 <div className='row g-3'>
                                     <div className='col-lg-6 d-flex'>
