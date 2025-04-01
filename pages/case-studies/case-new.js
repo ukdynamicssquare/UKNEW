@@ -157,7 +157,7 @@ const CaseNew = () => {
                                 <div className='row g-3'>
                                     <div className='col-lg-6 d-flex'>
                                         <div className='case-challenge-card gg-gray'>
-                                            <p><b>Limited Scalability:</b> The existing system struggled to handle increased business volume and complexity.</p>
+                                            <p><b>Cloud-Based ERP Accelerates Digital Transformation:</b> Cloud-based solutions like D365 Business Central enable rapid deployment and scalability.</p>
                                         </div>
                                     </div>
                                     <div className='col-lg-6 d-flex'>
@@ -185,8 +185,6 @@ const CaseNew = () => {
                         </div>
                     </div>
                 </section>
-
-
             </main>
 
         </>
