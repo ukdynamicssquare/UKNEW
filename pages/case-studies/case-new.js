@@ -76,6 +76,58 @@ const CaseNew = () => {
                     </div>
                 </section>
 
+                <section className='case-solution'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-md-8'>
+                                <div className='case-challenge-header'>
+                                    <h2>Challenges</h2>
+                                    <p>The client struggled with manual processes, leading to data inaccuracies and delays. Their existing systems lacked integration, resulting in fragmented operations and limited visibility into inventory levels and financial performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row'>
+                            <div className='col-lg-12 text-center'>
+                                <div className='ce-image'>
+                                    <img src="/img/business-center-new-banner.png" alt="Case Study" className='img-fluid' />
+                                    </div>
+                            </div>
+                        </div>
+                        <div className='row g-3'>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='case-challenge-card gg-white'>
+                                    <p><b>Limited Scalability:</b> The existing system struggled to handle increased business volume and complexity.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='case-challenge-card gg-white'>
+                                    <p><b>Inefficient Processes:</b> Manual processes and data entry errors hindered productivity.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='case-challenge-card gg-white'>
+                                    <p><b>Lack of Real-Time Insights:</b> Limited visibility into inventory levels, sales performance, and financial data.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='case-challenge-card gg-white'>
+                                    <p><b>Integration Challenges:</b> Difficulty in integrating with other systems, such as the warehouse management system and mobile applications.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='case-challenge-card gg-white'>
+                                    <p><b>Integration Challenges:</b> Difficulty in integrating with other systems, such as the warehouse management system and mobile applications.</p>
+                                </div>
+                            </div>
+                            <div className='col-lg-3 d-flex'>
+                                <div className='case-challenge-card gg-white'>
+                                    <p><b>Integration Challenges:</b> Difficulty in integrating with other systems, such as the warehouse management system and mobile applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
 
             </main>
 

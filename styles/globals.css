@@ -15223,8 +15223,8 @@ padding: 8px 0;
   font-size: 18px;
   margin-bottom: 0px;
 }
-.case-challenge{
-
+.case-solution{
+padding: 80px 0px;
 }
 .case-challenge-card{
   border-radius: 8px;
@@ -15236,12 +15236,22 @@ padding: 8px 0;
 .gg-gray{
   background-color: #f1f0f4;
 }
+.gg-white{
+  background-color: #fff;
+}
 .case-challenge-card p{
   font-size: 14px;
   color: #444;
   margin-bottom: 0px;
 }
-
+.ce-image{
+  margin-bottom: 80px;
+}
+.case-solution{
+  position: relative;
+  z-index: 2;
+  background-color: #f1f0f4;
+}
 
 @media (max-width: 1440px) {
   .home-baner-head h2 {
