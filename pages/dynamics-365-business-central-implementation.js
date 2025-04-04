@@ -16,11 +16,11 @@ const BusinessCentralImplementation = () => {
     <>
       <Head>
         <title>
-          Dynamics 365 Business Central Implementation Partner | Dynamics Square™
+          Dynamics 365 Business Central Implementation | Dynamics Square™
         </title>
         <meta
           name="description"
-          content="We ensure that your Dynamics 365 Business Central implementation process goes smoothly. Explore our Business Central implementation methodology and guide."
+          content="Get fast, efficient Microsoft dynamics 365 Business Central implementation with Dynamics Square UK – tailored ERP solutions for UK businesses of all sizes."
         />
         <link
           rel="canonical"
