@@ -7,26 +7,46 @@ import Pagination from "../../../components/Pagination";
 import { paginate } from "../../../helpers/paginate";
 import { useState } from "react";
 export async function getServerSideProps(context) {
-  let slug = context.query.slug;
-  const res = await fetch(process.env.BACKEND_URL + "/api/blog/category/" + slug
-  );
-  const blogs = await res.json();
-  const categorybloglength = blogs.length;
-  console.log(categorybloglength);
-  if(categorybloglength >=1)
-  {
-    const categoryblog = await fetch(`${process.env.BACKEND_URL}`+'/api/blog/category');
-    const categoryblogs = await categoryblog.json();
-  
-    return { props: { blogs, categoryblogs } };
+  const slug = context.query.slug;
+
+  try {
+    const res = await fetch(`${process.env.BACKEND_URL}/api/blog/category/${slug}`);
+    
+    if (!res.ok) {
+      throw new Error(`Failed to fetch blogs for category: ${slug}`);
+    }
+
+    const blogs = await res.json();
+    const categorybloglength = blogs.length;
+
+    if (categorybloglength >= 1) {
+      const categoryRes = await fetch(`${process.env.BACKEND_URL}/api/blog/category`);
+      
+      if (!categoryRes.ok) {
+        throw new Error("Failed to fetch category list");
+      }
+
+      const categoryblogs = await categoryRes.json();
+
+      return {
+        props: {
+          blogs,
+          categoryblogs,
+        },
+      };
+    } else {
+      return {
+        notFound: true,
+      };
+    }
+  } catch (error) {
+    console.error("Error in getServerSideProps:", error.message);
+    return {
+      notFound: true, // fallback to 404 page
+    };
   }
-  else{
-    return{
-      notFound:true,
-     };
-  }
-  
 }
+
 
 function CategoryBlogs({ blogs, categoryblogs }) {
   const router = useRouter();

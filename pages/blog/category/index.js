@@ -3,16 +3,42 @@ import Head from "next/head";
 import Link from "next/link";
 import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 
-export async function getServerSideProps(context) {
-  let slug = context.query.slug;
-  const res = await fetch(
-    process.env.BACKEND_URL+"/api/blog/category/"+slug);
-  const blogs = await res.json();
+export async function getStaticProps({ params }) {
+  const slug = params?.slug || "";
 
-  const categoryblog = await fetch(`${process.env.BACKEND_URL}`+"/api/blog/category");
-  const categoryblogs = await categoryblog.json();
+  try {
+    const [blogsRes, categoryRes] = await Promise.all([
+      fetch(`${process.env.BACKEND_URL}/api/blog/category/${slug}`),
+      fetch(`${process.env.BACKEND_URL}/api/blog/category`),
+    ]);
 
-  return { props: { blogs, categoryblogs } };
+    if (!blogsRes.ok || !categoryRes.ok) {
+      throw new Error("Failed to fetch data from backend");
+    }
+
+    const [blogs, categoryblogs] = await Promise.all([
+      blogsRes.json(),
+      categoryRes.json(),
+    ]);
+
+    return {
+      props: {
+        blogs,
+        categoryblogs,
+      },
+      revalidate: 10, // ISR
+    };
+  } catch (error) {
+    console.error("Error in getStaticProps:", error.message);
+
+    return {
+      props: {
+        blogs: [],
+        categoryblogs: [],
+        error: error.message || "Failed to load data",
+      },
+    };
+  }
 }
 
 function CategoryBlogs({ blogs, categoryblogs }) {

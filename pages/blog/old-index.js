@@ -1,70 +1,35 @@
 import Image from "next/image";
 import Head from "next/head";
 // import BlogSubscriberForm from "../../components/BlogSubscriberForm";
+import styles from "../../styles/Home.module.css";
 import Pagination from "../../components/Pagination";
 import { paginate } from "../../helpers/paginate";
 import { useState } from "react";
 import Link from "next/link";
 
-export async function getStaticProps() {
-  try {
-    const backend = process.env.BACKEND_URL;
+export async function getServerSideProps() {
+  const res = await fetch(process.env.BACKEND_URL + "/api/allblog");
+  const blogs = await res.json();
 
-    const urls = [
-      `${backend}/api/allblog`,
-      `${backend}/api/blog/category/Business/business-central`,
-      `${backend}/api/blog/category`,
-      `${backend}/api/random/allblog`,
-      `${backend}/api/blog/most/trending`,
-    ];
+  const business = await fetch(process.env.BACKEND_URL + "/api/blog/category/Business/business-central"
+  );
+  const businesscentral = await business.json();
 
-    const [
-      blogsRes,
-      businessCentralRes,
-      categoryBlogsRes,
-      blogRandomRes,
-      trendingRes,
-    ] = await Promise.all(urls.map((url) => fetch(url).catch(() => null)));
+  const categoryblog = await fetch(process.env.BACKEND_URL + "/api/blog/category"
+  );
+  const categoryblogs = await categoryblog.json();
 
-    const [
-      blogs = [],
-      businesscentral = [],
-      categoryblogs = [],
-      blograndomblogs = [],
-      blogtranding = [],
-    ] = await Promise.all([
-      blogsRes?.json().catch(() => []),
-      businessCentralRes?.json().catch(() => []),
-      categoryBlogsRes?.json().catch(() => []),
-      blogRandomRes?.json().catch(() => []),
-      trendingRes?.json().catch(() => []),
-    ]);
+  const blograndom = await fetch(`${process.env.BACKEND_URL}` + "/api/random/allblog");
+  const blograndomblogs = await blograndom.json();
 
-    return {
-      props: {
-        blogs,
-        businesscentral,
-        categoryblogs,
-        blograndomblogs,
-        blogtranding,
-      },
-      revalidate: 10, // Regenerate every 60 seconds (ISR)
-    };
-  } catch (error) {
-    console.error("Error in getStaticProps:", error);
-    return {
-      props: {
-        blogs: [],
-        businesscentral: [],
-        categoryblogs: [],
-        blograndomblogs: [],
-        blogtranding: [],
-      },
-    };
-  }
+  const trandingblog = await fetch(process.env.BACKEND_URL + "/api/blog/most/trending"
+  );
+  const blogtranding = await trandingblog.json();
+
+  return { props: { blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding } };
 }
 
-function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
+function BlogshomeOLd({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
 
@@ -76,6 +41,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
     <div>
       <Head>
         <title>Best Microsoft Dynamics 365 Blogs | Dynamics Square - Dynamics 365 Blogs</title>
+        <meta name="robots" content="noindex, nofollow"></meta>
         <meta
           name="description"
           content="Dynamics 365 Blogs"
