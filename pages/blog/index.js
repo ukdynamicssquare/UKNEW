@@ -7,61 +7,49 @@ import { useState } from "react";
 import Link from "next/link";
 
 export async function getStaticProps() {
-  try {
-    const backend = process.env.BACKEND_URL;
+  const backend = process.env.BACKEND_URL;
 
-    const urls = [
-      `${backend}/api/allblog`,
-      `${backend}/api/blog/category/Business/business-central`,
-      `${backend}/api/blog/category`,
-      `${backend}/api/random/allblog`,
-      `${backend}/api/blog/most/trending`,
-    ];
+  const urls = {
+    blogs: `${backend}/api/allblog`,
+    businesscentral: `${backend}/api/blog/category/Business/business-central`,
+    categoryblogs: `${backend}/api/blog/category`,
+    blograndomblogs: `${backend}/api/random/allblog`,
+    blogtranding: `${backend}/api/blog/most/trending`,
+  };
 
-    const [
-      blogsRes,
-      businessCentralRes,
-      categoryBlogsRes,
-      blogRandomRes,
-      trendingRes,
-    ] = await Promise.all(urls.map((url) => fetch(url).catch(() => null)));
+  // Helper to fetch and parse JSON safely
+  const fetchSafeJson = async (label, url) => {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (err) {
+      console.error(`Failed to fetch [${label}] from ${url}:`, err.message);
+      return [];
+    }
+  };
 
-    const [
-      blogs = [],
-      businesscentral = [],
-      categoryblogs = [],
-      blograndomblogs = [],
-      blogtranding = [],
-    ] = await Promise.all([
-      blogsRes?.json().catch(() => []),
-      businessCentralRes?.json().catch(() => []),
-      categoryBlogsRes?.json().catch(() => []),
-      blogRandomRes?.json().catch(() => []),
-      trendingRes?.json().catch(() => []),
-    ]);
+  // Fetch all in parallel
+  const results = await Promise.all([
+    fetchSafeJson('blogs', urls.blogs),
+    fetchSafeJson('businesscentral', urls.businesscentral),
+    fetchSafeJson('categoryblogs', urls.categoryblogs),
+    fetchSafeJson('blograndomblogs', urls.blograndomblogs),
+    fetchSafeJson('blogtranding', urls.blogtranding),
+  ]);
 
-    return {
-      props: {
-        blogs,
-        businesscentral,
-        categoryblogs,
-        blograndomblogs,
-        blogtranding,
-      },
-      revalidate: 10, // Regenerate every 60 seconds (ISR)
-    };
-  } catch (error) {
-    console.error("Error in getStaticProps:", error);
-    return {
-      props: {
-        blogs: [],
-        businesscentral: [],
-        categoryblogs: [],
-        blograndomblogs: [],
-        blogtranding: [],
-      },
-    };
-  }
+  const [blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding] = results;
+
+  return {
+    props: {
+      blogs,
+      businesscentral,
+      categoryblogs,
+      blograndomblogs,
+      blogtranding,
+    },
+    revalidate: 10, // ISR: Regenerate page every 10 seconds
+  };
 }
 
 function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
