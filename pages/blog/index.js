@@ -7,6 +7,7 @@ import { paginate } from "../../helpers/paginate";
 export async function getStaticProps() {
   const backend = process.env.BACKEND_URL;
 
+  
   const urls = {
     blogs: `${backend}/api/allblog`,
     businesscentral: `${backend}/api/blog/category/Business/business-central`,
