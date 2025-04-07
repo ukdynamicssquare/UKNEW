@@ -92,6 +92,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
         <meta name="twitter:description" content="Dynamics 365 Blogs" />
       </Head>
 
+
       {blogs &&
         blogs.map((item, i) => (
           <div key={i}>
