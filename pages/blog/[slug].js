@@ -359,89 +359,89 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
 // pages/blog/[slug].js
 
-// export async function getStaticPaths() {
-//   try {
-//     const res = await fetch(`${process.env.BACKEND_URL}/api/blog_slugs`);
-//     const slugs = await res.json();
+export async function getStaticPaths() {
+  try {
+    const res = await fetch(`${process.env.BACKEND_URL}/api/blog_slugs`);
+    const slugs = await res.json();
 
-//     const paths = slugs.map((slug) => ({
-//       params: { slug: slug.slug },
-//     }));
+    const paths = slugs.map((slug) => ({
+      params: { slug: slug.slug },
+    }));
 
-//     return {
-//       paths,
-//       fallback: 'blocking',
-//     };
-//   } catch (error) {
-//     console.error("Error in getStaticPaths:", error);
-//     return {
-//       paths: [],
-//       fallback: 'blocking',
-//     };
-//   }
-// }
+    return {
+      paths,
+      fallback: 'blocking',
+    };
+  } catch (error) {
+    console.error("Error in getStaticPaths:", error);
+    return {
+      paths: [],
+      fallback: 'blocking',
+    };
+  }
+}
 
-// export async function getStaticProps(context) {
-//   try {
-//     const slug = context.params.slug;
+export async function getStaticProps(context) {
+  try {
+    const slug = context.params.slug;
 
-//     const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details/${slug}`);
-//     const blogs = await res.json();
+    const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details/${slug}`);
+    const blogs = await res.json();
 
-//     if (!blogs || blogs.length === 0) {
-//       return { notFound: true };
-//     }
+    if (!blogs || blogs.length === 0) {
+      return { notFound: true };
+    }
 
-//     const category = blogs[0]["category_slug"];
-//     const res1 = await fetch(`${process.env.BACKEND_URL}/api/blog/related/${category}`);
-//     const blogcat = await res1.json();
-
-//     const author = blogs[0]["author_email"];
-//     const authorres = await fetch(
-//       `${process.env.BACKEND_URL}/api/blog/author/details/${author.split("-").join(" ")}`
-//     );
-//     const authordetials = await authorres.json();
-
-//     return {
-//       props: { blogs, blogcat, authordetials, author },
-//       revalidate: 15, // Optional ISR
-//     };
-//   } catch (error) {
-//     console.error("Error in getStaticProps:", error);
-//     return { notFound: true };
-//   }
-// }
-
-// export default Post;
-
-
-
-
-export async function getServerSideProps(context) {
-  let slug = context.query.slug;
-  console.log(slug);
-
-  const res = await fetch(`${process.env.BACKEND_URL}` + '/api/blog_details/' + slug);
-  const blogs = await res.json();
-  const bloglength = blogs.length;
-  if (bloglength >= 1) {
     const category = blogs[0]["category_slug"];
-    const res1 = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/related/' + category);
+    const res1 = await fetch(`${process.env.BACKEND_URL}/api/blog/related/${category}`);
     const blogcat = await res1.json();
 
     const author = blogs[0]["author_email"];
-    const authorres = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/author/details/' + author.split("-").join(" ")
+    const authorres = await fetch(
+      `${process.env.BACKEND_URL}/api/blog/author/details/${author.split("-").join(" ")}`
     );
     const authordetials = await authorres.json();
 
-    return { props: { blogs, blogcat, authordetials, author } };
-  }
-  else {
     return {
-      notFound: true,
+      props: { blogs, blogcat, authordetials, author },
+      revalidate: 15, // Optional ISR
     };
+  } catch (error) {
+    console.error("Error in getStaticProps:", error);
+    return { notFound: true };
   }
-
 }
+
 export default Post;
+
+
+
+
+// export async function getServerSideProps(context) {
+//   let slug = context.query.slug;
+//   console.log(slug);
+
+//   const res = await fetch(`${process.env.BACKEND_URL}` + '/api/blog_details/' + slug);
+//   const blogs = await res.json();
+//   const bloglength = blogs.length;
+//   if (bloglength >= 1) {
+//     const category = blogs[0]["category_slug"];
+//     const res1 = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/related/' + category);
+//     const blogcat = await res1.json();
+
+//     const author = blogs[0]["author_email"];
+//     const authorres = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/author/details/' + author.split("-").join(" ")
+//     );
+//     const authordetials = await authorres.json();
+
+//     return { props: { blogs, blogcat, authordetials, author } };
+//   }
+//   else {
+//     return {
+//       notFound: true,
+//     };
+//   }
+
+// }
+// export default Post;
 
