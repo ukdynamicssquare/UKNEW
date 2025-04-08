@@ -353,7 +353,6 @@ function Post({ blogs, blogcat, authordetials, author }) {
           ))}
       </section>
     </div>
-
   );
 }
 
@@ -361,58 +360,72 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
 export async function getStaticPaths() {
   try {
-    const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details`);
-    const slugs = await res.json();
+    const res = await fetch(`${process.env.BACKEND_URL}/api/allblogsfetch`);
+    const allBlogs = await res.json();
 
-    const paths = slugs.map((slug) => ({
-      params: { slug: slug.slug },
-    }));
+    const paths = allBlogs
+      .filter(blog => typeof blog.slug === 'string' && blog.slug.trim() !== '')
+      .map(blog => ({
+        params: { slug: blog.slug },
+      }));
 
     return {
       paths,
-      fallback: 'blocking',
+      fallback: 'blocking', // Optional: handle new slugs on first request
     };
   } catch (error) {
-    console.error("Error in getStaticPaths:", error);
+    console.error('Error fetching slugs for paths:', error);
     return {
       paths: [],
-      fallback: 'blocking',
+      fallback: false,
     };
   }
 }
 
-export async function getStaticProps(context) {
-  try {
-    const slug = context.params.slug;
 
+
+export async function getStaticProps(context) {
+  const { slug } = context.params;
+
+  try {
     const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details/${slug}`);
     const blogs = await res.json();
 
-    if (!blogs || blogs.length === 0) {
-      return { notFound: true };
+    if (!blogs || blogs.length < 1) {
+      return {
+        notFound: true,
+      };
     }
 
-    const category = blogs[0]["category_slug"];
+    const category = blogs[0].category_slug;
     const res1 = await fetch(`${process.env.BACKEND_URL}/api/blog/related/${category}`);
     const blogcat = await res1.json();
 
-    const author = blogs[0]["author_email"];
+    const author = blogs[0].author_email;
     const authorres = await fetch(
       `${process.env.BACKEND_URL}/api/blog/author/details/${author.split("-").join(" ")}`
     );
     const authordetials = await authorres.json();
 
     return {
-      props: { blogs, blogcat, authordetials, author },
-      revalidate: 15, // Optional ISR
+      props: {
+        blogs,
+        blogcat,
+        authordetials,
+        author,
+      },
+      revalidate: 60, // Rebuild the page every 60 seconds (optional)
     };
   } catch (error) {
-    console.error("Error in getStaticProps:", error);
-    return { notFound: true };
+    console.error('Error in getStaticProps:', error);
+    return {
+      notFound: true,
+    };
   }
 }
 
 export default Post;
+
 
 
 

@@ -11,7 +11,7 @@ export async function getServerSideProps(context) {
 
   try {
     const res = await fetch(`${process.env.BACKEND_URL}/api/blog/category/${slug}`);
-    
+
     if (!res.ok) {
       throw new Error(`Failed to fetch blogs for category: ${slug}`);
     }
@@ -21,7 +21,7 @@ export async function getServerSideProps(context) {
 
     if (categorybloglength >= 1) {
       const categoryRes = await fetch(`${process.env.BACKEND_URL}/api/blog/category`);
-      
+
       if (!categoryRes.ok) {
         throw new Error("Failed to fetch category list");
       }
@@ -52,7 +52,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
   const router = useRouter();
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
- 
+
   const onPageChange = (page) => {
     setCurrentPage(page);
   };
@@ -85,9 +85,9 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                         <a>Category</a>
                       </Link>
                     </li>
-                   
+
                     <li className="breadcrumb-item active">{blogs[0]['category']}</li>
-              
+
                   </ol>
                 </nav>
               </div>
@@ -100,23 +100,23 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                 <ul>
                   {categoryblogs &&
                     categoryblogs.map((cateitem, i) => (
-                      <li className={router.query.slug ==`${cateitem.category_slug}`? "active" :"Hello"}>
-                        <Link href={`/blog/category/${cateitem.category_slug}`}>
-                          <a>{cateitem.category_name}</a>
-                        </Link>
+                      <li className={router.query.slug == `${cateitem.category_slug}` ? "active" : "Hello"}>
+
+                        <a href={`/blog/category/${cateitem.category_slug}`}>{cateitem.category_name}</a>
+
                       </li>
                     ))}
                 </ul>
               </div>
             </div>
             <div className="col-lg-9">
-              { 
+              {
                 paginatedPosts.map((item, i) => (
                   <div className="blogs-lates blogs-lates-rept">
                     <h3>
-                      <Link href={`/blog/${item.title_slug}`}>
-                        <a>{item.title}</a>
-                      </Link>
+
+                      <a href={`/blog/${item.title_slug}`}>{item.title}</a>
+
                     </h3>
                     <div className="blogs-info-list">
                       <span className="user">
@@ -138,30 +138,29 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                         </a>
                       </span>
                       <span className="cate">
-                      <Link href={`/blog/category/${item.category_slug}`}><a>
-                            <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                        <a href={`/blog/category/${item.category_slug}`}>
+                          <i className="bi bi-app"></i> {item.category}
+                        </a>
                       </span>
                     </div>
                     <div className="b-card-info">
                       <p>{item.short_description}</p>
                       <div className="page-link-read">
-                        <Link href={`/blog/${item.title_slug}`}>
-                          <a>
-                            Read More <span>{">"}</span>
-                          </a>
-                        </Link>
+                        <a href={`/blog/${item.title_slug}`}>
+                          Read More <span>{">"}</span>
+
+                        </a>
                       </div>
                     </div>
                   </div>
                 ))}
-                    <Pagination
-                          items={blogs.length}  
-                           currentPage={currentPage}  
-                          pageSize={pageSize}
-                          onPageChange={onPageChange}
-                          />
-               
+              <Pagination
+                items={blogs.length}
+                currentPage={currentPage}
+                pageSize={pageSize}
+                onPageChange={onPageChange}
+              />
+
             </div>
           </div>
         </div>
