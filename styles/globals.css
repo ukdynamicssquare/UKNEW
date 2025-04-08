@@ -15646,7 +15646,7 @@ padding: 80px 0px;
     margin-top: 40px;
     margin-left: 10px;
 }
-.border-11, .border-12{
+.border-11, .border-12,.border-13{
  position:absolute;
  width:100%
 }
@@ -15679,6 +15679,9 @@ padding: 80px 0px;
   top: 24px;
   left: -2px;
 }
+.border-12 {
+  top: 0;
+}
 .border-12 span:nth-child(1){
   border: dashed;
   border-width: 2px 2px 0px 0px;
@@ -15701,6 +15704,24 @@ padding: 80px 0px;
   rotate: 180deg;
   top: 28px;
   left: -1px;
+}
+.border-13{
+  top: 28px;
+  right: -1px;
+}
+.border-13 span{
+  border: solid;
+  border-width: 2px 0px 0px 2px;
+  border-color: #000;
+  border-radius: 31px 0px 0px 0px;
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 217px;
+ 
+}
+.flot-121{
+  width:100%
 }
 
 .solution-new-banner-sub-header{
