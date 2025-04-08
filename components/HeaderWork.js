@@ -9,20 +9,19 @@ const HeaderWork = () => {
   const [isFixed, setIsFixed] = useState(false);
   const router = useRouter();
 
-  // Define the specific link where you want to add the class
-  const specificPath = "/"; // Change this to your desired link
-  const isSpecificPath = router.pathname === specificPath;
+  const headerClassMap = {
+    "/": "specific-header",
+    "/products/new-solution": "services-header",
+  };
 
-  // Determine which logo to show based on the current route
+  const currentHeaderClass = headerClassMap[router.pathname] || "";
+
   const getLogoSrc = () => {
     switch (router.pathname) {
       case "/":
-        return "/img/dynamics_square_tm_logo_footer.svg";  // Replace with the logo for the About page
-      // case "/services":
-      //   return "/img/services_logo.svg"; 
-
+        return "/img/dynamics_square_tm_logo_footer.svg";
       default:
-        return "/img/dynamics_square_tm_logo.svg"; // Default logo
+        return "/img/dynamics_square_tm_logo.svg";
     }
   };
 
@@ -64,7 +63,7 @@ const HeaderWork = () => {
       {/* <TimerModal /> */}
       <header
         id="header"
-        className={`header ${isFixed ? 'fixed-top' : ''} ${isSpecificPath ? 'specific-header' : ''}`}
+        className={`header ${isFixed ? "fixed-top" : ""} ${currentHeaderClass}`}
       >
         <div className="top-header-sec">
           <a href="mailto:info@dynamicssquare.co.uk">
