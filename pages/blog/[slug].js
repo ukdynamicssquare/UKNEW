@@ -361,7 +361,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
 export async function getStaticPaths() {
   try {
-    const res = await fetch(`${process.env.BACKEND_URL}/api/blog_slugs`);
+    const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details`);
     const slugs = await res.json();
 
     const paths = slugs.map((slug) => ({
