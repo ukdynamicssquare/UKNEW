@@ -17,7 +17,7 @@ const StackCardsScroll = () => {
           pin: true,
           // pinSpacing: true,
           // markers: true,
-          start: 'center center',
+          start: 'top-=160px top',
           end: '+=2000',
           scrub: 1,
         },
