@@ -1,6 +1,12 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React from 'react';
 import Link from 'next/link';
+// import StackedCards from '../../components/StackedCards';
+const StackedCards = dynamic(() => import("../../components/StackedCards"), {
+    ssr: false,
+  });
+
 const NewSolution = () => {
     return (
         <>
@@ -62,6 +68,48 @@ const NewSolution = () => {
 
                                     <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date.</p>
                                     <div className="text-center text-lg-start">
+                                        <Link href="#exampleModal"><a
+                                            data-bs-toggle="modal"
+                                            className="btn-get-started scrollto"
+                                        >
+                                            <span>Schedule a Free Call Today!</span></a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section className="solution-new-banner-two">
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-banner-sub-head'>
+                                <h2>Business Central Implementation: How Does It Help?</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-lg-6'>
+                            <div className='product-side-001'>
+                                <div className="flot-8">
+                                    <img src="/img/n-006.png" alt="New Solution" />
+                                </div>
+                                <img src="/img/n-007.png" alt="New Solution" className="flot-9" />
+                            </div>
+                        </div>
+                        <div className='col-lg-6 align-self-center'>
+                            <div className='product-side-002-content'>
+                                <p><b>If by any chance you are facing any of these issues, you are in deep trouble.</b></p>
+
+                                <p>You need an integrated system that has AI and automation capabilities. This is where Business Central comes to your rescue.</p>
+
+                                <p>Organisations that have implemented Dynamics 365 Business Central have managed to save up to 30% on operational costs.</p>
+
+                                <p>No matter if you are a startup looking for a budget-friendly business solution or a growing business searching for a future-proof solution, Business Central is what you need!</p>
+                                <div className="text-lg-start">
                                     <Link href="#exampleModal"><a
                                         data-bs-toggle="modal"
                                         className="btn-get-started scrollto"
@@ -69,12 +117,16 @@ const NewSolution = () => {
                                         <span>Schedule a Free Call Today!</span></a>
                                     </Link>
                                 </div>
-                                </div>
-                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <StackedCards />            
+                        
+
+
         </>
     );
 }
