@@ -15781,7 +15781,7 @@ padding: 80px 0px;
   margin-bottom: 50px;
 
 }
-/* .card1 {
+.card1 {
 }
 .card2 {
   top: 25px;
@@ -15794,8 +15794,8 @@ padding: 80px 0px;
 }
 .card5 {
   top: 100px;
-} */
-/* .opacity {
+}
+.opacity {
   -moz-transition: 0.4s ease;
   -ms-transition: 0.4s ease;
   -o-transition: 0.4s ease;
@@ -15810,7 +15810,7 @@ padding: 80px 0px;
   transition: 0.4s ease;
   -webkit-transition: 0.4s ease;
   width: 95%;
-}  */
+} 
   .card1-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
