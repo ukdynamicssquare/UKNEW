@@ -15820,4 +15820,8 @@ padding: 80px 0px;
   -webkit-transition: 0.4s ease;
   width: 95%;
 } 
-
+@media (max-width: 768px) {
+  .custom-card {
+    position:realtive
+  }
+}
