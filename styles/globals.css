@@ -15767,30 +15767,21 @@ padding: 80px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 60vh;
   margin-bottom: 90px;
 }
 .custom-card {
   position: absolute;
   width: 100%;
+  height:auto;
   top: 0px;
-  height: 70vh;
-  background: -webkit-linear-gradient(
-    130deg,
-    #d754ad 0%,
-    #f96785 67%,
-    #fe7333 100%
-  );
-  background: linear-gradient(-40deg, #d754ad 0%, #f96785 67%, #fe7333 100%);
-  color: #fff;
+  border-radius: 8px;
+  box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+  background-image: radial-gradient(circle at 124% -39%, rgba(153, 142, 186, 0.37), rgba(153, 142, 186, 0) 96%), linear-gradient(to bottom, #fff, #fff);
   margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+
 }
-.card1 {
+/* .card1 {
 }
 .card2 {
   top: 25px;
@@ -15803,8 +15794,8 @@ padding: 80px 0px;
 }
 .card5 {
   top: 100px;
-}
-.opacity {
+} */
+/* .opacity {
   -moz-transition: 0.4s ease;
   -ms-transition: 0.4s ease;
   -o-transition: 0.4s ease;
@@ -15819,9 +15810,46 @@ padding: 80px 0px;
   transition: 0.4s ease;
   -webkit-transition: 0.4s ease;
   width: 95%;
-} 
+}  */
+  .card1-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+    align-items: center;
+  }
+  .card1-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #443c68;
+    margin-bottom: 18px;
+  }
+  .card1-content p{
+    color: #444;
+    margin-bottom: 30px;
+  }
+  .card1-content ul{
+    list-style: none;
+    padding: 0px;
+  }
+  .card1-content ul li{
+    margin-bottom: 20px;
+    color: #444;
+    border-radius: 8px;
+    background-color: #eeecf4;
+    padding: 15px 30px;
+  }
+  .card1-content-img{
+    text-align: right;
+  }
+
 @media (max-width: 768px) {
+  .cards{
+    flex-wrap: wrap;
+    height:100%
+  }
   .custom-card {
-    position:realtive
+    position: relative;
   }
 }

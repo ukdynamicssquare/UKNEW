@@ -61,31 +61,96 @@ const StackCardsScroll = () => {
   }, []);
 
   return (
-   <section>
-     <div className="container" ref={containerRef}>
-      <div className="row">
-        <div className="col-12">
-          <div className="cards">
-            <div className="custom-card card1" id="1" style={{ zIndex: 2 }}>
-              <h1>Slide 1</h1>
-            </div>
-            <div className="custom-card card2" id="2" style={{ zIndex: 3 }}>
-              <h1>Slide 2</h1>
-            </div>
-            <div className="custom-card card3" id="3" style={{ zIndex: 4 }}>
-              <h1>Slide 3</h1>
-            </div>
-            <div className="custom-card card4" id="4" style={{ zIndex: 5 }}>
-              <h1>Slide 4</h1>
-            </div>
-            <div className="custom-card card5" id="5" style={{ zIndex: 5 }}>
-              <h1>Slide 5</h1>
+    <section>
+      <div className="container" ref={containerRef}>
+        <div className="row">
+          <div className="col-12">
+            <div className="cards">
+              <div className="custom-card card1" style={{ zIndex: 2 }}>
+                <div className='card1-content'>
+                  <div className='card1-content-inner'>
+                    <h3>Automated Finance & Accounting</h3>
+                    <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                    <ul>
+                      <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                      <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                      <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                    </ul>
+                  </div>
+                  <div className='card1-content-img'>
+                    <img src="/img/n-008.png" alt="Card 1" />
+                  </div>
+                </div>
+              </div>
+              <div className="custom-card card2" style={{ zIndex: 3 }}>
+              <div className='card1-content'>
+                  <div className='card1-content-inner'>
+                    <h3>Automated Finance & Accounting</h3>
+                    <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                    <ul>
+                      <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                      <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                      <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                    </ul>
+                  </div>
+                  <div className='card1-content-img'>
+                    <img src="/img/n-009.png" alt="Card 1" />
+                  </div>
+                </div>
+              </div>
+              <div className="custom-card card3" style={{ zIndex: 4 }}>
+              <div className='card1-content'>
+                  <div className='card1-content-inner'>
+                    <h3>Automated Finance & Accounting</h3>
+                    <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                    <ul>
+                      <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                      <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                      <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                    </ul>
+                  </div>
+                  <div className='card1-content-img'>
+                    <img src="/img/n-010.png" alt="Card 1" />
+                  </div>
+                </div>
+              </div>
+              <div className="custom-card card4" style={{ zIndex: 5 }}>
+              <div className='card1-content'>
+                  <div className='card1-content-inner'>
+                    <h3>Automated Finance & Accounting</h3>
+                    <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                    <ul>
+                      <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                      <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                      <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                    </ul>
+                  </div>
+                  <div className='card1-content-img'>
+                    <img src="/img/n-011.png" alt="Card 1" />
+                  </div>
+                </div>
+              </div>
+              <div className="custom-card card5" style={{ zIndex: 5 }}>
+              <div className='card1-content'>
+                  <div className='card1-content-inner'>
+                    <h3>Automated Finance & Accounting</h3>
+                    <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                    <ul>
+                      <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                      <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                      <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                    </ul>
+                  </div>
+                  <div className='card1-content-img'>
+                    <img src="/img/n-006.png" alt="Card 1" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-   </section>
+    </section>
   );
 };
 
