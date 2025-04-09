@@ -17,7 +17,7 @@ const StackCardsScroll = () => {
           pin: true,
           // pinSpacing: true,
           // markers: true,
-          start: 'center center',
+          start: 'top-=160px top',
           end: '+=2000',
           scrub: 1,
         },
@@ -142,7 +142,7 @@ const StackCardsScroll = () => {
                     </ul>
                   </div>
                   <div className='card1-content-img'>
-                    <img src="/img/n-006.png" alt="Card 1" />
+                    <img src="/img/n-012.png" alt="Card 1" />
                   </div>
                 </div>
               </div>
