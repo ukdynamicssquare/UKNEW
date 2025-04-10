@@ -16066,8 +16066,20 @@ padding: 80px 0px;
     color: #444;
   }
 
-
-
+.s-options-end{
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.im-one-17{
+  position: absolute;
+  left:0;
+  bottom: 0;
+  z-index: -1;
+}
+.img-backs-sid{
+  text-align: right;
+}
 
 
 
