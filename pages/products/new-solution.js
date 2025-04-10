@@ -263,22 +263,22 @@ const NewSolution = () => {
                                     </li>
                                 </ul>
                                 <div className='product-side-002-ext'>
-                                    <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. <br/><br/>Don’t lag behind. Make it happen today!</p>
+                                    <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. <br /><br />Don’t lag behind. Make it happen today!</p>
                                     <div className="text-lg-start">
-                                    <Link href="#exampleModal"><a
-                                        data-bs-toggle="modal"
-                                        className="btn-get-started scrollto"
-                                    >
-                                        <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                                    </Link>
-                                </div>
+                                        <Link href="#exampleModal"><a
+                                            data-bs-toggle="modal"
+                                            className="btn-get-started scrollto"
+                                        >
+                                            <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className='col-lg-6 align-self-center'>
                             <div className='product-side-002-img001'>
                                 <img src="/img/n-013.png" alt="Card 6" />
-                                
+
                             </div>
                         </div>
                     </div>
@@ -288,32 +288,132 @@ const NewSolution = () => {
 
 
             <section className='solution-new-cta'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-lg-12'>
-                            <div className='solution-new-cta-001'>
-                                <span>CASE STORY</span>
-                                <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central.</h3>
+                <div className='asd'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-lg-10'>
+                                <div className='solution-new-cta-001'>
+                                    <span className='solution-new-cta-t'>CASE STORY</span>
+                                    <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central.</h3>
+                                    <div>
+                                        <Link href="#exampleModal"><a
+                                            data-bs-toggle="modal"
+                                            className="btn-get-started scrollto"
+                                        >
+                                            <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                                        </Link>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
 
 
 
             <section className='solution-new-banner-five'>
                 <div className='container'>
-                <div className='row'>
+                    <div className='row'>
                         <div className='col-lg-9'>
                             <div className='solution-new-banner-sub-head'>
                                 <h2>Business Central Benefits: You Can’t Afford to Ignore</h2>
-                                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors.</p>
+                                <p>Every business needs more than just accounting software. You need an integrated and centralised system that connects every department seamlessly. Here’s what Dynamics 365 Business Central covers:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row g-3'>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4 d-flex'>
+                            <div className='solution-new-card-001'>
+                                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+
+                        <div className='col-lg-7 d-flex'>
+                            <div className='solution-new-card-001-p'>
+                                <p>No need to juggle multiple tools when one solution does it all. Unify your business and accelerate growth.</p>
+                                <Link href="#exampleModal"><a
+                                    data-bs-toggle="modal"
+                                    className="btn-get-started scrollto"
+                                >
+                                    <span>Click For a Free Personalised Demo Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                                </Link>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section className='solution-new-six'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-banner-sub-head'>
+                                <h2>Copilot in Dynamics 365 Business Central: ERP with AI Capabilities</h2>
+                                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                            <div className='solution-new-six-img'>
+                                <img src="/img/solution-new-six-img.png" alt="New Solution" />
                             </div>
                         </div>
                     </div>
                 </div>
-                </section>
+            </section>
 
 
 
