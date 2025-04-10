@@ -138,7 +138,7 @@ const NewSolution = () => {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <div className="pin-wrapper" style={{ minHeight: '200vh' }}>
+                            <div className="pin-wrapper">
                                 <div className="cards">
                                     <div className="custom-card card1" style={{ zIndex: 2 }}>
                                         <div className="card1-content">
@@ -262,6 +262,11 @@ const NewSolution = () => {
                                         <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div className='col-lg-6 align-self-center'>
+                            <div className='product-side-002-img001'>
+                                <img src="/img/n-013.png" alt="Card 6" />
                             </div>
                         </div>
                     </div>

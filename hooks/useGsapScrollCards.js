@@ -20,7 +20,8 @@ const useGsapScrollCards = (containerRef) => {
           scrollTrigger: {
             trigger: '.cards',
             pin: true,
-            start: 'top-=160px top',
+            // start: 'top-=160px top',
+            start: 'center center',
             end: '+=2000',
             scrub: 1,
             anticipatePin: 1,

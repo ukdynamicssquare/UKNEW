@@ -15816,8 +15816,8 @@ padding: 80px 0px;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     align-items: center;
-    padding: 40px;
-    align-items: center;
+    padding: 30px 40px;
+
   }
   .card1-content h3{
     font-size: 18px;
@@ -15839,13 +15839,14 @@ padding: 80px 0px;
     border-radius: 8px;
     background-color: #eeecf4;
     padding: 15px 30px;
+    font-size: 14px;
   }
   .card1-content-img{
     text-align: right;
   }
   .solution-new-banner-three{
     padding: 80px 0px 0px;
-    margin-bottom: -60px;
+    /* margin-bottom: -60px; */
   }
   .pin-wrapper{
     padding-top: 30px;
@@ -15861,6 +15862,9 @@ padding: 80px 0px;
   .product-side-002 ul{
     list-style: none;
     padding: 0px;
+    height: 505px;
+    overflow-y: scroll;
+    padding-right: 20px;
   }
   .product-side-002 ul li{
     margin-bottom: 20px;
@@ -15879,6 +15883,20 @@ padding: 80px 0px;
   .product-side-002 ul li p{
     color: #444;
     margin-bottom: 0px;
+  }
+  .product-side-002 ul::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+  }
+  .product-side-002 ul::-webkit-scrollbar-track {
+    background:  #ddd; 
+  }
+  .product-side-002 ul::-webkit-scrollbar-thumb {
+    background: #8e44ad; 
+    border-radius: 10px;
+  }
+  .product-side-002-img001{
+    text-align: right;
   }
 
 @media (max-width: 768px) {
