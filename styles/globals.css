@@ -15843,6 +15843,13 @@ padding: 80px 0px;
   .card1-content-img{
     text-align: right;
   }
+  .solution-new-banner-three{
+    padding: 80px 0px 0px;
+    margin-bottom: -120px;
+  }
+  .pin-wrapper{
+    padding-top: 30px;
+  }
 
 @media (max-width: 768px) {
   .cards{

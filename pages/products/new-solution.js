@@ -1,13 +1,16 @@
-import dynamic from 'next/dynamic';
+import { useRef } from 'react';
 import Head from 'next/head';
-import React from 'react';
 import Link from 'next/link';
-// import StackedCards from '../../components/StackedCards';
-const StackedCards = dynamic(() => import("../../components/StackedCards"), {
-    ssr: false,
-  });
+import useGsapScrollCards from '../../hooks/useGsapScrollCards';
+// const StackedCards = dynamic(() => import("../../components/StackedCards"), {
+//     ssr: false,
+//   });
 
 const NewSolution = () => {
+    /*gsap card scroll*/
+    const containerRef = useRef(null);
+    useGsapScrollCards(containerRef);
+    /*gsap card scroll*/
     return (
         <>
             <Head>
@@ -123,8 +126,117 @@ const NewSolution = () => {
                     </div>
                 </div>
             </section>
-            <StackedCards />            
-                        
+            <section className='solution-new-banner-three'>
+                <div className="container" ref={containerRef}>
+                <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-banner-sub-head'>
+                                <h2>Business Central Implementation: How Does It Help?</h2>
+                                <p>Run business with confidence. With Business Central, get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="pin-wrapper" style={{ minHeight: '200vh' }}>
+                                <div className="cards">
+                                    <div className="custom-card card1" style={{ zIndex: 2 }}>
+                                        <div className="card1-content">
+                                            <div className="card1-content-inner">
+                                                <h3>Automated Finance & Accounting</h3>
+                                                <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                                                <ul>
+                                                    <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                                                    <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                                                    <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                                                </ul>
+                                            </div>
+                                            <div className="card1-content-img">
+                                                <img src="/img/n-008.png" alt="Card 1" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="custom-card card2" style={{ zIndex: 3 }}>
+                                        <div className="card1-content">
+                                            <div className="card1-content-inner">
+                                                <h3>Automated Finance & Accounting</h3>
+                                                <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                                                <ul>
+                                                    <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                                                    <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                                                    <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                                                </ul>
+                                            </div>
+                                            <div className="card1-content-img">
+                                                <img src="/img/n-009.png" alt="Card 2" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="custom-card card3" style={{ zIndex: 4 }}>
+                                        <div className="card1-content">
+                                            <div className="card1-content-inner">
+                                                <h3>Automated Finance & Accounting</h3>
+                                                <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                                                <ul>
+                                                    <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                                                    <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                                                    <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                                                </ul>
+                                            </div>
+                                            <div className="card1-content-img">
+                                                <img src="/img/n-010.png" alt="Card 3" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="custom-card card4" style={{ zIndex: 5 }}>
+                                        <div className="card1-content">
+                                            <div className="card1-content-inner">
+                                                <h3>Automated Finance & Accounting</h3>
+                                                <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                                                <ul>
+                                                    <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                                                    <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                                                    <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                                                </ul>
+                                            </div>
+                                            <div className="card1-content-img">
+                                                <img src="/img/n-011.png" alt="Card 4" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="custom-card card5" style={{ zIndex: 6 }}>
+                                        <div className="card1-content">
+                                            <div className="card1-content-inner">
+                                                <h3>Automated Finance & Accounting</h3>
+                                                <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                                                <ul>
+                                                    <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                                                    <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
+                                                    <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                                                </ul>
+                                            </div>
+                                            <div className="card1-content-img">
+                                                <img src="/img/n-012.png" alt="Card 5" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+
+            </section>           
+
+
+
 
 
         </>
