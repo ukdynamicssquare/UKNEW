@@ -33,7 +33,7 @@ const NewSolution = () => {
                                         data-bs-toggle="modal"
                                         className="btn-get-started scrollto"
                                     >
-                                        <span>Tell me more</span></a>
+                                        <span>Tell me more &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                                     </Link>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@ const NewSolution = () => {
                                             data-bs-toggle="modal"
                                             className="btn-get-started scrollto"
                                         >
-                                            <span>Schedule a Free Call Today!</span></a>
+                                            <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ const NewSolution = () => {
                                         data-bs-toggle="modal"
                                         className="btn-get-started scrollto"
                                     >
-                                        <span>Schedule a Free Call Today!</span></a>
+                                        <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span> </a>
                                     </Link>
                                 </div>
                             </div>
@@ -262,19 +262,58 @@ const NewSolution = () => {
                                         <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
                                     </li>
                                 </ul>
-                                <div className=''>
+                                <div className='product-side-002-ext'>
                                     <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. <br/><br/>Don’t lag behind. Make it happen today!</p>
+                                    <div className="text-lg-start">
+                                    <Link href="#exampleModal"><a
+                                        data-bs-toggle="modal"
+                                        className="btn-get-started scrollto"
+                                    >
+                                        <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                                    </Link>
+                                </div>
                                 </div>
                             </div>
                         </div>
                         <div className='col-lg-6 align-self-center'>
                             <div className='product-side-002-img001'>
                                 <img src="/img/n-013.png" alt="Card 6" />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="/img/n-014.png" alt="Card 6" className='n-014' />
+            </section>
+
+
+            <section className='solution-new-cta'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                            <div className='solution-new-cta-001'>
+                                <span>CASE STORY</span>
+                                <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central.</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+
+
+            <section className='solution-new-banner-five'>
+                <div className='container'>
+                <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-banner-sub-head'>
+                                <h2>Business Central Benefits: You Can’t Afford to Ignore</h2>
+                                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
 
 
 

@@ -15857,7 +15857,15 @@ padding: 80px 0px;
   .solution-new-banner-four{
     background: #f1f0f4;
     padding: 80px 0px;
+    position:relative;
+    max-width: 1920px;
+    margin: 0 auto;
   }
+  .solution-new-banner-four .n-014 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
   .product-side-002{
     position: relative;
     z-index: 2;
@@ -15886,6 +15894,7 @@ padding: 80px 0px;
   .product-side-002 ul li p{
     color: #444;
     margin-bottom: 0px;
+    font-size:15px;
   }
   .product-side-002 ul::-webkit-scrollbar {
     width: 5px;
@@ -15900,6 +15909,15 @@ padding: 80px 0px;
   }
   .product-side-002-img001{
     text-align: right;
+    position:relative;
+    z-index: 2;
+  }
+
+  .product-side-002-ext{}
+  .product-side-002-ext p{
+    font-size: 18px;
+  font-weight: 500;
+  color: #444;
   }
   @media (max-width: 1440px) {
     .cards{
