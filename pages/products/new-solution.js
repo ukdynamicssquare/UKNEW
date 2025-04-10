@@ -454,26 +454,63 @@ const NewSolution = () => {
             </section>
 
             <section className='solution-new-cta slution-new-cta-two'>
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-lg-9'>
-                                <div className='solution-new-cta-001'>
-                                    <h3>Act Now or Watch Others Take the Lead</h3>
-                                    <p>Every moment without an integrated and AI-powered system is a lost opportunity, wasted time, and unnecessary expense. Choose Business Central: The Smartest ERP for Your Business!</p>
-                                    <p>If Not Now, When?</p>
-                                    <div>
-                                        <Link href="#exampleModal"><a
-                                            data-bs-toggle="modal"
-                                            className="btn-get-started scrollto"
-                                        >
-                                            <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                                        </Link>
-                                    </div>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-cta-001'>
+                                <h3>Act Now or Watch Others Take the Lead</h3>
+                                <p>Every moment without an integrated and AI-powered system is a lost opportunity, wasted time, and unnecessary expense. Choose Business Central: The Smartest ERP for Your Business!</p>
+                                <p>If Not Now, When?</p>
+                                <div>
+                                    <Link href="#exampleModal"><a
+                                        data-bs-toggle="modal"
+                                        className="btn-get-started scrollto"
+                                    >
+                                        <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
                 <img src="/img/n-015.png" alt="n-015" />
+            </section>
+
+            <section className='solution-new-pricing'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-banner-sub-head'>
+                                <h2>Copilot in Dynamics 365 Business Central: ERP with AI Capabilities</h2>
+                                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='row g-3'>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-pricing-card'>
+                                <h3>Business Central<span>Essentials</span>
+                                </h3>
+                                <h4>£57.50<span>/user/month</span></h4>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-pricing-card col-ff3'>
+                                <h3>Business Central<span>Essentials</span>
+                                </h3>
+                                <h4>£57.50<span>/user/month</span></h4>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-pricing-card'>
+                                <h3>Business Central<span>Essentials</span>
+                                </h3>
+                                <h4>£57.50<span>/user/month</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
 
