@@ -412,7 +412,68 @@ const NewSolution = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='row g-3 m-t-4'>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-six-card'>
+                                <h3>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-six-card'>
+                                <h3>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-six-card'>
+                                <h3>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-six-card'>
+                                <h3>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-six-card'>
+                                <h3>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                        <div className='col-lg-4'>
+                            <div className='solution-new-six-card'>
+                                <h3>Finance & Accounting</h3>
+                                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <section className='solution-new-cta slution-new-cta-two'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-lg-9'>
+                                <div className='solution-new-cta-001'>
+                                    <h3>Act Now or Watch Others Take the Lead</h3>
+                                    <p>Every moment without an integrated and AI-powered system is a lost opportunity, wasted time, and unnecessary expense. Choose Business Central: The Smartest ERP for Your Business!</p>
+                                    <p>If Not Now, When?</p>
+                                    <div>
+                                        <Link href="#exampleModal"><a
+                                            data-bs-toggle="modal"
+                                            className="btn-get-started scrollto"
+                                        >
+                                            <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <img src="/img/n-015.png" alt="n-015" />
             </section>
 
 
