@@ -15726,6 +15726,9 @@ padding: 80px 0px;
 
 .solution-new-banner-sub-header{
 }
+.solution-new-banner-sub-head{
+  padding-bottom: 40px;
+}
 .solution-new-banner-sub-head h2{
   background-image: linear-gradient(to right, #984b6e, #60518c 100%);
   font-family: Lato;
@@ -15767,7 +15770,7 @@ padding: 80px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 50vh;
   margin-bottom: 90px;
 }
 .custom-card {
@@ -15849,7 +15852,7 @@ padding: 80px 0px;
     /* margin-bottom: -60px; */
   }
   .pin-wrapper{
-    padding-top: 30px;
+
   }
   .solution-new-banner-four{
     background: #f1f0f4;
@@ -15898,7 +15901,11 @@ padding: 80px 0px;
   .product-side-002-img001{
     text-align: right;
   }
-
+  @media (max-width: 1440px) {
+    .cards{
+      height: 70vh;
+    }
+  }
 @media (max-width: 768px) {
   .cards{
     flex-wrap: wrap;
