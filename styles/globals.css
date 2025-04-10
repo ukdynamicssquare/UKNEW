@@ -15846,7 +15846,7 @@ padding: 80px 0px;
   }
   .solution-new-banner-three{
     padding: 80px 0px 0px;
-    margin-bottom: -60px;
+    /* margin-bottom: -60px; */
   }
   .pin-wrapper{
     padding-top: 30px;
