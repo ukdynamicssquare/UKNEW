@@ -15845,10 +15845,40 @@ padding: 80px 0px;
   }
   .solution-new-banner-three{
     padding: 80px 0px 0px;
-    margin-bottom: -120px;
+    margin-bottom: -60px;
   }
   .pin-wrapper{
     padding-top: 30px;
+  }
+  .solution-new-banner-four{
+    background: #f1f0f4;
+    padding: 80px 0px;
+  }
+  .product-side-002{
+    position: relative;
+    z-index: 2;
+  }
+  .product-side-002 ul{
+    list-style: none;
+    padding: 0px;
+  }
+  .product-side-002 ul li{
+    margin-bottom: 20px;
+    color: #444;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px 30px;
+  }
+  .product-side-002 ul li h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 10px;
+
+  }
+  .product-side-002 ul li p{
+    color: #444;
+    margin-bottom: 0px;
   }
 
 @media (max-width: 768px) {

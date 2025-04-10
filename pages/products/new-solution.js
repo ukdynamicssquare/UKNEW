@@ -128,7 +128,7 @@ const NewSolution = () => {
             </section>
             <section className='solution-new-banner-three'>
                 <div className="container" ref={containerRef}>
-                <div className='row'>
+                    <div className='row'>
                         <div className='col-lg-9'>
                             <div className='solution-new-banner-sub-head'>
                                 <h2>Business Central Implementation: How Does It Help?</h2>
@@ -231,9 +231,42 @@ const NewSolution = () => {
                 </div>
             </section>
 
-            <section>
-
-            </section>           
+            <section className='solution-new-banner-four'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-9'>
+                            <div className='solution-new-banner-sub-head'>
+                                <h2>Business Central Benefits: You Can’t Afford to Ignore</h2>
+                                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-lg-6'>
+                            <div className='product-side-002'>
+                                <ul>
+                                    <li>
+                                        <h3>Scale Without the Growing Pains</h3>
+                                        <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                                    </li>
+                                    <li>
+                                        <h3>Scale Without the Growing Pains</h3>
+                                        <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                                    </li>
+                                    <li>
+                                        <h3>Scale Without the Growing Pains</h3>
+                                        <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                                    </li>
+                                    <li>
+                                        <h3>Scale Without the Growing Pains</h3>
+                                        <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
