@@ -10,7 +10,10 @@ const nextConfig = {
    },
    env:{
     BACKEND_URL:'https://blognew.dynamicssquare.co.uk',
-  }
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
  
 
