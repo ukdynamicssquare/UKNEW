@@ -16155,6 +16155,18 @@ padding: 80px 0px;
     .flot-5{
       right: 20.1%;
     }
+    .solution-new-banner-three{
+      padding: 60px 0px 0px;
+    }
+    .solution-new-banner-four,.solution-new-six,.solution-new-cta.slution-new-cta-two,.asd{
+      padding: 60px 0px;
+    }
+    .solution-new-cta h3{
+      font-size: 40px;
+    }
+    .s-options-end{
+      padding-top: 30px ;
+    }
   }
   @media (min-width: 768px) and (max-width: 1200px){
     .flot-5 {
@@ -16164,6 +16176,7 @@ padding: 80px 0px;
     .r-top-60 {
       margin-top: -120px;
   }
+
   }
   @media (max-width: 992px){
     .flot-5, .solution-new-banner-one-img,.product-side-001 .flot-9,.solution-new-banner-four .n-014,.im-one-17{
