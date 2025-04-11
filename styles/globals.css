@@ -16109,7 +16109,7 @@ padding: 80px 0px;
 }
 
 .accordion-button:not(.collapsed)::after {
-  content: '−'; /* Change to minus when expanded */
+  content: '−' !important; /* Change to minus when expanded */
 }
 .faq-btn-l{
   padding: 8px 30px;
