@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import useGsapScrollCards from '../../hooks/useGsapScrollCards';
 import faqData from '../../public/data/business_centeral_faq.json';
@@ -52,10 +53,10 @@ const NewSolution = () => {
           </div>
         </div>
         <div className="solution-new-banner-one-img">
-          <img src="/img/n-001.png" alt="New Solution" className=" flot-1" />
-          <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
+          <Image src="/img/banner-tt.png" alt="New Solution" width={1893} height={948} className=" flot-1" />
+          {/* <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
           <img src="/img/n-004.png" alt="New Solution" className="flot-3" />
-          <img src="/img/n-005.png" alt="New Solution" className="flot-4" />
+          <img src="/img/n-005.png" alt="New Solution" className="flot-4" /> */}
           <div className='flot-5'>
             <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="New Solution" className="flot-img" />
           </div>
@@ -484,7 +485,7 @@ const NewSolution = () => {
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Book Your Free Demo Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -499,8 +500,9 @@ const NewSolution = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Copilot in Dynamics 365 Business Central: ERP with AI Capabilities</h2>
-                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency!</p>
+                <h2>Business Central Pricing & Licensing: Invest in Growth, Not Complexity </h2>
+                <p>Effortless scaling unlocks when you choose to invest in Business Central. Decisions that used to wait for days, now take seconds! </p>
+                <p>Transparent Pricing for UK Businesses </p>
               </div>
             </div>
           </div>
@@ -558,48 +560,40 @@ const NewSolution = () => {
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Financial Accuracy</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Customisation & Optimisation</h3>
                     </div>
-                    <p>Helps with budgeting and forecasting by analyzing historical data.</p>
+                    <p>Tailor Business Central to match your workflows perfectly.</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Inventory Management</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>24/7 Troubleshooting & Issue Resolution</h3>
                     </div>
-                    <p>Uses predictive analytics to find the best stock levels and cut down on waste.</p>
+                    <p>24/7 Troubleshooting & Issue Resolution</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Procurement Simplification</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Performance Tuning & Upgrades</h3>
                     </div>
-                    <p>Automates vendor comparisons and purchase order creation.</p>
+                    <p>Stay ahead with the latest features, AI enhancements & security updates. </p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Compliance Assistance</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>User Training & Best Practices</h3>
                     </div>
-                    <p>Tracks regulatory changes and suggests updates to policies.</p>
+                    <p>TEmpower your team to maximise efficiency and productivity.</p>
 
                   </div>
                 </div>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Report Generation</h3>
-                    </div>
-                    <p>Creates detailed financial and operational reports on demand.</p>
-
-                  </div>
-                </div>
+               
               </div>
             </div>
             <div className='col-lg-5 order-1'>
@@ -618,8 +612,9 @@ const NewSolution = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9 ">
               <div className="solution-new-banner-sub-head text-center">
-                <h2>Business Central Support Services: Downtime Isn’t an Option</h2>
-                <p>Time is crucial in business, and as a trusted Dynamics 365 Business Central implementation partner in the UK, Dynamics Square understands this thing pretty well. We make every second count! No matter if you’re migrating, optimising, troubleshooting, or scaling, you have access to our fast, expert support that keeps your operations running, without disruptions, delays, or costly mistakes.</p>
+                <h2>Have you got
+                questions about Business Central?</h2>
+                <p>Click through to our FAQ for the best answers!</p>
               </div>
             </div>
           </div>

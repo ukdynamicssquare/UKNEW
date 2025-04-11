@@ -15637,8 +15637,8 @@ padding: 80px 0px;
   box-shadow: 37px 31.5px 74px 0 rgba(0, 0, 0, 0.25);
   border-radius: 8.8px;
   position: absolute;
-  right: 23.5%;
-  bottom: 16%;
+  right: 22.5%;
+  bottom: 10%;
 }
 .flot-5 .flot-img{
   width: 140px;
@@ -15745,7 +15745,7 @@ padding: 80px 0px;
 }
 .r-top-60{
   position: relative;
-  top: -125px;
+  margin-top: -200px;
 }
 .product-side-001{
   position: relative;
