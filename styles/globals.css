@@ -16180,13 +16180,17 @@ padding: 80px 0px;
   .solution-new-banner-three {
     padding: 30px 0px 0px;
   }
-  .solution-new-banner-four{
+  .solution-new-banner-four,.solution-new-six{
     padding: 30px 0px;
   }
   .img-backs-sid,.product-side-002-img001 {
     text-align: left;
-        padding-top: 40px;
-        margin-bottom: -20px;
+}
+.product-side-002-img001{
+  margin:40px 0px -20px
+}
+.img-backs-sid{
+  margin:-10px 0px 20px
 }
   .solution-new-banner-sub-head h2,.solution-new-cta h3{
     font-size: 30px;
@@ -16200,6 +16204,27 @@ padding: 80px 0px;
 }
 .solution-new-banner-one-content .large-heading br{
    display:none
+}
+.card1-content{
+  padding:30px;
+  gap: 20px;
+}
+.card1-content ul li{
+  padding: 15px;
+}
+.custom-card{
+  margin-bottom: 20px;
+}
+.product-side-001 .flot-8{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.asd{
+  background-size: cover;
+  padding: 60px 0px;
+}
+.solution-new-cta.slution-new-cta-two{
+  padding: 60px 0px;
 }
   }
 @media (max-width: 768px) {
