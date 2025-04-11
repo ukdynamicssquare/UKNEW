@@ -49,11 +49,15 @@ const NewSolution = () => {
                   </Link>
                 </div>
               </div>
+              <div className='m-b-image'>
+                <Image src="/img/bc-mobile-banner.png" alt='bc-mobile-banner' width={1098} height={657} />
+              </div>
             </div>
+
           </div>
         </div>
         <div className="solution-new-banner-one-img">
-          <Image src="/img/banner-tt.png" alt="New Solution" width={1893} height={948} className=" flot-1" />
+          <Image src="/img/banner-tt.png" alt="New Solution" width={1893} height={948} className="flot-1" />
           {/* <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
           <img src="/img/n-004.png" alt="New Solution" className="flot-3" />
           <img src="/img/n-005.png" alt="New Solution" className="flot-4" /> */}
@@ -74,7 +78,9 @@ const NewSolution = () => {
                           
                         </div>
                     </div> */}
-          <div className='container'>
+         
+        </div>
+        <div className='container'>
             <div className='row'>
               <div className='col-lg-6'>
                 <div className='solution-new-banner-sub-head r-top-60'>
@@ -82,7 +88,7 @@ const NewSolution = () => {
                   <p>It is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability. </p>
 
                   <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date. </p>
-                  <div className="text-center text-lg-start">
+                  <div className="text-lg-start">
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
@@ -94,7 +100,6 @@ const NewSolution = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
 
       <section className="solution-new-banner-two">
