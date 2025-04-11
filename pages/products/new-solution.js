@@ -350,56 +350,56 @@ const NewSolution = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>Supply Chain & Inventory Management</h3>
+                <p>AI-powered demand forecasting, stock-level alerts, and vendor automation. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>Sales CRM</h3>
+                <p>Track leads, automate follow-ups, and close deals faster. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>Project Management</h3>
+                <p>Cost analysis and job tracking help managers monitor schedules and costs. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>Warehouse Management</h3>
+                <p>AI-driven warehouse management optimises storage, order fulfilment, and stock levels. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>Service Management</h3>
+                <p>Automate scheduling, real-time case tracking, and SLA monitoring to improve customer service. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>Manufacturing & Production</h3>
+                <p>Automate work orders, optimise supply planning, and reduce waste. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>HR & Payroll</h3>
+                <p>Automate compliance, salary processing, and employee record-keeping. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3><span><i className="bi bi-check2"></i></span>AI & Business Intelligence</h3>
+                <p>Get actionable insights, predictive analytics, and smarter decision-making. </p>
               </div>
             </div>
 
             <div className='col-lg-7 d-flex'>
               <div className='solution-new-card-001-p'>
-                <p>No need to juggle multiple tools when one solution does it all. Unify your business and accelerate growth.</p>
+                <p>No need to juggle multiple tools when one solution does it all. Unify your business and accelerate growth. </p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
@@ -419,7 +419,7 @@ const NewSolution = () => {
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
                 <h2>Copilot in Dynamics 365 Business Central: ERP with AI Capabilities</h2>
-                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency!</p>
+                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
               </div>
             </div>
           </div>
@@ -433,32 +433,32 @@ const NewSolution = () => {
           <div className='row g-3 m-t-4'>
             <div className='col-lg-4'>
               <div className='solution-new-six-card'>
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3>Transform the Way You Work  </h3>
+                <p>Copilot helps you stay up to speed and competitive by taking care of repetitive tasks. </p>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='solution-new-six-card'>
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3>Get Answers in Seconds with AI-Powered Chat</h3>
+                <p>No more digging through reports or chasing down data. Just ask Copilot! </p>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='solution-new-six-card'>
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3>Drive Creativity and Sell More, Smarter  </h3>
+                <p>Struggling with marketing copy, product descriptions, or sales emails? Let Copilot do it for you. </p>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='solution-new-six-card'>
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3>Focus on Customers, Not Data Entry  </h3>
+                <p>Your sales team should be building relationships, not drowning in manual order processing. </p>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='solution-new-six-card'>
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <h3>AI That Spots Trends Before You Do  </h3>
+                <p>Missed trends equate to missed opportunities. Copilot helps you make smarter decisions. </p>
               </div>
             </div>
             <div className='col-lg-4'>
@@ -515,16 +515,16 @@ const NewSolution = () => {
             </div>
             <div className='col-lg-4'>
               <div className='solution-new-pricing-card col-ff3'>
-                <h3>Business Central<span>Essentials</span>
+                <h3>Business Central<span>Premium</span>
                 </h3>
-                <h4>£57.50<span>/user/month</span></h4>
+                <h4>£82.20<span>/user/month</span></h4>
               </div>
             </div>
             <div className='col-lg-4'>
               <div className='solution-new-pricing-card'>
-                <h3>Business Central<span>Essentials</span>
+                <h3>Business Central<span>Team Member</span>
                 </h3>
-                <h4>£57.50<span>/user/month</span></h4>
+                <h4>£6.60<span>/user/month</span></h4>
               </div>
             </div>
           </div>
@@ -537,8 +537,9 @@ const NewSolution = () => {
           <div className="row">
             <div className="col-lg-9">
               <div className="solution-new-banner-sub-head">
-                <h2>Business Central Support Services: Downtime Isn’t an Option</h2>
-                <p>Time is crucial in business, and as a trusted Dynamics 365 Business Central implementation partner in the UK, Dynamics Square understands this thing pretty well. We make every second count! No matter if you’re migrating, optimising, troubleshooting, or scaling, you have access to our fast, expert support that keeps your operations running, without disruptions, delays, or costly mistakes.</p>
+                <h2>Business Central Support Services: Downtime Isn’t an Option </h2>
+                <p>Time is crucial in business, and as a trusted Dynamics 365 Business Central implementation partner in the UK, Dynamics Square understands this thing pretty well. We make every second count! No matter if you’re migrating, optimising, troubleshooting, or scaling, you have access to our fast, expert support that keeps your operations running, without disruptions, delays, or costly mistakes. </p>
+                <p>Dynamics Square helps you with: </p>
               </div>
             </div>
           </div>
@@ -548,9 +549,9 @@ const NewSolution = () => {
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Automated Follow-ups</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Fresh Implementation & Migration Assistance</h3>
                     </div>
-                    <p>Sends personalized email follow-ups after customer interactions.</p>
+                    <p>Get up and running without headaches or hiccups. </p>
 
                   </div>
                 </div>
