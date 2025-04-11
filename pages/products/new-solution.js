@@ -21,8 +21,6 @@ const NewSolution = () => {
   };
 
 
-
-
   return (
     <>
 
@@ -40,7 +38,7 @@ const NewSolution = () => {
                 <h1>Microsoft Dynamics 365 Business Central</h1>
                 <span className='large-heading'>Level up with a solution trusted by<br />
                   over 45,000 SMBs across the world.</span>
-                <p>Bid adieu to data silos, the biggest culprits behind operational inefficiencies. Adopt an ERP that comes with out-of-the-box AI capabilities, Microsoft Copilot, and has less than 6 months of payback on investment.</p>
+                <p>Bid adieu to data silos, the biggest culprits behind operational inefficiencies. Adopt Business Central, an advanced ERP that comes with out-of-the-box AI capabilities, Microsoft Copilot, and has less than 6 months of payback on investment. </p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
@@ -80,15 +78,15 @@ const NewSolution = () => {
               <div className='col-lg-6'>
                 <div className='solution-new-banner-sub-head r-top-60'>
                   <h2>What is Business Central?</h2>
-                  <p>It is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability.</p>
+                  <p>It is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability. </p>
 
-                  <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date.</p>
+                  <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date. </p>
                   <div className="text-center text-lg-start">
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Schedule a Free Call Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -118,19 +116,19 @@ const NewSolution = () => {
             </div>
             <div className='col-lg-6 align-self-center'>
               <div className='product-side-002-content'>
-                <p><b>If by any chance you are facing any of these issues, you are in deep trouble.</b></p>
+                <p><b>If by any chance you are facing any of these issues, you are in deep trouble. </b></p>
 
-                <p>You need an integrated system that has AI and automation capabilities. This is where Business Central comes to your rescue.</p>
+                <p>You need an integrated system that has AI and automation capabilities. This is where Business Central comes to your rescue. </p>
 
                 <p>Organisations that have implemented Dynamics 365 Business Central have managed to save up to 30% on operational costs.</p>
 
-                <p>No matter if you are a startup looking for a budget-friendly business solution or a growing business searching for a future-proof solution, Business Central is what you need!</p>
+                <p>No matter if you are a startup looking for a budget-friendly business solution or a growing business searching for a future-proof solution, Business Central is what you need! </p>
                 <div className="text-lg-start">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span> </a>
+                    <span>Book Your Free Demo!  &nbsp;<i className="bi bi-arrow-right"></i></span> </a>
                   </Link>
                 </div>
               </div>
@@ -144,8 +142,8 @@ const NewSolution = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Implementation: How Does It Help?</h2>
-                <p>Run business with confidence. With Business Central, get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business:</p>
+                <h2>Business Central Features: What’s Inside? </h2>
+                <p>Run business with confidence. With Business Central, get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business: </p>
               </div>
             </div>
           </div>
@@ -156,12 +154,12 @@ const NewSolution = () => {
                   <div className="custom-card card1" style={{ zIndex: 2 }}>
                     <div className="card1-content">
                       <div className="card1-content-inner">
-                        <h3>Automated Finance & Accounting</h3>
-                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                        <h3>Automated Finance & Accounting </h3>
+                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
                         <ul>
                           <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
-                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
+                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
                         </ul>
                       </div>
                       <div className="card1-content-img">
@@ -173,12 +171,12 @@ const NewSolution = () => {
                   <div className="custom-card card2" style={{ zIndex: 3 }}>
                     <div className="card1-content">
                       <div className="card1-content-inner">
-                        <h3>Automated Finance & Accounting</h3>
-                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                        <h3>Smart Inventory & Supply Chain </h3>
+                        <p>Every product you mismanage is money lost. Business Central ensures you: </p>
                         <ul>
-                          <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
-                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                          <li>Avoid stockouts with demand forecasting. </li>
+                          <li>Cut carrying costs by ordering just the right amount. </li>
+                          <li>Automate vendor & purchase order management to reduce delays. </li>
                         </ul>
                       </div>
                       <div className="card1-content-img">
@@ -190,12 +188,12 @@ const NewSolution = () => {
                   <div className="custom-card card3" style={{ zIndex: 4 }}>
                     <div className="card1-content">
                       <div className="card1-content-inner">
-                        <h3>Automated Finance & Accounting</h3>
-                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                        <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                        <p>Your competitors are using data to make smarter, faster decisions; are you? With Business Central, you: </p>
                         <ul>
-                          <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
-                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                          <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                          <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                          <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
                         </ul>
                       </div>
                       <div className="card1-content-img">
@@ -207,12 +205,12 @@ const NewSolution = () => {
                   <div className="custom-card card4" style={{ zIndex: 5 }}>
                     <div className="card1-content">
                       <div className="card1-content-inner">
-                        <h3>Automated Finance & Accounting</h3>
-                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                        <h3>Sales CRM: Close More Deals, Faster </h3>
+                        <p>Your sales team shouldn’t waste time manually tracking leads or missing follow-ups. Business Central empowers them to: </p>
                         <ul>
-                          <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
-                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                          <li>Automate lead nurturing so no opportunity slips through the cracks. </li>
+                          <li>Track every customer interaction for personalised service. </li>
+                          <li>Turn data into sales strategies and know what works, and double down. </li>
                         </ul>
                       </div>
                       <div className="card1-content-img">
@@ -224,12 +222,12 @@ const NewSolution = () => {
                   <div className="custom-card card5" style={{ zIndex: 6 }}>
                     <div className="card1-content">
                       <div className="card1-content-inner">
-                        <h3>Automated Finance & Accounting</h3>
-                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get:</p>
+                        <h3>Seamless Integrations: Work Smarter, Not Harder </h3>
+                        <p>Switching between platforms kills productivity. Business Central integrates effortlessly with: </p>
                         <ul>
-                          <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline.</li>
-                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors.</li>
+                          <li>Microsoft 365 for smooth collaboration. </li>
+                          <li>Power BI for next-level analytics & custom dashboards. </li>
+                          <li>Third-party apps like Shopify, PayPal & more to fit your workflow. </li>
                         </ul>
                       </div>
                       <div className="card1-content-img">
@@ -249,8 +247,8 @@ const NewSolution = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Benefits: You Can’t Afford to Ignore</h2>
-                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors.</p>
+                <h2>Business Central Benefits: You Can’t Afford to Ignore </h2>
+                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors. </p>
               </div>
             </div>
           </div>
@@ -260,29 +258,33 @@ const NewSolution = () => {
                 <ul>
                   <li>
                     <h3>Scale Without the Growing Pains</h3>
-                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control! </p>
                   </li>
                   <li>
-                    <h3>Scale Without the Growing Pains</h3>
-                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                    <h3>Improve Cash Flow & Cut Unnecessary Costs </h3>
+                    <p>Cash flow has to be maintained at any cost. Delayed invoicing, financial blind spots, and poor forecasting can choke your profitability. With real-time financial insights & AI-powered predictions with Microsoft Copilot, you always know where your money is going. </p>
                   </li>
                   <li>
-                    <h3>Scale Without the Growing Pains</h3>
-                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                    <h3>Prevent Stockouts & Overstocks— Every Order Counts </h3>
+                    <p>Ever lost a customer because an item was “out of stock”? Or worse—ended up over-ordering, tying up valuable cash in unsold inventory? Business Central’s AI-driven inventory management ensures you stock just right. </p>
                   </li>
                   <li>
-                    <h3>Scale Without the Growing Pains</h3>
-                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control!</p>
+                    <h3>Stop Wasting Hours on Manual Tasks </h3>
+                    <p>Still managing finances, payroll, or compliance manually? Automate 90% of your repetitive admin tasks so you can focus on growing your business instead of getting buried in paperwork. </p>
+                  </li>
+                  <li>
+                    <h3>Make Smart Decisions—Not Gut-Feeling Guesses </h3>
+                    <p>What if you could predict demand, analyse customer behaviour, and instantly see the financial impact of every decision? Business Central gives you real-time data, so you make decisions backed by facts, not assumptions. </p>
                   </li>
                 </ul>
                 <div className='product-side-002-ext'>
-                  <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. <br /><br />Don’t lag behind. Make it happen today!</p>
+                  <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. </p>
                   <div className="text-lg-start">
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Claim Your Free Consultation!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -296,7 +298,9 @@ const NewSolution = () => {
             </div>
           </div>
         </div>
-        <img src="/img/n-014.png" alt="Card 6" className='n-014' />
+        <div className='n-014' >
+        <img src="/img/n-014.png" alt="Card 6" />
+        </div>
       </section>
 
 
@@ -331,8 +335,9 @@ const NewSolution = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Benefits: You Can’t Afford to Ignore</h2>
-                <p>Every business needs more than just accounting software. You need an integrated and centralised system that connects every department seamlessly. Here’s what Dynamics 365 Business Central covers:</p>
+                <h2>Business Central Modules: All Your Business Needs in One Place </h2>
+                <p>Every business needs more than just accounting software. You need an integrated and centralised system that connects every department seamlessly. </p>
+                <p>Here’s what Dynamics 365 Business Central covers: </p>
               </div>
             </div>
           </div>
@@ -340,7 +345,7 @@ const NewSolution = () => {
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <h3><span><i className="bi bi-check2"></i></span>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting. </p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
