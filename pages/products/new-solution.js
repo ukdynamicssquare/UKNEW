@@ -432,40 +432,45 @@ const NewSolution = () => {
             </div>
           </div>
           <div className='row g-3 m-t-4'>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
                 <h3>Transform the Way You Work  </h3>
                 <p>Copilot helps you stay up to speed and competitive by taking care of repetitive tasks. </p>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
                 <h3>Get Answers in Seconds with AI-Powered Chat</h3>
                 <p>No more digging through reports or chasing down data. Just ask Copilot! </p>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
                 <h3>Drive Creativity and Sell More, Smarter  </h3>
                 <p>Struggling with marketing copy, product descriptions, or sales emails? Let Copilot do it for you. </p>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
                 <h3>Focus on Customers, Not Data Entry  </h3>
                 <p>Your sales team should be building relationships, not drowning in manual order processing. </p>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
                 <h3>AI That Spots Trends Before You Do  </h3>
                 <p>Missed trends equate to missed opportunities. Copilot helps you make smarter decisions. </p>
               </div>
             </div>
-            <div className='col-lg-4'>
-              <div className='solution-new-six-card'>
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting.</p>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card-cat'>
+                <h3>Ready to move faster? See Copilot in Action!</h3>
+                <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Book a Demo!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  </Link>
               </div>
             </div>
           </div>
@@ -527,6 +532,18 @@ const NewSolution = () => {
                 <h3>Business Central<span>Team Member</span>
                 </h3>
                 <h4>£6.60<span>/user/month</span></h4>
+              </div>
+            </div>
+            <div className='col-lg-7 d-flex'>
+              <div className='solution-new-card-001-p'>
+                <p>No hidden fees. No overpriced customisations. Just the right tools to power your business. 
+                The Cost of Doing Nothing? Far Greater. Compare plans and find your perfect fit!</p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Learn More! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
               </div>
             </div>
           </div>

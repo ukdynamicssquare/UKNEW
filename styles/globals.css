@@ -15860,6 +15860,7 @@ padding: 80px 0px;
     position:relative;
     max-width: 1920px;
     margin: 0 auto;
+    overflow: hidden;
   }
   .solution-new-banner-four .n-014 {
     position: absolute;
@@ -15927,7 +15928,7 @@ padding: 80px 0px;
   .asd{
     background:url('/img/mask-group-benenr.png') no-repeat center right;
     background-size: contain;
-    padding: 120px 0px;
+    padding: 90px 0px;
     position: relative;
     /* mix-blend-mode: luminosity;; */
   }
@@ -15983,6 +15984,7 @@ padding: 80px 0px;
     font-size: 18px;
   font-weight: 500;
   color: #444;
+  margin-bottom: 0px;
   }
   .solution-new-six{
     background-color: #f1f0f4;
@@ -15997,6 +15999,18 @@ padding: 80px 0px;
     font-size: 16px;
     font-weight: bold;
     color: #443c68;
+  }
+  .solution-new-six-card-cat{
+    padding:15px
+  }
+  .solution-new-six-card-cat h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: -5px;
+  }
+  .solution-new-six-card-cat .btn-get-started{
+    padding: 0.6rem 1.5rem;
   }
   .solution-new-six-card p{
     color: #444;
