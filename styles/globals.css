@@ -16101,8 +16101,8 @@ padding: 80px 0px;
 
 .accordion-button::after {
   background-image: none !important; /* Hide default arrow */
-  content: '+';                       /* Default icon */
-  font-size: 1.55rem;
+  content: '+' !important;                       /* Default icon */
+  font-size: 1.55rem !important;
   margin-left: auto;
   transition: none !important;        /* Disable rotation transition */
   transform: none !important;         /* Disable rotation */
