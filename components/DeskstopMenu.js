@@ -26,7 +26,7 @@ const DeskstopMenu = () => {
                     data-bs-target="#v-pills-home"
                   >
                     <a>
-                      <span>By Size</span>
+                      <span>Company By Size</span>
                     </a>
                   </div>
                   <div

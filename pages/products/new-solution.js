@@ -318,8 +318,8 @@ const NewSolution = () => {
                   <span className='solution-new-cta-t'>CASE STORY</span>
                   <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central.</h3>
                   <div>
-                    <Link href="#exampleModal"><a
-                      data-bs-toggle="modal"
+                    <Link href="/case-studies/"><a
+                     
                       className="btn-get-started scrollto"
                     >
                       <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
@@ -624,7 +624,7 @@ const NewSolution = () => {
             </div>
           </div>
         </div>
-        <img src="/img/n-017.png" alt="copil-side" className='im-one-17' />
+        <div className='n-017'><img src="/img/n-017.png" alt="copil-side" className='im-one-17' /></div>
       </section>
 
 

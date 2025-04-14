@@ -12,6 +12,7 @@ const HeaderWork = () => {
   const headerClassMap = {
     "/": "specific-header",
     "/products/new-solution": "services-header",
+    "/products/dynamics-365-business-central": "services-header",
   };
 
   const currentHeaderClass = headerClassMap[router.pathname] || "";

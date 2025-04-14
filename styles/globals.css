@@ -15979,6 +15979,13 @@ padding: 80px 0px;
     color: #444;
     padding-left: 25px;
   }
+  .solution-new-card-001 a{
+    display: block;
+    font-size: 13px;
+    padding-left: 26px;
+    margin-top: -7px;
+    font-weight: 500;
+  }
   .solution-new-card-001-p{
     padding-top:20px
   }
@@ -16089,7 +16096,7 @@ padding: 80px 0px;
   overflow: hidden;
   z-index: 2;
 }
-.im-one-17{
+.n-017{
   position: absolute;
   left:0;
   bottom: 0;
@@ -16137,9 +16144,27 @@ padding: 80px 0px;
   .flot-5{
     right: 21.3%;
   }
+  .solution-new-banner-four .n-014{
+    right: -130px;
+  }
+  .s-options-end .n-017{
+    left: -110px;
+  }
+  .s-options-end .n-017 img{
+    width: 82%;
+  }
 }
 
   @media (max-width: 1440px) {
+    .solution-new-banner-four .n-014{
+      right: -130px;
+    }
+    .s-options-end .n-017{
+      left: -110px;
+    }
+    .s-options-end .n-017 img{
+      width: 82%;
+    }
     .solution-new-banner-one-content .large-heading{
       font-size: 40px !important;
     }

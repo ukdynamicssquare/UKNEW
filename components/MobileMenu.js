@@ -59,7 +59,7 @@ const MobileMenu = () => {
                       aria-controls="collapsezero"
                     >
                       <a href="#">
-                        <span>By Size</span>
+                        <span>Company By Size</span>
                       </a>
                     </button>
                   </div>
