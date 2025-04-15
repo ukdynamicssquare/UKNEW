@@ -624,7 +624,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     <div className='card-233-body'>
                       <h3><span><i className="bi bi-check2"></i></span>24/7 Troubleshooting & Issue Resolution</h3>
                     </div>
-                    <p>24/7 Troubleshooting & Issue Resolution</p>
+                    <p>No waiting. No guesswork. Just solutions.</p>
 
                   </div>
                 </div>
@@ -642,7 +642,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     <div className='card-233-body'>
                       <h3><span><i className="bi bi-check2"></i></span>User Training & Best Practices</h3>
                     </div>
-                    <p>TEmpower your team to maximise efficiency and productivity.</p>
+                    <p>Empower your team to maximise efficiency and productivity.</p>
 
                   </div>
                 </div>
