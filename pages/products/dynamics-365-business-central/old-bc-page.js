@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import { Pagination, Autoplay, FreeMode, Mousewheel, Navigation } from "swiper";
 import ModalVideo from "react-modal-video";
 import Blog from "../../../components/Blog";
+import ScrollCard from "../../../components/ScrollCard";
 
 const BusinessCentralOld = () => {
   const [isOpen, setOpen] = useState(false);
@@ -144,6 +145,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
         </div>
       </section>
+      <ScrollCard />
 
       <section>
         <div className="container">
