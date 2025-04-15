@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
 import faqData from '../../../public/data/business_centeral_faq.json';
+// import ScrollCard  from '../../../components/cards';
 
 
 // const StackedCards = dynamic(() => import("../../components/StackedCards"), {
@@ -272,6 +273,15 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
         </div>
       </section>
+      {/* <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+            <ScrollCard  />
+            </div>
+          </div>
+        </div>
+      </section> */}
 
       <section className='solution-new-banner-four'>
         <div className='container'>
