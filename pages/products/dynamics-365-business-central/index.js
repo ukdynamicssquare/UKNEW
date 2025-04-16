@@ -2,9 +2,9 @@ import { useRef, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
+// import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
 import faqData from '../../../public/data/business_centeral_faq.json';
-
+import useCardScrollEffect from "../../../components/useCardScrollEffect";
 
 
 // const StackedCards = dynamic(() => import("../../components/StackedCards"), {
@@ -14,9 +14,12 @@ import faqData from '../../../public/data/business_centeral_faq.json';
 
 const BusinessCentral = () => {
   /*gsap card scroll*/
-  const containerRef = useRef(null);
-  useGsapScrollCards(containerRef);
+  // const containerRef = useRef(null);
+  // useGsapScrollCards(containerRef);
   /*gsap card scroll*/
+
+  useCardScrollEffect()
+
   /*faq*/
   const [visibleCount, setVisibleCount] = useState(5);
 
@@ -55,10 +58,10 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
 " />
         <meta property="twitter:description" content="Dynamics Square is a top UK-based Microsoft Dynamics 365 Business Central Partner for SMBs providing support, training and consultancy. Schedule a free demo!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
-      
+
       </Head>
-      
-<div className='solution-new-banner-one'>
+
+      <div className='solution-new-banner-one'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
@@ -104,28 +107,28 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                           
                         </div>
                     </div> */}
-         
+
         </div>
         <div className='container'>
-            <div className='row'>
-              <div className='col-lg-6'>
-                <div className='solution-new-banner-sub-head r-top-60'>
-                  <h2>What is Business Central?</h2>
-                  <p>It is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability. </p>
+          <div className='row'>
+            <div className='col-lg-6'>
+              <div className='solution-new-banner-sub-head r-top-60'>
+                <h2>What is Business Central?</h2>
+                <p>It is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability. </p>
 
-                  <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date. </p>
-                  <div className="text-lg-start">
-                    <Link href="#exampleModal"><a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Schedule a Free Call Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                    </Link>
-                  </div>
+                <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date. </p>
+                <div className="text-lg-start">
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Free Call Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
 
       <section className="solution-new-banner-two">
@@ -170,7 +173,8 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
         </div>
       </section>
       <section className='solution-new-banner-three'>
-        <div className="container" ref={containerRef}>
+        {/* <div className="container" ref={containerRef}> */}
+        <div className="container">
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
@@ -181,7 +185,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="pin-wrapper">
+              {/* <div className="pin-wrapper">
                 <div className="cards">
                   <div className="custom-card card1" style={{ zIndex: 2 }}>
                     <div className="card1-content">
@@ -268,12 +272,94 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     </div>
                   </div>
                 </div>
+              </div> */}
+              <div className="stached-scroll-card">
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Automated Finance & Accounting </h3>
+                      <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
+                      <ul>
+                        <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                        <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
+                        <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Smart Inventory & Supply Chain </h3>
+                      <p>Every product you mismanage is money lost. Business Central ensures you: </p>
+                      <ul>
+                        <li>Avoid stockouts with demand forecasting. </li>
+                        <li>Cut carrying costs by ordering just the right amount. </li>
+                        <li>Automate vendor & purchase order management to reduce delays. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-009.png" width={574} height={360} alt="Card 2" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <p>Your competitors are using data to make smarter, faster decisions; are you? With Business Central, you: </p>
+                      <ul>
+                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-010.png" width={574} height={360} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Sales CRM: Close More Deals, Faster </h3>
+                      <p>Your sales team shouldn’t waste time manually tracking leads or missing follow-ups. Business Central empowers them to: </p>
+                      <ul>
+                        <li>Automate lead nurturing so no opportunity slips through the cracks. </li>
+                        <li>Track every customer interaction for personalised service. </li>
+                        <li>Turn data into sales strategies and know what works, and double down. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-011.png" width={584} height={369} alt="Card 4" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Seamless Integrations: Work Smarter, Not Harder </h3>
+                      <p>Switching between platforms kills productivity. Business Central integrates effortlessly with: </p>
+                      <ul>
+                        <li>Microsoft 365 for smooth collaboration. </li>
+                        <li>Power BI for next-level analytics & custom dashboards. </li>
+                        <li>Third-party apps like Shopify, PayPal & more to fit your workflow. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-012.png" width={571} height={369} alt="Card 5" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
 
       <section className='solution-new-banner-four'>
         <div className='container'>
@@ -332,7 +418,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
         </div>
         <div className='n-014' >
-        <img src="/img/n-014.png" width={604} height={958} alt="Card 6" />
+          <img src="/img/n-014.png" width={604} height={958} alt="Card 6" />
         </div>
       </section>
 
@@ -347,7 +433,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central.</h3>
                   <div>
                     <Link href="/case-studies/"><a
-                     
+
                       className="btn-get-started scrollto"
                     >
                       <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
@@ -507,11 +593,11 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
               <div className='solution-new-six-card-cat'>
                 <h3>Ready to move faster? See Copilot in Action!</h3>
                 <Link href="#exampleModal"><a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Book a Demo!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                  </Link>
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Book a Demo!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
               </div>
             </div>
           </div>
@@ -577,9 +663,9 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             </div>
             <div className='col-lg-7 d-flex'>
               <div className='solution-new-card-001-p'>
-                <p>No hidden fees. No overpriced customisations. Just the right tools to power your business. 
-                The Cost of Doing Nothing? Far Greater. Compare plans and find your perfect fit!</p>
-                < a href="/products/dynamics-365-business-central/pricing-licensing"  className="btn-get-started scrollto">
+                <p>No hidden fees. No overpriced customisations. Just the right tools to power your business.
+                  The Cost of Doing Nothing? Far Greater. Compare plans and find your perfect fit!</p>
+                < a href="/products/dynamics-365-business-central/pricing-licensing" className="btn-get-started scrollto">
                   <span>Learn More! &nbsp;<i className="bi bi-arrow-right"></i></span>
                 </a>
               </div>
@@ -648,7 +734,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
 
                   </div>
                 </div>
-               
+
               </div>
             </div>
             <div className='col-lg-5 order-1'>
@@ -668,12 +754,12 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-9 ">
               <div className="solution-new-banner-sub-head text-center">
                 <h2>Have you got
-                questions about Business Central?</h2>
+                  questions about Business Central?</h2>
                 <p>Click through to our FAQ for the best answers!</p>
               </div>
             </div>
           </div>
-         
+
 
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">
