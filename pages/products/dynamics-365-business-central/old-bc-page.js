@@ -9,11 +9,13 @@ import "swiper/css/navigation";
 import { Pagination, Autoplay, FreeMode, Mousewheel, Navigation } from "swiper";
 import ModalVideo from "react-modal-video";
 import Blog from "../../../components/Blog";
-import ScrollCard from "../../../components/ScrollCard";
+import useCardScrollEffect from "../../../components/useCardScrollEffect";
 
 const BusinessCentralOld = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
+
+  useCardScrollEffect()
 
   return (
     <>
@@ -47,7 +49,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
 " />
         <meta property="twitter:description" content="Dynamics Square is a top UK-based Microsoft Dynamics 365 Business Central Partner for SMBs providing support, training and consultancy. Schedule a free demo!" />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
-      
+
       </Head>
       <ModalVideo
         channel="youtube"
@@ -88,7 +90,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                 alt="Dynamics 365 Business Central partner"
                 width={1024}
                 height={597}
-                priority = {true}
+                priority={true}
               />
             </div>
           </div>
@@ -122,11 +124,11 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   being stuck in operational complexities. Managing finances,
                   accounting, business data, and customer services is tough for
                   most small to medium businesses.
-                
+
                   Also, a lack of visibility and insights into their business
                   performance leads to bad planning and decisions. However, that
                   shouldn't stop businesses from growing. With <strong>Microsoft
-                  Dynamics 365 Business Central</strong>, you can simplify the complex
+                    Dynamics 365 Business Central</strong>, you can simplify the complex
                   aspects of your business seamlessly.
                 </p>
                 <p>
@@ -145,7 +147,98 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           </div>
         </div>
       </section>
-      <ScrollCard />
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="stached-scroll-card">
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Automated Finance & Accounting </h3>
+                      <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
+                      <ul>
+                        <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
+                        <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
+                        <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                       <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                    <h3>Smart Inventory & Supply Chain </h3>
+                    <p>Every product you mismanage is money lost. Business Central ensures you: </p>
+                    <ul>
+                          <li>Avoid stockouts with demand forecasting. </li>
+                          <li>Cut carrying costs by ordering just the right amount. </li>
+                          <li>Automate vendor & purchase order management to reduce delays. </li>
+                        </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                       <Image src="/img/n-009.png" width={574} height={360} alt="Card 2" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                    <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                        <p>Your competitors are using data to make smarter, faster decisions; are you? With Business Central, you: </p>
+                        <ul>
+                          <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                          <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                          <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                        </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                        <Image src="/img/n-010.png" width={574} height={360} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                    <h3>Sales CRM: Close More Deals, Faster </h3>
+                        <p>Your sales team shouldn’t waste time manually tracking leads or missing follow-ups. Business Central empowers them to: </p>
+                        <ul>
+                          <li>Automate lead nurturing so no opportunity slips through the cracks. </li>
+                          <li>Track every customer interaction for personalised service. </li>
+                          <li>Turn data into sales strategies and know what works, and double down. </li>
+                        </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-011.png" width={584} height={369} alt="Card 4" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                    <h3>Seamless Integrations: Work Smarter, Not Harder </h3>
+                        <p>Switching between platforms kills productivity. Business Central integrates effortlessly with: </p>
+                        <ul>
+                          <li>Microsoft 365 for smooth collaboration. </li>
+                          <li>Power BI for next-level analytics & custom dashboards. </li>
+                          <li>Third-party apps like Shopify, PayPal & more to fit your workflow. </li>
+                        </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-012.png" width={571} height={369} alt="Card 5" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section>
         <div className="container">
@@ -164,7 +257,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
         <div className="container-fluid">
           <div className="row">
             <div>
-            <Swiper
+              <Swiper
                 autoplay={{
                   delay: 1,
                   disableOnInteraction: false,
@@ -218,7 +311,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         Discover a new way of managing and innovating business
                       </h3>
                       <p className="card-text">
-                        Successful <Link href ="/dynamics-365-business-central-implementation/"><a target="_blank">implementation of Dynamics 365 Business Central</a></Link> enables you to reduce your operational costs by
+                        Successful <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">implementation of Dynamics 365 Business Central</a></Link> enables you to reduce your operational costs by
                         eliminating manual tasks and associated errors. By
                         automating workflows, you can boost employee
                         productivity, freeing up resources from tasks like
@@ -307,7 +400,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   <div className="card card-ds-slide">
                     <div className="card-body">
                       <h3 className="card-title">
-                      Implement a winning customer experience
+                        Implement a winning customer experience
                       </h3>
                       <p className="card-text">Using the integrated CRM, you can accelerate your sales cycle to achieve faster closures. With CRM capabilities like customer interaction tracking, predicting opportunities like up-sell and cross-sell, tailoring pricing, and creating discounts, you can decode customer experience to your benefit.</p>
                     </div>
@@ -324,10 +417,10 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   <div className="card card-ds-slide">
                     <div className="card-body">
                       <h3 className="card-title">
-                      Make security & adaptability your business mantra
+                        Make security & adaptability your business mantra
                       </h3>
                       <p className="card-text">
-                      Regardless of size, security can be detrimental to businesses. Dynamics 365 Business Central is designed and deployed on an advanced security-enabled Azure cloud with multiple security features like authentication, authorization, data encryption, and auditing, to ensure enterprise-grade defences.
+                        Regardless of size, security can be detrimental to businesses. Dynamics 365 Business Central is designed and deployed on an advanced security-enabled Azure cloud with multiple security features like authentication, authorization, data encryption, and auditing, to ensure enterprise-grade defences.
                       </p>
                     </div>
                     <Image
@@ -343,10 +436,10 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   <div className="card card-ds-slide">
                     <div className="card-body">
                       <h3 className="card-title">
-                      Make sustainability your business DNA
+                        Make sustainability your business DNA
                       </h3>
                       <p className="card-text">
-                      Cut carbon footprint by leveraging the Sustainability Manager to track and manage your emissions in real time from a unified dashboard. Using the power of business intelligence to visualise data and make informed decisions.
+                        Cut carbon footprint by leveraging the Sustainability Manager to track and manage your emissions in real time from a unified dashboard. Using the power of business intelligence to visualise data and make informed decisions.
                       </p>
                     </div>
                     <Image
@@ -362,10 +455,10 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   <div className="card card-ds-slide">
                     <div className="card-body">
                       <h3 className="card-title">
-                      Drive Automation with Generative AI and Copilot 
+                        Drive Automation with Generative AI and Copilot
                       </h3>
                       <p className="card-text">
-                      Leverage the power of AI and Copilot to automate core business processes while simplifying the entire workflow. You can chat with Copilot to get recommendations, understand processes, and find answers. Also, you can access it to get marketing text suggestions, perform bank account reconciliation, and resolve queries with no effort. 
+                        Leverage the power of AI and Copilot to automate core business processes while simplifying the entire workflow. You can chat with Copilot to get recommendations, understand processes, and find answers. Also, you can access it to get marketing text suggestions, perform bank account reconciliation, and resolve queries with no effort.
                       </p>
                     </div>
                     <Image
@@ -429,49 +522,49 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>
-                        Manage reports, business forecasts, and accounting
-                        activities through an aggregated platform with absolute
-                        visibility into your organisation's financial health.
-                        Give a seamless experience to your staff by automating
-                        processes and using AI-generated insights to make
-                        smarter business decisions. With <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 applications</a></Link>, automate:
-                      </p>
-                      <ul>
-                        <li>
-                          Customer Onboarding: Personalise customer engagement
-                          by leveraging a 360-degree view of the customer.
-                        </li>
-                        <li>
-                          Customer Service: Use AI models to predict customer
-                          concerns & resolve issues on the go.
-                        </li>
-                        <li>
-                          Risk Management: Eliminate financial risks through
-                          automated rules-based processes.
-                        </li>
-                        <li>
-                          Manage Cash Flow: Evaluate the financial health of the
-                          business & estimate growth opportunities via financial
-                          reporting.
-                        </li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Feel Free to Contact Us to Get a Demo</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>
+                            Manage reports, business forecasts, and accounting
+                            activities through an aggregated platform with absolute
+                            visibility into your organisation's financial health.
+                            Give a seamless experience to your staff by automating
+                            processes and using AI-generated insights to make
+                            smarter business decisions. With <Link href="/products/microsoft-dynamics-365/"><a target="_blank">Dynamics 365 applications</a></Link>, automate:
+                          </p>
+                          <ul>
+                            <li>
+                              Customer Onboarding: Personalise customer engagement
+                              by leveraging a 360-degree view of the customer.
+                            </li>
+                            <li>
+                              Customer Service: Use AI models to predict customer
+                              concerns & resolve issues on the go.
+                            </li>
+                            <li>
+                              Risk Management: Eliminate financial risks through
+                              automated rules-based processes.
+                            </li>
+                            <li>
+                              Manage Cash Flow: Evaluate the financial health of the
+                              business & estimate growth opportunities via financial
+                              reporting.
+                            </li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Feel Free to Contact Us to Get a Demo</span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
+
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -492,29 +585,29 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>Experience accelerated growth in closer rates and repeat sales by empowering the sales team to build better customer relationships. Build an automated platform that encompasses your entire sales pipeline so that you have a complete overview and context. Give your team intelligent workflows and features like AI-led lead prioritisation and smart nudges.</p>
-                      <ul>
-                        <li>Customer Acquisition: Use insights and AI models to predict customer intent and personalise offerings.</li>
-                        <li>Streamline Pipelines: Move customers through sales cycles quickly through suggested next-best actions.</li>
-                        <li>Accelerate Sales: Enable faster customer engagement by prioritising leads and automating first-contact.</li>
-                        <li>Coach Teams: Empower teams with deep insights into customer behaviour via real-time coaching.</li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Contact us to get a quote</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>Experience accelerated growth in closer rates and repeat sales by empowering the sales team to build better customer relationships. Build an automated platform that encompasses your entire sales pipeline so that you have a complete overview and context. Give your team intelligent workflows and features like AI-led lead prioritisation and smart nudges.</p>
+                          <ul>
+                            <li>Customer Acquisition: Use insights and AI models to predict customer intent and personalise offerings.</li>
+                            <li>Streamline Pipelines: Move customers through sales cycles quickly through suggested next-best actions.</li>
+                            <li>Accelerate Sales: Enable faster customer engagement by prioritising leads and automating first-contact.</li>
+                            <li>Coach Teams: Empower teams with deep insights into customer behaviour via real-time coaching.</li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Contact us to get a quote</span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
+
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -535,29 +628,29 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>Optimise manufacturing capability with improved visibility into inventory, order demands, and market disruptions. Use AI and predictive analytics to align your production with existing conditions to reduce the risk of shortage or excess. Improve workforce productivity by regularly inspecting for repairs with sensor data intelligence.</p>
-                      <ul>
-                        <li>Production & Supply Planning: Use intelligent order & warehouse management to drive sustainable manufacturing.</li>
-                        <li>Asset Management: Maximise sensor data & AI to manage inventory efficiently.</li>
-                        <li>Demand Forecasting: Bring your data on a single unified platform to assess demand trends.</li>
-                        <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Feel Free to Contact Us to Get a Demo</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>Optimise manufacturing capability with improved visibility into inventory, order demands, and market disruptions. Use AI and predictive analytics to align your production with existing conditions to reduce the risk of shortage or excess. Improve workforce productivity by regularly inspecting for repairs with sensor data intelligence.</p>
+                          <ul>
+                            <li>Production & Supply Planning: Use intelligent order & warehouse management to drive sustainable manufacturing.</li>
+                            <li>Asset Management: Maximise sensor data & AI to manage inventory efficiently.</li>
+                            <li>Demand Forecasting: Bring your data on a single unified platform to assess demand trends.</li>
+                            <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Feel Free to Contact Us to Get a Demo</span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
+
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -578,29 +671,29 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>Customise your warehouse management to optimise your storage space and gain insights into your shipments and inventory. Cater to order requests and inventory queries at scale removing complexity regardless of order volumes and managing the entire product lifecycle in your storage units.</p>
-                      <ul>
-                        <li>Inventory Management: Simplify inventory handling, status tracking & financial reporting.</li>
-                        <li>Internal Storage Processes: Automate warehouse processes like removing or adding items.</li>
-                        <li>Order Processing: Manage orders at scale and ensure accurate inventory is processed as per details.</li>
-                        <li>Purchase order creation: Expedite order processing by automating the purchase order creation.</li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Feel free to contact us to get a demo</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>Customise your warehouse management to optimise your storage space and gain insights into your shipments and inventory. Cater to order requests and inventory queries at scale removing complexity regardless of order volumes and managing the entire product lifecycle in your storage units.</p>
+                          <ul>
+                            <li>Inventory Management: Simplify inventory handling, status tracking & financial reporting.</li>
+                            <li>Internal Storage Processes: Automate warehouse processes like removing or adding items.</li>
+                            <li>Order Processing: Manage orders at scale and ensure accurate inventory is processed as per details.</li>
+                            <li>Purchase order creation: Expedite order processing by automating the purchase order creation.</li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Feel free to contact us to get a demo</span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
+
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -621,30 +714,30 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>Redefine HR programs and processes like payroll management, leave reporting and talent acquisition to offer enhanced employee experience. Eliminate complexity and achieve accuracy in administrative tasks by automating workflows, and guiding HR professionals to the next best action, thereby increasing productivity and building an efficient HR practice.</p>
-                      <ul>
-                        <li>Mobile Employee Experience: Offer a self-service platform to employees by digitalising manual workflows.</li>
-                        <li>HR Operations Automation: Automate end-to-end HR operations including payroll, tax filing & compensation programs.</li>
-                        <li>Talent Acquisition Management: Streamline talent scouting & onboarding processes through a guided flow.</li>
-                        <li>Workforce Insights: Gain deeper insights into performance to improve organisational efficiency.</li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Contact us to get a quote</span>
-                          </a>
-                        </Link>
-                        
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>Redefine HR programs and processes like payroll management, leave reporting and talent acquisition to offer enhanced employee experience. Eliminate complexity and achieve accuracy in administrative tasks by automating workflows, and guiding HR professionals to the next best action, thereby increasing productivity and building an efficient HR practice.</p>
+                          <ul>
+                            <li>Mobile Employee Experience: Offer a self-service platform to employees by digitalising manual workflows.</li>
+                            <li>HR Operations Automation: Automate end-to-end HR operations including payroll, tax filing & compensation programs.</li>
+                            <li>Talent Acquisition Management: Streamline talent scouting & onboarding processes through a guided flow.</li>
+                            <li>Workforce Insights: Gain deeper insights into performance to improve organisational efficiency.</li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Contact us to get a quote</span>
+                              </a>
+                            </Link>
+
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
+
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -665,29 +758,29 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>Empower your resources with productivity tools to streamline project management, while automating tasks like timesheet creation and document management. Manage multiple projects without any stress by accurately predicting resource requirements against the project budget.</p>
-                      <ul>
-                        <li>Contract Management: Manage key tasks like quotes, forecasting, estimation & scope easily.</li>
-                        <li>Project Progress & Performance: Use Microsoft Project capabilities to simplify the project management cycle.</li>
-                        <li>Project Account: Achieve revenue compliance with International Financial Reporting Standards.</li>
-                        <li>Resource Allocation: Submit, approve, and process time & expense quickly streamlining client billing.</li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Streamline your projects today</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>Empower your resources with productivity tools to streamline project management, while automating tasks like timesheet creation and document management. Manage multiple projects without any stress by accurately predicting resource requirements against the project budget.</p>
+                          <ul>
+                            <li>Contract Management: Manage key tasks like quotes, forecasting, estimation & scope easily.</li>
+                            <li>Project Progress & Performance: Use Microsoft Project capabilities to simplify the project management cycle.</li>
+                            <li>Project Account: Achieve revenue compliance with International Financial Reporting Standards.</li>
+                            <li>Resource Allocation: Submit, approve, and process time & expense quickly streamlining client billing.</li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Streamline your projects today</span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 
+
                   <div className="accordion-item">
                     <h3 className="accordion-header" id="headingTwo">
                       <button
@@ -708,25 +801,25 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      <div className="inner-con-div">
-                      <p>Simplify your planning, movement, storage, and distribution of stock tasks by leveraging data analytics to optimise the supply chain. Manage sales orders, purchases, and inventory monitoring across multiple locations. Use sensor data intelligence to identify issues and fix them to avoid process breaks.</p>
-                      <ul>
-                        <li>Manage Asset Lifecycle: Streamline asset management through automated scheduling and analysing sensor data.</li>
-                        <li>Automate Fulfilment: Improve customer experience by AI-led inventory fulfilment automation.</li>
-                        <li>Improve Visibility: Make accurate inventory decisions and demand predictions via data analytics.</li>
-                        <li>Proactive Equipment Maintenance: Reduce downtime & achieve operational excellence through timely equipment maintenance.</li>
-                      </ul>
-                      <div className="call-butt">
-                        <Link href="#exampleModal">
-                          <a
-                            data-bs-toggle="modal"
-                            className="btn-get-started scrollto"
-                          >
-                            <span>Book Free Consultation</span>
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
+                        <div className="inner-con-div">
+                          <p>Simplify your planning, movement, storage, and distribution of stock tasks by leveraging data analytics to optimise the supply chain. Manage sales orders, purchases, and inventory monitoring across multiple locations. Use sensor data intelligence to identify issues and fix them to avoid process breaks.</p>
+                          <ul>
+                            <li>Manage Asset Lifecycle: Streamline asset management through automated scheduling and analysing sensor data.</li>
+                            <li>Automate Fulfilment: Improve customer experience by AI-led inventory fulfilment automation.</li>
+                            <li>Improve Visibility: Make accurate inventory decisions and demand predictions via data analytics.</li>
+                            <li>Proactive Equipment Maintenance: Reduce downtime & achieve operational excellence through timely equipment maintenance.</li>
+                          </ul>
+                          <div className="call-butt">
+                            <Link href="#exampleModal">
+                              <a
+                                data-bs-toggle="modal"
+                                className="btn-get-started scrollto"
+                              >
+                                <span>Book Free Consultation</span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -867,7 +960,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         </li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/products/dynamics-365-business-central/financial-management/">
+                        <Link href="/products/dynamics-365-business-central/financial-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -892,7 +985,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                     role="tabpanel"
                     aria-labelledby="s-pills-home-2-tab"
                   >
-                      <div className="inner-con-div">
+                    <div className="inner-con-div">
                       <p>Experience accelerated growth in closer rates and repeat sales by empowering the sales team to build better customer relationships. Build an automated platform that encompasses your entire sales pipeline so that you have a complete overview and context. Give your team intelligent workflows and features like AI-led lead prioritisation and smart nudges.</p>
                       <ul>
                         <li>Customer Acquisition: Use insights and AI models to predict customer intent and personalise offerings.</li>
@@ -901,7 +994,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Coach Teams: Empower teams with deep insights into customer behaviour via real-time coaching.</li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/products/dynamics-365-business-central/sales-order-management/">
+                        <Link href="/products/dynamics-365-business-central/sales-order-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -935,7 +1028,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Automate Tasks: Improve overall productivity by automating mundane tasks with RPA.</li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/products/dynamics-365-business-central/manufacturing-management/">
+                        <Link href="/products/dynamics-365-business-central/manufacturing-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -1003,7 +1096,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Workforce Insights: Gain deeper insights into performance to improve organisational efficiency.</li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/products/dynamics-365-business-central/human-resource-management/">
+                        <Link href="/products/dynamics-365-business-central/human-resource-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -1037,7 +1130,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Resource Allocation: Submit, approve, and process time & expense quickly streamlining client billing.</li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/products/dynamics-365-business-central/project-management/">
+                        <Link href="/products/dynamics-365-business-central/project-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -1071,7 +1164,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                         <li>Proactive Equipment Maintenance: Reduce downtime & achieve operational excellence through timely equipment maintenance.</li>
                       </ul>
                       <div className="call-butt">
-                      <Link href="/products/dynamics-365-business-central/supply-chain-management/">
+                        <Link href="/products/dynamics-365-business-central/supply-chain-management/">
                           <a
                             className="btn-get-started btn-blue"
                             target="_blank"
@@ -1344,7 +1437,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-4">
               <div className="new-card-sol">
                 <div className="head-img">
-                  <img src="/img/bc-icons-new-2.png" alt="icons"  width="210" height="119" />
+                  <img src="/img/bc-icons-new-2.png" alt="icons" width="210" height="119" />
                 </div>
                 <div className="body">
                   <h3>Migrate to Business Central</h3>
@@ -1365,7 +1458,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
             <div className="col-lg-4">
               <div className="new-card-sol">
                 <div className="head-img">
-                  <img src="/img/bc-icons-new-3.png" alt="icons"  width="210" height="119" />
+                  <img src="/img/bc-icons-new-3.png" alt="icons" width="210" height="119" />
                 </div>
                 <div className="body">
                   <h3>Business Central Support</h3>
@@ -1453,15 +1546,15 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-left">
-              <div className="over-la-pic-1">
-              <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
-              </div>
+                <div className="over-la-pic-1">
+                  <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+                </div>
                 <Image width={630} height={440} src="/img/bc-copilote-side-pic.png" alt="bc-copilote-side-pic" />
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-right">
-             
+
                 <div className="c-bi-po-inn">
                   <h3>Launch Products Faster</h3>
                   <p>Copilot helps businesses launch products faster in the market. You can easily upload a product picture, write compelling descriptions, and justify brand tone as per different product attributes.</p>
@@ -1487,13 +1580,13 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-            <header className="section-header">
-            <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
-            <p>
-              Checkout the latest Dynamics 365 <Link href="/products/dynamics-365-business-central/pricing-licensing/"><a target="_blank">Business Central Pricing</a></Link> and
-              capabilities of Essential, Premium, and Team Members plans.
-            </p>
-          </header>
+              <header className="section-header">
+                <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
+                <p>
+                  Checkout the latest Dynamics 365 <Link href="/products/dynamics-365-business-central/pricing-licensing/"><a target="_blank">Business Central Pricing</a></Link> and
+                  capabilities of Essential, Premium, and Team Members plans.
+                </p>
+              </header>
             </div>
           </div>
           <div className="row gy-4">
@@ -1505,7 +1598,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Essentials
                 </h3>
                 <div className="price">
-                £57.50<span>Per-User/Per Month</span>
+                  £57.50<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -1537,7 +1630,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Premium
                 </h3>
                 <div className="price">
-                £82.20<span>Per-User/Per Month</span>
+                  £82.20<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -1578,7 +1671,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                   Team Members
                 </h3>
                 <div className="price">
-                £6.60<span>Per-User/Per Month</span>
+                  £6.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
@@ -2089,7 +2182,7 @@ Microsoft Dynamics 365 Business Central Partner UK | Dynamics Square
                       <p>
                         Initially, you can start with Microsoft{" "}
                         <Link href="/blog/dynamics-365-business-central-trial/">
-                         <a target="_blank">Business Central Trial</a>
+                          <a target="_blank">Business Central Trial</a>
                         </Link>{" "}
                         at no cost for 30 days. After your trial period, if you
                         find Business Central - a suitable deal for your

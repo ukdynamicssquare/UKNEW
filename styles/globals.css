@@ -16140,6 +16140,84 @@ padding: 80px 0px;
 .m-b-image{
   display:none
 }
+
+.mycard {
+  position: sticky;
+  top: 150px;
+  transform: translateY(0);
+  margin-bottom: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.mycard:nth-child(2) {
+  z-index: 2;
+  transform: translateY(5px);
+}
+
+.mycard:nth-child(3) {
+  z-index: 3;
+  transform: translateY(10px);
+}
+
+.mycard:nth-child(4) {
+  z-index: 4;
+  transform: translateY(15px);
+}
+
+.mycard:nth-child(5) {
+  z-index: 5;
+  transform: translateY(20px);
+}
+
+.mycard:nth-child(6) {
+  z-index: 6;
+  transform: translateY(25px);
+}
+
+.mycard__inner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  gap: 40px;
+  align-items: center;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+  background-image: radial-gradient(circle at 124% -39%, rgba(153, 142, 186, 0.37), rgba(153, 142, 186, 0) 96%), linear-gradient(to bottom, #fff, #fff);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .mycard__inner{
+  
+  }
+  .mycard__inner-left{}
+  .mycard__inner-left h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #443c68;
+    margin-bottom: 18px;
+  }
+  .mycard__inner-left p{
+    color: #444;
+    margin-bottom: 30px;
+  }
+  .mycard__inner-left ul{
+    list-style: none;
+    padding: 0px;
+  }
+  .mycard__inner-left ul li{
+    margin-bottom: 20px;
+    color: #444;
+    border-radius: 8px;
+    background-color: #eeecf4;
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+.mycard__inner-right{
+  text-align: right;
+}
+
+
 @media (min-width: 1440px) and (max-width: 1700px){
   .flot-5{
     right: 21.3%;
@@ -16264,8 +16342,19 @@ padding: 80px 0px;
 .solution-new-cta.slution-new-cta-two{
   padding: 60px 0px;
 }
+.mycard{
+  top: 0px;
+  margin-bottom: 20px;
+}
+
+.mycard__inner{
+  grid-template-columns: repeat(1, 1fr);
+  padding: 30px;
+
+}
   }
 @media (max-width: 768px) {
+
   .cards{
     flex-wrap: wrap;
     height:100%
@@ -16274,3 +16363,6 @@ padding: 80px 0px;
     position: relative;
   }
 }
+
+
+

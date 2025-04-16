@@ -1,128 +1,124 @@
 'use client'
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 
-const ScrollCard = () => {
-  const card1 = useRef(null)
-  const card2 = useRef(null)
-  const card3 = useRef(null)
-  const card4 = useRef(null)
-  const card5 = useRef(null)
-
-  const inner1 = useRef(null)
-  const inner2 = useRef(null)
-  const inner3 = useRef(null)
-  const inner4 = useRef(null)
-  const inner5 = useRef(null)
-
+const ScrollCardsStatic = () => {
   useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '200px 0px 0px 0px', // Start when the card is 200px away from the top
-      threshold: 1, // Trigger when 10% of the element is visible
+    const handleScroll = () => {
+      const cards = document.querySelectorAll('.mycard')
+
+      cards.forEach((card, index) => {
+        const inner = card.querySelector('.mycard__inner')
+        const nextCard = cards[index + 1]
+        const cardRect = card.getBoundingClientRect()
+
+        let overlapPoint
+
+        if (nextCard) {
+          const nextRect = nextCard.getBoundingClientRect()
+          overlapPoint = cardRect.top + card.offsetHeight * 0.2
+
+          if (nextRect.top <= overlapPoint) {
+            inner.style.transform = 'scale(0.95) translateY(-10px)'
+            inner.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.15)'
+          } else {
+            inner.style.transform = 'scale(1) translateY(0)'
+            inner.style.boxShadow = '0 12px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2)'
+          }
+        } else {
+          // Last card logic
+          overlapPoint = cardRect.top + card.offsetHeight * 0.2
+          const windowHeight = window.innerHeight
+
+          if (windowHeight - cardRect.top <= 100) {
+            inner.style.transform = 'scale(0.95) translateY(-10px)'
+            inner.style.boxShadow = '0 10px 20px rgba(0, 0, 0, 0.15)'
+          } else {
+            inner.style.transform = 'scale(1) translateY(0)'
+            inner.style.boxShadow = '0 12px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2)'
+          }
+        }
+      })
     }
 
-    const handlePinning = (entry) => {
-      if (entry.isIntersecting) {
-        // When Card 2 is pinned at the top, start scaling Card 1 down
-        inner1.current.style.transform = 'scale(0.9)'
-        inner1.current.style.filter = 'brightness(0.8)'
-      } else {
-        // Reset when Card 2 leaves the pinned position
-        inner1.current.style.transform = 'scale(1)'
-        inner1.current.style.filter = 'brightness(1)'
-      }
-    }
+    window.addEventListener('scroll', handleScroll)
+    handleScroll()
 
-    const observer2 = new IntersectionObserver(([entry]) => {
-      handlePinning(entry)
-    }, options)
-
-    // Observe Card 2's pinning position
-    if (card2.current) observer2.observe(card2.current)
-
-    return () => {
-      observer2.disconnect()
-    }
+    return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   return (
     <>
       <div className="space space--small" />
       <div className="mycard-container">
-        <div className="mycard" ref={card1}>
-          <div className="mycard__inner" ref={inner1}>
+        {/* Static Cards */}
+        <div className="mycard">
+          <div className="mycard__inner">
             <div className="mycard__image-container">
-              <img
-                className="mycard__image"
-                src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=100"
-                alt=""
-              />
+              <img src="https://source.unsplash.com/random/800x600?sig=1" className="mycard__image" />
             </div>
             <div className="mycard__content">
-              <h1 className="mycard__title">Card One</h1>
-              <p className="mycard__description">This is the first card.</p>
+              <h1 className="mycard__title">Card 1</h1>
+              <p className="mycard__description">This is card 1 content.</p>
             </div>
           </div>
         </div>
 
-        <div className="mycard" ref={card2}>
-          <div className="mycard__inner" ref={inner2}>
+        <div className="mycard">
+          <div className="mycard__inner">
             <div className="mycard__image-container">
-              <img
-                className="mycard__image"
-                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=100"
-                alt=""
-              />
+              <img src="https://source.unsplash.com/random/800x600?sig=2" className="mycard__image" />
             </div>
             <div className="mycard__content">
-              <h1 className="mycard__title">Card Two</h1>
-              <p className="mycard__description">This is the second card.</p>
+              <h1 className="mycard__title">Card 2</h1>
+              <p className="mycard__description">This is card 2 content.</p>
             </div>
           </div>
         </div>
 
-        <div className="mycard" ref={card3}>
-          <div className="mycard__inner" ref={inner3}>
+        <div className="mycard">
+          <div className="mycard__inner">
             <div className="mycard__image-container">
-              <img
-                className="mycard__image"
-                src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=100"
-                alt=""
-              />
+              <img src="https://source.unsplash.com/random/800x600?sig=3" className="mycard__image" />
             </div>
             <div className="mycard__content">
-              <h1 className="mycard__title">Card Three</h1>
-              <p className="mycard__description">This is the third card.</p>
+              <h1 className="mycard__title">Card 3</h1>
+              <p className="mycard__description">This is card 3 content.</p>
             </div>
           </div>
         </div>
-        <div className="mycard" ref={card4}>
-          <div className="mycard__inner" ref={inner4}>
+
+        <div className="mycard">
+          <div className="mycard__inner">
             <div className="mycard__image-container">
-              <img
-                className="mycard__image"
-                src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=100"
-                alt=""
-              />
+              <img src="https://source.unsplash.com/random/800x600?sig=4" className="mycard__image" />
             </div>
             <div className="mycard__content">
-              <h1 className="mycard__title">Card Three</h1>
-              <p className="mycard__description">This is the third card.</p>
+              <h1 className="mycard__title">Card 4</h1>
+              <p className="mycard__description">This is card 4 content.</p>
             </div>
           </div>
         </div>
-        <div className="mycard" ref={card5}>
-          <div className="mycard__inner" ref={inner5}>
+
+        <div className="mycard">
+          <div className="mycard__inner">
             <div className="mycard__image-container">
-              <img
-                className="mycard__image"
-                src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=100"
-                alt=""
-              />
+              <img src="https://source.unsplash.com/random/800x600?sig=5" className="mycard__image" />
             </div>
             <div className="mycard__content">
-              <h1 className="mycard__title">Card Three</h1>
-              <p className="mycard__description">This is the third card.</p>
+              <h1 className="mycard__title">Card 5</h1>
+              <p className="mycard__description">This is card 5 content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mycard">
+          <div className="mycard__inner">
+            <div className="mycard__image-container">
+              <img src="https://source.unsplash.com/random/800x600?sig=6" className="mycard__image" />
+            </div>
+            <div className="mycard__content">
+              <h1 className="mycard__title">Card 6</h1>
+              <p className="mycard__description">This is card 6 content.</p>
             </div>
           </div>
         </div>
@@ -130,17 +126,10 @@ const ScrollCard = () => {
       <div className="space" />
 
       <style jsx>{`
-        // .space {
-        //   height: 90vh;
-        // }
-
-        // .space--small {
-        //   height: 40vh;
-        // }
 
         .mycard-container {
           width: 100%;
-          max-width: 1200px;
+          max-width: 900px;
           margin: 0 auto;
           display: flex;
           flex-direction: column;
@@ -149,29 +138,53 @@ const ScrollCard = () => {
 
         .mycard {
           position: sticky;
-          top: 150px;
+          top: 200px;
+          transform: translateY(0);
+        }
+
+        .mycard:nth-child(2) {
+          z-index: 2;
+          transform: translateY(5px);
+        }
+
+        .mycard:nth-child(3) {
+          z-index: 3;
+          transform: translateY(10px);
+        }
+
+        .mycard:nth-child(4) {
+          z-index: 4;
+          transform: translateY(15px);
+        }
+
+        .mycard:nth-child(5) {
+          z-index: 5;
+          transform: translateY(20px);
+        }
+
+        .mycard:nth-child(6) {
+          z-index: 6;
+          transform: translateY(25px);
         }
 
         .mycard__inner {
-          transition: transform 0.4s ease, filter 0.4s ease;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
           background: white;
           border-radius: 14px;
           display: flex;
           overflow: hidden;
-          box-shadow: 0 25px 50px -12px hsla(265.3, 20%, 10%, 35%);
+          box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
           transform-origin: center top;
         }
 
         .mycard__image-container {
           width: 40%;
-          flex-shrink: 0;
         }
 
         .mycard__image {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          aspect-ratio: 1;
         }
 
         .mycard__content {
@@ -184,12 +197,13 @@ const ScrollCard = () => {
           font-size: 60px;
           font-weight: 600;
           color: #16263a;
+          margin: 0;
         }
 
         .mycard__description {
-          line-height: 1.4;
           font-size: 24px;
           color: #16263a;
+          margin-top: 10px;
         }
 
         @media (max-width: 600px) {
@@ -222,4 +236,4 @@ const ScrollCard = () => {
   )
 }
 
-export default ScrollCard
+export default ScrollCardsStatic
