@@ -22,7 +22,7 @@
     {
       "id": 5,
       "question": "Can I customise Business Central?",
-      "answer": "<p>Yes, Business Central is totally customisable as per your unique business and its changing needs. Irrespective of the industry, business type, and size, you can customise this powerful application to simplify your business operations. In short, customizations are the path to more productivity and easy business growth.</p>"
+      "answer": "<p>Yes, Business Central is totally customisable as per your unique business and its changing needs. Irrespective of the industry, business type, and size, you can customise this powerful application to simplify your business operations. In short, <a href=\"/products/dynamics-365-business-central/customisation/\" target=\"_blank\">customisations</a> are the path to more productivity and easy business growth.</p>"
     },
     {
       "id": 6,

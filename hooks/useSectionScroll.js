@@ -9,7 +9,8 @@ export default function useSectionScroll({
   let panels = [];
 
   useEffect(() => {
-    let cleanup;
+    let cleanupFn;
+
     async function loadGsap() {
       const gsapModule = await import('gsap');
       const ScrollToPluginModule = await import('gsap/ScrollToPlugin');
@@ -17,25 +18,29 @@ export default function useSectionScroll({
       const ScrollToPlugin = ScrollToPluginModule.default;
       gsap.registerPlugin(ScrollToPlugin);
 
+      // prepare panels
       gsap.set(panelSelector, {
         force3D: true,
         willChange: 'transform, opacity',
         backfaceVisibility: 'hidden'
       });
-
-      panels = document.querySelectorAll(panelSelector);
+      panels = Array.from(document.querySelectorAll(panelSelector));
       if (!panels.length) return;
       const lastPanelOffset = (panels.length - 1) * window.innerHeight;
 
+      // swipe threshold (deltaY must exceed this to count)
+      const SWIPE_THRESHOLD = 20;
+
+      // core scroll-to-section
       function goToSection(index) {
         if (index < 0 || index >= panels.length) return;
         isScrollingRef.current = true;
-        currentSectionRef.current = index; // Update section reference
+        currentSectionRef.current = index;
 
         gsap.to(window, {
           scrollTo: { y: index * window.innerHeight, autoKill: false },
-          duration: 0.45, 
-          ease: "power3.inOut",
+          duration: 0.45,
+          ease: 'power3.inOut',
           force3D: true,
           onComplete: () => {
             isScrollingRef.current = false;
@@ -43,15 +48,19 @@ export default function useSectionScroll({
         });
       }
 
+      // wheel / trackpad handler
       function handleWheel(e) {
         if (e.target.closest(excludeSelector)) return;
         if (isScrollingRef.current) {
           e.preventDefault();
           return;
         }
+        // ignore small deltas
+        if (Math.abs(e.deltaY) < SWIPE_THRESHOLD) {
+          return;
+        }
 
         const currentScroll = window.scrollY;
-
         if (e.deltaY > 0 && currentSectionRef.current < panels.length - 1) {
           e.preventDefault();
           goToSection(currentSectionRef.current + 1);
@@ -66,37 +75,40 @@ export default function useSectionScroll({
         }
       }
 
+      // keyboard handler
       function handleKeyDown(e) {
         if (isScrollingRef.current) return;
-
-        if (e.key === "ArrowDown" && currentSectionRef.current < panels.length - 1) {
+        if (e.key === 'ArrowDown' && currentSectionRef.current < panels.length - 1) {
           e.preventDefault();
           goToSection(currentSectionRef.current + 1);
-        } 
-        else if (e.key === "ArrowUp" && currentSectionRef.current > 0) {
+        } else if (e.key === 'ArrowUp' && currentSectionRef.current > 0) {
           e.preventDefault();
           goToSection(currentSectionRef.current - 1);
         }
       }
 
+      // attach listeners
       window.addEventListener('wheel', handleWheel, { passive: false });
-      window.addEventListener('keydown', handleKeyDown);
-      cleanup = () => {
+      document.addEventListener('keydown', handleKeyDown);
+
+      // cleanup
+      cleanupFn = () => {
         window.removeEventListener('wheel', handleWheel);
-        window.removeEventListener('keydown', handleKeyDown);
+        document.removeEventListener('keydown', handleKeyDown);
       };
     }
 
     loadGsap();
 
     return () => {
-      if (cleanup) cleanup();
+      if (cleanupFn) cleanupFn();
     };
   }, [panelSelector, excludeSelector]);
 
-  return { goToSection: (index) => {
+  // exposed programmatic control
+  function goToSection(index) {
     if (index < 0 || index >= panels.length) return;
-    currentSectionRef.current = index; // Ensure the reference is updated
+    currentSectionRef.current = index;
     isScrollingRef.current = true;
 
     import('gsap').then(({ default: gsap }) => {
@@ -105,7 +117,7 @@ export default function useSectionScroll({
         gsap.to(window, {
           scrollTo: { y: index * window.innerHeight, autoKill: false },
           duration: 0.45,
-          ease: "power3.inOut",
+          ease: 'power3.inOut',
           force3D: true,
           onComplete: () => {
             isScrollingRef.current = false;
@@ -113,5 +125,7 @@ export default function useSectionScroll({
         });
       });
     });
-  }};
+  }
+
+  return { goToSection };
 }
