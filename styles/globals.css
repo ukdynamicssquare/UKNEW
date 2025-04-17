@@ -4458,8 +4458,8 @@ section {
   margin: 0 auto;
 }
 .finace-acc .accordion-header .accordion-button {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   color: var(--color-blue);
   background: 0 0;
 }
@@ -16217,7 +16217,13 @@ padding: 80px 0px;
 .mycard__inner-right{
   text-align: right;
 }
-
+.m-stickks{
+  position: sticky;
+  top: 150px;
+  /* transform: translateY(0);
+  margin-bottom: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
 
 @media (min-width: 1440px) and (max-width: 1700px){
   .flot-5{

@@ -50,9 +50,9 @@ const CategoryList = () => {
       <section>
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 ">
               <div
-                className="nav flex-column nav-pills me-3 side-bar-common-tabs"
+                className="nav flex-column nav-pills me-3 side-bar-common-tabs m-stickks"
                 id="v-pills-tab"
                 role="tablist"
                 aria-orientation="vertical"
