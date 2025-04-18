@@ -12581,6 +12581,7 @@ figure {
   overflow: hidden;
 }
 
+
 .indut-card-one a {
 }
 .indut-card-one .pic {
@@ -12603,6 +12604,10 @@ figure {
 }
 .indut-card-one .pic-body {
   padding: 30px;
+}
+.indut-card-one-pdd .pic-body {
+  padding: 30px 20px;
+
 }
 .indut-card-one .pic-body h4 {
   font-size: 18px;
