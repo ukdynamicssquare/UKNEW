@@ -16388,6 +16388,9 @@ padding: 80px 0px;
     .s-options-end{
       padding-top: 30px ;
     }
+    .bg-003 {
+      margin-top: -175px;
+  }
   }
   @media (min-width: 768px) and (max-width: 1200px){
     .flot-5 {
@@ -16397,9 +16400,15 @@ padding: 80px 0px;
     .r-top-60 {
       margin-top: -120px;
   }
+  .bg-003 {
+    margin-top: -50px;
+}
 
   }
   @media (max-width: 992px){
+    .bg-003 {
+      margin-top: -50px;
+  }
     .flot-5, .solution-new-banner-one-img,.product-side-001 .flot-9,.solution-new-banner-four .n-014,.im-one-17{
       display: none !important;
     }
