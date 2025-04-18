@@ -20,8 +20,8 @@ const BcSupport = () => {
                         <div className='col-lg-8'>
                             <div className='solution-new-banner-one-content'>
                                 <h1>Microsoft Dynamics 365 Business Central</h1>
-                                <span className='large-heading'>Level up with a solution trusted<br /> by over 45,000 SMBs across the world.</span>
-                                <p>Bid adieu to data silos, the biggest culprits behind operational inefficiencies. Adopt Business Central, an advanced ERP that comes with out-of-the-box AI capabilities, Microsoft Copilot, and has less than 6 months of payback on investment. </p>
+                                <span className='large-heading'>Dynamics 365 Business Central Support Services</span>
+                                <p>Dynamics Square's Dynamics 365 Business Central Support Services can help you to improve your business operations. Our all-encompassing support guarantees the smooth operation of your Microsoft ERP solution, therefore enabling you to concentrate on efficiency and expansion. </p>
                                 <div className="text-center">
                                     <Link href="#exampleModal"><a
                                         data-bs-toggle="modal"
@@ -74,8 +74,8 @@ const BcSupport = () => {
                     <div className='row'>
                         <div className='col-lg-9'>
                             <div className='solution-new-banner-sub-head'>
-                                <h2>Business Central Features: What’s Inside? </h2>
-                                <p>Run business with confidence. With Business Central, get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business: </p>
+                                <h2>Our Comprehensive Dynamics 365 Business Central Support Offerings</h2>
+                                <p>Dynamics Square knows that every company has different needs. That is why we provide a variety of support services customised to fit your needs.</p>
                             </div>
                         </div>
                     </div>
@@ -88,18 +88,18 @@ const BcSupport = () => {
                                         <div className='mycard__inner_gir'>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Our ad-hoc support services are designed to provide you with the help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Flexible Assistance</h4>
+                                                <p>Our Ad-Hoc Support services are perfect for companies that need periodic help without long-term obligations.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>r it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>System Health Checks</h4>
+                                                <p>Our comprehensive system health checks help you to find and fix possible problems before they affect your running.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Ou help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Customised Solutions</h4>
+                                                <p>Our team provides customised solutions to guarantee you receive the maximum value from our Dynamics 365 Business Central Support Services.</p>
                                             </div>
                                         </div>
 
@@ -111,18 +111,18 @@ const BcSupport = () => {
                                         <div className='mycard__inner_gir'>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Our ad-hoc support services are designed to provide you with the help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Proactive Support</h4>
+                                                <p>Our 50-hour prepaid support system lets you have proactive and timely support.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>r it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Timely Assistance</h4>
+                                                <p>This plan guarantees that you have access to professional aid anytime you require it, so enabling you to keep seamless business operations.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Ou help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Cost-Effective</h4>
+                                                <p>Prepaid hours you control over your budget and a reasonably priced solution to handle your Dynamics 365 Business Central support requirements.</p>
                                             </div>
                                         </div>
 
@@ -135,18 +135,18 @@ const BcSupport = () => {
                                         <div className='mycard__inner_gir'>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Our ad-hoc support services are designed to provide you with the help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Continuous Assistance</h4>
+                                                <p>Our annual support package offers continuous assistance throughout the year.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>r it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Issue Resolution</h4>
+                                                <p>We help resolve general issues, fix bugs, and ensure strategic and improved workflows across your organisation.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Ou help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Strategic Planning</h4>
+                                                <p>Our team works with you to develop strategic plans that align with your business goals and ensure long-term success.</p>
                                             </div>
                                         </div>
 
@@ -158,18 +158,18 @@ const BcSupport = () => {
                                         <div className='mycard__inner_gir'>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Our ad-hoc support services are designed to provide you with the help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Effective Utilisation</h4>
+                                                <p>Effective utilisation of your ERP system is essential for maximising its benefits.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>r it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Training Sessions</h4>
+                                                <p>Dynamics Square provides training to help end-users adapt to newly configured or updated systems.</p>
                                             </div>
                                             <div className='mycard__inner_gird-colomn'>
                                                 <img src="/img/suppot-icon-001.png" alt="suppot-icon-001" />
-                                                <h4>Ad-Hoc Support</h4>
-                                                <p>Need immediate assistance? Ou help you need, when you need it. Whether it's a quick question or a complex issue, our team is here to assist you.</p>
+                                                <h4>Enhanced Productivity</h4>
+                                                <p>Our training sessions ensure that your team can effectively use the implemented solutions, enhancing productivity and efficiency.</p>
                                             </div>
                                         </div>
 
@@ -190,12 +190,13 @@ const BcSupport = () => {
                     <div className='row'>
                         <div className='col-lg-9'>
                             <div className='solution-new-banner-sub-head'>
-                                <h2>Business Central Benefits: You Can’t Afford to Ignore </h2>
-                                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors. </p>
+                                <h2>Our Tailored Support Services for Your Industry Needs</h2>
+                                <p>Every industry has unique requirements. Dynamics Square gets it and provides you with a personalised service:</p>
                             </div>
                         </div>
                     </div>
                     <div className='row g-4'>
+                        
                         <div className="col-lg-4 col-md-6 d-flex">
                             <div className="indut-card-one indut-card-one-pdd">
                                 <a href="/industries/microsoft-cloud-for-manufacturing/">
@@ -212,13 +213,13 @@ const BcSupport = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex">
                             <div className="indut-card-one indut-card-one-pdd">
-                                <a href="/industries/microsoft-cloud-for-manufacturing/">
+                                <a href="/industries/dynamics-365-for-retail/">
                                     <div className="pic">
-                                        <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
-                                        <h3>Manufacturing</h3>
+                                        <img src="/img/rectangle-02.jpg" alt="Retail & E-commerce" />
+                                        <h3>Retail & E-commerce</h3>
                                     </div>
                                     <div className="pic-body">
-                                        <p>We provide specialised support for resolving BOM (Bill of Materials) errors, streamlining production scheduling processes, and ensuring seamless shop floor operations and reporting.</p>
+                                        <p>Our services include robust POS system integration, real-time inventory and stock synchronisation across platforms, and automated management of return and refund processes.</p>
                                         <span>Learn More</span>
                                     </div>
                                 </a>
@@ -226,13 +227,13 @@ const BcSupport = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex">
                             <div className="indut-card-one indut-card-one-pdd">
-                                <a href="/industries/microsoft-cloud-for-manufacturing/">
+                                <a href="/industries/professional-services/">
                                     <div className="pic">
-                                        <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
-                                        <h3>Manufacturing</h3>
+                                        <img src="/img/rectangle-05.jpg" alt="Professional Services" />
+                                        <h3>Professional Services</h3>
                                     </div>
                                     <div className="pic-body">
-                                        <p>We provide specialised support for resolving BOM (Bill of Materials) errors, streamlining production scheduling processes, and ensuring seamless shop floor operations and reporting.</p>
+                                        <p>We assist with detailed project accounting setups and efficient resource and capacity planning, as well as customised timesheet workflows for accurate billing and tracking.</p>
                                         <span>Learn More</span>
                                     </div>
                                 </a>
@@ -240,13 +241,13 @@ const BcSupport = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex">
                             <div className="indut-card-one indut-card-one-pdd">
-                                <a href="/industries/microsoft-cloud-for-manufacturing/">
+                                <a href="/industries/">
                                     <div className="pic">
-                                        <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
-                                        <h3>Manufacturing</h3>
+                                        <img src="/img/rectangle-011.jpg" alt="Wholesale & Distribution" />
+                                        <h3>Wholesale & Distribution</h3>
                                     </div>
                                     <div className="pic-body">
-                                        <p>We provide specialised support for resolving BOM (Bill of Materials) errors, streamlining production scheduling processes, and ensuring seamless shop floor operations and reporting.</p>
+                                        <p>We support managing inventory ageing analyses, implementing efficient batch and lot tracking, and optimising end-to-end order processing to improve overall fulfilment speed.</p>
                                         <span>Learn More</span>
                                     </div>
                                 </a>
@@ -254,13 +255,13 @@ const BcSupport = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex">
                             <div className="indut-card-one indut-card-one-pdd">
-                                <a href="/industries/microsoft-cloud-for-manufacturing/">
+                                <a href="/industries/microsoft-cloud-for-financial-services/">
                                     <div className="pic">
-                                        <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
-                                        <h3>Manufacturing</h3>
+                                        <img src="/img/rectangle-04.jpg" alt="Finance" />
+                                        <h3>Finance</h3>
                                     </div>
                                     <div className="pic-body">
-                                        <p>We provide specialised support for resolving BOM (Bill of Materials) errors, streamlining production scheduling processes, and ensuring seamless shop floor operations and reporting.</p>
+                                        <p>With our services, you can manage financial transactions, reporting, and compliance while ensuring that your ERP system complies with industry standards and regulations.</p>
                                         <span>Learn More</span>
                                     </div>
                                 </a>
@@ -268,13 +269,13 @@ const BcSupport = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex">
                             <div className="indut-card-one indut-card-one-pdd">
-                                <a href="/industries/microsoft-cloud-for-manufacturing/">
+                                <a href="/industries/dynamics-365-for-healthcare/">
                                     <div className="pic">
-                                        <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
-                                        <h3>Manufacturing</h3>
+                                        <img src="/img/rectangle-03.jpg" alt="Healthcare" />
+                                        <h3>Healthcare</h3>
                                     </div>
                                     <div className="pic-body">
-                                        <p>We provide specialised support for resolving BOM (Bill of Materials) errors, streamlining production scheduling processes, and ensuring seamless shop floor operations and reporting.</p>
+                                        <p>We provide support for managing patient records, billing, and compliance. With our service, you can improve patient care and streamline operations.</p>
                                         <span>Learn More</span>
                                     </div>
                                 </a>
@@ -301,9 +302,8 @@ const BcSupport = () => {
                         <div className="col-lg-6 align-self-center">
                             <div className="supprt-header-new-one">
                                
-                                <p>Do you use Dynamics 365 Business Central and require consistent support? Managing complicated customisations, troubleshooting to avoid disruptions, offering required user training, helping with optimisation, and controlling updates smoothly all depend on dependable Dynamics 365 ERP support.</p>
-                                <p>To solve operational problems and improve efficiency, Dynamics Square provides thorough Business Central implementation services. Our knowledgeable staff guarantees your ERP system changes with your company demands and fixes problems fast.</p>
-                                <p>As a certified Microsoft Gold Partner in the UK, we offer premium support, proactive diagnostics, and strategic growth solutions. Dynamics Square is your reliable Business Central support partner guaranteeing seamless operations and ongoing development whether you require ad-hoc assistance, prepaid hours, or annual support.</p>
+                                <p>Is your current partner holding you back? Do they charge more for unnecessary add-ons, make your system complex with heavy integration, or fail to provide the support you need? If this is true, it is time you considered changing your existing Dynamics Business Central partner.</p>
+                                <p>Is your current partner holding you back? Do they charge more for unnecessary add-ons, make your system complex with heavy integration, or fail to provide the support you need? If this is true, it is time you considered changing your existing Dynamics Business Central partner.</p>
                             </div>
                         </div>
                     </div>
@@ -336,60 +336,51 @@ const BcSupport = () => {
                     <div className="row">
                         <div className="col-lg-9">
                             <div className="solution-new-banner-sub-head">
-                                <h2>Business Central Support Services: Downtime Isn’t an Option </h2>
-                                <p>Time is crucial in business, and as a trusted Dynamics 365 Business Central implementation partner in the UK, Dynamics Square understands this thing pretty well. We make every second count! No matter if you’re migrating, optimising, troubleshooting, or scaling, you have access to our fast, expert support that keeps your operations running, without disruptions, delays, or costly mistakes. </p>
-                                <p>Dynamics Square helps you with: </p>
+                                <h2>Dynamics Square: Your Hand-Holding Partner</h2>
+                                <p>At Dynamics Square, we believe in going beyond issue resolution and working as an extension of your team. Our support approach is proactive, strategic, and human-centric. Here’s what makes us your ideal partner:</p>
                             </div>
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-lg-7 order-2'>
+                        <div className='col-lg-7 order-2 align-self-center'>
                             <div className='row'>
                                 <div className='col-lg-6 d-flex'>
                                     <div className='card557'>
                                         <div className='card-233-body'>
-                                            <h3><span><i className="bi bi-check2"></i></span>Fresh Implementation & Migration Assistance</h3>
+                                            <h3><span><i className="bi bi-check2"></i></span>Dedicated Support Team</h3>
                                         </div>
-                                        <p>Get up and running without headaches or hiccups. </p>
+                                        <p>Work with certified Business Central consultants who understand your industry and business goals.</p>
 
                                     </div>
                                 </div>
                                 <div className='col-lg-6 d-flex'>
                                     <div className='card557'>
                                         <div className='card-233-body'>
-                                            <h3><span><i className="bi bi-check2"></i></span>Customisation & Optimisation</h3>
+                                            <h3><span><i className="bi bi-check2"></i></span>Timely Communication</h3>
                                         </div>
-                                        <p>Tailor Business Central to match your workflows perfectly.</p>
+                                        <p>Expect rapid response times, clear updates, and complete transparency at every stage.</p>
 
                                     </div>
                                 </div>
                                 <div className='col-lg-6 d-flex'>
                                     <div className='card557'>
                                         <div className='card-233-body'>
-                                            <h3><span><i className="bi bi-check2"></i></span>24/7 Troubleshooting & Issue Resolution</h3>
+                                            <h3><span><i className="bi bi-check2"></i></span>Growth-Focused Solutions</h3>
                                         </div>
-                                        <p>No waiting. No guesswork. Just solutions.</p>
+                                        <p>Our focus is on assisting you in scaling, from daily issue resolution to long-term system enhancement.</p>
 
                                     </div>
                                 </div>
                                 <div className='col-lg-6 d-flex'>
                                     <div className='card557'>
                                         <div className='card-233-body'>
-                                            <h3><span><i className="bi bi-check2"></i></span>Performance Tuning & Upgrades</h3>
+                                            <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
                                         </div>
-                                        <p>Stay ahead with the latest features, AI enhancements & security updates. </p>
+                                        <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
 
                                     </div>
                                 </div>
-                                <div className='col-lg-6 d-flex'>
-                                    <div className='card557'>
-                                        <div className='card-233-body'>
-                                            <h3><span><i className="bi bi-check2"></i></span>User Training & Best Practices</h3>
-                                        </div>
-                                        <p>Empower your team to maximise efficiency and productivity.</p>
-
-                                    </div>
-                                </div>
+                               
 
                             </div>
                         </div>
