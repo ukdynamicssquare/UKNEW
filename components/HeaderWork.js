@@ -8,11 +8,11 @@ import { useRouter } from "next/router";
 const HeaderWork = () => {
   const [isFixed, setIsFixed] = useState(false);
   const router = useRouter();
-
+  const gname="services-header"
   const headerClassMap = {
     "/": "specific-header",
-    "/products/new-solution": "services-header",
-    "/products/dynamics-365-business-central": "services-header",
+    "/products/dynamics-365-business-central": `${gname}`,
+    "/products/dynamics-365-business-central/bc-support": `${gname}`,
   };
 
   const currentHeaderClass = headerClassMap[router.pathname] || "";
