@@ -22,6 +22,7 @@ const Inedex = () => {
       </Head>
 
 
+
       <section className="panel panel-new-haed" style={{ transform: 'translateZ(0)' }}>
         <div className="container">
           <div className="row justify-content-center">
