@@ -9,6 +9,9 @@ export default function useSectionScroll({
   let panels = [];
 
   useEffect(() => {
+    if (window.innerWidth < 768) return;
+
+
     let cleanupFn;
 
     async function loadGsap() {
