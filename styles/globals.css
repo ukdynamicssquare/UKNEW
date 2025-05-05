@@ -16391,6 +16391,9 @@ padding: 80px 0px;
     .bg-003 {
       margin-top: -175px;
   }
+  .panel-new-haed h2, .panel-new-haed-side h2{
+    font-size: 40px;
+  }
   }
   @media (min-width: 768px) and (max-width: 1200px){
     .flot-5 {
@@ -16406,6 +16409,13 @@ padding: 80px 0px;
 
   }
   @media (max-width: 992px){
+    .bacg-over{
+      text-align: left;
+      margin-top: 30px;
+    }
+    .panel-new-haed h2, .panel-new-haed-side h2 {
+      font-size: 28px;
+  }
     .bg-003 {
       margin-top: -50px;
   }
