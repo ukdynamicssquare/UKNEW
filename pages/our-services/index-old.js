@@ -15,7 +15,7 @@ const Inedex = () => {
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/our-services/"
         />
-                <meta name="robots" content="noindex, nofollow"></meta>
+          <meta name="robots" content="noindex, nofollow"></meta>
         </Head>
         <section className="Solution-banner hero-1 hero">
         <div className="container">
