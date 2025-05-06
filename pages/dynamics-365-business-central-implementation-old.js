@@ -98,7 +98,7 @@ const BusinessCentralImplementation = () => {
               <div className='solution-new-banner-sub-head'>
                 <h2>Benefits of Implementing<br />
                   Dynamics 365 Business Central</h2>
-                <p>Implementing Business Central is not about replacing legacy systems. It's about recalibrating how your business runs structurally, financially, and strategically. </p>
+                <p>Implementing <a href="/products/dynamics-365-business-central/">Business Central</a> is not about replacing legacy systems. It's about recalibrating how your business runs structurally, financially, and strategically. </p>
                 <p>Here's what actually changes when Business Central is implemented right: </p>
               </div>
             </div>
@@ -207,7 +207,7 @@ const BusinessCentralImplementation = () => {
               <div className='card-671'>
                 <h3>Hidden Costs and Poor Budgeting</h3>
                 <p>The fear of Business Central implementation cost overruns is real. Many businesses underestimate the total cost, including training, integrations, and support. </p>
-                <p>Dynamics Square provides a transparent cost breakdown, ensuring you know where every penny is going. Our goal? Maximum ROI with zero surprises. To calculate ERP implementation cost, you can try our ERP implementation cost calculator. </p>
+                <p>Dynamics Square provides a transparent cost breakdown, ensuring you know where every penny is going. Our goal? Maximum ROI with zero surprises. To calculate ERP implementation cost, you can try our <a href="/erp-implementation-cost-calculator/">ERP implementation cost calculator</a>. </p>
               </div>
             </div>
           </div>
@@ -337,7 +337,7 @@ const BusinessCentralImplementation = () => {
               <div className='card-672'>
                 <img src="/img/rectang-05.png" alt="rectang-04" />
                 <h3>AI Agents in D365 Business Central: The Future of Smart ERP </h3>
-                <p>AI has turned out to be an integral and inevitable part of the operations of most businesses. Those who are not harnessing its potential are missing out on efficiency and growth. AI Agents in D365 Business Central help businesses: </p>
+                <p>AI has turned out to be an integral and inevitable part of the operations of most businesses. Those who are not harnessing its potential are missing out on efficiency and growth. <a href="/blog/why-are-ai-agents-the-game-changer-for-business-central-users/">AI Agents in D365 Business Central</a> help businesses: </p>
                 <ul>
                   <li>Detect anomalies in financial transactions</li>
                   <li>Automate compliance tracking </li>
@@ -357,7 +357,7 @@ const BusinessCentralImplementation = () => {
           <div className="col-lg-7">
               <div className='solution-new-banner-sub-head'>
                 <h2>Business Central Implementation Cost: What to Expect?</h2>
-                <p>Need clarity on Business Central implementation cost? While costs vary based on business size and requirements, here’s what to expect:</p>
+                <p>Need clarity on <a href="/products/dynamics-365-business-central/pricing-licensing/">Business Central implementation cost</a>? While costs vary based on business size and requirements, here’s what to expect:</p>
                 <div className='ol-list'>
                   <div className='ol-listitem'>
                   Implementation Stage
