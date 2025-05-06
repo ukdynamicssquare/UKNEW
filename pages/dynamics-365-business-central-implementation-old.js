@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 // import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
-import faqData from '../public/data/business_centeral_faq.json';
+import faqData from '../public/data/business_centeral_imple.json';
 import useCardScrollEffect from "../components/useCardScrollEffect";
 
 const BusinessCentralImplementation = () => {
@@ -15,7 +15,7 @@ const BusinessCentralImplementation = () => {
   useCardScrollEffect()
 
   /*faq*/
-  const [visibleCount, setVisibleCount] = useState(5);
+  const [visibleCount, setVisibleCount] = useState(3);
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 3);
@@ -43,15 +43,16 @@ const BusinessCentralImplementation = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='solution-new-banner-one-content'>
-                <h1>Microsoft Dynamics 365 Business Central</h1>
-                <span className='large-heading'>Dynamics 365 Business Central Support Services</span>
-                <p>Dynamics Square's Dynamics 365 Business Central Support Services can help you to improve your business operations. Our all-encompassing support guarantees the smooth operation of your Microsoft ERP solution, therefore enabling you to concentrate on efficiency and expansion. </p>
+                <h1>Dynamics 365 Business Central Implementation </h1>
+                <span className='large-heading'>Implement today, thrive tomorrow! </span>
+                <p>Looking for Business Central implementation? Get it right the first time with Dynamics Square, a leading Microsoft Dynamics 365 Business Central implementation partner in the UK! </p>
+                <p>No matter the size and complexity of your business, experts at Dynamics Square ensure a well-planned implementation backed by proven methodology that doesn’t cause any disruptions. </p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Tell me more &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>See How Does It Work  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -71,15 +72,14 @@ const BusinessCentralImplementation = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="supprt-header-new-one">
-                <h2>Experience Reliable & Responsive Business Central Support</h2>
-                <p>Do you use <a href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</a> and require consistent support? Managing complicated customisations, troubleshooting to avoid disruptions, offering required user training, helping with optimisation, and controlling updates smoothly all depend on dependable Dynamics 365 ERP support.</p>
-                <p>To solve operational problems and improve efficiency, Dynamics Square provides thorough Business Central implementation services. Our knowledgeable staff guarantees your ERP system changes with your company demands and fixes problems fast.</p>
-                <p>As a certified Microsoft Gold Partner in the UK, we offer premium support, proactive diagnostics, and strategic growth solutions. Dynamics Square is your reliable Business Central support partner guaranteeing seamless operations and ongoing development whether you require ad-hoc assistance, prepaid hours, or annual support.</p>
+                <h2>Why is Business Central Implementation Important? </h2>
+                <p>Losing edge due to data silos? Or bothered by slow or manual processes? Poor integration can lead to disconnected and inefficient processes. Besides, things like high maintenance costs and limited scalability can limit the potential of your business. </p>
+                <p>Business Central implementation ends these woes and helps your business not just stay competitive but thrive. It is not an implementation; it is digital transformation! </p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Learn What Business Central Is  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -98,15 +98,15 @@ const BusinessCentralImplementation = () => {
               <div className='solution-new-banner-sub-head'>
                 <h2>Benefits of Implementing<br />
                   Dynamics 365 Business Central</h2>
-                <p>Implementing Business Central is not about replacing legacy systems. It’s about recalibrating how your business runs structurally, financially, and strategically.</p>
-                <p>Here’s what actually changes when Business Central is implemented right:</p>
+                <p>Implementing Business Central is not about replacing legacy systems. It's about recalibrating how your business runs structurally, financially, and strategically. </p>
+                <p>Here's what actually changes when Business Central is implemented right: </p>
               </div>
             </div>
           </div>
           <div className='row g-4'>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-01.png" alt="serv-01" width="32" height="32" />
+                <img src="/img/serv-01.png" alt="Improved Financials" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
 
@@ -114,63 +114,63 @@ const BusinessCentralImplementation = () => {
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-02.png" alt="serv-02" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-02.png" alt="Proactive Operations" width="32" height="32" />
+                <h3>Proactive Operations</h3>
+                <p>With Business Central, inventory doesn’t go out of sync. Supply chain shocks are met with preemptive adjustments, not apologies to clients. Business Central turns your business operations from reactive to proactive. </p>
 
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-03.png" alt="serv-03" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-03.png" alt="A Single Source of Operational Truth" width="32" height="32" />
+                <h3>A Single Source of Operational Truth </h3>
+                <p>Sales, finance, warehousing, and procurement, all talking to the same system in real time. Decisions aren’t something to be discussed; they’re aligned by default. No lags, no duplicates, no misreads, just pure efficiency!</p>
 
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-04.png" alt="serv-04" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-04.png" alt="Run Business Without Risks" width="32" height="32" />
+                <h3>Run Business Without Risks</h3>
+                <p>With role-based permissions, audit trails, and ready-to-go compliance reports, Business Central makes governance effortless. You don’t need extra tools or manual checks, control is built into every process, right from the start.</p>
 
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-05.png" alt="serv-05" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-05.png" alt="Scale Without System Stress" width="32" height="32" />
+                <h3>Scale Without System Stress</h3>
+                <p>As your business evolves with new teams, new markets, and new models, Business Central flexes with you. No patchwork fixes, no painful upgrades. It’s built to handle complexity without collapsing under it.</p>
 
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-06.png" alt="serv-06" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-06.png" alt="Integrate Effortlessly" width="32" height="32" />
+                <h3>Integrate Effortlessly</h3>
+                <p>Business Central integration connects apps across and beyond the Microsoft ecosystem, creating a unified system where everything just clicks. No silos and no slowdowns. Just smoother operations, powered by coherence. </p>
 
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-07.png" alt="serv-07" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-07.png" alt="Stay Up and Running, All the Time" width="32" height="32" />
+                <h3>Stay Up and Running, All the Time</h3>
+                <p>Business Central’s cloud architecture and low-code environment help keep your business agile. Upgrades, be they manual customisations or automatic regular updates from Microsoft, keep your system running smoothly and up-to-date. </p>
 
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
               <div className="card-671">
-                <img src="/img/serv-08.png" alt="serv-08" width="32" height="32" />
-                <h3>Improved Financials</h3>
-                <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
+                <img src="/img/serv-08.png" alt="Insights That Speak Before You Ask" width="32" height="32" />
+                <h3>Insights That Speak Before You Ask</h3>
+                <p>Dashboards update in real time. Trends surface early. Business Central replaces rearview reporting with forward-looking clarity, so leaders act on what will happen, not just what did. </p>
 
               </div>
             </div>
             <div className='col-lg-8'>
               <div style={{ paddingTop: '20px' }}>
-                <p><b>With all these aforementioned benefits, it’s time to make your business agile!</b></p>
+                <p><b>With all these aforementioned benefits, it’s time to make your business agile! </b></p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
@@ -190,24 +190,24 @@ const BusinessCentralImplementation = () => {
               <div className='solution-new-banner-sub-head'>
                 <h2>Why the Right Implementation Partner Matters</h2>
                 <p><b>Is it important to go with an experienced Business Central implementation partner?</b></p>
-                <p>Research by Gartner reveals a striking reality: Between 55% and 75% of ERP initiatives don’t hit the mark on their objectives, leaving businesses with untapped potential and unmet goals.</p>
-                <p>So, what does this research indicate? The intervention of a Dynamics 365 implementation partner who holds expertise in your business domain becomes crucial. With 11+ industries penetrated, Dynamics Square can help you avoid these frequently made ERP implementation mistakes</p>
+                <p>Research by Gartner reveals a striking reality: Between 55% and 75% of ERP initiatives don’t hit the mark on their objectives, leaving businesses with untapped potential and unmet goals. </p>
+                <p>So, what does this research indicate? The intervention of a Dynamics 365 implementation partner who holds expertise in your business domain becomes crucial. With 11+ industries penetrated, Dynamics Square can help you avoid these frequently made ERP implementation mistakes: </p>
               </div>
             </div>
           </div>
           <div className='row g-4'>
             <div className='col-lg-6 d-flex'>
               <div className='card-671'>
-                <h3>Lack of a Clear Implementation Plan</h3>
-                <p>Without a structured plan, businesses end up with unnecessary delays, budget overruns, and feature misalignment.</p>
-                <p>Dynamics Square has certified Microsoft consultants with deep industry expertise. They analyse your business and devise a detailed Business Central implementation project plan. This helps ensure a seamless transition from planning to execution.</p>
+                <h3>Lack of a Clear Implementation Plan </h3>
+                <p>Without a structured plan, businesses end up with unnecessary delays, budget overruns, and feature misalignment. </p>
+                <p>Dynamics Square has certified Microsoft consultants with deep industry expertise. They analyse your business and devise a detailed Business Central implementation project plan. This helps ensure a seamless transition from planning to execution. </p>
               </div>
             </div>
             <div className='col-lg-6 d-flex'>
               <div className='card-671'>
-                <h3>Lack of a Clear Implementation Plan</h3>
-                <p>Without a structured plan, businesses end up with unnecessary delays, budget overruns, and feature misalignment.</p>
-                <p>Dynamics Square has certified Microsoft consultants with deep industry expertise. They analyse your business and devise a detailed Business Central implementation project plan. This helps ensure a seamless transition from planning to execution.</p>
+                <h3>Hidden Costs and Poor Budgeting</h3>
+                <p>The fear of Business Central implementation cost overruns is real. Many businesses underestimate the total cost, including training, integrations, and support. </p>
+                <p>Dynamics Square provides a transparent cost breakdown, ensuring you know where every penny is going. Our goal? Maximum ROI with zero surprises. To calculate ERP implementation cost, you can try our ERP implementation cost calculator. </p>
               </div>
             </div>
           </div>
@@ -221,9 +221,9 @@ const BusinessCentralImplementation = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Implementation Methodology: A Proven Approach</h2>
-                <p>Dynamics Square is a certified Microsoft partner that helps businesses get the most out of Dynamics 365 Business Central implementation. Speaking of Business Central implementation methodology, we follow Microsoft Sure Step methodology, which enables us to build a clear path from challenge to solution. Our approach blends proven frameworks with real-world agility, ensuring faster rollouts, minimal risk, and systems that are ready to grow with you.</p>
-                <p>Here’s a sneak peek into how the implementation takes place, in general:</p>
+                <h2>Business Central Implementation Methodology: A Proven Approach </h2>
+                <p>Dynamics Square is a certified Microsoft partner that helps businesses get the most out of Dynamics 365 Business Central implementation. Speaking of Business Central implementation methodology, we follow Microsoft Sure Step methodology, which enables us to build a clear path from challenge to solution. Our approach blends proven frameworks with real-world agility, ensuring faster rollouts, minimal risk, and systems that are ready to grow with you. </p>
+                <p>Here’s a sneak peek into how the implementation takes place, in general: </p>
               </div>
             </div>
           </div>
@@ -233,11 +233,11 @@ const BusinessCentralImplementation = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left'>
-                      <h3>Automated Finance & Accounting </h3>
-                      <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
+                      <h3>Phase 1: Discovery & Assessment </h3>
+                      <p>Before we do anything, we take a deep dive into your existing systems, workflows, and friction points. We make note of what’s working, what’s broken, and what your teams wish they had. This phase is all about aligning technology with business goals, identifying critical integrations, and laying the groundwork for a solution that actually solves problems and not just adds another layer. </p>
                       <ul>
-                        <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                        <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
+                        <li>Understand current systems & gaps</li>
+                        <li>Define goals, needs & integrations</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -248,11 +248,11 @@ const BusinessCentralImplementation = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left'>
-                      <h3>Automated Finance & Accounting </h3>
-                      <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
+                      <h3>Phase 2: Solution Design & Customization </h3>
+                      <p>Here’s where the blueprint becomes a tailored solution. We shape Dynamics 365 Business Central around your processes, not the other way around. From custom configurations to smart integrations with third-party tools and even embedding AI agents and Copilot automation, we build with the future in mind. </p>
                       <ul>
-                        <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                        <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
+                        <li>Configure Business Central to fit </li>
+                        <li>Integrate tools & enable AI automation </li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -263,11 +263,41 @@ const BusinessCentralImplementation = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left'>
-                      <h3>Automated Finance & Accounting </h3>
-                      <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
+                      <h3>Phase 3: Deployment & Data Migration </h3>
+                      <p>We move your data with care, securely and with precision, so your business keeps running while everything shifts behind the scenes. Our deep expertise ensures no downtime surprises. Just a clean handover into a system that’s ready to go. </p>
                       <ul>
-                        <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                        <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
+                        <li>Migrate data securely </li>
+                        <li>Ensure smooth, disruption-free go-live </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/rectang-03.jpg" width={580} height={408} alt="Card 1" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Phase 4: Training & User Adoption </h3>
+                      <p>Technology works when people have clarity on how to use it. We train your teams with real-life scenarios and practical sessions, so they’re confident from day one. Testing in a safe environment helps them get comfortable and helps us fine-tune the setup. </p>
+                      <ul>
+                        <li>Train teams in real-world use</li>
+                        <li>Conduct user testing & readiness checks </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/rectang-03.jpg" width={580} height={408} alt="Card 1" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left'>
+                      <h3>Phase 5: Ongoing Support & Optimization </h3>
+                      <p>Once you’re live, we stay with you for as long as you want us to be. You have our unwavering support, all the time. We monitor performance, apply updates, and are always on call for enhancements or troubleshooting. Your system evolves as your business does. </p>
+                      <ul>
+                        <li>Continuous monitoring & updates</li>
+                        <li>Dedicated support & enhancements </li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -294,10 +324,10 @@ const BusinessCentralImplementation = () => {
             <div className='col-lg-6 d-flex'>
               <div className='card-672'>
                 <img src="/img/rectang-04.png" alt="rectang-04" />
-                <h3>Copilot in Microsoft Business Central: AI That Works for You</h3>
-                <p>With out-of-the-box Microsoft Copilot integration, your teams have an assistant that automates repetitive tasks, analyses financial data at the blink of an eye, and helps in making data-driven decisions. Copilot in Microsoft Business Central takes efficiency to the next level by:</p>
+                <h3>Copilot in Microsoft Business Central: AI That Works for You </h3>
+                <p>With out-of-the-box Microsoft Copilot integration, your teams have an assistant that automates repetitive tasks, analyses financial data at the blink of an eye, and helps in making data-driven decisions. Copilot in Microsoft Business Central takes efficiency to the next level by: </p>
                 <ul>
-                  <li>Automating invoice processing and approvals </li>
+                  <li>Automating invoice processing and approvals</li>
                   <li>Providing real-time business insights through AI-powered reporting </li>
                   <li>Enhancing customer interactions with intelligent forecasting </li>
                 </ul>
@@ -306,12 +336,12 @@ const BusinessCentralImplementation = () => {
             <div className='col-lg-6 d-flex'>
               <div className='card-672'>
                 <img src="/img/rectang-05.png" alt="rectang-04" />
-                <h3>Copilot in Microsoft Business Central: AI That Works for You</h3>
-                <p>With out-of-the-box Microsoft Copilot integration, your teams have an assistant that automates repetitive tasks, analyses financial data at the blink of an eye, and helps in making data-driven decisions. Copilot in Microsoft Business Central takes efficiency to the next level by:</p>
+                <h3>AI Agents in D365 Business Central: The Future of Smart ERP </h3>
+                <p>AI has turned out to be an integral and inevitable part of the operations of most businesses. Those who are not harnessing its potential are missing out on efficiency and growth. AI Agents in D365 Business Central help businesses: </p>
                 <ul>
-                  <li>Automating invoice processing and approvals </li>
-                  <li>Providing real-time business insights through AI-powered reporting </li>
-                  <li>Enhancing customer interactions with intelligent forecasting </li>
+                  <li>Detect anomalies in financial transactions</li>
+                  <li>Automate compliance tracking </li>
+                  <li>Optimise supply chain processes in real-time  </li>
                 </ul>
               </div>
             </div>
@@ -371,15 +401,14 @@ const BusinessCentralImplementation = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-cta-001'>
-                <h3>Frustrated with slow support, costly add-ons, and surface-level fixes? Not anymore.</h3>
-                <p>Get a dedicated team, resolve issues faster, anytime, pay only for the support you utilise, and be a witness to transparent communication.</p>
-                <p>If Not Now, When?</p>
+                <h3>If You Keep Waiting, Things Might Get Out of Hands </h3>
+                <p>75% of ERP implementations don’t meet expectations. But that’s not your story, unless you delay. Let us show you how a right-sized, low-risk Business Central implementation can future-proof your business. </p>
                 <div>
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Book Your Free Demo Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Claim Your Free Consultation Today!   &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -393,8 +422,8 @@ const BusinessCentralImplementation = () => {
           <div className="row">
             <div className="col-lg-9">
               <div className="solution-new-banner-sub-head">
-                <h2>Dynamics Square: Your Hand-Holding Partner</h2>
-                <p>At Dynamics Square, we believe in going beyond issue resolution and working as an extension of your team. Our support approach is proactive, strategic, and human-centric. Here’s what makes us your ideal partner:</p>
+                <h2>Why Choose Dynamics Square as Your Implementation Partner? </h2>
+                <p>Choosing an implementation partner is as important as choosing the ERP itself. Here’s why businesses trust Dynamics Square: </p>
               </div>
             </div>
           </div>
@@ -404,36 +433,54 @@ const BusinessCentralImplementation = () => {
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Dedicated Support Team</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Proven Expertise</h3>
                     </div>
-                    <p>Work with certified Business Central consultants who understand your industry and business goals.</p>
+                    <p>350+ successful business central implementation projects across 11+ industries </p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Timely Communication</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Custom-Tailored Solutions</h3>
                     </div>
-                    <p>Expect rapid response times, clear updates, and complete transparency at every stage.</p>
+                    <p>We customise solutions to fit your business needs. </p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Growth-Focused Solutions</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Seamless Business Central Integration</h3>
                     </div>
-                    <p>Our focus is on assisting you in scaling, from daily issue resolution to long-term system enhancement.</p>
+                    <p>On requirement, we integrate Business Central with Microsoft and third-party apps. </p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>End-to-End Support</h3>
                     </div>
-                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
+                    <p>From planning to post-implementation optimisation, we ensure your success at every step. </p>
+
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>AI-Driven Transformation</h3>
+                    </div>
+                    <p>We speed up your operations with Copilot and AI Agents in D365 Business Central. </p>
+
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Competitive Pricing:</h3>
+                    </div>
+                    <p>Get world-class service without breaking the bank. </p>
 
                   </div>
                 </div>
