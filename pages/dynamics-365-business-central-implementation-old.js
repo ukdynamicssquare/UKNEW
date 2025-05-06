@@ -105,7 +105,7 @@ const BusinessCentralImplementation = () => {
           </div>
           <div className='row g-4'>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-01.png" alt="serv-01" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -113,7 +113,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-02.png" alt="serv-02" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -121,7 +121,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-03.png" alt="serv-03" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -129,7 +129,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-04.png" alt="serv-04" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -137,7 +137,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-05.png" alt="serv-05" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -145,7 +145,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-06.png" alt="serv-06" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -153,7 +153,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-07.png" alt="serv-07" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -161,7 +161,7 @@ const BusinessCentralImplementation = () => {
               </div>
             </div>
             <div className='col-lg-3 col-md-4 col-sm-6 d-flex'>
-              <div className="card-670">
+              <div className="card-671">
                 <img src="/img/serv-08.png" alt="serv-08" width="32" height="32" />
                 <h3>Improved Financials</h3>
                 <p>No more gathering numbers from different tools. Business Central pulls real-time financials, reconciles data automatically, and leaves zero room for manual errors. Your CFO gets to focus on forecasting, not formatting spreadsheets. </p>
@@ -238,11 +238,10 @@ const BusinessCentralImplementation = () => {
                       <ul>
                         <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
                         <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
-                        <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                      <Image src="/img/rectang-01.jpg" width={580} height={408} alt="Card 1" />
                     </div>
                   </div>
                 </div>
@@ -254,11 +253,10 @@ const BusinessCentralImplementation = () => {
                       <ul>
                         <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
                         <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
-                        <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                      <Image src="/img/rectang-02.jpg" width={580} height={408} alt="Card 1" />
                     </div>
                   </div>
                 </div>
@@ -270,27 +268,10 @@ const BusinessCentralImplementation = () => {
                       <ul>
                         <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
                         <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
-                        <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
-                    </div>
-                  </div>
-                </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left'>
-                      <h3>Automated Finance & Accounting </h3>
-                      <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
-                      <ul>
-                        <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                        <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
-                        <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                      <Image src="/img/rectang-03.jpg" width={580} height={408} alt="Card 1" />
                     </div>
                   </div>
                 </div>
@@ -300,30 +281,88 @@ const BusinessCentralImplementation = () => {
           </div>
         </div>
       </section>
-
-
-      <section className='bg-005'>
+      <section className='bg-006'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Planning to Switch Your Business Central Support Partner?</h2>
+                <h2>The Role of AI and Automation in Business Central Implementation</h2>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className='col-lg-6 align-self-center'>
-              <div className='support-image--one'>
-                <Image src="/img/bc-support-side-02.png" alt='bc-support' width={513} height={455} />
+          <div className='row g-5'>
+            <div className='col-lg-6 d-flex'>
+              <div className='card-672'>
+                <img src="/img/rectang-04.png" alt="rectang-04" />
+                <h3>Copilot in Microsoft Business Central: AI That Works for You</h3>
+                <p>With out-of-the-box Microsoft Copilot integration, your teams have an assistant that automates repetitive tasks, analyses financial data at the blink of an eye, and helps in making data-driven decisions. Copilot in Microsoft Business Central takes efficiency to the next level by:</p>
+                <ul>
+                  <li>Automating invoice processing and approvals </li>
+                  <li>Providing real-time business insights through AI-powered reporting </li>
+                  <li>Enhancing customer interactions with intelligent forecasting </li>
+                </ul>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="supprt-header-new-one">
+            <div className='col-lg-6 d-flex'>
+              <div className='card-672'>
+                <img src="/img/rectang-05.png" alt="rectang-04" />
+                <h3>Copilot in Microsoft Business Central: AI That Works for You</h3>
+                <p>With out-of-the-box Microsoft Copilot integration, your teams have an assistant that automates repetitive tasks, analyses financial data at the blink of an eye, and helps in making data-driven decisions. Copilot in Microsoft Business Central takes efficiency to the next level by:</p>
+                <ul>
+                  <li>Automating invoice processing and approvals </li>
+                  <li>Providing real-time business insights through AI-powered reporting </li>
+                  <li>Enhancing customer interactions with intelligent forecasting </li>
+                </ul>
+              </div>
+            </div>
 
-                <p>Is your current partner holding you back? Do they charge more for unnecessary add-ons, make your system complex with heavy integration, or fail to provide the support you need? If this is true, it is time you should consider changing your existing Dynamics Business Central partner.</p>
-                <p>Dynamics Square is one such leading name in the UK that helps you combat the customisation threat your current partner might be giving you. We assist you in a smooth transition with minimal transition and optimise your current system.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <section className='bg-005'>
+        <div className='container'>
+          <div className="row">
+          <div className="col-lg-7">
+              <div className='solution-new-banner-sub-head'>
+                <h2>Business Central Implementation Cost: What to Expect?</h2>
+                <p>Need clarity on Business Central implementation cost? While costs vary based on business size and requirements, here’s what to expect:</p>
+                <div className='ol-list'>
+                  <div className='ol-listitem'>
+                  Implementation Stage
+                  </div>
+                  <div className='ol-listitem'>
+                  Licensing
+                  </div>
+                  <div className='ol-listitem'>
+                  Customization
+                  </div>
+                  <div className='ol-listitem'>
+                  Data Migration
+                  </div>
+                  <div className='ol-listitem'>
+                  Training
+                  </div>
+                  <div className='ol-listitem'>
+                  Support & Maintenance
+                  </div>
+                </div>
+                <p>Dynamics Square ensures you get maximum value for your investment without overspending. Besides, you can use our ERP implementation cost calculator to calculate the actual cost of implementation.</p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Calculate Your ERP Cost &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
               </div>
             </div>
+            <div className='col-lg-5 align-self-center'>
+              <div className='support-image--one'>
+                <Image src="/img/rectang-06.png" alt='bc-support' width={513} height={510} />
+              </div>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -360,7 +399,7 @@ const BusinessCentralImplementation = () => {
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-7 order-2 align-self-center'>
+            <div className='col-lg-7 order-1 align-self-center'>
               <div className='row'>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
@@ -402,14 +441,14 @@ const BusinessCentralImplementation = () => {
 
               </div>
             </div>
-            <div className='col-lg-5 order-1'>
+            <div className='col-lg-5 order-2'>
               <div className='img-backs-sid'>
                 <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
               </div>
             </div>
           </div>
         </div>
-        <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div>
+     
       </section>
 
 

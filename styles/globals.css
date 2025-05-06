@@ -8,7 +8,8 @@
   /* --color-red: #bb2b36; */
   --color-red: #bb2b36;
   --color-blue: #1d3557;
-  --color-grey: #585858;
+  /* --color-grey: #585858; */
+  --color-grey: #444;
   --color-bg: #f7f9fb;
   --shadow-small: 0px 0px 30px rgba(127, 137, 161, 0.25);
   --shadow-medium: 0px 2px 20px rgba(1, 41, 112, 0.1);
@@ -16341,14 +16342,14 @@ padding: 80px 0px;
   padding: 20px;
   border-radius: 9px;
 }
-.card-670 img{
+.card-671 img{
   width: 32px;
     height: 32px;
     object-fit: contain;
     margin-bottom:15px
 }
 
-.card-670 h3,{
+.card-671 h3{
   font-size: 17px;
     margin-bottom: 15px;
 }
@@ -16362,9 +16363,36 @@ padding: 80px 0px;
 .card-671 p:last-child{
   margin-bottom:0px
 }
+.card-672{}
+.card-672 img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.card-672 h3{
+  font-size: 16px;
+    margin-bottom: 20px;
+}
+.card-672 p{}
+.card-672 ul{}
+.card-672 ul li{
+  margin-bottom: 5px;
+}
 .bg-005{
   background-color:#f1f0f4;
   padding:80px 0px
+}
+.ol-list{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding:15px 0px 20px
+}
+.ol-list .ol-listitem{
+  background: #fff;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 9px;
 }
 
 /*media scren*/
