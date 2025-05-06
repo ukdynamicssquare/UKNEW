@@ -16334,6 +16334,39 @@ padding: 80px 0px;
 .support-image--one{
   text-align: center;
 }
+.card-670{
+}
+.card-671{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-670 img{
+  width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-bottom:15px
+}
+
+.card-670 h3,{
+  font-size: 17px;
+    margin-bottom: 15px;
+}
+.card-670 p, .card-671 p{
+  font-size:15px
+}
+.card-671 h3{
+  font-size: 16px;
+    margin-bottom: 15px;
+}
+.card-671 p:last-child{
+  margin-bottom:0px
+}
+.bg-005{
+  background-color:#f1f0f4;
+  padding:80px 0px
+}
+
 /*media scren*/
 
 @media (min-width: 1440px) and (max-width: 1700px){

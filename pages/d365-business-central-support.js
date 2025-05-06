@@ -51,7 +51,7 @@ const BcSupport = () => {
                             <div className='m-b-image-banner'>
                                 <Image src="/img/bc-support-banner.png" alt='bc-support-banner' width={1097} height={656} />
                                 <div className='ff-one'>  <span className=''>Dedicated Key Account Manager</span></div>
-                                <div className='ff-two'>  <span className=''>Dedicated Key Account Manager</span></div>
+                                <div className='ff-two'>  <span className=''>Rapid Issue Resolution</span></div>
                             </div>
                         </div>
 
