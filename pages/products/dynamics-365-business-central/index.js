@@ -65,7 +65,7 @@ const BusinessCentral = () => {
               <div className='solution-new-banner-one-content'>
                 <h1>Microsoft Dynamics 365 Business Central</h1>
                 <span className='large-heading'>Level up with a solution trusted<br /> by over 45,000 SMBs across the world.</span>
-                <p>Bid adieu to data silos, the biggest culprits behind operational inefficiencies. Adopt Business Central, an advanced ERP that comes with out-of-the-box AI capabilities, Microsoft Copilot, and has less than 6 months of payback on investment. </p>
+                <p>Eliminate data silos, the biggest culprits behind operational inefficiencies. Adopt Dynamics 365 Business Central (D365 BC), an advanced ERP that comes with out-of-the-box AI capabilities, Microsoft Copilot, and has less than 6 months of payback on investment.</p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
@@ -111,9 +111,9 @@ const BusinessCentral = () => {
             <div className='col-lg-6'>
               <div className='solution-new-banner-sub-head r-top-60'>
                 <h2>What is Business Central?</h2>
-                <p>It is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability. </p>
+                <p>Dynamics 365 Business Central is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability.</p>
 
-                <p>Adopt the best ERP system of 2024 to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date. </p>
+                <p>Deploy this Microsoft ERP system to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date.</p>
                 <div className="text-lg-start">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
@@ -150,11 +150,11 @@ const BusinessCentral = () => {
               <div className='product-side-002-content'>
                 <p><b>If by any chance you are facing any of these issues, you are in deep trouble. </b></p>
 
-                <p>You need an integrated system that has AI and automation capabilities. This is where Business Central comes to your rescue. </p>
+                <p>You need an integrated system that has AI and automation capabilities. This is where Business Central ERP comes to your rescue. </p>
 
                 <p>Organisations that have <a href="/dynamics-365-business-central-implementation/" target='_blank'>implemented Dynamics 365 Business Central</a> have managed to save up to 30% on operational costs.</p>
 
-                <p>No matter if you are a startup looking for a budget-friendly business solution or a growing business searching for a future-proof solution, Business Central is what you need! </p>
+                <p>No matter if you are a startup looking for a budget-friendly business solution or a growing business searching for a future-proof solution, D365 Business Central is what you need!</p>
                 <div className="text-lg-start">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
@@ -176,7 +176,7 @@ const BusinessCentral = () => {
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
                 <h2>Business Central Features: What’s Inside? </h2>
-                <p>Run business with confidence. With Business Central, get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business: </p>
+                <p>Run business with confidence with Business Central cloud ERP. Get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business:</p>
               </div>
             </div>
           </div>
@@ -256,7 +256,7 @@ const BusinessCentral = () => {
                     <div className="card1-content">
                       <div className="card1-content-inner">
                         <h3>Seamless Integrations: Work Smarter, Not Harder </h3>
-                        <p>Switching between platforms kills productivity. Business Central integrates effortlessly with: </p>
+                        <p>Switching between platforms kills productivity. Microsoft Business Central integrates effortlessly with:</p>
                         <ul>
                           <li>Microsoft 365 for smooth collaboration. </li>
                           <li>Power BI for next-level analytics & custom dashboards. </li>
@@ -307,7 +307,7 @@ const BusinessCentral = () => {
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left'>
                       <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
-                      <p>Your competitors are using data to make smarter, faster decisions; are you? With Business Central, you: </p>
+                      <p>Your competitors are using data to make smarter, faster decisions; are you? With Dynamics 365 Business Central, you:</p>
                       <ul>
                         <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
                         <li>Use predictive analytics to anticipate trends and demand shifts. </li>
@@ -323,7 +323,7 @@ const BusinessCentral = () => {
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left'>
                       <h3>Sales CRM: Close More Deals, Faster </h3>
-                      <p>Your sales team shouldn’t waste time manually tracking leads or missing follow-ups. Business Central empowers them to: </p>
+                      <p>Your sales team shouldn’t waste time manually tracking leads or missing follow-ups. BC ERP empowers them to:</p>
                       <ul>
                         <li>Automate lead nurturing so no opportunity slips through the cracks. </li>
                         <li>Track every customer interaction for personalised service. </li>
@@ -339,7 +339,7 @@ const BusinessCentral = () => {
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left'>
                       <h3>Seamless Integrations: Work Smarter, Not Harder </h3>
-                      <p>Switching between platforms kills productivity. Business Central integrates effortlessly with: </p>
+                      <p>Switching between platforms kills productivity. Microsoft Business Central integrates effortlessly with:</p>
                       <ul>
                         <li>Microsoft 365 for smooth collaboration. </li>
                         <li>Power BI for next-level analytics & custom dashboards. </li>
@@ -374,7 +374,7 @@ const BusinessCentral = () => {
                 <ul>
                   <li>
                     <h3>Scale Without the Growing Pains</h3>
-                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control! </p>
+                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central ERP automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control! </p>
                   </li>
                   <li>
                     <h3>Improve Cash Flow & Cut Unnecessary Costs </h3>
@@ -390,7 +390,7 @@ const BusinessCentral = () => {
                   </li>
                   <li>
                     <h3>Make Smart Decisions—Not Gut-Feeling Guesses </h3>
-                    <p>What if you could predict demand, analyse customer behaviour, and instantly see the financial impact of every decision? Business Central gives you real-time data, so you make decisions backed by facts, not assumptions. </p>
+                    <p>What if you could predict demand, analyse customer behaviour, and instantly see the financial impact of every decision? Dynamics 365 Business Central gives you real-time data, so you make decisions backed by facts, not assumptions. </p>
                   </li>
                 </ul>
                 <div className='product-side-002-ext'>
@@ -427,7 +427,7 @@ const BusinessCentral = () => {
               <div className='col-lg-10'>
                 <div className='solution-new-cta-001'>
                   <span className='solution-new-cta-t'>CASE STORY</span>
-                  <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central.</h3>
+                  <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central ERP.</h3>
                   <div>
                     <Link href="/case-studies/"><a
 
@@ -607,7 +607,7 @@ const BusinessCentral = () => {
             <div className='col-lg-9'>
               <div className='solution-new-cta-001'>
                 <h3>Act Now or Watch Others Take the Lead</h3>
-                <p>Every moment without an integrated and AI-powered system is a lost opportunity, wasted time, and unnecessary expense. Choose Business Central: The Smartest ERP for Your Business!</p>
+                <p>Every moment without an integrated and AI-powered system is a lost opportunity, wasted time, and unnecessary expense. Choose Business Central: The Smartest Cloud ERP for Your Business!</p>
                 <p>If Not Now, When?</p>
                 <div>
                   <Link href="#exampleModal"><a
@@ -629,8 +629,8 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Pricing & Licensing: Invest in Growth, Not Complexity </h2>
-                <p>Effortless scaling unlocks when you choose to invest in Business Central. Decisions that used to wait for days, now take seconds! </p>
+                <h2>D365 Business Central Pricing & Licensing: Invest in Growth, Not Complexity </h2>
+                <p>Effortless scaling unlocks when you choose to invest in Business Central Cloud ERP. Decisions that used to wait for days, now take seconds! </p>
                 <p>Transparent Pricing for UK Businesses </p>
               </div>
             </div>
@@ -677,7 +677,7 @@ const BusinessCentral = () => {
           <div className="row">
             <div className="col-lg-9">
               <div className="solution-new-banner-sub-head">
-                <h2>Business Central Support Services: Downtime Isn’t an Option </h2>
+                <h2>Dynamics 365 Business Central Support Services: Downtime Isn’t an Option </h2>
                 <p>Time is crucial in business, and as a trusted Dynamics 365 Business Central implementation partner in the UK, Dynamics Square understands this thing pretty well. We make every second count! No matter if you’re migrating, optimising, troubleshooting, or scaling, you have access to our fast, expert support that keeps your operations running, without disruptions, delays, or costly mistakes. </p>
                 <p>Dynamics Square helps you with: </p>
               </div>
@@ -700,7 +700,7 @@ const BusinessCentral = () => {
                     <div className='card-233-body'>
                       <h3><span><i className="bi bi-check2"></i></span>Customisation & Optimisation</h3>
                     </div>
-                    <p>Tailor Business Central to match your workflows perfectly.</p>
+                    <p>Tailor Business Central ERP to match your workflows perfectly.</p>
 
                   </div>
                 </div>
