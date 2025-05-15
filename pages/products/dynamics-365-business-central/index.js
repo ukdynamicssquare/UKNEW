@@ -110,7 +110,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <div className='solution-new-banner-sub-head r-top-60'>
-                <h2>What is Business Central?</h2>
+                <h2>What is Dynamics 365 Business Central?</h2>
                 <p>Dynamics 365 Business Central is what you need to outperform your competition and make your business thrive. It is an integrated, AI-powered, cloud-based ERP that has got you covered on all fronts: efficiency, scalability, and profitability.</p>
 
                 <p>Deploy this Microsoft ERP system to give a complete makeover to your operations. Transform your business from reactive to proactive by making it agile, intelligent, and up-to-date.</p>
@@ -175,7 +175,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Features: What’s Inside? </h2>
+                <h2>Dynamics 365 Business Central Features: What’s Inside? </h2>
                 <p>Run business with confidence with Business Central cloud ERP. Get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business:</p>
               </div>
             </div>
@@ -363,7 +363,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Benefits: You Can’t Afford to Ignore </h2>
+                <h2>Dynamics 365 Business Central Benefits: You Can’t Afford to Ignore </h2>
                 <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors. </p>
               </div>
             </div>

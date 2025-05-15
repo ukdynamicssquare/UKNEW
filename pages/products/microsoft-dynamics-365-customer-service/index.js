@@ -14,7 +14,7 @@ const CustomerService = () => {
         <title>Dynamics 365 Customer Service Partner UK | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics 365 Customer Service CRM optimise customer interactions with unified data, AI-driven insights, and efficient case management for exceptional support."
+          content="Deliver exceptional customer experiences with a trusted Dynamics 365 Customer Service partner in the UK. Get expert implementation, support, and tailored solutions."
         />
         <link
           rel="canonical"
@@ -23,13 +23,13 @@ const CustomerService = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-customer-service/" />
         <meta property="og:title" content="Microsoft Dynamics 365 Customer Service Partner | Dynamics Square" />
-        <meta property="og:description" content="Dynamics 365 Customer Service CRM optimise customer interactions with unified data, AI-driven insights, and efficient case management for exceptional support." />
+        <meta property="og:description" content="Deliver exceptional customer experiences with a trusted Dynamics 365 Customer Service partner in the UK. Get expert implementation, support, and tailored solutions." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/customer-service-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-customer-service/" />
         <meta property="twitter:title" content="Microsoft Dynamics 365 Customer Service Partner | Dynamics Square" />
-        <meta property="twitter:description" content="Dynamics 365 Customer Service CRM optimise customer interactions with unified data, AI-driven insights, and efficient case management for exceptional support." />
+        <meta property="twitter:description" content="Deliver exceptional customer experiences with a trusted Dynamics 365 Customer Service partner in the UK. Get expert implementation, support, and tailored solutions." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/customer-service-banner.png" />
       </Head>
       {/* <ModalVideo

@@ -12,7 +12,7 @@ const Marketing = () => {
         </title>
         <meta
           name="description"
-          content="Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing. Contact now today!"
+          content="Drive personalised customer journeys with Microsoft Dynamics 365 Marketing. Dynamics Square UK offers implementation, support, and tailored marketing solutions."
         />
            <meta name="robots" content="index,follow" />
            <link
@@ -22,13 +22,13 @@ const Marketing = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
         <meta property="og:title" content="Microsoft Dynamics 365 Marketing - Dynamics Square UK" />
-        <meta property="og:description" content="Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing. Contact now today!" />
+        <meta property="og:description" content="Drive personalised customer journeys with Microsoft Dynamics 365 Marketing. Dynamics Square UK offers implementation, support, and tailored marketing solutions." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-marketing/" />
         <meta property="twitter:title" content="Microsoft Dynamics 365 Marketing - Dynamics Square UK" />
-        <meta property="twitter:description" content="Automate your marketing activities, create engaging content leveraging AI, and increase your conversion rates with Dynamics 365 Marketing. Contact now today!" />
+        <meta property="twitter:description" content="Drive personalised customer journeys with Microsoft Dynamics 365 Marketing. Dynamics Square UK offers implementation, support, and tailored marketing solutions." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/marketing-banners.png" />
         
       </Head>
