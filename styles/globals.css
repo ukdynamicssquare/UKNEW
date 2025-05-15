@@ -14780,12 +14780,15 @@ display:none
   padding-top:60px
 }
 .btn-red{
-  background-color: #d73d3d;
-    border-radius: 6px;
-    font-size: 18px;
-    padding: 12px 30px;
-    color: #fff;
-    transition:.4s ease
+  background-color: #d73d3d !important;
+    border-radius: 6px !important;
+    font-size: 18px !important;
+    padding: 12px 30px !important;
+    color: #fff !important;
+    transition:.4s ease !important
+}
+.btn-red:hover{
+  background-color: #1d3557 !important;
 }
 .title-heading-center{
   text-align: center;
