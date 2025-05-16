@@ -374,7 +374,7 @@ const FormNewUI = () => {
                 <p>Get in touch Instantly</p>
                 <div className='coant-ii d-flex'>
                   <div className='icns-boxx'>
-                    <a href="tel:+442071932502" target="_self">
+                    <a href="tel:+442037697689" target="_self">
                       <img src="/img/group_call.png" alt="group_call" />
                       <span>Call</span>
                     </a>
@@ -394,7 +394,7 @@ const FormNewUI = () => {
                   <span>
                     Sales Support:{" "}
                   </span>
-                  <span> +44 (0) 207 193 2502</span> <br/><span style={{marginLeft:'102px'}}> +44 (0) 203 514 1057</span>
+                  <span> + 44 203 769 7689</span> <br/><span style={{marginLeft:'102px'}}></span>
                 
                 </div>
                 <div className="cont-info">

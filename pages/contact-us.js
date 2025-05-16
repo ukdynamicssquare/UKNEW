@@ -96,7 +96,7 @@ const ContactUs = () => {
                         <br />
                         London, EC1V 2NX, UK
                       </p>
-                      <p>+44 207 193 2502<span style={{display:'block'}}></span></p>
+                      <p>+ 44 203 769 7689<span style={{display:'block'}}></span></p>
                       <a
                         href="https://g.page/dynamics-square-london?share"
                         target="_blank"
