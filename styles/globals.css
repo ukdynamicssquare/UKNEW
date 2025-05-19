@@ -15311,9 +15311,30 @@ padding: 80px 0px;
   background-image: linear-gradient(to right, #984b6e 50%, #60518c 150%);
   opacity: 0.5;
 }
-
-
-
+.card-700{
+  border-radius: 8px;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 22px;
+}
+.card-700 p{
+  margin-bottom:0px
+}
+.card-700 ul {}
+.card-700 ul li{}
+.min-m-t-20{
+margin: -30px 0px -80px;
+}
+.cc-mm-2{
+  margin-top:20px
+}
+.cc-mm-2 p{
+font-weight: 500;
+    padding-left: 10px;
+}
+.card557.card557-7 p{
+color: #444444;
+}
 
 @media (max-width: 1440px) {
   .home-baner-head h2 {
