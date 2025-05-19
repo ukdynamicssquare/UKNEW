@@ -10,7 +10,7 @@
       { "source": "/dynamics-365-business-central-pricing-licensing/", "destination": "/products/dynamics-365-business-central/pricing-licensing/", "statusCode": 301 },
       { "source": "/power-bi-support/", "destination": "/products/microsoft-power-bi/support/", "statusCode": 301 },
       { "source": "/case-studies/nav09-nav18-upgrade/", "destination": "/case-studies/nav2009-nav18-upgrade/", "statusCode": 301 },
-       { "source": "/what-is-the-best-accounting-software-for-charities/", "destination": "/blog/best-accounting-software-for-charities-uk/", "statusCode": 301 }
+       { "source": "/blog/what-is-the-best-accounting-software-for-charities/", "destination": "/blog/best-accounting-software-for-charities-uk/", "statusCode": 301 }
     ]
   }
   
