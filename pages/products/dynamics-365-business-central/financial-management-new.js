@@ -64,7 +64,7 @@ const MicrosoftDynamics365Ai = () => {
         </div>
       </div>
       <section className='bg-003'>
-        <div className="container">
+        <div className="container my-float-i">
           <div className="row">
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
@@ -74,7 +74,7 @@ const MicrosoftDynamics365Ai = () => {
               </div>
             </div>
           </div>
-          <div className="row g-3">
+          <div className="row g-3 ">
             <div className="col-lg-4 d-flex">
               <div className="card-700">
                 <p>Teams manually chasing expense approvals and invoices</p>
@@ -114,11 +114,10 @@ const MicrosoftDynamics365Ai = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-5">
-              <div className="card-700-image">
-                <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
-              </div>
-            </div>
+
+          </div>
+          <div className="card-700-image">
+            <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
           </div>
         </div>
       </section>
@@ -182,7 +181,7 @@ const MicrosoftDynamics365Ai = () => {
                 <div className="col-lg-12">
                   <div className="cc-mm-2">
                     <p>With Business Central implementation, manage your finances responsibly. Ready to ditch the silos?</p>
-                    <Link href="#exampleModal"><a style={{marginTop:'15px'}} 
+                    <Link href="#exampleModal"><a style={{ marginTop: '15px' }}
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
@@ -203,49 +202,65 @@ const MicrosoftDynamics365Ai = () => {
         </div>
         {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
       </section>
-        <section className='bg-003'>
-        <div className="container">
-          <div className="row">
+      <section className='bg-003-t'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '20px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
                 <h2>Consequences of Poor Financial Management</h2>
-                <p>What happens when you don’t have a handle on finances? Well, this is how it hits your business:</p>
+                <p>Businesses can use Finance Management in Business Central to streamline their financial operations. It, in fact, helps businesses make a strategic shift which is from reacting to controlling.</p>
+                <p><b>Here’s what sets the functions in Business Central financial management apart:</b></p>
 
               </div>
             </div>
           </div>
-          <div className="row g-3">
-            <div className="col-lg-4 d-flex">
-              <div className="card-700">
-                <p>Teams manually chasing expense approvals and invoices</p>
+          <div className="row g-3 ">
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a">
+                <p><b>Intelligent Chart of Accounts</b></p>
+                <ul>
+                  <li>Define and track cost centres, objects, and budgets in granular ways</li>
+                  <li>Allocate direct and indirect costs with clarity </li>
+                  <li>Monitor profitability by customer, product, or location </li>
+                </ul>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
-              <div className="card-700">
-                <p>Data scattered across legacy systems with no connection</p>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a">
+                <p>Bank Reconciliation That Doesn’t Break You</p>
+                <ul>
+                  <li>One-click statement import </li>
+                  <li>AI-driven transaction suggestions</li>
+                  <li>Error flagging based on learned patterns</li>
+                </ul>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
-              <div className="card-700">
-                <p>Revenue leakages that no one notices until the quarter ends</p>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a">
+                <p>Bank Reconciliation That Doesn’t Break You</p>
+                <ul>
+                  <li>Define and track cost centres, objects, and budgets in granular ways </li>
+                  <li>Allocate direct and indirect costs with clarity </li>
+                  <li>Monitor profitability by customer, product, or location </li>
+                </ul>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
-              <div className="card-700">
-                <p>Decisions made on assumptions, not certainty</p>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a">
+                <p>Bank Reconciliation That Doesn’t Break You</p>
+                <ul>
+                  <li>Stay compliant with multi-country tax regimes</li>
+                  <li>Automated HMRC/GST/VAT calculations</li>
+                  <li>Configurable tax groups, jurisdictions, and posting setups </li>
+                </ul>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
-              <div className="card-700">
-                <p>Missed opportunities because reports came in after the window closed</p>
-              </div>
-            </div>
+
           </div>
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
                 <p><b>This is how growth gets stalled, and it is not from the outside, but from operational drag within.</b></p>
-                <p>Business Central Financial Management is what you need to bring an order in your finance operations.</p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
@@ -254,9 +269,92 @@ const MicrosoftDynamics365Ai = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-5">
-              <div className="card-700-image">
-                <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+
+          </div>
+          <div className="card-700-image-t">
+            <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-003-y'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '30px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Consequences of Poor Financial Management</h2>
+                <p>Businesses can use Finance Management in Business Central to streamline their financial operations. It, in fact, helps businesses make a strategic shift which is from reacting to controlling.</p>
+                <p><b>Key capabilities:</b></p>
+
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-4">
+              <div className='support-image--onea'>
+                <Image src="/img/bc-support-side-01.png" alt='bc-support' width={402} height={436} />
+              </div>
+            </div>
+            <div className="col-lg-8">
+              <div className="row g-3">
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p><b>Summarise</b> complex reports into human language </p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p><b>Summarise</b> complex reports into human language </p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p><b>Summarise</b> complex reports into human language </p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p><b>Summarise</b> complex reports into human language </p>
+                  </div>
+                </div>
+                
+
+                <div className="col-lg-12">
+                  <div className="card-700-bot">
+                    <p><b>This is how growth gets stalled, and it is not from the outside, but from operational drag within.</b></p>
+                    <Link href="#exampleModal"><a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Learn What Business Central Is &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div className="card-700-image-t">
+            <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+          </div>
+        </div>
+      </section>
+
+       <section className='solution-new-cta slution-new-cta-two'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-10'>
+              <div className='solution-new-cta-001'>
+                <h3>Ready to Make Finance the Catalyst, Not the Concern?</h3>
+                <p>You don’t need to keep firefighting finance issues or losing sleep over late reports. With Dynamics 365 Business Central financial management, you stop patching and start progressing.</p>
+                <div>
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Book Your Free Strategic Session  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
