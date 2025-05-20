@@ -634,7 +634,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Smart AI Solutions for Every Business </h2>
-                                    <p>Stay agile and adaptable with modern AI solutions meant to give you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. We are a dedicated Microsoft Dynamics CRM partner and ERP expert delivering value to:   </p>
+                                    <p>Stay agile and adaptable with modern AI solutions meant to give you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. We are a dedicated Microsoft Dynamics CRM partner and ERP expert delivering value to:  </p>
                                 </div>
                             </div>
                         </div>
@@ -739,7 +739,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Delivering Impact Where It Matters Because You Deserve More </h2>
-                                    <p>At Dynamics Square, we’ve guided businesses to optimise operations and boost performance. From 4x revenue growth to an 87% jump in customer retention, our results speak volumes.</p>
+                                    <p>At Dynamics Square, we’ve guided businesses to optimise operations and boost performance. As a results-driven Microsoft Dynamics 365 partner in the UK, we’ve helped clients achieve 4x revenue growth, 87% customer retention, and real transformation through strategic implementations. </p>
                                 </div>
                             </div>
                         </div>
@@ -750,7 +750,7 @@ const HomeOne = () => {
                                     <img src="/img/testimonials/Terence-Turner.png" alt="card-669-01" width={126} height={126} />
                                     <h3>Terence Turner</h3>
                                     <span>General Manager</span>
-                                    <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>
+                                    <p>Dynamics Square Team provided us a top-level service. Well trained staff as well as excellent support when needed. Very professional and trustworthy.</p>    
                                 </div>
                             </div>
                             <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
@@ -780,7 +780,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Resources & Insights</h2>
-                                    <p>Discover knowledge-packed resources designed to help you make informed decisions.</p>
+                                    <p>Discover knowledge-packed resources designed to help you make informed decisions with the support of a reliable Microsoft Dynamics ERP partner and innovation-led Microsoft Solutions Partner. </p>
                                 </div>
                             </div>
                         </div>
