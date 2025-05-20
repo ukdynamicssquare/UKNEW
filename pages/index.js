@@ -634,7 +634,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Smart AI Solutions for Every Business </h2>
-                                    <p>Stay agile and adaptable with modern AI solutions meant to give you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. We are a dedicated Microsoft Dynamics CRM partner and ERP expert delivering value to:  </p>
+                                    <p>Stay agile and adaptable with modern AI solutions meant to give you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. We are a dedicated Microsoft Dynamics CRM partner and ERP expert delivering value to:   </p>
                                 </div>
                             </div>
                         </div>
