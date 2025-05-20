@@ -426,7 +426,7 @@ const HomeOne = () => {
                             <div className='col-lg-8 col-md-12 col-sm-12'>
                                 <div className='new-title-heading'>
                                     <h2>Dynamics Square: Your Microsoft Solutions Partner</h2>
-                                    <p>As a Dynamics 365 implementation partner, we have been consistently delivering impactful solutions, earning trust through innovation & commitment and empowering businesses to achieve excellence, irrespective of the industry.</p>
+                                    <p>As a Microsoft Dynamics 365 implementation partner, we have been consistently delivering impactful solutions, earning trust through innovation & commitment and empowering businesses to achieve excellence, irrespective of the industry. Recognised as a trusted Microsoft Gold Partner and expert Microsoft Dynamics ERP partner, our team drives successful digital transformations through industry-aligned expertise and strategic execution. </p>
                                 </div>
                             </div>
                         </div>
@@ -457,11 +457,12 @@ const HomeOne = () => {
                             </div>
                         </div>
                         <div className='row case-div-o'>
-                            <div className='col-lg-12'>
+                            <div className='col-lg-8'>
                                 <h3>Growth Stories That Resonate: See Success in Action</h3>
+                                <p style={{margin:'-20px 0px 30px'}}>From education to manufacturing, our clients across the UK trust us as their go-to Microsoft Dynamics partner for solving real business challenges. </p>
                             </div>
-
-                            <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
+                            <div className='row'>
+                                <div className='col-lg-3 col-md-3 col-sm-6 d-flex'>
                                 <div className='card-666'>
                                     <div className='crad-img'>
                                         <Image src="/img/case-imgs-2.jpg" alt="case-imgs-1" width={610} height={592} />
@@ -505,6 +506,8 @@ const HomeOne = () => {
                                     </div>
                                 </div>
                             </div>
+                            </div>
+                            
 
                             <div className='col-lg-12 text-center to-22'>
                                 <a href="/case-studies/" className='btn-red btn'>Explore more use cases <i className="bi bi-arrow-right"></i></a>
@@ -519,7 +522,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Our Services: Smart & Simple</h2>
-                                    <p>We merge strategy, technology, and years of deep industry expertise to engineer and deliver solutions that drive real results.</p>
+                                    <p>As a trusted Microsoft Dynamics 365 partner in the UK, we offer end-to-end digital transformation services that align with your business goals. </p>
                                 </div>
                             </div>
                         </div>
@@ -578,7 +581,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Your Industry? Our Expertise!</h2>
-                                    <p>Dynamics Square brings decades of profound industry expertise that merges ongoing industry insights with Microsoft technology to help you capitalise on your biggest opportunities. As a trusted Microsoft Dynamics 365 implementation partner, we deliver solutions customised for your business growth. </p>
+                                    <p>Dynamics Square brings decades of profound industry expertise that merges ongoing industry insights with Microsoft technology to help you capitalise on your biggest opportunities. As a trusted Microsoft Dynamics 365 implementation partner, we deliver solutions customised for your business growth. Whether you’re in retail, manufacturing, education, or healthcare, we’re the Microsoft Dynamics 365 implementation partner UK businesses trust to deliver measurable results. </p>
                                 </div>
                             </div>
                         </div>
@@ -631,7 +634,7 @@ const HomeOne = () => {
                             <div className='col-md-9'>
                                 <div className='new-title-heading title-heading-center'>
                                     <h2>Smart AI Solutions for Every Business </h2>
-                                    <p>Stay agile and adaptable with modern AI solutions meant to give you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. </p>
+                                    <p>Stay agile and adaptable with modern AI solutions meant to give you the required competitive edge. Dynamics Square empowers businesses of all sizes to harness Microsoft Dynamics 365 solutions tailored for their growth. We are a dedicated Microsoft Dynamics CRM partner and ERP expert delivering value to:  </p>
                                 </div>
                             </div>
                         </div>
