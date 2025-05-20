@@ -18,19 +18,19 @@ const HomeOne = () => {
                 <title>Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™</title>
                 <meta
                     name="description"
-                    content="As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!"
+                    content="Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!"
                 />
                 <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.dynamicssquare.co.uk/" />
                 <meta property="og:title" content="Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™" />
-                <meta property="og:description" content="As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!" />
+                <meta property="og:description" content="Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!" />
                 <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/home-page-og.png" />
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/" />
                 <meta property="twitter:title" content="Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™" />
-                <meta property="twitter:description" content="As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!" />
+                <meta property="twitter:description" content="Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!" />
                 <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/home-page-og.png" />
 
                 <script
@@ -69,7 +69,7 @@ const HomeOne = () => {
                                     url: "https://www.dynamicssquare.co.uk/",
                                     name: "Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™",
                                     description:
-                                        "As a trusted UK Microsoft Dynamics 365 Partner, we help businesses succeed with Business Central, F&O & Power BI implementation. Contact us today!",
+                                        "Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!",
                                     publisher: {
                                         "@id": "https://www.dynamicssquare.co.uk/#organization",
                                     },
@@ -314,7 +314,7 @@ const HomeOne = () => {
                                 </div>
                                 <div className='home-baner-head'>
                                     <h1>UK's Trusted Microsoft Dynamics 365 Partner</h1>
-                                    <h2>When results count, <br />Dynamics Square delivers! </h2>
+                                    <span className='home-span'>When results count, <br />Dynamics Square delivers! </span>
                                     <p>As a certified Microsoft Solutions Partner and long-standing Dynamics 365 partner in the UK, we empower businesses with future-ready technologies that deliver impact. Dominate and thrive with AI-powered Microsoft solutions. With Dynamics Square, Your Success is Powered by Years of Proven Expertise—No Matter the Industry!</p>
                                    
                                     <a href="#exampleModal" data-bs-toggle="modal" className='btn btn-home'><img src='/img/buttion-ic-1.png' width={26} height={26} alt='icons' /> Make It Happen! <span><i className="bi bi-arrow-right-circle"></i></span></a>

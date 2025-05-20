@@ -36,8 +36,8 @@ const BcSupport = () => {
                     <div className='row justify-content-center'>
                         <div className='col-lg-8'>
                             <div className='solution-new-banner-one-content'>
-                                <h1>Microsoft Dynamics 365 Business Central</h1>
-                                <span className='large-heading'>Dynamics 365 Business Central Support Services</span>
+                                <h1>Dynamics 365 Business Central Support Services</h1>
+                                <span className='large-heading'>Beyond Support: We Engineer Growth!</span>
                                 <p>Dynamics Square's Dynamics 365 Business Central Support Services can help you to improve your business operations. Our all-encompassing support guarantees the smooth operation of your Microsoft ERP solution, therefore enabling you to concentrate on efficiency and expansion. </p>
                                 <div className="text-center">
                                     <Link href="#exampleModal"><a

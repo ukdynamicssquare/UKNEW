@@ -14463,12 +14463,15 @@ figure {
   color: #fff;
   margin-bottom: 20px;
 }
-.home-baner-head h2{
+.home-baner-head h2,.home-baner-head .home-span{
   font-size: 48px;
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
+  display:block;
+  line-height:normal
 }
+
 .home-baner-head p{
   color: #dfd4ff;
   font-size: 18px;
@@ -15337,7 +15340,7 @@ color: #444444;
 }
 
 @media (max-width: 1440px) {
-  .home-baner-head h2 {
+  .home-baner-head h2,.home-baner-head .home-span {
     font-size: 42px;
   }
   .new-title-heading h2{
@@ -15362,8 +15365,8 @@ color: #444444;
 }
 }
 @media (max-width: 768px) {
-  .home-baner-head h2 {
-    font-size: 36px;
+  .home-baner-head h2,.home-baner-head .home-span {
+    font-size: 32px;
 }
   .btn-home,.btn-red {
     font-size: 16px;
