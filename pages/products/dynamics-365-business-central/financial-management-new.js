@@ -123,7 +123,7 @@ const MicrosoftDynamics365Ai = () => {
         </div>
       </section>
 
-      <section className='s-options-end'>
+      <section className='s-options-ends'>
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
@@ -182,7 +182,7 @@ const MicrosoftDynamics365Ai = () => {
                 <div className="col-lg-12">
                   <div className="cc-mm-2">
                     <p>With Business Central implementation, manage your finances responsibly. Ready to ditch the silos?</p>
-                    <Link href="#exampleModal"><a
+                    <Link href="#exampleModal"><a style={{marginTop:'15px'}} 
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
@@ -202,6 +202,65 @@ const MicrosoftDynamics365Ai = () => {
           </div>
         </div>
         {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
+      </section>
+        <section className='bg-003'>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Consequences of Poor Financial Management</h2>
+                <p>What happens when you don’t have a handle on finances? Well, this is how it hits your business:</p>
+
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Teams manually chasing expense approvals and invoices</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Data scattered across legacy systems with no connection</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Revenue leakages that no one notices until the quarter ends</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Decisions made on assumptions, not certainty</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Missed opportunities because reports came in after the window closed</p>
+              </div>
+            </div>
+          </div>
+          <div className="row min-m-t-20">
+            <div className="col-lg-7 align-self-center">
+              <div className="card-700-bot">
+                <p><b>This is how growth gets stalled, and it is not from the outside, but from operational drag within.</b></p>
+                <p>Business Central Financial Management is what you need to bring an order in your finance operations.</p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Learn What Business Central Is &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-5">
+              <div className="card-700-image">
+                <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* <section className='bg-003'>

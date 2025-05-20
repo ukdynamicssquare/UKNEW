@@ -15,12 +15,12 @@ class MyDocument extends Document {
           <link href="/favicon.png" rel="icon" />
           <link href="/favicon.png" rel="apple-touch-icon" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
           <link
             href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Devonshire&family=Anton&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
             rel="stylesheet"
           />
-          <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" crossOrigin="anonymous"></link>
           <meta name="msvalidate.01" content="EE56DA95B952D734B4521A0EFA1F0E8B" />
           <meta
             name="google-site-verification"
