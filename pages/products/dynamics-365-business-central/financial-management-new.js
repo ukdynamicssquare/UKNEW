@@ -317,7 +317,7 @@ const MicrosoftDynamics365Ai = () => {
                     <p><b>Summarise</b> complex reports into human language </p>
                   </div>
                 </div>
-                
+
 
                 <div className="col-lg-12">
                   <div className="card-700-bot">
@@ -326,7 +326,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Learn What Business Central Is &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Deploy AI Agents Now! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -340,7 +340,7 @@ const MicrosoftDynamics365Ai = () => {
         </div>
       </section>
 
-       <section className='solution-new-cta slution-new-cta-two'>
+      <section className='solution-new-cta slution-new-cta-two'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-10'>
@@ -355,6 +355,63 @@ const MicrosoftDynamics365Ai = () => {
                     <span>Book Your Free Strategic Session  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='bg-003-x'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '30px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Financial Visibility Is a Superpower: Improve with Business Central Financial Reporting</h2>
+                <p>Financial reporting isn’t about filling templates. It’s about making tomorrow better using today’s truth. Business Central financial reporting makes CFOs, accountants, and business heads feel like pilots flying with clear skies and zero turbulence.</p>
+                <p><b>Key capabilities:</b></p>
+
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-12">
+              <div className="row g-3">
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <img src="/img/serv-09.png" alt="serv-09" />
+                    <p>Live dashboards for cash flow, liabilities, and receivables</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <img src="/img/serv-10.png" alt="serv-10" />
+                    <p>Customisable financial statements that speak your language</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <img src="/img/serv-11.png" alt="serv-11" />
+                    <p>Excel integration that feels native, not bolted on</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <img src="/img/serv-12.png" alt="serv-12" />
+                    <p>Time-based performance views (daily, weekly, quarterly, project-wise)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="card-700-bot">
+                <p><b>Tired of reports that hide more than they reveal?</b></p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Start Your Data Visibility Journey &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
               </div>
             </div>
           </div>
@@ -393,8 +450,9 @@ const MicrosoftDynamics365Ai = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Our Comprehensive Dynamics 365 Business Central Support Offerings</h2>
-                <p>Dynamics Square knows that every company has different needs. That is why we provide a variety of support services customised to fit your needs.</p>
+                <h2>Benefits of Business Central Financial Management</h2>
+                <p>Financial unpredictability, slow reporting, and manual reconciliations break companies before they even realise it. Dynamics 365 Business Central for Financial Management is not about upgrading software. It is about upgrading survival.</p>
+                <p><b>Here is what changes the moment you move financial operations to Business Central:</b></p>
               </div>
             </div>
           </div>
@@ -402,232 +460,91 @@ const MicrosoftDynamics365Ai = () => {
             <div className="col-12">
               <div className="stached-scroll-card">
                 <div className='mycard'>
-                  <div className='mycard__inner_two'>
-                    <h3>Ad-Hoc Support</h3>
-                    <div className='mycard__inner_gir'>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-001.png" alt="lexible Assistance" />
-                        <h4>Flexible Assistance</h4>
-                        <p>Our Ad-Hoc Support services are perfect for companies that need periodic help without long-term obligations.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-002.png" alt="System Health Checks" />
-                        <h4>System Health Checks</h4>
-                        <p>Our comprehensive system health checks help you to find and fix possible problems before they affect your running.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-003.png" alt="Customised Solutions<" />
-                        <h4>Customised Solutions</h4>
-                        <p>Our team provides customised solutions to guarantee you receive the maximum value from our Dynamics 365 Business Central Support Services.</p>
-                      </div>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <ul>
+                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                      </ul>
                     </div>
-
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-019.png" width={581} height={456} alt="Card 3" />
+                    </div>
                   </div>
                 </div>
                 <div className='mycard'>
-                  <div className='mycard__inner_two'>
-                    <h3>Prepaid Hours Support</h3>
-                    <div className='mycard__inner_gir'>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-004.png" alt="Proactive Support" />
-                        <h4>Proactive Support</h4>
-                        <p>Our 50-hour prepaid support system lets you have proactive and timely support. You can utilise 50-hours as per your need throughout the year.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-005.png" alt="Timely Assistance" />
-                        <h4>Timely Assistance</h4>
-                        <p>This plan guarantees that you have access to professional aid anytime you require it, so enabling you to keep seamless business operations.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-006.png" alt="Cost-Effective" />
-                        <h4>Cost-Effective</h4>
-                        <p>Our prepaid hours give you control over your budget. Pay for 50-hour Dynamics 365 Business Central support once and eliminate getting surprising invoice.</p>
-                      </div>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <ul>
+                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                      </ul>
                     </div>
-
-                  </div>
-                </div>
-
-                <div className='mycard'>
-                  <div className='mycard__inner_two'>
-                    <h3>Yearly Support</h3>
-                    <div className='mycard__inner_gir'>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-007.png" alt="Continuous Assistance" />
-                        <h4>Continuous Assistance</h4>
-                        <p>Our annual support package offers continuous assistance throughout the year.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-008.png" alt="Issue Resolution" />
-                        <h4>Issue Resolution</h4>
-                        <p>We help resolve general issues, fix bugs, and ensure strategic and improved workflows across your organisation.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-009.png" alt="Strategic Planning" />
-                        <h4>Strategic Planning</h4>
-                        <p>Our team works with you to develop strategic plans that align with your business goals and ensure long-term success.</p>
-                      </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-020.png" width={581} height={456} alt="Card 3" />
                     </div>
-
                   </div>
                 </div>
                 <div className='mycard'>
-                  <div className='mycard__inner_two'>
-                    <h3>End-User Training</h3>
-                    <div className='mycard__inner_gir'>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-010.png" alt="Effective Utilisation" />
-                        <h4>Effective Utilisation</h4>
-                        <p>Effective utilisation of your ERP system is essential for maximising its benefits.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-011.png" alt="raining Sessions" />
-                        <h4>Training Sessions</h4>
-                        <p>Dynamics Square provides training to help end-users adapt to newly configured or updated systems.</p>
-                      </div>
-                      <div className='mycard__inner_gird-colomn'>
-                        <img src="/img/suppot-icon-012.png" alt="Enhanced Productivity" />
-                        <h4>Enhanced Productivity</h4>
-                        <p>Our training sessions ensure that your team can effectively use the implemented solutions, enhancing productivity and efficiency.</p>
-                      </div>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <ul>
+                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                      </ul>
                     </div>
-
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-021.png" width={581} height={456} alt="Card 3" />
+                    </div>
                   </div>
                 </div>
-
-
-
-
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <ul>
+                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-022.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <ul>
+                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
+                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
+                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-023.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className='bg-004'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-9'>
-              <div className='solution-new-banner-sub-head'>
-                <h2>Our Tailored Support Services for Your Industry Needs</h2>
-                <p>Every industry has unique requirements. Dynamics Square gets it and provides you with a personalised service:</p>
-              </div>
-            </div>
-          </div>
-          <div className='row g-4'>
-
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="indut-card-one indut-card-one-pdd">
-                <a href="/industries/microsoft-cloud-for-manufacturing/">
-                  <div className="pic">
-                    <img src="/img/rectangle-01.jpg" alt="Manufacturing" />
-                    <h3>Manufacturing</h3>
-                  </div>
-                  <div className="pic-body">
-                    <p>We provide specialised support for resolving BOM (Bill of Materials) errors, streamlining production scheduling processes, and ensuring seamless shop floor operations and reporting.</p>
-                    <span>Learn More</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="indut-card-one indut-card-one-pdd">
-                <a href="/industries/dynamics-365-for-retail/">
-                  <div className="pic">
-                    <img src="/img/rectangle-02.jpg" alt="Retail & E-commerce" />
-                    <h3>Retail & E-commerce</h3>
-                  </div>
-                  <div className="pic-body">
-                    <p>Our services include robust POS system integration, real-time inventory and stock synchronisation across platforms, and automated management of return and refund processes.</p>
-                    <span>Learn More</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="indut-card-one indut-card-one-pdd">
-                <a href="/industries/professional-services/">
-                  <div className="pic">
-                    <img src="/img/rectangle-05.jpg" alt="Professional Services" />
-                    <h3>Professional Services</h3>
-                  </div>
-                  <div className="pic-body">
-                    <p>We assist with detailed project accounting setups and efficient resource and capacity planning, as well as customised timesheet workflows for accurate billing and tracking.</p>
-                    <span>Learn More</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="indut-card-one indut-card-one-pdd">
-                <a href="/industries/dynamics-365-for-distribution/">
-                  <div className="pic">
-                    <img src="/img/rectangle-011.jpg" alt="Wholesale & Distribution" />
-                    <h3>Wholesale & Distribution</h3>
-                  </div>
-                  <div className="pic-body">
-                    <p>We support managing inventory ageing analyses, implementing efficient batch and lot tracking, and optimising end-to-end order processing to improve overall fulfilment speed.</p>
-                    <span>Learn More</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="indut-card-one indut-card-one-pdd">
-                <a href="/industries/microsoft-cloud-for-financial-services/">
-                  <div className="pic">
-                    <img src="/img/rectangle-04.jpg" alt="Finance" />
-                    <h3>Finance</h3>
-                  </div>
-                  <div className="pic-body">
-                    <p>With our services, you can manage financial transactions, reporting, and compliance while ensuring that your ERP system complies with industry standards and regulations.</p>
-                    <span>Learn More</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex">
-              <div className="indut-card-one indut-card-one-pdd">
-                <a href="/industries/dynamics-365-for-healthcare/">
-                  <div className="pic">
-                    <img src="/img/rectangle-03.jpg" alt="Healthcare" />
-                    <h3>Healthcare</h3>
-                  </div>
-                  <div className="pic-body">
-                    <p>We provide support for managing patient records, billing, and compliance. With our service, you can improve patient care and streamline operations.</p>
-                    <span>Learn More</span>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className='bg-005'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-9'>
-              <div className='solution-new-banner-sub-head'>
-                <h2>Planning to Switch Your Business Central Support Partner?</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className='col-lg-6 align-self-center'>
-              <div className='support-image--one'>
-                <Image src="/img/bc-support-side-02.png" alt='bc-support' width={513} height={455} />
-              </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="supprt-header-new-one">
-
-                <p>Is your current partner holding you back? Do they charge more for unnecessary add-ons, make your system complex with heavy integration, or fail to provide the support you need? If this is true, it is time you should consider changing your existing Dynamics Business Central partner.</p>
-                <p>Dynamics Square is one such leading name in the UK that helps you combat the customisation threat your current partner might be giving you. We assist you in a smooth transition with minimal transition and optimise your current system.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className='solution-new-cta slution-new-cta-two'>
         <div className='container'>
           <div className='row'>
@@ -650,19 +567,109 @@ const MicrosoftDynamics365Ai = () => {
         </div>
         <img src="/img/n-015.png" alt="n-015" />
       </section>
-      <section className='s-options-end'>
+
+      <section>
         <div className="container">
           <div className="row">
             <div className="col-lg-9">
-              <div className="solution-new-banner-sub-head">
-                <h2>Dynamics Square: Your Hand-Holding Partner</h2>
-                <p>At Dynamics Square, we believe in going beyond issue resolution and working as an extension of your team. Our support approach is proactive, strategic, and human-centric. Here’s what makes us your ideal partner:</p>
+              <div className='solution-new-banner-sub-head'>
+                <h2>What to Expect Right After Business Central Finance Implementation</h2>
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="card-702 table-responsive">
+                <table className="table">
+                  <tbody>
+                    <tr>
+                      <th>Before Business Central</th>
+                      <th className="td-pg">After Business Central Implementation</th>
+                    </tr>
+                    <tr>
+                      <td>•	<b>Company A</b> used 4 disconnected tools to manage finance, each giving a different profit margin for the same product.</td>
+                      <td><div><i className="bi bi-check-square-fill"></i> <b>Unified books, zero duplicates, full audit trail.</b></div></td>
+                    </tr>
+                    <tr>
+                      <td>•	<b>Company B</b> couldn’t trace back a discrepancy in payroll for 3 weeks, lost both money and morale.</td>
+                      <td><div><i className="bi bi-check-square-fill"></i> <b>Automated reconciliations and 3-day close cycles. </b></div></td>
+                    </tr>
+                    <tr>
+                      <td className="b-hh">•	<b>Company C</b> missed a major investment window because the forecast came in two weeks late.</td>
+                      <td className="b-hh"><div><i className="bi bi-check-square-fill"></i> <b>Predictive planning with scenario modelling and AI-generated insights. </b></div></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-003-x'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '20px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Ready to Implement Business Central for Financial Management?</h2>
+                <p>Our Business Central implementation practice is not plug-and-play. We audit, understand, map, customise, and elevate. The system we deploy works because it is engineered for you! </p>
+                <p><b>What Do We Do Differently? </b></p>
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-12">
+              <div className="row g-3">
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Live dashboards for cash flow, liabilities, and receivables</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Customisable financial statements that speak your language</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Excel integration that feels native, not bolted on</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="card-700-bot">
+                <p><b>Tired of reports that hide more than they reveal?</b></p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Let’s Get You Started &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='s-options-end'>
+        <div className="container">
+          <div className="row">
+
+          </div>
           <div className='row'>
-            <div className='col-lg-7 order-2 align-self-center'>
+            <div className='col-lg-7 order-1 align-self-center'>
               <div className='row'>
+                <div className="col-lg-12">
+                  <div className="solution-new-banner-sub-head">
+                    <h2>Why Choose Dynamics Square as Your
+                      Implementation Partner?</h2>
+                    <p>Choosing an implementation partner is as important as choosing the ERP itself. Here’s why businesses trust Dynamics Square:</p>
+                  </div>
+                </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
@@ -703,16 +710,15 @@ const MicrosoftDynamics365Ai = () => {
 
               </div>
             </div>
-            <div className='col-lg-5 order-1'>
+            <div className='col-lg-5 order-2'>
               <div className='img-backs-sid'>
                 <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
               </div>
             </div>
           </div>
         </div>
-        <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div>
       </section>
-
+      {/* 
       <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
@@ -1028,7 +1034,7 @@ const MicrosoftDynamics365Ai = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
     </>
   );

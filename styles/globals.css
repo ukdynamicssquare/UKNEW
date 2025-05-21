@@ -16461,6 +16461,61 @@ font-size:14px
 .card-700.card-700-b{
   background-color:#f1f0f4
 }
+.bg-003-x{
+  background-color: #f1f0f4;
+}
+.card-701{
+ border-radius: 8px;
+    background-color: #fff;
+    padding: 24px 15px;
+}
+.card-701 .card-701-pic{
+  width:40px;
+  height:40px;
+}
+.card-701 img{
+   padding-bottom: 15px;
+}
+.card-701 p{
+  margin-bottom: 0;
+    font-size: 15px;
+    line-height: normal;
+}
+.mycard__inner-left.mycard__inner-left-p p{
+  font-size:14px
+}
+.card-702{}
+.card-702 th{
+   font-size: 15px;
+   padding-bottom: 20px;
+}
+.card-702 tr th{
+    border-color: #f1f0f4;
+}
+.card-702 td{
+width: 50%;
+    background-color: #f1f0f4;
+    font-size: 15px;
+    padding: 20px 30px;
+    border-bottom-color: #b79fda
+}
+.card-702 td.b-hh{
+       border-bottom-color: #f1f0f4;
+}
+.card-702 td .bi{
+  display:inline-block;
+  color:#55be16
+}
+.card-702 .td-pg{
+color: #ab77c2;
+    padding-left: 30px;
+}
+.card-702>table>tbody>tr>td>div{
+display: flex
+;
+    gap: 15px;
+    color: #444;
+}
 /*media scren*/
 
 @media (min-width: 1440px) and (max-width: 1700px){
