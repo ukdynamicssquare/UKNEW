@@ -43,13 +43,13 @@ const MicrosoftDynamics365Ai = () => {
                 <h1>Dynamics 365 Business Central for Financial Management</h1>
                 <span className='large-heading'>Bring clarity and order to your business finances!</span>
                 <p>With AI-powered accuracy and real-time visibility, Dynamics 365 Business Central for Financial Management prevents surprises, ensures compliance, and keeps your business growth aligned with clean, confident books.</p>
-                <p><b>Curious how it works? </b></p>
+                <p><b>Curious how it works?</b></p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Let’s Connect &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Let,s Connect &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -105,12 +105,12 @@ const MicrosoftDynamics365Ai = () => {
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
                 <p><b>This is how growth gets stalled, and it is not from the outside, but from operational drag within.</b></p>
-                <p>Business Central Financial Management is what you need to bring an order in your finance operations.</p>
+                <p>Dynamics 365 Business Central Financial Management is what you need to bring order to your finance operations.</p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Learn What Business Central Is &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Talk to Our Experts Now! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -137,45 +137,53 @@ const MicrosoftDynamics365Ai = () => {
                 <p>With Business Central Financial Management, finance becomes a real-time mirror of your operations, so you are up-to-date with your financials.</p>
 
               </div>
-              <div className='row' style={{paddingBottom:'20px'}}>
+              <div className='row' style={{ paddingBottom: '20px' }}>
                 <div className="col-lg-12">
-                  <p style={{ marginBottom: '30px' }}><b>Core strengths of the Finance module in Business Central</b></p>
+                  <p style={{ marginBottom: '30px' }}><b>Core strengths of the Finance module in Business Central:</b></p>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557 card557-7'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Dedicated Support Team</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Unified Financial Core</h3>
                     </div>
-                    <p>Work with certified Business Central consultants who understand your industry and business goals.</p>
+                    <p>Sales, purchasing, banking, and inventory, one heartbeat.</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557 card557-7'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Timely Communication</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Automated Workflows</h3>
                     </div>
-                    <p>Expect rapid response times, clear updates, and complete transparency at every stage.</p>
+                    <p>Approvals, allocations, and postings handled intelligently.</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557 card557-7'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Growth-Focused Solutions</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>AI Agents and Copilot</h3>
                     </div>
-                    <p>Our focus is on assisting you in scaling, from daily issue resolution to long-term system enhancement.</p>
+                    <p>Smart suggestions, predictive analysis, anomaly detection, all native.</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Business Central Finance Insights</h3>
                     </div>
-                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
+                    <p>View trends, not just transactions.</p>
                     <p></p>
 
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Real-Time Business Central Financial Reporting</h3>
+                    </div>
+                    <p>Access to real-time data. No more stale numbers.</p>
                   </div>
                 </div>
                 <div className="col-lg-12">
@@ -185,7 +193,7 @@ const MicrosoftDynamics365Ai = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Schedule Your Custom Demo &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -207,9 +215,9 @@ const MicrosoftDynamics365Ai = () => {
           <div className="row" style={{ paddingBottom: '20px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Consequences of Poor Financial Management</h2>
+                <h2>Learn Why CFOs Trust the Finance Module in Business Central</h2>
                 <p>Businesses can use Finance Management in Business Central to streamline their financial operations. It, in fact, helps businesses make a strategic shift which is from reacting to controlling.</p>
-                <p><b>Here’s what sets the functions in Business Central financial management apart:</b></p>
+                <p><b>Here's what sets the functions in Business Central financial management apart:</b></p>
 
               </div>
             </div>
@@ -219,9 +227,9 @@ const MicrosoftDynamics365Ai = () => {
               <div className="card-700 card-700-a">
                 <p><b>Intelligent Chart of Accounts</b></p>
                 <ul>
-                  <li>Define and track cost centres, objects, and budgets in granular ways</li>
-                  <li>Allocate direct and indirect costs with clarity </li>
-                  <li>Monitor profitability by customer, product, or location </li>
+                  <li>Dynamic dimensions enable flexible reporting without extra accounts</li>
+                  <li>Real-time updates across GL and sub-ledgers</li>
+                  <li>Audit trail embedded into every journal entry</li>
                 </ul>
               </div>
             </div>
@@ -237,7 +245,7 @@ const MicrosoftDynamics365Ai = () => {
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p>Bank Reconciliation That Doesn’t Break You</p>
+                <p>Cost Accounting Without the Complexity</p>
                 <ul>
                   <li>Define and track cost centres, objects, and budgets in granular ways </li>
                   <li>Allocate direct and indirect costs with clarity </li>
@@ -247,7 +255,7 @@ const MicrosoftDynamics365Ai = () => {
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p>Bank Reconciliation That Doesn’t Break You</p>
+                <p>Tax and Compliance? Auto Handled!</p>
                 <ul>
                   <li>Stay compliant with multi-country tax regimes</li>
                   <li>Automated HMRC/GST/VAT calculations</li>
@@ -260,12 +268,12 @@ const MicrosoftDynamics365Ai = () => {
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
-                <p><b>This is how growth gets stalled, and it is not from the outside, but from operational drag within.</b></p>
+                <p><b>Fine-tune your finances because these small gaps will turn into big crises.</b></p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Learn What Business Central Is &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Simplify with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -282,8 +290,8 @@ const MicrosoftDynamics365Ai = () => {
           <div className="row" style={{ paddingBottom: '30px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Consequences of Poor Financial Management</h2>
-                <p>Businesses can use Finance Management in Business Central to streamline their financial operations. It, in fact, helps businesses make a strategic shift which is from reacting to controlling.</p>
+                <h2>Copilot and AI Agents in Business Central Finance</h2>
+                <p>Imagine asking your system, “Why did profits dip last month?” and getting an answer with root causes. That’s no fantasy. That’s Copilot in Business Central and AI Agents.</p>
                 <p><b>Key capabilities:</b></p>
 
               </div>
@@ -299,29 +307,39 @@ const MicrosoftDynamics365Ai = () => {
               <div className="row g-3">
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p><b>Summarise</b> complex reports into human language </p>
+                    <p>Summarise complex reports into human language</p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p><b>Summarise</b> complex reports into human language </p>
+                    <p>Suggest adjustments based on trends and outliers</p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p><b>Summarise</b> complex reports into human language </p>
+                    <p>Alert you about budget overruns before they happen</p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p><b>Summarise</b> complex reports into human language </p>
+                    <p>Recommend cash flow strategies using real-time data</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Late payment prediction to identify customers likely to pay late</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Bank reconciliation assistance to track and match bank transactions and ledger entries</p>
                   </div>
                 </div>
 
 
                 <div className="col-lg-12">
                   <div className="card-700-bot">
-                    <p><b>This is how growth gets stalled, and it is not from the outside, but from operational drag within.</b></p>
+                    <p><b>Competing without AI capabilities can hamper your growth. Ready to automate tasks with Copilot?</b></p>
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
@@ -418,31 +436,6 @@ const MicrosoftDynamics365Ai = () => {
         </div>
       </section>
 
-      {/* <section className='bg-003'>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="supprt-header-new-one">
-                <h2>Experience Reliable & Responsive Business Central Support</h2>
-                <p>Do you use <a href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</a> and require consistent support? Managing complicated customisations, troubleshooting to avoid disruptions, offering required user training, helping with optimisation, and controlling updates smoothly all depend on dependable Dynamics 365 ERP support.</p>
-                <p>To solve operational problems and improve efficiency, Dynamics Square provides thorough Business Central implementation services. Our knowledgeable staff guarantees your ERP system changes with your company demands and fixes problems fast.</p>
-                <p>As a certified Microsoft Gold Partner in the UK, we offer premium support, proactive diagnostics, and strategic growth solutions. Dynamics Square is your reliable Business Central support partner guaranteeing seamless operations and ongoing development whether you require ad-hoc assistance, prepaid hours, or annual support.</p>
-                <Link href="#exampleModal"><a
-                  data-bs-toggle="modal"
-                  className="btn-get-started scrollto"
-                >
-                  <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                </Link>
-              </div>
-            </div>
-            <div className='col-lg-6 align-self-center'>
-              <div className='support-image--one'>
-                <Image src="/img/bc-support-side-01.png" alt='bc-support' width={402} height={436} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <section className='solution-new-banner-three'>
         {/* <div className="container" ref={containerRef}> */}
@@ -462,12 +455,12 @@ const MicrosoftDynamics365Ai = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
+                      <h3>Tighter Cash Control</h3>
                       <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
                       <ul>
-                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
-                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
-                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                        <li>Real-time cash position snapshots </li>
+                        <li>Immediate alerts on overdue accounts</li>
+                        <li>Rolling cash forecasts tied to live transactions</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -478,12 +471,12 @@ const MicrosoftDynamics365Ai = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
-                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <h3>Audit-Ready Systems</h3>
+                      <p>Every number traceable, every record accountable. Auditors no longer ask you to scramble. They walk into a system where every transaction, adjustment, and approval has a digital fingerprint. With Business Central financial management, you do not prepare for audits. You live in audit mode 365 days a year.</p>
                       <ul>
-                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
-                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
-                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                        <li>Automated audit trails</li>
+                        <li>Secure transaction histories</li>
+                        <li>Permission-based access control on all financial records</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -494,12 +487,12 @@ const MicrosoftDynamics365Ai = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
-                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <h3>Efficient Month-End Closes</h3>
+                      <p>From 10 days down to 3 or fewer. Month-end reporting used to be a grind that stretched teams to burnout. The functions in the Business Central financial management module cut the reconciliation cycle dramatically. Instead of sifting through disconnected ledgers, your finance teams pull clean, real-time closing reports almost at will.</p>
                       <ul>
-                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
-                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
-                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                        <li>Continuous reconciliation throughout the month</li>
+                        <li>Single-source financial truth across the business</li>
+                        <li>Auto-flagged discrepancies before month-end chaos erupts</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -510,12 +503,12 @@ const MicrosoftDynamics365Ai = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
-                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <h3>Aligned Departments</h3>
+                      <p>Everyone sees the same numbers, always. When departments work off different versions of "what's true," mistrust and mistakes skyrocket. Finance management in Business Central eliminates that chaos. Sales, operations, and procurement, they all look at the same financial realities. Miscommunications disappear and alignment becomes a practice, not coincidence.</p>
                       <ul>
-                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
-                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
-                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                        <li>Unified data model across functions</li>
+                        <li>Instant visibility into revenue, costs, margins</li>
+                        <li>No shadow spreadsheets or private financial workarounds </li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -526,12 +519,12 @@ const MicrosoftDynamics365Ai = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
-                      <p>Know where cash sits and where it's heading. With the finance module in Business Central, you get crystal-clear visibility into receivables, payables, liquidity positions, and forecasts. No more chasing spreadsheets, no more late realisations about cash shortfalls. You see the full cash map every morning. You plan with data, not instincts.</p>
+                      <h3>Decision Support</h3>
+                      <p>Business Central finance insights transform reporting into a launchpad for action. Margins under pressure surface early. High-cost customers stand out before they drain resources. ROI across products, projects, and teams becomes visible without delays or guesswork.</p>
                       <ul>
-                        <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
-                        <li>Use predictive analytics to anticipate trends and demand shifts. </li>
-                        <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
+                        <li>Predictive cash flow analytics </li>
+                        <li>Profitability trends sliced by product, project, or geography</li>
+                        <li>Real-time KPI dashboards inside your daily workflows</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -574,6 +567,7 @@ const MicrosoftDynamics365Ai = () => {
             <div className="col-lg-9">
               <div className='solution-new-banner-sub-head'>
                 <h2>What to Expect Right After Business Central Finance Implementation</h2>
+                <p>As a Microsoft Dynamics 365 implementation partner, Dynamics Square has seen it all. To just give you an idea of what Business Central can fix, here’s a before and after scenario for your perusal:</p>
               </div>
             </div>
           </div>
@@ -587,15 +581,15 @@ const MicrosoftDynamics365Ai = () => {
                       <th className="td-pg">After Business Central Implementation</th>
                     </tr>
                     <tr>
-                      <td>•	<b>Company A</b> used 4 disconnected tools to manage finance, each giving a different profit margin for the same product.</td>
+                      <td><b>Company A</b> used 4 disconnected tools to manage finance, each giving a different profit margin for the same product.</td>
                       <td><div><i className="bi bi-check-square-fill"></i> <b>Unified books, zero duplicates, full audit trail.</b></div></td>
                     </tr>
                     <tr>
-                      <td>•	<b>Company B</b> couldn’t trace back a discrepancy in payroll for 3 weeks, lost both money and morale.</td>
+                      <td><b>Company B</b> couldn’t trace back a discrepancy in payroll for 3 weeks, lost both money and morale.</td>
                       <td><div><i className="bi bi-check-square-fill"></i> <b>Automated reconciliations and 3-day close cycles. </b></div></td>
                     </tr>
                     <tr>
-                      <td className="b-hh">•	<b>Company C</b> missed a major investment window because the forecast came in two weeks late.</td>
+                      <td className="b-hh"><b>Company C</b> missed a major investment window because the forecast came in two weeks late.</td>
                       <td className="b-hh"><div><i className="bi bi-check-square-fill"></i> <b>Predictive planning with scenario modelling and AI-generated insights. </b></div></td>
                     </tr>
                   </tbody>
@@ -623,17 +617,17 @@ const MicrosoftDynamics365Ai = () => {
               <div className="row g-3">
                 <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
                   <div className="card-701">
-                    <p>Live dashboards for cash flow, liabilities, and receivables</p>
+                    <p>Finance-first workshops to understand what’s actually broken</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
                   <div className="card-701">
-                    <p>Customisable financial statements that speak your language</p>
+                    <p>Tailored configuration for roles, workflows, and geographies</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
                   <div className="card-701">
-                    <p>Excel integration that feels native, not bolted on</p>
+                    <p>Ongoing support so your team doesn’t just use the system but own it</p>
                   </div>
                 </div>
               </div>
@@ -642,12 +636,12 @@ const MicrosoftDynamics365Ai = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="card-700-bot">
-                <p><b>Tired of reports that hide more than they reveal?</b></p>
+                <p><b>Want the last finance system you’ll ever need? </b></p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Let’s Get You Started &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Book an Implementation Consultation! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -657,75 +651,50 @@ const MicrosoftDynamics365Ai = () => {
 
       <section className='s-options-end'>
         <div className="container">
-          <div className="row">
-
-          </div>
           <div className='row'>
             <div className='col-lg-7 order-1 align-self-center'>
               <div className='row'>
                 <div className="col-lg-12">
                   <div className="solution-new-banner-sub-head">
-                    <h2>Why Choose Dynamics Square as Your
-                      Implementation Partner?</h2>
-                    <p>Choosing an implementation partner is as important as choosing the ERP itself. Here’s why businesses trust Dynamics Square:</p>
+                    <h2>Why Businesses Choose Us: The "Why Dynamics Square" Truth</h2>
+                    <p>Choosing a solution is easy. Choosing the right team to bring it alive? That’s rare. Here’s why most businesses in UK place their bet on Dynamics Square:</p>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Dedicated Support Team</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>500+ successful Microsoft ERP projects</h3>
                     </div>
-                    <p>Work with certified Business Central consultants who understand your industry and business goals.</p>
-
                   </div>
                 </div>
-                <div className='col-lg-6 d-flex'>
+                <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Timely Communication</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Onsite and offshore teams, always at your disposal</h3>
                     </div>
-                    <p>Expect rapid response times, clear updates, and complete transparency at every stage.</p>
-
                   </div>
                 </div>
-                <div className='col-lg-6 d-flex'>
+                <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Growth-Focused Solutions</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Certified experts across finance, manufacturing, retail, and more</h3>
                     </div>
-                    <p>Our focus is on assisting you in scaling, from daily issue resolution to long-term system enhancement.</p>
-
                   </div>
                 </div>
-                <div className='col-lg-6 d-flex'>
+                <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Post-implementation support that’s hands-on, not hand-off</h3>
                     </div>
-                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
-
                   </div>
                 </div>
-                 <div className='col-lg-6 d-flex'>
+                <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Accelerated deployment models that reduce downtime by 40%</h3>
                     </div>
-                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
-
                   </div>
                 </div>
-                 <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
-                    </div>
-                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
-
-                  </div>
-                </div>
-
-
               </div>
             </div>
             <div className='col-lg-5 order-2 align-self-center'>
