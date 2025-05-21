@@ -16346,7 +16346,7 @@ color: #444444;
   background-image: linear-gradient(to right, #984b6e, #60518c);
   font-family: Lato;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 700;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -16629,7 +16629,10 @@ display: flex
   margin:40px 0px -20px
 }
 .img-backs-sid{
-  margin:-10px 0px 20px
+  margin:0px 0px 20px
+}
+.card-700-image-t{
+  display:none
 }
   .solution-new-banner-sub-head h2,.solution-new-cta h3{
     font-size: 30px;
@@ -16643,6 +16646,9 @@ display: flex
 }
 .solution-new-banner-one-content .large-heading br{
    display:none
+}
+.bg-003-t {
+    padding: 30px 0px;
 }
 .card1-content{
   padding:30px;

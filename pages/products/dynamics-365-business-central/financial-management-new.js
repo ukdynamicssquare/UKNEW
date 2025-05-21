@@ -137,7 +137,7 @@ const MicrosoftDynamics365Ai = () => {
                 <p>With Business Central Financial Management, finance becomes a real-time mirror of your operations, so you are up-to-date with your financials.</p>
 
               </div>
-              <div className='row'>
+              <div className='row' style={{paddingBottom:'20px'}}>
                 <div className="col-lg-12">
                   <p style={{ marginBottom: '30px' }}><b>Core strengths of the Finance module in Business Central</b></p>
                 </div>
