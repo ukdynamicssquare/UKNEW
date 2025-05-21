@@ -11,6 +11,13 @@ import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
 
 const ImplementationSales = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+  const colostyle= {
+  color:"#111",
+  fontSize:"14px",
+  color: "rgb(184 43 55)",
+
+}
   return (
     <>
       <Head>
@@ -41,13 +48,13 @@ const ImplementationSales = () => {
               </p>
               <div>
                 <div className="text-center text-lg-start">
-                  <Link  href="#exampleModal">
+                  <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                   
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Schedule a Demo Now!</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Demo Now!</span></a>
                   </Link>
                 </div>
               </div>
@@ -57,7 +64,7 @@ const ImplementationSales = () => {
                 src="/img/business-central-implementation-banner-1.svg"
                 alt="business-central-implementation-banner"
                 width={1024} height={586}
-                priority = {true}
+                priority={true}
               />
             </div>
           </div>
@@ -374,11 +381,11 @@ const ImplementationSales = () => {
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Get Started Now</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Get Started Now</span></a>
                   </Link>
                 </div>
               </div>
@@ -724,6 +731,21 @@ const ImplementationSales = () => {
           </header>
           <div className="row gy-4 p-9">
             <div className="col-lg-4">
+              {/* <div className="box">
+                        <h4>Business Central<br />
+                           Essentials
+                        </h4>
+                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
+                        <ul>
+                           <li> <i className="bi bi-check-lg"></i> Financial Management</li>
+                           <li> <i className="bi bi-check-lg"></i> Inventory Management</li>
+                           <li> <i className="bi bi-check-lg"></i> Order Management</li>
+                           <li> <i className="bi bi-check-lg"></i> Purchase Order Management</li>
+                           <li> <i className="bi bi-check-lg"></i> Project Management</li>
+                           <li> <i className="bi bi-check-lg"></i> Additional Capabilities</li>
+                        </ul>
+                       
+                     </div> */}
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Sales
@@ -731,11 +753,14 @@ const ImplementationSales = () => {
                   Professional
                 </h3>
                 <div className="price">
-                  <sup>£</sup>49<span>Per-User/Per Month</span>
+                  £53.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
+                  <li className="">
                     Core sales force automation and Microsoft 365 integration
+                  </li>
+                  <li style={colostyle}>
+                    <i className="bi bi-check-lg"></i>Microsoft Sales Copilot available at an additional cost
                   </li>
                 </ul>
               </div>
@@ -745,20 +770,35 @@ const ImplementationSales = () => {
                 <h3>
                   Dynamics 365 Sales
                   <br />
-                  Essentials
+                  Enterprise
                 </h3>
                 <div className="price">
-                  <sup>£</sup>71.60<span>Per-User/Per Month</span>
+                  £86.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
+                  <li className="">
                     Industry-leading sales force automation with contextual
                     insights and advanced customisation capabilities
+                  </li>
+                  <li style={colostyle}>
+                    <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-4">
+              {/* <div className="box">
+                        <h4>Business Central<br />
+                           Essentials
+                        </h4>
+                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
+                        <ul>
+                           <li> <i className="bi bi-check-lg"></i> Read and Approve</li>
+                           <li> <i className="bi bi-check-lg"></i> Employee Self Serve</li>
+                           <li> <i className="bi bi-check-lg"></i> Run All Reports</li>
+                        </ul>
+                       
+                     </div> */}
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Sales
@@ -766,35 +806,26 @@ const ImplementationSales = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  <sup>£</sup>101.80<span>Per-User/Per Month</span>
+                  £123.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
-                  <li className="text-center">
+                  <li className="">
                     Dynamics 365 Sales Enterprise plus prebuilt customisable
                     intelligence solutions for sellers and managers
+                  </li>
+                  <li style={colostyle}>
+                    <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-12 col-md-12">
-              <p
-                className="text-center"
-                style={{ padding: "50px 0px 0px 0px" }}
-              >
-                <b>
-                  Looking for Customized Pricing as per your business
-                  requirements?
-                </b>
-              </p>
               <div className="price-btn price-btnasd d-flex justify-content-center">
-                <Link  href="#exampleModal">
-                  <a
-                  data-bs-toggle="modal"
-                  
-                  className="btn-get-red"
-                >
-                  <span>Get the Quotes NOW! </span></a>
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal" className="btn-get-red">
+                    <span>Get Started Now</span>
+                  </a>
                 </Link>
                 {/* <Link href="#about" className="btn-get-whit">
                               <span>See Licensing Guide</span>
@@ -821,13 +852,13 @@ const ImplementationSales = () => {
                   requirements and upgrade the system later.
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
-                  <Link  href="#exampleModal">
+                  <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                   
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Speak to a Certified Gold Microsoft Partner</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Speak to a Certified Gold Microsoft Partner</span></a>
                   </Link>
                 </div>
               </div>

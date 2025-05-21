@@ -761,7 +761,7 @@ const HumanResourceImplementation = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Human Resources</h3>
                 <div className="price">
-                  <sup>£</sup>90.50<span>Per-User/Per Month</span>
+                  £111.00<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -774,7 +774,7 @@ const HumanResourceImplementation = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Human Resources Self-Service</h3>
                 <div className="price">
-                  <sup>£</sup>3<span>Per-User/Per Month</span>
+                  £3.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

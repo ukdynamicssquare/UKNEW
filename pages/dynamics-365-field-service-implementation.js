@@ -758,11 +758,24 @@ const FieldServicesImplementation = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Field Service</h3>
                 <div className="price">
-                  <sup>£</sup>71.60<span>Per-User/Per Month</span>
+                  £86.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
                     Resolve service issues the first time, every time.
+                  </li>
+                </ul>
+              </div>
+            </div>
+              <div className="col-lg-6 col-md-6">
+              <div className="box box-22">
+                <h3>Dynamics 365 Field Service Contractor</h3>
+                <div className="price">
+                 £41.10<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                    Assign and manage external frontline technicians.
                   </li>
                 </ul>
               </div>

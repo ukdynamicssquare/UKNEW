@@ -747,7 +747,7 @@ const SupplyChainImplementation = () => {
             </div>
           </div>
           <div className="row gy-4 p-9 justify-content-center">
-            <div className="col-lg-6">
+            <div className="col-lg-6 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365
@@ -755,14 +755,28 @@ const SupplyChainImplementation = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                  £172.60<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
-                    Build Resilience with an Agile Supply Chain with Dynamics
-                    365. Enhance Customer Service. Drive Business Sales. Manage
-                    Topline Revenue. Market Smarter. Services: Cloud-Based CRM,
-                    Customer Support, Automate Sales, Marketing Features.
+                    Build Resilience with an Agile Supply Chain with Dynamics 365. Enhance Customer Service. Drive Business Sales. Manage Topline Revenue. Market Smarter. Services: Cloud-Based CRM, Customer Support, Automate Sales, Marketing Features.
+                  </li>
+                </ul>
+              </div>
+            </div>
+              <div className="col-lg-6 d-flex">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365
+                  <br />
+                  Supply Chain Management Premium
+                </h3>
+                <div className="price">
+                  £246.60<span>Per-User/Per Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                   All dynamics 365 SCM standard features along with added Copilot capabilities
                   </li>
                 </ul>
               </div>
