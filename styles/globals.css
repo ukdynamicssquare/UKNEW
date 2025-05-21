@@ -16496,8 +16496,8 @@ font-size:14px
 width: 50%;
     background-color: #f1f0f4;
     font-size: 15px;
-    padding: 20px 30px;
-    border-bottom-color: #b79fda
+    padding: 10px 30px;
+  border: 1px solid #ddd;
 }
 .card-702 td.b-hh{
        border-bottom-color: #f1f0f4;

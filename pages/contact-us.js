@@ -111,14 +111,14 @@ const ContactUs = () => {
                       <p>
                       International House 61 <br/>Mosley Street, Manchester, <br/>M2 3HZ, UK
                       </p>
-                      <p>+44 745 994 8273</p>
+                      <p>+44 161 394 0487</p>
                     </div>
                   </div>
                   <div className="col-lg-3 col-sm-12">
                     <div className="addre-left addre-left-border">
                     <h4>Birmingham</h4>
                       <p>Izabella House, 24 - 26 <br/>Regents Place, City Centre,<br/>Birmingham, UK</p>
-                      <p>+44 121 318 2798</p>
+                      <p>+ 44 121 790 0574</p>
                     </div>
                   </div>
                   <div className="col-lg-3">
