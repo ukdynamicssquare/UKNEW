@@ -55,8 +55,8 @@ const MicrosoftDynamics365Ai = () => {
               </div>
               <div className='m-b-image-banner'>
                 <Image src="/img/bc-support-banner.png" alt='bc-support-banner' width={1097} height={656} />
-                <div className='ff-one'>  <span className=''>Dedicated Key Account Manager</span></div>
-                <div className='ff-two'>  <span className=''>Rapid Issue Resolution</span></div>
+                <div className='ff-one'>  <span className=''>Unified Financial Core</span></div>
+                <div className='ff-two'>  <span className=''>Automated Workflows</span></div>
               </div>
             </div>
 
@@ -670,7 +670,7 @@ const MicrosoftDynamics365Ai = () => {
                     <p>Choosing an implementation partner is as important as choosing the ERP itself. Here’s why businesses trust Dynamics Square:</p>
                   </div>
                 </div>
-                <div className='col-lg-6 d-flex'>
+                <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
                       <h3><span><i className="bi bi-check2"></i></span>Dedicated Support Team</h3>
@@ -706,11 +706,29 @@ const MicrosoftDynamics365Ai = () => {
 
                   </div>
                 </div>
+                 <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
+                    </div>
+                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
+
+                  </div>
+                </div>
+                 <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Microsoft-Certified Excellence</h3>
+                    </div>
+                    <p>As a trusted Microsoft Solutions Partner, we adhere to best practices and deliver value-driven results.</p>
+
+                  </div>
+                </div>
 
 
               </div>
             </div>
-            <div className='col-lg-5 order-2'>
+            <div className='col-lg-5 order-2 align-self-center'>
               <div className='img-backs-sid'>
                 <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
               </div>
