@@ -203,7 +203,7 @@ const MicrosoftDynamics365Ai = () => {
             </div>
             <div className='col-lg-5 align-self-center'>
               <div className='img-backs-sid'>
-                <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
+                <Image src="/img/f-side-001.png" alt="f-side-001" width={318} height={436} className='im-two' />
               </div>
             </div>
           </div>
@@ -300,7 +300,7 @@ const MicrosoftDynamics365Ai = () => {
           <div className="row g-3">
             <div className="col-lg-4">
               <div className='support-image--onea'>
-                <Image src="/img/bc-support-side-01.png" alt='bc-support' width={402} height={436} />
+                <Image src="/img/f-side-002.png" alt='f-side-002' width={402} height={436} />
               </div>
             </div>
             <div className="col-lg-8">
