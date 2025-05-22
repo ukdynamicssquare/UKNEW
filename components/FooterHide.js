@@ -610,6 +610,15 @@ const FooterHideNew = () => {
                   <a
                     target="_blank"
                     rel=""
+                    href="https://www.youtube.com/@DynamicsSquare"
+                    className="twitter"
+                    aria-label="Youtube"
+                  >
+                    <i className="bi bi-youtube"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel=""
                     href="https://twitter.com/dsquare_uk"
                     className="twitter"
                     aria-label="Twitter"
