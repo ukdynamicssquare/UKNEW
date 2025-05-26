@@ -13,6 +13,7 @@ const SalesOrderManagement = () => {
           name="description"
           content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth."
         />
+        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/"
