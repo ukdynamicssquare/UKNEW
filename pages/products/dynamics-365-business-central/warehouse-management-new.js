@@ -4,52 +4,56 @@ import Script from "next/script";
 import Link from "next/link";
 import useCardScrollEffect from "/components/useCardScrollEffect";
 
-const SalesOrderManagement = () => {
-  useCardScrollEffect()
+const WarehouseManagement = () => {
 
+  useCardScrollEffect()
+  
   return (
     <>
-      <Head>
-        <title>Dynamics 365 Business Central Sales and Order Management</title>
+     <Head>
+        <title>Warehouse Management in Business Central (WMS) | Inventory Management</title>
+           <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
-          content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth."
+          content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/warehouse-management/"
         />
+
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dynamics 365 Business Central Sales and Order Management" />
-        <meta property="og:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/sales-order-management/" />
+        <meta property="og:title" content="Warehouse Management in Business Central (WMS) | Inventory Management" />
+        <meta property="og:description" content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/warehouse-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Sales-and-Order-Management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/BC-Warehouse-Management.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Dynamics 365 Business Central Sales and Order Management" />
-        <meta name="twitter:description" content="Simplify sales & order management with Dynamics 365 Business Central. Enhance efficiency, improve customer satisfaction, and drive revenue growth." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Sales-and-Order-Management-banner.png" />
+        <meta name="twitter:title" content="Warehouse Management in Business Central (WMS) | Inventory Management" />
+        <meta name="twitter:description" content="Optimise warehouse operations with D365 Business Central for efficient inventory management, streamlined logistics and boost efficiency." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/BC-Warehouse-Management.png" />
+
+
       </Head>
       <div className='solution-new-banner-one'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='solution-new-banner-one-content'>
-                <h1>Dynamics 365 Business Central Sales and Order Management</h1>
-                <span className='large-heading'>No dropped leads or delayed orders. Just one connected flow between sales, inventory, and fulfilment.</span>
-                <p>Dynamics 365 Business Central Sales and Order Management turns broken pipelines into seamless sales engines. From quote to cash, every step syncs across teams, systems, and stock. Results? Deals close faster, cleaner, and with fewer errors.</p>
-                <p><b>Are you ready to up your sales game?</b></p>
+                <h1>Dynamics 365 Business Central Warehouse Management</h1>
+                <span className='large-heading'>Command Every Corner of Your Warehouse with AI-powered Solution</span>
+                <p>Warehousing slips into chaos when systems don’t talk. Dynamics 365 Business Central Warehouse Management turns that noise into clarity. This ensures every scan, stock move, and shipment drives precision, not confusion.</p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Tell Me More! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Modernise Your Warehouse with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -68,44 +72,43 @@ const SalesOrderManagement = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Don't let missed opportunities and frustrated customers become the norm. Here’s what too many businesses normalise:</h2>
-                <p>What happens when you don’t have a handle on finances? Well, this is how it hits your business:</p>
+                <h2>Why Microsoft ERP is Built for Warehouse Challenges</h2>
+                <p>Every warehouse is unique. Yet, they all share the same problems. Some of the prominent ones are latency, error, and confusion due outdated systems. A Microsoft ERP like Business Central adapts to your workflows. Whether it’s a high-velocity warehouse with cross-docking or a low-volume site with delicate SKUs, Dynamics 365 Business Central Warehouse Management moulds itself to your floor’s realities.</p>
+                <p><b>Key differentiators:</b></p>
 
               </div>
             </div>
           </div>
           <div className="row g-3 ">
-            <div className="col-lg-4 d-flex">
+            <div className="col-lg-3 col-md-6 d-flex">
               <div className="card-700">
-                <p>Sales reps manually updating spreadsheets at the end of the day</p>
+                <p>Native integration with Microsoft Teams, Outlook, Excel</p>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
+            <div className="col-lg-3 col-md-6  d-flex">
               <div className="card-700">
-                <p>Invoices delayed due to approval loops</p>
+                <p>Embedded Power BI for warehouse KPIs</p>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
+            <div className="col-lg-3 col-md-6  d-flex">
               <div className="card-700">
-                <p>No single view of customer behaviour, preferences, or issues</p>
+                <p>Azure-secured cloud infrastructure</p>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
+            <div className="col-lg-3 col-md-6  d-flex">
               <div className="card-700">
-                <p>Promised delivery dates missed due to stock misalignment</p>
+                <p>Future-proof updates</p>
               </div>
             </div>
           </div>
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
-                <p><b>These issues look small. But they build into lost revenue, unsatisfied customers, and burnt-out teams.</b></p>
-                <p>Stop losing sales to system delays.</p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Get a Sales Efficiency Assessment &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Limited Slots. Schedule a Free Call Today. &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -122,9 +125,8 @@ const SalesOrderManagement = () => {
           <div className='row'>
             <div className='col-lg-7'>
               <div className="solution-new-banner-sub-head">
-                <h2>Core Strengths of Dynamics 365 Business Central for Sales and Order Management</h2>
-                <p>Imagine a sales process where quoting, approving, fulfilling, and invoicing are not separate functions. They move together.</p>
-                <p>With Business Central sales management, businesses create a continuous, traceable, and intelligent sales loop. Each customer journey moves through a system built to reduce friction, increase accuracy, and respond to opportunities faster.</p>
+                <h2>What You Are Missing Without Warehouse Management in Business Central</h2>
+                <p>Here’s what day-to-day warehouse operations look like where there is no capable system:</p>
 
               </div>
               <div className='row' style={{ paddingBottom: '20px' }}>
@@ -134,56 +136,45 @@ const SalesOrderManagement = () => {
                 <div className='col-lg-6 d-flex'>
                   <div className='card557 card557-7'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Effortless Sales Order Creation</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Forklifts idling while someone prints an outdated pick list.</h3>
                     </div>
-                    <p>Instantly created from quotes or templates</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557 card557-7'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Real-time Inventory Visibility</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>A high-value client receives the wrong item.</h3>
                     </div>
-                    <p>Live data from stock, warehouses, and locations</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557 card557-7'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Streamlined Approval Workflows</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Inventory marked "available" is actually stuck behind a mountain of unsorted returns.</h3>
                     </div>
-                    <p>Configurable workflows ensure compliance without delay</p>
 
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex'>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Automated and Compliant Invoicing</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>A sales order is cancelled because the right data wasn’t where it should be.</h3>
                     </div>
-                    <p>Auto-generated and compliant to tax and location rules</p>
-
+                  
                   </div>
                 </div>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Dynamic Sales Insights</h3>
-                    </div>
-                    <p>Real-time views into sales trends, margins, and timelines</p>
-                  </div>
-                </div>
+               
                 <div className="col-lg-12">
                   <div className="cc-mm-2">
-                    <p><a href="/products/dynamics-365-business-central/">Business Central</a>, the renowned Microsoft ERP, comes with the Sales module. This module contains everything a growing business needs, right from customer management and sales order management to campaign pricing and discounts to sales return order management.</p>
-                    <p>Ready to give your sales and order management a makeover?</p>
+                    <p>Without Dynamics 365 Business Central Warehouse Management, these are daily realities for most businesses.</p>
+                    <p>Now imagine never having to “check manually” again.</p>
                     <Link href="#exampleModal"><a style={{ marginTop: '15px' }}
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Claim Your Free Custom Demo &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Automate Your Warehouse Operations Now &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -200,81 +191,138 @@ const SalesOrderManagement = () => {
         </div>
         {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
       </section>
-      <section className='bg-003-t'>
+
+       <section className='bg-003-x'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '30px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>What Changes When You Deploy Warehouse Management in Business Central</h2>
+                <p>Warehouse inefficiency silently destroys the potential of your business. Each barcode, box, shelf, and transaction carries its weight in cost, time, and accuracy. Manual errors trigger ripple effects. For example, inventory miscounts mislead sales. Similarly, outdated reports misinform procurement, and one late dispatch can quietly derail a quarter’s performance.</p>
+                <p>When warehouse management in Business Central is deployed with precision, the ripple effects are transformative:</p>
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-12">
+              <div className="row g-3">
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Accuracy in inventory shoots up</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Order fulfilment speeds up</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Human error drops</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Real-time visibility becomes the new norm</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>And most critically, customer trust grows</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="card-700-bot">
+                <p><b>Ready to upgrade your operations?</b></p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Book a Personalised Demo Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-003-tt'>
         <div className="container my-float-i">
           <div className="row" style={{ paddingBottom: '20px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Why Sales Teams Grow Faster with Business Central</h2>
-                <p>The Sales module in Dynamics 365 Business Central gives your sales, finance, and fulfilment teams one version of the truth in real time. It eliminates blind spots and helps close more deals.</p>
-
+                <h2>Functionalities of Business Central for Warehouse Management</h2>
+                <p>Business Central doesn’t just log warehouse activity but orchestrates it. With every scan and every move, you’re running leaner, smarter, and faster.</p>
+                <p><b>Here are the functionalities of Business Central for warehouse management:</b></p>
               </div>
             </div>
           </div>
           <div className="row g-3 ">
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Quotes That Convert</b></p>
+                <p><b>Inbound Precision</b></p>
                 <ul>
-                  <li>Convert quotes into orders in one click</li>
-                  <li>Real-time stock visibility prevents overpromising</li>
-                  <li>See customer-specific pricing, discounts, and terms instantly</li>
-                  <li>Track quote history, revisions, and expiry without digging</li>
+                  <li>Automated receipt registration</li>
+                  <li>Cross-docking support</li>
+                  <li>Quality inspection workflows</li>
+                  <li>Real-time PO matching</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Customer Lifecycle Tracked in Real-Time </b></p>
+                <p><b>Storage Control</b></p>
                 <ul>
-                  <li>CRM Lead Tracking </li>
-                  <li>Contact and Account Profiles </li>
-                  <li>Campaign and Email Logs </li>
-                  <li>Customer Sales History</li>
+                  <li>Bin setup and zoning</li>
+                  <li>Capacity tracking </li>
+                  <li>Directed put-away algorithms</li>
+                  <li>Item tracking with lot and serial numbers</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>End-to-End Order Visibility</b></p>
+                <p><b>Order Execution</b></p>
                 <ul>
-                  <li>Sales orders, shipments, and invoicing live in one flow</li>
-                  <li>Order status updates reflect fulfilment and inventory in real time</li>
-                  <li>Backorders and partial shipments tracked automatically</li>
-                  <li>Every sales line links to item availability and location</li>
+                  <li>Pick and pack optimisation</li>
+                  <li>Wave picking and batch jobs</li>
+                  <li>Label printing and shipping integration</li>
+                  <li>Shipment consolidations</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Margin Intelligence Baked In</b></p>
+                <p><b>Returns Management</b></p>
                 <ul>
-                  <li>Profitability previews for every quote and line item</li>
-                  <li>Real-time cost rollups from inventory, discounts, and shipping</li>
-                  <li>Visibility into past pricing, margin erosion, and custom terms</li>
-                  <li>Gross margin reports by rep, customer, item, or region</li>
+                  <li>Condition-based return sorting</li>
+                  <li>Restock and disposal routes</li>
+                  <li>Instant inventory update</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Account Management That Actually Manages</b></p>
+                <p><b>AI-Powered Intelligence with Copilot and AI Agents</b></p>
                 <ul>
-                  <li>Centralised contact and interaction history across the team</li>
-                  <li>Quote, order, and payment history in one timeline</li>
-                  <li>Linked tasks, follow-ups, and email tracking</li>
-                  <li>Integration with Outlook for direct contact-to-order flow</li>
+                  <li>Copilot monitors, predicts, and prevents slowdowns</li>
+                  <li>Stock level predictions avoid overstocking and shortages</li>
+                  <li>Fulfilment pattern learning fine-tunes operations over time</li>
+                  <li>Proactive nudges alert teams before things go wrong</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Sales Powered by AI and Predictive Insight</b></p>
+                <p><b>Mobile-First Execution</b></p>
                 <ul>
-                  <li>Suggested items based on customer buying history</li>
-                  <li>Copilot-generated email drafts for faster follow-ups</li>
-                  <li>Insights into delayed shipments, flagged before escalation</li>
-                  <li>Quote performance tracked by AI to surface bottleneck</li>
+                  <li>Mobile WMS capabilities to scan, count, and manage on-the-go</li>
+                  <li>No desktops, hence no delays</li>
+                  <li>Barcode scans to shipments—zero interruptions</li>
                 </ul>
               </div>
             </div>
@@ -283,12 +331,12 @@ const SalesOrderManagement = () => {
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
-                <p><b>With these functionalities of the Sales and Order Management module, turn quotes into revenue without burning time, trust, or margin.</b></p>
+                <p><b>Ready to rewire your warehouse? Adopt Dynamics 365 Business Central for Warehouse Management where every action is tracked, every move is optimised, and every delay is pre-empted.</b></p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Simplify Sales with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Improve Your Warehouse Efficiency &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -299,15 +347,161 @@ const SalesOrderManagement = () => {
           </div>
         </div>
       </section>
+      <section className='solution-new-cta slution-new-cta-two'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-10'>
+              <div className='solution-new-cta-001'>
+                <h3>Delayed order fulfilment disappoints clients. Don’t let that happen in your case.</h3>
+                <p>Speed up deliveries with Microsoft Dynamics 365 Business Central Warehouse Management.</p>
+                <div>
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Bring Order to Your Warehouse Today  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='solution-new-banner-three'>
+        {/* <div className="container" ref={containerRef}> */}
+        <div className="container">
+          <div className='row'>
+            <div className='col-lg-9'>
+              <div className='solution-new-banner-sub-head'>
+                <h2>Benefits of Microsoft Dynamics 365 Business Central Warehouse Management</h2>
+                <p>Every warehouse is a system of moving parts which comprise inventory, people, orders, and timelines. Business Central turns scattered activities into synchronised outcomes.</p>
+                <p><b>Here’s what you expect when you choose D365 Business Central Warehouse Management:</b></p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className="stached-scroll-card">
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>True Inventory Visibility</h3>
+                      <p>With real-time inventory snapshots, batch-wise aging insights, and cross-location clarity, Business Central gives you total visibility, right down to the last bin.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Live inventory snapshots</li>
+                        <li>Multi-location coordination</li>
+                        <li>Aging reports by batch or bin</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/new-pic-002.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Labor Efficiency</h3>
+                      <p>With task-based assignments and automated job queues, your workforce operates with purpose, not repetition. It helps minimise lag and maximise throughput.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Task-based user assignments</li>
+                        <li>Automated job queuing</li>
+                        <li>Reduced idle time</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Zero-Waste Fulfilment</h3>
+                      <p>Wasted stock is wasted capital. Business Central helps you keep inventory lean, reduce deadstock, and shrink fulfilment cycles. This helps ensure products move fast and do not sit stagnant.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Less overstock</li>
+                        <li>Lower deadstock risk</li>
+                        <li>Shorter fulfilment cycles</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/new-pic-004.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Customer Satisfaction Spike</h3>
+                      <p>Late deliveries and wrong orders kill trust quietly. From accurate dispatches to real-time tracking, Business Central sharpens every step of fulfilment, boosting transparency and slashing customer complaints.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Accurate deliveries</li>
+                        <li>Shorter lead times</li>
+                        <li>Transparent order tracking</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/new-pic-005.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Built-In Scalability</h3>
+                      <p>Whether you’re adding sales channels or automating with RFID, Business Central scales with ease. The system is built to sync with Shopify, Magento, Amazon, and more.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Ready for growth</li>
+                        <li>Connects to Shopify, Magento, Amazon</li>
+                        <li>Integrates with barcode and RFID devices</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/new-pic-006.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+           <section className='solution-new-cta slution-new-cta-two'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-9'>
+              <div className='solution-new-cta-001'>
+                <h3>A warehouse without intelligence is a liability. Make it smarter with Business Central</h3>
+                <p>Every manual gap invites a mistake, and Business Central plugs them with AI, real-time data, and mobile precision.</p>
+                <div>
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Fix Operational Lags Now  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/img/n-015.png" alt="n-015" />
+      </section>
 
       <section className='bg-003-y'>
         <div className="container my-float-i">
           <div className="row" style={{ paddingBottom: '30px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Beyond Automation: Intelligent Selling with Copilot and AI Agents</h2>
-                <p>While your reps sell, AI agents watch patterns. The moment managers forecast, Copilot delivers summaries. And when customers place orders, predictive models warn of delays.</p>
-                <p><b>How it helps:</b></p>
+                <h2>WMS in Business Central: For Those Who Cannot Afford Warehouse Mistakes</h2>
+                <p>WMS in Business Central is a zero-compromise system. If your business ships more than a hundred orders a day, you need more than a spreadsheet. You need process automation, audit trails, data integrity, and most importantly, task accountability.</p>
+                <p><b>Who should consider it?</b></p>
 
               </div>
             </div>
@@ -322,44 +516,34 @@ const SalesOrderManagement = () => {
               <div className="row g-3">
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p>Copilot drafts emails to customers about order status</p>
+                    <p>eCommerce fulfilment centres</p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p>Suggests new discount tiers based on sales data</p>
+                    <p>Manufacturers with multiple warehouses</p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p>Detects delays in shipments and escalates proactively</p>
+                    <p>Retail brands juggling multi-channel inventory</p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
-                    <p>Recommends follow-up tasks after missed opportunities</p>
-                  </div>
-                </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Surfaces customer complaints logged through service channels</p>
-                  </div>
-                </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Summarises customer buying patterns to help reps recommend next likely purchases</p>
+                    <p>Distributors managing expiry-sensitive products</p>
                   </div>
                 </div>
 
 
                 <div className="col-lg-12">
                   <div className="card-700-bot">
-                    <p><b>Now, sell without guessing with Business Central sales order management.</b></p>
+                    <p><b>Outdated tech limits potential. Are you ready to modernise your system?</b></p>
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Automate to Win! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Claim Your Free Consultation Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -373,275 +557,8 @@ const SalesOrderManagement = () => {
         </div>
       </section>
 
-      <section className='solution-new-cta slution-new-cta-two'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-10'>
-              <div className='solution-new-cta-001'>
-                <h3>Ready to Rewire Your Sales Engine?</h3>
-                <p>Dynamics 365 Business Central for Sales and Order Management doesn’t patch cracks. It removes the walls between sales, inventory, finance, and service.</p>
-                <p>This is how businesses scale with confidence.</p>
-                <div>
-                  <Link href="#exampleModal"><a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Speak to a Consultant Now  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className='bg-003-x'>
-        <div className="container my-float-i">
-          <div className="row" style={{ paddingBottom: '30px' }}>
-            <div className="col-lg-8">
-              <div className="supprt-header-new-one">
-                <h2>The Power of Dynamics 365 Business Central for Sales Order Management</h2>
-                <p>The order is placed. Now comes the part that too many systems break: execution. D365 Business Central for order management brings everything into sequence. No back-and-forth, duplicate entries, or missed steps.</p>
-                <p><b>Functional wins:</b></p>
+      
 
-              </div>
-            </div>
-          </div>
-          <div className="row g-3">
-            <div className="col-lg-12">
-              <div className="row g-3">
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Auto-routing to warehouses based on proximity and availability</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Linked returns and cancellations for full lifecycle traceability</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Shipping partner integrations for label generation and tracking</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Purchase orders raised automatically when inventory drops below thresholds</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Approval flows that prevent stock misuse and overpromising</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="card-700-bot">
-                <p><b>This is how businesses build customer trust. Every promise made during sales becomes a promise delivered in full.</b></p>
-                <Link href="#exampleModal"><a
-                  data-bs-toggle="modal"
-                  className="btn-get-started scrollto"
-                >
-                  <span>Schedule Your Free Consultation Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <section className='solution-new-banner-three'>
-        {/* <div className="container" ref={containerRef}> */}
-        <div className="container">
-          <div className='row'>
-            <div className='col-lg-9'>
-              <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Sales and Order Management Benefits</h2>
-                <p>Manual juggling slows sales. Disconnected tools bury insights. Business Central replaces reactive guessing with precise, real-time control over the full order lifecycle. This isn’t about adding more processes. It’s about removing everything that slows you down.</p>
-                <p><b>Businesses experience these benefits:</b></p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-12">
-              <div className="stached-scroll-card">
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Faster Quotes & Higher Wins</h3>
-                      <p>Sales reps cut quoting time in half with live product, price, and availability data from business central sales order systems. Deals don’t wait. Neither do buyers.</p>
-                      <p><b>Key highlights:</b></p>
-                      <ul>
-                        <li>Sales teams send quotes within minutes, not hours</li>
-                        <li>Real-time pricing, discounts, and inventory visibility</li>
-                        <li>No back-and-forth across teams to confirm availability</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-002.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Fewer Errors & Smoother Fulfillment</h3>
-                      <p>Real-time inventory sync ensures what's promised is what gets shipped. This is because missed shipments cost more than revenue. They kill trust.</p>
-                      <p><b>Key highlights:</b></p>
-                      <ul>
-                        <li>Orders reflect real-time stock levels</li>
-                        <li>Shipping and invoicing sync without manual entry</li>
-                        <li>Reduced returns, escalations, and complaints</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Retention That Doesn’t Rely on Apologies</h3>
-                      <p>A customer in the dark is a customer ready to leave. Automated updates keep customers in the loop from quote to doorstep.</p>
-                      <p><b>Key highlights:</b></p>
-                      <ul>
-                        <li>Automated order status updates via email and portal</li>
-                        <li>Tracking information is sent without being asked</li>
-                        <li>Sales, support, and fulfillment teams work off the same data</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-004.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Forecasts That Don’t Fail You</h3>
-                      <p>Copilot and AI agents flag deal velocity shifts, purchase cycles, and recurring order trends. Planning turns predictive. Gut feel isn’t the fallback anymore.</p>
-                      <p><b>Key highlights:</b></p>
-                      <ul>
-                        <li>AI agents detect seasonality, customer buying patterns, and deal velocity</li>
-                        <li>Copilot provides suggestions to optimise pricing, timing, and inventory</li>
-                        <li>Demand planning becomes accurate enough to cut holding costs</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-005.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Lean Teams. More Closed Deals</h3>
-                      <p>With fewer manual handoffs, reps spend more time selling and less time chasing info. You hire for growth, not for patchwork admin.</p>
-                      <p><b>Key highlights:</b></p>
-                      <ul>
-                        <li>Reps manage more accounts with less back-office dependency</li>
-                        <li>No swivel-chairing between CRM, spreadsheets, and inventory systems</li>
-                        <li>Every order touchpoint flows from one unified system</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-006.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className='solution-new-cta slution-new-cta-two'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-9'>
-              <div className='solution-new-cta-001'>
-                <h3>Give Sales, Your Revenue Engine, Its Due Respect</h3>
-                <p>No product sells itself. Empower your sales team today. With Business Central sales management, every deal becomes smoother, faster, and more profitable.</p>
-                <p>Let’s Transform How You Sell and Deliver.</p>
-                <div>
-                  <Link href="#exampleModal"><a
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Start the Journey  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img src="/img/n-015.png" alt="n-015" />
-      </section>
-
-    
-
-      <section className='bg-003-x'>
-        <div className="container my-float-i">
-          <div className="row" style={{ paddingBottom: '20px' }}>
-            <div className="col-lg-8">
-              <div className="supprt-header-new-one">
-                <h2>Redefine Sales Agility with Business Central Sales Order Management</h2>
-                <p>When customers want answers, there is no room for hesitation. With Business Central sales order tools, each quote becomes a complete opportunity window.</p>
-                <p><b>Key aspects:</b></p>
-              </div>
-            </div>
-          </div>
-          <div className="row g-3">
-            <div className="col-lg-12">
-              <div className="row g-3">
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Templates for frequent orders and repeat clients</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Real-time inventory insights while preparing quotes</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Suggested upsells and cross-sells based on purchase history</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Partial shipment and invoicing for dynamic delivery needs</p>
-                  </div>
-                </div>
-                <div className="col-lg-4  col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Order tracking from placement to doorstep</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="card-700-bot">
-                <p><b>Salespeople get to focus on people. The system handles the complexity underneath.</b></p>
-                <Link href="#exampleModal"><a
-                  data-bs-toggle="modal"
-                  className="btn-get-started scrollto"
-                >
-                  <span>Tell Me More &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className='s-options-end'>
         <div className="container">
@@ -650,48 +567,47 @@ const SalesOrderManagement = () => {
               <div className='row'>
                 <div className="col-lg-12">
                   <div className="solution-new-banner-sub-head">
-                    <h2>CRM Power Within a Fully Integrated Microsoft ERP</h2>
-                    <p>Sales need a CRM to track opportunities. Finance needs ERP to manage cash flow. <a href="/blog/crm-functionality-in-dynamics-365-business-central/">CRM functionalities</a> in Business Central ERP give you both, without syncing third-party systems.</p>
-                    <p><b>What your business gains:</b></p>
+                    <h2>Business Central Warehouse Management Implementation</h2>
+                    <p>Warehouse transformations only work if the implementation is surgical. That’s where Dynamics Square plays a vital role. With years of experience in Business Central implementation, Dynamics Square ensures:</p>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Lead and opportunity tracking with stage-based pipelines</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Zero downtime migration</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Email and call history tied to individual contacts</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Full master data sanitation</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Quote generation straight from CRM screens</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Tailored configuration of every bin, zone, and flow</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Customer-specific pricing, terms, and conditions</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Warehouse staff training using real workflows</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Interaction logs for marketing, support, and account management</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Ongoing support long after go-live</h3>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
-                  <p style={{paddingTop:'20px'}}>Every customer touchpoint is stored, structured, and surfaced when needed. Relationships no longer rely on memory or sticky notes.</p>
+                  <p style={{paddingTop:'20px'}}><b>As a renowned Microsoft Dynamics 365 implementation partner, we rewire warehouses.</b></p>
                 </div>
               </div>
             </div>
@@ -1024,4 +940,4 @@ const SalesOrderManagement = () => {
   );
 };
 
-export default SalesOrderManagement;
+export default WarehouseManagement;

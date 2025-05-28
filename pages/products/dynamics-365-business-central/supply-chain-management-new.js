@@ -5,6 +5,7 @@ import Link from "next/link";
 import useCardScrollEffect from "/components/useCardScrollEffect";
 
 const SupplyChainManagements = () => {
+    useCardScrollEffect()
   return (
     <>
       <Head>
