@@ -118,11 +118,6 @@ const SalesOrderManagement = () => {
 
       <section className='s-options-ends'>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-7">
-
-            </div>
-          </div>
           <div className='row'>
             <div className='col-lg-7'>
               <div className="solution-new-banner-sub-head">
