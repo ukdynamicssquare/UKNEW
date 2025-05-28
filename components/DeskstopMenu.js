@@ -881,7 +881,7 @@ const DeskstopMenu = () => {
                                 />
                               </div>
                               <div className="content">
-                                <span>Mobile WMS BC</span>
+                                <span>Tasklet's Mobile WMS</span>
                                 <p>Optimize warehouse operations, simplify inventory, boost profits</p>
                               </div>
                             </a>
