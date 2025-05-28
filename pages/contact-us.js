@@ -619,7 +619,7 @@ const ContactUs = () => {
                           <div className="icons-left">
                             <i className="bi bi-telephone"></i>
                           </div>
-                          <div className="content-right">+1 949 590 9549</div>
+                          <div className="content-right">+1 213 784 0845</div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">

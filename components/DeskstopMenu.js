@@ -875,7 +875,7 @@ const DeskstopMenu = () => {
                             <a href="/wms-for-business-central/">
                               <div className="pic">
                                 <img
-                                  src="/img/menu-icons/Insight_Work.png"
+                                  src="/img/menu-icons/taskley-logo-im.png"
                                   alt="Sana_Commerce"
                                   width="48" height="48"
                                 />
