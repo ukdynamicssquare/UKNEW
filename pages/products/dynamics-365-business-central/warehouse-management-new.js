@@ -184,7 +184,7 @@ const WarehouseManagement = () => {
             </div>
             <div className='col-lg-5 align-self-center'>
               <div className='img-backs-sid'>
-                <Image src="/img/f-side-001.png" alt="f-side-001" width={318} height={436} className='im-two' />
+                <Image src="/img/warehouse-management-side.png" alt="warehouse-management-side" width={318} height={436} className='im-two' />
               </div>
             </div>
           </div>
@@ -395,7 +395,7 @@ const WarehouseManagement = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-002.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -412,7 +412,7 @@ const WarehouseManagement = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/warehouse-management-side-02.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -446,7 +446,7 @@ const WarehouseManagement = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-005.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/warehouse-management-side-04.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -463,7 +463,7 @@ const WarehouseManagement = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-006.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/warehouse-management-side-05.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -509,10 +509,10 @@ const WarehouseManagement = () => {
           <div className="row g-3">
             <div className="col-lg-4">
               <div className='support-image--onea'>
-                <Image src="/img/f-side-002.png" alt='f-side-002' width={402} height={436} />
+                <Image src="/img/warehouse-management-side-01.png" alt='warehouse-management-side-01' width={402} height={436} />
               </div>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8 align-self-center">
               <div className="row g-3">
                 <div className="col-lg-6 d-flex">
                   <div className="card-700 card-700-b">
