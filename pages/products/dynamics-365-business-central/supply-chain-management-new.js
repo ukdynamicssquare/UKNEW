@@ -57,8 +57,8 @@ const SupplyChainManagements = () => {
               </div>
               <div className='m-b-image-banner'>
                 <Image src="/img/bc-support-banner.png" alt='bc-support-banner' width={1097} height={656} />
-                <div className='ff-one'>  <span className=''>Unified Financial Core</span></div>
-                <div className='ff-two'>  <span className=''>Automated Workflows</span></div>
+                <div className='ff-one'>  <span className=''>Procurement & Sourcing Automation</span></div>
+                <div className='ff-two'>  <span className=''>Demand Forecasting</span></div>
               </div>
             </div>
 
@@ -311,7 +311,7 @@ const SupplyChainManagements = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-019.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -329,7 +329,7 @@ const SupplyChainManagements = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-020.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/bc-supply-01.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -347,7 +347,7 @@ const SupplyChainManagements = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-021.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/bc-supply-02.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -365,7 +365,7 @@ const SupplyChainManagements = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-022.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/bc-supply-03.png" width={581} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ const SupplyChainManagements = () => {
           <div className="row g-3">
             <div className="col-lg-4">
               <div className='support-image--onea'>
-                <Image src="/img/f-side-002.png" alt='f-side-002' width={402} height={436} />
+                <Image src="/img/bc-supply-04.png" alt='f-side-002' width={318} height={436} />
               </div>
             </div>
             <div className="col-lg-8">
