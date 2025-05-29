@@ -733,6 +733,15 @@ const BusinessCentral = () => {
                 </div>
 
               </div>
+              <div className='row'>
+                <div className='col-lg-12'>
+                  <div style={{marginLeft:'15px'}}>
+                    < a href="/d365-business-central-support/" className="btn-get-started scrollto">
+                      <span>Learn More! &nbsp;<i className="bi bi-arrow-right"></i></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className='col-lg-5 order-1'>
               <div className='img-backs-sid'>

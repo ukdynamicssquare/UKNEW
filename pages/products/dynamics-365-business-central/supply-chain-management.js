@@ -2,11 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
+import useCardScrollEffect from "/components/useCardScrollEffect";
 
 const SupplyChainManagements = () => {
+    useCardScrollEffect()
   return (
     <>
       <Head>
+
         <title>Dynamics 365 Business Central for Supply Chain Management</title>
         <meta
           name="description"
@@ -33,187 +36,448 @@ const SupplyChainManagements = () => {
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Supplychain-banner.png" />
 
       </Head>
-      <section className="Solution-banner hero-1 hero">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Dynamics 365 Business Central Supply Chain</h1>
-              <p>Simplify procurement, optimise fulfilment, enable a faster replenishment cycle, and digitalize your entire supply chain with Dynamics 365 Business Central for Supply Chain Management.</p>
-              <div>
-                <div className="text-center text-lg-start">
-                  <Link
-                    href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                      <span>Schedule a Free Demo!</span></a>
+      <div className='solution-new-banner-one'>
+        <div className='container'>
+          <div className='row justify-content-center'>
+            <div className='col-lg-8'>
+              <div className='solution-new-banner-one-content'>
+                <h1>Dynamics 365 Business Central Supply Chain Management</h1>
+                <span className='large-heading'>Supply chains don’t snap under pressure. They break silently from blind spots.</span>
+                <p>Supply chains rarely collapse in one loud moment. They erode silently from everyday gaps no one fixes. Dynamics 365 Business Central Supply Chain Management helps you see early, act faster, and run a supply chain that holds under pressure.</p>
+                <p><b>Strengthen your supply chain today!</b></p>
+                <div className="text-center">
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Free Call Today &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <Image
-                src="/img/Supplychain-banner.png"
-                alt="Supplychain-banner"
-                width={665} height={447}
-                priority = {true}
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <header className="section-header">
-                <h2>What is Dynamics 365 Business Central Supply Chain Management?</h2>
-                <p><Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> is a powerful ERP solution that offers a specialised module to manage and monitor all supply chain operations. From procurement to delivery, the supply chain module can streamline all processes until the product reaches the right customer on time.</p>
-                <p>The businesses associated with supply chain processes have to deal with a lot of complexities, including managing multiple sales channels, streamlining inventory, tracking warehouse operations, and monitoring logistics.</p>
-                <p>Implementing Business Central for supply chain management can simplify different processes, supercharge processes, optimise supply chains, lower product shortages, eliminate stockout scenarios, and enhance business results with real-time business visibility.</p>
-              </header>
-            </div>
-          </div>
-          <div className="row p-lg-6">
-            <div className="col-lg-6">
-              <div className="finace-acc">
-                <div className="accordion" id="accnew">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin1"
-                        aria-expanded="false"
-                        aria-controls="fin1"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/supply-chain-planning.png" alt="supply-chain-planning" />
-                        </div>
-                        <span>Supply Chain Planning</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin1"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>D365 Business Central offers useful insights to help you plan different processes that include raw material planning, demand planning, production planning, capacity planning, and operations planning.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin2"
-                        aria-expanded="false"
-                        aria-controls="fin2"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/order-planning.png" alt="order-planning" />
-                        </div>
-                        <span>Order Planning</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin2"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnew"
-                    >
-                      <div className="accordion-body">
-                        <p>Build plans to cater to all demands in the supply chain with accurate numbers. Based on existing plant efficiency, you can perform order planning for fulfilment with expected delivery dates.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className='m-b-image-banner'>
+                <Image src="/img/bc-support-banner.png" alt='bc-support-banner' width={1097} height={656} />
+                <div className='ff-one'>  <span className=''>Procurement & Sourcing Automation</span></div>
+                <div className='ff-two'>  <span className=''>Demand Forecasting</span></div>
               </div>
             </div>
 
-            <div className="col-lg-6">
-              <hr className="mob-disp" />
-              <div className="finace-acc">
-                <div className="accordion" id="accnewadasd">
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin3"
-                        aria-expanded="false"
-                        aria-controls="fin3"
-                      >
-                        <div className="wr-in">
-                          <img src="/img/inventory-management.png" alt="inventory-management" />
-                        </div>
-                        <span>Inventory Management</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin3"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnewadasd"
-                    >
-                      <div className="accordion-body">
-                        <p>Microsoft Business Central comes with a cloud-based deployment that offers real-time inventory data to generate more sales and simplify different inventory operations.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <hr />
-                  <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#fin4"
-                        aria-expanded="false"
-                        aria-controls="fin4"
-                      >
-                        <div className="wr-in">
-                          <img
-                            src="/img/demand-forecasting.png"
-                            alt="demand-forecasting"
-                          />
-                        </div>
-                        <span>Demand Forecasting</span>
-                      </button>
-                    </h3>
-                    <div
-                      id="fin4"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accnewadasd"
-                    >
-                      <div className="accordion-body">
-                        <p>Analyse existing business data, track market fluctuations, and understand customer behaviour to forecast demands.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-      </section>
-
-      <section className="call-to-action-center hero-4">
-        <div className="container">
-          <div className="row justify-content-center">
+      </div>
+      <section className='bg-003'>
+        <div className="container my-float-i">
+          <div className="row">
             <div className="col-lg-8">
-              <div className="call-to-action-content">
-                <h3>Modernize your supply chain with Dynamics 365 Business Central</h3>
-                <p>Leverage the AI, BI, and IoT capabilities of Business Central along with Microsoft Copilot Assistant to help you digitalize your business and eliminate system redundancies while minimising overhead.</p>
-                <div className="text-center m-o-t new-btn-nn">
-                  <Link href="#exampleModal"><a data-bs-toggle="modal" className="btn-get-started scrollto">
-                    <span>Book a Demo Today!</span></a>
+              <div className="supprt-header-new-one">
+                <h2>What is the Impact of Business Central Supply Chain Management?</h2>
+                <p>Supply chain management in Dynamics 365 Business Central eliminates the need to juggle multiple systems. It becomes your single source of truth. Each purchase order, production job, shipment, and stock movement is linked. Every department sees the same data, live.</p>
+                <p><b>The impact? Here are what it changes:</b></p>
+              </div>
+            </div>
+          </div>
+          <div className="row g-3 ">
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Purchasing aligns with real sales patterns, not assumptions</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Inventory reflects what’s actually on hand, not outdated spreadsheets</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Warehouses operate using data that updates automatically</p>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="card-700">
+                <p>Delivery teams fulfil what can be promised, not what was hoped for</p>
+              </div>
+            </div>
+          </div>
+          <div className="row min-m-t-20">
+            <div className="col-lg-7 align-self-center">
+              <div className="card-700-bot">
+                <p>Your operations begin to support your growth, not block it. Delays in supply kill demand. You need to act on time.</p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Unify the Flow with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+
+          </div>
+          <div className="card-700-image">
+            <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-003-t-t'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '20px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Core Strengths of Dynamics 365 Business Central Supply Chain Management</h2>
+                <p><a href="/products/dynamics-365-business-central/">D365 Business Central</a> for supply chain creates a chain where each link strengthens the next. From planning to fulfilment, the platform ensures that no weak spots remain hidden.</p>
+                <p><b>Major capabilities include:</b></p>
+              </div>
+            </div>
+          </div>
+          <div className="row g-3 ">
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a card-700-a-colo">
+                <p><b>Planning and Demand Forecasting</b></p>
+                <ul>
+                  <li>Real-time forecasts based on customer behaviour and seasonality</li>
+                  <li>Planning tools that adapt daily as data shifts</li>
+                  <li>Alerts for low stock, late shipments, and demand spikes</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a card-700-a-colo">
+                <p><b>Procurement Management</b></p>
+                <ul>
+                  <li>Purchase suggestions based on real consumption</li>
+                  <li>Vendor scoring based on lead time and delivery history</li>
+                  <li>Fully automated approval workflows</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a card-700-a-colo">
+                <p><b>Inventory Control</b></p>
+                <ul>
+                  <li>Live view of inventory across all sites and bins</li>
+                  <li>Stock aging analysis to reduce waste and obsolescence</li>
+                  <li>Traceability using batch and serial numbers</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a card-700-a-colo">
+                <p><b>Warehouse Execution</b></p>
+                <ul>
+                  <li>Location-based bin tracking</li>
+                  <li>Pick lists generated in real time</li>
+                  <li>Mobile access to manage inventory on the move</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a card-700-a-colo">
+                <p><b>Production Management</b></p>
+                <ul>
+                  <li>Seamless link between BOM, routing, and production jobs</li>
+                  <li>Work centre scheduling to match available capacity</li>
+                  <li>Cost tracking from raw material to finished goods</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a card-700-a-colo">
+                <p><b>Order Fulfilment</b></p>
+                <ul>
+                  <li>Sales orders tied to actual inventory and lead times</li>
+                  <li>Packing and shipping workflows inside the ERP</li>
+                  <li>Packing and shipping workflows inside the ERP</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+          <div className="row min-m-t-20">
+            <div className="col-lg-7 align-self-center">
+              <div className="card-700-bot">
+                <p>Everything functions like a supply chain should. No friction, just pure efficiency. </p>
+                <p><b>Your supply chain deserves clarity. Are you ready to upgrade?</b></p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Gain Full Visibility with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className='bg-003-x'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '20px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Key Functions in Business Central in Supply Chain Management (SCM)</h2>
+                <p>Microsoft Business Central Supply Chain does not require heavy customisation to get started. It includes built-in tools that meet real business needs from day one.</p>
+                <p><b>These include:</b></p>
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-12">
+              <div className="row g-3">
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Material Requirement Planning (MRP)</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Master Production Scheduling (MPS)</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Cycle counting and physical inventory</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Automated stock transfers between warehouses</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Production BOM costing and routing</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Vendor performance tracking</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Inbound and outbound logistics control</p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Shipment documentation and compliance tools</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-9">
+              <div className="card-700-bot">
+                <p>Each function reduces effort, minimises risk, and strengthens flow. Fast-track your ERP transformation for a better and more efficient supply chain. Get started with experts.</p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Schedule a Free Call Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='solution-new-banner-three'>
+        {/* <div className="container" ref={containerRef}> */}
+        <div className="container">
+          <div className='row'>
+            <div className='col-lg-9'>
+              <div className='solution-new-banner-sub-head'>
+                <h2>The Benefits of Business Central in Supply Chain Management</h2>
+                <p>Every company wants lower costs and faster output. But without the right system, efficiency stays theoretical. You start getting the real benefits of Business Central in supply chain management post implementation. Here’s how it stabilises your business:</p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12">
+              <div className="stached-scroll-card">
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Predictive Purchasing That Minimises Guesswork</h3>
+                      <p>When purchasing is based on outdated sales history or gut feel, overstock and stockouts are inevitable. Business Central brings real-time consumption data and demand forecasting into every procurement decision.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Suggests purchase orders based on live inventory levels</li>
+                        <li>Factors in seasonality, vendor lead time, and past consumption</li>
+                        <li>Prevents overbuying of slow-moving stock</li>
+                        <li>Adjusts purchase triggers automatically when demand shifts</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Automated Warehouse Operations</h3>
+                      <p>Many warehouse systems promise control but demand heavy integrations. Business Central runs core warehouse functions natively, so teams move faster without system friction.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Pick and put-away guidance without external WMS</li>
+                        <li>Location-based tracking built into each transaction</li>
+                        <li>Location-based tracking built into each transaction</li>
+                        <li>Real-time stock updates from every bin and location</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/bc-supply-01.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Real-time Inventory Visibility Across Locations and Teams</h3>
+                      <p>Blind spots in inventory create internal tension. When sales, warehouses, and purchasing rely on the same numbers, decisions stop clashing.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Live inventory view across all warehouses and branches</li>
+                        <li>Track by item, lot, batch, or serial number</li>
+                        <li>Automated replenishment based on consumption or forecast</li>
+                        <li>Full audit trail from inbound to outbound movement</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/bc-supply-02.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Unified Communication Between Procurement, Sales, and Production</h3>
+                      <p>Disconnected systems lead to overlapping orders, idle production, or missed shipments. Business Central connects departments with shared workflows and data.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Sales orders trigger production and purchasing automatically</li>
+                        <li>Procurement aligns with actual production needs, not guesswork</li>
+                        <li>Built-in approvals and alerts reduce manual follow-up</li>
+                        <li>Everyone sees the same real-time view of order status</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/bc-supply-03.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+                <div className='mycard'>
+                  <div className='mycard__inner'>
+                    <div className='mycard__inner-left mycard__inner-left-p'>
+                      <h3>Lower Operational Costs Through Smarter Planning and Resource Allocation</h3>
+                      <p>Cost leaks often hide in overproduction, idle inventory, and duplicate efforts. Business Central surfaces these patterns and removes them from the workflow.</p>
+                      <p><b>Key aspects:</b></p>
+                      <ul>
+                        <li>Optimises resource usage by aligning capacity with demand</li>
+                        <li>Reduces waste by minimising overstock and obsolescence</li>
+                        <li>Lowers shipping costs through smarter warehouse-to-customer routing</li>
+                        <li>Decreases manual rework through accurate, up-to-date planning</li>
+                      </ul>
+                    </div>
+                    <div className='mycard__inner-right'>
+                      <Image src="/img/n-023.png" width={581} height={456} alt="Card 3" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className='bg-003-y'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '30px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Business Central for Supply Chain: Ready for Any Industry</h2>
+                <p>The needs of a beverage distributor differ from those of an auto parts manufacturer. But both need flow, precision, and predictability. Business Central in the supply chain in industry segments fits because it is built to flex. No two workflows are identical. The system adapts to your method, not the other way around. And Business Central is built to adapt!</p>
+                <p><b>Business types that use it well:</b></p>
+
+              </div>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-4">
+              <div className='support-image--onea'>
+                <Image src="/img/bc-supply-04.png" alt='f-side-002' width={318} height={436} />
+              </div>
+            </div>
+            <div className="col-lg-8">
+              <div className="row g-3">
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Fast-moving consumer goods</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Light and heavy manufacturing</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Wholesale and distribution</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Equipment-based service operations</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Food production and packaging</p>
+                  </div>
+                </div>
+                <div className="col-lg-6 d-flex">
+                  <div className="card-700 card-700-b">
+                    <p>Retail operations with central warehousing</p>
+                  </div>
+                </div>
+                <div className="col-lg-12">
+                  <div className="card-700-bot">
+                    <p>Whether you track tonnes, units, or litres, the system tracks what matters most to you. Want to see Business Central in action?</p>
+                    <Link href="#exampleModal"><a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Let’s Schedule a Free Call &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div className="card-700-image-t">
+            <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+          </div>
+        </div>
+      </section>
+
+      <section className='solution-new-cta slution-new-cta-two'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-10'>
+              <div className='solution-new-cta-001'>
+                <h3>Fix the Weak Links and Scale with Confidence</h3>
+                <p>Most businesses delay system decisions until the symptoms hurt. Delays, cost overruns, unhappy customers. By the time problems are obvious, damage is already done.</p>
+                <p>This is how businesses scale with confidence.</p>
+                <div>
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Book Your Free Personalised Demo &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -222,150 +486,211 @@ const SupplyChainManagements = () => {
         </div>
       </section>
 
-
-
-      <section className="busine_service_bottom custom05">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="side-heading-custom-01">
-                <h2>Core Functionalities of Supply Chain Management Module</h2>
+      <section className='bg-003-x'>
+        <div className="container my-float-i">
+          <div className="row" style={{ paddingBottom: '20px' }}>
+            <div className="col-lg-8">
+              <div className="supprt-header-new-one">
+                <h2>Copilot: A Second Brain in Business Central for Supply Chain Management</h2>
+                <p>It often happens when decisions are urgent and reports are too slow. Copilot inside <a href="/d365-business-central-support/">Business Central supports</a> action. It analyses data and provides insights without requiring a data science team.</p>
+                <p><b>Key aspects:</b></p>
               </div>
-              <div className="custom-p-001">
-                <p>The supply chain management module of Business Central offers numerous capabilities to help a business, from handling goods to finishing the product to the best possible quality. With advanced supply chain management tools, D365 Business Central offers an efficient and productive way to overcome the competition and generate maximum revenue. Some of the core Business Central Supply Chain Management functionalities are:</p>
-                <div className="row" style={{ paddingTop: '40px' }}>
-                  <div className="col-lg-6">
-                    <p>
-                      <ul>
-                        <li>Multi-location inventory tracking</li>
-                        <li>Lot tracking</li>
-                        <li>Automated replenishment</li>
-                        <li>Supplier Management</li>
-                        <li>Purchase Order Management</li>
-                        <li>Vendor Payments</li>
-                        <li>Invoice Management</li>
-                        <li>Bill of Material Management</li>
-                      </ul>
-                    </p>
-                  </div>
-                  <div className="col-lg-6">
-                    <p>
-                      <ul>
-                        <li>Production Scheduling</li>
-                        <li>Shop Floor Control</li>
-                        <li>Quality Control</li>
-                        <li>Sales Order Management</li>
-                        <li>Shipping Management</li>
-                        <li>Transportation Management System</li>
-                        <li>Delivery Tracking</li>
-                        <li>Warehouse Management System</li>
-                      </ul>
-                    </p>
+            </div>
+          </div>
+          <div className="row g-3">
+            <div className="col-lg-12">
+              <div className="row g-3">
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Gives daily summaries of open issues and flagged orders</p>
                   </div>
                 </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Highlights where supplier performance is dropping</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Suggests purchase quantity based on real-time usage</p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p>Automates document generation and communications</p>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <header className="section-header">
-                <h2>D365 Business Central for Supply Chain Management Benefits</h2>
-                <p>The supply chain management module of Business Central offers numerous benefits to optimise inventory levels, streamline warehouse operations, lower the chances of stock being out, and maximise profitability. Some of the core benefits are:</p>
-              </header>
-            </div>
-          </div>
-          <div className="row g-5">
-            <div className="col-lg-6">
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/total-visibility-and-transparency.png" alt="total-visibility-and-transparency" width={84} height={84} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Total Visibility and Transparency</h3>
-                  <p>With the centralised platform, you can get real-time supply chain data, accurate inventory status, and full transparency across distribution processes.</p>
-                </div>
-              </div>
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/accurate-demand-forecasting.png" alt="accurate-demand-forecasting" width={84} height={84} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Accurate Demand Forecasting</h3>
-                  <p>Dynamics 365 Business Central allows businesses to fetch historical customer data and understand changing market trends to forecast accurate demands.</p>
-                </div>
-              </div>
-
-            </div>
-            <div className="col-lg-6">
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image
-                    src="/img/enhanced-operational-efficiency.png"
-                    alt="enhanced-operational-efficiency"
-                    width={84} height={84}
-                  />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Enhanced Operational Efficiency</h3>
-                  <p>You can automate numerous recurring and manual tasks, like inventory data, purchase orders, and warehouse activities, to save time and optimise resources.</p>
-                </div>
-              </div>
-
-              <div className="style-grid-1">
-                <div className="style-grid-icons">
-                  <Image src="/img/team-communication.png" alt="team-communication" width={84} height={84} />
-                </div>
-                <div className="style-grid-content">
-                  <h3>Strengthen Team Communication</h3>
-                  <p>Business Central offers a unified platform to communicate, share data, record activities, and transfer information across other users of the organisation.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="busine_service_bottom custom05">
-        <div className="container">
           <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/Supplychain-banner-side.png"
-                  alt="Supplychain-banner-side"
-                  width={482} height={513}
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading-custom-01">
-                <h2>Supply Chain Management in Industries</h2>
-              </div>
-              <div className="custom-p-001">
-                <p>The supply chain management module of Business Central is a must-needed solution for rapidly changing scenarios in the industrial world. It offers efficient tools to streamline different supply chain processes, optimise demands, perform accurate accounting, and maximise profitability. With a 360-degree view of business, you can control, maintain, and manage your growth while opening up new paths of opportunity. You can utilise the supply chain module of Business Central in different industries, like:</p>
-                <p>
-                  <ul>
-                    <li>Manufacturing</li>
-                    <li>Distribution & Wholesale</li>
-                    <li>Retail</li>
-                    <li>Food & Beverages</li>
-                    <li>Project-based Businesss</li>
-
-                  </ul>
-                </p>
+            <div className="col-lg-12">
+              <div className="card-700-bot">
+                <p><b>Copilot is not an assistant. It becomes your second brain, monitoring every corner of your operation.</b></p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Learn More &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
+      <section className='s-options-ends'>
+        <div className="container">
+          <div className='row'>
+            <div className='col-lg-7'>
+              <div className="solution-new-banner-sub-head">
+                <h2>Expand Capabilities with Supply Chain Apps for Dynamics 365 Business Central</h2>
+                <p>Some companies need industry-specific features beyond the native system. The certified Supply Chain apps for the Dynamics 365 Business Central ecosystem fill those gaps.</p>
+
+              </div>
+             
+            </div>
+             <div className='row' style={{ paddingBottom: '20px' }}>
+                <div className="col-lg-12">
+                  <p style={{ marginBottom: '30px' }}><b>Common add-ons:</b></p>
+                </div>
+                <div className="col-lg-12">
+                  <div className="row">
+                    <div className='col-lg-4 d-flex'>
+                      <div className='card557 card557-7'>
+                        <div className='card-233-body'>
+                          <h3><span><i className="bi bi-check2"></i></span>Advanced delivery and route optimisation</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='col-lg-4 d-flex'>
+                      <div className='card557 card557-7'>
+                        <div className='card-233-body'>
+                          <h3><span><i className="bi bi-check2"></i></span>Barcode scanning and labelling apps</h3>
+                        </div>
+
+
+                      </div>
+                    </div>
+                    <div className='col-lg-4 d-flex'>
+                      <div className='card557'>
+                        <div className='card-233-body'>
+                          <h3><span><i className="bi bi-check2"></i></span>Integration with e-commerce and logistics platforms</h3>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div className='col-lg-4 d-flex'>
+                      <div className='card557'>
+                        <div className='card-233-body'>
+                          <h3><span><i className="bi bi-check2"></i></span>Cold-chain monitoring for perishable goods</h3>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div className='col-lg-4 d-flex'>
+                      <div className='card557'>
+                        <div className='card-233-body'>
+                          <h3><span><i className="bi bi-check2"></i></span>Complex returns management for multi-location retailers</h3>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-9">
+                  <div className="cc-mm-2">
+                    <p>Apps expand the value of the ERP without disrupting the core. Everything remains inside the Business Central experience.</p>
+                    <p>Your competitors are not waiting. Act before they do.</p>
+                    <Link href="#exampleModal"><a style={{ marginTop: '15px' }}
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Adapt with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    </Link>
+                  </div>
+                </div>
+
+
+              </div>
+
+          </div>
+        </div>
+        {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
+      </section>
+      <section className='s-options-ends end-bg'>
+        <div className="container">
+          <div className='row'>
+            <div className='col-lg-7'>
+              <div className="solution-new-banner-sub-head">
+                <h2>Dynamics Square UK: The Right Partner for Supply Chain Success</h2>
+                <p>Dynamics Square UK works closely with businesses to configure Dynamics 365 Business Central Supply Chain Management with accuracy and care. The software itself is powerful. But the success of the rollout depends on who leads it. This is where Dynamics Square UK makes the difference.</p>
+
+              </div>
+              <div className='row' style={{ paddingBottom: '20px' }}>
+                <div className="col-lg-12">
+                  <p style={{ marginBottom: '30px' }}><b>What makes the approach different:</b></p>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557 card557-7'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>UK-based project teams who understand local business context</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557 card557-7'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Years of supply chain implementation experience</h3>
+                    </div>
+
+
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Proven record from planning to go-live</h3>
+                    </div>
+
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Industry-specific customisations without complexity</h3>
+                    </div>
+
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex'>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>End-user training to drive real adoption</h3>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+            <div className='col-lg-5 align-self-center'>
+              <div className='img-backs-sid'>
+                <Image src="/img/f-side-001.png" alt="f-side-001" width={318} height={436} className='im-two' />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
+      </section>
+
 
     </>
   );
 };
 
 export default SupplyChainManagements;
-
