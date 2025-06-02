@@ -4,56 +4,53 @@ import Script from "next/script";
 import Link from "next/link";
 import useCardScrollEffect from "/components/useCardScrollEffect";
 
-const ProjectManagemtNew = () => {
+const ServiceManagmentNew = () => {
 
   useCardScrollEffect()
 
   return (
     <>
-      <Head>
-        <title>Dynamics 365 Business Central Project Management</title>
-        <meta name="robots" content="noindex, nofollow" />
+     <Head>
+        <title>Service Management with Business Central</title>
+         <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
-          content="D365 Business Central for project management: Efficiently schedule tasks, manage budgets, and track progress for optimal business growth."
+          content="Optimise your service management with Dynamics 365 Business Central. Streamline operations, boost efficiency, and deliver exceptional service experiences."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/project-management/"
+          href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/service-management/"
         />
-
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dynamics 365 Business Central Project Management" />
-        <meta property="og:description" content="D365 Business Central for project management: Efficiently schedule tasks, manage budgets, and track progress for optimal business growth." />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/project-management/" />
+        <meta property="og:title" content=" Service Management with Business Central " />
+        <meta property="og:description" content="Optimise your service management with Dynamics 365 Business Central. Streamline operations, boost efficiency, and deliver exceptional service experiences." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/service-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/BC-Warehouse-Management.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/service-management-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Dynamics 365 Business Central Project Management" />
-        <meta name="twitter:description" content="D365 Business Central for project management: Efficiently schedule tasks, manage budgets, and track progress for optimal business growth." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/BC-Warehouse-Management.png" />
-
-
+        <meta name="twitter:title" content="Service Management with Business Central" />
+        <meta name="twitter:description" content="Optimise your service management with Dynamics 365 Business Central. Streamline operations, boost efficiency, and deliver exceptional service experiences." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/service-management-banner.png" />
       </Head>
       <div className='solution-new-banner-one'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='solution-new-banner-one-content'>
-                <h1>Project Management in Dynamics 365 Business Central</h1>
-                <span className='large-heading'>Master Projects with Precision Using Dynamics 365 Business Central</span>
-                <p>Struggling to keep projects on track, budgets under control, and clients happy? Achieve clarity, control, and confidence across your project lifecycle with the project management in Dynamics 365 Business Central.</p>
+                <h1>Service Management in Dynamics 365 Business Central</h1>
+                <span className='large-heading'>Turn Service Chaos into Seamless Control with Business Central</span>
+                <p>Struggling to track service contracts, fix scheduling messes, or retain customers when your support falters? The missing piece is precision. Manage contracts, assets, and technicians from one screen. Give customers service that never slips.</p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Speak to a Consultant &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Book Demo Now! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -70,51 +67,109 @@ const ProjectManagemtNew = () => {
       <section className='bg-003'>
         <div className="container my-float-i">
           <div className="row">
+            <div className="col-lg-7 align">
+              <div className="supprt-header-new-one">
+                <h2>What Happens When You Don’t Have Proper Service Management?</h2>
+                <p>Every misfired ticket, technician routed late, and asset history lost in a spreadsheet adds up to lost trust, time, and money.</p>
+                <p>Your service team becomes firefighting support staff, not strategic brand ambassadors. Consequences? Churn, bad reviews, internal fatigue, and cost blowouts.</p>
+                <p>Clients expect fast, consistent, and reliable fixes. The moment you can't deliver, they move on. You can’t afford guesswork anymore, or can you?</p>
+                <p><b>Every delayed ticket costs trust.</b></p>
+                 <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Talk to Us! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-5">
+              <div className='img-backs-sid-two text-center'>
+                <Image src="/img/warehouse-management-side.png" alt="warehouse-management-side" width={318} height={436} className='im-two' />
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+
+      <section className='s-options-ends'>
+        <div className="container">
+          <div className='row'>
+            <div className='col-lg-5 align-self-center'>
+              <div className='img-backs-sid text-center'>
+                <Image src="/img/warehouse-management-side.png" alt="warehouse-management-side" width={318} height={436} className='im-two' />
+              </div>
+            </div>
+            <div className='col-lg-7'>
+              <div className="solution-new-banner-sub-head">
+                <h2>The Importance of Service Management in D365 Business Central</h2>
+                <p>Product delivery ends at the sale. But the relationship starts after the invoice. That’s where your service team steps in.</p>
+                <p>Whether you manage field service teams, service contracts, warranties, or equipment repairs, your efficiency depends on one thing: visibility and action from a single source.</p>
+                <p>That source is Business Central for service management. This modern Microsoft ERP comes with out-of-the-box Copilot that further improves efficiency and accuracy.</p>
+                <p><b>Customers notice everything. Be ready before they ask.</b></p>
+                <div className="cc-mm-2">
+                  <Link href="#exampleModal"><a style={{ marginTop: '15px' }}
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Free Demo Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  </Link>
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+      </section>
+        <section className='bg-003-01'>
+        <div className="container my-float-i">
+          <div className="row">
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Why Businesses Lose Time, Money and Control Over Projects</h2>
-                <p>Every project carries a hidden cost when visibility is blurred, billing is off, or resource planning goes sideways.</p>
-                <p><b>Key differentiators:</b></p>
+                <h2>What Is Business Central for Service Management?</h2>
+                <p>Dynamics 365 Business Central Service Management is the system that keeps your customers loyal and your service teams sharp.</p>
+                <p><b>It enables you to:</b></p>
 
               </div>
             </div>
           </div>
           <div className="row g-3 ">
-            <div className="col-lg-4 col-md-6 d-flex">
+            <div className="col-lg-4 col-md-6  d-flex">
               <div className="card-700">
-                <p>Teams waste hours on duplicated tasks</p>
+                <p>Schedule service personnel and equipment efficiently</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6  d-flex">
               <div className="card-700">
-                <p>Budgets leak due to inaccurate estimates</p>
+                <p>Maintain full visibility over service history, contracts and warranties</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6  d-flex">
               <div className="card-700">
-                <p>Resource clashes cause delivery delays</p>
+                <p>Automate service orders, invoicing and reporting</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6  d-flex">
               <div className="card-700">
-                <p>Manual tracking introduces billing errors</p>
+                <p>Manage service inventory and spare parts in real-time</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6  d-flex">
               <div className="card-700">
-                <p>Managers operate reactively, not proactively</p>
+                <p>Track profitability across service orders and contracts</p>
               </div>
             </div>
           </div>
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
-                <p>These aren't operational slip-ups but strategic vulnerabilities. Without a modern project management core, businesses fall behind, bleed profit, and risk losing trust. Enter the Business Central Project Management module to keep your projects on track because veracity wins contracts.</p>
+                <p>This is not a help desk ticket tool. It’s a full-featured service management in Business Central ERP that treats service like a business line, not an afterthought.</p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Improve Project Clarity with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Run on Business Central to Own the Edge &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -125,94 +180,76 @@ const ProjectManagemtNew = () => {
           </div>
         </div>
       </section>
-
-      <section className='s-options-ends'>
-        <div className="container">
-          <div className='row'>
-            <div className='col-lg-7'>
-              <div className="solution-new-banner-sub-head">
-                <h2>What is Project Management in Dynamics 365 Business Central?</h2>
-                <p>Project management in Dynamics 365 Business Central is the backbone of intelligent delivery for growing service-driven companies. From scoping to billing, it offers connected tools to control budgets, allocate resources, track progress, and stay audit-ready.</p>
-                <p>Unlike isolated tools or legacy systems, Dynamics 365 Business Central project management connects directly with your accounts, sales, procurement, and inventory. </p>
-                <p>After D365 Business Central project management implementation, there will be no silos, no lag, just pure efficiency.</p>
-                <div className="cc-mm-2">
-                  <Link href="#exampleModal"><a style={{ marginTop: '15px' }}
-                    data-bs-toggle="modal"
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Connect Every Part of Your Operations &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                  </Link>
-                </div>
-              </div>
-
-            </div>
-            <div className='col-lg-5 align-self-center'>
-              <div className='img-backs-sid'>
-                <Image src="/img/warehouse-management-side.png" alt="warehouse-management-side" width={318} height={436} className='im-two' />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
-      </section>
        <section className='bg-003-tt'>
         <div className="container my-float-i">
           <div className="row" style={{ paddingBottom: '20px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Functionalities in Microsoft Business Central Project Management</h2>
-                <p>Let’s break down what makes Microsoft Business Central project management uniquely capable:</p>
+                <h2>Core Functionalities in Service Management in Business Central ERP</h2>
+                <p>These core functionalities in service management in Business Central ERP exist to protect time, trust, and margin.</p>
               </div>
             </div>
           </div>
           <div className="row g-3 ">
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Planning That Goes Beyond Gantt Charts</b></p>
+                <p><b>Service Contract Management</b></p>
                 <ul>
-                  <li>Link tasks, milestones, and dependencies directly to finance and resource capacity</li>
-                  <li>Set up billing methods: fixed-price, time & materials or hybrid</li>
-                  <li>Track committed costs and actuals side by side</li>
+                  <li>Define SLAs, billing cycles and response times</li>
+                  <li>Automate renewals and notifications</li>
+                  <li>Track contract profitability</li>
+                  <li>Associate service items and warranties</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Seamless Resource Allocation</b></p>
+                <p><b>Service Order Handling</b></p>
                 <ul>
-                  <li>Match the right people to the right tasks based on availability, skillset and cost</li>
-                  <li>View real-time resource utilisation</li>
-                  <li>Prevent overbooking and underutilisation</li>
+                  <li>Create, track and complete service orders from anywhere</li>
+                  <li>Link jobs to contracts, equipment or customers</li>
+                  <li>Assign tasks based on availability and skills</li>
+                  <li>Track labour, part usage and resolution time</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Automated Time & Expense Tracking</b></p>
+                <p><b>Service Item Lifecycle</b></p>
                 <ul>
-                  <li>Integrated timesheets accessible via mobile or web</li>
-                  <li>Submit, approve, and reconcile hours effortlessly</li>
-                  <li>Link expenses to specific project codes with no manual rework</li>
+                  <li>Register and track customer assets</li>
+                  <li>Monitor usage history, warranties, replacements</li>
+                  <li>Plan proactive maintenance schedules</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Deep Financial Integration</b></p>
+                <p><b>Real-Time Inventory Coordination</b></p>
                 <ul>
-                  <li>Real-time cost tracking</li>
-                  <li>Revenue recognition support</li>
-                  <li>Project-specific P&L and cashflow projections</li>
+                  <li>See part availability across locations</li>
+                  <li>Trigger purchase or transfer orders automatically</li>
+                  <li>Allocate parts to specific jobs</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-6 d-flex">
               <div className="card-700 card-700-a">
-                <p><b>Task-Level Visibility</b></p>
+                <p><b>Resource Allocation and Skills Matching</b></p>
                 <ul>
-                  <li>Drill down to activity-level insights</li>
-                  <li>Assign responsibilities and dependencies</li>
-                  <li>Audit trail for every update</li>
+                  <li>Assign jobs based on technician skill and availability</li>
+                  <li>View workload calendars</li>
+                  <li>Avoid idle time and overlapping schedules</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="card-700 card-700-a">
+                <p><b>Mobile Accessibility and Updates</b></p>
+                <ul>
+                  <li>Service teams can access assignments on any device</li>
+                  <li>Real-time updates on job status and customer feedback</li>
+                  <li>Upload photos, notes, and time logs directly from the field</li>
                 </ul>
               </div>
             </div>
@@ -221,12 +258,11 @@ const ProjectManagemtNew = () => {
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
-                <p>These functionalities in Microsoft Business Central project management combine the thinking of a project manager with the preciseness of a finance controller.</p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
                 >
-                  <span>Build Project Backbone with Business Central &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                  <span>Take the Lead with Business Central! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -242,14 +278,14 @@ const ProjectManagemtNew = () => {
           <div className='row'>
             <div className='col-lg-10'>
               <div className='solution-new-cta-001'>
-                <h3>Manage Projects with Confidence with Microsoft Dynamics 365 ERP</h3>
-                <p>If you’ve lost a client due to poor communication, missed a deadline because of unclear dependencies, or underestimated a project scope, it’s the system that is at fault, not your team!</p>
+                <h3>Every missed service call costs trust. Don’t let it happen.</h3>
+                <p>Competitors who deploy Business Central for service management are not just gaining efficiency. They are raising expectations in the market.</p>
                 <div>
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Speak to a Dynamics Expert Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Start Service Precision with Business Central  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -257,61 +293,6 @@ const ProjectManagemtNew = () => {
           </div>
         </div>
       </section>
-
-      <section className='bg-003-x'>
-        <div className="container my-float-i">
-          <div className="row" style={{ paddingBottom: '30px' }}>
-            <div className="col-lg-8">
-              <div className="supprt-header-new-one">
-                <h2>Copilot and AI Agents: Capabilities That Help You Scale</h2>
-                <p>Be ready, intuitive, and adaptive with Copilot and AI agents in Dynamics 365 Business Central.</p>
-                <p>Incorporating Copilot, Microsoft’s next-generation AI companion, Dynamics 365 Business Central project management helps leaders make smart decisions fast, before delays or overspending occur.</p>
-              </div>
-            </div>
-          </div>
-          <div className="row g-3">
-            <div className="col-lg-12">
-              <div className="row g-3">
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Predict bottlenecks before they hit</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Generate automated budget forecasts</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Simplify timesheet tracking with intelligent suggestions</p>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
-                  <div className="card-701">
-                    <p>Improve accuracy in project costing with AI-assisted inputs</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="card-700-bot">
-                <p><b>Projects fail when your systems are reactive. Move from reactive to proactive.</b></p>
-                <Link href="#exampleModal"><a
-                  data-bs-toggle="modal"
-                  className="btn-get-started scrollto"
-                >
-                  <span>Reduce Friction in Operations &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-     
     
       <section className='solution-new-banner-three'>
         {/* <div className="container" ref={containerRef}> */}
@@ -319,8 +300,8 @@ const ProjectManagemtNew = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Benefits of Microsoft Dynamics 365 Business Central Project Management</h2>
-                <p>You don’t just install software but enable serious business performance. Every feature earns its place. Every decision gets sharper. This is a capability that pays for itself.</p>
+                <h2>Benefits of Business Central for Service Management</h2>
+                <p>Choosing Business Central for service management changes your business in ways clients and your own teams feel instantly.</p>
               </div>
             </div>
           </div>
@@ -330,14 +311,14 @@ const ProjectManagemtNew = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Real-Time Financial Clarity</h3>
-                      <p>You see where every pound is going. No surprises at month-end. No missed billables. Just financial truth.</p>
-                      <p><b>Key aspects:</b></p>
+                      <h3>For Your Customers</h3>
+                      <p>Every touchpoint becomes faster, clearer, and more reliable. Confidence builds with every on-time visit and accurate invoice.</p>
                       <ul>
-                        <li>Live cost tracking across resources, tasks, and vendors</li>
-                        <li>Automatic revenue recognition aligned with milestones</li>
-                        <li>Invoice accuracy that kills disputes before they start</li>
-                        <li>Granular financial visibility, from budget to burn</li>
+                        <li>Faster resolution times</li>
+                        <li>Fewer escalations</li>
+                        <li>Real-time updates</li>
+                        <li>No missed appointments or services</li>
+                        <li>Transparent billing and contracts</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -348,14 +329,14 @@ const ProjectManagemtNew = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Project Predictability</h3>
-                      <p>Proactively address risks, delays, or overruns before they impact delivery. Accurate forecasting isn’t a luxury anymore. It’s a baseline.</p>
-                      <p><b>Key aspects:</b></p>
+                      <h3>For Your Team</h3>
+                      <p>They spend less time figuring out what to do and more time doing it right.</p>
                       <ul>
-                        <li>Real-time timeline tracking and variance detection</li>
-                        <li>Embedded risk flags that force early decisions</li>
-                        <li>Forecast-driven resource planning across all phases</li>
-                        <li>Gantt-style clarity with zero manual updates</li>
+                        <li>Less manual tracking</li>
+                        <li>Clearer job assignments</li>
+                        <li>Smart inventory usage</li>
+                        <li>Stronger contract renewals</li>
+                        <li>Complete asset visibility</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -366,14 +347,14 @@ const ProjectManagemtNew = () => {
                 <div className='mycard'>
                   <div className='mycard__inner'>
                     <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Team Alignment</h3>
-                      <p>When finance, delivery, and sales share the same truth, accountability becomes automatic. Collaboration turns from chaos to clockwork.</p>
-                      <p><b>Key aspects:</b></p>
+                      <h3>For Your Bottom Line</h3>
+                      <p>What used to leak margin now creates measurable value.</p>
                       <ul>
-                        <li>Unified workspace for project managers, finance, and operations</li>
-                        <li>Instant access to shared documents, approvals, and status</li>
-                        <li>Role-based dashboards tailored to what matters</li>
-                        <li>Project conversations tied to data, not email trails</li>
+                        <li>Reduced downtime and errors</li>
+                        <li>More billable hours per technician</li>
+                        <li>Better contract revenue forecasting</li>
+                        <li>Lower parts wastage</li>
+                        <li>Enhanced client retention</li>
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
@@ -381,42 +362,7 @@ const ProjectManagemtNew = () => {
                     </div>
                   </div>
                 </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Streamlined Compliance</h3>
-                      <p>Audit trails, approval flows, and document linking keep every stakeholder (and regulator) satisfied.</p>
-                      <p><b>Key aspects:</b></p>
-                      <ul>
-                        <li>Automated approval workflows for budgets and changes</li>
-                        <li>Time-stamped logs of every project decision</li>
-                        <li>Linked documentation with zero room for guesswork</li>
-                        <li>Ready-to-export audit views for regulatory inspections</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/warehouse-management-side-04.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
-                <div className='mycard'>
-                  <div className='mycard__inner'>
-                    <div className='mycard__inner-left mycard__inner-left-p'>
-                      <h3>Client Confidence</h3>
-                      <p>Status updates, accurate billing, and on-time delivery build repeat business. Projects don’t just end but evolve into long-term trust.</p>
-                      <p><b>Key aspects:</b></p>
-                      <ul>
-                        <li>Client-ready reports generated in real time</li>
-                        <li>Delivery timelines that don’t change without cause</li>
-                        <li>Transparent invoicing built from real activity</li>
-                        <li>Built-in client collaboration tools to remove surprises</li>
-                      </ul>
-                    </div>
-                    <div className='mycard__inner-right'>
-                      <Image src="/img/warehouse-management-side-05.png" width={581} height={456} alt="Card 3" />
-                    </div>
-                  </div>
-                </div>
+              
               </div>
             </div>
           </div>
@@ -427,14 +373,15 @@ const ProjectManagemtNew = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-cta-001'>
-                <h3>End Your Project-related Woes with the Business Central Project Management Module</h3>
-                <p>Replace patchwork tools with accuracy. Shift from reaction to control. Let your projects reflect your capability, not your constraints.</p>
+                <h3>Your Next Step Is the Only Step That Matters</h3>
+                <p>You’ve read the real problems. You’ve seen how service management in Business Central ERP changes the service game from reactive to revenue-generating.</p>
+                <p>Don’t let service chaos take the lead.</p>
                 <div>
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Start Your Project Transformation  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Don’t let service chaos take the lead  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -443,79 +390,64 @@ const ProjectManagemtNew = () => {
         </div>
         <img src="/img/n-015.png" alt="n-015" />
       </section>
-
-      <section className='bg-003-y'>
+       <section className='bg-003-x'>
         <div className="container my-float-i">
           <div className="row" style={{ paddingBottom: '30px' }}>
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
-                <h2>Who Needs Business Central Project Management?</h2>
-                <p>The capabilities of Dynamics 365 Business Central project management are not just meant for small or medium-sized enterprises. If you manage projects with people, time, and money at stake, this applies to you.</p>
+                <h2>Who Is Business Central Service Management For?</h2>
+                <p>Dynamics 365 Business Central Service Management is designed for any business where service delivery, field response, and asset uptime aren’t negotiable. If your teams operate on-site, if your revenue depends on consistent service contracts, and if downtime equals cost, this system is what you need.</p>
               </div>
             </div>
           </div>
           <div className="row g-3">
-            <div className="col-lg-4">
-              <div className='support-image--onea'>
-                <Image src="/img/warehouse-management-side-01.png" alt='warehouse-management-side-01' width={402} height={436} />
-              </div>
-            </div>
-            <div className="col-lg-8 align-self-center">
+            <div className="col-lg-12">
               <div className="row g-3">
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Professional Services (consulting, legal, IT)</p>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p><b>Field Service Providers:</b> HVAC, telecoms, repair services, IT maintenance</p>
                   </div>
                 </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Construction and Engineering</p>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p><b>OEMs and Equipment Sellers:</b> Manufacturers with service obligations</p>
                   </div>
                 </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Creative Agencies</p>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p><b>Retail Chains and Franchises:</b> Who need to service in-store assets</p>
                   </div>
                 </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Education & Training Providers</p>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p><b>Facilities Management Firms:</b> Handling diverse contracts and buildings</p>
                   </div>
                 </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Healthcare & Research</p>
-                  </div>
-                </div>
-                <div className="col-lg-6 d-flex">
-                  <div className="card-700 card-700-b">
-                    <p>Public Sector Delivery Units</p>
-                  </div>
-                </div>
-
-
-                <div className="col-lg-12">
-                  <div className="card-700-bot">
-                    <p>If your project tracking still relies on email approvals, Excel, or offline meetings, you’re overdue for transformation.</p>
-                    <Link href="#exampleModal"><a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Transform Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                    </Link>
+                <div className="col-lg-4 col-md-6 col-sm-6 d-flex">
+                  <div className="card-701">
+                    <p><b>Utilities and Infrastructure:</b> Managing public services and equipment</p>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-          <div className="card-700-image-t">
-            <img src="/img/Union-shape-one.png" alt="Union-shape-one" />
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="card-700-bot">
+                <p>If job tickets still get printed, contract renewals live in inboxes, and no one knows what’s been serviced, your system isn’t serving you. It is no less than a liability.</p>
+                <p><b>Service Better. Now.</b></p>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Book a Demo &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-
+    
 
 
       <section className='s-options-end'>
@@ -525,40 +457,55 @@ const ProjectManagemtNew = () => {
               <div className='row'>
                 <div className="col-lg-12">
                   <div className="solution-new-banner-sub-head">
-                    <h2>Why Dynamics Square UK?</h2>
-                    <p>Choosing the right partner is as crucial as choosing the right system. Dynamics Square UK delivers certified expertise, local support, and strategic insight.</p>
+                    <h2>Why Dynamics Square UK for D365 Business Central Service Management Deployment</h2>
+                    <p>Implementation is the difference between buying potential and experiencing results. Dynamics Square, a seasoned Microsoft Dynamics 365 partner in the UK, helps tailor, deploy, and support D365 Business Central Managed Services so your service engine runs like a precision machine.</p>
+                    <p><b>Our teams don’t just install software. They enable transformation:</b></p>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Microsoft Gold Partner with 500+ implementations</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Discovery and gap analysis</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Industry-specific deployment experience</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Business central implementation roadmaps</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Post-go-live success support</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Data migration and integrations</h3>
                     </div>
                   </div>
                 </div>
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>UK-based team for compliance, time zones, and continuity</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Training field and admin teams</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex '>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Real-time reporting dashboards</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className='col-lg-6 d-flex '>
+                  <div className='card557'>
+                    <div className='card-233-body'>
+                      <h3><span><i className="bi bi-check2"></i></span>Real-time reporting dashboards</h3>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
-                  <p style={{ paddingTop: '20px' }}><b>Your journey doesn’t end at implementation. That’s when the real advantage begins.</b></p>
+                  <p style={{ paddingTop: '20px' }}>Every business has different pressure points. Dynamics Square, as a Microsoft Dynamics 365 implementation partner, configures Microsoft Dynamics 365 to match your actual ground-level needs.</p>
                 </div>
               </div>
             </div>
@@ -891,4 +838,4 @@ const ProjectManagemtNew = () => {
   );
 };
 
-export default ProjectManagemtNew;
+export default ServiceManagmentNew;

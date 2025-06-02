@@ -3,7 +3,7 @@ import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
 
-const MicrosoftDynamics365Ai = () => {
+const ServiceManagmw = () => {
   return (
     <>
       <Head>
@@ -399,5 +399,5 @@ const MicrosoftDynamics365Ai = () => {
   );
 };
 
-export default MicrosoftDynamics365Ai;
+export default ServiceManagmw;
 
