@@ -500,7 +500,7 @@ const ServiceManagmentNew = () => {
                 <div className='col-lg-6 d-flex '>
                   <div className='card557'>
                     <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Real-time reporting dashboards</h3>
+                      <h3><span><i className="bi bi-check2"></i></span>Ongoing support for continuous growth</h3>
                     </div>
                   </div>
                 </div>
