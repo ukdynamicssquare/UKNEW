@@ -16664,6 +16664,10 @@ height: 75vh;
   .panel-new-haed-side h2 {
     font-size: 40px;
   }
+  .booking-zoho-form .booking-iframe{
+    height: 500px;
+height: 100vh;
+}
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .flot-5 {
