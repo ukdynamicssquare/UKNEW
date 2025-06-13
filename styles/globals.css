@@ -16574,6 +16574,32 @@ margin: -30px 0px -80px;
   position: relative;
     z-index: 1;
 }
+
+.booking-zoho-form{
+  margin-top: 0px;
+  min-height: 587px;
+}
+.booking-zoho-form .booking-iframe{
+  width: 100%;
+    height: 500px;
+height: 75vh;
+}
+.te-heading{
+  text-align: center;
+}
+.te-heading h1{
+  color: #63448b;
+    font-weight: 600;
+    font-size: 36px !important;
+    margin-bottom: 15px;
+}
+.te-heading p{
+  font-size: 15px;
+}
+.bbobg-col{
+  background: #f1f0f4;
+}
+
 /*media scren*/
 
 @media (min-width: 1440px) and (max-width: 1700px) {

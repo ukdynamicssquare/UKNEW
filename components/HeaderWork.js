@@ -21,6 +21,7 @@ const HeaderWork = () => {
     "/products/dynamics-365-business-central/warehouse-management": `${gname}`,
     "/products/dynamics-365-business-central/project-management": `${gname}`,
     "/products/dynamics-365-business-central/service-management": `${gname}`,
+       "/book-a-demo": `${gname}`,
   };
 
   const currentHeaderClass = headerClassMap[router.pathname] || "";
