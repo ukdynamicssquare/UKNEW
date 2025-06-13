@@ -28,7 +28,7 @@ const BookADemo = () => {
             </div>
           </div>
             <div className="row justify-content-center">
-                <div className="col-lg-10">
+                <div className="col-lg-8 col-md-12">
                     <div className="booking-zoho-form">
                         <iframe className="booking-iframe" src='https://sushilbeheradynamicssquarecom.zohobookings.in/portal-embed#/279049000000050133' frameborder='0' allowfullscreen='' ></iframe>
                     </div>
