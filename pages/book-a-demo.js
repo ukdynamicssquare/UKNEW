@@ -30,9 +30,9 @@ const BookADemo = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-12 col-md-12">
                     <div className="booking-zoho-form">
-                        <iframe className="booking-iframe" src='https://sushilbeheradynamicssquarecom.zohobookings.in/portal-embed#/279049000000050133' frameborder='0' allowfullscreen='' ></iframe>
+                        <iframe className="booking-iframe" src='https://dynamicssquare.zohobookings.in/portal-embed#/275417000000040082' frameborder='0' allowfullscreen='' ></iframe>
                         <br/><br/>
-                         <iframe  className="booking-iframe" src='https://outlook.office.com/owa/calendar/RequestaPersonalisedDemo1@dynamicssquare.com/bookings/?ismsaljsauthenabled' allowfullscreen='' ></iframe>
+                         {/* <iframe  className="booking-iframe" src='https://outlook.office.com/owa/calendar/RequestaPersonalisedDemo1@dynamicssquare.com/bookings/?ismsaljsauthenabled' allowfullscreen='' ></iframe> */}
                     </div>
                     <div>
                      
