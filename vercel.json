@@ -11,7 +11,8 @@
       { "source": "/power-bi-support/", "destination": "/products/microsoft-power-bi/support/", "statusCode": 301 },
       { "source": "/case-studies/nav09-nav18-upgrade/", "destination": "/case-studies/nav2009-nav18-upgrade/", "statusCode": 301 },
        { "source": "/blog/what-is-the-best-accounting-software-for-charities/", "destination": "/blog/best-accounting-software-for-charities-uk/", "statusCode": 301 },
-        { "source": "/blog/erp-solutions-for-manufacturing/", "destination": "/blog/erp-solutions-for-manufacturing-uk/", "statusCode": 301 }
+        { "source": "/blog/erp-solutions-for-manufacturing/", "destination": "/blog/erp-solutions-for-manufacturing-uk/", "statusCode": 301 },
+        { "source": "/blog/10-best-erp-systems-for-small-businesses/", "destination": "/blog/15-best-erp-systems-for-small-businesses/", "statusCode": 301 }
     ]
   }
   
