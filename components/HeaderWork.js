@@ -11,7 +11,6 @@ const HeaderWork = () => {
   const gname="services-header"
   const headerClassMap = {
     "/": "specific-header",
-    "/products/dynamics-365-business-central": `${gname}`,
     "/products/dynamics-365-business-central/bc-support": `${gname}`,
     "/dynamics-365-business-central-implementation": `${gname}`,
     "/d365-business-central-support": `${gname}`,
