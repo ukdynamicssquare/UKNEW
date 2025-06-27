@@ -27,7 +27,7 @@ const ServiceManagmentNew = () => {
         <meta property="og:description" content="Optimise your service management with Dynamics 365 Business Central. Streamline operations, boost efficiency, and deliver exceptional service experiences." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/service-management/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/service-management-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/service-managment-banner.png" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
@@ -35,7 +35,7 @@ const ServiceManagmentNew = () => {
         <meta name="twitter:site" content="@dsquare_uk" />
         <meta name="twitter:title" content="Service Management with Business Central" />
         <meta name="twitter:description" content="Optimise your service management with Dynamics 365 Business Central. Streamline operations, boost efficiency, and deliver exceptional service experiences." />
-        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/service-management-banner.png" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/service-managment-banner.png" />
       </Head>
       <div className='solution-new-banner-one'>
         <div className='container'>
@@ -55,7 +55,7 @@ const ServiceManagmentNew = () => {
                 </div>
               </div>
               <div className='m-b-image-banner'>
-                <Image src="/img/bc-support-banner.png" alt='bc-support-banner' width={1097} height={656} />
+                <Image src="/img/service-managment-banner.png" alt='bc-support-banner' width={970} height={641} />
                 <div className='ff-one'>  <span className=''>Dynamic Sales Insights</span></div>
                 <div className='ff-two'>  <span className=''>Real-time Inventory Visibility</span></div>
               </div>
@@ -84,7 +84,7 @@ const ServiceManagmentNew = () => {
             </div>
             <div className="col-lg-5">
               <div className='img-backs-sid-two text-center'>
-                <Image src="/img/warehouse-management-side.png" alt="warehouse-management-side" width={318} height={436} className='im-two' />
+                <Image src="/img/service-managment-side-01.png" alt="service-managment-side-01" width={318} height={436} className='im-two' />
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const ServiceManagmentNew = () => {
           <div className='row'>
             <div className='col-lg-5 align-self-center'>
               <div className='img-backs-sid text-center'>
-                <Image src="/img/warehouse-management-side.png" alt="warehouse-management-side" width={318} height={436} className='im-two' />
+                <Image src="/img/service-managment-side-02.png" alt="service-managment-side-02" width={383} height={487} className='im-two' />
               </div>
             </div>
             <div className='col-lg-7'>
@@ -322,7 +322,7 @@ const ServiceManagmentNew = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-003.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/service-managment-side-03.png" width={580} height={456} alt="service-managment-side-03" />
                     </div>
                   </div>
                 </div>
@@ -340,7 +340,7 @@ const ServiceManagmentNew = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/warehouse-management-side-02.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/service-managment-side-04.png" width={581} height={456} alt="service-managment-side-03" />
                     </div>
                   </div>
                 </div>
@@ -358,7 +358,7 @@ const ServiceManagmentNew = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/new-pic-004.png" width={581} height={456} alt="Card 3" />
+                      <Image src="/img/service-managment-side-04.png" width={580} height={456} alt="Card 3" />
                     </div>
                   </div>
                 </div>
