@@ -16600,8 +16600,141 @@ height: 75vh;
   background: #f1f0f4;
 }
 
-/*media scren*/
+.solution-new-banner-one-colo{
 
+}
+.m-b-image-banner-bott {
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+    z-index: -1;
+}
+.m-b-image-banner-nn{
+  margin-top: 80px;
+}
+.m-b-image-banner-bott img{
+  width:100%;
+}
+.bg-003s{
+  background-color: #f1f0f4;
+}
+.supprt-header-new-one-ul ul{
+  padding-left: 0;
+    list-style: none;
+}
+.supprt-header-new-one-ul ul li{
+  display: flex;
+    gap: 10px;
+    margin-bottom: 7px;
+    align-items: center;
+}
+.supprt-header-new-one-ul ul li .bi{
+  font-size: 20px;
+  color:#60518c
+}
+.supprt-header-new-one-ul ul li span{}
+.card-700-img{
+  border-radius: 8px;
+    background-color: #f1f0f4;
+    transition:.4s ease;
+      z-index:1;
+  position:relative;
+}
+.card-700-img:hover{
+  box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+z-index:2;
+}
+.card-700-img img{
+  margin-bottom: 15px;
+}
+.mycard__inner-left-ul ul{}
+.mycard__inner-left-ul ul li{
+  background: initial;
+  display:flex;
+  gap:10px;
+  align-items: center;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.mycard__inner-left-ul ul li .bi{
+  color: #61518c;
+  font-size:22px
+}
+.mycard__inner-left-ul ul li .span{}
+/*media scren*/
+.solution-new-tab-cant{
+  flex: 30%;
+    max-width: 30%;
+}
+.solution-new-tab-cant .nav-link{
+padding:15px
+}
+.solution-new-tab-cant .nav-link h3{
+  display: flex
+;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #61518c;
+    align-items: center;
+}
+.solution-new-tab-cant .nav-link h3 img{
+
+}
+.solution-new-tab-cant .nav-link.active{
+border-radius: 8px !important;
+  background-image: radial-gradient(circle at -9% -21%, rgba(153, 142, 186, 0.37), rgba(153, 142, 186, 0) 133%), linear-gradient(to bottom, #fff, #fff);
+}
+.solution-new-tab-cant .nav-link:hover{
+background-image: radial-gradient(circle at -9% -21%, rgba(153, 142, 186, 0.37), rgba(153, 142, 186, 0) 133%), linear-gradient(to bottom, #fff, #fff) !important;
+}
+.solution-new-tab-cant .nav-link:hover h3,.solution-new-tab-cant .nav-link.active h3{
+   color: #61518c;
+}
+.solution-new-tab-cant .nav-link:focus-visible,.solution-new-tab-cant .nav-link:focus{
+  border-color:transparent;
+  outline: none;
+}
+.solution-new-tab-cant-cont{
+}
+.solution-new-tab-cant-cont .inner-con-div{
+   background-image: linear-gradient(35deg, rgba(255, 255, 255, 0.8) -25%, #fff 104%), linear-gradient(108deg, #fff -2%, rgba(255, 255, 255, 0) 72%) !important;
+   box-shadow: 21.1px 17.9px 42.1px 0 rgba(0, 0, 0, 0.25);
+}
+.inner-con-div-card{
+  border-radius: 8px;
+  background-color: #f1f0f4;
+  padding:20px 15px;
+  margin-bottom:20px
+}
+.inner-con-div-card p{
+  margin-bottom:0px;
+  font-size: 14px !important;
+}
+.nnn-bg{
+  background-color: #f1f0f4;
+}
+.im-60-b{
+  width: 54px;
+    height: 54px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.bx-pi-cc{}
+.im-60-b img{}
+.bx-pi-cc li{
+  gap: 20px !important;
+}
+.bx-pi-cc li span{
+  width:50%;
+  display: block;
+    line-height: normal;
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;
@@ -16652,7 +16785,7 @@ height: 75vh;
     padding: 60px 0px;
   }
   .solution-new-cta h3 {
-    font-size: 40px;
+    font-size: 36px;
   }
   .s-options-end {
     padding-top: 30px;
