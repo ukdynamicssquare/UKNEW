@@ -16003,7 +16003,13 @@ margin: -30px 0px -80px;
 }
 .asd.asd1 {
   background: url("/img/mask-groupasda.png") no-repeat center right;
-} 
+      background-size: contain;
+}
+.asd.asd2 {
+  background: url("/img/exp-man-bg.png") no-repeat center right;
+      background-size: contain;
+}
+
 .solution-new-cta::before {
   content: "";
   position: absolute;
@@ -16713,7 +16719,8 @@ background-image: radial-gradient(circle at -9% -21%, rgba(153, 142, 186, 0.37),
   border-radius: 8px;
   background-color: #f1f0f4;
   padding:20px 15px;
-  margin-bottom:20px
+  margin-bottom:20px;
+  width: 100%;
 }
 .inner-con-div-card p{
   margin-bottom:0px;
