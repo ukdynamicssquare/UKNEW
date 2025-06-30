@@ -65,7 +65,7 @@ const Continia = () => {
           </div>
         </div>
       </div>
-      <section className='bg-003s'>
+      <section className='bg-003s pd-con-60'>
         <div className="container my-float-i">
           <div className="row">
             <div className="col-lg-6 align">
@@ -101,7 +101,7 @@ const Continia = () => {
 
         </div>
       </section>
-      <section className='bg-003-021'>
+      <section className='bg-003-021 pd-con-61'>
         <div className="container my-float-i">
           <div className="row">
             <div className="col-lg-8">
@@ -161,7 +161,7 @@ const Continia = () => {
         </div>
       </section>
 
-      <section className='solution-new-cta slution-new-cta-two'>
+      <section className='solution-new-cta slution-new-cta-two pd-con-62'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6'>
@@ -183,7 +183,7 @@ const Continia = () => {
         <img src="/img/n-015.png" alt="n-015" />
       </section>
 
-      <section className='solution-new-banner-three'>
+      <section className='solution-new-banner-three pd-con-63'>
         {/* <div className="container" ref={containerRef}> */}
         <div className="container">
           <div className='row'>
@@ -278,7 +278,7 @@ const Continia = () => {
         </div>
       </section>
 
-      <section className="nnn-bg">
+      <section className="nnn-bg pd-con-64">
 
         <div className="container">
           <div className='row'>
@@ -895,7 +895,7 @@ const Continia = () => {
           </div>
         </div>
       </section>
-    <section className='solution-new-cta'>
+      <section className='solution-new-cta pd-con-65'>
         <div className='asd'>
           <div className='container'>
             <div className='row'>
@@ -918,7 +918,7 @@ const Continia = () => {
         </div>
 
       </section>
-      <section className='bg-003s'>
+      <section className='bg-003s pd-con-66'>
         <div className="container my-float-i">
           <div className="row">
             <div className="col-lg-5 align-self-center">
@@ -934,11 +934,11 @@ const Continia = () => {
                 <p><b>Here’s what your business is grappled with when you manually manage your invoices:</b></p>
                 <ul className="bx-pi-cc">
                   <li><div className="im-60-b"><img src="/img/autostop-07.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
-                   <li><div className="im-60-b"><img src="/img/autostop-08.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
-                    <li><div className="im-60-b"><img src="/img/autostop-09.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
-                     <li><div className="im-60-b"><img src="/img/autostop-10.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
+                  <li><div className="im-60-b"><img src="/img/autostop-08.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
+                  <li><div className="im-60-b"><img src="/img/autostop-09.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
+                  <li><div className="im-60-b"><img src="/img/autostop-10.png" alt="autostop-02" width={24} height={24} /></div><span>Know which vendors delay payments and which team delays approvals</span></li>
                 </ul>
-                
+
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
@@ -950,7 +950,7 @@ const Continia = () => {
           </div>
         </div>
       </section>
-      <section className='bg-003s'>
+      <section className='bg-003s pd-con-67'>
         <div className="container my-float-i">
           <div className="row">
             <div className="col-lg-6">
@@ -988,7 +988,7 @@ const Continia = () => {
         </div>
       </section>
 
-      <section className="solution-faq faq">
+      <section className="solution-faq faq pd-con-68">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-7 text-center">
