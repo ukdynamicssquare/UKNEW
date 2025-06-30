@@ -16001,6 +16001,9 @@ margin: -30px 0px -80px;
   position: relative;
   /* mix-blend-mode: luminosity;; */
 }
+.asd.asd1 {
+  background: url("/img/mask-groupasda.png") no-repeat center right;
+} 
 .solution-new-cta::before {
   content: "";
   position: absolute;
@@ -16573,6 +16576,9 @@ margin: -30px 0px -80px;
 .solution-new-cta-001{
   position: relative;
     z-index: 1;
+}
+.solution-new-cta-001 p{
+  color:#ffffff
 }
 
 .booking-zoho-form{
