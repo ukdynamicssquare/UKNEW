@@ -42,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5G8CCP6W');`
             }
           </Script>
-          <Script id="hotjar" strategy="beforeInteractive">
+          {/* <Script id="hotjar" strategy="beforeInteractive">
             {`
                (function (h, o, t, j, a, r) {
                 h.hj =
@@ -58,11 +58,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 a.appendChild(r);
               })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
-          </Script>
-          <Script id="apollo" strategy="beforeInteractive">
+          </Script> */}
+          {/* <Script id="apollo" strategy="beforeInteractive">
             {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script"); o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0, o.onload=function(){window.trackingFunctions.onLoad({appId:"66322a5ecb3cc6056bd458d4"})}, document.head.appendChild(o)}initApollo();
                 `}
-          </Script>
+          </Script> */}
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
