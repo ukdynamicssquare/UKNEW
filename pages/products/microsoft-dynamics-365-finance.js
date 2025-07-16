@@ -582,9 +582,7 @@ const Finance = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Dynamics 365 Finance Pricing</h2>
-                <p>
-                  Dynamics 365 Finance implementation can help automate your financial operations, improve your decision-making using data, minimise global financial complexities, and bring strategic impact on your financial system.
-                </p>
+                <p>Dynamics 365 Finance comes with a licensing structure shaped for enterprise precision. It aligns capability with scale, enabling financial teams to access tools designed for performance, governance, and compliance. Each licence grants entry into a system that supports growth, removes complexity, and strengthens financial clarity without compromise.</p>
               </header>
             </div>
           </div>
