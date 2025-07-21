@@ -525,7 +525,7 @@ const Sales = () => {
                   Professional
                 </h3>
                 <div className="price">
-                  £50.40<span>Per-User/Per Month</span>
+                  £50.40<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="">
@@ -545,7 +545,7 @@ const Sales = () => {
                   Enterprise
                 </h3>
                 <div className="price">
-                  £80.70<span>Per-User/Per Month</span>
+                  £80.70<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="">
@@ -563,7 +563,7 @@ const Sales = () => {
                         <h4>Business Central<br />
                            Essentials
                         </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
+                        <div className="price"><sup>£</sup>52.80<span>user/month, paid yearly</span></div>
                         <ul>
                            <li> <i className="bi bi-check-lg"></i> Read and Approve</li>
                            <li> <i className="bi bi-check-lg"></i> Employee Self Serve</li>
@@ -578,7 +578,7 @@ const Sales = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  £115.30<span>Per-User/Per Month</span>
+                  £115.30<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="">

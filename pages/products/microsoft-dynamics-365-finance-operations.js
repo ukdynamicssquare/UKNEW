@@ -836,7 +836,7 @@ const FinanceOperations = () => {
                     <li>Optimise Cash Flow </li>
                   </ul>
                   <p style={{color:'var(--color-blue)'}}><strong>Pricing </strong></p>
-                  <p style={{color:"#bb2b36"}}><strong>£147.90 user/month. </strong></p>
+                  <p style={{color:"#bb2b36"}}><strong>£161.50 user/month, paid yearly. </strong></p>
                   <p><Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">See More</a></Link></p>
                 </div>
               </div>
@@ -862,7 +862,7 @@ const FinanceOperations = () => {
                     <li>Assets Management </li>
                   </ul>
                   <p style={{color:'var(--color-blue)'}}><strong>Pricing</strong></p>
-                  <p style={{color:"#bb2b36"}}><strong>£147.90 user/month. </strong></p>
+                  <p style={{color:"#bb2b36"}}><strong>£161.50 user/month,paid yearly. </strong></p>
                   <p><Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">See More</a></Link></p>
                 </div>
               </div>
