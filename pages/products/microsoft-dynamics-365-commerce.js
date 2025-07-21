@@ -572,7 +572,7 @@ const Commerce = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Commerce</h3>
                 <div className="price">
-                  £147.90<span>Per-User/Per Month</span>
+                  £161.50<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -586,7 +586,7 @@ const Commerce = () => {
               <div className="box box-22">
                 <h3>E-Commerce Add-In for Dynamics 365 Commerce</h3>
                 <div className="price">
-                  £3,287.80<span>Per-User/Per Month</span>
+                  £3,075.80<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">

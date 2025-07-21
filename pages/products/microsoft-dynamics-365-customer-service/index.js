@@ -486,8 +486,32 @@ const CustomerService = () => {
             </div>
           </div>
 
-          <div className="row gy-4 p-9">
-            <div className="col-lg-4 col-md-4">
+          <div className="row p-9 justify-content-center">
+            <div className="col-lg-10">
+              <div className="row  gy-4 ">
+                <div className="col-lg-6 d-flex">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365 Customer Service
+                  <br />
+                  Free Trial
+                </h3>
+                <div className="price">
+                  £0<span></span>
+                </div>
+                <ul>
+                  <li className="">
+                Deliver outstanding service that meets and exceeds customer expectations
+                  </li>
+                </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service
@@ -495,7 +519,7 @@ const CustomerService = () => {
                   Professional
                 </h3>
                 <div className="price">
-                £41.10<span>Per-User/Per Month</span>
+                £38.40<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li>
@@ -523,7 +547,7 @@ const CustomerService = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-6 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service
@@ -531,7 +555,7 @@ const CustomerService = () => {
                   Enterprise
                 </h3>
                 <div className="price">
-                £86.30<span>Per-User/Per Month</span>
+                £80.70<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li>
@@ -560,7 +584,7 @@ const CustomerService = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-md-4">
+            <div className="col-lg-6 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service<br/> Premium
@@ -568,7 +592,7 @@ const CustomerService = () => {
                   
                 </h3>
                 <div className="price">
-                £160.30<span>Per-User/Per Month</span>
+                £149.90<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li>
@@ -591,6 +615,8 @@ const CustomerService = () => {
                     <i className="bi bi-check-lg"></i> Customization and extensibility, etc.
                   </li>
                 </ul>
+              </div>
+            </div>
               </div>
             </div>
 

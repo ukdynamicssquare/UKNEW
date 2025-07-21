@@ -1459,6 +1459,7 @@ section {
   margin-top: 20px;
 }
 .pricing .box {
+  width:100%;
   padding: 40px 20px;
   background: #fff;
   text-align: center;
@@ -4500,6 +4501,10 @@ section {
   padding-bottom: 10px;
   color: var(--color-grey);
   font-size: 16px;
+ 
+}
+.pricing  .box-22.box-21s li{
+ display:flex
 }
 .about-timeline .swiper-wrapper {
   z-index: 9;
@@ -16772,6 +16777,13 @@ background-image: radial-gradient(circle at -9% -21%, rgba(153, 142, 186, 0.37),
 .pd-con-68{}
 .img-backs-sid-two{
   text-align:center
+}
+.btn-get-ress{
+  border: 1px solid #1d3659;
+    background: #1c355a;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 16px;
 }
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {

@@ -669,11 +669,33 @@ const ProjectOperations = () => {
           </div>
 
           <div className="row gy-4 p-9 justify-content-center">
+            <div className="col-lg-6 d-flex">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365 Project Operations
+                  <br />
+                  Free Trial
+                </h3>
+                <div className="price">
+                  £0<span></span>
+                </div>
+                <ul>
+                  <li className="">
+                  Drive your project success and profitability with a single solution.
+                  </li>
+                </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
             <div className="col-lg-6">
               <div className="box box-22">
                 <h3>Dynamics 365 Project Operations</h3>
                 <div className="price">
-                  £111.00<span>Per-User/Per Month</span>
+                  £103.80<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">

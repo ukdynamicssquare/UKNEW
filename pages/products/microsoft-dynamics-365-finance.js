@@ -608,7 +608,7 @@ const Finance = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Finance</h3>
                 <div className="price">
-                  £172.60<span>Per-User/Per Month</span>
+                  £161.50<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -622,7 +622,7 @@ const Finance = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Finance Premium</h3>
                 <div className="price">
-                  £246.60<span>Per-User/Per Month</span>
+                  £230.70<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">

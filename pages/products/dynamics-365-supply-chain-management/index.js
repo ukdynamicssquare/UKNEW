@@ -634,24 +634,7 @@ const Index = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-1">
-              {/* <div className="box">
-                        <h4>Business Central<br />
-                           Essentials
-                        </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Financial Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Inventory Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Purchase Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Project Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Additional Capabilities</li>
-                        </ul>
-                       
-                     </div> */}
-            </div>
-            <div className="col-lg-5">
+            <div className="col-lg-4 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365
@@ -659,7 +642,7 @@ const Index = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                £172.60<span>Per-User/Per Month</span>
+                £161.50<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -674,7 +657,7 @@ const Index = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-5">
+            <div className="col-lg-4 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365
@@ -682,7 +665,7 @@ const Index = () => {
                   Supply Chain Management Premium
                 </h3>
                 <div className="price">
-                £246.60<span>Per-User/Per Month</span>
+                £230.70<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -691,20 +674,24 @@ const Index = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-1">
-              {/* <div className="box">
-                        <h4>Business Central<br />
-                           Essentials
-                        </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Read and Approve</li>
-                           <li> <i className="bi bi-check-lg"></i> Employee Self Serve</li>
-                           <li> <i className="bi bi-check-lg"></i> Run All Reports</li>
-                        </ul>
-                       
-                     </div> */}
+            <div className="col-lg-4 d-flex">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365
+                  <br />
+                  Intelligent Order Management
+                </h3>
+                <div className="price">
+                £242.24<span>/month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                   Manage up to 1,000 order lines/month with AI and real-time inventory
+                  </li>
+                </ul>
+              </div>
             </div>
+        
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">

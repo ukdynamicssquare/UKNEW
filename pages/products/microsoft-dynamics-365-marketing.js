@@ -515,7 +515,7 @@ const Marketing = () => {
                 </h3>
                 <p><b>New Customer</b></p>
                 <div className="price">
-                  £1346<span>Per-Tenant/Per Month</span>
+                  £1,307.20<span>tenant/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">10,000 People Interacted and 100,00 People Unified</li>
@@ -529,7 +529,7 @@ const Marketing = () => {
                 </h3>
                 <p><b>Existing Customer</b></p>
                 <div className="price">
-                  £792<span>Per-Tenant/Per Month</span>
+                  £769.00<span>tenant/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">

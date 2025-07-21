@@ -587,11 +587,33 @@ const FieldService = () => {
           </div>
 
           <div className="row gy-4 p-9 justify-content-center">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 d-flex">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365 Field Service 
+                  <br />
+                  Free Trial
+                </h3>
+                <div className="price">
+                  £0<span></span>
+                </div>
+                <ul>
+                  <li className="">
+                  Deliver exceptional, proactive service that resolves customer issues the first time
+                  </li>
+                </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
               <div className="box box-22">
                 <h3>Dynamics 365 Field Service</h3>
                 <div className="price">
-                  £86.30<span>Per-User/Per Month</span>
+                  £80.70<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -600,11 +622,11 @@ const FieldService = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex">
               <div className="box box-22">
                 <h3>Dynamics 365 Field Service Contractor</h3>
                 <div className="price">
-                  £41.10<span>Per-User/Per Month</span>
+                  £38.40<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">

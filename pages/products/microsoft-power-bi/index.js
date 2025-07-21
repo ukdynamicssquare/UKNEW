@@ -518,197 +518,119 @@ const PowerBI = () => {
               best-suited Power <Link href="/blog/"><a target="_balnk">Power BI pricing</a></Link> plans for your business to grow.
             </p>
           </header>
-          <div className="row gy-4 p-9">
-            <div className="col-lg-4">
-              <div className="box power-new-price">
+          <div className="row p-9 justify-content-center">
+           <div className="col-lg-9">
+            <div className="row gy-4">
+               <div className="col-lg-6 d-flex">
+              <div className="box box-22 box-21s">
+                <h3>
+                  Microsoft Power BI
+                  <br />
+                  Free Trial
+                </h3>
+                <div className="price">
+                  £0<span></span>
+                </div>
+                <p>Create rich, interactive reports that put visual analytics at your fingertips.  </p>
+                <ul>
+                  <li> <i className="bi bi-check-lg"></i> Included in Microsoft Fabric free account</li>
+                  <li> <i className="bi bi-check-lg"></i> No credit card required</li>
+                  <li> <i className="bi bi-check-lg"></i> Upgrade to Pro or Premium to share reports </li>
+                </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-6 d-flex">
+              <div className="box">
                 <h3>
                   Power BI <br />
                   Pro
                 </h3>
                 <div className="price price-power">
-                £8.20<span>Per-User/Per Month</span>
+                £10.80<span>Per-User/Per Month</span>
                 </div>
+                <p>Access Power BI reports shared with you and publish your own for an even bigger impact.</p>
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg"></i>Connect to over 100 data
-                    sources
+                    <i className="bi bi-check-lg"></i> Publish and share Power BI reports
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>Mobile app
+                    <i className="bi bi-check-lg"></i> Included in Microsoft 365 E5 and Office 365 E5
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>1GB model size limit
+                    <i className="bi bi-check-lg"></i> Available to buy now with a credit card1
                   </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Embed Power BI visuals
-                    into PowerApps, SharePoint and Teams
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>8 Data refreshes daily
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>10 GB per user storage
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>AI visuals
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Embedded APIs and controls
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Data security and
-                    encryption
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Metrics with content
-                    creation and publishing
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Native integration with
-                    other Microsoft solutions
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Share dashboards,
-                    datasets, and reports with other Power BI users
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Create app work and
-                    peer-to-peer sharing
-                  </li>
+                  
+                  
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <div className="box power-new-price">
+            <div className="col-lg-6 d-flex">
+              <div className="box">
                 <h3>
                   Power BI
                   <br />
                   Premium
                 </h3>
                 <div className="price price-power">
-                  £16.40<span>Per-User/Per Month</span>
+                  £18.50<span>Per-User/Per Month</span>
                 </div>
+                <p>License data professionals with access to enterprise-scale features.2</p>
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg"></i>100 GB model size limit
+                    <i className="bi bi-check-lg"></i> Includes all the features available with Power BI Pro
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>100 TB of storage
+                    <i className="bi bi-check-lg"></i> Access larger model sizes
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>Access to one API surface
+                    <i className="bi bi-check-lg"></i> More frequent refreshes
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>XMLA endpoint read/write
-                    connectivity
+                    <i className="bi bi-check-lg"></i> Available to buy now with a credit card1               
                   </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Data flows
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Analyse data stored in
-                    Azure Data Lake Storage
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Application lifecycle
-                    management
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Embed Power BI visuals
-                    into PowerApps, SharePoint and Teams
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Larger storage size for
-                    extended deployment
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Advanced AI features
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>48 data refreshes daily
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Geo distribution, pin to
-                    memory and read-only replicas
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Publish reports to share
-                    and collaborate
-                  </li>
+                  
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <div className="box power-new-price">
+            <div className="col-lg-6 d-flex">
+              <div className="box box-22 box-21s">
                 <h3>
-                  Power BI
+                  Microsoft Power BI
                   <br />
-                  Premium
+                  Embedded
                 </h3>
-                <div className="price price-power">
-                  £4,105.60<span>Per Capacity/Month</span>
+                <div className="price">
+                  Variable<span></span>
                 </div>
+                <p>Create customer-facing reports, dashboards, and analytics in your own applications.</p>
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg"></i>100 GB model size limit
+                    <i className="bi bi-check-lg"></i> Brand Power BI reports as your own
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>100 TB of storage
+                    <i className="bi bi-check-lg"></i> Automate monitoring, management, and deployment
                   </li>
                   <li>
-                    <i className="bi bi-check-lg"></i>Access to one API surface
+                    <i className="bi bi-check-lg"></i> Reduce developer overhead             
                   </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>XMLA endpoint read/write
-                    connectivity
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Data flows
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Analyse data stored in
-                    Azure Data Lake Storage
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Application lifecycle
-                    management
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Embed Power BI visuals
-                    into PowerApps, SharePoint and Teams
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Larger storage size for
-                    extended deployment
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Advanced AI features
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>48 data refreshes daily
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Geo distribution, pin to
-                    memory and read-only replicas
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>On-premise reporting
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>400 GB model size limit
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Azure Autoscale add-on
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i>Multi-location deployment
-                    management
-                  </li>
+                  
                 </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Contact Sales</span>
+                  </a>
+                </Link>
               </div>
             </div>
+            </div>
+           </div>
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">

@@ -9,12 +9,12 @@ const Sales = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
 
-const colostyle= {
-  color:"#111",
-  fontSize:"14px",
-  color: "rgb(184 43 55)",
+  const colostyle = {
+    color: "#111",
+    fontSize: "14px",
+    color: "rgb(184 43 55)",
 
-}
+  }
 
   return (
     <>
@@ -67,7 +67,7 @@ const colostyle= {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/Sales-banner.png" alt="Dynamics 365 Sales" width={771} height={478}  priority = {true} />
+              <Image src="/img/Sales-banner.png" alt="Dynamics 365 Sales" width={771} height={478} priority={true} />
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ const colostyle= {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/sales-hub-app.svg" alt="icons"  width="36"
+                          <img src="/img/sales-hub-app.svg" alt="icons" width="36"
                             height="36" />
                         </div>
                         <span>Sales Hub App</span>
@@ -456,15 +456,15 @@ const colostyle= {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-left">
-              <div className="over-la-pic-1">
-                <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
-              </div>
+                <div className="over-la-pic-1">
+                  <Image width={914} height={664} src="/img/Ellipse-bg.png" alt="Ellipse-bg" />
+                </div>
                 <Image width={630} height={440} src="/img/sales-copilote-side-pic.png" alt="sales-copilote-side-pic" />
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="new-box-sect-right">
-             
+
                 <div className="c-bi-po-inn">
                   <h3>Faster Sales Cycle</h3>
                   <p>Copilot is capable enough to summarise leads and opportunities to close deals with the minimum resources. Also, it can track the sales history to collect customer data and help sales professionals pitch personalised offers.</p>
@@ -495,22 +495,29 @@ const colostyle= {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-4">
-              {/* <div className="box">
-                        <h4>Business Central<br />
-                           Essentials
-                        </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Financial Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Inventory Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Purchase Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Project Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Additional Capabilities</li>
-                        </ul>
-                       
-                     </div> */}
+             <div className="col-lg-3 d-flex">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365 Sales
+                  <br />
+                  Free Trial
+                </h3>
+                <div className="price">
+                  £0<span></span>
+                </div>
+                <ul>
+                  <li className="">
+                  This is help your sales team stay focused, boost productivity, and build customer trust
+                  </li>
+                </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Sales
@@ -518,19 +525,19 @@ const colostyle= {
                   Professional
                 </h3>
                 <div className="price">
-                £53.40<span>Per-User/Per Month</span>
+                  £50.40<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="">
                     Core sales force automation and Microsoft 365 integration
                   </li>
                   <li style={colostyle}>
-                  <i className="bi bi-check-lg"></i>Microsoft Sales Copilot available at an additional cost
+                    <i className="bi bi-check-lg"></i>Microsoft Sales Copilot available at an additional cost
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Sales
@@ -538,7 +545,7 @@ const colostyle= {
                   Enterprise
                 </h3>
                 <div className="price">
-                £86.30<span>Per-User/Per Month</span>
+                  £80.70<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="">
@@ -546,12 +553,12 @@ const colostyle= {
                     insights and advanced customisation capabilities
                   </li>
                   <li style={colostyle}>
-                  <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
+                    <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3 d-flex">
               {/* <div className="box">
                         <h4>Business Central<br />
                            Essentials
@@ -571,7 +578,7 @@ const colostyle= {
                   Premium
                 </h3>
                 <div className="price">
-                £123.30<span>Per-User/Per Month</span>
+                  £115.30<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="">
@@ -579,7 +586,7 @@ const colostyle= {
                     intelligence solutions for sellers and managers
                   </li>
                   <li style={colostyle}>
-                  <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
+                    <i className="bi bi-check-lg"></i>Includes now Microsoft Sales Copilot
                   </li>
                 </ul>
               </div>
@@ -707,7 +714,7 @@ const colostyle= {
                       To avail of a free consultation to manage your sales and
                       customers or to implement{" "}
                       <Link href="/products/microsoft-dynamics-crm/">
-                      <a target="_blank">Microsoft Dynamics CRM</a>
+                        <a target="_blank">Microsoft Dynamics CRM</a>
                       </Link>{" "}
                       solution for your business, experts at Dynamics Square can
                       help.
@@ -785,7 +792,7 @@ const colostyle= {
                       for Dynamics 365 Sales Enterprise Plan not for the Sales
                       Professional plan. Enterprise Plan comes with both the{" "}
                       <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                       <a target="_blank">on-premises</a>
+                        <a target="_blank">on-premises</a>
                       </Link>{" "}
                       and cloud versions whereas Sales Professional license
                       comes with cloud facilitation only.
@@ -825,7 +832,7 @@ const colostyle= {
                         <li>
                           For first{" "}
                           <Link href="/products/microsoft-dynamics-365/">
-                          <a target="_blank">Dynamics 365 App</a>
+                            <a target="_blank">Dynamics 365 App</a>
                           </Link>{" "}
                           - 49 pounds/ per user (approx.)
                         </li>
@@ -1011,16 +1018,16 @@ const colostyle= {
                 </ul>
               </div>
               <div className="blogs-extra-title">
-                        <h4>Learn More</h4>
-                     </div>
-                     <div className="blogs-extra-right">
-                        <ul>
-                           <li><Link href="/blog/dynamics-365-sales-implementation-guide/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Microsoft Dynamics 365 Sales Implementation Guide</a></Link></li>
-                           <li><Link href="/blog/top-benefits-of-dynamics-365-sales/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Top 10 Benefits Of Dynamics 365 Sales</a></Link></li>
-                           <li><Link href="/blog/dynamics-crm-guide-overview/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
-                          
-                        </ul>
-                     </div>
+                <h4>Learn More</h4>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li><Link href="/blog/dynamics-365-sales-implementation-guide/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Microsoft Dynamics 365 Sales Implementation Guide</a></Link></li>
+                  <li><Link href="/blog/top-benefits-of-dynamics-365-sales/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Top 10 Benefits Of Dynamics 365 Sales</a></Link></li>
+                  <li><Link href="/blog/dynamics-crm-guide-overview/"><a target="_blank"><i className="bi bi-box-arrow-up-right"></i> Dynamics 365 CRM Guide</a></Link></li>
+
+                </ul>
+              </div>
             </div>
           </div>
         </div>
