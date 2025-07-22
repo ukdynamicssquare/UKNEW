@@ -16785,6 +16785,22 @@ background-image: radial-gradient(circle at -9% -21%, rgba(153, 142, 186, 0.37),
     padding: 7px 15px;
     font-size: 16px;
 }
+.my-searc{
+  position:relative
+}
+.searc-result{
+  position: absolute;
+    background: #ffffff;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 15px;
+    box-shadow: 0px 0px 15px #000;
+    top: -12px;
+    border-radius: 8px;
+    z-index:2
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;
