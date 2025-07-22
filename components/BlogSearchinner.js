@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const BlogSearch = () => {
+const BlogSearchInner = () => {
     const [query, setQuery] = useState("");
     const [allResults, setAllResults] = useState([]);
     const [visibleResults, setVisibleResults] = useState([]);
@@ -75,7 +75,7 @@ const BlogSearch = () => {
     };
 
     return (
-        <div className="search-wrp">
+        <div className="search-wrp-inner">
             <div className="container" ref={searchRef}>
                 <div className="row justify-content-center">
                     <div className="col-lg-9">
@@ -168,4 +168,4 @@ const BlogSearch = () => {
     );
 };
 
-export default BlogSearch;
+export default BlogSearchInner;

@@ -11,6 +11,7 @@ import {
   TwitterShareButton,
   LinkedinShareButton,
 } from "react-share";
+import BlogSearchinner from "../../components/BlogSearchinner";
 
 // Utility function to parse HTML content and extract image URLs
 function parseImagesFromHtml(htmlContent) {
@@ -84,7 +85,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                 />
               </Head>
-
+             
+              
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
@@ -109,9 +111,11 @@ function Post({ blogs, blogcat, authordetials, author }) {
                     </div>
                   </div>
                 </div>
+                  <BlogSearchinner />     
 
                 <div className="row g-5">
                   <div className="col-lg-8">
+                    
                     <div className="blogs-single-post-sec">
                       <div className="blogs-lates blogs-lates-top-head">
                         <h1>{item.title}</h1>

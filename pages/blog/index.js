@@ -71,7 +71,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
       </Head>
 
       {/* Main Latest Section */}
-      {/* <BlogSearch /> */}
+      <BlogSearch />
       {blogs.length > 0 && (
         <div className="blogs-main">
           <div className="container">
