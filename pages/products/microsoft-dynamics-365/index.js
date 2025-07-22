@@ -60,7 +60,7 @@ const D360 = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398}  priority = {true} />
+              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398} priority={true} />
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ const D360 = () => {
 
       <section className="busine_service_bottom custom001">
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>What Is Microsoft Dynamics 365 Software?</h2>
@@ -111,7 +111,7 @@ const D360 = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="custom002">
-                
+
                 <ul>
                   <li>Microsoft Dynamics 365 is based on Microsoft Azure, a cloud computing service operated and managed by Microsoft.</li>
                   <li>Azure data centres are available worldwide to make the apps and other integrations connected with you 24/7.</li>
@@ -453,13 +453,13 @@ const D360 = () => {
             </div>
           </div>
           <div className="row g-3">
-      
-              <div className="col-lg-4 d-flex">
+
+            <div className="col-lg-4 d-flex">
               <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
-                  <Image src="/img/group-2122.png" alt="Business-Central" width={94} height={94} />
+                  <Image src="/img/BusinessCentral_scalable.png" alt="Business-Central" width={48} height={48} />
                 </div>
-                <div className="style-grid-content">
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
                   <h3>Dynamics 365 Business Central</h3>
                   <p>
                     Revolutionise your business management methods, optimise resources, and avail real-time decision making for more profitability and scalability.
@@ -467,14 +467,14 @@ const D360 = () => {
                   <Link href="/products/dynamics-365-business-central/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-              </div>
+            </div>
 
-              <div className="col-lg-4 d-flex">
+            <div className="col-lg-4 d-flex">
               <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
-                  <Image src="/img/group-2138.png" alt="Sales" width={94} height={94} />
+                  <Image src="/img/Sales_scalable.png" alt="Sales" width={48} height={48} />
                 </div>
-                <div className="style-grid-content">
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
                   <h3>Dynamics 365 Sales</h3>
                   <p>
                     Bring more sales, build strong relationships, and simplify your customer journey while getting more revenue and closing deals faster.
@@ -482,15 +482,15 @@ const D360 = () => {
                   <Link href="/products/microsoft-dynamics-365-sales/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-              </div>
+            </div>
 
 
-             <div className="col-lg-4 d-flex">
-             <div className="style-grid-1 style-grid-33">
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
-                  <Image src="/img/group-2123.png" alt="Finance" width={94} height={94} />
+                  <Image src="/img/Finance_scalable.png" alt="Finance" width={48} height={48} />
                 </div>
-                <div className="style-grid-content">
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
                   <h3>Dynamics 365 Finance</h3>
                   <p>
                     Strengthen financial health, supervise global operations, and drive agility to streamline all financial practises for a better ROI.
@@ -498,17 +498,17 @@ const D360 = () => {
                   <Link href="/products/microsoft-dynamics-365-finance/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-             </div>
-        
-      
+            </div>
 
 
-             <div className="col-lg-4 d-flex">
-             <div className="style-grid-1 style-grid-33">
+
+
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
-                  <Image src="/img/group-2126.png" alt="Supply-chain" width={94} height={94} />
+                  <Image src="/img/SupplyChainManagement_scalable.png" alt="Supply-chain" width={48} height={48} />
                 </div>
-                <div className="style-grid-content">
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
                   <h3>Dynamics 365 Supply Chain Management </h3>
                   <p>
                     Modernise your end-to-end supply chain operations, get real-time visibility, and enable strategic decision-making using embedded AI, IoT, and ML.
@@ -516,14 +516,14 @@ const D360 = () => {
                   <Link href="/products/dynamics-365-supply-chain-management/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-             </div>
+            </div>
 
-             <div className="col-lg-4 d-flex">
-             <div className="style-grid-1 style-grid-33">
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
-                  <Image src="/img/group-2136.png" alt="Customer-Service" width={94} height={94} />
+                  <Image src="/img/field-service-scalable.png" alt="Customer-Service" width={48} height={48} />
                 </div>
-                <div className="style-grid-content">
+                <div className="style-grid-content" style={{marginTop:'25px'}} >
                   <h3>Dynamics 365 Field Service</h3>
                   <p>
                     Empower team collaboration, optimise field operations, and deliver a seamless service experience while offering exceptional customer engagement.
@@ -531,24 +531,59 @@ const D360 = () => {
                   <Link href="/products/microsoft-dynamics-365-field-service/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-             </div>
+            </div>
 
-             <div className="col-lg-4 d-flex">
-             <div className="style-grid-1 style-grid-33">
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
                 <div className="style-grid-icons">
-                  <Image src="/img/group-2139.png" alt="Marketing" width={94} height={94} />
+                  <Image src="/img/customer-insights-scalable.png" alt="Dynamics 365 Customer Insights" width={48} height={48} />
                 </div>
-                <div className="style-grid-content">
-                  <h3>Dynamics 365 Marketing</h3>
-                  <p>
-                    Utilise marketing automation tools, allow multichannel marketing activities, and build a personalised journey to win customers and their loyalty.
-                  </p>
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
+                  <h3>Dynamics 365 Customer Insights</h3>
+                  <p>Brings customer data together in one place to help teams understand and serve people better.</p>
                   <Link href="/products/microsoft-dynamics-365-marketing/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
                 </div>
               </div>
-             </div>
+            </div>
 
-           
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
+                <div className="style-grid-icons">
+                  <Image src="/img/image5481.png" alt="Dynamics 365 Contact Center" width={48} height={48} />
+                </div>
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
+                  <h3>Dynamics 365 Contact Center</h3>
+                  <p>Helps teams handle customer calls and messages faster with smart tools and simple tracking.</p>
+                  <Link href="/contact-us/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
+                <div className="style-grid-icons">
+                  <Image src="/img/customer-service-scalable.png" alt="Dynamics 365 Customer Service" width={48} height={48} />
+                </div>
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
+                  <h3>Dynamics 365 Customer Service</h3>
+                  <p>Helps service teams access one screen to track issues, find answers, and help customers quickly.</p>
+                  <Link href="/products/microsoft-dynamics-365-customer-service/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
+              <div className="style-grid-1 style-grid-33">
+                <div className="style-grid-icons">
+                  <Image src="/img/core-hr-scalable.png" alt="Marketing" width={48} height={48} />
+                </div>
+                <div className="style-grid-content" style={{marginTop:'25px'}}>
+                  <h3>Dynamics 365 Human Resources</h3>
+                  <p>Makes it easy to manage employee records, pay, time off, and performance in one system.</p>
+                  <Link href="/products/dynamics-365-human-resources/"><a style={{ fontSize: '16px', fontWeight: 500 }} target="_blank">Learn More</a></Link>
+                </div>
+              </div>
+            </div>
+
+
           </div>
           <div className="row justify-content-center" style={{ paddingTop: '40px' }}>
             <div className="col-lg-8">
