@@ -74,7 +74,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   content={item.meta_keyword}
                 />
                 <meta property="twitter:image" content={`${item.meta_image}`} />
-                <script
+                {/* <script
 
                   type="application/ld+json"
 
@@ -83,7 +83,21 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                   }}
 
-                />
+                /> */}
+                {item.additional_script && item.additional_script.trim() !== '{}' && (
+                  <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: item.additional_script }}
+                  />
+                )}
+                {item.additional_multiscript &&
+                  JSON.parse(item.additional_multiscript).map((scriptContent, index) => (
+                    <script
+                      key={index}
+                      type="application/ld+json"
+                      dangerouslySetInnerHTML={{ __html: scriptContent }}
+                    />
+                  ))}
               </Head>
              
               
