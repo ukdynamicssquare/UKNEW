@@ -17070,6 +17070,13 @@ height: 100vh;
   .searc-sty .btn {
     padding: 0px 15px;
 }
+.searc-result .card img {
+    width: 100% !important;
+    height: 80px !important;
+}
+.searc-result .card .card-body h5 {
+    font-size: 14px;
+}
   .foot-tag-head {
         padding-top: 0px;
     }
