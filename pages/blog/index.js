@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useState } from "react";
 import Pagination from "../../components/Pagination";
 import { paginate } from "../../helpers/paginate";
+import BlogSearch from "../../components/BlogSearch";
 
 export async function getStaticProps() {
   const backend = process.env.BACKEND_URL;
@@ -70,6 +71,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
       </Head>
 
       {/* Main Latest Section */}
+      <BlogSearch />
       {blogs.length > 0 && (
         <div className="blogs-main">
           <div className="container">
