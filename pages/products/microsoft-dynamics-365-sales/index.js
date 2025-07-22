@@ -495,7 +495,7 @@ const Sales = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-             <div className="col-lg-3 d-flex">
+            <div className="col-lg-3 d-flex">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Sales
@@ -507,11 +507,11 @@ const Sales = () => {
                 </div>
                 <ul>
                   <li className="">
-                  This is help your sales team stay focused, boost productivity, and build customer trust
+                    This is help your sales team stay focused, boost productivity, and build customer trust
                   </li>
                 </ul>
                 <Link href="#exampleModal">
-                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                  <a data-bs-toggle="modal" className="btn btn-get-ress">
                     <span>Try For Free</span>
                   </a>
                 </Link>

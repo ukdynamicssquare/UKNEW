@@ -604,62 +604,72 @@ const PowerApps = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-4">
-              <div className="box box-44">
-                <h3>Subscription plans</h3>
-                <p>
-                  Best for businesses that want predictable user-based licensing
-                  with the flexibility to licence users to run one app at a time
-                  or run unlimited apps.
-                </p>
+            <div className="col-lg-4 d-flex">
+              <div className="box box-22 box-21s">
+                <h3>
+                 Power Apps Developer
+                  <br />
+                  Plan Free 
+                </h3>
                 <div className="price">
-                  £4.10<span>Per-User/App/Per Month</span>
+                  Free
                 </div>
+                <p>Sign up for a free developer account to build and test unlimited apps and automations.</p>
                 <ul>
-                  <li>
-                    Run one app or portal per user, stacking licences for access
-                    to each additional as their needs change.
-                  </li>
+                  <li><i className="bi bi-check-lg"></i> Three developer environments</li>
+                  <li><i className="bi bi-check-lg"></i> Use prebuilt, custom, and on-premises connectors</li>
+                  <li><i className="bi bi-check-lg"></i> Microsoft Dataverse entitlement of 2 GB database</li>
+                  <li><i className="bi bi-check-lg"></i> Run up to 750 automation flows per month</li>
                 </ul>
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
               </div>
             </div>
-
-            <div className="col-lg-4">
-              <div className="box box-44">
-                <h3>Subscription plans</h3>
-                <p>
-                  Best for businesses that want predictable user-based licensing
-                  with the flexibility to licence users to run one app at a time
-                  or run unlimited apps.
-                </p>
+            <div className="col-lg-4 d-flex">
+              <div className="box box-22 box-21s">
+                <h3>
+                  Power Apps
+                  <br />
+                  Premium
+                </h3>
                 <div className="price">
-                £16.40<span>Per-User/Per Month</span>
+                  £15.40<span>user/month, paid yearly </span>
                 </div>
+                <p>Licensed users can build, modernise, and deploy unlimited applications without restrictions or limitations.</p>
                 <ul>
-                  <li>
-                    Run unlimited apps and portals per user for one flat monthly
-                    rate.
-                  </li>
+                  <li><i className="bi bi-check-lg"></i> Unlimited Power Apps and Power Pages for assigned user</li>
+                  <li><i className="bi bi-check-lg"></i> 500 AI Builder credits<sub>1</sub></li>
+                  <li><i className="bi bi-check-lg"></i> Use prebuilt, custom, and on-premises connectors </li>
+                  <li><i className="bi bi-check-lg"></i> Dataverse entitlements of 250 MB database and 2 GB file</li>
                 </ul>
+               
               </div>
             </div>
-
-            <div className="col-lg-4">
-              <div className="box box-44">
-                <h3>Pay-as-you-go plan</h3>
-                <p>
-                  Best for businesses that want the agility to pay only when a
-                  user runs an app during a monthly period.
-                </p>
+            <div className="col-lg-4 d-flex">
+              <div className="box box-22 box-21s">
+                <h3>
+                  Power Apps 
+                  <br />
+                  Premium
+                </h3>
+                <p>(with 2,000-seat minimum)</p>
                 <div className="price">
-                  £8.20<span>Per Active User/App/Month2</span>
+                 £9.20<span>user/month, paid yearly</span>
                 </div>
+                <p>Ideal for businesses needing unlimited apps per user and willing to purchase at least 2,000 licenses.</p>
                 <ul>
-                  <li>Azure subscription to pay per user, Based on the number of unique apps a user runs each month.</li>
+                  <li><i className="bi bi-check-lg"></i> Unlimited Power Apps and Power Pages for assigned user</li>
+                  <li><i className="bi bi-check-lg"></i> 500 AI Builder credits<sub>1</sub></li>
+                  <li><i className="bi bi-check-lg"></i> Use prebuilt, custom, and on-premises connectors</li>
+                  <li><i className="bi bi-check-lg"></i> Dataverse entitlements of 250 MB database and 2 GB file</li>
                 </ul>
+                
               </div>
             </div>
-
+           
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
                 <Link href="#exampleModal">

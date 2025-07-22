@@ -551,7 +551,7 @@ const PowerBI = () => {
                   Pro
                 </h3>
                 <div className="price price-power">
-                £10.80<span>Per-User/Per Month</span>
+                £10.80<span>user/month, paid yearly</span>
                 </div>
                 <p>Access Power BI reports shared with you and publish your own for an even bigger impact.</p>
                 <ul>
@@ -578,7 +578,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  £18.50<span>Per-User/Per Month</span>
+                  £18.50<span>user/month, paid yearly</span>
                 </div>
                 <p>License data professionals with access to enterprise-scale features.2</p>
                 <ul>

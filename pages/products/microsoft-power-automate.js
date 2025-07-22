@@ -492,54 +492,51 @@ const PowerAutomate = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
+              <div className="box box-22 box-21s">
+                <h3>
+                 Power Apps Developer
+                  <br />
+                  Plan Free 
+                </h3>
+                <div className="price">
+                  Free
+                </div>
+                <p>Experience Power Automate, including premium features, free for 30 days.         </p>
+                
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal" className="btn btn-get-ress">
+                    <span>Try For Free</span>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4 d-flex">
               <div className="box box-66">
-                <h3>Licence by user</h3>
+                <h3>Power Automate <br/>Premium</h3>
                 <p>Per user plan</p>
                 <div className="price">
-                £12.30<span>Per-User/Per Month</span>
+                £11.50<span>user/month, paid yearly</span>
                 </div>
                 <ul>
-                  <li>
-                    Allow individual users to analyse their processes and create
-                    unlimited cloud flows based on their unique needs.
-                  </li>
+                  <li>Scale workflows using cloud and desktop flows, premium connectors, process mining, AI, and automation tools.</li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="box box-66">
-                <h3>Licence by user</h3>
+                <h3>Power Automate<br/>Process</h3>
                 <p>Per user plan with attended RPA</p>
                 <div className="price">
-                £32.90<span>Per-User/Per Month</span>
+                £115.30<span>bot/month, paid yearly</span>
                 </div>
                 <ul>
-                  <li>
-                    Allow individual users to analyse their processes and create
-                    unlimited cloud flows, plus automate legacy applications
-                    through robotic process automation (RPA) and AI.
-                  </li>
+                  <li>License a bot for unattended desktop or cloud flows, accessible by unlimited users across your organization for streamlined, scalable automation and workflow execution.</li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-4">
-              <div className="box box-66">
-                <h3>License by flow</h3>
-                <p>Per flow plan</p>
-                <div className="price">
-                £82.20<span>For Five Flows/Month</span>
-                </div>
-                <ul>
-                  <li>
-                    Implement cloud flows with reserved capacity for unlimited
-                    users across your organisation.
-                  </li>
-                </ul>
-              </div>
-            </div>
 
             <div className="col-lg-12 col-md-12">
               <div className="price-btn price-btnasd d-flex justify-content-center">
