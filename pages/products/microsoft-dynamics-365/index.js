@@ -8,7 +8,7 @@ const D360 = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics 365: Cloud CRM & ERP Solutions UK
+          Microsoft Dynamics 365 Software: Cloud CRM & ERP Solutions UK
         </title>
         <meta
           name="description"
@@ -21,7 +21,7 @@ const D360 = () => {
 
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content=" Microsoft Dynamics 365: Cloud CRM & ERP Solutions UK" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Software: Cloud CRM & ERP Solutions UK" />
         <meta property="og:description" content="Need Microsoft Dynamics 365 cloud-based CRM and ERP solutions? Scale-up your business productivity by implementing Dynamics 365 apps with Dynamics Square UK." />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
@@ -31,7 +31,7 @@ const D360 = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_uk" />
-        <meta name="twitter:title" content="Microsoft Dynamics 365: Cloud CRM & ERP Solutions UK" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Software: Cloud CRM & ERP Solutions UK" />
         <meta name="twitter:description" content="Need Microsoft Dynamics 365 cloud-based CRM and ERP solutions? Scale-up your business productivity by implementing Dynamics 365 apps with Dynamics Square UK." />
         <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/d360-banner.png" />
 
@@ -45,7 +45,7 @@ const D360 = () => {
                 Microsoft Dynamics 365 - CRM & ERP Solution
               </h1>
               <p>
-                Microsoft Dynamics 365 is a powerful tool to transform your ways of business management, connect all departments, simplify data reporting, and automate the process for growth and sustainability. With the power of cloud computing, get real-time data availability and make intelligent decisions at ease.
+                Microsoft Dynamics 365 Software is a powerful tool to transform your ways of business management, connect all departments, simplify data reporting, and automate the process for growth and sustainability. With the power of cloud computing, get real-time data availability and make intelligent decisions at ease.
               </p>
               <div>
                 <div className="text-center text-lg-start">
@@ -71,12 +71,12 @@ const D360 = () => {
         <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
-                <h2>What Is Microsoft Dynamics 365?</h2>
+                <h2>What Is Microsoft Dynamics 365 Software?</h2>
                 <p>
                   <Link href="/products/microsoft-dynamics-365/">
                     <a target="_blank">Microsoft Dynamics 365</a>
                   </Link>{" "}
-                  is a power pack collection of Microsoft apps and other add-ons to meet the ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) needs. It is a refreshed version of Dynamics Suite that delivers new ways to manage a business. Microsoft not only wants to simplify business management but also wants to redefine the user experience.
+                  Software is a power pack collection of Microsoft apps and other add-ons to meet the ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) needs. It is a refreshed version of Dynamics Suite that delivers new ways to manage a business. Microsoft not only wants to simplify business management but also wants to redefine the user experience.
                 </p>
                 <p>MS Dynamics 365 enables users to seamlessly manage the finance, handling, sales, purchase, inventory, CRM, manufacturing, and more. Microsoft Dynamics 365 establish the connection between all SaaS (Software as Service) apps and services to transform the communication between the organisation and the customer. It is a cloud-based software solution with the mixed capabilities of ERP and CRM.</p>
               </header>

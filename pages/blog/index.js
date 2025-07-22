@@ -8,7 +8,7 @@ import BlogSearch from "../../components/BlogSearch";
 export async function getStaticProps() {
   const backend = process.env.BACKEND_URL;
 
-  
+
   const urls = {
     blogs: `${backend}/api/allblog`,
     businesscentral: `${backend}/api/blog/category/Business/business-central`,
@@ -50,7 +50,7 @@ export async function getStaticProps() {
 
 function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 10;
+  const pageSize = 8;
   const paginatedPosts = paginate(blograndomblogs, currentPage, pageSize);
 
   return (
@@ -75,7 +75,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
       {blogs.length > 0 && (
         <div className="blogs-main">
           <div className="container">
-            <div className="row g-5">
+            <div className="row">
               <div className="col-lg-6">
                 <div className="blogs-lates">
                   <div className="blog-sian"><span>Latest</span></div>
@@ -235,6 +235,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                 currentPage={currentPage}
                 pageSize={pageSize}
                 onPageChange={setCurrentPage}
+                pageLimit={5} // optional
               />
             </div>
           </div>

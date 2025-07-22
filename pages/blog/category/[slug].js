@@ -160,6 +160,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                 pageSize={pageSize}
                 onPageChange={onPageChange}
               />
+              
 
             </div>
           </div>
