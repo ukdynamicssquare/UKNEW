@@ -236,7 +236,7 @@ const Dynamics365CustomerEngagement = () => {
           <div className="row pad9x">
             <div className="col-lg-5 align-self-center">
               <div className="commen-rit-info">
-                <h3>Dynamics 365 Marketing</h3>
+                <h3>Dynamics 365 Customer insights</h3>
                 <p>
                   Engage and serve customers in real-time, acquire more customer
                   base, provide AI-based personalized experience to your
@@ -244,7 +244,7 @@ const Dynamics365CustomerEngagement = () => {
                   platform i.e.,{" "}
                   <Link href="/products/microsoft-dynamics-365-marketing/">
                     <a target="_blank">Dynamics 365 Marketing</a>
-                  </Link>{" "}
+                  </Link>{" "}(Customer insights)
                   module of the Dynamics 365 Customer Engagement package.
                 </p>
               </div>
