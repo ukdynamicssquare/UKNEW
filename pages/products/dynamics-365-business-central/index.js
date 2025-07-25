@@ -986,8 +986,9 @@ const BusinessCentral = () => {
                         <div className='card0-01 card0-02'>
                           <a href="/ebook/upgrade-nav-to-business-central/">
                             <img src="/img/Ebook-Nav-to-BC.png" width={273} height={192} alt="bc-8-17" />
-                            <h3>Your Guide to Dynamics GP to Business Central Migration</h3>
-                            <p>Find how businesses are moving from Microsoft GP to Business Central with confidence.</p>
+                             <h3>Quick Start Guide for Upgrading NAV to Business Central</h3>
+                            <p>Learn when, why, and how to upgrade from Dynamics NAV to Business Central with confidence.</p>
+                           
                             <div className='ct--a'>
                               <span>Read now</span>
                             </div>
@@ -998,8 +999,8 @@ const BusinessCentral = () => {
                         <div className='card0-01 card0-02'>
                           <a href="/ebook/gp-to-bc-migration/">
                             <img src="/img/dynamics-GP-BC-Ebook-featured-image.png" width={273} height={192} alt="bc-8-18" />
-                            <h3>Quick Start Guide for Upgrading NAV to Business Central</h3>
-                            <p>Learn when, why, and how to upgrade from Dynamics NAV to Business Central with confidence.</p>
+                            <h3>Your Guide to Dynamics GP to Business Central Migration</h3>
+                            <p>Find how businesses are moving from Microsoft GP to Business Central with confidence.</p>
                             <div className='ct--a'>
                               <span>Read now</span>
                             </div>
