@@ -394,7 +394,7 @@ const BusinessCentral = () => {
                 <h2>See Business Central Results: <br />A Total Economic Impact™ Study</h2>
                 <p>A 2024 study by Forrester looked at how companies using Business Central <br />cut costs and ran things more smoothly.</p>
                 <div className="text-lg-start">
-                  <a className="btn-get-started scrollto" href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" download >
+                  <a className="btn-get-started scrollto" href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
                     <span>Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                  
                 </div>
@@ -943,7 +943,7 @@ const BusinessCentral = () => {
                     <div className='row'>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="/pdf/Break-into-new-markets-with-Business-Central.pdf" download>
+                          <a href="/pdf/Break-into-new-markets-with-Business-Central.pdf" target="_blank" >
                             <img src="/img/bc-8-17.png" width={273} height={192} alt="bc-8-17" />
                             <h3>Reach new markets with Business Central</h3>
                             <p>Research from Nucleus shows better productivity, lower costs, and stronger control.</p>
@@ -955,7 +955,7 @@ const BusinessCentral = () => {
                       </div>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" download>
+                          <a href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
                             <img src="/img/bc-8-18.png" width={273} height={192} alt="bc-8-18" />
                             <h3>See how firms gained from Business Central</h3>
                             <p>This 2024 Forrester study shows the returns real customers saw after getting started.</p>
@@ -967,7 +967,7 @@ const BusinessCentral = () => {
                       </div>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="/pdf/IDC- MarketScape.pdf" download>
+                          <a href="/pdf/IDC- MarketScape.pdf" target="_blank">
                             <img src="/img/bc-8-19.png" width={273} height={192} alt="bc-8-19" />
                             <h3>Why IDC picked Microsoft as a Leader</h3>
                             <p>Read how Microsoft stands out in small business ERP software. </p>
