@@ -5,12 +5,11 @@ import Link from 'next/link';
 // import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
 import faqData from '../../../public/data/business_centeral_faq.json';
 import useCardScrollEffect from "../../../components/useCardScrollEffect";
-
+import BusinesCentralPdfPopup from '../../../components/BusinesCentralPDFPOPUP';
 
 // const StackedCards = dynamic(() => import("../../components/StackedCards"), {
 //     ssr: false,
 //   });
-
 
 const BusinessCentral = () => {
   /*gsap card scroll*/
@@ -25,6 +24,14 @@ const BusinessCentral = () => {
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 3);
+  };
+
+ const [pdfType, setPdfType] = useState(null);
+ const handleOpenModal = (type) => {
+    setPdfType(type);
+    // Open modal manually (needed since you use Bootstrap)
+    const modal = new bootstrap.Modal(document.getElementById('pdfModel'));
+    modal.show();
   };
 
   return (
@@ -120,6 +127,8 @@ const BusinessCentral = () => {
                   >
                     <span>Try for Free  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
+
+                 
                 </div>
               </div>
             </div>
@@ -189,7 +198,7 @@ const BusinessCentral = () => {
 
                 <p>Whether starting small or growing fast, D365 Business Central is what you need.</p>
                 <div className="text-lg-start">
-                  <Link href="#exampleModal"><a
+                  <Link href="#exampleModal" onClick={() => setPdfType('pdf1')}><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
@@ -394,9 +403,16 @@ const BusinessCentral = () => {
                 <h2>See Business Central Results: <br />A Total Economic Impact™ Study</h2>
                 <p>A 2024 study by Forrester looked at how companies using Business Central <br />cut costs and ran things more smoothly.</p>
                 <div className="text-lg-start">
-                  <a className="btn-get-started scrollto" href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
-                    <span>Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                 
+                  {/* <a className="btn-get-started scrollto" href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
+                    <span>Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i></span></a> */}
+
+                     <button
+          className="btn-get-started scrollto"
+          onClick={() => handleOpenModal('pdf1')}
+        >
+          Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i>
+        </button>
+
                 </div>
               </div>
             </div>
@@ -456,7 +472,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Dynamics 365 Business Central Benefits: <br/>You Can’t Afford to Ignore </h2>
+                <h2>Dynamics 365 Business Central Benefits: <br />You Can’t Afford to Ignore </h2>
                 <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors. </p>
               </div>
             </div>
@@ -520,7 +536,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Modules: <br/>All Your Business Needs in One Place </h2>
+                <h2>Business Central Modules: <br />All Your Business Needs in One Place </h2>
                 <p>Every business needs more than just accounting software. You need an integrated and centralised system that connects every department seamlessly. </p>
                 <p>Here’s what Dynamics 365 Business Central covers: </p>
               </div>
@@ -620,7 +636,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Copilot in Dynamics 365 Business Central:<br/> ERP with AI Capabilities</h2>
+                <h2>Copilot in Dynamics 365 Business Central:<br /> ERP with AI Capabilities</h2>
                 <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
               </div>
             </div>
@@ -682,7 +698,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-8'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Make Business Central Work Smarter<br/> for Your Business</h2>
+                <h2>Make Business Central Work Smarter<br /> for Your Business</h2>
                 <p>Add trusted apps that help shape Business Central around your needs. From payments to mobility, reporting to sales, find tools that fit right in and make daily work easier. </p>
               </div>
             </div>
@@ -768,7 +784,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>D365 Business Central Pricing & Licensing:<br/> Invest in Growth, Not Complexity </h2>
+                <h2>D365 Business Central Pricing & Licensing:<br /> Invest in Growth, Not Complexity </h2>
                 <p>Effortless scaling unlocks when you choose to invest in Business Central Cloud ERP. Decisions that used to wait for days, now take seconds! </p>
                 <p>Transparent Pricing for UK Businesses </p>
               </div>
@@ -915,7 +931,7 @@ const BusinessCentral = () => {
 
               <div className='bc-new-tabs-li'>
                 <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                   <li className="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button className="nav-link active" id="pills-home-05-tab" data-bs-toggle="pill" data-bs-target="#pills-home-05" type="button" role="tab" aria-controls="pills-home-05" aria-selected="false">Case Stories</button>
                   </li>
                   <li className="nav-item" role="presentation">
@@ -930,7 +946,7 @@ const BusinessCentral = () => {
                   <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-home-04-tab" data-bs-toggle="pill" data-bs-target="#pills-home-04" type="button" role="tab" aria-controls="pills-home-04" aria-selected="false">Guides</button>
                   </li>
-                 
+
                 </ul>
               </div>
             </div>
@@ -986,9 +1002,9 @@ const BusinessCentral = () => {
                         <div className='card0-01 card0-02'>
                           <a href="/ebook/upgrade-nav-to-business-central/">
                             <img src="/img/Ebook-Nav-to-BC.png" width={273} height={192} alt="bc-8-17" />
-                             <h3>Quick Start Guide for Upgrading NAV to Business Central</h3>
+                            <h3>Quick Start Guide for Upgrading NAV to Business Central</h3>
                             <p>Learn when, why, and how to upgrade from Dynamics NAV to Business Central with confidence.</p>
-                           
+
                             <div className='ct--a'>
                               <span>Read now</span>
                             </div>
@@ -1063,7 +1079,7 @@ const BusinessCentral = () => {
                         </a>
                       </div>
                     </div>
-                    
+
                   </div>
                   </div>
                   <div className="tab-pane fade show active" id="pills-home-05" role="tabpanel" aria-labelledby="pills-home-05-tab">
@@ -1170,6 +1186,7 @@ const BusinessCentral = () => {
 
         </div>
       </section>
+      <BusinesCentralPdfPopup pdfType={pdfType} />
     </>
   );
 };
