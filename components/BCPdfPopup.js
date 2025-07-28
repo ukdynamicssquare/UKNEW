@@ -102,6 +102,7 @@ const BcPopPdf = ({ pdfType }) => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            'Cache-Control': 'no-cache',
           },
           body: JSON.stringify(formData),
         });
@@ -110,9 +111,9 @@ const BcPopPdf = ({ pdfType }) => {
         if (pdfType === 'pdf1') {
           window.open('/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf', '_blank');
         } else if (pdfType === 'pdf2') {
-          window.open('/pdfs/brochure2.pdf', '_blank');
+          window.open('/pdf/Break-into-new-markets-with-Business-Central.pdf', '_blank');
         } else if (pdfType === 'pdf3') {
-          window.open('/pdfs/brochure3.pdf', '_blank');
+          window.open('/pdf/IDC- MarketScape.pdf', '_blank');
         }
 
         // ✅ Close the Bootstrap modal
@@ -191,7 +192,7 @@ const BcPopPdf = ({ pdfType }) => {
             <div className="modal-content">
               <div className="modal-header">
                 <h4 className="modal-title" id="pdfModelLabel">
-                  Request Callback
+                  Fill out the form to get the full report
                 </h4>
                 <button
                   type="button"
@@ -199,15 +200,15 @@ const BcPopPdf = ({ pdfType }) => {
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>
-                <p></p>
+                {/* <p></p> */}
               </div>
-              <p>
+              {/* <p>
                 Please complete the form below and we will be in touch or{" "}
                 <a href="tel:+2818990865" target="_self" rel="">
                   book a call
                 </a>{" "}
                 with one of our Microsoft consultants.
-              </p>
+              </p> */}
               <div className="modal-body">
                 <div className="main-form-wrper">
                   <form ref={form} onSubmit={handleSubmit}>
@@ -296,7 +297,7 @@ const BcPopPdf = ({ pdfType }) => {
 
                     <div className="spiner-wrper">
                       <button type="submit" className="btn btn-primary fomr-submit" disabled={submitting}>
-                        {submitting ? 'Downloading...' : 'Download PDF'}
+                        {submitting ? 'Downloading...' : 'Download Report'}
                       </button>
                       {submitting && <div className="spinner-border text-primary" role="status"></div>}
                     </div>

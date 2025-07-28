@@ -17016,6 +17016,9 @@ position: absolute;
     transition: 0.4s ease;  
 }
 .card0-01.card0-02{}
+.card0-01.card0-02 a{
+  cursor:pointer
+}
 .card0-01.card0-02 img{}
 .bc-new-tabs-li{}
 
@@ -17050,6 +17053,9 @@ color: #ffffff;
 }
 .solution-new-banner-fives{
   padding: 80px 0px 100px;
+}
+.pdf-dd{
+  border: none;
 }
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {

@@ -409,7 +409,7 @@ const BusinessCentral = () => {
                     <span>Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i></span></a> */}
 
                      <button
-          className="btn-get-started scrollto"
+          className="btn-get-started scrollto pdf-dd"
           onClick={() => handleOpenModal('pdf1')}
         >
           Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i>
@@ -961,7 +961,7 @@ const BusinessCentral = () => {
                     <div className='row'>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="/pdf/Break-into-new-markets-with-Business-Central.pdf" target="_blank" >
+                          <a onClick={() => handleOpenModal('pdf2')}>
                             <img src="/img/bc-8-18.png" width={273} height={192} alt="bc-8-17" />
                             <h3>Reach new markets with Business Central</h3>
                             <p>Research from Nucleus shows better productivity, lower costs, and stronger control.</p>
@@ -973,7 +973,7 @@ const BusinessCentral = () => {
                       </div>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
+                          <a onClick={() => handleOpenModal('pdf1')}>
                             <img src="/img/bc-8-17.png" width={273} height={192} alt="bc-8-18" />
                             <h3>See how firms gained from Business Central</h3>
                             <p>This 2024 Forrester study shows the returns real customers saw after getting started.</p>
@@ -985,7 +985,7 @@ const BusinessCentral = () => {
                       </div>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="/pdf/IDC- MarketScape.pdf" target="_blank">
+                          <a onClick={() => handleOpenModal('pdf3')}>
                             <img src="/img/bc-8-19.png" width={273} height={192} alt="bc-8-19" />
                             <h3>Why IDC picked Microsoft as a Leader</h3>
                             <p>Read how Microsoft stands out in small business ERP software. </p>
