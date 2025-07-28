@@ -29,10 +29,8 @@ const BusinessCentral = () => {
   };
 
  const [pdfType, setPdfType] = useState(null);
- const [resetFormKey, setResetFormKey] = useState(0);
  const handleOpenModal = (type) => {
     setPdfType(type);
-    setResetFormKey(prev => prev + 1);
     // Open modal manually (needed since you use Bootstrap)
     const modal = new bootstrap.Modal(document.getElementById('pdfModel'));
     modal.show();
@@ -1190,7 +1188,7 @@ const BusinessCentral = () => {
 
         </div>
       </section>
-      <BcPopPdf  pdfType={pdfType}  key={resetFormKey} />
+      <BcPopPdf  pdfType={pdfType} />
     </>
   );
 };
