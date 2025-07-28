@@ -6,7 +6,7 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 
 
-const BusinesCentralPdfPopup = ({ pdfType }) => {
+const BcPopPdf = ({ pdfType }) => {
   const [display, setDisplay] = useState("dspn");
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
@@ -314,4 +314,4 @@ const BusinesCentralPdfPopup = ({ pdfType }) => {
 
   );
 }
-export default BusinesCentralPdfPopup
+export default BcPopPdf

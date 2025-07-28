@@ -5,7 +5,9 @@ import Link from 'next/link';
 // import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
 import faqData from '../../../public/data/business_centeral_faq.json';
 import useCardScrollEffect from "../../../components/useCardScrollEffect";
-import BusinesCentralPdfPopup from '../../../components/BusinesCentralPDFPOPUP';
+import BcPopPdf from '../../../components/BCPdfPopup';
+
+
 
 // const StackedCards = dynamic(() => import("../../components/StackedCards"), {
 //     ssr: false,
@@ -1186,7 +1188,7 @@ const BusinessCentral = () => {
 
         </div>
       </section>
-      <BusinesCentralPdfPopup pdfType={pdfType} />
+      <BcPopPdf  pdfType={pdfType} />
     </>
   );
 };
