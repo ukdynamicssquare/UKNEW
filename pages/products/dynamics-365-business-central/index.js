@@ -198,7 +198,7 @@ const BusinessCentral = () => {
 
                 <p>Whether starting small or growing fast, D365 Business Central is what you need.</p>
                 <div className="text-lg-start">
-                  <Link href="#exampleModal" onClick={() => setPdfType('pdf1')}><a
+                  <Link href="#exampleModal" ><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
