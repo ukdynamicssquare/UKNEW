@@ -405,15 +405,15 @@ const BusinessCentral = () => {
                 <h2>See Business Central Results: <br />A Total Economic Impact™ Study</h2>
                 <p>A 2024 study by Forrester looked at how companies using Business Central <br />cut costs and ran things more smoothly.</p>
                 <div className="text-lg-start">
-                  {/* <a className="btn-get-started scrollto" href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
-                    <span>Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i></span></a> */}
+                  <a className="btn-get-started scrollto" href="/pdf/TheTEIOfAMigrationToMicrosoftDynamics365BusinessCentral.pdf" target="_blank">
+                    <span>Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i></span></a>
 
-                     <button
+                     {/* <button
           className="btn-get-started scrollto"
           onClick={() => handleOpenModal('pdf1')}
         >
           Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i>
-        </button>
+        </button> */}
 
                 </div>
               </div>
