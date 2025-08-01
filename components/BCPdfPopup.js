@@ -114,7 +114,10 @@ const BcPopPdf = ({ pdfType }) => {
           window.open('/pdf/Break-into-new-markets-with-Business-Central.pdf', '_blank');
         } else if (pdfType === 'pdf3') {
           window.open('/pdf/IDC- MarketScape.pdf', '_blank');
+        }else if (pdfType === 'pdf4') {
+          window.open('/pdf/business-central-capability-guide-for-publishing-01.pdf', '_blank');
         }
+        
 
         // ✅ Close the Bootstrap modal
         const modalElement = document.getElementById('pdfModel');

@@ -6,6 +6,7 @@ import Link from 'next/link';
 import faqData from '../../../public/data/business_centeral_faq.json';
 import useCardScrollEffect from "../../../components/useCardScrollEffect";
 import BcPopPdf from '../../../components/BCPdfPopup';
+import NavBar from '../../../components/NavBar';
 
 
 
@@ -111,7 +112,7 @@ const BusinessCentral = () => {
                     </div> */}
 
         </div>
-        <div className='container'>
+        <div className='container' id='section1'>
           <div className='row'>
             <div className='col-lg-6'>
               <div className='solution-new-banner-sub-head r-top-60'>
@@ -171,8 +172,9 @@ const BusinessCentral = () => {
           </div>
         </div>
       </div>
+       <NavBar />
 
-      <section className="solution-new-banner-two">
+      <section id='section2' className="solution-new-banner-two">
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
@@ -213,7 +215,7 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-      <section className='solution-new-banner-three'>
+      <section id='section3' className='solution-new-banner-three'>
         {/* <div className="container" ref={containerRef}> */}
         <div className="container">
           <div className='row'>
@@ -412,8 +414,9 @@ const BusinessCentral = () => {
           className="btn-get-started scrollto pdf-dd"
           onClick={() => handleOpenModal('pdf1')}
         >
-          Get the Full Report &nbsp;<i className="bi bi-arrow-right"></i>
+          Get the Full Report* &nbsp;<i className="bi bi-arrow-right"></i>
         </button>
+        <p className='disclm'>*This report was commissioned by Microsoft and conducted by Forrester Consulting. All rights belong to their respective owners.</p>
 
                 </div>
               </div>
@@ -444,7 +447,7 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-      <section className='solution-new-cta'>
+      <section  className='solution-new-cta'>
         <div className='asd'>
           <div className='container'>
             <div className='row'>
@@ -469,7 +472,7 @@ const BusinessCentral = () => {
       </section>
 
 
-      <section className='solution-new-banner-four'>
+      <section id='section4' className='solution-new-banner-four'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
@@ -533,7 +536,7 @@ const BusinessCentral = () => {
 
 
 
-      <section className='solution-new-banner-five'>
+      <section id='section5' className='solution-new-banner-five'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
@@ -601,39 +604,39 @@ const BusinessCentral = () => {
                 <a href="/products/dynamics-365-business-central/manufacturing-management/" target='_blank'>Learn More</a>
               </div>
             </div>
-            <div className='col-lg-4 d-flex'>
+            {/* <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-11.png" width={48} height={49} alt="bc-8-11" />
                 <h3>HR & Payroll</h3>
                 <p>Automate compliance, salary processing, and employee record-keeping. </p>
                 <a href="/products/dynamics-365-business-central/human-resource-management/" target='_blank'>Learn More</a>
               </div>
-            </div>
+            </div> */}
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
-                <h3>AI & Business Intelligence</h3>
-                <p>Get actionable insights, predictive analytics, and smarter decision-making. </p>
-                {/* <a href="/co" target='_blank'>Learn More</a> */}
+                <h3>AI(Copilot)  & Business Intelligence</h3>
+                <p>Get actionable insights, predictive analytics, and smarter decision-making with Microsoft Copilot. </p>
+                <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
               </div>
             </div>
 
             <div className='col-lg-7 d-flex'>
               <div className='solution-new-card-001-p'>
                 <p>No need to juggle multiple tools when one solution does it all. Unify your business and accelerate growth. </p>
-                <Link href="#exampleModal"><a
-                  data-bs-toggle="modal"
-                  className="btn-get-started scrollto"
+                 <a style={{cursor:'pointer'}} onClick={() => handleOpenModal('pdf4')}
+                  className="btn-get-started"
                 >
-                  <span>Click For a Free Personalised Demo Today! &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                </Link>
+                  <span>Download Business Central Capability Guide* &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                   <p className='disclm'>This document is published by Microsoft. Dynamics Square is sharing it for informational purposes only as a Microsoft Solutions Partner. All content and rights belong to Microsoft Corporation. </p>
               </div>
+             
             </div>
 
           </div>
         </div>
       </section>
-      <section className='solution-new-six'>
+      <section  id='section6' className='solution-new-six'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
@@ -695,7 +698,7 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-      <section className='solution-new-banner-fives'>
+      <section id='section7' className='solution-new-banner-fives'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8'>
@@ -771,8 +774,9 @@ const BusinessCentral = () => {
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Book Your Free Demo Today!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Get Your Free Trial of BC Today*  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
+                  <p className='disclm'>Get Your Free Trial of BC Today*</p>
                 </div>
               </div>
             </div>
@@ -781,7 +785,7 @@ const BusinessCentral = () => {
         <img src="/img/n-015.png" alt="n-015" />
       </section>
 
-      <section className='solution-new-pricing'>
+      <section  id='section8' className='solution-new-pricing'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
@@ -798,33 +802,45 @@ const BusinessCentral = () => {
               <div className='solution-new-pricing-card col-ff3'>
                 <h3>Business Central<span>Free Trial</span>
                 </h3>
-                <h4>FREE</h4>
+                <p>Begin a 30-day trial to see how finance, sales, service, and operations align within a single experience. Engage with the platform and see real results.</p>
+                <h4>£0.0*</h4>
+                <a href="#exampleModal"  data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Try for Free </a>
+                <p className='disclm'>*Get a 30-day free trial to see it for yourself.</p>
               </div>
             </div>
             <div className='col-lg-3 d-flex'>
               <div className='solution-new-pricing-card'>
                 <h3>Business Central<span>Essentials</span>
                 </h3>
+                <p>Handle finance, sales, and operations through one smart system. Built-in Copilot (Microsoft AI) helps you drive clarity, speed, and stronger outcomes.</p>
                 <h4>£57.50<span>/user/month</span></h4>
+                <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
+                 <p className='disclm'>*Excluding VAT</p>
               </div>
             </div>
             <div className='col-lg-3 d-flex'>
               <div className='solution-new-pricing-card col-ff3'>
                 <h3>Business Central<span>Premium</span>
                 </h3>
+                <p>Access every feature from the Essentials plan, along with advanced tools for service and manufacturing. Designed for expanding teams seeking better clarity.</p>
                 <h4>£82.20<span>/user/month</span></h4>
+                <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
+                 <p className='disclm'>*Excluding VAT</p>
               </div>
             </div>
             <div className='col-lg-3 d-flex'>
               <div className='solution-new-pricing-card'>
                 <h3>Business Central<span>Team Member</span>
                 </h3>
+                <p>Gain access to view records, approve requests, and edit specific details. A perfect match for those supporting daily tasks across departments.</p>
                 <h4>£6.60<span>/user/month</span></h4>
+                <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
+                 <p className='disclm'>*Excluding VAT</p>
               </div>
             </div>
 
           </div>
-          <div className='row'>
+          {/* <div className='row'>
             <div className='col-lg-7 d-flex'>
               <div className='solution-new-card-001-p'>
                 <p>No hidden fees. No overpriced customisations. Just the right tools to power your business.
@@ -834,7 +850,7 @@ const BusinessCentral = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -844,13 +860,24 @@ const BusinessCentral = () => {
           <div className="row">
             <div className="col-lg-9">
               <div className="solution-new-banner-sub-head">
-                <h2>Dynamics 365 Business Central Support Services: Downtime Isn’t an Option </h2>
-                <p>Time is crucial in business, and as a trusted Dynamics 365 Business Central implementation partner in the UK, Dynamics Square understands this thing pretty well. We make every second count! No matter if you’re migrating, optimising, troubleshooting, or scaling, you have access to our fast, expert support that keeps your operations running, without disruptions, delays, or costly mistakes. </p>
-                <p>Dynamics Square helps you with: </p>
+                <h2>Extend Smartly with Attach Licenses</h2>
+                <p>Add new Dynamics 365 apps without paying the full price. Attach licenses allow you to expand across key areas while keeping your budget in check. Ideal for brands planning to add:</p>
               </div>
             </div>
           </div>
           <div className='row'>
+            <div className='col-lg-6'>
+              <div className='hov-card-im01'>
+               <a href="#exampleModal" data-bs-toggle="modal"><img src="/img/bcplusales.png" alt="" /></a>
+              </div>
+            </div>
+            <div className='col-lg-6'>
+              <div className='hov-card-im01'>
+                <a href="#exampleModal" data-bs-toggle="modal"><img src="/img/bcpluscutmer.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          {/* <div className='row'>
             <div className='col-lg-7 order-2'>
               <div className='row'>
                 <div className='col-lg-6 d-flex'>
@@ -915,12 +942,12 @@ const BusinessCentral = () => {
                 <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div>
+        {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
       </section>
 
-      <section className='p-t-1-100'>
+      <section id='section9' className='p-t-1-100'>
         <div className='container'>
           <div className="col-lg-9">
             <div className="solution-new-banner-sub-head">
@@ -937,7 +964,7 @@ const BusinessCentral = () => {
                     <button className="nav-link active" id="pills-home-05-tab" data-bs-toggle="pill" data-bs-target="#pills-home-05" type="button" role="tab" aria-controls="pills-home-05" aria-selected="false">Case Stories</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-home-01-tab" data-bs-toggle="pill" data-bs-target="#pills-home-01" type="button" role="tab" aria-controls="pills-home-01" aria-selected="true">Studies</button>
+                    <button className="nav-link" id="pills-home-01-tab" data-bs-toggle="pill" data-bs-target="#pills-home-01" type="button" role="tab" aria-controls="pills-home-01" aria-selected="true">Researches</button>
                   </li>
                   <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-home-02-tab" data-bs-toggle="pill" data-bs-target="#pills-home-02" type="button" role="tab" aria-controls="pills-home-02" aria-selected="false">e-Books</button>
