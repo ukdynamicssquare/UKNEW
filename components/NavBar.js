@@ -73,7 +73,7 @@ export default function NavBar() {
           position: sticky;
          top: 22px;
           max-width: 100%;
-          z-index: 1000;
+          z-index: 9999;
           margin: 0 auto;
         //   box-shadow: 0px 2px 3px rgb(0 0 0 / 16%);
         }
