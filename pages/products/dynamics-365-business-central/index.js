@@ -776,7 +776,6 @@ const BusinessCentral = () => {
                   >
                     <span>Get Your Free Trial of BC Today*  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
-                  <p className='disclm'>Get Your Free Trial of BC Today*</p>
                 </div>
               </div>
             </div>
