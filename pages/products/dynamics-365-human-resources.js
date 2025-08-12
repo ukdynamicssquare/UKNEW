@@ -9,24 +9,24 @@ const HumanResource = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Human Resources UK Partner</title>
+        <title>Microsoft Dynamics 365 Human Resources: Transform Workforce Management</title>
         <meta
           name="description"
-          content="Connect your people, optimise HR policies, and drive enhanced profitability with Dynamics 365 Human Resource. Contact now today at Dynamics Square UK!" />
+          content="Transform HR operations with Dynamics 365 Human Resources. From talent acquisition to employee engagement, manage everything in one smart platform." />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/" />
-        <meta property="og:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
-        <meta property="og:description" content="Connect your people, optimise HR policies, and drive enhanced profitability with Dynamics 365 Human Resource. Contact now today at Dynamics Square UK!" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Human Resources: Transform Workforce Management" />
+        <meta property="og:description" content="Transform HR operations with Dynamics 365 Human Resources. From talent acquisition to employee engagement, manage everything in one smart platform." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-human-resources/" />
-        <meta property="twitter:title" content="Dynamics 365 Human Resources | Optimize HR Programs" />
-        <meta property="twitter:description" content="Connect your people, optimise HR policies, and drive enhanced profitability with Dynamics 365 Human Resource. Contact now today at Dynamics Square UK!" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Human Resources: Transform Workforce Management" />
+        <meta property="twitter:description" content="Transform HR operations with Dynamics 365 Human Resources. From talent acquisition to employee engagement, manage everything in one smart platform." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Human-Resource-banner.png" />
        
       </Head>
@@ -74,7 +74,9 @@ const HumanResource = () => {
 
       <section>
         <div className="container">
-          <header className="section-header">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <header className="section-header">
             <h2>
               What is dynamics 365
               <br />
@@ -82,7 +84,10 @@ const HumanResource = () => {
             </h2>
             <p>Microsoft Dynamics 365 Human Resources (formerly known as Microsoft Dynamics 365 Talent) is designed to boost your resourcing capabilities and manage your entire workforce to produce better results. It builds a bridge between management and people, helps onboard the right talent, and shows ways to retain the dedicated resources of the organisation for easy growth and rapid scalability.</p>
             <p>D365 Human Resources solution works towards reducing the overall recruiting cost and improving their performance through optimised policies. Employees can submit leave requests, improve their experience, adhere to a predetermined reporting hierarchy, and receive feedback on the same dashboard.</p>
+            <p>Hiring is about setting the tone for culture, growth, and long-term performance. With D365 Human Resources, you're shaping a workforce that doesn’t just stay, but stays committed. Amid the constant flux of talent migration and burnout, this solution becomes your insurance policy against high attrition and disengaged staff. </p>
           </header>
+            </div>
+          </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -115,10 +120,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Explore your business capabilities with Dynamics 365
-                        Human Resource solution. Extend your resource
-                        optimisation by connecting it with partner solutions or
-                        integrating with other Microsoft solutions.
+                        HR teams often struggle with rigid systems that force them to work around limitations. D365 Human Resources gives you the freedom to adapt processes based on real-world needs, not the other way around. Whether it’s integrating niche third-party benefits software or customising employee workflows, it’s built to move with you.
                       </div>
                     </div>
                   </div>
@@ -151,10 +153,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Manage end-to-end tasks from onboarding, compensation &
-                        benefits management, leave, absence, & compliance
-                        management, payroll & performance management to training
-                        & certification.
+                        Manage end-to-end tasks from onboarding, compensation & benefits management, leave, absence, & compliance management, payroll & performance management to training & certification. D365 Human Resources brings all moving parts under one intelligent roof, so everyone is on the same page, every single time. 
                       </div>
                     </div>
                   </div>
@@ -187,7 +186,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                      With the cloud deployment, you can centralise the entire data while reducing the complexity of the system. You can visualise the data to empower planning and strategies using <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>. 
+                      With the cloud deployment, you can centralise the entire data while reducing the complexity of the system. You can visualise the data to empower planning and strategies using <Link href="/products/microsoft-power-bi/"><a target="_blank">Power BI</a></Link>. <br/><br/>Think of it as your 360° command centre where leadership views, team sentiment, and operational bottlenecks all surface in one place. With D365 Human Resources, no more decision-making in the dark. This is clarity at scale. 
                       </div>
                     </div>
                   </div>
@@ -227,10 +226,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                        Attain built-in AI insights of your workforce, ensure
-                        regulatory compliance, and empower your HR people with
-                        depth insights to make timely decisions and drive
-                        smoother human resourcing practices.
+                        Attain built-in AI insights of your workforce, ensure regulatory compliance, and empower your HR people with in-depth insights to make timely decisions and drive smoother human resourcing practices. <br/><br/>When HR decisions are backed by data, instinct turns into impact. From predicting flight risks to identifying skill gaps early, the system brings patterns into view that would otherwise stay buried. In a world where one wrong hire can cost millions, these insights don’t just inform but safeguard. 
                       </div>
                     </div>
                   </div>
@@ -263,7 +259,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      Human Resources easily integrates with other native Microsoft solutions to offer a seamless and connected work experience. It provides a variety of self-service tools to help employees with their needs.
+                      Human Resources easily integrates with other native Microsoft solutions to offer a seamless and connected work experience. It provides a variety of self-service tools to help employees with their needs. For instance, from requesting time off to accessing learning paths, employees get the freedom to move fast without red tape. When self-service becomes intuitive, satisfaction becomes contagious. 
                       </div>
                     </div>
                   </div>
@@ -296,7 +292,7 @@ const HumanResource = () => {
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
-                      Based on staff insights, you can create customised policies that meet defined guidelines to maximise efficiency as well as productivity.
+                     Based on staff insights, you can create customised policies that meet defined guidelines to maximise efficiency as well as productivity. Policies created without insight tend to be reactive and short-lived. Dynamics 365 Human Resources allows you to shift from generic, one-size-fits-all rules to dynamic frameworks tailored to how your people actually work and respond. 
                       </div>
                     </div>
                   </div>
@@ -328,7 +324,7 @@ const HumanResource = () => {
               </div>
                 <div className="style-grid-content">
                   <h3>Seamless Recruiting</h3>
-                  <p>The Microsoft Dynamics 365 Human Resources module will empower you to process the onboarding of new employees seamlessly. It manages the entire process, from choosing a suitable candidate to hiring and beyond.</p>
+                  <p>The Microsoft Dynamics 365 Human Resources module will empower you to process the onboarding of new employees seamlessly. It manages the entire process, from choosing a suitable candidate to hiring and beyond. Missed interviews, scattered feedback, and slow offer rollouts are not just inefficiencies but talent repellents. With a structured pipeline and role-based access, D365 HR keeps the hiring loop tight and professional. </p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -341,7 +337,7 @@ const HumanResource = () => {
               </div>
                 <div className="style-grid-content">
                   <h3>Access Automation</h3>
-                  <p>If you are from the human resources department, you will understand that a number of recurring and manual tasks consume a lot of time and effort. With D365 HR, you can automate such cumbersome processes with automation and self-service portals.</p>
+                  <p>If you are from the human resources department, you will understand that a number of recurring and manual tasks consume a lot of time and effort. With D365 HR, you can simplify such cumbersome processes through intelligent automation and intuitive self-service portals. This means fewer errors, faster turnarounds, and HR teams who can finally focus on people and not manual paperwork. </p>
                 </div>
               </div>
             </div>
@@ -356,7 +352,7 @@ const HumanResource = () => {
               </div>
                 <div className="style-grid-content">
                   <h3>Time and Attendance Management</h3>
-                  <p>It is one of the most complicated tasks for all HR professionals. But, with this solution, you can track, evaluate, and manage all such tasks without any hassle. Employees can also apply for leaves and receive feedback through the same portal by using self-help tools.</p>
+                  <p>It is one of the most complicated tasks for all HR professionals. But, with this solution, you can track, evaluate, and manage all such tasks without any hassle. Employees can also apply for leaves and receive feedback through the same portal by using self-help tools. No more chasing spreadsheets, juggling approvals, or manual audits. D365 HR turns attendance into an insight engine with pinpointing trends, flagging anomalies, and surfacing workforce patterns that impact operations. </p>
                 </div>
               </div>
 
@@ -370,7 +366,7 @@ const HumanResource = () => {
               </div>
                 <div className="style-grid-content">
                   <h3>Effortless Reporting and Analytics</h3>
-                  <p>You can analyse the employee data to evaluate the performance of all areas. Also, you can view the data related to working hours, sick leaves, vacations, reimbursement, training, and much more using an expressive table and diagram.</p>
+                  <p>You can analyse the employee data to evaluate the performance of all areas. Also, you can view the data related to working hours, sick leaves, vacations, reimbursement, training, and much more using interactive tables and visual dashboards. With Dynamics 365 Human Resources, reports that once took days now take minutes. And most importantly, they become the starting point of your next big decision. </p>
                 </div>
               </div>
 
@@ -379,91 +375,70 @@ const HumanResource = () => {
         </div>
       </section>
 
-      <section className="Solution-business-why">
+
+       <section style={{backgroundColor:'#f7f9fb'}}>
         <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Microsoft Dynamics 365 Human Resources Features </h2>
+            <p>Streamline your entire Human Resource operations with D365 Human Resources.</p>
+          </header>
+            </div>
+          </div>
           <div className="row">
-            <div className="col-lg-5 align-self-center">
-              <div className="wy-sultion-left-head">
-                <h2>Microsoft Dynamics 365 Human Resources Features</h2>
-                <h3>
-                  Streamline your entire Human Resource operations with D365
-                  Human Resources.
-                </h3>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Boost Employee Experience</h3>
+                  <p>Empower your HR managers with the right tools, centralise your employees’ data, enable your employees with self-service capability, drive improved employee engagement and development with HR solutions.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Maximise Agility</h3>
+                  <p>Automate HR administration, streamline HR process flow, and easily integrate with third-party HR solutions to improve your business performance while ensuring security, privacy, and compliance part.</p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-7">
-              <div className="row gx-4">
-                <div className="col-lg-6">
-                  <div className="why-solution-wrapper">
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Boost Employee <br /> Experience
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          Empower your HR managers with the right tools,
-                          centralise your employees’ data, enable your employees
-                          with self-service capability, drive improved employee
-                          engagement and development with HR solutions.
-                        </p>
-                      </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
                     </div>
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Optimise HR
-                        <br />
-                        Practices
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          Enterprises can optimise their human resource
-                          practices, improve employee engagement, and manage
-                          end-to-end HR tasks embedded with AI insights that
-                          drive growth and sustainability.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-                <div className="col-lg-6 top-m">
-                  <div className="why-solution-wrapper">
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Maximise
-                        <br />
-                        Agility
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          Automate HR administration, streamline HR process
-                          flow, and easily integrate with third-party HR
-                          solutions to improve your business performance while
-                          ensuring security, privacy, and compliance part.
-                        </p>
-                      </div>
+                <div className="style-grid-content">
+                  <h3>Optimise HR Practices</h3>
+                  <p>Enterprises can optimise their human resource practices, improve employee engagement, and manage end-to-end HR tasks embedded with AI insights that drive growth and sustainability.</p>
+                </div>
+              </div>
+              <div className="style-grid-1 style-grid-09">
+                <div className="style-grid-icons">
+                    <div className="grid-i-tick">
+                      <i className="bi bi-check2"></i>
                     </div>
-                    <div className="why-solution-wrapper-inner">
-                      <h3>
-                        Gain Workforce
-                        <br />
-                        Insights
-                      </h3>
-                      <div className="overlay">
-                        <p>
-                          Centralise your human resource data, stay updated with
-                          real-time employees’ insights, and make instant
-                          decisions leveraging embedded analytics with Microsoft
-                          Dynamics 365 Human Resource solution.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                </div>
+                <div className="style-grid-content">
+                  <h3>Gain Workforce Insights</h3>
+                  <p>Centralise your human resource data, stay updated with real-time employees’ insights, and make instant decisions leveraging embedded analytics with Microsoft Dynamics 365 Human Resource solution. </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="busnes-upgrade-serve-one">
         <div className="container">
           <div className="row justify-content-center">
