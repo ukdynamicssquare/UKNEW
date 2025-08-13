@@ -193,7 +193,7 @@ const CompareErps = () => {
         )}
 
         {/* ERP Modal */}
-        <Modal show={showModal} onHide={() => setShowModal(false)}>
+        <Modal show={showModal}  size="lg" onHide={() => setShowModal(false)}>
           <Modal.Header closeButton>
             <Modal.Title>Select an ERP</Modal.Title>
           </Modal.Header>
@@ -204,7 +204,7 @@ const CompareErps = () => {
                 return (
                   <div
                     key={idx}
-                    className={`col-6 mb-3 ${isSelected ? "opacity-50" : ""}`}
+                    className={`col-6 col-md-4 mb-3 ${isSelected ? "opacity-50" : ""}`}
                     onClick={() => !isSelected && handleSelect(erp)}
                     style={{ pointerEvents: isSelected ? "none" : "auto" }}
                   >
