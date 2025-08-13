@@ -6,7 +6,7 @@ const nextConfig = {
   output: "standalone",
   images: {
     formats: ['image/avif', 'image/webp'],
-    domains: ['blognew.dynamicssquare.co.uk','blognew.dynamicssquare.com']
+    domains: ['blognew.dynamicssquare.co.uk','blognew.dynamicssquare.com','cdn.gemsroot.com']
    },
    env:{
     BACKEND_URL:'https://blognew.dynamicssquare.co.uk',

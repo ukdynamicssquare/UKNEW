@@ -17,19 +17,21 @@ const CompareErps = () => {
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [showFormModal, setShowFormModal] = useState(false);
 
-  // Fetch JSON data from public folder
+  // Fetch from API
   useEffect(() => {
-    fetch('/data/erps.json')
+    fetch('https://erptoolapi.onrender.com/api/frontend/products') // <-- Replace with actual API URL
       .then(res => res.json())
       .then(data => {
-        setAllErps(data.allErps);
-        setFeatures(data.features);
+        setAllErps(data);
+        if (data.length > 0) {
+          setFeatures(Object.keys(data[0].features));
+        }
       })
       .catch(err => console.error("Error loading ERP data:", err));
   }, []);
 
   const handleSelect = (erp) => {
-    if (selectedErps.some(selected => selected && selected.slug === erp.slug)) {
+    if (selectedErps.some(selected => selected && selected.name === erp.name)) {
       return;
     }
     if (activeBoxIndex !== null) {
@@ -97,7 +99,7 @@ const CompareErps = () => {
                       ×
                     </button>
                     <h5>{erp.name}</h5>
-                     <img src={erp.image} alt={erp.name} />
+                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100%", height: "auto" }} />
                   </>
                 ) : (
                   <p className="text-muted my-5">Click to select ERP</p>
@@ -129,7 +131,7 @@ const CompareErps = () => {
                   <tr>
                     <th>Feature</th>
                     {visibleData.map((erp) => (
-                      <th key={erp.slug}>{erp.name}</th>
+                      <th key={erp.name}>{erp.name}</th>
                     ))}
                   </tr>
                 </thead>
@@ -138,17 +140,15 @@ const CompareErps = () => {
                     const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
                     return (
                       <tr key={feature}>
-                        <td className="text-start text-capitalize">{feature === 'demo' ? 'Demo' : feature}</td>
+                        <td className="text-start text-capitalize">{feature}</td>
                         {visibleData.map((erp) => (
                           <td
-                            key={erp.slug + feature}
+                            key={erp.name + feature}
                             className={shouldBlurRow ? "blurred-cell" : ""}
                           >
-                            {feature === 'demo' ? (
-                              <a href={erp.demoUrl} target="_blank" rel="noopener noreferrer">View Demo</a>
-                            ) : (
-                              erp[feature]
-                            )}
+                            {Array.isArray(erp.features[feature])
+                              ? erp.features[feature].join(", ")
+                              : erp.features[feature]}
                           </td>
                         ))}
                       </tr>
@@ -176,7 +176,7 @@ const CompareErps = () => {
           <Modal.Body>
             <div className="row">
               {allErps.map((erp, idx) => {
-                const isSelected = selectedErps.some(sel => sel && sel.slug === erp.slug);
+                const isSelected = selectedErps.some(sel => sel && sel.name === erp.name);
                 return (
                   <div
                     key={idx}
@@ -186,10 +186,10 @@ const CompareErps = () => {
                   >
                     <div className="border p-2 rounded bg-light text-center h-100">
                       <h6>{erp.name}</h6>
-                      <img src={erp.image} alt={erp.name} />
-                      {isSelected && (
+                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100%", height: "auto" }} />
+                      {/* {isSelected && (
                         <div className="text-danger small mt-1">Already Selected</div>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 );
