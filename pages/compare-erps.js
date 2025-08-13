@@ -17,9 +17,27 @@ const CompareErps = () => {
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [showFormModal, setShowFormModal] = useState(false);
 
+  // Feature label mapping
+  const featureLabels = {
+    overview: "Overview",
+    deployment: "Deployment",
+    costPerUser: "Cost Per User",
+    priceRange: "Price Range",
+    costPerProject: "Cost Per Project",
+    minImplementationFee: "Minimum Implementation Fee",
+    pricingNotes: "Pricing Notes",
+    coreModules: "Core Modules",
+    scalability: "Scalability",
+    customization: "Customization",
+    usabilitySupportTraining: "Usability / Support / Training",
+    analyticsSecurity: "Analytics & Security",
+    keyMarketStrength: "Key Market Strength",
+    notableContext: "Notable Context"
+  };
+
   // Fetch from API
   useEffect(() => {
-    fetch('https://erptoolapi.onrender.com/api/frontend/products') // <-- Replace with actual API URL
+    fetch('https://erptoolapi.onrender.com/api/frontend/products')
       .then(res => res.json())
       .then(data => {
         setAllErps(data);
@@ -125,13 +143,17 @@ const CompareErps = () => {
         {/* Comparison Table */}
         {showTable && visibleData.length > 0 && (
           <>
-            <div className="table-responsive">
+            <div className="table-responsive position-relatives">
               <table className="table table-bordered text-center">
                 <thead className="table-dark">
                   <tr>
                     <th>Feature</th>
                     {visibleData.map((erp) => (
-                      <th key={erp.name}>{erp.name}  <br/><img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} /></th>
+                      <th key={erp.name}>
+                        {erp.name}  
+                        <br/>
+                        <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
+                      </th>
                     ))}
                   </tr>
                 </thead>
@@ -140,7 +162,7 @@ const CompareErps = () => {
                     const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
                     return (
                       <tr key={feature}>
-                        <td className="text-start text-capitalize"><b>{feature}</b></td>
+                        <td className="text-start tt"><div><b>{featureLabels[feature] || feature}</b></div></td>
                         {visibleData.map((erp) => (
                           <td
                             key={erp.name + feature}
@@ -156,15 +178,17 @@ const CompareErps = () => {
                   })}
                 </tbody>
               </table>
-            </div>
 
-            {!formFilled && (
-              <div className="text-center mt-3">
+              {!formFilled && (
+              <div className="unlock-button-container">
                 <Button variant="warning" onClick={() => setShowFormModal(true)}>
                   Unlock Full Comparison
                 </Button>
               </div>
             )}
+            </div>
+
+            
           </>
         )}
 
@@ -187,9 +211,6 @@ const CompareErps = () => {
                     <div className="border p-2 rounded bg-light text-center h-100">
                       <h6>{erp.name}</h6>
                       <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
-                      {/* {isSelected && (
-                        <div className="text-danger small mt-1">Already Selected</div>
-                      )} */}
                     </div>
                   </div>
                 );
@@ -230,9 +251,16 @@ const CompareErps = () => {
 
         {/* Inline Styling */}
         <style jsx>{`
+        .position-relatives{
+        position:relative
+        }
           .erp-box {
             cursor: pointer;
             transition: transform 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
           }
           .erp-box:hover {
             transform: scale(1.03);
@@ -251,6 +279,21 @@ const CompareErps = () => {
             backdrop-filter: blur(4px);
             pointer-events: none;
           }
+            .unlock-button-container {
+    position: absolute;
+    bottom: 25%;  /* vertically in middle of blurred section */
+    left: 50%;
+    transform: translate(-50%,-25%);
+    z-index: 10;
+  }
+    .position-relatives tr>th{
+    padding: 25px;
+    font-size: 15px;}
+    .tt{color: #3d3459 !important;font-size: 16px !important;;}
+     .position-relatives tr>td{
+     padding: 25px;
+    font-size: 15px;}
+    .position-relatives tr>td>div{}
         `}</style>
       </div>
     </>
