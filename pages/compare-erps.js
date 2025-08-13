@@ -288,10 +288,12 @@ const CompareErps = () => {
   }
     .position-relatives tr>th{
     padding: 25px;
+     text-align: left;
     font-size: 15px;}
-    .tt{color: #3d3459 !important;font-size: 16px !important;;}
+    .tt{color: #3d3459 !important;font-size: 16px !important;}
      .position-relatives tr>td{
      padding: 25px;
+     text-align: left;
     font-size: 15px;}
     .position-relatives tr>td>div{}
         `}</style>
