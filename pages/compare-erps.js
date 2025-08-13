@@ -99,7 +99,7 @@ const CompareErps = () => {
                       ×
                     </button>
                     <h5>{erp.name}</h5>
-                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100%", height: "auto" }} />
+                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
                   </>
                 ) : (
                   <p className="text-muted my-5">Click to select ERP</p>
@@ -131,7 +131,7 @@ const CompareErps = () => {
                   <tr>
                     <th>Feature</th>
                     {visibleData.map((erp) => (
-                      <th key={erp.name}>{erp.name}</th>
+                      <th key={erp.name}>{erp.name}  <br/><img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} /></th>
                     ))}
                   </tr>
                 </thead>
@@ -140,7 +140,7 @@ const CompareErps = () => {
                     const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
                     return (
                       <tr key={feature}>
-                        <td className="text-start text-capitalize">{feature}</td>
+                        <td className="text-start text-capitalize"><b>{feature}</b></td>
                         {visibleData.map((erp) => (
                           <td
                             key={erp.name + feature}
@@ -186,7 +186,7 @@ const CompareErps = () => {
                   >
                     <div className="border p-2 rounded bg-light text-center h-100">
                       <h6>{erp.name}</h6>
-                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100%", height: "auto" }} />
+                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
                       {/* {isSelected && (
                         <div className="text-danger small mt-1">Already Selected</div>
                       )} */}
