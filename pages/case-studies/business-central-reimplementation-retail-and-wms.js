@@ -280,11 +280,11 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-6 align-self-center">
               <div className="ms-c-po">
                 <ul>
-                  <li><i class="bi bi-arrow-right"></i> <span> Streamlined integration between their warehouse robotics and ERP</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>Reliable data flow across retail, warehouse, website, and marketplaces</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>A future-ready ERP that could grow with the business</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>In-person support from a partner who would not disappear after go-live</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>A clear pricing model to avoid financial surprises mid-project</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span> Streamlined integration between their warehouse robotics and ERP</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>Reliable data flow across retail, warehouse, website, and marketplaces</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>A future-ready ERP that could grow with the business</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>In-person support from a partner who would not disappear after go-live</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>A clear pricing model to avoid financial surprises mid-project</span></li>
                 </ul>
                 <p style={{ marginTop: '30px' }}><b>They needed someone who could travel the distance, both literally and technically, to build something solid and sustainable.</b></p>
               </div>

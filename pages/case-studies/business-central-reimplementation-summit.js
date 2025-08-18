@@ -203,13 +203,13 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-6 align-self-center">
               <div className="ms-c-po">
                 <ul>
-                  <li><i class="bi bi-arrow-right"></i> <span>A standard and clean reimplementation of Business Central SaaS</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>Minimal modifications with a focus on performance, not features</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>Strong integration capability with Microsoft 365 apps and Power BI</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>Better project management support for buy-sell operations</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>Fresh approach to quoting in sales, reflecting grouped pricing logic</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>Smooth migration from their on-premises version to SaaS</span></li>
-                  <li><i class="bi bi-arrow-right"></i> <span>A support partner who could guide without overcomplicating</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>A standard and clean reimplementation of Business Central SaaS</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>Minimal modifications with a focus on performance, not features</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>Strong integration capability with Microsoft 365 apps and Power BI</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>Better project management support for buy-sell operations</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>Fresh approach to quoting in sales, reflecting grouped pricing logic</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>Smooth migration from their on-premises version to SaaS</span></li>
+                  <li><i className="bi bi-arrow-right"></i> <span>A support partner who could guide without overcomplicating</span></li>
                 </ul>
               </div>
             </div>

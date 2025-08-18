@@ -290,43 +290,43 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               <div className="ms-c-po">
                 <ul>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>
                       A modern ERP system that works across entities and
                       locations
                     </span>
                   </li>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>
                       Ability to process sales and purchase orders with
                       traceability
                     </span>
                   </li>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>
                       Strong financial controls and real-time tracking of
                       performance
                     </span>
                   </li>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>
                       Seamless connection with Microsoft 365 tools to improve
                       collaboration
                     </span>
                   </li>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>Data security with minimal manual work</span>
                   </li>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>Reporting that reflects actuals, not estimates</span>
                   </li>
                   <li>
-                    <i class="bi bi-arrow-right"></i>{" "}
+                    <i className="bi bi-arrow-right"></i>{" "}
                     <span>
                       Clarity across finance, inventory, purchasing, and
                       compliance
