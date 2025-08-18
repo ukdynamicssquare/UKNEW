@@ -5137,6 +5137,7 @@ section {
 .style-grid-1 {
   display: flex;
   margin-bottom: 15px;
+  gap: 20px;
 }
 .style-grid-icons {
   flex: 15%;
@@ -17113,7 +17114,7 @@ color: #bb2b36;
 }
 .card-929{
   background: #ffffff;
-  padding:30px;
+  padding:25px;
   border-radius: 8px;
   border: 2px solid #1d355796;
   width: 100%;
@@ -17133,7 +17134,7 @@ position: sticky;
 .stic-ss h2{}
 .stic-ss p2{}
 .flex-c-card{
-  background: #e9ecf4;
+  background: #f1f0f4;
     border-radius: 8px;
     padding: 30px 20px;
     box-shadow: 3px 3px 7px rgb(0 0 0 / 16%);
@@ -17156,6 +17157,25 @@ position: sticky;
 }
 .flex-c-card ul li:last-child{
    margin-bottom: 0px;
+}
+.hero-new-bg{
+  background-color: #f7f9fb;
+    padding: 80px 0px 120px;
+}
+.hero-new-bg span{
+      color: #b5101f;
+    font-weight: 600;
+}
+.bg-case-cent{
+  text-align: center;
+}
+.cast-studi-into.minr{
+    margin-top: -80px;
+    position: relative;
+}
+.ce-image-ce{
+  text-align:center;
+  padding:60px 0px 80px
 }
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
@@ -17257,6 +17277,16 @@ position: sticky;
   }
 }
 @media (max-width: 992px) {
+  .hero-new-bg{
+    padding: 20px 0px 30px;
+  }
+  .cast-studi-into.minr{
+    margin-top: 0;
+        padding: 40px 0px;
+  }
+  .bg-case-cent {
+    text-align: left;
+}
   .search-wrp-inner {
     padding: 0px 0px 0px;
     margin-top: -10px;

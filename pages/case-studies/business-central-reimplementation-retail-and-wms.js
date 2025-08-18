@@ -24,11 +24,11 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/microsoft-business-central-implementation/"
         />
       </Head>
-      <section className="hero-1 hero">
+      <section className="hero hero-new-bg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="webin-top-left case-study-bann">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 align-self-center">
+              <div className="webin-top-left case-study-bann" style={{ textAlign: 'center' }}>
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
                   <h1>Microsoft Business Central Reimplementation</h1>
@@ -36,46 +36,28 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="sider-over">
-                <Image
-                  src="/img/Dynamics-365-Business-Central.png"
-                  alt="Business central casestudy"
-                  width={1024} height={597}
-                  priority={true}
-                />
+          </div>
+        </div>
+      </section>
+      <section className="cast-studi-into minr">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="bg-case bg-case-cent">
+                <div className="side-heading-custom-01">
+                  <h2>A Quiet Revolution from the Far North of Ireland</h2>
+                </div>
+                <div className="custom-p-001">
+                  <p>Deep in the rugged northern stretch of Ireland, near the sea where few technology firms venture, a forward-looking saddlery brand was quietly grappling with growing operational pain points.</p>
+                  <p>The brand, a respected name among equestrian circles and local farming communities, was ready for a change. What followed was far from a regular ERP project. It became a full-fledged transformation, marked by trust, on-ground commitment, and a strategic vision for smarter retail and warehouse operations.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="busine_service_bottom">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/proffesional service side.png"
-                  className="fix-im"
-                  alt="proffesional service side"
-                  width={553} height={541}
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading-custom-01">
-                <h2>A Quiet Revolution from the Far North of Ireland</h2>
-              </div>
-              <div className="custom-p-001">
-                <p>Deep in the rugged northern stretch of Ireland, near the sea where few technology firms venture, a forward-looking saddlery brand was quietly grappling with growing operational pain points.</p>
-                <p>The brand, a respected name among equestrian circles and local farming communities, was ready for a change. What followed was far from a regular ERP project. It became a full-fledged transformation, marked by trust, on-ground commitment, and a strategic vision for smarter retail and warehouse operations.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="busine_service_bottom" style={{padding:'0px 0px'}}>
+      <section className="busine_service_bottom" style={{ padding: '60px 0px 80px' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -90,10 +72,10 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/proffesional service side.png"
+                  src="/img/case-s-01.png"
                   className="fix-im"
-                  alt="proffesional service side"
-                  width={553} height={541}
+                  alt="case-s-01"
+                  width={400} height={450}
                 />
               </div>
             </div>
@@ -101,7 +83,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         </div>
       </section>
 
-      <section className="Solution-business-why custom-pd-1" style={{paddingBottom:"80px"}}>
+      <section className="Solution-business-why custom-pd-1" style={{ paddingBottom: "80px" }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -182,86 +164,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         </div>
       </section>
 
-      {/* <section className="Solution-business-why custom-pd-1" style={{backgroundColor:'#ffffff' }}  >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <header className="section-header">
-                <h2>What the Business Needed</h2>
-                <p>The company did not need another quick patch or plugin. They needed a comprehensive yet controlled digital transformation that could address the following:</p>
-              </header>
-            </div>
-          </div>
-          <div className="row justify-content-center" style={{ padding: '40px'}}>
-            <div className="col-lg-11">
-              <div className="row gx-5">
-                <div className="col-lg-6">
-                  <div className="content-icons-modil-1">
-                    <div className="content-inner-moil-1">
-                      <div className="icons-left">
-                        <div className="ext-bord">
-                          <i className="bi bi-check2"></i>
-                        </div>
-                      </div>
-                      <div className="cintent-right">
-                        <p>Streamlined integration between their warehouse robotics and ERP</p>
-                      </div>
-                    </div>
 
-                    <div className="content-inner-moil-1">
-                      <div className="icons-left">
-                        <div className="ext-bord">
-                          <i className="bi bi-check2"></i>
-                        </div>
-                      </div>
-                      <div className="cintent-right">
-                        <p>Reliable data flow across retail, warehouse, website, and marketplaces</p>
-                      </div>
-                    </div>
-
-                    <div className="content-inner-moil-1">
-                      <div className="icons-left">
-                        <div className="ext-bord">
-                          <i className="bi bi-check2"></i>
-                        </div>
-                      </div>
-                      <div className="cintent-right">
-                        <p>A future-ready ERP that could grow with the business</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="content-icons-modil-1">
-                    <div className="content-inner-moil-1">
-                      <div className="icons-left">
-                        <div className="ext-bord">
-                          <i className="bi bi-check2"></i>
-                        </div>
-                      </div>
-                      <div className="cintent-right">
-                        <p>In-person support from a partner who would not disappear after go-live</p>
-                      </div>
-                    </div>
-
-                    <div className="content-inner-moil-1">
-                      <div className="icons-left">
-                        <div className="ext-bord">
-                          <i className="bi bi-check2"></i>
-                        </div>
-                      </div>
-                      <div className="cintent-right">
-                        <p>A clear pricing model to avoid financial surprises mid-project</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
@@ -275,7 +178,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           </div>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407} />
+              <Image src="/img/case-s-02.png" alt="case-s-02" width={733} height={512} />
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="ms-c-po">
@@ -342,8 +245,15 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
       <section>
         <div className="container">
           <div className="row">
+            <div className="col-lg-12">
+              <div className="ce-image-ce">
+                  <img src="/img/case-s-03.png" alt="Case Study" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-lg-5">
-              <div className="stic-ss section-header ">
+              <div className="stic-ss section-header">
                 <h2>Solutions Proposed by Dynamics Square</h2>
                 <p>Dynamics Square approached the project with care, clarity, and a deep understanding of retail and warehouse synergy. Based on a detailed onsite discovery visit, the following solutions were proposed:</p>
               </div>
@@ -406,7 +316,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                     <li>Defined scope, fixed cost, and milestone-based delivery ensured financial clarity for the company.</li>
                   </ul>
                 </div>
-               
+
               </div>
             </div>
           </div>
@@ -503,7 +413,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         <div className="container">
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-               <div className="section-header" style={{marginBottom:'-25px'}}>
+              <div className="section-header" style={{ marginBottom: '-25px' }}>
                 <h2>Why This Case Matters</h2>
               </div>
               <div className="content-icons-modil-1">
@@ -513,13 +423,13 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598} />
+              <Image src="/img/case-s-04.png" alt="case-s-04" width={485} height={450} />
             </div>
           </div>
         </div>
       </section>
 
-      
+
       <section className="call_to_action call_to_action-height pd-404">
         <div className="container">
           <div className="row">
