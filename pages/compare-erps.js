@@ -116,8 +116,8 @@ const CompareErps = () => {
                     >
                       ×
                     </button>
-                    <h5>{erp.name}</h5>
-                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
+                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30",marginBottom:'15px' }} />
+                     <h5 style={{fontSize:'15px',color:'#3d3459'}}>{erp.name}</h5>
                   </>
                 ) : (
                   <p className="text-muted my-5">Click to select ERP</p>
@@ -150,9 +150,8 @@ const CompareErps = () => {
                     <th>Feature</th>
                     {visibleData.map((erp) => (
                       <th key={erp.name}>
-                        {erp.name}  
-                        <br/>
-                        <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
+                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30",marginBottom:'15px' }} />
+                     <h5 style={{fontSize:'15px',color:'#3d3459'}}>{erp.name}</h5>
                       </th>
                     ))}
                   </tr>
@@ -209,8 +208,8 @@ const CompareErps = () => {
                     style={{ pointerEvents: isSelected ? "none" : "auto" }}
                   >
                     <div className="border p-2 rounded bg-light text-center h-100">
-                      <h6>{erp.name}</h6>
-                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30" }} />
+                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30",marginBottom:'15px' }} />
+                     <h5 style={{fontSize:'13px',color:'#3d3459'}}>{erp.name}</h5>
                     </div>
                   </div>
                 );
