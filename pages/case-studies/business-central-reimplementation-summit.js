@@ -20,11 +20,12 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/microsoft-business-central-implementation/"
         />
       </Head>
-      <section className="hero-1 hero">
+
+      <section className="hero hero-new-bg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="webin-top-left case-study-bann">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 align-self-center">
+              <div className="webin-top-left case-study-bann" style={{ textAlign: 'center' }}>
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
                   <h1>Microsoft Business Central Implementation</h1>
@@ -32,45 +33,28 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="sider-over">
-                <Image
-                  src="/img/Dynamics-365-Business-Central.png"
-                  alt="Business central casestudy"
-                  width={1024} height={597}
-                  priority={true}
-                />
+          </div>
+        </div>
+      </section>
+      <section className="cast-studi-into minr">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="bg-case bg-case-cent">
+                <div className="side-heading-custom-01">
+                  <h2>A Reset That Brought Clarity and Control</h2>
+                </div>
+                <div className="custom-p-001">
+                  <p>After struggling with a poorly fitted system and scattered processes, this fast-adapting business found clarity, control, and confidence through a clean reimplementation of Business Central with support from Dynamics Square. </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="busine_service_bottom">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/proffesional service side.png"
-                  className="fix-im"
-                  alt="proffesional service side"
-                  width={553} height={541}
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading-custom-01">
-                <h2>A Reset That Brought <br/>Clarity and Control</h2>
-              </div>
-              <div className="custom-p-001">
-                <p>After struggling with a poorly fitted system and scattered processes, this fast-adapting business found clarity, control, and confidence through a clean reimplementation of Business Central with support from Dynamics Square. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="busine_service_bottom" style={{padding:'0px 0px'}}>
+
+      <section className="busine_service_bottom" style={{ padding: '60px 0px 80px' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center">
@@ -84,10 +68,10 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/proffesional service side.png"
+                  src="/img/case-s-05.png"
                   className="fix-im"
-                  alt="proffesional service side"
-                  width={553} height={541}
+                  alt="case-s-02"
+                  width={400} height={450}
                 />
               </div>
             </div>
@@ -95,7 +79,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         </div>
       </section>
 
-      <section className="Solution-business-why custom-pd-1" style={{paddingBottom:"80px"}}>
+      <section className="Solution-business-why custom-pd-1" style={{ paddingBottom: "80px" }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -177,14 +161,14 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                     <p>Communication between systems remained fragmented, affecting productivity.</p>
                   </div>
                 </div>
-                
+
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      
+
 
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
@@ -198,7 +182,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           </div>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407} />
+              <Image src="/img/case-s-06.png" alt="case-s-06" width={633} height={561} />
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="ms-c-po">
@@ -276,6 +260,13 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
       <section>
         <div className="container">
           <div className="row">
+            <div className="col-lg-12">
+              <div className="ce-image-ce">
+                <img src="/img/case-s-07.png" alt="Case Study" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+          <div className="row">
             <div className="col-lg-5">
               <div className="stic-ss section-header ">
                 <h2>Solutions Proposed by Dynamics Square</h2>
@@ -313,7 +304,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                 <div className="flex-c-card">
                   <h3>Sales and Purchase </h3>
                   <ul>
-                   <li>Blanket Sales and Purchase Orders </li>
+                    <li>Blanket Sales and Purchase Orders </li>
                     <li>Return Orders </li>
                     <li>Approval Workflows </li>
                   </ul>
@@ -329,7 +320,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                 <div className="flex-c-card">
                   <h3>Production Module </h3>
                   <ul>
-                   <li>though enabled, the module supported buy-sell planning rather than manufacturing </li>
+                    <li>though enabled, the module supported buy-sell planning rather than manufacturing </li>
                   </ul>
                 </div>
                 <div className="flex-c-card">
@@ -345,10 +336,10 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
                 <div className="flex-c-card">
                   <h3>Minimal Customisation </h3>
                   <ul>
-                  <li>One custom modification to support grouped pricing in Sales Quotes </li>
+                    <li>One custom modification to support grouped pricing in Sales Quotes </li>
                   </ul>
                 </div>
-               
+
               </div>
             </div>
           </div>
@@ -367,98 +358,98 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           </div>
           <div className="row">
             <div className="col-lg-6">
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>162% ROI forecast over 3 years </b></p>
+                  <p style={{ marginBottom: '0' }}><b>162% ROI forecast over 3 years </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>Payback period expected to close in under 12 months </b></p>
+                  <p style={{ marginBottom: '0' }}><b>Payback period expected to close in under 12 months </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>Saved hiring cost of one full-time and one part-time finance role </b></p>
+                  <p style={{ marginBottom: '0' }}><b>Saved hiring cost of one full-time and one part-time finance role </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>8% faster operations across sales and inventory flows </b></p>
+                  <p style={{ marginBottom: '0' }}><b>8% faster operations across sales and inventory flows </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>£32,000 saved by removing previous system inefficiencies </b></p>
+                  <p style={{ marginBottom: '0' }}><b>£32,000 saved by removing previous system inefficiencies </b></p>
                 </div>
               </div>
-              
-              
+
+
             </div>
             <div className="col-lg-6">
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>Increased confidence in reports, budgeting, and forecasts </b></p>
+                  <p style={{ marginBottom: '0' }}><b>Increased confidence in reports, budgeting, and forecasts </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>Simplified licensing and a clear support structure in place </b></p>
+                  <p style={{ marginBottom: '0' }}><b>Simplified licensing and a clear support structure in place </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>Better insights into job-wise profitability using the Jobs Module </b></p>
+                  <p style={{ marginBottom: '0' }}><b>Better insights into job-wise profitability using the Jobs Module </b></p>
                 </div>
               </div>
-              <div className="style-grid-1 style-grid-09" style={{alignItems:'center'}}>
+              <div className="style-grid-1 style-grid-09" style={{ alignItems: 'center' }}>
                 <div className="style-grid-icons">
                   <div className="grid-i-tick">
                     <i className="bi bi-check2"></i>
                   </div>
                 </div>
                 <div className="style-grid-content">
-                  <p style={{marginBottom:'0'}}><b>Scope for integrating HubSpot CRM into BC in the future </b></p>
+                  <p style={{ marginBottom: '0' }}><b>Scope for integrating HubSpot CRM into BC in the future </b></p>
                 </div>
               </div>
             </div>
@@ -471,7 +462,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         <div className="container">
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-               <div className="section-header" style={{marginBottom:'-25px'}}>
+              <div className="section-header" style={{ marginBottom: '-25px' }}>
                 <h2>Why This Case Matters and Future Prospects </h2>
               </div>
               <div className="content-icons-modil-1">
@@ -481,13 +472,13 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Image src="/img/Group1435.png" alt="Group1435" width={640} height={598} />
+              <Image src="/img/case-s-04.png" alt="Group1435" width={485} height={450} />
             </div>
           </div>
         </div>
       </section>
 
-      
+
       <section className="call_to_action call_to_action-height pd-404">
         <div className="container">
           <div className="row">
