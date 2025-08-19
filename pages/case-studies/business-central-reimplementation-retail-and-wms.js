@@ -423,7 +423,9 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Image src="/img/case-s-04.png" alt="case-s-04" width={485} height={450} />
+              <div className="text-center">
+                <Image src="/img/case-s-04.png" alt="case-s-04" width={485} height={450} />
+              </div>
             </div>
           </div>
         </div>
