@@ -58,19 +58,24 @@ const CompareErps = () => {
     }
   };
 
-  const handleSelect = (erp) => {
-    if (selectedErps.some(selected => selected && selected.name === erp.name)) return;
-    const updated = [...selectedErps];
-    if (activeBoxIndex !== null) {
-      updated[activeBoxIndex] = erp;
-    } else {
-      const emptyIndex = updated.findIndex(item => item === null);
-      if (emptyIndex !== -1) updated[emptyIndex] = erp;
-    }
-    setSelectedErps(compactSelections(updated));
-    setShowModal(false);
-    setActiveBoxIndex(null);
-  };
+const handleSelect = (erp) => {
+  // Prevent duplicate selection
+  if (selectedErps.some(selected => selected && selected.name === erp.name)) return;
+
+  // Fill the first available slot from the left
+  const updated = [...selectedErps];
+  const emptyIndex = updated.findIndex(item => item === null);
+  if (emptyIndex !== -1) {
+    updated[emptyIndex] = erp;
+  }
+
+  setSelectedErps(compactSelections(updated));
+  setShowModal(false);
+  setActiveBoxIndex(null); // no need to track active box anymore
+};
+
+
+
 
   const removeSelection = (index) => {
     const updated = [...selectedErps];
@@ -268,7 +273,7 @@ const CompareErps = () => {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 140px;
+            min-height: 90px;
           }
           .placeholder-card {
             border: 2px dashed #ccc;
