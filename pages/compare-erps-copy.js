@@ -1,49 +1,77 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Modal, Button, Spinner, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
 
-const allErps = [
-  { name: "ERPNext", slug: "erpnext", cloud: true, crm: true, inventory: true, hr: true, customizable: true, mobile: true, api: true, price: "$20", demoUrl: "#" },
-  { name: "Odoo", slug: "odoo", cloud: true, crm: true, inventory: true, hr: true, customizable: true, mobile: true, api: true, price: "$25", demoUrl: "#" },
-  { name: "Zoho ERP", slug: "zoho", cloud: true, crm: true, inventory: true, hr: false, customizable: false, mobile: true, api: true, price: "$30", demoUrl: "#" },
-  { name: "SAP B1", slug: "sap", cloud: false, crm: true, inventory: true, hr: true, customizable: true, mobile: true, api: true, price: "$100", demoUrl: "#" },
-  { name: "NetSuite", slug: "netsuite", cloud: true, crm: true, inventory: true, hr: true, customizable: true, mobile: true, api: true, price: "$150", demoUrl: "#" },
-  { name: "MS Dynamics", slug: "msdynamics", cloud: true, crm: true, inventory: true, hr: true, customizable: true, mobile: true, api: true, price: "$120", demoUrl: "#" },
-  { name: "TallyPrime", slug: "tally", cloud: false, crm: false, inventory: true, hr: false, customizable: false, mobile: false, api: false, price: "$15", demoUrl: "#" },
-  { name: "QuickBooks", slug: "quickbooks", cloud: true, crm: true, inventory: false, hr: false, customizable: false, mobile: true, api: true, price: "$40", demoUrl: "#" },
-  { name: "Marg ERP", slug: "marg", cloud: false, crm: true, inventory: true, hr: false, customizable: false, mobile: false, api: false, price: "$10", demoUrl: "#" },
-  { name: "Busy ERP", slug: "busy", cloud: false, crm: true, inventory: true, hr: true, customizable: false, mobile: true, api: false, price: "$12", demoUrl: "#" },
-];
-
 const CompareErps = () => {
+  const [allErps, setAllErps] = useState([]);
+  const [features, setFeatures] = useState([]);
   const [selectedErps, setSelectedErps] = useState([null, null, null, null]);
   const [showModal, setShowModal] = useState(false);
   const [activeBoxIndex, setActiveBoxIndex] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [showTable, setShowTable] = useState(false);
   const [formFilled, setFormFilled] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [showFormModal, setShowFormModal] = useState(false);
+  const [showTable, setShowTable] = useState(false);
+
+  const featureLabels = {
+    overview: "Overview",
+    deployment: "Deployment",
+    costPerUser: "Cost Per User",
+    priceRange: "Price Range",
+    costPerProject: "Cost Per Project",
+    minImplementationFee: "Minimum Implementation Fee",
+    pricingNotes: "Pricing Notes",
+    coreModules: "Core Modules",
+    scalability: "Scalability",
+    customization: "Customization",
+    usabilitySupportTraining: "Usability / Support / Training",
+    analyticsSecurity: "Analytics & Security",
+    keyMarketStrength: "Key Market Strength",
+    notableContext: "Notable Context"
+  };
+
+  useEffect(() => {
+    fetch('https://erptoolapi.onrender.com/api/frontend/products')
+      .then(res => res.json())
+      .then(data => {
+        setAllErps(data);
+        if (data.length > 0) {
+          setFeatures(Object.keys(data[0].features));
+        }
+      })
+      .catch(err => console.error("Error loading ERP data:", err));
+  }, []);
+
+  const compactSelections = (arr) => {
+    const compacted = arr.filter(Boolean);
+    while (compacted.length < 4) compacted.push(null);
+    return compacted;
+  };
 
   const handleSelect = (erp) => {
+    if (selectedErps.some(selected => selected && selected.name === erp.name)) return;
+
+    const updated = [...selectedErps];
     if (activeBoxIndex !== null) {
-      const updated = [...selectedErps];
       updated[activeBoxIndex] = erp;
-      setSelectedErps(updated);
-      setShowModal(false);
-      setActiveBoxIndex(null);
+    } else {
+      const emptyIndex = updated.findIndex(item => item === null);
+      if (emptyIndex !== -1) updated[emptyIndex] = erp;
     }
+
+    setSelectedErps(compactSelections(updated));
+    setShowModal(false);
+    setActiveBoxIndex(null);
   };
 
   const removeSelection = (index) => {
     const updated = [...selectedErps];
     updated[index] = null;
-    setSelectedErps(updated);
-    setShowTable(false);
-    setFormFilled(false);
+    setSelectedErps(compactSelections(updated));
   };
 
   const handleCompare = () => {
@@ -51,10 +79,8 @@ const CompareErps = () => {
     setTimeout(() => {
       setShowTable(true);
       setLoading(false);
-    }, 1000);
+    }, 600);
   };
-
-  const selectedData = selectedErps.filter(Boolean);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -64,178 +90,214 @@ const CompareErps = () => {
     }
   };
 
+  const hasEnoughToCompare = selectedErps.filter(Boolean).length >= 2;
+
   return (
     <>
-     <Head>
-             <meta name="robots" content="noindex, nofollow" />
-        </Head>
-    <div className="container py-5">
-      <h2 className="mb-4">Compare ERP Systems</h2>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      <div className="container py-5">
+        <h2 className="mb-4">Compare ERP Systems</h2>
 
-      {/* ERP Selection Boxes */}
-      <div className="row g-4 mb-4">
-        {selectedErps.map((erp, index) => (
-          <div key={index} className="col-6 col-md-3">
-            <div
-              className="border rounded p-3 h-100 text-center position-relative shadow-sm bg-light erp-box"
-              onClick={() => {
-                setActiveBoxIndex(index);
-                setShowModal(true);
-              }}
-            >
-              {erp ? (
-                <>
-                  <button
-                    className="btn btn-sm btn-danger position-absolute top-0 end-0 m-2"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      removeSelection(index);
-                    }}
-                  >
-                    ×
-                  </button>
-                  <h5>{erp.name}</h5>
-                  <p>{erp.price}</p>
-                </>
-              ) : (
-                <p className="text-muted my-5">Click to select ERP</p>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+        <div className="table-responsive position-relatives">
+          <table className="table table-bordered text-center fixed-table">
+            {/* Lock column widths */}
+            <colgroup>
+              <col style={{ width: "220px" }} /> {/* Feature column */}
+              <col style={{ width: "180px" }} span="4" /> {/* ERP columns */}
+            </colgroup>
 
-      {selectedData.length >= 2 && (
-        <div className="text-center mb-4">
-          <Button onClick={handleCompare} variant="primary">Compare</Button>
-        </div>
-      )}
+            <thead>
+              <tr>
+                {showTable && <th>Feature</th>}
+                {selectedErps.map((erp, index) => (
+                  <th key={index}>
+                    {erp ? (
+                      <div className="erp-card position-relative">
+                        <button
+                          className="btn btn-sm btn-danger position-absolute top-0 end-0 m-1"
+                          onClick={() => removeSelection(index)}
+                        >
+                          ×
+                        </button>
+                        <img
+                          src={`https://cdn.gemsroot.com/${erp.logo}`}
+                          alt={erp.name}
+                          style={{ maxWidth: "80px", marginBottom:'10px' }}
+                        />
+                        <h5 style={{fontSize:'14px',color:'#3d3459'}}>{erp.name}</h5>
+                      </div>
+                    ) : (
+                      <div
+                        className="erp-card placeholder-card"
+                        onClick={() => { setActiveBoxIndex(index); setShowModal(true); }}
+                        style={{ cursor: "pointer" }}
+                      >
+                        <p className="text-muted">Click to select ERP</p>
+                      </div>
+                    )}
+                  </th>
+                ))}
+              </tr>
+            </thead>
 
-      {loading && (
-        <div className="text-center my-4">
-          <Spinner animation="border" variant="primary" />
-        </div>
-      )}
-
-      {/* Table */}
-      {showTable && (
-        <>
-          <div className={`table-wrapper ${formFilled ? '' : 'blurred'}`}>
-            <div className="table-responsive">
-              <table className="table table-bordered text-center">
-                <thead className="table-dark">
-                  <tr>
-                    <th>Feature</th>
-                    {selectedData.map((erp) => (
-                      <th key={erp.slug}>{erp.name}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {["price", "cloud", "crm", "inventory", "hr", "customizable", "mobile", "api"].map((feature) => (
+            {/* Feature rows */}
+            {showTable && (
+              <tbody>
+                {features.map((feature, rowIndex) => {
+                  const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
+                  return (
                     <tr key={feature}>
-                      <td className="text-start text-capitalize">{feature}</td>
-                      {selectedData.map((erp) => (
-                        <td key={erp.slug + feature}>
-                          {typeof erp[feature] === 'boolean' ? (erp[feature] ? '✅' : '❌') : erp[feature]}
+                      <td className="text-start tt">
+                        <b>{featureLabels[feature] || feature}</b>
+                      </td>
+                      {selectedErps.map((erp, colIndex) => (
+                        <td
+                          key={colIndex + feature}
+                          className={shouldBlurRow ? "blurred-cell" : ""}
+                        >
+                          {erp
+                            ? (Array.isArray(erp.features[feature])
+                                ? erp.features[feature].join(", ")
+                                : erp.features[feature])
+                            : <span className="text-muted">—</span>}
                         </td>
                       ))}
                     </tr>
-                  ))}
-                  <tr>
-                    <td className="text-start">Demo</td>
-                    {selectedData.map((erp) => (
-                      <td key={erp.slug + 'demo'}>
-                        <a href={erp.demoUrl} target="_blank" rel="noopener noreferrer">View Demo</a>
-                      </td>
-                    ))}
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+                  );
+                })}
+              </tbody>
+            )}
+          </table>
 
-          {!formFilled && (
-            <div className="text-center mt-3">
+          {/* Compare button */}
+          {hasEnoughToCompare && !showTable && (
+            <div className="text-center my-3">
+              <Button onClick={handleCompare} variant="primary">Compare</Button>
+            </div>
+          )}
+
+          {loading && (
+            <div className="text-center my-4">
+              <Spinner animation="border" variant="primary" />
+            </div>
+          )}
+
+          {!formFilled && showTable && (
+            <div className="unlock-button-container">
               <Button variant="warning" onClick={() => setShowFormModal(true)}>
                 Unlock Full Comparison
               </Button>
             </div>
           )}
-        </>
-      )}
+        </div>
 
-      {/* ERP Selection Modal */}
-      <Modal show={showModal} onHide={() => setShowModal(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Select an ERP</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="row">
-            {allErps.map((erp, idx) => (
-              <div
-                key={idx}
-                className="col-6 mb-3"
-                onClick={() => handleSelect(erp)}
-              >
-                <div className="border p-2 rounded bg-light text-center h-100">
-                  <h6>{erp.name}</h6>
-                  <small>{erp.price}</small>
-                </div>
-              </div>
-            ))}
-          </div>
-        </Modal.Body>
-      </Modal>
+        {/* ERP Selection Modal */}
+        <Modal show={showModal} size="lg" onHide={() => setShowModal(false)}>
+          <Modal.Header closeButton>
+            <Modal.Title>Select an ERP</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              {allErps.map((erp, idx) => {
+                const isSelected = selectedErps.some(sel => sel && sel.name === erp.name);
+                return (
+                  <div
+                    key={idx}
+                    className={`col-6 col-md-4 mb-3 ${isSelected ? "opacity-50" : ""}`}
+                    onClick={() => !isSelected && handleSelect(erp)}
+                    style={{ pointerEvents: isSelected ? "none" : "auto" }}
+                  >
+                    <div className="border p-2 rounded bg-light text-center h-100">
+                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", marginBottom:'15px' }} />
+                      <h5 style={{fontSize:'13px',color:'#3d3459'}}>{erp.name}</h5>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </Modal.Body>
+        </Modal>
 
-      {/* Form Modal */}
-      <Modal show={showFormModal} onHide={() => setShowFormModal(false)}>
-        <Modal.Header closeButton>
-          <Modal.Title>Unlock Full Comparison</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form onSubmit={handleFormSubmit}>
-            <Form.Group className="mb-3">
-              <Form.Label>Name</Form.Label>
-              <Form.Control
-                type="text"
-                value={formData.name}
-                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                required
-              />
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>Email</Form.Label>
-              <Form.Control
-                type="email"
-                value={formData.email}
-                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                required
-              />
-            </Form.Group>
-            <Button variant="success" type="submit">Submit</Button>
-          </Form>
-        </Modal.Body>
-      </Modal>
+        {/* Unlock Form Modal */}
+        <Modal show={showFormModal} onHide={() => setShowFormModal(false)}>
+          <Modal.Header closeButton>
+            <Modal.Title>Unlock Full Comparison</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Form onSubmit={handleFormSubmit}>
+              <Form.Group className="mb-3">
+                <Form.Label>Name</Form.Label>
+                <Form.Control
+                  type="text"
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  required
+                />
+              </Form.Group>
+              <Form.Group className="mb-3">
+                <Form.Label>Email</Form.Label>
+                <Form.Control
+                  type="email"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  required
+                />
+              </Form.Group>
+              <Button variant="success" type="submit">Submit</Button>
+            </Form>
+          </Modal.Body>
+        </Modal>
 
-      {/* Inline CSS */}
-      <style jsx>{`
-        .table-wrapper.blurred {
-          filter: blur(4px);
-          opacity: 0.5;
-          transition: filter 0.3s ease, opacity 0.3s ease;
-        }
-
-        .erp-box {
-          cursor: pointer;
-          transition: transform 0.2s ease-in-out;
-        }
-
-        .erp-box:hover {
-          transform: scale(1.02);
-        }
-      `}</style>
-    </div>
+        <style jsx>{`
+          .erp-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 140px;
+          }
+          .placeholder-card {
+            border: 2px dashed #ccc;
+            padding: 20px;
+          }
+          .blurred-cell {
+            position: relative;
+          }
+          .blurred-cell::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(4px);
+            pointer-events: none;
+          }
+          .unlock-button-container {
+            position: absolute;
+            bottom: 25%;
+            left: 50%;
+            transform: translate(-50%,-25%);
+            z-index: 10;
+          }
+          .tt {
+            color: #3d3459 !important;
+            font-size: 16px !important;
+          }
+          .fixed-table {
+            table-layout: fixed;
+            width: 100%;
+          }
+          .fixed-table th, 
+          .fixed-table td {
+            word-wrap: break-word;
+            white-space: normal;
+          }
+        `}</style>
+      </div>
     </>
   );
 };

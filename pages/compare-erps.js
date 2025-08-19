@@ -12,12 +12,11 @@ const CompareErps = () => {
   const [showModal, setShowModal] = useState(false);
   const [activeBoxIndex, setActiveBoxIndex] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [showTable, setShowTable] = useState(false);
   const [formFilled, setFormFilled] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [showFormModal, setShowFormModal] = useState(false);
+  const [showTable, setShowTable] = useState(false);
 
-  // Feature label mapping
   const featureLabels = {
     overview: "Overview",
     deployment: "Deployment",
@@ -35,7 +34,6 @@ const CompareErps = () => {
     notableContext: "Notable Context"
   };
 
-  // Fetch from API
   useEffect(() => {
     fetch('https://erptoolapi.onrender.com/api/frontend/products')
       .then(res => res.json())
@@ -48,31 +46,45 @@ const CompareErps = () => {
       .catch(err => console.error("Error loading ERP data:", err));
   }, []);
 
+  const compactSelections = (arr) => {
+    if (!showTable) {
+      const filled = [...arr];
+      while (filled.length < 4) filled.push(null);
+      return filled;
+    } else {
+      const filled = arr.filter(Boolean);
+      if (filled.length < 4) filled.push(null);
+      return filled;
+    }
+  };
+
   const handleSelect = (erp) => {
-    if (selectedErps.some(selected => selected && selected.name === erp.name)) {
-      return;
-    }
+    if (selectedErps.some(selected => selected && selected.name === erp.name)) return;
+    const updated = [...selectedErps];
     if (activeBoxIndex !== null) {
-      const updated = [...selectedErps];
       updated[activeBoxIndex] = erp;
-      setSelectedErps(updated);
-      setShowModal(false);
-      setActiveBoxIndex(null);
+    } else {
+      const emptyIndex = updated.findIndex(item => item === null);
+      if (emptyIndex !== -1) updated[emptyIndex] = erp;
     }
+    setSelectedErps(compactSelections(updated));
+    setShowModal(false);
+    setActiveBoxIndex(null);
   };
 
   const removeSelection = (index) => {
     const updated = [...selectedErps];
     updated[index] = null;
-    setSelectedErps(updated);
+    setSelectedErps(compactSelections(updated));
   };
 
   const handleCompare = () => {
     setLoading(true);
     setTimeout(() => {
       setShowTable(true);
+      setSelectedErps(compactSelections(selectedErps));
       setLoading(false);
-    }, 800);
+    }, 600);
   };
 
   const handleFormSubmit = (e) => {
@@ -83,8 +95,7 @@ const CompareErps = () => {
     }
   };
 
-  const visibleData = selectedErps.filter(Boolean);
-  const hasEnoughToCompare = visibleData.length >= 2;
+  const hasEnoughToCompare = selectedErps.filter(Boolean).length >= 2;
 
   return (
     <>
@@ -94,105 +105,91 @@ const CompareErps = () => {
       <div className="container py-5">
         <h2 className="mb-4">Compare ERP Systems</h2>
 
-        {/* ERP Select Boxes */}
-        <div className="row g-4 mb-4">
-          {selectedErps.map((erp, index) => (
-            <div key={index} className="col-6 col-md-3">
-              <div
-                className="border rounded p-3 h-100 text-center position-relative shadow-sm bg-light erp-box"
-                onClick={() => {
-                  setActiveBoxIndex(index);
-                  setShowModal(true);
-                }}
-              >
-                {erp ? (
-                  <>
-                    <button
-                      className="btn btn-sm btn-danger position-absolute top-0 end-0 m-2"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        removeSelection(index);
-                      }}
-                    >
-                      ×
-                    </button>
-                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30",marginBottom:'15px' }} />
-                     <h5 style={{fontSize:'15px',color:'#3d3459'}}>{erp.name}</h5>
-                  </>
-                ) : (
-                  <p className="text-muted my-5">Click to select ERP</p>
-                )}
-              </div>
+        <div className="table-responsive position-relative">
+          <table className="table table-bordered text-center fixed-table">
+            <thead>
+              <tr>
+                {showTable && <th style={{ width: "200px" }}>Feature</th>}
+                {compactSelections(selectedErps).map((erp, index) => (
+                  <th key={index} style={{ width: `${100 / 4}%` }}>
+                    {erp ? (
+                      <div className="erp-card position-relative">
+                        <button
+                          className="btn btn-sm btn-danger position-absolute top-0 end-0 m-1"
+                          onClick={() => removeSelection(index)}
+                        >
+                          ×
+                        </button>
+                        <img
+                          src={`https://cdn.gemsroot.com/${erp.logo}`}
+                          alt={erp.name}
+                          style={{ maxWidth: "80px", marginBottom: '10px' }}
+                        />
+                        <h5 style={{ fontSize: '14px', color: '#3d3459' }}>{erp.name}</h5>
+                      </div>
+                    ) : (
+                      <div
+                        className="erp-card placeholder-card"
+                        onClick={() => { setActiveBoxIndex(index); setShowModal(true); }}
+                        style={{ cursor: "pointer" }}
+                      >
+                        <p className="text-muted">Click to select ERP</p>
+                      </div>
+                    )}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+
+            {showTable && (
+              <tbody>
+                {features.map((feature, rowIndex) => {
+                  const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
+                  return (
+                    <tr key={feature}>
+                      <td className="text-start tt">
+                        <b>{featureLabels[feature] || feature}</b>
+                      </td>
+                      {compactSelections(selectedErps).map((erp, colIndex) => (
+                        <td key={colIndex} className={shouldBlurRow ? "blurred-cell" : ""}>
+                          {erp
+                            ? Array.isArray(erp.features[feature])
+                              ? erp.features[feature].join(", ")
+                              : erp.features[feature]
+                            : null
+                          }
+                        </td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            )}
+          </table>
+
+          {hasEnoughToCompare && !showTable && (
+            <div className="text-center my-3">
+              <Button onClick={handleCompare} variant="primary">Compare</Button>
             </div>
-          ))}
+          )}
+
+          {loading && (
+            <div className="text-center my-4">
+              <Spinner animation="border" variant="primary" />
+            </div>
+          )}
+
+          {!formFilled && showTable && (
+            <div className="unlock-button-container">
+              <Button variant="warning" onClick={() => setShowFormModal(true)}>
+                Unlock Full Comparison
+              </Button>
+            </div>
+          )}
         </div>
 
-        {/* Compare Button */}
-        {hasEnoughToCompare && (
-          <div className="text-center mb-4">
-            <Button onClick={handleCompare} variant="primary">Compare</Button>
-          </div>
-        )}
-
-        {loading && (
-          <div className="text-center my-4">
-            <Spinner animation="border" variant="primary" />
-          </div>
-        )}
-
-        {/* Comparison Table */}
-        {showTable && visibleData.length > 0 && (
-          <>
-            <div className="table-responsive position-relatives">
-              <table className="table table-bordered text-center">
-                <thead className="table-dark">
-                  <tr>
-                    <th>Feature</th>
-                    {visibleData.map((erp) => (
-                      <th key={erp.name}>
-                    <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30",marginBottom:'15px' }} />
-                     <h5 style={{fontSize:'15px',color:'#3d3459'}}>{erp.name}</h5>
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {features.map((feature, rowIndex) => {
-                    const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
-                    return (
-                      <tr key={feature}>
-                        <td className="text-start tt"><div><b>{featureLabels[feature] || feature}</b></div></td>
-                        {visibleData.map((erp) => (
-                          <td
-                            key={erp.name + feature}
-                            className={shouldBlurRow ? "blurred-cell" : ""}
-                          >
-                            {Array.isArray(erp.features[feature])
-                              ? erp.features[feature].join(", ")
-                              : erp.features[feature]}
-                          </td>
-                        ))}
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-
-              {!formFilled && (
-              <div className="unlock-button-container">
-                <Button variant="warning" onClick={() => setShowFormModal(true)}>
-                  Unlock Full Comparison
-                </Button>
-              </div>
-            )}
-            </div>
-
-            
-          </>
-        )}
-
         {/* ERP Modal */}
-        <Modal show={showModal}  size="lg" onHide={() => setShowModal(false)}>
+        <Modal show={showModal} size="lg" onHide={() => setShowModal(false)}>
           <Modal.Header closeButton>
             <Modal.Title>Select an ERP</Modal.Title>
           </Modal.Header>
@@ -208,8 +205,8 @@ const CompareErps = () => {
                     style={{ pointerEvents: isSelected ? "none" : "auto" }}
                   >
                     <div className="border p-2 rounded bg-light text-center h-100">
-                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", height: "30",marginBottom:'15px' }} />
-                     <h5 style={{fontSize:'13px',color:'#3d3459'}}>{erp.name}</h5>
+                      <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", marginBottom: '15px' }} />
+                      <h5 style={{ fontSize: '13px', color: '#3d3459' }}>{erp.name}</h5>
                     </div>
                   </div>
                 );
@@ -248,21 +245,34 @@ const CompareErps = () => {
           </Modal.Body>
         </Modal>
 
-        {/* Inline Styling */}
         <style jsx>{`
-        .position-relatives{
-        position:relative
-        }
-          .erp-box {
-            cursor: pointer;
-            transition: transform 0.2s ease-in-out;
+          .fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.fixed-table th:first-child,
+.fixed-table td:first-child {
+  width: 200px ;
+  vertical-align: middle;
+}
+
+.fixed-table th:not(:first-child),
+.fixed-table td:not(:first-child) {
+  width: calc((100% - 200px) / 4) !important;
+  font-size: 13px;
+  padding: 15px;
+}
+          .erp-card {
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            min-height: 140px;
           }
-          .erp-box:hover {
-            transform: scale(1.03);
+          .placeholder-card {
+            border: 2px dashed #ccc;
+            padding: 20px;
           }
           .blurred-cell {
             position: relative;
@@ -278,23 +288,18 @@ const CompareErps = () => {
             backdrop-filter: blur(4px);
             pointer-events: none;
           }
-            .unlock-button-container {
-    position: absolute;
-    bottom: 25%;  /* vertically in middle of blurred section */
-    left: 50%;
-    transform: translate(-50%,-25%);
-    z-index: 10;
-  }
-    .position-relatives tr>th{
-    padding: 25px;
-     text-align: left;
-    font-size: 15px;vertical-align: middle;}
-    .tt{color: #3d3459 !important;font-size: 16px !important;}
-     .position-relatives tr>td{
-     padding: 25px;
-     text-align: left;
-    font-size: 15px;vertical-align: middle;}
-    .position-relatives tr>td>div{}
+          .unlock-button-container {
+            position: absolute;
+            bottom: 25%;
+            left: 50%;
+            transform: translate(-50%,-25%);
+            z-index: 10;
+          }
+          .tt {
+            color: #3d3459 !important;
+            font-size: 15px !important;
+            padding: 15px;
+          }
         `}</style>
       </div>
     </>
