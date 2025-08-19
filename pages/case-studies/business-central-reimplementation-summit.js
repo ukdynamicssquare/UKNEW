@@ -261,7 +261,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div className="ce-image-ce">
+              <div className="ce-image-cee">
                 <img src="/img/case-s-07.png" alt="Case Study" class="img-fluid" />
               </div>
             </div>
@@ -472,7 +472,9 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Image src="/img/case-s-04.png" alt="Group1435" width={485} height={450} />
+              <div className="text-center">
+                              <Image src="/img/case-s-04.png" alt="Group1435" width={485} height={450} />
+                             </div>
             </div>
           </div>
         </div>

@@ -18,76 +18,40 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           href="https://www.dynamicssquare.co.uk/case-studies/microsoft-business-central-implementation/"
         />
       </Head>
-      <section className="hero-1 hero">
+      <section className="hero hero-new-bg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="webin-top-left case-study-bann">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 align-self-center">
+              <div className="webin-top-left case-study-bann" style={{ textAlign: 'center' }}>
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
                   <h1>Microsoft Business Central Implementation MGG</h1>
-                  <p>
-                    A growing food trader built a solid digital core with
-                    Dynamics 365 Business Central to streamline and scale
-                    operations.{" "}
-                  </p>
+                  <p>A growing food trader built a solid digital core with Dynamics 365 Business Central to streamline and scale operations.</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="sider-over">
-                <Image
-                  src="/img/Dynamics-365-Business-Central.png"
-                  alt="Business central casestudy"
-                  width={1024}
-                  height={597}
-                  priority={true}
-                />
+          </div>
+        </div>
+      </section>
+      <section className="cast-studi-into minr">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="bg-case bg-case-cent">
+                <div className="side-heading-custom-01">
+                  <h2>A Crux of the Case Story: How a Startup Gained Control Before Growth</h2>
+                </div>
+                <div className="custom-p-001">
+                  <p>A newly registered European trading firm, dealing in cross-border food products, found itself at the starting line with fast-moving operations but without a reliable system to hold it all together. </p>
+                  <p>It had bold ambitions but limited internal structure. Through a collaborative effort with Dynamics Square, it traded manual guesswork for measurable accuracy, aligning processes and financial control before scaling. </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="busine_service_bottom">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center">
-              <div className="busine_service_bottom-left custom012">
-                <Image
-                  src="/img/proffesional service side.png"
-                  className="fix-im"
-                  alt="proffesional service side"
-                  width={553}
-                  height={541}
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 align-self-center">
-              <div className="side-heading-custom-01">
-                <h2>
-                  A Crux of the Case Story: How a Startup Gained Control Before
-                  Growth{" "}
-                </h2>
-              </div>
-              <div className="custom-p-001">
-                <p>
-                  A newly registered European trading firm, dealing in
-                  cross-border food products, found itself at the starting line
-                  with fast-moving operations but without a reliable system to
-                  hold it all together.{" "}
-                </p>
-                <p>
-                  It had bold ambitions but limited internal structure. Through
-                  a collaborative effort with Dynamics Square, it traded manual
-                  guesswork for measurable accuracy, aligning processes and
-                  financial control before scaling.{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="busine_service_bottom" style={{ padding: "0px 0px" }}>
         <div className="container">
           <div className="row">
@@ -118,11 +82,10 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
             <div className="col-lg-6 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/proffesional service side.png"
+                  src="/img/case-s-08.png"
                   className="fix-im"
-                  alt="proffesional service side"
-                  width={553}
-                  height={541}
+                  alt="case-s-02"
+                  width={400} height={450}
                 />
               </div>
             </div>
@@ -279,12 +242,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
           </div>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
-              <Image
-                src="/img/cast-stu-pic.png"
-                alt="cast-stu-pic"
-                width={484}
-                height={407}
-              />
+              <Image src="/img/case-s-09.png" alt="case-s-06" width={633} height={561} />
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="ms-c-po">
@@ -423,6 +381,13 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
 
       <section>
         <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="ce-image-cee">
+                <img src="/img/case-s-07.png" alt="Case Study" class="img-fluid" />
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-lg-5">
               <div className="stic-ss section-header ">
@@ -724,12 +689,9 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Image
-                src="/img/Group1435.png"
-                alt="Group1435"
-                width={640}
-                height={598}
-              />
+               <div className="text-center">
+                <Image src="/img/case-s-04.png" alt="Group1435" width={485} height={450} />
+               </div>
             </div>
           </div>
         </div>

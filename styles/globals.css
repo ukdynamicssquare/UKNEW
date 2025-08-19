@@ -13172,6 +13172,9 @@ figure {
 .card-44:hover .cat-float span {
   color: #625390;
 }
+.custom012{
+  text-align:center
+}
 @media (max-width: 1682px) {
   .cc-height {
     height: 100px;
@@ -17175,7 +17178,10 @@ position: sticky;
 }
 .ce-image-ce{
   text-align:center;
-  padding:60px 0px 80px
+  padding:0px 0px 100px
+}
+.ce-image-cee{
+    text-align:center;
 }
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
