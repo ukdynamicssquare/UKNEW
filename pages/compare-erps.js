@@ -8,7 +8,7 @@ import Head from "next/head";
 const CompareErps = () => {
   const [allErps, setAllErps] = useState([]);
   const [features, setFeatures] = useState([]);
-  const [selectedErps, setSelectedErps] = useState([null, null, null, null]);
+  const [selectedErps, setSelectedErps] = useState([null, null, null, null,null]);
   const [showModal, setShowModal] = useState(false);
   const [activeBoxIndex, setActiveBoxIndex] = useState(null);
   const [loading, setLoading] = useState(false);
