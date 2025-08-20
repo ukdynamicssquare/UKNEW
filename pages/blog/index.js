@@ -48,6 +48,16 @@ export async function getStaticProps() {
   };
 }
 
+const categoryColors = [
+  '#01808a',
+  '#cd9e1b',
+  '#3e4f8a',
+  '#000000',
+  '#b52c36',
+  '#273266',
+];
+
+
 function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 8;
@@ -195,9 +205,23 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
               <div className="blogs-ex-side-cate">
                 <h3>Explore by Topic</h3>
                 <ul>
-                  {categoryblogs.map((item, i) => (
+                  {/* {categoryblogs.map((item, i) => (
                     <li key={`cat-${i}`}>
                       <a href={`/blog/category/${item.category_slug}`}>{item.category_name}</a>
+                    </li>
+                  ))} */}
+                  {categoryblogs.map((item, i) => (
+                    <li key={`cat-${i}`} style={{ listStyle: 'none', margin: '5px 0' }}>
+                      <a
+                        href={`/blog/category/${item.category_slug}`}
+                        style={{
+                          textDecoration: 'none',
+                          color: categoryColors[i % categoryColors.length],
+                          border: `1px solid ${categoryColors[i % categoryColors.length]}`,
+                        }}
+                      >
+                        {item.category_name}
+                      </a>
                     </li>
                   ))}
                 </ul>
