@@ -432,7 +432,7 @@ export async function getStaticProps(context) {
         authordetials,
         author,
       },
-      revalidate: 10, // Rebuild the page every 60 seconds (optional)
+      revalidate: 60, // Rebuild the page every 60 seconds (optional)
     };
   } catch (error) {
     console.error('Error in getStaticProps:', error);

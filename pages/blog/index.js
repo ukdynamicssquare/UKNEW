@@ -44,7 +44,7 @@ export async function getStaticProps() {
       blograndomblogs,
       blogtranding,
     },
-    revalidate: 10,
+    revalidate: 60,
   };
 }
 

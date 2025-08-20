@@ -26,7 +26,7 @@ export async function getStaticProps({ params }) {
         blogs,
         categoryblogs,
       },
-      revalidate: 10, // ISR
+      revalidate: 60, // ISR
     };
   } catch (error) {
     console.error("Error in getStaticProps:", error.message);
