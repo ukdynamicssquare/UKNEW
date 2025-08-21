@@ -14,13 +14,13 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-retail-and-wms/"
+          href="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-retail-market/"
         />
         <meta property="og:locale" content="GB" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Reimplements Microsoft Business Central for Retail & warehouse" />
         <meta property="og:description" content="Retail & warehouse business reimplements Microsoft Business Central to streamline WMS, cut costs, and drive operational excellence." />
-        <meta property="og:url" content="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-retail-and-wms/" />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-retail-market/" />
         <meta property="og:site_name" content="Dynamics Square UK" />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/old-mill-feature.jpg" />
         <meta property="og:image:width" content="200" />

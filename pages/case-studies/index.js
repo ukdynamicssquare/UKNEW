@@ -124,7 +124,7 @@ const CategoryList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/business-central-reimplementation-for-retail-and-wms/"
+                            href="/case-studies/business-central-reimplementation-for-retail-market/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -686,7 +686,7 @@ const CategoryList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/business-central-reimplementation-for-retail-and-wms/"
+                            href="/case-studies/business-central-reimplementation-for-retail-market/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
