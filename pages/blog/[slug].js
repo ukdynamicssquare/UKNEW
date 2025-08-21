@@ -395,7 +395,7 @@ export async function getStaticPaths() {
     console.error('Error fetching slugs for paths:', error);
     return {
       paths: [],
-      fallback: false,
+      fallback: 'blocking',
     };
   }
 }
@@ -409,11 +409,16 @@ export async function getStaticProps(context) {
     const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details/${slug}`);
     const blogs = await res.json();
 
+    // If blog not found, redirect instead of hard 404
     if (!blogs || blogs.length < 1) {
       return {
-        notFound: true,
+        redirect: {
+          destination: '/blog', // or a "not found" page
+          permanent: false,
+        },
       };
     }
+
 
     const category = blogs[0].category_slug;
     const res1 = await fetch(`${process.env.BACKEND_URL}/api/blog/related/${category}`);
