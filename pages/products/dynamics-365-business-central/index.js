@@ -222,7 +222,7 @@ const BusinessCentral = () => {
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
                 <h2>Dynamics 365 Business Central Features: What’s Inside? </h2>
-                <p>Run business with confidence with Business Central cloud ERP. Get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. Here’s how it turns things in favour of your business:</p>
+                <p>Run business with confidence with Business Central cloud ERP. Get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. And with dedicated and anytime <a href="/d365-business-central-support/">Business Central support</a> by Dynamics Square, you are always in control. Here’s how this Microsoft ERP turns things in favour of your business: </p>
               </div>
             </div>
           </div>

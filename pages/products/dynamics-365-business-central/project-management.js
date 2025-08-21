@@ -160,7 +160,7 @@ const ProjectManagemtNew = () => {
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
                 <h2>Functionalities in Microsoft Business Central Project Management</h2>
-                <p>Let’s break down what makes Microsoft Business Central project management uniquely capable:</p>
+                <p>Let’s break down what makes Microsoft Business Central project management uniquely capable: With the right <a href="/d365-business-central-support/">Business Central support</a>, you can fully leverage these features to drive project success and improve overall efficiency. </p>
               </div>
             </div>
           </div>

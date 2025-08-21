@@ -206,7 +206,7 @@ const SalesOrderManagement = () => {
             <div className="col-lg-8">
               <div className="supprt-header-new-one">
                 <h2>Why Sales Teams Grow Faster with Business Central</h2>
-                <p>The Sales module in Dynamics 365 Business Central gives your sales, finance, and fulfilment teams one version of the truth in real time. It eliminates blind spots and helps close more deals.</p>
+                <p>The Sales module in Dynamics 365 Business Central gives your sales, finance, and fulfilment teams one version of the truth in real time. With <a href="/d365-business-central-support/">Business Central support</a>, it eliminates blind spots and helps close more deals. </p>
 
               </div>
             </div>

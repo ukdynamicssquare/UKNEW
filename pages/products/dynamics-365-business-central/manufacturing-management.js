@@ -70,7 +70,7 @@ const ManufacturingManagement = () => {
                 <p>Microsoft Dynamics 365 Business Central for Manufacturing controls and manages the entire business while simplifying the various complex processes.</p>
                 <p>With the changing scenario around the globe, the manufacturing industry is becoming more and more complex due to various factors that include getting raw materials, higher competition, reducing margins, and more.</p>
                 <p>Regardless of such business complexities, customers require high-quality products at low prices along with on-time delivery. Even the tax regulations and norms are increasingly critical to follow.</p>
-                <p>If you are dealing with similar scenarios, Microsoft Dynamics 365 Business Central for Manufacturing can be the steppingstone for your manufacturing business. It can manage all operations, plan different tasks, schedule processes, optimise resources, monitor inventory, and simplify distribution.</p>
+                <p>If you are dealing with similar scenarios, Microsoft Dynamics 365 Business Central for Manufacturing can be the steppingstone for your manufacturing business. It can manage all operations, plan different tasks, schedule processes, optimise resources, monitor inventory, and simplify distribution. With expert <a href="/d365-business-central-support/">Business Central support</a>, you can harness the full potential of these capabilities and confidently navigate the complexities of modern manufacturing. </p>
               </header>
             </div>
           </div>

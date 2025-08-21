@@ -168,7 +168,7 @@ const WarehouseManagement = () => {
                 <div className="col-lg-12">
                   <div className="cc-mm-2">
                     <p>Without Dynamics 365 Business Central Warehouse Management, these are daily realities for most businesses.</p>
-                    <p>Now imagine never having to “check manually” again.</p>
+                    <p>With the right <a href="/d365-business-central-support/">Business Central support</a>, you can turn these challenges into opportunities for efficiency, accuracy, and growth. Now imagine never having to “check manually” again. </p>
                     <Link href="#exampleModal"><a style={{ marginTop: '15px' }}
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"

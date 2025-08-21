@@ -567,7 +567,7 @@ const MicrosoftDynamics365Ai = () => {
             <div className="col-lg-9">
               <div className='solution-new-banner-sub-head'>
                 <h2>What to Expect Right After Business Central Finance Implementation</h2>
-                <p>As a Microsoft Dynamics 365 implementation partner, Dynamics Square has seen it all. To just give you an idea of what Business Central can fix, here’s a before and after scenario for your perusal:</p>
+                <p>As a Microsoft Dynamics 365 implementation partner, Dynamics Square offers unwavering <a href="/d365-business-central-support/">Business Central support</a> to keep your operations running at all times. To just give you an idea of what Business Central can fix, here’s a before and after scenario for your perusal: </p>
               </div>
             </div>
           </div>

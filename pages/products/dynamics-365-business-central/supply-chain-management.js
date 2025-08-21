@@ -269,7 +269,7 @@ const SupplyChainManagements = () => {
           <div className="row">
             <div className="col-lg-9">
               <div className="card-700-bot">
-                <p>Each function reduces effort, minimises risk, and strengthens flow. Fast-track your ERP transformation for a better and more efficient supply chain. Get started with experts.</p>
+                <p>Each function reduces effort, minimises risk, and strengthens flow. Fast-track your ERP transformation for a better and more efficient supply chain with <a href="/d365-business-central-support/">Business Central support</a> by Dynamics Square. Get started with experts. </p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"

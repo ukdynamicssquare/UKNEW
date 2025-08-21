@@ -164,7 +164,7 @@ const ServiceManagmentNew = () => {
           <div className="row min-m-t-20">
             <div className="col-lg-7 align-self-center">
               <div className="card-700-bot">
-                <p>This is not a help desk ticket tool. It’s a full-featured service management in Business Central ERP that treats service like a business line, not an afterthought.</p>
+                <p>This is not a help desk ticket tool. It’s a full-featured service management in Business Central ERP that treats service like a business line, not an afterthought. With the right <a href="/d365-business-central-support/">Business Central support</a>, your service operations can run smoother, smarter, and more profitably, end to end. </p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
