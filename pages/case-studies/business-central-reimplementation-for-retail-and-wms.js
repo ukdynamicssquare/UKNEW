@@ -1,28 +1,36 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { Autoplay, FreeMode, Pagination } from "swiper";
 const DynamicsNav2013BusinessCentralUpgrade = () => {
 
 
   return (
     <>
       <Head>
-        <title>Microsoft Business Central Implementation Case Study</title>
-        <meta name="robots" content="noindex, nofollow" />
+        <title>Reimplements Microsoft Business Central for Retail & warehouse</title>
         <meta
           name="description"
-          content="Find how a tailored Microsoft Dynamics 365 Business Central implementation streamlined operations, boosted efficiency, and drove growth for our client"
+          content="Retail & warehouse business reimplements Microsoft Business Central to streamline WMS, cut costs, and drive operational excellence."
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/microsoft-business-central-implementation/"
+          href="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-retail-and-wms/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Reimplements Microsoft Business Central for Retail & warehouse" />
+        <meta property="og:description" content="Retail & warehouse business reimplements Microsoft Business Central to streamline WMS, cut costs, and drive operational excellence." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-retail-and-wms/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/old-mill-feature.jpg" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Reimplements Microsoft Business Central for Retail & warehouse" />
+        <meta name="twitter:description" content="Retail & warehouse business reimplements Microsoft Business Central to streamline WMS, cut costs, and drive operational excellence." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/old-mill-feature.jpg" />
       </Head>
       <section className="hero hero-new-bg">
         <div className="container">

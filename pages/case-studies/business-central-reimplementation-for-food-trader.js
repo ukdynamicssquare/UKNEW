@@ -1,4 +1,3 @@
-2;
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -6,17 +5,30 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Business Central Implementation Case Study</title>
-        <meta name="robots" content="noindex, nofollow" />
+        <title>Business Central Implementation for Food Trader | Dynamics Sqaure UK</title>
         <meta
           name="description"
-          content="Find how a tailored Microsoft Dynamics 365 Business Central implementation streamlined operations, boosted efficiency, and drove growth for our client"
+          content="Business Central for food Trader: A case study on transforming operations, reducing waste, and enhancing efficiency for better profitability."
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/microsoft-business-central-implementation/"
+          href="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-food-trader/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Business Central Implementation for Food Trader | Dynamics Sqaure UK" />
+        <meta property="og:description" content="Business Central for food Trader: A case study on transforming operations, reducing waste, and enhancing efficiency for better profitability." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-food-trader/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/mgg-food-feautre.jpg" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Business Central Implementation for Food Industry | Dynamics Sqaure UK" />
+        <meta name="twitter:description" content="Business Central for food Trader: A case study on transforming operations, reducing waste, and enhancing efficiency for better profitability." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/mgg-food-feautre.jpg" />
       </Head>
       <section className="hero hero-new-bg">
         <div className="container">
@@ -25,7 +37,7 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
               <div className="webin-top-left case-study-bann" style={{ textAlign: 'center' }}>
                 <div className="top-se">
                   <span className="date-ti">Case Study</span>
-                  <h1>Microsoft Business Central Implementation MGG</h1>
+                  <h1>Microsoft Business Central Implementation</h1>
                   <p>A growing food trader built a solid digital core with Dynamics 365 Business Central to streamline and scale operations.</p>
                 </div>
               </div>

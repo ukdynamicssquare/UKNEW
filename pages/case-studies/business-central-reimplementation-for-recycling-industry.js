@@ -1,4 +1,3 @@
-2
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
@@ -8,17 +7,30 @@ const DynamicsNav2013BusinessCentralUpgrade = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Business Central Implementation Case Study</title>
-        <meta name="robots" content="noindex, nofollow" />
+        <title>Business Central Reimplementation for Recycling Industry</title>
         <meta
           name="description"
-          content="Find how a tailored Microsoft Dynamics 365 Business Central implementation streamlined operations, boosted efficiency, and drove growth for our client"
+          content="Explore our case study on Business Central reimplementation for the recycling industry—enhancing efficiency, compliance, and profitability."
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/case-studies/microsoft-business-central-implementation/"
+          href="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-recycling-industry/"
         />
+        <meta property="og:locale" content="GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Business Central Reimplementation for Recycling Industry" />
+        <meta property="og:description" content="Explore our case study on Business Central reimplementation for the recycling industry—enhancing efficiency, compliance, and profitability." />
+        <meta property="og:url" content="https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-recycling-industry/" />
+        <meta property="og:site_name" content="Dynamics Square UK" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Summit-Systems.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_uk" />
+        <meta name="twitter:title" content="Business Central Reimplementation for Recycling Industry" />
+        <meta name="twitter:description" content="Explore our case study on Business Central reimplementation for the recycling industry—enhancing efficiency, compliance, and profitability." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.co.uk/img/Summit-Systems.png" />
       </Head>
 
       <section className="hero hero-new-bg">

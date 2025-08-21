@@ -1,11 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { Autoplay, FreeMode, Pagination } from "swiper";
 
 const CategoryList = () => {
   return (
@@ -116,6 +111,71 @@ const CategoryList = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
+                     <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/old-mill-feature.jpg"
+                            alt="old-mill-feature"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>Ireland’s Leading Saddlery Retailer Boosted Warehouse Efficiency by 60% After Moving from Dynamics NAV to Business Central On-Premise</p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/business-central-reimplementation-for-retail-and-wms/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                     <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/mgg-food-feautre.jpg"
+                            alt="mgg-food-feautre"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>Emerging European food trader boosted operational control by 162% ROI in 3 years by adopting Business Central from scratch with Dynamics Square</p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/business-central-reimplementation-for-food-trader/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                     <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/Summit-Systems.png"
+                            alt="Summit-Systems"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Dynamics Square is a trusted Microsoft Solutions Partner that drives digital transformation for worldwide businesses.
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/business-central-reimplementation-for-recycling-industry/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -139,29 +199,7 @@ const CategoryList = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6">
-                      <div className="commen-box-2 commen-box-9">
-                        <div className="icons icons-0102">
-                          <img
-                            src="/img/Summit-Systems.png"
-                            alt="Summit-Systems"
-                          />
-                        </div>
-                        <div className="commen-boc-2-info">
-                          <p>
-                          Dynamics Square is a trusted Microsoft Solutions Partner that drives digital transformation for worldwide businesses.
-                          </p>
-                        </div>
-                        <div className="btn-003">
-                          <a
-                            href="/case-studies/microsoft-business-central-implementation/"
-                            className="btn btn md btn-danger"
-                          >
-                            Read Case Study
-                          </a>
-                        </div>
-                      </div>
-                    </div>
+                   
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -635,6 +673,48 @@ const CategoryList = () => {
                   aria-labelledby="v-pills-profile-tab"
                 >
                   <div className="row">
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/old-mill-feature.jpg"
+                            alt="old-mill-feature"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>Ireland’s Leading Saddlery Retailer Boosted Warehouse Efficiency by 60% After Moving from Dynamics NAV to Business Central On-Premise</p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/business-central-reimplementation-for-retail-and-wms/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                     <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/mgg-food-feautre.jpg"
+                            alt="mgg-food-feautre"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>Emerging European food trader boosted operational control by 162% ROI in 3 years by adopting Business Central from scratch with Dynamics Square</p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/business-central-reimplementation-for-food-trader/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -650,7 +730,7 @@ const CategoryList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/microsoft-business-central-implementation/"
+                            href="/case-studies/business-central-reimplementation-for-recycling-industry/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study

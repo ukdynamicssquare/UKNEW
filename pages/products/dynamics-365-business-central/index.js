@@ -40,7 +40,7 @@ const BusinessCentral = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Business Central | ERP Partner UK</title>
+        <title>Microsoft Dynamics 365 Business Central ERP Partner UK</title>
         <meta
           name="description"
           content="Transform your business with Dynamics 365 Business Central, the smartest cloud ERP. Partner with a trusted Microsoft expert in the UK for AI-powered solutions."
@@ -52,13 +52,13 @@ const BusinessCentral = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/" />
-        <meta property="og:title" content="Dynamics 365 Business Central | ERP Partner UK" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Business Central ERP Partner UK" />
         <meta property="og:description" content="Transform your business with Dynamics 365 Business Central, the smartest cloud ERP. Partner with a trusted Microsoft expert in the UK for AI-powered solutions." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/" />
-        <meta property="twitter:title" content="Dynamics 365 Business Central | ERP Partner UK" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Business Central ERP Partner UK" />
         <meta property="twitter:description" content="Transform your business with Dynamics 365 Business Central, the smartest cloud ERP. Partner with a trusted Microsoft expert in the UK for AI-powered solutions." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
 
