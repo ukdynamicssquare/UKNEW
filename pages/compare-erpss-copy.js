@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Modal, Button, Spinner, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
@@ -16,6 +16,10 @@ const CompareErps = () => {
   const [formData, setFormData] = useState({ name: '', email: '' });
   const [showFormModal, setShowFormModal] = useState(false);
   const [showTable, setShowTable] = useState(false);
+  const [relatedComparisons, setRelatedComparisons] = useState([]);
+
+  // 👇 add a ref for the table area
+  const tableRef = useRef(null);
 
   const featureLabels = {
     overview: "Overview",
@@ -41,26 +45,36 @@ const CompareErps = () => {
         setAllErps(data);
         if (data.length > 0) {
           setFeatures(Object.keys(data[0].features));
+
+          // Auto pick first 6 ERPs and make 3 pairs
+          const pairs = [];
+          for (let i = 0; i < data.length - 1 && pairs.length < 3; i += 2) {
+            pairs.push([data[i], data[i + 1]]);
+          }
+          setRelatedComparisons(pairs);
         }
-      })
-      .catch(err => console.error("Error loading ERP data:", err));
+      });
   }, []);
 
   const compactSelections = (arr) => {
-    const compacted = arr.filter(Boolean);
-    while (compacted.length < 4) compacted.push(null);
-    return compacted;
+    if (!showTable) {
+      const filled = [...arr];
+      while (filled.length < 4) filled.push(null);
+      return filled;
+    } else {
+      const filled = arr.filter(Boolean);
+      if (filled.length < 4) filled.push(null);
+      return filled;
+    }
   };
 
   const handleSelect = (erp) => {
     if (selectedErps.some(selected => selected && selected.name === erp.name)) return;
 
     const updated = [...selectedErps];
-    if (activeBoxIndex !== null) {
-      updated[activeBoxIndex] = erp;
-    } else {
-      const emptyIndex = updated.findIndex(item => item === null);
-      if (emptyIndex !== -1) updated[emptyIndex] = erp;
+    const emptyIndex = updated.findIndex(item => item === null);
+    if (emptyIndex !== -1) {
+      updated[emptyIndex] = erp;
     }
 
     setSelectedErps(compactSelections(updated));
@@ -78,8 +92,26 @@ const CompareErps = () => {
     setLoading(true);
     setTimeout(() => {
       setShowTable(true);
+      setSelectedErps(compactSelections(selectedErps));
       setLoading(false);
+
+      // 👇 scroll after showing table
+      setTimeout(() => {
+        tableRef.current?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
     }, 600);
+  };
+
+  const handleQuickCompare = (erps) => {
+    const updated = [...erps];
+    while (updated.length < 4) updated.push(null);
+    setSelectedErps(updated);
+    setShowTable(true);
+
+    // 👇 scroll after updating table
+    setTimeout(() => {
+      tableRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
   };
 
   const handleFormSubmit = (e) => {
@@ -90,8 +122,7 @@ const CompareErps = () => {
     }
   };
 
-  const visibleData = selectedErps.filter(Boolean);
-  const hasEnoughToCompare = visibleData.length >= 2;
+  const hasEnoughToCompare = selectedErps.filter(Boolean).length >= 2;
 
   return (
     <>
@@ -101,21 +132,14 @@ const CompareErps = () => {
       <div className="container py-5">
         <h2 className="mb-4">Compare ERP Systems</h2>
 
-        {/* Table with ERP cards in header */}
-        <div className="table-responsive position-relatives">
-          <table className="table table-bordered text-center">
+        {/* 👇 attach ref here */}
+        <div ref={tableRef} className="table-responsive position-relative">
+          <table className="table table-bordered text-center fixed-table">
             <thead>
               <tr>
-                {/* <th style={{ width: "200px" }}>
-                  {showTable ? "Feature" : "ERP Selection"}
-                </th> */}
-                {showTable && (
-                  <th style={{ width: "200px" }}>
-                    Feature
-                  </th>
-                )}
-                {selectedErps.map((erp, index) => (
-                  <th key={index}>
+                {showTable && <th style={{ width: "200px" }}>Feature</th>}
+                {compactSelections(selectedErps).map((erp, index) => (
+                  <th key={index} style={{ width: `${100 / 4}%` }}>
                     {erp ? (
                       <div className="erp-card position-relative">
                         <button
@@ -145,19 +169,23 @@ const CompareErps = () => {
               </tr>
             </thead>
 
-            {/* Show feature rows only after Compare */}
             {showTable && (
               <tbody>
                 {features.map((feature, rowIndex) => {
                   const shouldBlurRow = !formFilled && rowIndex >= Math.floor(features.length / 2);
                   return (
                     <tr key={feature}>
-                      <td className="text-start tt"><b>{featureLabels[feature] || feature}</b></td>
-                      {visibleData.map((erp) => (
-                        <td key={erp.name + feature} className={shouldBlurRow ? "blurred-cell" : ""}>
-                          {Array.isArray(erp.features[feature])
-                            ? erp.features[feature].join(", ")
-                            : erp.features[feature]}
+                      <td className="text-start tt">
+                        <b>{featureLabels[feature] || feature}</b>
+                      </td>
+                      {compactSelections(selectedErps).map((erp, colIndex) => (
+                        <td key={colIndex} className={shouldBlurRow ? "blurred-cell" : ""}>
+                          {erp
+                            ? Array.isArray(erp.features[feature])
+                              ? erp.features[feature].join(", ")
+                              : erp.features[feature]
+                            : null
+                          }
                         </td>
                       ))}
                     </tr>
@@ -167,7 +195,6 @@ const CompareErps = () => {
             )}
           </table>
 
-          {/* Show compare button below cards */}
           {hasEnoughToCompare && !showTable && (
             <div className="text-center my-3">
               <Button onClick={handleCompare} variant="primary">Compare</Button>
@@ -188,6 +215,49 @@ const CompareErps = () => {
             </div>
           )}
         </div>
+
+        {/* Related Comparisons */}
+        {relatedComparisons.length > 0 && (
+          <div className="mt-5">
+            <h4>Most Popular Comparisons</h4>
+            <div className="row">
+              {relatedComparisons.map((pair, idx) => {
+                if (!pair[0] || !pair[1]) return null;
+                return (
+                  <div
+                    key={idx}
+                    className="col-md-4 mb-3"
+                    onClick={() => handleQuickCompare(pair)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    <div className="border rounded p-3 text-center bg-light hover-shadow">
+                      <div className="d-flex align-items-center justify-content-center">
+                        <div className="text-center mx-2">
+                          <img
+                            src={`https://cdn.gemsroot.com/${pair[0].logo}`}
+                            alt={pair[0].name}
+                            style={{ maxWidth: "50px", display: "block", margin: "0 auto 5px" }}
+                          />
+                          <span style={{ fontSize: "13px", color: "#3d3459" }}>{pair[0].name}</span>
+                        </div>
+                        <span className="fw-bold mx-2">VS</span>
+                        <div className="text-center mx-2">
+                          <img
+                            src={`https://cdn.gemsroot.com/${pair[1].logo}`}
+                            alt={pair[1].name}
+                            style={{ maxWidth: "50px", display: "block", margin: "0 auto 5px" }}
+                          />
+                          <span style={{ fontSize: "13px", color: "#3d3459" }}>{pair[1].name}</span>
+                        </div>
+                      </div>
+                      <div className="mt-2 fw-bold text-primary">Click to Compare</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         {/* ERP Modal */}
         <Modal show={showModal} size="lg" onHide={() => setShowModal(false)}>
@@ -247,12 +317,27 @@ const CompareErps = () => {
         </Modal>
 
         <style jsx>{`
+          .fixed-table {
+            table-layout: fixed;
+            width: 100%;
+          }
+          .fixed-table th:first-child,
+          .fixed-table td:first-child {
+            width: 200px ;
+            vertical-align: middle;
+          }
+          .fixed-table th:not(:first-child),
+          .fixed-table td:not(:first-child) {
+            width: calc((100% - 200px) / 4) !important;
+            font-size: 13px;
+            padding: 15px;
+          }
           .erp-card {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 140px;
+            min-height: 90px;
           }
           .placeholder-card {
             border: 2px dashed #ccc;
@@ -281,7 +366,12 @@ const CompareErps = () => {
           }
           .tt {
             color: #3d3459 !important;
-            font-size: 16px !important;
+            font-size: 15px !important;
+            padding: 15px;
+          }
+          .hover-shadow:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: 0.2s;
           }
         `}</style>
       </div>
