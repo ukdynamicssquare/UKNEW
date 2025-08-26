@@ -376,108 +376,108 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
 // pages/blog/[slug].js
 
-export async function getStaticPaths() {
-  try {
-    const res = await fetch(`${process.env.BACKEND_URL}/api/allblogsfetch`);
-    const allBlogs = await res.json();
+// export async function getStaticPaths() {
+//   try {
+//     const res = await fetch(`${process.env.BACKEND_URL}/api/allblogsfetch`);
+//     const allBlogs = await res.json();
 
-    const paths = allBlogs
-      .filter(blog => typeof blog.slug === 'string' && blog.slug.trim() !== '')
-      .map(blog => ({
-        params: { slug: blog.slug },
-      }));
+//     const paths = allBlogs
+//       .filter(blog => typeof blog.slug === 'string' && blog.slug.trim() !== '')
+//       .map(blog => ({
+//         params: { slug: blog.slug },
+//       }));
 
-    return {
-      paths,
-      fallback: 'blocking', // Optional: handle new slugs on first request
-    };
-  } catch (error) {
-    console.error('Error fetching slugs for paths:', error);
-    return {
-      paths: [],
-      fallback: 'blocking',
-    };
-  }
-}
-
-
-
-export async function getStaticProps(context) {
-  const { slug } = context.params;
-
-  try {
-    const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details/${slug}`);
-    const blogs = await res.json();
-
-    // If blog not found, redirect instead of hard 404
-    if (!blogs || blogs.length < 1) {
-      return {
-        redirect: {
-          destination: '/blog', // or a "not found" page
-          permanent: false,
-        },
-      };
-    }
-
-
-    const category = blogs[0].category_slug;
-    const res1 = await fetch(`${process.env.BACKEND_URL}/api/blog/related/${category}`);
-    const blogcat = await res1.json();
-
-    const author = blogs[0].author_email;
-    const authorres = await fetch(
-      `${process.env.BACKEND_URL}/api/blog/author/details/${author.split("-").join(" ")}`
-    );
-    const authordetials = await authorres.json();
-
-    return {
-      props: {
-        blogs,
-        blogcat,
-        authordetials,
-        author,
-      },
-      revalidate: 60, // Rebuild the page every 60 seconds (optional)
-    };
-  } catch (error) {
-    console.error('Error in getStaticProps:', error);
-    return {
-      notFound: true,
-    };
-  }
-}
-
-export default Post;
+//     return {
+//       paths,
+//       fallback: 'blocking', 
+//     };
+//   } catch (error) {
+//     console.error('Error fetching slugs for paths:', error);
+//     return {
+//       paths: [],
+//       fallback: 'blocking',
+//     };
+//   }
+// }
 
 
 
+// export async function getStaticProps(context) {
+//   const { slug } = context.params;
+
+//   try {
+//     const res = await fetch(`${process.env.BACKEND_URL}/api/blog_details/${slug}`);
+//     const blogs = await res.json();
 
 
-// export async function getServerSideProps(context) {
-//   let slug = context.query.slug;
-//   console.log(slug);
+//     if (!blogs || blogs.length < 1) {
+//       return {
+//         redirect: {
+//           destination: '/blog', 
+//           permanent: false,
+//         },
+//       };
+//     }
 
-//   const res = await fetch(`${process.env.BACKEND_URL}` + '/api/blog_details/' + slug);
-//   const blogs = await res.json();
-//   const bloglength = blogs.length;
-//   if (bloglength >= 1) {
-//     const category = blogs[0]["category_slug"];
-//     const res1 = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/related/' + category);
+
+//     const category = blogs[0].category_slug;
+//     const res1 = await fetch(`${process.env.BACKEND_URL}/api/blog/related/${category}`);
 //     const blogcat = await res1.json();
 
-//     const author = blogs[0]["author_email"];
-//     const authorres = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/author/details/' + author.split("-").join(" ")
+//     const author = blogs[0].author_email;
+//     const authorres = await fetch(
+//       `${process.env.BACKEND_URL}/api/blog/author/details/${author.split("-").join(" ")}`
 //     );
 //     const authordetials = await authorres.json();
 
-//     return { props: { blogs, blogcat, authordetials, author } };
-//   }
-//   else {
+//     return {
+//       props: {
+//         blogs,
+//         blogcat,
+//         authordetials,
+//         author,
+//       },
+//       revalidate: 60, 
+//     };
+//   } catch (error) {
+//     console.error('Error in getStaticProps:', error);
 //     return {
 //       notFound: true,
 //     };
 //   }
-
 // }
+
 // export default Post;
+
+
+
+
+
+export async function getServerSideProps(context) {
+  let slug = context.query.slug;
+  console.log(slug);
+
+  const res = await fetch(`${process.env.BACKEND_URL}` + '/api/blog_details/' + slug);
+  const blogs = await res.json();
+  const bloglength = blogs.length;
+  if (bloglength >= 1) {
+    const category = blogs[0]["category_slug"];
+    const res1 = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/related/' + category);
+    const blogcat = await res1.json();
+
+    const author = blogs[0]["author_email"];
+    const authorres = await fetch(`${process.env.BACKEND_URL}` + '/api/blog/author/details/' + author.split("-").join(" ")
+    );
+    const authordetials = await authorres.json();
+
+    return { props: { blogs, blogcat, authordetials, author } };
+  }
+  else {
+    return {
+      notFound: true,
+    };
+  }
+
+}
+export default Post;
 

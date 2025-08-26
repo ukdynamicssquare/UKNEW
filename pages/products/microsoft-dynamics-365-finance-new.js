@@ -3,10 +3,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 // import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
-import faqData from '../../public/data/business_centeral_faq.json';
+import faqData from '../../public/data/finance_faq.json';
 import useCardScrollEffect from "../../components/useCardScrollEffect";
 import BcPopPdf from '../../components/BCPdfPopup';
 import NavBar from '../../components/NavBar';
+import BlogFinanaceCard from '../../components/BlogFinanaceCard';
 
 
 
@@ -783,27 +784,28 @@ const BusinessCentral = () => {
                       <td>£16.50</td>
                     </tr>
                     <tr>
-                      <td>Sales Attach</td>
+                      <td>Customer Service Attach</td>
                       <td>£16.50</td>
                     </tr>
                     <tr>
-                      <td>Sales Attach</td>
+                      <td>Field Service Attach</td>
                       <td>£16.50</td>
                     </tr>
                     <tr>
-                      <td>Sales Attach</td>
+                      <td>Project Operations Attach</td>
                       <td>£16.50</td>
                     </tr>
                     <tr>
-                      <td>Sales Attach</td>
+                      <td>Commerce Attach</td>
                       <td>£16.50</td>
                     </tr>
                     <tr>
-                      <td>Sales Attach</td>
-                      <td>£16.50</td>
+                      <td>Supply Chain Management Attach</td>
+                      <td>£24.70</td>
                     </tr>
                   </tbody>
                 </table>
+                <p><b>Note:</b> Actual pricing may vary slightly based on currency conversion, contracts, or Microsoft price changes.</p>
               </div>
             </div>
           </div>
@@ -812,7 +814,57 @@ const BusinessCentral = () => {
 
       </section>
 
-      <section id='section9' className='p-t-1-100'>
+      <section className="busnes-upgrade-serve-one">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8">
+              <div className="solution-new-banner-sub-head">
+                <h2>What Dynamics 365 Finance Service do we offer?</h2>
+                <p>Strategically work towards fulfilling your financial vision with Dynamics Square - most trusted and reliable Microsoft Solutions Partner in UK.</p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Implementation</h3>
+                <p>Get optimum D365 finance implementation services suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Upgrade</h3>
+                <p>Bring innovation and drive agility in your financial operations all through D365 Finance Upgrade.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Support</h3>
+                <p>Ensure smoother and uninterrupted flow in your business with our continuous support services.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <img className="image-backx" src="/img/free-cons.png" alt="free-cons" />
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Consulting</h3>
+                <p>Get optimum D365 finance implementation services suited to your customised business needs.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id='section9' className='p-t-1-60'>
         <div className='container'>
           <div className="col-lg-9">
             <div className="solution-new-banner-sub-head">
@@ -839,6 +891,12 @@ const BusinessCentral = () => {
                   </li>
                   <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-home-04-tab" data-bs-toggle="pill" data-bs-target="#pills-home-04" type="button" role="tab" aria-controls="pills-home-04" aria-selected="false">Guides</button>
+                  </li>
+                  <li className="nav-item" role="presentation">
+                    <button className="nav-link" id="pills-home-06-tab" data-bs-toggle="pill" data-bs-target="#pills-home-06" type="button" role="tab" aria-controls="pills-home-06" aria-selected="false">White Paper</button>
+                  </li>
+                   <li className="nav-item" role="presentation">
+                    <button className="nav-link" id="pills-home-07-tab" data-bs-toggle="pill" data-bs-target="#pills-home-07" type="button" role="tab" aria-controls="pills-home-07" aria-selected="false">Blogs</button>
                   </li>
 
                 </ul>
@@ -896,8 +954,8 @@ const BusinessCentral = () => {
                         <div className='card0-01 card0-02'>
                           <a href="/ebook/upgrade-nav-to-business-central/">
                             <img src="/img/Ebook-Nav-to-BC.png" width={273} height={192} alt="bc-8-17" />
-                            <h3>Quick Start Guide for Upgrading NAV to Business Central</h3>
-                            <p>Learn when, why, and how to upgrade from Dynamics NAV to Business Central with confidence.</p>
+                            <h3>The Futurist CFO’s Guide to Business Model Innovation</h3>
+                            <p>For finance leaders seeking new growth through service and project-based models.</p>
 
                             <div className='ct--a'>
                               <span>Read now</span>
@@ -905,29 +963,16 @@ const BusinessCentral = () => {
                           </a>
                         </div>
                       </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="/ebook/gp-to-bc-migration/">
-                            <img src="/img/dynamics-GP-BC-Ebook-featured-image.png" width={273} height={192} alt="bc-8-18" />
-                            <h3>Your Guide to Dynamics GP to Business Central Migration</h3>
-                            <p>Find how businesses are moving from Microsoft GP to Business Central with confidence.</p>
-                            <div className='ct--a'>
-                              <span>Read now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-home-03" role="tabpanel" aria-labelledby="pills-home-03-tab">
                     <div className='row'>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/44hqw-S27D0?si=mCEpK1p1hVAXszlj" target='_blank'>
+                          <a href="https://youtu.be/44hqw-S27D0?si=C3hl9ZmKaQhESWMo" target='_blank'>
                             <img src="/img/bc-8-20.png" width={273} height={192} alt="bc-8-20" />
-                            <h3>Is Your Business Ready for an ERP System?</h3>
-                            <p>Explore key signs, benefits, and steps to ERP readiness with Dynamics Square experts in this episode.</p>
+                            <h3>Is Your Business Ready for ERP?</h3>
+                            <p>Discover signs, benefits, and steps to readiness with Dynamics Square experts.</p>
                             <div className='ct--a'>
                               <span>Watch now</span>
                             </div>
@@ -936,28 +981,17 @@ const BusinessCentral = () => {
                       </div>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/hUPT5DejiR0?si=p_hlO_BdCj_gbWwh" target='_blank'>
+                          <a href="https://youtu.be/44hqw-S27D0?si=C3hl9ZmKaQhESWMo" target='_blank'>
                             <img src="/img/bc-8-21.png" width={273} height={192} alt="bc-8-21" />
-                            <h3>Unpacking Microsoft Dynamics 365 Business Central for Growth</h3>
-                            <p>Learn how Business Central helps streamline operations and scale growth in this expert-driven podcast episode.</p>
+                            <h3>When Your Business Is Ready for ERP</h3>
+                            <p>Learn the right time to adopt ERP and how Dynamics 365 powers transformation.</p>
                             <div className='ct--a'>
                               <span>Watch now</span>
                             </div>
                           </a>
                         </div>
                       </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/Of8upj7BtGo?si=Lsf5SCwBtIpSU1ST" target='_blank'>
-                            <img src="/img/bc-8-22.png" width={273} height={192} alt="bc-8-22" />
-                            <h3>Signs Your Business Is Ready for an ERP System</h3>
-                            <p>Understand when to adopt ERP, its benefits, and how Dynamics 365 drives business transformation.</p>
-                            <div className='ct--a'>
-                              <span>Watch now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
+                     
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-home-04" role="tabpanel" aria-labelledby="pills-home-04-tab"><div className='row'>
@@ -1016,6 +1050,30 @@ const BusinessCentral = () => {
                       </div>
                     </div>
                   </div>
+                   <div className="tab-pane fade" id="pills-home-06" role="tabpanel" aria-labelledby="pills-home-06-tab">
+                    <div className='row'>
+                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
+                        <div className='card0-01 card0-02'>
+                          <a href="/white-papers/micorosoft-finance/">
+                            <img src="/img/finacne-white-paper-category.png" width={273} height={192} alt="bc-8-17" />
+                            <h3>Build Resilience in Your Financial Operations</h3>
+                            <p>A maturity model designed to strengthen people, processes, and technology.</p>
+                            <div className='ct--a'>
+                              <span>Read Case Study</span>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                   <div className="tab-pane fade" id="pills-home-07" role="tabpanel" aria-labelledby="pills-home-07-tab">
+                    <div className='row'>
+                      <BlogFinanaceCard />
+                      
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -1029,7 +1087,7 @@ const BusinessCentral = () => {
             <div className="col-lg-9 ">
               <div className="solution-new-banner-sub-head text-center">
                 <h2>Have you got
-                  questions about Business Central?</h2>
+questions about Dynamics 365 Finance?</h2>
                 <p>Click through to our FAQ for the best answers!</p>
               </div>
             </div>

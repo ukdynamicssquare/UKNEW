@@ -17183,6 +17183,12 @@ position: sticky;
 .ce-image-cee{
     text-align:center;
 }
+.upgrade-box-one-c h3{
+  color: #894d77;
+}
+.upgrade-box-one a{
+  color: #b488c4;
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;
