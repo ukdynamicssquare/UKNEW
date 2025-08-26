@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Modal, Button, Spinner, Form } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from "next/head";
-import faqData from '../public/data/finance_faq.json';
+import faqData from '../public/data/erp_faq.json';
 import FormErpCompare from '../components/FormErpCompare';
 const CompareErps = () => {
   const [allErps, setAllErps] = useState([]);
@@ -35,13 +35,52 @@ const CompareErps = () => {
     notableContext: "Notable Context"
   };
 
+  // useEffect(() => {
+  //   fetch('https://erptoolapi.onrender.com/api/frontend/products')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       setAllErps(data);
+  //       if (data.length > 0) {
+  //         setFeatures(Object.keys(data[0].features));
+  //       }
+  //     })
+  //     .catch(err => console.error("Error loading ERP data:", err));
+  // }, []);
+
+  // 👉 Define your desired order here
+  const featureOrder = [
+    "overview",
+    "deployment",
+    "priceRange",
+    "costPerUser",
+    "costPerProject",
+    "minImplementationFee",
+    "pricingNotes",
+    "coreModules",
+    "scalability",
+    "customization",
+    "usabilitySupportTraining",
+    "analyticsSecurity",
+    "keyMarketStrength",
+    "notableContext"
+  ];
+
   useEffect(() => {
     fetch('https://erptoolapi.onrender.com/api/frontend/products')
       .then(res => res.json())
       .then(data => {
         setAllErps(data);
+
         if (data.length > 0) {
-          setFeatures(Object.keys(data[0].features));
+          const apiFeatures = Object.keys(data[0].features);
+
+          // Keep your manual order first, then append any new API keys
+          const orderedFeatures = [
+            ...featureOrder,
+            ...apiFeatures.filter(f => !featureOrder.includes(f))
+          ];
+
+          setFeatures(orderedFeatures);
         }
       })
       .catch(err => console.error("Error loading ERP data:", err));
@@ -128,9 +167,10 @@ const CompareErps = () => {
         <div className='row justify-content-center'>
           <div className='col-lg-8'>
             <div className='solution-new-banner-one-content'>
-              <h1>Compare the Top ERP Systems for 2025</h1>
-              <span className='large-heading'>Level up with a solution trusted<br /> by over 45,000 SMBs across the world.</span>
-              <p>Get started with our side-by-side comparison of the top 10 ERP systems for 2025. Assess features, evaluate costs, and find the ERP system that best matches your business requirements. You can also request ERP demos and price quotes for the 10 top systems below. Or, select from the categories above to compare additional systems in various industries and other popular categories.</p>
+              <h1 className='large-heading'>Compare the Top ERP Systems for Your Business in 2025 </h1>
+              <p>Start with our side-by-side ERP software comparison 2025 tool, covering top ERP systems for 2025 in terms of features, pricing, and deployment. Assess capabilities, estimate ERP cost per user, and shortlist platforms that match your requirements across cloud ERP systems for 2025 and on-premises ERP systems. </p>
+              <p>Request ERP demos and price quotes for leading options below or browse categories to compare industry picks and other popular segments. 
+Read our selection guide packed with practical insights to support a confident choice among the top 10 ERP systems for 2025 so you choose the best ERP software for your business in 2025. </p>
             </div>
           </div>
 
@@ -256,11 +296,11 @@ const CompareErps = () => {
             <Modal.Title>Unlock Full Comparison</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <FormErpCompare onSuccess={() => {
+            {/* <FormErpCompare onSuccess={() => {
             setFormFilled(true);
             setShowFormModal(false);
-          }} />
-            {/* <Form onSubmit={handleFormSubmit}>
+          }} /> */}
+            <Form onSubmit={handleFormSubmit}>
               <Form.Group className="mb-3">
                 <Form.Label>Name</Form.Label>
                 <Form.Control
@@ -280,7 +320,7 @@ const CompareErps = () => {
                 />
               </Form.Group>
               <Button variant="success" type="submit">Submit</Button>
-            </Form> */}
+            </Form>
           </Modal.Body>
         </Modal>
 

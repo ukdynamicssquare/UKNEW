@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "question": "What are the top ERP systems for 2025?",
+      "answer": "<p>Top ERP systems for 2025 include Microsoft Dynamics 365, SAP S4HANA, Oracle Cloud ERP, NetSuite, Infor CloudSuite, and Epicor Kinetic. </p>"
+    },
+    {
+      "id": 2,
+      "question": "How does cloud ERP differ from on-premises ERP systems?",
+      "answer": "<p>In cloud ERP systems in 2025, data is hosted and managed on service providers’ servers, which can be easily accessed online. It allows faster deployment, easier scaling, and regular feature and security updates, like with Microsoft Dynamics 365. In contrast, on-premises ERP systems run on local servers with direct control. They often require higher upfront investment, longer installation, and dedicated IT resources for maintenance. </p><p>The choice depends on the budget, data sensitivity, and long-term growth needs of the business. </p>"
+    },
+    {
+      "id": 3,
+      "question": "Which ERP software is best for small businesses in 2025?",
+      "answer": "<p>The best ERP software for 2025 for small firms often includes Dynamics 365 Business Central, NetSuite, Sage Intacct, and Acumatica, based on features cost and scalability. </p>"
+    },
+    {
+      "id": 4,
+      "question": "What factors should I consider when comparing ERP software pricing?",
+      "answer": "<p>When it comes to ERP price comparison, prioritise criteria like modules needed, ERP cost per user, implementation effort, training support, integrations, and contract term length. </p>"
+    },
+    {
+      "id": 5,
+      "question": "How does AI enhance ERP system functionality in 2025?",
+      "answer": "<p>AI integration in ERPs for 2025 includes Microsoft Dynamics 365, a prominent ecosystem of different ERPs for businesses with diverse needs. AI in these ERPs brings capabilities like predictive planning, anomaly detection, smart approvals, automated data entry, natural language queries, and faster insights for decision clarity. </p>"
+    },
+    {
+      "id": 6,
+      "question": "How to choose the right ERP system?",
+      "answer": "<p>Begin by mapping your core processes and listing must-have features. Create a shortlist through our ERP software comparison 2025 tool that matches both functionality and budget. Validate shortlisted systems through detailed demos, customer reference checks, and partner discussions. Finally, conduct a staged pilot to test performance in real conditions before moving forward with a full contract commitment. </p>"
+    },
+    {
+      "id": 7,
+      "question": "How to compare two ERP systems?",
+      "answer": "<p>Create a side-by-side matrix that scores features, total cost, roadmap alignment, vendor strength, and service quality, then make the decision using weighted criteria. </p>"
+    },
+    {
+      "id": 8,
+      "question": "What are the leading ERP vendors?",
+      "answer": "<p>Top ERP vendors in 2025 include Microsoft, SAP, Oracle NetSuite, Infor, Epicor, Sage, Acumatica, IFS, and Odoo. </p>"
+    },
+    {
+      "id": 9,
+      "question": "What factors should I consider when comparing ERP systems?",
+      "answer": "<p>Assess business goals, critical processes, integration needs, data model, security, compliance, scalability, partner capability, and total cost across cloud ERP systems 2025 and on-premises ERP systems.</p>"
+    }
+  ]
+  
