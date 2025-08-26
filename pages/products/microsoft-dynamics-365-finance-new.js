@@ -55,13 +55,13 @@ const BusinessCentral = () => {
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/" />
         <meta property="og:title" content="Microsoft Dynamics 365 Finance Partner | Dynamics Square" />
         <meta property="og:description" content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today." />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-Finance-Banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/microsoft-dynamics-365-finance/" />
         <meta property="twitter:title" content="Microsoft Dynamics 365 Finance Partner | Dynamics Square" />
         <meta property="twitter:description" content="Boost your financial visibility and faster your financial decision making by implementing Microsoft Dynamics 365 Finance. Book a free consultation today." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/business-center-new-banner.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/Dynamics-365-Finance-Banner.png" />
 
       </Head>
 
@@ -83,19 +83,19 @@ const BusinessCentral = () => {
                 </div>
               </div>
               <div className='m-b-image'>
-                <Image src="/img/bc-mobile-banner.png" alt='bc-mobile-banner' width={1098} height={657} />
+                <Image src="/img/Dynamics-365-Finance-Banner.png" alt='Dynamics-365-Finance-Banner' width={1098} height={657} />
               </div>
             </div>
 
           </div>
         </div>
-        <div className="solution-new-banner-one-img">
-          <Image src="/img/banner-tt-01.png" alt="New Solution" width={1920} height={948} className="flot-1" />
+        <div className="solution-new-banner-one-img solution-new-banner-one-img-f">
+          <Image src="/img/f-mobile-banner.png" alt="New Solution" width={1237} height={993} className="flot-1" />
           {/* <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
           <img src="/img/n-004.png" alt="New Solution" className="flot-3" />
           <img src="/img/n-005.png" alt="New Solution" className="flot-4" /> */}
-          <div className='flot-5'>
-            <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="New Solution" className="flot-img" width={48} height={48} />
+          <div className='flot-5  flot-5-a'>
+            <img src="/img/menu-icons/dynamics-365-finance.svg" alt="New Solution" className="flot-img" width={48} height={48} />
           </div>
           {/* <div className='flot-121'>
                         <div className='border-11'>

@@ -15726,6 +15726,10 @@ margin: -30px 0px -80px;
   margin-left: auto;
   margin-right: auto;
 }
+  .solution-new-banner-one-img.solution-new-banner-one-img-f {
+    margin-top: 30px;
+    text-align: center;
+  }
 .flot-1 {
 }
 .flot-2 {
@@ -15761,6 +15765,9 @@ margin: -30px 0px -80px;
   position: absolute;
   right: 22.5%;
   bottom: -10%;
+}
+.flot-5.flot-5-a{
+right: 26.5%;
 }
 .flot-5 .flot-img {
   width: 140px;
@@ -17193,6 +17200,9 @@ position: sticky;
   .flot-5 {
     right: 21.3%;
   }
+  .flot-5.flot-5-a {
+    right: 18.5%;
+}
   .solution-new-banner-four .n-014 {
     right: -130px;
   }
@@ -17230,6 +17240,10 @@ position: sticky;
   .solution-new-banner-one-img {
     margin-top: -180px;
   }
+    .solution-new-banner-one-img.solution-new-banner-one-img-f {
+    margin-top: 20px;
+  }
+
   .r-top-60 {
     margin-top: -150px;
   }
@@ -17239,6 +17253,9 @@ position: sticky;
   .flot-5 {
     right: 20.1%;
   }
+  .flot-5.flot-5-a {
+    right: 15.5%;
+}
   .solution-new-banner-three {
     padding: 60px 0px 30px;
   }
@@ -17281,6 +17298,10 @@ position: sticky;
     right: 19.3%;
     bottom: -25%;
   }
+  .flot-5.flot-5-a {
+        right: 15.5%;
+        bottom: -10%;
+    }
   .r-top-60 {
     margin-top: -120px;
   }

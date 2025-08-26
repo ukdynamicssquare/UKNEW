@@ -169,8 +169,8 @@ const CompareErps = () => {
             <div className='solution-new-banner-one-content'>
               <h1 className='large-heading'>Compare the Top ERP Systems for Your Business in 2025 </h1>
               <p>Start with our side-by-side ERP software comparison 2025 tool, covering top ERP systems for 2025 in terms of features, pricing, and deployment. Assess capabilities, estimate ERP cost per user, and shortlist platforms that match your requirements across cloud ERP systems for 2025 and on-premises ERP systems. </p>
-              <p>Request ERP demos and price quotes for leading options below or browse categories to compare industry picks and other popular segments. 
-Read our selection guide packed with practical insights to support a confident choice among the top 10 ERP systems for 2025 so you choose the best ERP software for your business in 2025. </p>
+              <p>Request ERP demos and price quotes for leading options below or browse categories to compare industry picks and other popular segments.
+                Read our selection guide packed with practical insights to support a confident choice among the top 10 ERP systems for 2025 so you choose the best ERP software for your business in 2025. </p>
             </div>
           </div>
 
@@ -182,9 +182,9 @@ Read our selection guide packed with practical insights to support a confident c
               <table className="table table-bordered text-center fixed-table">
                 <thead>
                   <tr>
-                    {showTable && <th style={{ width: "200px" }}>Feature</th>}
+                    {showTable && <th className='mm-s' style={{ width: "200px" }}>Feature</th>}
                     {compactSelections(selectedErps).map((erp, index) => (
-                      <th key={index} style={{ width: `${100 / 4}%` }}>
+                      <th  className='mm-s' key={index} style={{ width: `${100 / 4}%` }}>
                         {erp ? (
                           <div className="erp-card position-relative">
                             <button
@@ -448,6 +448,8 @@ Read our selection guide packed with practical insights to support a confident c
             }
             .pdd-120{
             padding-top:80px
+            }
+            .mm-s{
             }
         `}</style>
       </div>
