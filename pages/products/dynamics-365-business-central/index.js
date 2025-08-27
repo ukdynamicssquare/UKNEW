@@ -855,7 +855,7 @@ const BusinessCentral = () => {
       </section>
 
 
-      <section className='s-options-end'>
+      {/* <section className='s-options-end'>
         <div className="container">
           <div className="row">
             <div className="col-lg-9">
@@ -877,7 +877,7 @@ const BusinessCentral = () => {
               </div>
             </div>
           </div>
-          {/* <div className='row'>
+          <div className='row'>
             <div className='col-lg-7 order-2'>
               <div className='row'>
                 <div className='col-lg-6 d-flex'>
@@ -942,10 +942,10 @@ const BusinessCentral = () => {
                 <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
-        {/* <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div> */}
-      </section>
+        <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div>
+      </section> */}
 
       <section id='section9' className='p-t-1-100'>
         <div className='container'>
