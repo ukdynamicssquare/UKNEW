@@ -933,7 +933,7 @@ const BusinessCentral = () => {
                           </a>
                         </div>
                       </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
+                      {/* <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
                           <a onClick={() => handleOpenModal('pdf3')}>
                             <img src="/img/bc-8-19.png" width={273} height={192} alt="bc-8-19" />
@@ -944,7 +944,7 @@ const BusinessCentral = () => {
                             </div>
                           </a>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
 
                   </div>
