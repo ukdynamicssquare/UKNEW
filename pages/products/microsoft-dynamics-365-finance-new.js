@@ -189,16 +189,10 @@ const BusinessCentral = () => {
               </div>
             </div>
             <div className='col-lg-6 align-self-center'>
-              <div className='product-side-002-content' style={{ paddingBottom: '0px' }}>
-                <div className='solution-new-banner-sub-head'>
+              <div className='product-side-002-content'>
+                <div className='solution-new-banner-sub-head'  style={{ paddingBottom: '0px' }}>
                   <h2>Dynamics 365 Finance Implementation: <br />Why Your Business Needs It</h2>
                 </div>
-                <ul>
-                  <li>Money gaps appear without a clear view of cash flow.</li>
-                  <li>Business decisions slow down when closing books takes too long.</li>
-                  <li>Heavy penalties strike when taxes are handled wrongly.</li>
-                  <li>Profits shrink when customer payments keep getting delayed.</li>
-                </ul>
                 <p>If you face these challenges, your financial health is already at risk.</p>
                 <p>You need a single finance system that gives accuracy, automation, and intelligence. This is where Dynamics 365 Finance helps you gain control.</p>
                 <p>Companies using Dynamics 365 Finance have observed faster book closure, improved cash flow, and better profit margins.</p>
