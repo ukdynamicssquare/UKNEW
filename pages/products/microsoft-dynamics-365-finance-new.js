@@ -70,7 +70,7 @@ const BusinessCentral = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8'>
               <div className='solution-new-banner-one-content'>
-                <h1>Microsoft Dynamics 365 Business Central</h1>
+                <h1>Microsoft Dynamics 365 Finance</h1>
                 <span className='large-heading'>Deploy AI-powered Dynamics 365 Finance with a proven 106 percent ROI in three years.</span>
                 <p>Boost your organisation's ability to develop, modify and control budgets, make faster financial decision making with Microsoft Dynamics 365 Finance.</p>
                 <div className="text-center">
@@ -360,14 +360,14 @@ const BusinessCentral = () => {
             <div className='row'>
               <div className='col-lg-10'>
                 <div className='solution-new-cta-001'>
-                  <span className='solution-new-cta-t'>CASE STORY</span>
-                  <h3>Learn How UK Defence Apparel Maker Boosted Efficiency By Up To 50% with Business Central ERP.</h3>
+                  <span className='solution-new-cta-t'>Power Your Finance Future</span>
+                  <h3>Drive growth with AI-driven insights, automation, and control across every financial decision.</h3>
                   <div>
-                    <Link href="/case-studies/"><a
+                    <Link href="/contact-us/"><a
 
                       className="btn-get-started scrollto"
                     >
-                      <span>Read Case Story &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Get Started Today &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
@@ -859,7 +859,7 @@ const BusinessCentral = () => {
         <div className='container'>
           <div className="col-lg-9">
             <div className="solution-new-banner-sub-head">
-              <h2>Get Started with Business Central</h2>
+              <h2>Get Started with Microsoft Dynamics 365 Finance</h2>
               <p>Reports, e-books, videos, training, and more, everything you need to explore the system.</p>
             </div>
           </div>
@@ -971,29 +971,29 @@ const BusinessCentral = () => {
                     <div className='row'>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/44hqw-S27D0?si=C3hl9ZmKaQhESWMo" target='_blank'>
+                          <a href="https://youtu.be/44hqw-S27D0?si=mCEpK1p1hVAXszlj" target='_blank'>
                             <img src="/img/bc-8-20.png" width={273} height={192} alt="bc-8-20" />
-                            <h3>Is Your Business Ready for ERP?</h3>
-                            <p>Discover signs, benefits, and steps to readiness with Dynamics Square experts.</p>
+                            <h3>Is Your Business Ready for an ERP System?</h3>
+                            <p>Explore key signs, benefits, and steps to ERP readiness with Dynamics Square experts in this episode.</p>
                             <div className='ct--a'>
                               <span>Watch now</span>
                             </div>
                           </a>
                         </div>
                       </div>
+                      
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/Of8upj7BtGo?si=iis4XwuklOU-YbAd" target='_blank'>
-                            <img src="/img/bc-8-21.png" width={273} height={192} alt="bc-8-21" />
-                            <h3>When Your Business Is Ready for ERP</h3>
-                            <p>Learn the right time to adopt ERP and how Dynamics 365 powers transformation.</p>
+                          <a href="https://youtu.be/Of8upj7BtGo?si=Lsf5SCwBtIpSU1ST" target='_blank'>
+                            <img src="/img/bc-8-22.png" width={273} height={192} alt="bc-8-22" />
+                            <h3>Signs Your Business Is Ready for an ERP System</h3>
+                            <p>Understand when to adopt ERP, its benefits, and how Dynamics 365 drives business transformation.</p>
                             <div className='ct--a'>
                               <span>Watch now</span>
                             </div>
                           </a>
                         </div>
                       </div>
-                     
                     </div>
                   </div>
                   {/* <div className="tab-pane fade" id="pills-home-04" role="tabpanel" aria-labelledby="pills-home-04-tab"><div className='row'>
