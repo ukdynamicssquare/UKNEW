@@ -297,11 +297,11 @@ const CompareErps = () => {
             <Modal.Title>Unlock Full Comparison</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            {/* <FormErpCompare onSuccess={() => {
+            <FormErpCompare onSuccess={() => {
             setFormFilled(true);
             setShowFormModal(false);
-          }} /> */}
-            <Form onSubmit={handleFormSubmit}>
+          }} />
+            {/* <Form onSubmit={handleFormSubmit}>
               <Form.Group className="mb-3">
                 <Form.Label>Name</Form.Label>
                 <Form.Control
@@ -321,7 +321,7 @@ const CompareErps = () => {
                 />
               </Form.Group>
               <Button variant="success" type="submit">Submit</Button>
-            </Form>
+            </Form> */}
           </Modal.Body>
         </Modal>
 
