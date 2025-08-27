@@ -466,7 +466,6 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-01.png" width={48} height={49} alt="ff-finance-i-01" />
                 <h3>Financial Planning & Analysis</h3>
                 <p>AI powered budgeting, forecasting, and performance analytics with Copilot assistance.</p>
-                <a href="/products/dynamics-365-business-central/financial-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -474,7 +473,7 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-02.png" width={48} height={49} alt="ff-finance-i-02" />
                 <h3>Accounting & Financial Close</h3>
                 <p>Automated journal entries, reconciliations, and faster financial closing cycles.</p>
-                <a href="/products/dynamics-365-business-central/supply-chain-management/" target='_blank'>Learn More</a>
+               
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -482,7 +481,7 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-03.png" width={48} height={49} alt="ff-finance-i-03" />
                 <h3>Cash & Treasury Management</h3>
                 <p>Real time cash flow tracking, predictive liquidity insights, and credit risk automation.</p>
-                <a href="/products/dynamics-365-business-central/sales-order-management/" target='_blank'>Learn More</a>
+                
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -490,7 +489,7 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-04.png" width={48} height={49} alt="ff-finance-i-04" />
                 <h3>Tax Management</h3>
                 <p>Centralised tax rules, automated calculation, and regulatory compliance across regions.</p>
-                <a href="/products/dynamics-365-business-central/project-management/" target='_blank'>Learn More</a>
+               
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -498,7 +497,7 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-05.png" width={48} height={49} alt="ff-finance-i-05" />
                 <h3>Quote to Cash</h3>
                 <p>AI driven billing, collections automation, and smarter accounts receivable management.</p>
-                <a href="/products/dynamics-365-business-central/warehouse-management/" target='_blank'>Learn More</a>
+               
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -506,7 +505,7 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-06.png" width={48} height={49} alt="ff-finance-i-06" />
                 <h3>Global Compliance & Governance</h3>
                 <p>Multi-currency, multi entity, and country specific regulatory support in one system.</p>
-                <a href="/products/dynamics-365-business-central/service-management/" target='_blank'>Learn More</a>
+               
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -514,7 +513,7 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-07.png" width={48} height={49} alt="ff-finance-i-07" />
                 <h3>Subscription & Revenue Management</h3>
                 <p>Flexible recurring billing, contract management, and revenue recognition automation.</p>
-                <a href="/products/dynamics-365-business-central/manufacturing-management/" target='_blank'>Learn More</a>
+                
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -522,7 +521,6 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-08.png" width={48} height={49} alt="ff-finance-i-08" />
                 <h3>Expense & Cost Management</h3>
                 <p>Automated expense reporting, cost tracking, and role-based approvals to control spend.</p>
-                <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
@@ -530,7 +528,6 @@ const BusinessCentral = () => {
                 <img src="/img/ff-finance-i-09.png" width={48} height={49} alt="ff-finance-i-09" />
                 <h3>AI (Copilot) & Business Intelligence</h3>
                 <p>Predictive insights, automated reports, and real time decision support with Microsoft Copilot.</p>
-                <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
               </div>
             </div>
 
