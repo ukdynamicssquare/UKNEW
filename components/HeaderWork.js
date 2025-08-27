@@ -15,6 +15,7 @@ const HeaderWork = () => {
     "/dynamics-365-business-central-implementation": `${gname}`,
     "/d365-business-central-support": `${gname}`,
      "/products/dynamics-365-business-central": `${gname}`,
+     "/products/microsoft-dynamics-365-finance": `${gname}`,
     "/products/dynamics-365-business-central/financial-management": `${gname}`,
     "/products/dynamics-365-business-central/sales-order-management": `${gname}`,
     "/products/dynamics-365-business-central/supply-chain-management": `${gname}`,

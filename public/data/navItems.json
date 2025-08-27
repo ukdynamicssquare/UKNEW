@@ -8,5 +8,14 @@
       { "id": "section7", "label": "Add-Ons" },
       { "id": "section8", "label": "Pricing & Licensing" },
        { "id": "section9", "label": "Resources" }
+    ],
+    "products/microsoft-dynamics-365-finance": [
+      { "id": "section2", "label": "Why Implement" },
+      { "id": "section3", "label": "Features" },
+      { "id": "section4", "label": "Benefits" },
+      { "id": "section5", "label": "Capabilities" },
+      { "id": "section6", "label": "Copilot in BC" },
+      { "id": "section8", "label": "Pricing & Licensing" },
+       { "id": "section9", "label": "Resources" }
     ]
   }
