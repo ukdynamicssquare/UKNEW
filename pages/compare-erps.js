@@ -32,7 +32,8 @@ const CompareErps = () => {
     usabilitySupportTraining: "Usability / Support / Training",
     analyticsSecurity: "Analytics & Security",
     keyMarketStrength: "Key Market Strength",
-    notableContext: "Notable Context"
+    notableContext: "Notable Context",
+    customerPerceptionUpdates	: "Customer Perception Updates"
   };
 
   // useEffect(() => {
@@ -62,7 +63,7 @@ const CompareErps = () => {
     "usabilitySupportTraining",
     "analyticsSecurity",
     "keyMarketStrength",
-    "notableContext"
+    "notableContext",
   ];
 
   useEffect(() => {
@@ -184,7 +185,7 @@ const CompareErps = () => {
                   <tr>
                     {showTable && <th className='mm-s' style={{ width: "200px" }}>Feature</th>}
                     {compactSelections(selectedErps).map((erp, index) => (
-                      <th  className='mm-s' key={index} style={{ width: `${100 / 4}%` }}>
+                      <th className='mm-s' key={index} style={{ width: `${100 / 4}%` }}>
                         {erp ? (
                           <div className="erp-card position-relative">
                             <button
@@ -450,6 +451,15 @@ const CompareErps = () => {
             padding-top:80px
             }
             .mm-s{
+            }
+            @media (max-width:768px){
+              .mm-s{
+             width: 200px !important;
+            }
+              .fixed-table th:not(:first-child),
+.fixed-table td:not(:first-child) {
+width: 200px !important;
+}
             }
         `}</style>
       </div>
