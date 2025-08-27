@@ -17196,6 +17196,22 @@ position: sticky;
 .upgrade-box-one a{
   color: #b488c4;
 }
+.table-new-style{}
+.table-new-style tr th{
+  background: #7f4c7b;
+    color: #fff;
+    font-size: 16px;
+    padding: 25px;
+}
+.table-new-style thead tr{
+  box-shadow: 0px 0px 17px #000000a1;
+    border-color: #ffffff;
+    border-bottom-color: transparent;
+}
+.table-new-style tr td{
+  padding: 25px;
+    font-size: 15px;
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;

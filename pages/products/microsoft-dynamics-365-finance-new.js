@@ -183,7 +183,7 @@ const BusinessCentral = () => {
             <div className='col-lg-6'>
               <div className='product-side-001'>
                 <div className="flot-8">
-                  <Image src="/img/n-006.png" width={513} height={455} alt="New Solution" />
+                  <Image src="/img/ff-finance-side.png" width={535} height={455} alt="New Solution" />
                 </div>
                 <img width={563} height={478} src="/img/n-007.png" alt="New Solution" className="flot-9" />
               </div>
@@ -243,7 +243,7 @@ const BusinessCentral = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                      <Image src="/img/ff-finance-sid-01.png" width={574} height={369} alt="Card 1" />
                     </div>
                   </div>
                 </div>
@@ -259,7 +259,7 @@ const BusinessCentral = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-009.png" width={574} height={360} alt="Card 2" />
+                      <Image src="/img/ff-finance-sid-02.png" width={574} height={360} alt="Card 2" />
                     </div>
                   </div>
                 </div>
@@ -275,7 +275,7 @@ const BusinessCentral = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-010.png" width={574} height={360} alt="Card 3" />
+                      <Image src="/img/ff-finance-sid-03.png" width={574} height={360} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -291,7 +291,7 @@ const BusinessCentral = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-011.png" width={584} height={369} alt="Card 4" />
+                      <Image src="/img/ff-finance-sid-04.png" width={584} height={369} alt="Card 4" />
                     </div>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ const BusinessCentral = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-012.png" width={571} height={369} alt="Card 5" />
+                      <Image src="/img/ff-finance-sid-05.png" width={571} height={369} alt="Card 5" />
                     </div>
                   </div>
                 </div>
@@ -463,7 +463,7 @@ const BusinessCentral = () => {
           <div className='row g-5'>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-04.png" width={48} height={49} alt="bc-8-04" />
+                <img src="/img/ff-finance-i-01.png" width={48} height={49} alt="ff-finance-i-01" />
                 <h3>Financial Planning & Analysis</h3>
                 <p>AI powered budgeting, forecasting, and performance analytics with Copilot assistance.</p>
                 <a href="/products/dynamics-365-business-central/financial-management/" target='_blank'>Learn More</a>
@@ -471,7 +471,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-05.png" width={48} height={49} alt="bc-8-05" />
+                <img src="/img/ff-finance-i-02.png" width={48} height={49} alt="ff-finance-i-02" />
                 <h3>Accounting & Financial Close</h3>
                 <p>Automated journal entries, reconciliations, and faster financial closing cycles.</p>
                 <a href="/products/dynamics-365-business-central/supply-chain-management/" target='_blank'>Learn More</a>
@@ -479,7 +479,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-06.png" width={48} height={49} alt="bc-8-06" />
+                <img src="/img/ff-finance-i-03.png" width={48} height={49} alt="ff-finance-i-03" />
                 <h3>Cash & Treasury Management</h3>
                 <p>Real time cash flow tracking, predictive liquidity insights, and credit risk automation.</p>
                 <a href="/products/dynamics-365-business-central/sales-order-management/" target='_blank'>Learn More</a>
@@ -487,7 +487,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-07.png" width={48} height={49} alt="bc-8-07" />
+                <img src="/img/ff-finance-i-04.png" width={48} height={49} alt="ff-finance-i-04" />
                 <h3>Tax Management</h3>
                 <p>Centralised tax rules, automated calculation, and regulatory compliance across regions.</p>
                 <a href="/products/dynamics-365-business-central/project-management/" target='_blank'>Learn More</a>
@@ -495,7 +495,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-08.png" width={48} height={49} alt="bc-8-08" />
+                <img src="/img/ff-finance-i-05.png" width={48} height={49} alt="ff-finance-i-05" />
                 <h3>Quote to Cash</h3>
                 <p>AI driven billing, collections automation, and smarter accounts receivable management.</p>
                 <a href="/products/dynamics-365-business-central/warehouse-management/" target='_blank'>Learn More</a>
@@ -503,7 +503,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-09.png" width={48} height={49} alt="bc-8-09" />
+                <img src="/img/ff-finance-i-06.png" width={48} height={49} alt="ff-finance-i-06" />
                 <h3>Global Compliance & Governance</h3>
                 <p>Multi-currency, multi entity, and country specific regulatory support in one system.</p>
                 <a href="/products/dynamics-365-business-central/service-management/" target='_blank'>Learn More</a>
@@ -511,7 +511,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-10.png" width={48} height={49} alt="bc-8-10" />
+                <img src="/img/ff-finance-i-07.png" width={48} height={49} alt="ff-finance-i-07" />
                 <h3>Subscription & Revenue Management</h3>
                 <p>Flexible recurring billing, contract management, and revenue recognition automation.</p>
                 <a href="/products/dynamics-365-business-central/manufacturing-management/" target='_blank'>Learn More</a>
@@ -519,7 +519,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
+                <img src="/img/ff-finance-i-08.png" width={48} height={49} alt="ff-finance-i-08" />
                 <h3>Expense & Cost Management</h3>
                 <p>Automated expense reporting, cost tracking, and role-based approvals to control spend.</p>
                 <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
@@ -527,7 +527,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
+                <img src="/img/ff-finance-i-09.png" width={48} height={49} alt="ff-finance-i-09" />
                 <h3>AI (Copilot) & Business Intelligence</h3>
                 <p>Predictive insights, automated reports, and real time decision support with Microsoft Copilot.</p>
                 <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
@@ -709,7 +709,7 @@ const BusinessCentral = () => {
             </div>
           </div>
 
-          <div className='row g-3'>
+          <div className='row g-3 justify-content-center'>
             {/* <div className='col-lg-3 d-flex'>
               <div className='solution-new-pricing-card col-ff3'>
                 <h3>Business Central<span>Free Trial</span>
@@ -770,7 +770,7 @@ const BusinessCentral = () => {
           </div>
           <div className='row'>
             <div className='col-lg-6'>
-              <div className='table-responsive'>
+              <div className='table-responsive table-new-style'>
                 <table className="table table-bordered">
                   <thead>
                     <tr>
@@ -783,7 +783,7 @@ const BusinessCentral = () => {
                       <td>Sales Attach</td>
                       <td>£16.50</td>
                     </tr>
-                    <tr>
+                    <tr style={{backgroundColor:'#6f4b801c'}}>
                       <td>Customer Service Attach</td>
                       <td>£16.50</td>
                     </tr>
@@ -791,7 +791,7 @@ const BusinessCentral = () => {
                       <td>Field Service Attach</td>
                       <td>£16.50</td>
                     </tr>
-                    <tr>
+                    <tr style={{backgroundColor:'#6f4b801c'}}>
                       <td>Project Operations Attach</td>
                       <td>£16.50</td>
                     </tr>
@@ -799,7 +799,7 @@ const BusinessCentral = () => {
                       <td>Commerce Attach</td>
                       <td>£16.50</td>
                     </tr>
-                    <tr>
+                    <tr style={{backgroundColor:'#6f4b801c'}}>
                       <td>Supply Chain Management Attach</td>
                       <td>£24.70</td>
                     </tr>
@@ -814,7 +814,7 @@ const BusinessCentral = () => {
 
       </section>
 
-      <section className="busnes-upgrade-serve-one">
+      <section className="busnes-upgrade-serve-one" style={{paddingTop:'0px'}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
