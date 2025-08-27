@@ -71,7 +71,7 @@ const BusinessCentral = () => {
             <div className='col-lg-8'>
               <div className='solution-new-banner-one-content'>
                 <h1>Microsoft Dynamics 365 Business Central</h1>
-                <span className='large-heading'>Level up with a solution trusted<br /> by over 45,000 SMBs across the world.</span>
+                <span className='large-heading'>Deploy AI-powered Dynamics 365 Finance with a proven 106 percent ROI in three years.</span>
                 <p>Boost your organisation's ability to develop, modify and control budgets, make faster financial decision making with Microsoft Dynamics 365 Finance.</p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
