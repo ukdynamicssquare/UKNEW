@@ -394,14 +394,14 @@ const FormNewUI = () => {
                   <span>
                     Sales Support:{" "}
                   </span>
-                  <span> + 44 203 769 7689</span> <br/><span style={{marginLeft:'102px'}}></span>
+                  <span> +44 203 769 7689</span> <br/><span style={{marginLeft:'102px'}}></span>
                 
                 </div>
                 <div className="cont-info">
                   <span>
                     Technical Support:{" "}
                   </span>
-                  <span>+44 (0) 207 097 8987 </span>
+                  <span>+44 203 807 7526</span>
                 </div>
                 <div className="cont-info">
                   <span>
