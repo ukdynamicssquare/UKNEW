@@ -1155,7 +1155,7 @@ const BusinessCentral = () => {
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-home-06" role="tabpanel" aria-labelledby="pills-home-06-tab"><div className='row'>
-                      <BlogFinanaceCard />
+                      <BlogFinanaceCard categorySlug='business-central' />
 
                   </div>
                   </div>

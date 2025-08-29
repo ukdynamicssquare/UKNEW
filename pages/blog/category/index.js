@@ -41,6 +41,15 @@ export async function getStaticProps({ params }) {
   }
 }
 
+const categoryColors = [
+  '#01808a',
+  '#cd9e1b',
+  '#3e4f8a',
+  '#000000',
+  '#b52c36',
+  '#273266',
+];
+
 function CategoryBlogs({ blogs, categoryblogs }) {
   return (
     <div>
@@ -80,7 +89,11 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                     categoryblogs.map((cateitem, i) => (
                       <li>
     
-                          <a href={`/blog/category/${cateitem.category_slug}`}>{cateitem.category_name}</a>
+                          <a style={{
+                          textDecoration: 'none',
+                          color: categoryColors[i % categoryColors.length],
+                          border: `1px solid ${categoryColors[i % categoryColors.length]}`,
+                        }} href={`/blog/category/${cateitem.category_slug}`}>{cateitem.category_name}</a>
                       </li>
                     ))}
                 </ul>

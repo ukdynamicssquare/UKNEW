@@ -123,7 +123,7 @@ const BusinessCentral = () => {
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Try for Free  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>See It in Action  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
 
 
@@ -721,13 +721,13 @@ const BusinessCentral = () => {
                 <h3>Dynamics 365<span>Finance</span>
                 </h3>
                 <p>Take control with an intelligent and automated financial management platform built to support accuracy, compliance, and speed.</p>
-                <h4>£161.50 <span>per user/month</span></h4>
+                <h4>£161.50<span>per user/month</span></h4>
                 <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
-                {/* <p className='disclm'>*Excluding VAT</p> */}
+                <p className='disclm'>*Excluding VAT</p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
-              <div className='solution-new-pricing-card col-ff3'>
+              <div className='solution-new-pricing-card'>
                 <h3>Dynamics 365 <span>Finance Premium</span>
                 </h3>
                 <p>Equip your teams with advanced business performance tools for sharper decisions and stronger outcomes.</p>
@@ -815,7 +815,7 @@ const BusinessCentral = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="solution-new-banner-sub-head">
-                <h2>What Dynamics 365 Finance Service do we offer?</h2>
+                <h2>What Dynamics 365 Finance Services Do We Offer?</h2>
                 <p>Strategically work towards fulfilling your financial vision with Dynamics Square - most trusted and reliable Microsoft Solutions Partner in UK.</p>
               </div>
             </div>
@@ -876,9 +876,9 @@ const BusinessCentral = () => {
                   <li className="nav-item" role="presentation">
                     <button className="nav-link active" id="pills-home-02-tab" data-bs-toggle="pill" data-bs-target="#pills-home-02" type="button" role="tab" aria-controls="pills-home-02" aria-selected="false">e-Books</button>
                   </li>
-                  <li className="nav-item" role="presentation">
+                  {/* <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-home-01-tab" data-bs-toggle="pill" data-bs-target="#pills-home-01" type="button" role="tab" aria-controls="pills-home-01" aria-selected="true">Researches</button>
-                  </li>
+                  </li> */}
 
                   <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-home-03-tab" data-bs-toggle="pill" data-bs-target="#pills-home-03" type="button" role="tab" aria-controls="pills-home-03" aria-selected="false">Podcasts</button>
@@ -903,7 +903,7 @@ const BusinessCentral = () => {
               {/* <p className='pt-200'><b>Reach new markets with Business Central</b></p> */}
               <div className='bc-new-tabs-li-body'>
                 <div className="tab-content" id="pills-tabContent">
-                  <div className="tab-pane fade" id="pills-home-01" role="tabpanel" aria-labelledby="pills-home-01-tab">
+                  {/* <div className="tab-pane fade" id="pills-home-01" role="tabpanel" aria-labelledby="pills-home-01-tab">
 
                     <div className='row'>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
@@ -930,21 +930,9 @@ const BusinessCentral = () => {
                           </a>
                         </div>
                       </div>
-                      {/* <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a onClick={() => handleOpenModal('pdf3')}>
-                            <img src="/img/bc-8-19.png" width={273} height={192} alt="bc-8-19" />
-                            <h3>Why IDC picked Microsoft as a Leader</h3>
-                            <p>Read how Microsoft stands out in small business ERP software. </p>
-                            <div className='ct--a'>
-                              <span>Read the excerpt</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div> */}
                     </div>
 
-                  </div>
+                  </div> */}
                   <div className="tab-pane fade show active" id="pills-home-02" role="tabpanel" aria-labelledby="pills-home-02-tab">
                     <div className='row'>
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
@@ -1077,7 +1065,7 @@ const BusinessCentral = () => {
                   </div>
                   <div className="tab-pane fade" id="pills-home-07" role="tabpanel" aria-labelledby="pills-home-07-tab">
                     <div className='row'>
-                      <BlogFinanaceCard />
+                      <BlogFinanaceCard categorySlug="dynamics-365-finance" />
 
                     </div>
                   </div>

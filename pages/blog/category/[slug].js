@@ -46,7 +46,14 @@ export async function getServerSideProps(context) {
     };
   }
 }
-
+const categoryColors = [
+  '#01808a',
+  '#cd9e1b',
+  '#3e4f8a',
+  '#000000',
+  '#b52c36',
+  '#273266',
+];
 
 function CategoryBlogs({ blogs, categoryblogs }) {
   const router = useRouter();
@@ -102,11 +109,20 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                     categoryblogs.map((cateitem, i) => (
                       <li className={router.query.slug == `${cateitem.category_slug}` ? "active" : "Hello"}>
 
-                        <a href={`/blog/category/${cateitem.category_slug}`}>{cateitem.category_name}</a>
+                        <a style={{
+                          textDecoration: 'none',
+                          color: categoryColors[i % categoryColors.length],
+                          border: `1px solid ${categoryColors[i % categoryColors.length]}`,
+                        }} href={`/blog/category/${cateitem.category_slug}`}>{cateitem.category_name}</a>
 
                       </li>
                     ))}
                 </ul>
+
+
+                    
+
+
               </div>
             </div>
             <div className="col-lg-9">

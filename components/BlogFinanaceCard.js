@@ -2,50 +2,64 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const BlogFinanaceCard = () => {
+const BlogFinanaceCard = ({ categorySlug }) => {
   const [blogPosts, setBlogPosts] = useState([]);
-  const [loading, setLoading] = useState(true); // Loading state
-  const [error, setError] = useState(false); // Error state
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchBlogPosts = async () => {
+      if (!categorySlug) return; // prevent empty calls
+
       try {
-        setLoading(true); // Start loading
-        const response = await fetch(`${process.env.BACKEND_URL}/api/random/allblog`);
+        setLoading(true);
+
+        // if categorySlug is "all", fetch all blogs
+        const endpoint =
+          categorySlug === "all"
+            ? `${process.env.BACKEND_URL}/api/blog/category`
+            : `${process.env.BACKEND_URL}/api/blog/category/${categorySlug}`;
+
+        const response = await fetch(endpoint);
+
         if (!response.ok) {
           throw new Error('Failed to fetch');
         }
+
         const data = await response.json();
         setBlogPosts(data);
       } catch (error) {
         console.error(error);
-        setError(true); // Set error state
+        setError(true);
       } finally {
-        setLoading(false); // End loading
+        setLoading(false);
       }
     };
 
     fetchBlogPosts();
-  }, []);
+  }, [categorySlug]); // refetch when slug changes
 
   if (loading) {
-    return <div>Loading...</div>; // Replace with a spinner or skeleton loader
+    return <div>Loading...</div>;
   }
 
   if (error) {
-    return <div className="col-lg-6 align-self-center" style={{ color: "var(--color-red)", fontWeight: '600' }}>Failed to load blog posts. Please try again later.</div>;
+    return (
+      <div className="col-lg-6 align-self-center" style={{ color: "var(--color-red)", fontWeight: '600' }}>
+        Failed to load blog posts. Please try again later.
+      </div>
+    );
   }
 
   return (
     <>
       {blogPosts.slice(0, 3).map((post, index) => (
-
-        <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
+        <div key={index} className='col-lg-4 col-md-4 col-sm-6 d-flex'>
           <div className='card0-01 card0-02 card-044'>
             <a href={`/blog/${post.title_slug}`}>
-              <Image src={post.image} alt={post.title}  width={600} height={300} />
-              <h3 style={{marginTop:'15px'}}>{post.title}</h3>
-              <p>A maturity model designed to strengthen people, processes, and technology.</p>
+              <Image src={post.image} alt={post.title} width={600} height={300} />
+              <h3 style={{ marginTop: '15px' }}>{post.title}</h3>
+              <p>{post.excerpt || "A maturity model designed to strengthen people, processes, and technology."}</p>
               <div className='ct--a'>
                 <span>View more</span>
               </div>
@@ -54,8 +68,13 @@ const BlogFinanaceCard = () => {
         </div>
       ))}
       <div style={{ textAlign: 'center' }}>
-        <a className="bby-btn" href="/blog/">
-          Read More Articles
+        <a
+          className="bby-btn"
+          href={categorySlug && categorySlug !== "all" ? `/blog/category/${categorySlug}` : "/blog/"}
+        >
+          {categorySlug && categorySlug !== "all"
+            ? `Read More Articles`
+            : "Read More Articles"}
         </a>
       </div>
       <style jsx>
@@ -74,7 +93,7 @@ const BlogFinanaceCard = () => {
             background: #bb2b36 !important;
           }
           .card0-044 img{
-          width:100% !important
+            width:100% !important;
           }
         `}
       </style>

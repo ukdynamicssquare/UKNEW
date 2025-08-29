@@ -16225,6 +16225,7 @@ right: 26.5%;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
 }
+.solution-new-pricing-card h4 sup{}
 .solution-new-pricing-card h4 span {
   font-size: 16px;
   font-weight: 500;
