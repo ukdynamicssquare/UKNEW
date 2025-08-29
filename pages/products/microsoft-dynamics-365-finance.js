@@ -705,7 +705,7 @@ const BusinessCentral = () => {
             </div>
           </div>
 
-          <div className='row g-3 justify-content-center'>
+          <div className='row g-3'>
             {/* <div className='col-lg-3 d-flex'>
               <div className='solution-new-pricing-card col-ff3'>
                 <h3>Business Central<span>Free Trial</span>
