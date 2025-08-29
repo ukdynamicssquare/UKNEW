@@ -286,7 +286,7 @@ const CompareErps = () => {
         {/* ERP Modal */}
         <Modal show={showModal} size="lg" onHide={() => setShowModal(false)}>
           <Modal.Header closeButton>
-            <Modal.Title>Select an ERP</Modal.Title>
+            <Modal.Title><div className='text-center'>Select an ERP</div></Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <div className="row">
@@ -297,7 +297,7 @@ const CompareErps = () => {
                     key={idx}
                     className={`col-6 col-md-4 mb-3 ${isSelected ? "opacity-50" : ""}`}
                     onClick={() => !isSelected && handleSelect(erp)}
-                    style={{ pointerEvents: isSelected ? "none" : "auto" }}
+                    style={{ pointerEvents: isSelected ? "none" : "auto" ,cursor:'pointer'}}
                   >
                     <div className="border p-2 rounded bg-light text-center h-100">
                       <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", marginBottom: '15px' }} />

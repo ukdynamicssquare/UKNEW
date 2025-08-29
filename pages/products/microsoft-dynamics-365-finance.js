@@ -116,7 +116,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <div className='solution-new-banner-sub-head r-top-60'>
-                <h2>What is dynamics 365 Finance?</h2>
+                <h2>What is Dynamics 365 Finance?</h2>
                 <p>Microsoft Dynamics 365 Finance is an enterprise-grade ERP software solution that helps organisations achieve financial accuracy and transparency. Implementing Dynamics 365 Finance enables you to track and monitor your financial operations in real-time, predict financial outcomes, and manage global risks to drive agility while maximising growth in your business.</p>
                 <div className="text-lg-start">
                   <Link href="#exampleModal"><a
@@ -716,17 +716,17 @@ const BusinessCentral = () => {
                 <p className='disclm'>*Get a 30-day free trial to see it for yourself.</p>
               </div>
             </div> */}
-            <div className='col-lg-4 d-flex'>
+            <div className='col-lg-5 d-flex'>
               <div className='solution-new-pricing-card'>
                 <h3>Dynamics 365<span>Finance</span>
                 </h3>
                 <p>Take control with an intelligent and automated financial management platform built to support accuracy, compliance, and speed.</p>
-                <h4>£161.50<span>per user/month</span></h4>
+                <h4>£161.50<span>per user/month<br />(billed annually)</span></h4>
                 <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
                 <p className='disclm'>*Excluding VAT</p>
               </div>
             </div>
-            <div className='col-lg-4 d-flex'>
+            <div className='col-lg-5 d-flex'>
               <div className='solution-new-pricing-card'>
                 <h3>Dynamics 365 <span>Finance Premium</span>
                 </h3>
