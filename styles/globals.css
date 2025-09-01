@@ -17238,6 +17238,29 @@ margin: -30px 0px -80px;
       color:#fff;
       box-shadow: none;
     }
+    .fixed-table tr th{
+  position:relative;
+    }
+        .fixed-table tr th:not(:last-child)::after {
+ content: 'VS';
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    font-size: 12px;
+    display: inline-block;
+    transform: translateY(-50%);
+    background: #9e97c0;
+    padding: 5px 6px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 500;
+}
+.mm-p{
+  font-weight:400
+}
+.fixed-table tbody tr:nth-child(odd) td {
+  background-color: #f9f9f9; /* light gray, pick your color */
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;

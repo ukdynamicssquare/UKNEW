@@ -209,7 +209,7 @@ const CompareErps = () => {
                           <div className="erp-card position-relative">
                             <button
                               className="btn btn-sm btn-danger position-absolute top-0 end-0 m-1"
-                              onClick={() => removeSelection(index)}
+                               onClick={() => removeSelection(index)}
                             >
                               ×
                             </button>
@@ -221,6 +221,7 @@ const CompareErps = () => {
                               onError={(e) => (e.currentTarget.src = "/img/e-r-p-logo.png")}
                             />
                             <h5 style={{ fontSize: "14px", color: "#3d3459" }}>{erp.name}</h5>
+                           
                           </div>
                         ) : (
                           <div
@@ -234,7 +235,8 @@ const CompareErps = () => {
                               alt="Default ERP"
                               style={{ maxWidth: "80px", marginBottom: "10px" }}
                             />
-                            <p className="text-muted">Click to select ERP</p>
+                            <p className="text-muted mm-p">Select ERP</p>
+                           
                           </div>
                         )}
                       </th>
@@ -447,7 +449,7 @@ const CompareErps = () => {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 90px;
+            min-height: 120px;
           }
             .erp-card p{
             margin-bottom:0px
