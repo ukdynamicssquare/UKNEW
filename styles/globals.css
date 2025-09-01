@@ -17230,6 +17230,9 @@ margin: -30px 0px -80px;
     background: var(--color-red);
      color:#fff;
     }
+    .btn-get-started.brrt:hover{
+       color:#fff;
+    }
     .btn-get-started.brrt:active,.btn-get-started.brrt:focus{
       background: var(--color-blue) !important;
       color:#fff;
