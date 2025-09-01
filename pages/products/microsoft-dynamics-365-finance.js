@@ -89,7 +89,7 @@ const BusinessCentral = () => {
           </div>
         </div>
         <div className="solution-new-banner-one-img solution-new-banner-one-img-f">
-          <Image src="/img/f-mobile-banner.png" alt="New Solution" width={1237} height={993} className="flot-1" />
+          <Image src="/img/f-mobile-banner-one.png" alt="New Solution" width={1920} height={993} className="flot-1" />
           {/* <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
           <img src="/img/n-004.png" alt="New Solution" className="flot-3" />
           <img src="/img/n-005.png" alt="New Solution" className="flot-4" /> */}
@@ -428,7 +428,7 @@ const BusinessCentral = () => {
             </div>
             <div className='col-lg-6 align-self-center'>
               <div className='product-side-002-img001'>
-                <Image src="/img/n-013.png" width={513} height={510} alt="Card 6" />
+                <Image src="/img/finance-new-side-pic.png" width={513} height={519} alt="Card 6" />
 
               </div>
             </div>
@@ -1010,7 +1010,7 @@ const BusinessCentral = () => {
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
                           <a href="https://youtu.be/f0EmJkDmpg4?si=8kVDObQ4LcrEHEzO" target='_blank'>
-                            <img src="/img/Dynamics-365-Finance-Banner.png" width={273} height={192} alt="bc-8-20" />
+                            <img src="/img/thumb-01.jpg" width={273} height={192} alt="bc-8-20" />
                             <h3>Microsoft Dynamics 365 Finance Premium</h3>
                             <p>Introducing business performance management capabilities in Dynamics 365 Finance.</p>
                             <div className='ct--a'>
@@ -1022,7 +1022,7 @@ const BusinessCentral = () => {
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
                           <a href="https://youtu.be/43S3_bV8ht0?si=F4Tmf_ebE7D7HsOS" target='_blank'>
-                            <img src="/img/Dynamics-365-Finance-Banner.png" width={273} height={192} alt="bc-8-21" />
+                            <img src="/img/thumb-02.jpg" width={273} height={192} alt="bc-8-21" />
                             <h3>Microsoft Copilot for Finance</h3>
                             <p>Introducing Microsoft Copilot for Finance, the AI assistant for finance professionals.</p>
                             <div className='ct--a'>
@@ -1034,7 +1034,7 @@ const BusinessCentral = () => {
                       <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
                         <div className='card0-01 card0-02'>
                           <a href="https://youtu.be/0G2HO5dSVoM?si=VfXiFOIQUnK2RuWO" target='_blank'>
-                            <img src="/img/Dynamics-365-Finance-Banner.png" width={273} height={192} alt="bc-8-21" />
+                            <img src="/img/thumb-03.jpg" width={273} height={192} alt="bc-8-21" />
                             <h3>Get started with the Financial Reconciliation Agent for Copilot for Finance</h3>
                             <p>The Financial Reconciliation Agent in Microsoft 365 Copilot for Finance simplifies and automates</p>
                             <div className='ct--a'>
