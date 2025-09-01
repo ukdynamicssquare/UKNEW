@@ -33,7 +33,7 @@ const CompareErps = () => {
     analyticsSecurity: "Analytics & Security",
     keyMarketStrength: "Key Market Strength",
     notableContext: "Notable Context",
-    customerPerceptionUpdates	: "Customer Perception Updates"
+    customerPerceptionUpdates: "Customer Perception Updates"
   };
 
   // useEffect(() => {
@@ -213,12 +213,14 @@ const CompareErps = () => {
                             >
                               ×
                             </button>
-                            <img className='mobile-small'
+                            <img
+                              className="mobile-small"
                               src={`https://cdn.gemsroot.com/${erp.logo}`}
                               alt={erp.name}
-                              style={{ maxWidth: "200px", marginBottom: '10px' }}
+                              style={{ maxWidth: "200px", marginBottom: "10px" }}
+                              onError={(e) => (e.currentTarget.src = "/img/e-r-p-logo.png")}
                             />
-                            <h5 style={{ fontSize: '14px', color: '#3d3459' }}>{erp.name}</h5>
+                            <h5 style={{ fontSize: "14px", color: "#3d3459" }}>{erp.name}</h5>
                           </div>
                         ) : (
                           <div
@@ -226,6 +228,12 @@ const CompareErps = () => {
                             onClick={() => { setActiveBoxIndex(index); setShowModal(true); }}
                             style={{ cursor: "pointer" }}
                           >
+                            {/* 👇 Default ERP logo here */}
+                            <img
+                              src="/img/e-r-p-logo.png"
+                              alt="Default ERP"
+                              style={{ maxWidth: "80px", marginBottom: "10px" }}
+                            />
                             <p className="text-muted">Click to select ERP</p>
                           </div>
                         )}
@@ -262,7 +270,7 @@ const CompareErps = () => {
 
               {hasEnoughToCompare && !showTable && (
                 <div className="text-center my-3">
-                  <Button  className='btn-get-started brrt' onClick={handleCompare} variant="primary">Compare</Button>
+                  <Button className='btn-get-started brrt' onClick={handleCompare} variant="primary">Compare</Button>
                 </div>
               )}
 
@@ -272,25 +280,25 @@ const CompareErps = () => {
                 </div>
               )}
 
-             <div className='m-hidess'>
-               {!formFilled && showTable && (
-                <div className="unlock-button-container">
-                  <Button className='btn-get-started brrt' variant="warning" onClick={() => setShowFormModal(true)}>
-                    Unlock Full Comparison
-                  </Button>
-                </div>
-              )}
-             </div>
+              <div className='m-hidess'>
+                {!formFilled && showTable && (
+                  <div className="unlock-button-container">
+                    <Button className='btn-get-started brrt' variant="warning" onClick={() => setShowFormModal(true)}>
+                      Unlock Full Comparison
+                    </Button>
+                  </div>
+                )}
+              </div>
             </div>
             <div className='d-hidess-no'>
-               {!formFilled && showTable && (
+              {!formFilled && showTable && (
                 <div className="unlock-button-n">
                   <Button variant="warning" className='btn-get-started brrt' onClick={() => setShowFormModal(true)}>
                     Unlock Full Comparison
                   </Button>
                 </div>
               )}
-             </div>
+            </div>
           </div>
         </div>
 
@@ -308,7 +316,7 @@ const CompareErps = () => {
                     key={idx}
                     className={`col-6 col-md-4 mb-3 ${isSelected ? "opacity-50" : ""}`}
                     onClick={() => !isSelected && handleSelect(erp)}
-                    style={{ pointerEvents: isSelected ? "none" : "auto" ,cursor:'pointer'}}
+                    style={{ pointerEvents: isSelected ? "none" : "auto", cursor: 'pointer' }}
                   >
                     <div className="border p-2 rounded bg-light text-center h-100">
                       <img src={`https://cdn.gemsroot.com/${erp.logo}`} alt={erp.name} style={{ maxWidth: "100px", marginBottom: '15px' }} />
@@ -328,9 +336,9 @@ const CompareErps = () => {
           </Modal.Header>
           <Modal.Body>
             <FormErpCompare onSuccess={() => {
-            setFormFilled(true);
-            setShowFormModal(false);
-          }} />
+              setFormFilled(true);
+              setShowFormModal(false);
+            }} />
             {/* <Form onSubmit={handleFormSubmit}>
               <Form.Group className="mb-3">
                 <Form.Label>Name</Form.Label>
