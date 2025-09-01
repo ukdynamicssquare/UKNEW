@@ -213,10 +213,10 @@ const CompareErps = () => {
                             >
                               ×
                             </button>
-                            <img
+                            <img className='mobile-small'
                               src={`https://cdn.gemsroot.com/${erp.logo}`}
                               alt={erp.name}
-                              style={{ maxWidth: "80px", marginBottom: '10px' }}
+                              style={{ maxWidth: "200px", marginBottom: '10px' }}
                             />
                             <h5 style={{ fontSize: '14px', color: '#3d3459' }}>{erp.name}</h5>
                           </div>
@@ -262,7 +262,7 @@ const CompareErps = () => {
 
               {hasEnoughToCompare && !showTable && (
                 <div className="text-center my-3">
-                  <Button onClick={handleCompare} variant="primary">Compare</Button>
+                  <Button  className='btn-get-started brrt' onClick={handleCompare} variant="primary">Compare</Button>
                 </div>
               )}
 
@@ -275,7 +275,7 @@ const CompareErps = () => {
              <div className='m-hidess'>
                {!formFilled && showTable && (
                 <div className="unlock-button-container">
-                  <Button variant="warning" onClick={() => setShowFormModal(true)}>
+                  <Button className='btn-get-started brrt' variant="warning" onClick={() => setShowFormModal(true)}>
                     Unlock Full Comparison
                   </Button>
                 </div>
@@ -285,7 +285,7 @@ const CompareErps = () => {
             <div className='d-hidess-no'>
                {!formFilled && showTable && (
                 <div className="unlock-button-n">
-                  <Button variant="warning" onClick={() => setShowFormModal(true)}>
+                  <Button variant="warning" className='btn-get-started brrt' onClick={() => setShowFormModal(true)}>
                     Unlock Full Comparison
                   </Button>
                 </div>
@@ -401,7 +401,7 @@ const CompareErps = () => {
 
                 {visibleCount < faqData.length && (
                   <div className="text-center mt-4">
-                    <button className="btn faq-btn-l btn-get-started" onClick={handleLoadMore}>
+                    <button className="btn faq-btn-l btn-get-started brrt" onClick={handleLoadMore}>
                       Load More <i className="bi bi-chevron-down"></i>
                     </button>
                   </div>
@@ -445,8 +445,7 @@ const CompareErps = () => {
             margin-bottom:0px
             }
           .placeholder-card {
-            border: 2px dashed #ccc;
-            padding: 40px 10px;
+           
           }
           .blurred-cell {
             position: relative;
@@ -487,6 +486,7 @@ const CompareErps = () => {
             text-align: center;
     padding: 30px 0px 0px;
             }
+    
             @media (max-width:768px){
               .mm-s{
              width: 200px !important;
@@ -500,6 +500,9 @@ display:none
 }
 .d-hidess-no{
             display:block
+            }
+            .mobile-small{
+            width:100px
             }
             }
         `}</style>
