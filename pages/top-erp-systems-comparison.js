@@ -272,14 +272,25 @@ const CompareErps = () => {
                 </div>
               )}
 
-              {!formFilled && showTable && (
+             <div className='m-hidess'>
+               {!formFilled && showTable && (
                 <div className="unlock-button-container">
                   <Button variant="warning" onClick={() => setShowFormModal(true)}>
                     Unlock Full Comparison
                   </Button>
                 </div>
               )}
+             </div>
             </div>
+            <div className='d-hidess-no'>
+               {!formFilled && showTable && (
+                <div className="unlock-button-n">
+                  <Button variant="warning" onClick={() => setShowFormModal(true)}>
+                    Unlock Full Comparison
+                  </Button>
+                </div>
+              )}
+             </div>
           </div>
         </div>
 
@@ -471,6 +482,11 @@ const CompareErps = () => {
             }
             .mm-s{
             }
+            .d-hidess-no{
+            display:none;
+            text-align: center;
+    padding: 30px 0px 0px;
+            }
             @media (max-width:768px){
               .mm-s{
              width: 200px !important;
@@ -479,6 +495,12 @@ const CompareErps = () => {
 .fixed-table td:not(:first-child) {
 width: 200px !important;
 }
+.m-hidess{
+display:none
+}
+.d-hidess-no{
+            display:block
+            }
             }
         `}</style>
       </div>
