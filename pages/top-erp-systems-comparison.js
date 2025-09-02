@@ -175,13 +175,13 @@ const CompareErps = () => {
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/top-erp-systems-comparison/" />
         <meta property="og:title" content="ERP Comparison 2025: Which System Fits Your Business Needs?" />
         <meta property="og:description" content="Compare top ERP systems for 2025. Get features, pricing, and benefits to find the best ERP software that fits your business needs and boosts efficiency.​" />
-        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/about-pic.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/erp-f-im.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/top-erp-systems-comparison/" />
         <meta property="twitter:title" content="ERP Comparison 2025: Which System Fits Your Business Needs?" />
         <meta property="twitter:description" content="Compare top ERP systems for 2025. Get features, pricing, and benefits to find the best ERP software that fits your business needs and boosts efficiency." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/about-pic.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/erp-f-im.png" />
       </Head>
       <div className="container py-5">
         <div className='row justify-content-center'>
