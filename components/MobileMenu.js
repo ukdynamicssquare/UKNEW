@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const MobileMenu = () => {
   return (
     <>
       <div className="mobile-menu-section-wr">
-
         <div className="togglr-icon-nav">
           <div className="cont-m-mobile">
             <a
@@ -12,7 +11,8 @@ const MobileMenu = () => {
               href="tel:+442037697689"
               target="_self"
             >
-              <i className="bi bi-telephone-fill"></i></a>
+              <i className="bi bi-telephone-fill"></i>
+            </a>
           </div>
           <a
             href="#offcanvasWithBothOptions"
@@ -36,7 +36,8 @@ const MobileMenu = () => {
                 <img
                   src="/img/dynamicssqure-logo.svg"
                   alt="Dynamics Square logo"
-                  width="282" height="19"
+                  width="282"
+                  height="19"
                 />
               </a>
               <button
@@ -48,7 +49,7 @@ const MobileMenu = () => {
             </div>
             <div className="offcanvas-body">
               <div className="accordion" id="mobile-toggle-nav">
-              <div className="accordion-item">
+                <div className="accordion-item">
                   <div className="accordion-header" id="list-0">
                     <button
                       className="accordion-button collapsed"
@@ -76,13 +77,19 @@ const MobileMenu = () => {
                             <a href="/erp-for-startups/">Startup</a>
                           </li>
                           <li>
-                            <a href="/dynamics-365-for-small-businesses/">Small Business</a>
+                            <a href="/dynamics-365-for-small-businesses/">
+                              Small Business
+                            </a>
                           </li>
                           <li>
-                            <a href="/dynamics-365-for-medium-businesses/">Mid Size</a>
+                            <a href="/dynamics-365-for-medium-businesses/">
+                              Mid Size
+                            </a>
                           </li>
                           <li>
-                            <a href="/dynamics-365-for-large-businesses/">Enterprise</a>
+                            <a href="/dynamics-365-for-large-businesses/">
+                              Enterprise
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -174,9 +181,7 @@ const MobileMenu = () => {
                             </a>
                             <ul>
                               <li>
-                                <a href="/products/azure-iot-hub/">
-                                  IoT Hub
-                                </a>
+                                <a href="/products/azure-iot-hub/">IoT Hub</a>
                               </li>
                               <li>
                                 <a href="/products/azure-iot-central/">
@@ -189,9 +194,7 @@ const MobileMenu = () => {
                                 </a>
                               </li>
                               <li>
-                                <a href="/products/azure-iot-edge/">
-                                  IoT Edge
-                                </a>
+                                <a href="/products/azure-iot-edge/">IoT Edge</a>
                               </li>
                               <li>
                                 <a href="/products/azure-digital-twins/">
@@ -342,22 +345,34 @@ const MobileMenu = () => {
                       <div className="iner-list">
                         <ul>
                           <li>
-                            <a href="/continia-for-dynamics-365-business-central/">Continia integration</a>
+                            <a href="/continia-for-dynamics-365-business-central/">
+                              Continia integration
+                            </a>
                           </li>
                           <li>
-                            <a href="/insights-works-for-dynamics-365-business-central/">Insight Works</a>
+                            <a href="/insights-works-for-dynamics-365-business-central/">
+                              Insight Works
+                            </a>
                           </li>
                           <li>
-                            <a href="/sana-commerce-for-dynamics-365-business-central/">Sana Commerce</a>
+                            <a href="/sana-commerce-for-dynamics-365-business-central/">
+                              Sana Commerce
+                            </a>
                           </li>
                           <li>
-                            <a href="/wms-for-business-central/">Mobile WMS BC</a>
+                            <a href="/wms-for-business-central/">
+                              Mobile WMS BC
+                            </a>
                           </li>
                           <li>
-                            <a href="/continia-document-capture-with-business-central/">Continia OCR</a>
+                            <a href="/continia-document-capture-with-business-central/">
+                              Continia OCR
+                            </a>
                           </li>
                           <li>
-                            <a href="/continia-expense-management/">Continia expense management</a>
+                            <a href="/continia-expense-management/">
+                              Continia expense management
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -400,7 +415,9 @@ const MobileMenu = () => {
                             <a href="/industries/ecommerce/">Ecommerce</a>
                           </li>
                           <li>
-                            <a href="/industries/dynamics-365-for-education/">D365 for Education</a>
+                            <a href="/industries/dynamics-365-for-education/">
+                              D365 for Education
+                            </a>
                           </li>
                           <li>
                             <a href="/industries/microsoft-cloud-for-manufacturing/">
@@ -557,25 +574,39 @@ const MobileMenu = () => {
                       <div className="iner-list">
                         <ul>
                           <li>
-                            <a
-                              href="/blog/"
-                              target="_self"
-                            >
+                            <a href="/blog/" target="_self">
                               Blogs
                             </a>
+                          </li>
+                           <li>
+                            <a href="/case-studies/">Case Studies</a>
                           </li>
                           <li>
                             <a href="/ebook/">eBooks</a>
                           </li>
 
-                          <li>
-                            <a href="/case-studies/">Case Studies</a>
-                          </li>
+                         
                           <li>
                             <a href="/guides/">Guides</a>
                           </li>
                           <li>
                             <a href="/white-papers/">White Papers</a>
+                          </li>
+                          <li>
+                            <a
+                              href="/erp-implementation-cost-calculator/"
+                              target="_self"
+                            >
+                              ERP Calculator
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="/top-erp-systems-comparison/"
+                              target="_self"
+                            >
+                              ERP Comparison
+                            </a>
                           </li>
                           <li>
                             <a href="/webinars/">Webinars</a>
@@ -597,6 +628,6 @@ const MobileMenu = () => {
       </div>
     </>
   );
-}
+};
 
 export default MobileMenu;

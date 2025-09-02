@@ -17261,6 +17261,33 @@ margin: -30px 0px -80px;
 .fixed-table tbody tr:nth-child(odd) td {
   background-color: #f9f9f9; /* light gray, pick your color */
 }
+.navbar .dropdown .dropdown.dropdown-s > ul {
+    top: 0;
+    left: -100%;
+}
+.navbar .dropdown .dropdown.dropdown-s:hover > ul {
+   top: -10px;
+    left: -100%;
+}
+.navbar .dropdown .dropdown.dropdown-s .s-dd{
+ margin-left: -69px;
+    font-size: 12px;
+    margin-top: -5px;
+    font-weight: bold;
+    color: #ba2d38;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; 
+  }
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;

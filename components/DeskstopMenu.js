@@ -1,5 +1,5 @@
-import React from 'react';
-import PulseButton from './PulseButton';
+import React from "react";
+import PulseButton from "./PulseButton";
 
 const DeskstopMenu = () => {
   return (
@@ -95,15 +95,11 @@ const DeskstopMenu = () => {
                       <span>Legacy Dynamics</span>
                     </a>
                   </div>
-                 
                 </div>
                 <div className="tab-content" id="v-pills-tabContent">
-                  <div
-                    className="tab-pane fade show active"
-                    id="v-pills-home"
-                  >
+                  <div className="tab-pane fade show active" id="v-pills-home">
                     <div className="container">
-                       <div className="row">
+                      <div className="row">
                         <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/erp-for-startups/">
@@ -111,12 +107,15 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/store.png"
                                   alt="azure"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Startup</span>
-                                <p>Smart ERP solutions to kickstart your growth</p>
+                                <p>
+                                  Smart ERP solutions to kickstart your growth
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -128,12 +127,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/storefront.png"
                                   alt="mixed-Reality-icons"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Small Business</span>
-                                <p>Simplifying business for small, ambitious teams</p>
+                                <p>
+                                  Simplifying business for small, ambitious
+                                  teams
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -145,7 +148,8 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/group-3535.png"
                                   alt="AI"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
@@ -162,24 +166,26 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/factory.png"
                                   alt="AI"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Enterprise</span>
-                                <p>Advanced ERP solutions for large, global enterprises</p>
+                                <p>
+                                  Advanced ERP solutions for large, global
+                                  enterprises
+                                </p>
                               </div>
                             </a>
                           </div>
                         </div>
-                     
-                      </div> 
-                      
+                      </div>
                     </div>
                   </div>
                   <div className="tab-pane cc-height fade" id="v-pills-addon">
                     <div className="container">
-                        <div className="row g-1">
+                      <div className="row g-1">
                         {/* <div className='col-lg-12'>
                           <div className='mm-title'>
                             <p>ERP</p>
@@ -192,12 +198,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-businesscentral.svg"
                                   alt="dynamics-365-businesscentral"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Business Central</span>
-                                <p>All-in-one solution for all your business practices</p>
+                                <p>
+                                  All-in-one solution for all your business
+                                  practices
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -209,7 +219,8 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-finance.svg"
                                   alt="dynamics-365-finance"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
@@ -226,14 +237,15 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-supplychainmanagement.svg"
                                   alt="dynamics-365-supplychainmanagement"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Supply Chain</span>
                                 <p>
-                                  Optimize operations and drive agile
-                                  Supply Chain
+                                  Optimize operations and drive agile Supply
+                                  Chain
                                 </p>
                               </div>
                             </a>
@@ -246,14 +258,13 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-HRM.svg"
                                   alt="dynamics-365-HRM"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Human Resource</span>
-                                <p>
-                                  Optimize Your Resource Utilization
-                                </p>
+                                <p>Optimize Your Resource Utilization</p>
                               </div>
                             </a>
                           </div>
@@ -265,14 +276,15 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-commerce.svg"
                                   alt="dynamics-365-commerce"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Commerce</span>
                                 <p>
-                                  Unify Your Back-Office, In-Store,
-                                  And Digital Experience
+                                  Unify Your Back-Office, In-Store, And Digital
+                                  Experience
                                 </p>
                               </div>
                             </a>
@@ -285,48 +297,42 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-project-management.svg"
                                   alt="dynamics-365-project-management"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Project Operations</span>
-                                <p>
-                                  Automate and streamline your
-                                  projects
-                                </p>
+                                <p>Automate and streamline your projects</p>
                               </div>
                             </a>
                           </div>
                         </div>
-
-                      </div> 
-                      
+                      </div>
                     </div>
                   </div>
                   <div className="tab-pane cc-height fade" id="v-pills-CRM">
                     <div className="container">
-                        <div className="row g-1">
-                        
+                      <div className="row g-1">
                         {/* <div className='col-lg-12'>
                           <div className='mm-title'>
                             <p>CRM-Customer Engagement</p>
                           </div>
                         </div> */}
-                         <div className="col-md-6">
+                        <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/products/microsoft-dynamics-365-sales/">
                               <div className="pic">
                                 <img
                                   src="/img/menu-icons/dynamics-365-sales.svg"
                                   alt="dynamics-365-sales"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Sales</span>
-                                <p>
-                                  Drive end-to-end sales practices
-                                </p>
+                                <p>Drive end-to-end sales practices</p>
                               </div>
                             </a>
                           </div>
@@ -338,15 +344,13 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-marketing.svg"
                                   alt="dynamics-365-marketing"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Marketing</span>
-                                <p>
-                                  Maximize ROI with integrated
-                                  Marketing
-                                </p>
+                                <p>Maximize ROI with integrated Marketing</p>
                               </div>
                             </a>
                           </div>
@@ -358,22 +362,20 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-fieldservice.svg"
                                   alt="dynamics-365-fieldservice"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Field Service</span>
                                 <p>
-                                  Drive connected and collaborated
-                                  field service
+                                  Drive connected and collaborated field service
                                 </p>
                               </div>
                             </a>
                           </div>
                         </div>
-                      
-                      
-                      
+
                         {/* <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/products/dynamics-365-human-resources/">
@@ -400,15 +402,13 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-customer-service.svg"
                                   alt="dynamics-365-customer-service"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Customer Service</span>
-                                <p>
-                                  Drive omnichannel customer
-                                  experience
-                                </p>
+                                <p>Drive omnichannel customer experience</p>
                               </div>
                             </a>
                           </div>
@@ -437,30 +437,21 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/dynamics-365-customer-engagement.svg"
                                   alt="dynamics-365-customer-engagement"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Customer Engagement</span>
-                                <p>
-                                  Improve Your marketing capabilities
-                                </p>
+                                <p>Improve Your marketing capabilities</p>
                               </div>
                             </a>
                           </div>
                         </div>
-                       
-                      
-                       
-
-                      </div> 
-                      
+                      </div>
                     </div>
                   </div>
-                  <div
-                    className="tab-pane fade"
-                    id="v-pills-profile"
-                  >
+                  <div className="tab-pane fade" id="v-pills-profile">
                     <div className="container">
                       <div className="row">
                         <div className="col-md-6">
@@ -470,14 +461,14 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/power-bi.svg"
                                   alt="power-bi"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Power BI</span>
                                 <p>
-                                  Create powerful visual insights,
-                                  analytics
+                                  Create powerful visual insights, analytics
                                 </p>
                               </div>
                             </a>
@@ -490,14 +481,15 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/power-apps.svg"
                                   alt="power-apps"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Power Apps</span>
                                 <p>
-                                  Build web & mobile apps with zero or
-                                  minimal code
+                                  Build web & mobile apps with zero or minimal
+                                  code
                                 </p>
                               </div>
                             </a>
@@ -510,14 +502,14 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/power-automate.svg"
                                   alt="power-automate"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Power Automate</span>
                                 <p>
-                                  Automate your processes to improve
-                                  workflows
+                                  Automate your processes to improve workflows
                                 </p>
                               </div>
                             </a>
@@ -530,7 +522,8 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/virtual agent.svg"
                                   alt="virtual agent"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
@@ -546,10 +539,7 @@ const DeskstopMenu = () => {
                       </div>
                     </div>
                   </div>
-                   <div
-                    className="tab-pane fade"
-                    id="v-pills-settings"
-                  >
+                  <div className="tab-pane fade" id="v-pills-settings">
                     <div className="container">
                       <div className="row">
                         <div className="col-md-6">
@@ -559,14 +549,13 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/NAV.png"
                                   alt="NAV"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Dynamics NAV</span>
-                                <p>
-                                  A flexible ERP solution for SMBs
-                                </p>
+                                <p>A flexible ERP solution for SMBs</p>
                               </div>
                             </a>
                           </div>
@@ -578,14 +567,14 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/CRM.png"
                                   alt="CRM"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Dynamics CRM</span>
                                 <p>
-                                  Increase Revenue and Customer
-                                  Satisfaction
+                                  Increase Revenue and Customer Satisfaction
                                 </p>
                               </div>
                             </a>
@@ -598,15 +587,13 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/AX.png"
                                   alt="AX"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Dynamics AX</span>
-                                <p>
-                                  The Most Complete, Agile And
-                                  Powerful ERP
-                                </p>
+                                <p>The Most Complete, Agile And Powerful ERP</p>
                               </div>
                             </a>
                           </div>
@@ -618,15 +605,13 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/GP.png"
                                   alt="GP"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Dynamics GP</span>
-                                <p>
-                                  Accounting software designed for
-                                  SMEs
-                                </p>
+                                <p>Accounting software designed for SMEs</p>
                               </div>
                             </a>
                           </div>
@@ -638,13 +623,15 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/ERP.png"
                                   alt="GP"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Dynamics ERP</span>
                                 <p>
-                                  Streamline Entire Business Management with Ease
+                                  Streamline Entire Business Management with
+                                  Ease
                                 </p>
                               </div>
                             </a>
@@ -657,13 +644,15 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/F&Q.png"
                                   alt="GP"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Dynamics F&O</span>
                                 <p>
-                                  Accelerate your Finance and Inventory more Efficiently
+                                  Accelerate your Finance and Inventory more
+                                  Efficiently
                                 </p>
                               </div>
                             </a>
@@ -671,7 +660,7 @@ const DeskstopMenu = () => {
                         </div>
                       </div>
                     </div>
-                  </div> 
+                  </div>
                   {/* <div
                     className="tab-pane fade"
                     id="v-pills-settingss"
@@ -813,10 +802,7 @@ const DeskstopMenu = () => {
                       </div>
                     </div>
                   </div> */}
-                  <div
-                    className="tab-pane fade"
-                    id="v-pills-settingss"
-                  >
+                  <div className="tab-pane fade" id="v-pills-settingss">
                     <div className="container">
                       <div className="row">
                         <div className="col-md-6">
@@ -826,12 +812,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/continia.png"
                                   alt="continia"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Continia integration</span>
-                                <p>Scan, analyse, and process documents with optimum quality</p>
+                                <p>
+                                  Scan, analyse, and process documents with
+                                  optimum quality
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -843,12 +833,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/Insight_Work.png"
                                   alt="Insight_Work"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Insight Works</span>
-                                <p>Optimise your inventory and distribution operations effortlessly</p>
+                                <p>
+                                  Optimise your inventory and distribution
+                                  operations effortlessly
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -860,12 +854,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/Sana_Commerce.png"
                                   alt="Sana_Commerce"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Sana Commerce</span>
-                                <p>Avail a cloud e-commerce solution to supercharge your online store</p>
+                                <p>
+                                  Avail a cloud e-commerce solution to
+                                  supercharge your online store
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -877,12 +875,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/taskley-logo-im.png"
                                   alt="Sana_Commerce"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Tasklet's Mobile WMS</span>
-                                <p>Optimize warehouse operations, simplify inventory, boost profits</p>
+                                <p>
+                                  Optimize warehouse operations, simplify
+                                  inventory, boost profits
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -894,12 +896,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/continia.png"
                                   alt="Sana_Commerce"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Continia OCR</span>
-                                <p>Transform document management, streamline processing, manage easily</p>
+                                <p>
+                                  Transform document management, streamline
+                                  processing, manage easily
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -911,12 +917,16 @@ const DeskstopMenu = () => {
                                 <img
                                   src="/img/menu-icons/continia.png"
                                   alt="Sana_Commerce"
-                                  width="48" height="48"
+                                  width="48"
+                                  height="48"
                                 />
                               </div>
                               <div className="content">
                                 <span>Continia Expense Management </span>
-                                <p>Monitor corporate expenses, eliminate manual errors with Continia</p>
+                                <p>
+                                  Monitor corporate expenses, eliminate manual
+                                  errors with Continia
+                                </p>
                               </div>
                             </a>
                           </div>
@@ -938,7 +948,6 @@ const DeskstopMenu = () => {
                             </a>
                           </div>
                         </div> */}
-
                       </div>
                     </div>
                   </div>
@@ -951,48 +960,50 @@ const DeskstopMenu = () => {
                 <ul>
                   <li>
                     <a href="/erp-implementation-cost-calculator/">
-                      <span className='menu-title-new'>
+                      <span className="menu-title-new">
                         Get Your ERP Cost Estimate
                       </span>
-                      <span className='menu-title-para'>
+                      <span className="menu-title-para">
                         Quick, free, and tailored to your business.
                       </span>
-                      <span className='menu-title-link'>
+                      <span className="menu-title-link">
                         Check Now <i className="bi bi-arrow-right"></i>
                       </span>
-                      
                     </a>
                   </li>
                   <li>
                     <a href="/dynamics-nav-to-business-central/">
-                      <span className='menu-title-new'>
-                      Dynamics NAV To Business Central Upgrade
+                      <span className="menu-title-new">
+                        Dynamics NAV To Business Central Upgrade
                       </span>
-                      <span className='menu-title-para'>
-                      Ensure a smoother transition for you, without costing a million bucks! 
+                      <span className="menu-title-para">
+                        Ensure a smoother transition for you, without costing a
+                        million bucks!
                       </span>
-                      <span className='menu-title-link'>
+                      <span className="menu-title-link">
                         Read more <i className="bi bi-arrow-right"></i>
                       </span>
-                      
                     </a>
                   </li>
-
                 </ul>
-                <div className='pp-absol' style={{marginTop:'2px'}}>
-                  <a href="/products/dynamics-365-copilot/"><img src="/img/menu--ss.png" width={706} height={180} alt="menu--ss" /></a>
+                <div className="pp-absol" style={{ marginTop: "2px" }}>
+                  <a href="/products/dynamics-365-copilot/">
+                    <img
+                      src="/img/menu--ss.png"
+                      width={706}
+                      height={180}
+                      alt="menu--ss"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
-           
           </div>
-          
         </li>
 
         <li className="dropdown dropdown-smal-mega">
           <a href="/industries/">
-            <span>Industries</span>{" "}
-            <i className="bi bi-chevron-down"></i>
+            <span>Industries</span> <i className="bi bi-chevron-down"></i>
           </a>
           <ul>
             <li>
@@ -1002,12 +1013,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/Startup.png"
                       alt="Startup"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Startups</span>
-                    <p>Support your startup ideation and maximise your growth</p>
+                    <p>
+                      Support your startup ideation and maximise your growth
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1019,12 +1033,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/Not-FOr-Profit.png"
                       alt="Not FOr Profit"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Not for Profit (Microsoft Cloud)</span>
-                    <p>Carry out mission-critical Challenges with perfect tools</p>
+                    <p>
+                      Carry out mission-critical Challenges with perfect tools
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1036,12 +1053,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/education.png"
                       alt="education"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>D365 for Education</span>
-                    <p>Effectively manage students and staff for overall growth</p>
+                    <p>
+                      Effectively manage students and staff for overall growth
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1053,7 +1073,8 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/E-commerce.png"
                       alt="E-commerce"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
@@ -1070,12 +1091,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/MAnufacturing.png"
                       alt="MAnufacturing"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Manufacturing (Microsoft Cloud)</span>
-                    <p>Connect your people and operations to drive profitability</p>
+                    <p>
+                      Connect your people and operations to drive profitability
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1087,12 +1111,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/Professional-ervice.png"
                       alt="Professional-ervice"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Professional Services</span>
-                    <p>Streamline administration processes leveraging automation</p>
+                    <p>
+                      Streamline administration processes leveraging automation
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1104,12 +1131,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/Food.png"
                       alt="Food"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Food & Beverages</span>
-                    <p>Manage supply and inventory processes with real-time data</p>
+                    <p>
+                      Manage supply and inventory processes with real-time data
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1121,12 +1151,16 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/healthcare.png"
                       alt="healthcare"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Dynamics 365 for Healthcare</span>
-                    <p>Track clinical operations while enhancing patient experience</p>
+                    <p>
+                      Track clinical operations while enhancing patient
+                      experience
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1138,12 +1172,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/automaotive.png"
                       alt="automaotive"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>Automotive Accelerator</span>
-                    <p>Maintain, manage, and streamline an automotive business</p>
+                    <p>
+                      Maintain, manage, and streamline an automotive business
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1155,12 +1192,15 @@ const DeskstopMenu = () => {
                     <img
                       src="/img/menu-icons/retail-icon.png"
                       alt="retail-icon"
-                      width="48" height="48"
+                      width="48"
+                      height="48"
                     />
                   </div>
                   <div className="content">
                     <span>D365 for Retail</span>
-                    <p>Optimize retail operations with seamless user experience</p>
+                    <p>
+                      Optimize retail operations with seamless user experience
+                    </p>
                   </div>
                 </a>
               </div>
@@ -1202,8 +1242,7 @@ const DeskstopMenu = () => {
         </li>
         <li className="dropdown">
           <a href="#">
-            <span>Company</span>{" "}
-            <i className="bi bi-chevron-down"></i>
+            <span>Company</span> <i className="bi bi-chevron-down"></i>
           </a>
           <ul>
             <li>
@@ -1222,35 +1261,50 @@ const DeskstopMenu = () => {
         </li>
         <li className="dropdown">
           <a href="#">
-            <span>Resources</span>{" "}
-            <i className="bi bi-chevron-down"></i>
+            <span>Resources</span> <i className="bi bi-chevron-down"></i>
           </a>
           <ul>
             <li>
-              <a
-                href="/blog/"
-
-                target="_self"
-              >
+              <a href="/blog/" target="_self">
                 Blogs
               </a>
+            </li>
+            
+            <li>
+              <a href="/case-studies/">Case Studies</a>
             </li>
             <li>
               <a href="/ebook/">eBooks</a>
             </li>
 
             <li>
-              <a href="/case-studies/">Case Studies</a>
-            </li>
-            <li>
               <a href="/guides/">Guides</a>
             </li>
             <li>
               <a href="/white-papers/">White Papers</a>
             </li>
+            <li className="dropdown dropdown-s">
+              <a href="">
+                Tools <sub className="s-dd">new!</sub>
+                <i className="bi bi-chevron-right"></i>
+              </a>
+              <ul>
+                <li>
+                  <a href="/erp-implementation-cost-calculator/" target="_self">
+                    ERP Calculator
+                  </a>
+                </li>
+                <li>
+                  <a href="/top-erp-systems-comparison/" target="_self">
+                    ERP Comparison
+                  </a>
+                </li>
+              </ul>
+            </li>
             <li>
               <a href="/webinars/">Webinars</a>
             </li>
+            
           </ul>
         </li>
         <li>
@@ -1259,6 +1313,6 @@ const DeskstopMenu = () => {
       </ul>
     </>
   );
-}
+};
 
 export default DeskstopMenu;
