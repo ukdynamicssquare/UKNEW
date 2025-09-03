@@ -305,7 +305,7 @@ const CompareErps = () => {
         </div>
 
         {/* ERP Modal */}
-        <Modal show={showModal} size="lg" onHide={() => setShowModal(false)}>
+        <Modal show={showModal} size="lg" onHide={() => setShowModal(false)} centered>
           <Modal.Header closeButton>
             <Modal.Title><div className='text-center'>Select an ERP</div></Modal.Title>
           </Modal.Header>
