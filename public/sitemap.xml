@@ -1786,7 +1786,7 @@
     <priority>0.80</priority>
   </url>
 
-<url>
+  <url>
     <loc>https://www.dynamicssquare.co.uk/blog/new-pricing-for-dynamics-365-business-central-explained/</loc>
     <lastmod>2025-06-13T12:47:56+00:00</lastmod>
     <priority>0.80</priority>
@@ -1826,7 +1826,7 @@
     <lastmod>2025-08-05T12:47:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.dynamicssquare.co.uk/case-studies/business-central-reimplementation-for-recycling-industry/</loc>
     <lastmod>2025-08-21T12:47:56+00:00</lastmod>
     <priority>0.80</priority>
@@ -1841,9 +1841,29 @@
     <lastmod>2025-08-21T12:47:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
-    <url>
+  <url>
     <loc>https://www.dynamicssquare.co.uk/top-erp-systems-comparison/</loc>
     <lastmod>2025-08-28T12:47:56+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/10-best-ecommerce-crm-software-uk/</loc>
+    <lastmod>2025-09-04T12:47:56+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/inbound-container-handling-with-d365-business-central/</loc>
+    <lastmod>2025-09-04T12:47:56+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/dynamics-365-vs-netsuite</loc>
+    <lastmod>2025-09-04T12:47:56+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.dynamicssquare.co.uk/blog/crm-for-financial-advisors-guide</loc>
+    <lastmod>2025-09-04T12:47:56+00:00</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>     
