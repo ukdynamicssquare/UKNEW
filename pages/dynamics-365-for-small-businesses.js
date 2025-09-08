@@ -151,7 +151,7 @@ const MicrosoftCloudForNonpro = () => {
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-businesscentral.svg" width={48} height={48} alt="businesscentral" />
-                      <h3>Dynamics 365<br/>
+                      <h3>Dynamics 365<br />
                         Business Central</h3>
                     </div>
                     <div className="card-body">
@@ -167,12 +167,12 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/microsoft-dynamics-365-sales/">
                     <p className='tags-strip'>
-                    For CRM Needs
+                      For CRM Needs
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/dynamics-365-sales.svg" width={48} height={48} alt="businesscentral" />
-                      <h3>Dynamics 365<br/>
-                      Sales</h3>
+                      <h3>Dynamics 365<br />
+                        Sales</h3>
                     </div>
                     <div className="card-body">
                       <p>Centralize customer data, track leads, and close deals faster with AI-driven insights and simplified quoting.</p>
@@ -185,14 +185,14 @@ const MicrosoftCloudForNonpro = () => {
               </div>
               <div className='col-lg-3 col-md-6 d-flex'>
                 <div className="card-44">
-                  <a href="#" style={{pointerEvents:'none'}}>
+                  <a href="#" style={{ pointerEvents: 'none' }}>
                     <p className='tags-strip'>
-                    For Marketing Needs
+                      For Marketing Needs
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/Customer-Insights.png" width={48} height={48} alt="businesscentral" />
-                      <h3>Dynamics 365<br/>
-                      Customer Insights</h3>
+                      <h3>Dynamics 365<br />
+                        Customer Insights</h3>
                     </div>
                     <div className="card-body">
                       <p>Discover patterns, predict behaviour, and create personalized customer journeys.</p>
@@ -207,12 +207,12 @@ const MicrosoftCloudForNonpro = () => {
                 <div className="card-44">
                   <a href="/products/microsoft-power-platform/">
                     <p className='tags-strip'>
-                    To Extend ERP Functionality
+                      To Extend ERP Functionality
                     </p>
                     <div className="card-head">
                       <img src="/img/menu-icons/power-pltform.png" width={48} height={48} alt="businesscentral" />
-                      <h3>Microsoft <br/>
-                      Power Platform</h3>
+                      <h3>Microsoft <br />
+                        Power Platform</h3>
                     </div>
                     <div className="card-body">
                       <p>Create custom apps, automate repetitive tasks, and visualize key metrics with real-time dashboards.</p>
@@ -706,7 +706,124 @@ const MicrosoftCloudForNonpro = () => {
           </div>
         </section>
 
-
+        <section className="solution-faq faq solution-faq-r">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9 ">
+                <div className="solution-new-banner-sub-head text-center">
+                  <h2>Have you got
+                    questions about <br/>Dynamics 365 for Small Businesses?</h2>
+                  <p>Click through to our FAQ for the best answers!</p>
+                </div>
+              </div>
+            </div>
+            <div className="row justify-content-center mar-top-7">
+              <div className="col-md-8">
+                <div className="accordion accordion-flush" id="faqlist1">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-1"
+                      >What is Dynamics 365, and why is it good for small businesses?</button>
+                    </h3>
+                    <div
+                      id="faq-content-1"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Dynamics 365 is a cloud-based suite of business apps by Microsoft. It's scalable, affordable, and integrates with Microsoft 365. It is ideal for growing small businesses.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-2"
+                      >Which Dynamics 365 apps are best for small businesses?</button>
+                    </h3>
+                    <div
+                      id="faq-content-2"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p><b>Dynamics 365 Business Central</b> - for finance, inventory, and operations</p>
+                        <p><b>Dynamics 365 Sales</b> - for managing leads and customer relationships</p>
+                        <p><b>Customer Service</b> - for support and case management</p>
+                        <p><b>Marketing</b> - for email campaigns and customer journeys</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-3"
+                      >How much does Dynamics 365 cost for small businesses?</button>
+                    </h3>
+                    <div
+                      id="faq-content-3"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Sales Professional starts at around <b>£50.40user/month</b>, paid yearly, while Business Central</p>
+                        <p>Essentials starts at around <b>£57.50/user/month</b>. Microsoft often offers bundled pricing or partner discounts for SMBs.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-4"
+                      >Can Dynamics 365 integrate with existing tools?</button>
+                    </h3>
+                    <div
+                      id="faq-content-4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                        <p>Yes. It connects with Microsoft 365, Power Platform, and third-party tools like Shopify, QuickBooks, and Mailchimp.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faq-content-5"
+                      >Is Dynamics 365 easy to implement?</button>
+                    </h3>
+                    <div
+                      id="faq-content-5"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#faqlist1"
+                    >
+                      <div className="accordion-body">
+                       <p>Yes. It offers cloud setup, partner support, and user-friendly tools, which are ideal for non-technical teams.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
       </main>
