@@ -430,7 +430,7 @@ const DeskstopMenu = () => {
                             </a>
                           </div>
                         </div> */}
-                        <div className="col-md-6">
+                        {/* <div className="col-md-6">
                           <div className="list-itmes-maga-menu">
                             <a href="/products/dynamics-365-customer-engagement/">
                               <div className="pic">
@@ -447,7 +447,7 @@ const DeskstopMenu = () => {
                               </div>
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

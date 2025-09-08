@@ -65,27 +65,53 @@ const CompareErps = () => {
     "keyMarketStrength",
     "notableContext",
   ];
+//old one
+  // useEffect(() => {
+  //   fetch('https://erptoolapi.onrender.com/api/frontend/products')
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       setAllErps(data);
+
+  //       if (data.length > 0) {
+  //         const apiFeatures = Object.keys(data[0].features);
+  //         const orderedFeatures = [
+  //           ...featureOrder,
+  //           ...apiFeatures.filter(f => !featureOrder.includes(f))
+  //         ];
+
+  //         setFeatures(orderedFeatures);
+  //       }
+  //     })
+  //     .catch(err => console.error("Error loading ERP data:", err));
+  // }, []);
 
   useEffect(() => {
-    fetch('https://erptoolapi.onrender.com/api/frontend/products')
-      .then(res => res.json())
-      .then(data => {
-        setAllErps(data);
+  fetch('https://erptoolapi.onrender.com/api/frontend/products')
+    .then(res => res.json())
+    .then(data => {
+      setAllErps(data);
 
-        if (data.length > 0) {
-          const apiFeatures = Object.keys(data[0].features);
+      if (data.length > 0) {
+        // Default ERP as the first one from API
+        const defaultErp = data[0];
 
-          // Keep your manual order first, then append any new API keys
-          const orderedFeatures = [
-            ...featureOrder,
-            ...apiFeatures.filter(f => !featureOrder.includes(f))
-          ];
+        // Put default ERP in first slot
+        setSelectedErps([defaultErp, null, null, null]);
 
-          setFeatures(orderedFeatures);
-        }
-      })
-      .catch(err => console.error("Error loading ERP data:", err));
-  }, []);
+        const apiFeatures = Object.keys(data[0].features);
+
+        // Keep manual order first, then append new API keys
+        const orderedFeatures = [
+          ...featureOrder,
+          ...apiFeatures.filter(f => !featureOrder.includes(f))
+        ];
+
+        setFeatures(orderedFeatures);
+      }
+    })
+    .catch(err => console.error("Error loading ERP data:", err));
+}, []);
+
 
   const compactSelections = (arr) => {
     if (!showTable) {
