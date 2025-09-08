@@ -6,7 +6,7 @@ const BusinessCentralVSFinance = () => {
   return (
     <>
       <Head>
-        <title>Dyanmics 365 Business Central vs Finance &amp; Operations | Dyanmics Square UK</title>
+        <title>Dynamics 365 Business Central vs Finance &amp; Operations | Dyanmics Square UK</title>
         <meta
           name="description"
           content="Explore the differences between Dynamics 365 Business Central and Finance & Operations. Compare features, pricing, and deployment options."
@@ -24,19 +24,19 @@ const BusinessCentralVSFinance = () => {
                 Business Central vs Finance & Operations: Which one to choose?
               </h1>
               <p>Compare the core features, understand business requirements, and choose the ideal solution to supercharge your business growth. </p>
-                <div className="text-center text-lg-start">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Try a Product Demo</span>
-                    </a>
-                  </Link>
-                </div>
+              <div className="text-center text-lg-start">
+                <Link href="#exampleModal">
+                  <a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Try a Product Demo</span>
+                  </a>
+                </Link>
+              </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <Image src="/img/bs-vsfin.png" alt="bs-vsfin" width={602} height={315}  priority = {true} />
+              <Image src="/img/bs-vsfin.png" alt="bs-vsfin" width={602} height={315} priority={true} />
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ const BusinessCentralVSFinance = () => {
               </header>
             </div>
           </div>
-        
+
         </div>
       </section>
 
@@ -70,7 +70,7 @@ const BusinessCentralVSFinance = () => {
                   <li>Dynamics 365 for Finance and Operations</li>
                 </ul>
                 <p className="ne4">
-                Microsoft Dynamics 365 Business Central is a new-age all-in-one business management application capable of streamlining the entire operation of a business. It links and manages various departments such as finance, customer service, sales, and supply chain.
+                  Microsoft Dynamics 365 Business Central is a new-age all-in-one business management application capable of streamlining the entire operation of a business. It links and manages various departments such as finance, customer service, sales, and supply chain.
                 </p><p>On the other hand, Microsoft Dynamics 365 Finance & Supply Chain is an outdated application specifically used to manage finance, distribution, retail, production, and other similar departments. However, it has been divided into two different apps, <Link href="/products/microsoft-dynamics-365-finance/"><a target="_blank">Dynamics 365 Finance</a></Link> and <Link href="/products/dynamics-365-supply-chain-management/"><a target="_blank">Dynamics 365 Supply Chain Management</a></Link>, to deal with specific business operations.</p>
               </div>
             </div>
@@ -86,12 +86,12 @@ const BusinessCentralVSFinance = () => {
 
       <section>
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header">
                 <h2>Comparison: Business Central Vs Dynamics 365 Finance and Operations </h2>
                 <p>Find the description comparison and decide which suits you better:</p>
-              
+
               </header>
             </div>
           </div>
@@ -110,7 +110,7 @@ const BusinessCentralVSFinance = () => {
                   <li>Capable of processing modern supply chain demands, like inventory, procurement, and logistics management. </li>
                   <li>Inbuilt capabilities for managing tax and compliance-related operations. </li>
                   <li>Easy to customise as per specific business demands to streamline complex requirements. </li>
-                  
+
                 </ul>
               </div>
             </div>
@@ -144,68 +144,80 @@ const BusinessCentralVSFinance = () => {
                 <table className="table table-striped align-middle ">
                   <thead>
                     <tr>
-                      <th>Functionalities</th>
+                      <th>Feature</th>
                       <th>Dynamics 365 Business Central</th>
-                      <th>Dynamics 365 Finance and Operations </th>
+                      <th>Dynamics 365 Finance &amp; Operations (F&amp;O)</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Number of Users </td>
-                      <td>One</td>
-                      <td>Minimum 20 </td>
+                      <td><strong>Target Audience</strong></td>
+                      <td>Small to mid-sized businesses (SMBs)</td>
+                      <td>Large enterprises and multinational corporations</td>
                     </tr>
                     <tr>
-                      <td>Industry </td>
-                      <td>For SMBs </td>
-                      <td>For large enterprises </td>
+                      <td><strong>Deployment Options</strong></td>
+                      <td>Cloud-first SaaS, hybrid, or on-premises</td>
+                      <td>Cloud-native with hybrid extension support</td>
                     </tr>
                     <tr>
-                      <td>Cost of ownership </td>
-                      <td>Low</td>
-                      <td>High</td>
+                      <td><strong>Implementation Time</strong></td>
+                      <td>6&ndash;15 months</td>
+                      <td>18&ndash;30 months</td>
                     </tr>
                     <tr>
-                      <td>CRM capabilities  </td>
-                      <td>In-built CRM (Simple) </td>
-                      <td>No</td>
+                      <td><strong>User Base</strong></td>
+                      <td>1&ndash;200+ users</td>
+                      <td>200&ndash;10,000+ users</td>
                     </tr>
                     <tr>
-                      <td>implementation Cost </td>
-                      <td>Low</td>
-                      <td>Approx. 5 times the BC implementation cost </td>
+                      <td><strong>Pricing</strong></td>
+                      <td>
+                        <p>&pound;57.50/&ndash;&pound;82.20 per user/month</p>
+                      </td>
+                      <td>
+                        <p>&pound;161.50&ndash;&pound;230.70 per user/month</p>
+                      </td>
                     </tr>
                     <tr>
-                      <td>Pricing</td>
-                      <td>Essential and Premium licences are £57.50 and £82.20 per month, respectively. </td>
-                      <td>For Finance and Supply Chain Management - £147.90 User/Month </td>
+                      <td><strong>Financial Management</strong></td>
+                      <td>General ledger, budgeting, multi-currency, basic intercompany support</td>
+                      <td>Advanced intercompany, global consolidations, and regulatory compliance</td>
                     </tr>
                     <tr>
-                      <td>User Interface </td>
-                      <td>Simple</td>
-                      <td>Complex </td>
+                      <td><strong>Supply Chain Management</strong></td>
+                      <td>Basic inventory, order management, and standard production</td>
+                      <td>Full SCM suite including warehousing, transportation, planning, and IoT</td>
                     </tr>
                     <tr>
-                      <td>User Interface </td>
-                      <td>Simple </td>
-                      <td>Complex </td>
+                      <td><strong>Manufacturing</strong></td>
+                      <td>Basic manufacturing in the Premium edition</td>
+                      <td>Discrete, process, and lean manufacturing at scale</td>
                     </tr>
                     <tr>
-                      <td>Reporting  </td>
-                      <td>Basic (can be integrated with Power BI) </td>
-                      <td>Advanced </td>
+                      <td><strong>Industry Verticals</strong></td>
+                      <td>Services, light manufacturing, and distribution</td>
+                      <td>Automotive, pharmaceuticals, equipment, and complex manufacturing</td>
                     </tr>
                     <tr>
-                      <td>Manufacturing capabilities </td>
-                      <td>Basic that suits small businesses </td>
-                      <td>Advanced that suits large businesses </td>
+                      <td><strong>Customization</strong></td>
+                      <td>Standard connectors, Power BI, Power Automate</td>
+                      <td>Full Common Data Model, AI, ML, Copilot, Azure Synapse integration</td>
                     </tr>
                     <tr>
-                      <td>Maintenance </td>
-                      <td>Once required </td>
-                      <td>Needs frequent maintenance </td>
+                      <td><strong>Integration &amp; Innovation</strong></td>
+                      <td>Standard connectors, Power BI, Power Automate</td>
+                      <td>Full Common Data Model, AI, ML, Copilot, Azure Synapse integration</td>
                     </tr>
-                    
+                    <tr>
+                      <td><strong>Total Cost of Ownership</strong></td>
+                      <td>
+                        <p>Predictable per-seat at &pound;57.50/&ndash;&pound;82.20/mo</p>
+                      </td>
+                      <td>
+                        <p>Modular, higher licensing (&pound;161.50&ndash;&pound;230.70/mo) with flexible scale</p>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -247,11 +259,11 @@ const BusinessCentralVSFinance = () => {
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
-                    data-bs-toggle="modal"
-                    
-                    className="btn-get-started scrollto"
-                  >
-                    <span>Talk to Expert</span></a>
+                      data-bs-toggle="modal"
+
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Talk to Expert</span></a>
                   </Link>
                 </div>
               </div>
