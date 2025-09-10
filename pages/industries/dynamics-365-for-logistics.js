@@ -48,7 +48,7 @@ const MicrosoftCloudForNonprofit = () => {
             <div className="row">
               <div className="col-lg-6 mobile-1 align-self-center">
                 <h1>Dynamics 365 for Logistics </h1>
-                <p>Track transportation, optimise supply chain processes, perform effective resource planning, and comply with global logistics compliances with Dynamics 365 for Retail. </p>
+                <p>Track transportation, optimise supply chain processes, perform effective resource planning, and comply with global logistics compliances with Dynamics 365 for Logistics. </p>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
                     <a
