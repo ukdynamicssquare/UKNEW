@@ -288,8 +288,15 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="/schedule-a-demo/"><a target="_blank" style={{ marginBottom: '20px', display: 'block' }}><Image src="/img/blog-side-pic-top.png" width={413} height={350} alt="d605-left" /></a></Link>
-                      <Link href="/ebook/dynamics-365-finance/"><a target="_blank"><Image src="/img/finance-guide-pic.png" alt="finance-guide-pic" width={413} height={190} /></a></Link>
+                      <Link href="/">
+                        <a style={{ marginBottom: '20px', display: 'block' }}>
+                          {/* <Image src="/img/blog-side-pic-top.png" width={413} height={350} alt="d605-left" /></a> */}
+                          <Image src="/img/forber-03.png" width={413} height={392} alt="d605-left" /></a>
+                      </Link>
+                      <Link href="/ebook/dynamics-365-finance/">
+                        <a target="_blank"><Image src="/img/finance-guide-pic.png" alt="finance-guide-pic" width={413} height={190} />
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

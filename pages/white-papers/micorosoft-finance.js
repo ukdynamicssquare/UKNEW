@@ -143,7 +143,7 @@ const fetchCountryCodeByIP = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/white-papers/micorosoft-copilot/"
+          href="https://www.dynamicssquare.co.uk/white-papers/micorosoft-finance/"
         />
       </Head>
 

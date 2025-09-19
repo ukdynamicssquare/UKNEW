@@ -146,6 +146,9 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                       </span>
                     </div>
                   ))}
+                  {/* <div className="nxx-image">
+                    <a href="/schedule-a-demo/"><img  src="/img/forber-01.png" width="386" height="141" alt="menu--ss" /></a>
+                  </div> */}
                 </div>
               </div>
             </div>

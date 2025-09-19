@@ -78,7 +78,7 @@ const BlogSearch = () => {
         <div className="search-wrp">
             <div className="container" ref={searchRef}>
                 <div className="row justify-content-center">
-                    <div className="col-lg-9">
+                    <div className="col-lg-8">
                         <div className="searc-sty">
                             <div className="input-group mb-3">
                                 <input
@@ -118,30 +118,37 @@ const BlogSearch = () => {
 
                                     {!loading && visibleResults.length > 0 && (
                                         <div className="row">
-                                            {visibleResults.map((blog, index) => (
-                                                <div className="col-md-4 col-lg-4 col-6 mb-4" key={index}>
-                                                    <div className="card h-100 shadow-sm">
+                                            <div className="col-md-12 col-lg-12 col-12 mb-4">
+                                                {visibleResults.map((blog, index) => (
+
+
+
+
+                                                    <div className="car-ll-01" key={index}>
+                                                        {/* <div className="card h-100 shadow-sm"  key={index}> */}
                                                         <a href={`/blog/${blog.title_slug}`}>
-                                                            <Image
+                                                            {/* <Image
                                                                 src={blog.image}
                                                                 alt={blog.title}
                                                                 className="card-img-top"
                                                                 style={{ height: "350px", objectFit: "cover" }}
                                                                 width={600}
                                                                 height={350}
-                                                            />
+                                                            /> */}
                                                             <div className="card-body d-flex flex-column">
                                                                 <h5 className="card-title">
-                                                                    {blog.title.length > 60
-                                                                        ? blog.title.slice(0, 60) + "..."
-                                                                        : blog.title}
+                                                                    {/* {blog.title.length > 120
+                                                                        ? blog.title.slice(0, 120) + "..."
+                                                                        : blog.title} */}
+                                                                    {blog.title}
                                                                 </h5>
-                                                                <span>Read More</span>
+                                                                {/* <span>Read More</span> */}
                                                             </div>
                                                         </a>
                                                     </div>
-                                                </div>
-                                            ))}
+
+                                                ))}
+                                            </div>
                                         </div>
                                     )}
 
@@ -152,7 +159,7 @@ const BlogSearch = () => {
                                     {!loading &&
                                         visibleResults.length < allResults.length &&
                                         visibleResults.length > 0 && (
-                                            <div className="text-center mt-3">
+                                            <div className="text-center">
                                                 <button className="btn btn-secondary" onClick={handleLoadMore}>
                                                     Load More
                                                 </button>
@@ -164,6 +171,28 @@ const BlogSearch = () => {
                     </div>
                 </div>
             </div>
+            <style jsx>{`
+            .car-ll-01 a h5{
+            font-size: 14px;
+            color: #273266;
+            font-weight: 400;
+            margin-bottom: 15px;
+            background: #f5f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            transition: 0.3s ease;
+            border:1px solid transparent
+            }
+            .car-ll-01 a h5:hover{
+            transform: scale(1.02);
+            border-color: #bb2b36;
+            }
+            .btn-secondary{
+            background: #1d3557;
+    border-color: #1d3557;
+            }
+            `}
+            </style>
         </div>
     );
 };

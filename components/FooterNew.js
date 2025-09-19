@@ -653,6 +653,13 @@ const FooterNew = () => {
                     className="footer-img"
                     width={150} height={150}
                   />
+                  <br/>
+                  <img
+                    src="/img/forber-02.png"
+                    alt="microsoft-partner"
+                    className="footer-img"
+                    width={150} height={150}
+                  />
               </div> 
                   {/* <p>Subscribe Newsletter</p>
                   <span>
