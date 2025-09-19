@@ -70,7 +70,7 @@ const ContiniaExpence = () => {
             <div className="col-lg-6 align">
               <div className="supprt-header-new-one supprt-header-new-one-ul">
                 <h2>Consequences of Not Using Continia Expense Management</h2>
-                <p>When you don't have Continia Expense Management for D365 Business Central, you’re not “managing” expenses. You’re firefighting and the worst part, you’re losing. </p>
+                <p>When you don't have Continia Expense Management for <a href="/products/dynamics-365-business-central/">D365 Business Central</a>, you’re not “managing” expenses. You’re firefighting and the worst part, you’re losing. </p>
                 <p><b>Without a proper Business Central Expense Management system: </b></p>
                 <ul>
                   <li><i className="bi bi-check"></i><span>Receipts get lost before Finance ever sees them</span></li>
@@ -114,7 +114,7 @@ const ContiniaExpence = () => {
               <div className="supprt-header-new-one supprt-header-new-one-ul">
                 <h2>What Is Continia Expense Management for Business Central ERP? </h2>
                 <p>It’s not another app on the side. It’s embedded where your finances live. Continia Expense Management for Business Central ERP gives you a fully integrated, mobile-enabled way to manage expenses, right from submission to approval to booking. </p>
-                <p>Whether it’s a coffee receipt, a multi-city trip, or a corporate card bill, everything flows inside Dynamics 365. Employees get a mobile app. Managers get a web portal. Finance gets full control. </p>
+                <p>Whether it’s a coffee receipt, a multi-city trip, or a corporate card bill, everything flows inside <a href="/products/microsoft-dynamics-365/">Dynamics 365</a>. Employees get a mobile app. Managers get a web portal. Finance gets full control. </p>
                 <p>And the best part? Continia integrates with Business Central natively, which means no separate system and no added complexity. </p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
@@ -273,7 +273,7 @@ const ContiniaExpence = () => {
             <div className='col-lg-7'>
               <div className='solution-new-banner-sub-head'>
                 <h2>Benefits of Continia Expense Management for Business Central ERP </h2>
-                <p>Manual processes don’t just waste time but multiply errors, bury data, and frustrate everyone, from employees to auditors. With Continia Expense Management for <a href="/products/dynamics-365-business-central/">Business Central ERP</a>, your organisation gains a finance-ready engine that makes expense handling invisible to the user but deeply visible to the system. </p>
+                <p>Manual processes don’t just waste time but multiply errors, bury data, and frustrate everyone, from employees to auditors. With Continia Expense Management for Business Central ERP, your organisation gains a finance-ready engine that makes expense handling invisible to the user but deeply visible to the system. </p>
                 <p><b>Each benefit below is rooted in real use, not hypotheticals, because Continia doesn't add features to impress but to remove friction, risk, and hours. </b></p>
               </div>
             </div>
@@ -513,7 +513,7 @@ const ContiniaExpence = () => {
                           <div className="row">
                             <div className="col-lg-6 d-flex">
                               <div className="inner-con-div-card">
-                                <p>Scanner or Continia OCR reads and maps receipt fields automatically </p>
+                                <p>Scanner or <a href="/continia-document-capture-with-business-central/">Continia OCR</a> reads and maps receipt fields automatically </p>
                               </div>
                             </div>
                             <div className="col-lg-6 d-flex">
@@ -772,7 +772,7 @@ const ContiniaExpence = () => {
                       <div className="row">
                         <div className="col-lg-6 d-flex">
                           <div className="inner-con-div-card">
-                            <p>Scanner or Continia OCR reads and maps receipt fields automatically </p>
+                            <p>Scanner or or <a href="/continia-document-capture-with-business-central/">Continia OCR</a> reads and maps receipt fields automatically </p>
                           </div>
                         </div>
                         <div className="col-lg-6 d-flex">
@@ -841,7 +841,7 @@ const ContiniaExpence = () => {
                   <li><i className="bi bi-check"></i><span>Ongoing support and updates, not just a one-time install </span></li>
 
                 </ul>
-                <p>So yes, a document your vendor emailed without a subject line, half-cropped, sideways? Continia OCR Business Central processes it without asking you to rotate or rename it.</p>
+                <p>So yes, a document your vendor emailed without a subject line, half-cropped, sideways? <a href="/continia-for-dynamics-365-business-central/">Continia OCR Business Central</a> processes it without asking you to rotate or rename it.</p>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
