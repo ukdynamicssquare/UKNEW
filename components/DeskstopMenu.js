@@ -958,24 +958,36 @@ const DeskstopMenu = () => {
               <div className="rigt-list-menu rigt-list-menu-new p-relativ">
                 <p>Essential Tool</p>
                 <ul>
-                 
                   <li>
+                    <a href="/erp-implementation-cost-calculator/">
+                      <span className="menu-title-new">
+                        Get Your ERP Cost Estimate
+                      </span>
+                      <span className="menu-title-para">
+                        Quick, free, and tailored to your business.
+                      </span>
+                      <span className="menu-title-link">
+                        Check Now <i className="bi bi-arrow-right"></i>
+                      </span>
+                    </a>
+                  </li>
+                  {/* <li>
                     <a href="/dynamics-nav-to-business-central/">
                       <span className="menu-title-new">
                         Dynamics NAV To Business Central Upgrade
                       </span>
-                      {/* <span className="menu-title-para">
+                      <span className="menu-title-para">
                         Ensure a smoother transition for you, without costing a
                         million bucks!
-                      </span> */}
-                      {/* <span className="menu-title-link">
+                      </span>
+                      <span className="menu-title-link">
                         Read more <i className="bi bi-arrow-right"></i>
-                      </span> */}
+                      </span>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
-                <div className="pp-absol" style={{ marginTop: "2px" }}>
-                  <a href="/">
+                  <div className="pp-absol" style={{ marginTop: "2px" }}>
+                  <a rel="nofollow" href="https://councils.forbes.com/profile/Manish-Goyal-Co-founder-Dynamics-Square/1e25d5c2-1d98-46cd-834b-70d335b73b35" target="_blank">
                     <img
                       src="/img/forber-01.png"
                       width={771}

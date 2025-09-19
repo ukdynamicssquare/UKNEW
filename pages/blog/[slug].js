@@ -288,11 +288,9 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="/">
-                        <a style={{ marginBottom: '20px', display: 'block' }}>
+                        <a style={{ marginBottom: '20px', display: 'block' }} rel="nofollow" href="https://councils.forbes.com/profile/Manish-Goyal-Co-founder-Dynamics-Square/1e25d5c2-1d98-46cd-834b-70d335b73b35" target="_blank">
                           {/* <Image src="/img/blog-side-pic-top.png" width={413} height={350} alt="d605-left" /></a> */}
                           <Image src="/img/forber-03.png" width={413} height={392} alt="d605-left" /></a>
-                      </Link>
                       <Link href="/ebook/dynamics-365-finance/">
                         <a target="_blank"><Image src="/img/finance-guide-pic.png" alt="finance-guide-pic" width={413} height={190} />
                         </a>
