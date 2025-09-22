@@ -121,15 +121,15 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
               {/* Business Central Side */}
               <div className="col-lg-6">
                 <div className="blogs-side">
-                  <div className="blog-side-head">
+                  {/* <div className="blog-side-head">
                     <div className="left">
                       <img src="/img/business-center-logo.svg" alt="bg-pic" />
                     </div>
                     <div className="right">
                       Dynamics 365 <br /><span>Business Central</span>
                     </div>
-                  </div>
-                  {businesscentral.map((item, i) => (
+                  </div> */}
+                  {/* {businesscentral.map((item, i) => (
                     <div className="blogs-info-list blogs-info-list-side" key={`bc-${i}`}>
                       <h3><a href={`/blog/${item.title_slug}`}>{item.title}</a></h3>
                       <span className="user">
@@ -145,10 +145,43 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                         </a>
                       </span>
                     </div>
-                  ))}
-                  {/* <div className="nxx-image">
-                    <a href="/schedule-a-demo/"><img  src="/img/forber-01.png" width="386" height="141" alt="menu--ss" /></a>
-                  </div> */}
+                  ))} */}
+                  <div className="blog-sian" style={{marginBottom:'30px'}}><span>Insights from Forbes Technology Council</span></div>
+                 
+                  <div className="blg-side-new">
+                    <a href="https://www.forbes.com/councils/forbestechcouncil/2025/09/19/how-to-integrate-generative-ai-as-a-strategic-partner/" target="_balnk" rel="nofollow">
+                      <img src="/img/fob-ai.jpg" width={320} alt="fob-ai" />
+                      <h3>How to integrate generative AI as a strategic partner</h3>
+                    </a>
+                    <div className="user-grid">
+                      <span className="user">
+                        <a href="https://www.forbes.com/councils/forbestechcouncil/people/manishgoyal/" target="_balnk" rel="nofollow">
+                          <i className="bi bi-person-circle"></i> Manish Goyal
+                        </a>
+                        <span className="date"><a><i className="bi bi-calendar"></i> Sep 19, 2025</a></span>
+                      </span>
+                    </div>
+
+                  </div>
+                  <div className="blg-side-new">
+                    <a href="https://www.forbes.com/councils/forbestechcouncil/2025/08/29/how-to-address-or-avoid-negative-feedback-on-saas-ux-rollouts/" target="_balnk" rel="nofollow">
+                      <img src="/img/saas-ux.jpg" width={320} alt="saas-ux" />
+                      <h3>How To Address (Or Avoid) Negative Feedback On SaaS UX Rollouts</h3>
+                    </a>
+                    <div className="user-grid">
+                      <span className="user">
+                        <a href="https://www.forbes.com/councils/forbestechcouncil/people/manishgoyal/" target="_balnk" rel="nofollow">
+                          <i className="bi bi-person-circle"></i> Manish Goyal
+                        </a>
+                        <span className="date"><a><i className="bi bi-calendar"></i> Aug 29, 202519</a></span>
+                      </span>
+                    </div>
+
+                  </div>
+                   <div className="nxx-image">
+                    <a href="https://www.forbes.com/councils/forbestechcouncil/2025/09/19/how-to-integrate-generative-ai-as-a-strategic-partner/" target="_balnk" rel="nofollow"><img src="/img/forber-01.png" alt="menu--ss" width={400} /></a>
+                  </div>
+
                 </div>
               </div>
             </div>

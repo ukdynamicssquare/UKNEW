@@ -9776,7 +9776,7 @@ ul.checkmark li {
   }
   .blogs-side {
     padding-left: 0px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
   }
   .blogs-info-list-side:before {
     display: none;
@@ -14149,7 +14149,39 @@ figure {
 .video-screen-home-d {
   width: 100%;
 }
-
+.nxx-image{
+  margin-bottom: 30px;
+}
+.blg-side-new{
+margin-bottom: 30px;
+}
+.blg-side-new a{}
+.blg-side-new a img{
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.blg-side-new a h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1d3557;
+    width: 350px;
+}
+.user-grid span{
+  display: flex
+;
+    gap: 20px;
+    font-size: 14px;
+    color: #606c77
+}
+.user-grid span a{
+ color: #606c77
+}
+.user-grid span .bi{
+  color: #b52c36;
+    display: inline-block;
+    margin-right: 4px;
+}
 @media (max-width: 1400px) {
   .abs-pic.abs-pic-n {
     top: 46px;
