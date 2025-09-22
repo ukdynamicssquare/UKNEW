@@ -187,7 +187,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                               <a>
                                 <i className="bi bi-linkedin"></i>
                               </a>
-                            </LinkedinShareButton>
+                            </LinkedinShareButton> 
                           </div>
                         </div>
                       </div>
@@ -288,7 +288,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                        <a style={{ marginBottom: '20px', display: 'block' }} rel="nofollow" href="https://councils.forbes.com/profile/Manish-Goyal-Co-founder-Dynamics-Square/1e25d5c2-1d98-46cd-834b-70d335b73b35" target="_blank">
+                        <a style={{ marginBottom: '20px', display: 'block' }} rel="nofollow" href="https://www.forbes.com/councils/forbestechcouncil/2025/09/19/how-to-integrate-generative-ai-as-a-strategic-partner/" target="_blank">
                           {/* <Image src="/img/blog-side-pic-top.png" width={413} height={350} alt="d605-left" /></a> */}
                           <Image src="/img/forber-03.png" width={413} height={392} alt="d605-left" /></a>
                       <Link href="/ebook/dynamics-365-finance/">
