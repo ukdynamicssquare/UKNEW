@@ -3,10 +3,7 @@ import Cookies from 'js-cookie';
 
 const TimerModal = () => {
   const [showModal, setShowModal] = useState(false);
-
-  useEffect(() => {
-    // Run only on desktop (>= 768px)
-    if (window.innerWidth >= 768) {
+    useEffect(() => {
       const cookieExists = Cookies.get('popupModalShown');
       if (!cookieExists) {
         const timeoutId = setTimeout(() => {
@@ -17,8 +14,24 @@ const TimerModal = () => {
           clearTimeout(timeoutId);
         };
       }
-    }
+  
   }, []);
+
+  // useEffect(() => {
+  //   if (window.innerWidth >= 768) {
+  //     const cookieExists = Cookies.get('popupModalShown');
+  //     if (!cookieExists) {
+  //       const timeoutId = setTimeout(() => {
+  //         setShowModal(true);
+  //       }, 15000); // Delay of 15 seconds
+
+  //       return () => {
+  //         clearTimeout(timeoutId);
+  //       };
+  //     }
+  //   }
+  // }, []);
+
 
 
   const handleCloseModal = () => {

@@ -6107,7 +6107,7 @@ section {
 }
 .CookieConsent {
   align-items: center !important;
-  width: 100% !important;
+  width: 40% !important;
   font-size: 14px;
   margin: 0;
   box-shadow: 0 0 32px #00000026;
@@ -6119,7 +6119,7 @@ section {
   padding: 15px;
 }
 .CookieConsent button {
-  background: var(--color-red) !important;
+background: #312f2f !important;
   padding: 0.5rem 1.6rem !important;
   color: #fff !important;
   font-size: 14px;
@@ -7171,8 +7171,12 @@ section {
 }
 
 .CookieConsent {
-  width: 93% !important;
+  width: 20% !important;
   padding: 10px 10px;
+}
+.CookieConsent>div{
+  flex: inherit !important;
+  font-size: 12px;
 }
 
 @media (min-width: 991px) {
@@ -7184,6 +7188,10 @@ section {
   }
 }
 @media (max-width: 991px) {
+  .CookieConsent {
+  width: 40% !important;
+  padding: 10px 10px;
+}
   .hd-div {
     display: none !important;
   }
