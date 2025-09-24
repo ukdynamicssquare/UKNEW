@@ -47,8 +47,8 @@ const TimerModal = () => {
 
               <div className="buttonn-clo">
                
-                {/* Redirect Button (target="_blank") */}
-                <a
+        
+                {/* <a
                   href="https://www.forbes.com/councils/forbestechcouncil/2025/09/19/how-to-integrate-generative-ai-as-a-strategic-partner/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -57,10 +57,10 @@ const TimerModal = () => {
                 >
                   Get Insights
                 </a>
-                 {/* Close Button */}
+  
                 <button onClick={handleCloseModal} className="btn btn-ttt">
                   Stay on site
-                </button>
+                </button> */}
 
               </div>
             </div>

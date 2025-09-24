@@ -3,7 +3,7 @@ import Image from "next/image";
 import DeskstopMenu from "./DeskstopMenu";
 import MobileMenu from "./MobileMenu";
 import { useRouter } from "next/router";
-// import TimerModal from "./TimerModal";
+import TimerModal from "./TimerModal";
 
 const HeaderWork = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -73,7 +73,7 @@ const HeaderWork = () => {
 
   return (
     <>
-      {/* <TimerModal /> */}
+      <TimerModal />
       <header
         id="header"
         className={`header ${isFixed ? "fixed-top" : ""} ${currentHeaderClass}`}
