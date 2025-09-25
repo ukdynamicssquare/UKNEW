@@ -179,7 +179,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
 
                   </div>
                    <div className="nxx-image">
-                    <a href="https://www.forbes.com/councils/forbestechcouncil/2025/09/19/how-to-integrate-generative-ai-as-a-strategic-partner/" target="_balnk" rel="nofollow"><img src="/img/forber-01.png" alt="menu--ss" width={400} /></a>
+                    <a href="https://councils.forbes.com/profile/Manish-Goyal-Co-founder-Dynamics-Square/1e25d5c2-1d98-46cd-834b-70d335b73b35" target="_balnk" rel="nofollow"><img src="/img/forber-01.png" alt="menu--ss" width={400} /></a>
                   </div>
 
                 </div>
