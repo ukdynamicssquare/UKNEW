@@ -82,19 +82,19 @@ const HumanResour = () => {
                 </div>
               </div>
               <div className='m-b-image'>
-                <Image src="/img/bc-mobile-banner.png" alt='bc-mobile-banner' width={1098} height={657} />
+                <Image src="/img/Human-Resource-banner.png" alt='Human-Resource-banner' width={1098} height={657} />
               </div>
             </div>
 
           </div>
         </div>
-        <div className="solution-new-banner-one-img">
-          <Image src="/img/banner-tt-01.png" alt="New Solution" width={1920} height={948} className="flot-1" />
+        <div className="solution-new-banner-one-img solution-new-banner-one-img-f">
+          <Image src="/img/hr-banner.png" alt="hr-banner" width={1920} height={948} className="flot-1" />
           {/* <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
           <img src="/img/n-004.png" alt="New Solution" className="flot-3" />
           <img src="/img/n-005.png" alt="New Solution" className="flot-4" /> */}
           <div className='flot-5'>
-            <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="New Solution" className="flot-img" width={48} height={48} />
+            <img src="/img/hr-banner-icon.png" alt="" className="flot-img" width={48} height={48} />
           </div>
           {/* <div className='flot-121'>
                         <div className='border-11'>
@@ -187,7 +187,7 @@ const HumanResour = () => {
             <div className='col-lg-6'>
               <div className='product-side-001'>
                 <div className="flot-8">
-                  <Image src="/img/n-006.png" width={513} height={455} alt="New Solution" />
+                  <Image src="/img/hr-side-01.png" width={513} height={455} alt="New Solution" />
                 </div>
                 <img width={563} height={478} src="/img/n-007.png" alt="New Solution" className="flot-9" />
               </div>
@@ -239,7 +239,7 @@ const HumanResour = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
+                      <Image src="/img/hr-side-02.png" width={574} height={369} alt="Card 1" />
                     </div>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ const HumanResour = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-009.png" width={574} height={360} alt="Card 2" />
+                      <Image src="/img/hr-side-03.png" width={574} height={360} alt="Card 2" />
                     </div>
                   </div>
                 </div>
@@ -271,7 +271,7 @@ const HumanResour = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-010.png" width={574} height={360} alt="Card 3" />
+                      <Image src="/img/hr-side-04.png" width={574} height={360} alt="Card 3" />
                     </div>
                   </div>
                 </div>
@@ -287,7 +287,7 @@ const HumanResour = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-011.png" width={584} height={369} alt="Card 4" />
+                      <Image src="/img/hr-side-05.png" width={584} height={369} alt="Card 4" />
                     </div>
                   </div>
                 </div>
@@ -303,7 +303,7 @@ const HumanResour = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-012.png" width={571} height={369} alt="Card 5" />
+                      <Image src="/img/hr-side-06.png" width={571} height={369} alt="Card 5" />
                     </div>
                   </div>
                 </div>
@@ -319,7 +319,7 @@ const HumanResour = () => {
                       </ul>
                     </div>
                     <div className='mycard__inner-right'>
-                      <Image src="/img/n-012.png" width={571} height={369} alt="Card 5" />
+                      <Image src="/img/hr-side-07.png" width={571} height={369} alt="Card 5" />
                     </div>
                   </div>
                 </div>
@@ -447,7 +447,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-6 align-self-center'>
               <div className='product-side-002-img001'>
-                <Image src="/img/n-013.png" width={513} height={510} alt="Card 6" />
+                <Image src="/img/hr-side-08.png" width={416} height={485} alt="Card 6" />
 
               </div>
             </div>
@@ -475,7 +475,7 @@ const HumanResour = () => {
           <div className='row g-5'>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-04.png" width={48} height={49} alt="bc-8-04" />
+                <img src="/img/hr-banner-icon-01.png" width={36} height={36} alt="hr-banner-icon-01" />
                 <h3>Payroll and Finance</h3>
                 <p>Integrated payroll with providers, real-time cost tracking, and compliance-ready reporting.</p>
                 <a href="/products/dynamics-365-business-central/financial-management/" target='_blank'>Learn More</a>
@@ -483,7 +483,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-05.png" width={48} height={49} alt="bc-8-05" />
+                <img src="/img/hr-banner-icon-02.png" width={36} height={36} alt="hr-banner-icon-02" />
                 <h3>Benefits and Compensation</h3>
                 <p>Create flexible benefits packages, manage enrolment, and roll out company-wide compensation changes with confidence.</p>
                 <a href="/products/dynamics-365-business-central/supply-chain-management/" target='_blank'>Learn More</a>
@@ -491,7 +491,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-06.png" width={48} height={49} alt="bc-8-06" />
+                <img src="/img/hr-banner-icon-03.png" width={36} height={36} alt="hr-banner-icon-03" />
                 <h3>Recruiting Add-On</h3>
                 <p>Track applicants, automate interviews, and connect with LinkedIn Talent Solutions for faster hiring.</p>
                 <a href="/products/dynamics-365-business-central/sales-order-management/" target='_blank'>Learn More</a>
@@ -499,7 +499,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-07.png" width={48} height={49} alt="bc-8-07" />
+                <img src="/img/hr-banner-icon-04.png" width={36} height={36} alt="hr-banner-icon-04" />
                 <h3>Employee Self-Service</h3>
                 <p>Leave requests, training enrolment, and performance tracking through Teams and mobile access.</p>
                 <a href="/products/dynamics-365-business-central/project-management/" target='_blank'>Learn More</a>
@@ -507,7 +507,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-08.png" width={48} height={49} alt="bc-8-08" />
+                <img src="/img/hr-banner-icon-05.png" width={36} height={36} alt="hr-banner-icon-05" />
                 <h3>Performance and Training</h3>
                 <p>Set goals, monitor feedback, and track certifications to improve growth and retention.</p>
                 <a href="/products/dynamics-365-business-central/warehouse-management/" target='_blank'>Learn More</a>
@@ -515,7 +515,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-09.png" width={48} height={49} alt="bc-8-09" />
+                <img src="/img/hr-banner-icon-06.png" width={36} height={36} alt="hr-banner-icon-06" />
                 <h3>Workforce Insights and Analytics</h3>
                 <p>Use Power BI dashboards and embedded analytics for better workforce planning.</p>
                 <a href="/products/dynamics-365-business-central/service-management/" target='_blank'>Learn More</a>
@@ -523,7 +523,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-10.png" width={48} height={49} alt="bc-8-10" />
+                <img src="/img/hr-banner-icon-07.png" width={36} height={36} alt="hr-banner-icon-07" />
                 <h3>Service and Case Management</h3>
                 <p>Automate scheduling, track HR cases in real time, and monitor service agreements.</p>
                 <a href="/products/dynamics-365-business-central/manufacturing-management/" target='_blank'>Learn More</a>
@@ -531,7 +531,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
+                <img src="/img/hr-banner-icon-08.png" width={36} height={36} alt="hr-banner-icon-08" />
                 <h3>Leave and Absence Management</h3>
                 <p>Create compliant leave programmes that adapt to global regulations and keep employees informed.</p>
                 <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
@@ -539,7 +539,7 @@ const HumanResour = () => {
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
-                <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
+                <img src="/img/hr-banner-icon-09.png" width={36} height={36} alt="hr-banner-icon-09" />
                 <h3>Microsoft Copilot and AI Agents</h3>
                 <p>AI-driven predictions, chat-based assistance, and workforce insights that help HR teams act faster.</p>
                 <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
@@ -710,7 +710,7 @@ const HumanResour = () => {
             </div>
           </div>
         </div>
-        <img src="/img/n-015.png" alt="n-015" />
+        <img src="/img/hr-banner-icon-10.png" alt="hr-banner-icon-10" />
       </section>
 
       <section id='section8' className='solution-new-pricing'>
@@ -772,7 +772,7 @@ const HumanResour = () => {
           <div className="row justify-content-center" style={{paddingBottom:'30px'}}>
             <div className="col-lg-4 d-flex">
               <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
-                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <Image src="/img/hr-banner-icon-11.png" alt="hr-banner-icon-11" width={42} height={42} />
                 <h3>Dynamics 365 HR Implementation</h3>
                 <p>Seamless deployment of HR capabilities, aligned with your business processes.</p>
                 <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
@@ -780,7 +780,7 @@ const HumanResour = () => {
             </div>
             <div className="col-lg-4 d-flex">
               <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
-                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <Image src="/img/hr-banner-icon-12.png" alt="hr-banner-icon-12" width={40} height={40} />
                 <h3>Dynamics 365 HR Support</h3>
                 <p>Continuous assistance to keep systems optimised and aligned with HR goals.</p>
                 <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
@@ -789,7 +789,7 @@ const HumanResour = () => {
 
             <div className="col-lg-4 d-flex">
               <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
-                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <Image src="/img/hr-banner-icon-13.png" alt="hr-banner-icon-13" width={40} height={36} />
                 <h3>Payroll Integration</h3>
                 <p>Configure and connect Dynamics 365 Human Resources payroll with providers for accurate salary processing and compliance.</p>
                 <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
@@ -799,7 +799,7 @@ const HumanResour = () => {
            <div className="row justify-content-center">
             <div className="col-lg-6 d-flex">
               <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
-                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <Image src="/img/hr-banner-icon-14.png" alt="hr-banner-icon-14" width={44} height={32} />
                 <h3>Recruiting Add-On</h3>
                 <p>Integrate the Dynamics 365 Human Resources recruiting add-on with LinkedIn Talent Solutions to attract and hire better talent.</p>
                 <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
@@ -809,7 +809,7 @@ const HumanResour = () => {
             <div className="col-lg-6 d-flex">
               <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
                 {/* <img className="image-backx" src="/img/free-cons.png" alt="free-cons" /> */}
-                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <Image src="/img/hr-banner-icon-15.png" alt="hr-banner-icon-15" width={38} height={44} />
                 <h3>Finance and Supply Chain Integration</h3>
                 <p>Extend HR capabilities by linking with Dynamics 365 Finance and Dynamics 365 Supply Chain Management for unified operations.</p>
                 <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
