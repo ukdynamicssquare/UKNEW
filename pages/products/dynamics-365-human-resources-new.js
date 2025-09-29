@@ -3,11 +3,11 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 // import useGsapScrollCards from '../../../hooks/useGsapScrollCards';
-import faqData from '../../public/data/business_centeral_faq.json';
+import faqData from '../../public/data/human_faq.json';
 import useCardScrollEffect from "../../components/useCardScrollEffect";
-import BcPopPdf from '../../components/BCPdfPopup';
+// import BcPopPdf from '../../components/BCPdfPopup';
 import NavBar from '../../components/NavBar';
-import BlogFinanaceCard from '../../components/BlogFinanaceCard';
+// import BlogFinanaceCard from '../../components/BlogFinanaceCard';
 
 
 
@@ -42,7 +42,7 @@ const HumanResour = () => {
     <>
       <Head>
         <title>Microsoft Dynamics 365 Human Resources: Transform Workforce Management</title>
-         <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Transform HR operations with Dynamics 365 Human Resources. From talent acquisition to employee engagement, manage everything in one smart platform." />
@@ -225,7 +225,7 @@ const HumanResour = () => {
           </div>
           <div className="row">
             <div className="col-12">
-  
+
               <div className="stached-scroll-card">
                 <div className='mycard'>
                   <div className='mycard__inner'>
@@ -402,8 +402,8 @@ const HumanResour = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Dynamics 365 Business Central Benefits: <br />You Can’t Afford to Ignore </h2>
-                <p>Every successful business has one thing in common: they run on systems that work for them, not against them. Dynamics 365 Business Central is the edge you need to outperform your competitors. </p>
+                <h2>Benefits of Dynamics 365 Human Resources</h2>
+                <p>Every strong organisation relies on systems that support both business and people. Dynamics 365 Human Resources benefits create efficiency, clarity, and better employee experiences across every level of the company.</p>
               </div>
             </div>
           </div>
@@ -412,28 +412,28 @@ const HumanResour = () => {
               <div className='product-side-002'>
                 <ul>
                   <li>
-                    <h3>Scale Without the Growing Pains</h3>
-                    <p>Struggling to keep up with increasing orders, expanding teams, or multi-location operations? Business Central ERP automates and streamlines processes, ensuring you can scale effortlessly, with clarity and control! </p>
+                    <h3>Scale Without Barriers</h3>
+                    <p>Managing expanding teams, new locations, and global compliance rules can feel overwhelming. Dynamics 365 Human Resources automates routine administration, connects payroll and benefits, and gives managers full visibility to scale confidently.</p>
                   </li>
                   <li>
-                    <h3>Improve Cash Flow & Cut Unnecessary Costs </h3>
-                    <p>Cash flow has to be maintained at any cost. Delayed invoicing, financial blind spots, and poor forecasting can choke your profitability. With real-time financial insights & AI-powered predictions with Microsoft Copilot, you always know where your money is going. </p>
+                    <h3>Improve Cash Flow and Control HR Costs</h3>
+                    <p>Financial blind spots in payroll or benefits directly affect profitability. With integrated payroll systems, budget tracking, and Copilot-driven forecasts, you always see how compensation, taxes, and expenses impact your business.</p>
                   </li>
                   <li>
-                    <h3>Prevent Stockouts & Overstocks— Every Order Counts </h3>
-                    <p>Ever lost a customer because an item was “out of stock”? Or worse—ended up over-ordering, tying up valuable cash in unsold inventory? Business Central’s AI-driven inventory management ensures you stock just right. </p>
+                    <h3>Self-Service That Empowers Employees and Managers</h3>
+                    <p>Employees prefer quick access to leave requests, training, and performance data. With Dynamics 365 Human Resources self-service, both employees and managers gain clarity through Microsoft Teams, reducing admin workload and improving satisfaction.</p>
                   </li>
                   <li>
-                    <h3>Stop Wasting Hours on Manual Tasks </h3>
-                    <p>Still managing finances, payroll, or compliance manually? Automate 90% of your repetitive admin tasks so you can focus on growing your business instead of getting buried in paperwork. </p>
+                    <h3>Automate HR Tasks and Save Hours</h3>
+                    <p>Manual HR administration consumes valuable time. Automating payroll, absence tracking, and compliance frees HR teams to focus on strategic goals like retention and employee growth instead of paperwork.</p>
                   </li>
                   <li>
-                    <h3>Make Smart Decisions—Not Gut-Feeling Guesses </h3>
-                    <p>What if you could predict demand, analyse customer behaviour, and instantly see the financial impact of every decision? Dynamics 365 Business Central gives you real-time data, so you make decisions backed by facts, not assumptions. </p>
+                    <h3>Make Decisions with Real-Time Insights</h3>
+                    <p>Gut-driven decisions often backfire in HR. With real-time dashboards, workforce analytics, and predictive AI, managers confidently adjust compensation, recruitment, or benefits based on data.</p>
                   </li>
                 </ul>
                 <div className='product-side-002-ext'>
-                  <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. </p>
+                  <p>Connected HR systems improve compliance and productivity while reducing HR costs across the organisation. Companies using Dynamics 365 report higher retention and better employee satisfaction.</p>
                   <div className="text-lg-start">
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
@@ -466,9 +466,9 @@ const HumanResour = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Modules: <br />All Your Business Needs in One Place </h2>
-                <p>Every business needs more than just accounting software. You need an integrated and centralised system that connects every department seamlessly. </p>
-                <p>Here’s what Dynamics 365 Business Central covers: </p>
+                <h2>Modules in Dynamics 365 Human Resources</h2>
+                <p>HR requires more than payroll or leave tracking. With Dynamics 365 Finance and Operations Human Resources, every function connects in one place for a complete view of people, costs, and compliance.</p>
+                <p>Here is what Dynamics 365 covers:</p>
               </div>
             </div>
           </div>
@@ -476,84 +476,83 @@ const HumanResour = () => {
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-04.png" width={48} height={49} alt="bc-8-04" />
-                <h3>Finance & Accounting</h3>
-                <p>Real-time cash flow tracking, automated invoicing, and compliance-ready reporting. </p>
+                <h3>Payroll and Finance</h3>
+                <p>Integrated payroll with providers, real-time cost tracking, and compliance-ready reporting.</p>
                 <a href="/products/dynamics-365-business-central/financial-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-05.png" width={48} height={49} alt="bc-8-05" />
-                <h3>Supply Chain & Inventory Management</h3>
-                <p>AI-powered demand forecasting, stock-level alerts, and vendor automation. </p>
+                <h3>Benefits and Compensation</h3>
+                <p>Create flexible benefits packages, manage enrolment, and roll out company-wide compensation changes with confidence.</p>
                 <a href="/products/dynamics-365-business-central/supply-chain-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-06.png" width={48} height={49} alt="bc-8-06" />
-                <h3>Sales CRM</h3>
-                <p>Track leads, automate follow-ups, and close deals faster. </p>
+                <h3>Recruiting Add-On</h3>
+                <p>Track applicants, automate interviews, and connect with LinkedIn Talent Solutions for faster hiring.</p>
                 <a href="/products/dynamics-365-business-central/sales-order-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-07.png" width={48} height={49} alt="bc-8-07" />
-                <h3>Project Management</h3>
-                <p>Cost analysis and job tracking help managers monitor schedules and costs. </p>
+                <h3>Employee Self-Service</h3>
+                <p>Leave requests, training enrolment, and performance tracking through Teams and mobile access.</p>
                 <a href="/products/dynamics-365-business-central/project-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-08.png" width={48} height={49} alt="bc-8-08" />
-                <h3>Warehouse Management</h3>
-                <p>AI-driven warehouse management optimises storage, order fulfilment, and stock levels. </p>
+                <h3>Performance and Training</h3>
+                <p>Set goals, monitor feedback, and track certifications to improve growth and retention.</p>
                 <a href="/products/dynamics-365-business-central/warehouse-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-09.png" width={48} height={49} alt="bc-8-09" />
-                <h3>Service Management</h3>
-                <p>Automate scheduling, real-time case tracking, and SLA monitoring to improve customer service. </p>
+                <h3>Workforce Insights and Analytics</h3>
+                <p>Use Power BI dashboards and embedded analytics for better workforce planning.</p>
                 <a href="/products/dynamics-365-business-central/service-management/" target='_blank'>Learn More</a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-10.png" width={48} height={49} alt="bc-8-10" />
-                <h3>Manufacturing & Production</h3>
-                <p>Automate work orders, optimise supply planning, and reduce waste. </p>
+                <h3>Service and Case Management</h3>
+                <p>Automate scheduling, track HR cases in real time, and monitor service agreements.</p>
                 <a href="/products/dynamics-365-business-central/manufacturing-management/" target='_blank'>Learn More</a>
               </div>
             </div>
-            {/* <div className='col-lg-4 d-flex'>
-              <div className='solution-new-card-001'>
-                <img src="/img/bc-8-11.png" width={48} height={49} alt="bc-8-11" />
-                <h3>HR & Payroll</h3>
-                <p>Automate compliance, salary processing, and employee record-keeping. </p>
-                <a href="/products/dynamics-365-business-central/human-resource-management/" target='_blank'>Learn More</a>
-              </div>
-            </div> */}
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001'>
                 <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
-                <h3>AI(Copilot)  & Business Intelligence</h3>
-                <p>Get actionable insights, predictive analytics, and smarter decision-making with Microsoft Copilot. </p>
+                <h3>Leave and Absence Management</h3>
+                <p>Create compliant leave programmes that adapt to global regulations and keep employees informed.</p>
+                <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-card-001'>
+                <img src="/img/bc-8-12.png" width={48} height={49} alt="bc-8-12" />
+                <h3>Microsoft Copilot and AI Agents</h3>
+                <p>AI-driven predictions, chat-based assistance, and workforce insights that help HR teams act faster.</p>
                 <a href="/products/dynamics-365-copilot/" target='_blank'>Learn More</a>
               </div>
             </div>
 
             <div className='col-lg-7 d-flex'>
               <div className='solution-new-card-001-p'>
-                <p>No need to juggle multiple tools when one solution does it all. Unify your business and accelerate growth. </p>
-                <a style={{ cursor: 'pointer' }} onClick={() => handleOpenModal('pdf4')}
+                <p>Dynamics 365 Human Resources payroll and every other module work as part of one connected system.</p>
+                <a style={{ cursor: 'pointer' }}
                   className="btn-get-started"
                 >
-                  <span>Download Business Central Capability Guide* &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                <p className='disclm'>This document is published by Microsoft. Dynamics Square is sharing it for informational purposes only as a Microsoft Solutions Partner. All content and rights belong to Microsoft Corporation. </p>
+                  <span>Book Your Free Demo Today &nbsp;<i className="bi bi-arrow-right"></i></span></a>
               </div>
 
             </div>
@@ -566,8 +565,8 @@ const HumanResour = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Copilot in Dynamics 365 Business Central:<br /> ERP with AI Capabilities</h2>
-                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
+                <h2>Copilot in Dynamics 365 Human Resources</h2>
+                <p>Imagine an HR system that acts as a partner instead of a tool. Copilot in Dynamics 365 Human Resources brings AI-powered automation, smart insights, and instant assistance to every stage of HR management. No wasted time, only seamless efficiency.</p>
               </div>
             </div>
           </div>
@@ -581,37 +580,43 @@ const HumanResour = () => {
           <div className='row g-3 m-t-4'>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
-                <h3>Transform the Way You Work  </h3>
-                <p>Copilot helps you stay up to speed and competitive by taking care of repetitive tasks. </p>
+                <h3>Transform the Way HR Works</h3>
+                <p>Copilot automates repetitive tasks, giving HR teams time to focus on people, not paperwork.</p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
-                <h3>Get Answers in Seconds with AI-Powered Chat</h3>
-                <p>No more digging through reports or chasing down data. Just ask Copilot! </p>
+                <h3>Get Answers in Seconds</h3>
+                <p>No need to search through reports. Ask Copilot, and the information appears instantly.</p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
-                <h3>Drive Creativity and Sell More, Smarter  </h3>
-                <p>Struggling with marketing copy, product descriptions, or sales emails? Let Copilot do it for you. </p>
+                <h3>Support Recruiting and Employee Growth</h3>
+                <p>Struggling with job descriptions, performance reviews, or employee communications? Copilot helps create and refine them.</p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
-                <h3>Focus on Customers, Not Data Entry  </h3>
-                <p>Your sales team should be building relationships, not drowning in manual order processing. </p>
+                <h3>Empower Managers and Employees</h3>
+                <p>From leave requests to payroll cheques, Copilot acts as an AI agent in Dynamics 365 HR, simplifying processes for everyone.</p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-six-card'>
-                <h3>AI That Spots Trends Before You Do  </h3>
-                <p>Missed trends equate to missed opportunities. Copilot helps you make smarter decisions. </p>
+                <h3>Spot Trends Before They Impact Performance</h3>
+                <p>Missed workforce trends lead to lost opportunities. Copilot identifies patterns and risks early, so HR leaders act with confidence.</p>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Strengthen Decision-Making with Predictive Insights</h3>
+                <p>Copilot uses predictive analytics to forecast workforce needs, helping leaders plan ahead with accuracy.</p>
+              </div>
+            </div>
+            <div className='col-lg-12 text-center' style={{ paddingTop: '40px' }}>
               <div className='solution-new-six-card-cat'>
-                <h3>Ready to move faster? See Copilot in Action!</h3>
+                <h3>Ready to experience smarter HR management? See Copilot in action today</h3>
                 <Link href="#exampleModal"><a
                   data-bs-toggle="modal"
                   className="btn-get-started scrollto"
@@ -623,7 +628,7 @@ const HumanResour = () => {
           </div>
         </div>
       </section>
-      <section id='section7' className='solution-new-banner-fives'>
+      {/* <section id='section7' className='solution-new-banner-fives'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8'>
@@ -684,22 +689,21 @@ const HumanResour = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className='solution-new-cta slution-new-cta-two'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-cta-001'>
-                <h3>Act Now or Watch Others Take the Lead</h3>
-                <p>Every moment without an integrated and AI-powered system is a lost opportunity, wasted time, and unnecessary expense. Choose Business Central: The Smartest Cloud ERP for Your Business!</p>
-                <p>If Not Now, When?</p>
+                <h3>Start Your HR Transformation Now</h3>
+                <p>Every HR delay affects payroll, compliance, and talent. Start a Dynamics 365 Human Resources trial with expert guidance for faster processes, engaged employees, and confident decision-making.</p>
                 <div>
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Get Your Free Trial of BC Today*  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Experience HR in Action Today &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -714,15 +718,14 @@ const HumanResour = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>D365 Business Central Pricing & Licensing:<br /> Invest in Growth, Not Complexity </h2>
-                <p>Effortless scaling unlocks when you choose to invest in Business Central Cloud ERP. Decisions that used to wait for days, now take seconds! </p>
-                <p>Transparent Pricing for UK Businesses </p>
+                <h2>Dynamics 365 Human Resources Pricing</h2>
+                <p>Microsoft keeps the pricing of Dynamics 365 Human Resources transparent and affordable, helping organisations manage workforce costs while improving employee satisfaction.</p>
               </div>
             </div>
           </div>
 
           <div className='row g-3'>
-            <div className='col-lg-3 d-flex'>
+            {/* <div className='col-lg-3 d-flex'>
               <div className='solution-new-pricing-card col-ff3'>
                 <h3>Business Central<span>Free Trial</span>
                 </h3>
@@ -731,364 +734,93 @@ const HumanResour = () => {
                 <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Try for Free </a>
                 <p className='disclm'>*Get a 30-day free trial to see it for yourself.</p>
               </div>
-            </div>
-            <div className='col-lg-3 d-flex'>
+            </div> */}
+            <div className='col-lg-6 d-flex'>
               <div className='solution-new-pricing-card'>
-                <h3>Business Central<span>Essentials</span>
-                </h3>
-                <p>Handle finance, sales, and operations through one smart system. Built-in Copilot (Microsoft AI) helps you drive clarity, speed, and stronger outcomes.</p>
-                <h4>£57.50<span>/user/month</span></h4>
+                <h3>Dynamics 365 Human Resources</h3>
+                <p>Includes full application capabilities such as payroll integration, benefits management, leave tracking, and performance monitoring.</p>
+                <h4>£103.80 <span>per user per month</span></h4>
                 <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
-                <p className='disclm'>*Excluding VAT</p>
+                <p className='disclm'>Paid yearly, excluding VAT.</p>
               </div>
             </div>
-            <div className='col-lg-3 d-flex'>
+            <div className='col-lg-6 d-flex'>
               <div className='solution-new-pricing-card col-ff3'>
-                <h3>Business Central<span>Premium</span>
-                </h3>
-                <p>Access every feature from the Essentials plan, along with advanced tools for service and manufacturing. Designed for expanding teams seeking better clarity.</p>
-                <h4>£82.20<span>/user/month</span></h4>
-                <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
-                <p className='disclm'>*Excluding VAT</p>
-              </div>
-            </div>
-            <div className='col-lg-3 d-flex'>
-              <div className='solution-new-pricing-card'>
-                <h3>Business Central<span>Team Member</span>
-                </h3>
-                <p>Gain access to view records, approve requests, and edit specific details. A perfect match for those supporting daily tasks across departments.</p>
-                <h4>£6.60<span>/user/month</span></h4>
-                <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Contact us</a>
-                <p className='disclm'>*Excluding VAT</p>
+                <h3>Dynamics 365 Human Resources Self Service</h3>
+                <p>Provides employee and manager self-service features for requests, training, and performance tracking.</p>
+                <h4>£3.10 <span>/user/month</span></h4>
+                <a href="#exampleModal" data-bs-toggle="modal" className="btn-dd-t btn-get-started" >Connect With Us to Get Started</a>
+                <p className='disclm'>Paid yearly, excluding VAT.</p>
               </div>
             </div>
 
           </div>
-          {/* <div className='row'>
-            <div className='col-lg-7 d-flex'>
-              <div className='solution-new-card-001-p'>
-                <p>No hidden fees. No overpriced customisations. Just the right tools to power your business.
-                  The Cost of Doing Nothing? Far Greater. Compare plans and find your perfect fit!</p>
-                < a href="/products/dynamics-365-business-central/pricing-licensing" className="btn-get-started scrollto">
-                  <span>Learn More! &nbsp;<i className="bi bi-arrow-right"></i></span>
-                </a>
-              </div>
-            </div>
-          </div> */}
         </div>
       </section>
 
 
-      {/* <section className='s-options-end'>
+      <section className="busnes-upgrade-serve-one" style={{ paddingTop: '0px' }}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-9">
+            <div className="col-lg-8">
               <div className="solution-new-banner-sub-head">
-                <h2>Extend Smartly with Attach Licenses</h2>
-                <p>Add new Dynamics 365 apps without paying the full price. Attach licenses allow you to expand across key areas while keeping your budget in check. Ideal for brands planning to add:</p>
+                <h2>Dynamics Square Services for Dynamics 365 Human Resources</h2>
+                <p>Deploying Dynamics 365 Human Resources effectively requires the right partner. At Dynamics Square, we provide tailored services that ensure you gain the full value of your HR investment.</p>
               </div>
             </div>
           </div>
-          <div className='row'>
-            <div className='col-lg-6'>
-              <div className='hov-card-im01'>
-                <a href="#exampleModal" data-bs-toggle="modal"><img src="/img/bcplusales.png" alt="" /></a>
+          <div className="row justify-content-center" style={{paddingBottom:'30px'}}>
+            <div className="col-lg-4 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/settings_b.png" alt="settings_b" width={48} height={48} />
+                <h3>Dynamics 365 HR Implementation</h3>
+                <p>Seamless deployment of HR capabilities, aligned with your business processes.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
-            <div className='col-lg-6'>
-              <div className='hov-card-im01'>
-                <a href="#exampleModal" data-bs-toggle="modal"><img src="/img/bcpluscutmer.png" alt="" /></a>
+            <div className="col-lg-4 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/outbound.png" alt="outbound" width={48} height={48} />
+                <h3>Dynamics 365 HR Support</h3>
+                <p>Continuous assistance to keep systems optimised and aligned with HR goals.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
+
+            <div className="col-lg-4 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Payroll Integration</h3>
+                <p>Configure and connect Dynamics 365 Human Resources payroll with providers for accurate salary processing and compliance.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
+              </div>
+            </div>  
           </div>
-          <div className='row'>
-            <div className='col-lg-7 order-2'>
-              <div className='row'>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Fresh Implementation & Migration Assistance</h3>
-                    </div>
-                    <p>Get up and running without headaches or hiccups. </p>
-
-                  </div>
-                </div>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Customisation & Optimisation</h3>
-                    </div>
-                    <p>Tailor Business Central ERP to match your workflows perfectly.</p>
-
-                  </div>
-                </div>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>24/7 Troubleshooting & Issue Resolution</h3>
-                    </div>
-                    <p>No waiting. No guesswork. Just solutions.</p>
-
-                  </div>
-                </div>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>Performance Tuning & Upgrades</h3>
-                    </div>
-                    <p>Stay ahead with the latest features, AI enhancements & security updates. </p>
-
-                  </div>
-                </div>
-                <div className='col-lg-6 d-flex'>
-                  <div className='card557'>
-                    <div className='card-233-body'>
-                      <h3><span><i className="bi bi-check2"></i></span>User Training & Best Practices</h3>
-                    </div>
-                    <p>Empower your team to maximise efficiency and productivity.</p>
-
-                  </div>
-                </div>
-
-              </div>
-              <div className='row'>
-                <div className='col-lg-12'>
-                  <div style={{ marginLeft: '15px' }}>
-                    < a href="/d365-business-central-support/" className="btn-get-started scrollto">
-                      <span>Learn More! &nbsp;<i className="bi bi-arrow-right"></i></span>
-                    </a>
-                  </div>
-                </div>
+           <div className="row justify-content-center">
+            <div className="col-lg-6 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                <Image src="/img/person_pin.png" alt="person_pin" width={48} height={48} />
+                <h3>Recruiting Add-On</h3>
+                <p>Integrate the Dynamics 365 Human Resources recruiting add-on with LinkedIn Talent Solutions to attract and hire better talent.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
-            <div className='col-lg-5 order-1'>
-              <div className='img-backs-sid'>
-                <Image src="/img/n-016.png" alt="copil-side" width={401} height={455} className='im-two' />
+
+            <div className="col-lg-6 d-flex">
+              <div className="upgrade-box-one upgrade-box-one-c d-flex-fil">
+                {/* <img className="image-backx" src="/img/free-cons.png" alt="free-cons" /> */}
+                <Image src="/img/forum.png" alt="forum" width={48} height={48} />
+                <h3>Finance and Supply Chain Integration</h3>
+                <p>Extend HR capabilities by linking with Dynamics 365 Finance and Dynamics 365 Supply Chain Management for unified operations.</p>
+                <a href="#exampleModal" data-bs-toggle="modal">Get Started <i className="bi bi-arrow-right"></i></a>
               </div>
             </div>
-          </div>
-        </div>
-        <div className='n-017'><img src="/img/n-017.png" width={698} height={449} alt="copil-side" className='im-one-17' /></div>
-      </section> */}
-
-      <section id='section9' className='p-t-1-100'>
-        <div className='container'>
-          <div className="col-lg-9">
-            <div className="solution-new-banner-sub-head">
-              <h2>Get Started with Business Central</h2>
-              <p>Reports, e-books, videos, training, and more, everything you need to explore the system.</p>
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-lg-12'>
-
-              <div className='bc-new-tabs-li'>
-                <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link active" id="pills-home-05-tab" data-bs-toggle="pill" data-bs-target="#pills-home-05" type="button" role="tab" aria-controls="pills-home-05" aria-selected="false">Case Stories</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-home-01-tab" data-bs-toggle="pill" data-bs-target="#pills-home-01" type="button" role="tab" aria-controls="pills-home-01" aria-selected="true">Researches</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-home-02-tab" data-bs-toggle="pill" data-bs-target="#pills-home-02" type="button" role="tab" aria-controls="pills-home-02" aria-selected="false">e-Books</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-home-03-tab" data-bs-toggle="pill" data-bs-target="#pills-home-03" type="button" role="tab" aria-controls="pills-home-03" aria-selected="false">Podcasts</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-home-04-tab" data-bs-toggle="pill" data-bs-target="#pills-home-04" type="button" role="tab" aria-controls="pills-home-04" aria-selected="false">Guides</button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-home-06-tab" data-bs-toggle="pill" data-bs-target="#pills-home-06" type="button" role="tab" aria-controls="pills-home-06" aria-selected="false">Blog</button>
-                  </li>
-
-                </ul>
-              </div>
-            </div>
-            <div className='col-lg-12'>
-              {/* <p className='pt-200'><b>Reach new markets with Business Central</b></p> */}
-              <div className='bc-new-tabs-li-body'>
-                <div className="tab-content" id="pills-tabContent">
-                  <div className="tab-pane fade" id="pills-home-01" role="tabpanel" aria-labelledby="pills-home-01-tab">
-
-                    <div className='row'>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a onClick={() => handleOpenModal('pdf2')}>
-                            <img src="/img/bc-8-18.png" width={273} height={192} alt="bc-8-17" />
-                            <h3>Reach new markets with Business Central</h3>
-                            <p>Research from Nucleus shows better productivity, lower costs, and stronger control.</p>
-                            <div className='ct--a'>
-                              <span>Download the report</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a onClick={() => handleOpenModal('pdf1')}>
-                            <img src="/img/bc-8-17.png" width={273} height={192} alt="bc-8-18" />
-                            <h3>See how firms gained from Business Central</h3>
-                            <p>This 2024 Forrester study shows the returns real customers saw after getting started.</p>
-                            <div className='ct--a'>
-                              <span>Download the study</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a onClick={() => handleOpenModal('pdf3')}>
-                            <img src="/img/bc-8-19.png" width={273} height={192} alt="bc-8-19" />
-                            <h3>Why IDC picked Microsoft as a Leader</h3>
-                            <p>Read how Microsoft stands out in small business ERP software. </p>
-                            <div className='ct--a'>
-                              <span>Read the excerpt</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                  <div className="tab-pane fade" id="pills-home-02" role="tabpanel" aria-labelledby="pills-home-02-tab">
-                    <div className='row'>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="/ebook/upgrade-nav-to-business-central/">
-                            <img src="/img/Ebook-Nav-to-BC.png" width={273} height={192} alt="bc-8-17" />
-                            <h3>Quick Start Guide for Upgrading NAV to Business Central</h3>
-                            <p>Learn when, why, and how to upgrade from Dynamics NAV to Business Central with confidence.</p>
-
-                            <div className='ct--a'>
-                              <span>Read now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="/ebook/gp-to-bc-migration/">
-                            <img src="/img/dynamics-GP-BC-Ebook-featured-image.png" width={273} height={192} alt="bc-8-18" />
-                            <h3>Your Guide to Dynamics GP to Business Central Migration</h3>
-                            <p>Find how businesses are moving from Microsoft GP to Business Central with confidence.</p>
-                            <div className='ct--a'>
-                              <span>Read now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                  <div className="tab-pane fade" id="pills-home-03" role="tabpanel" aria-labelledby="pills-home-03-tab">
-                    <div className='row'>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/44hqw-S27D0?si=mCEpK1p1hVAXszlj" target='_blank'>
-                            <img src="/img/bc-8-20.png" width={273} height={192} alt="bc-8-20" />
-                            <h3>Is Your Business Ready for an ERP System?</h3>
-                            <p>Explore key signs, benefits, and steps to ERP readiness with Dynamics Square experts in this episode.</p>
-                            <div className='ct--a'>
-                              <span>Watch now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/hUPT5DejiR0?si=p_hlO_BdCj_gbWwh" target='_blank'>
-                            <img src="/img/bc-8-21.png" width={273} height={192} alt="bc-8-21" />
-                            <h3>Unpacking Microsoft Dynamics 365 Business Central for Growth</h3>
-                            <p>Learn how Business Central helps streamline operations and scale growth in this expert-driven podcast episode.</p>
-                            <div className='ct--a'>
-                              <span>Watch now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="https://youtu.be/Of8upj7BtGo?si=Lsf5SCwBtIpSU1ST" target='_blank'>
-                            <img src="/img/bc-8-22.png" width={273} height={192} alt="bc-8-22" />
-                            <h3>Signs Your Business Is Ready for an ERP System</h3>
-                            <p>Understand when to adopt ERP, its benefits, and how Dynamics 365 drives business transformation.</p>
-                            <div className='ct--a'>
-                              <span>Watch now</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="tab-pane fade" id="pills-home-04" role="tabpanel" aria-labelledby="pills-home-04-tab"><div className='row'>
-                    <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                      <div className='card0-01 card0-02'>
-                        <a href="/guides/business-central-guide-for-smb/">
-                          <img src="/img/chapter5-5.png" width={273} height={192} alt="bc-8-17" />
-                          <h3>Comprehensive Business Central Guide for SMBs in 2025</h3>
-                          <p>A detailed guide helping SMBs automate operations, improve scalability, and prepare for long-term digital growth.</p>
-                          <div className='ct--a'>
-                            <span>View this Guide</span>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-
-                  </div>
-                  </div>
-                  <div className="tab-pane fade show active" id="pills-home-05" role="tabpanel" aria-labelledby="pills-home-05-tab">
-                    <div className='row'>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="/case-studies/microsoft-business-central-implementation/">
-                            <img src="/img/Summit-Systems.png" width={273} height={192} alt="bc-8-17" />
-                            <h3>Driving Efficiency with Microsoft Business Central for Manufacturers</h3>
-                            <p>A UK plastic automation company streamlined operations and scaled growth with Dynamics 365 Business Central.</p>
-                            <div className='ct--a'>
-                              <span>Read Case Study</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="/case-studies/quickbooks-to-business-central-migration/">
-                            <img src="/img/Greenstar.jpg" width={273} height={192} alt="bc-8-18" />
-                            <h3>From QuickBooks to Business Central: A Seamless ERP Upgrade</h3>
-                            <p>A Moroccan fruit importer improved inventory, sales, and distribution by upgrading from QuickBooks to Business Central.</p>
-                            <div className='ct--a'>
-                              <span>Read Case Study</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div className='col-lg-4 col-md-4 col-sm-6 d-flex'>
-                        <div className='card0-01 card0-02'>
-                          <a href="/case-studies/odoo-erp-to-business-central-migration/">
-                            <img src="/img/GTT-Wireless.jpg" width={273} height={192} alt="bc-8-19" />
-                            <h3>Upgrading from Odoo to Business Central with Mobile WMS</h3>
-                            <p>A wireless tech provider streamlined warehouse operations by moving from Odoo ERP to Business Central.</p>
-                            <div className='ct--a'>
-                              <span>Read Case Study</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="tab-pane fade" id="pills-home-06" role="tabpanel" aria-labelledby="pills-home-06-tab"><div className='row'>
-                      <BlogFinanaceCard categorySlug='business-central' />
-
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
+
+      
 
       <section className="solution-faq faq solution-faq-r">
         <div className="container">
@@ -1096,7 +828,7 @@ const HumanResour = () => {
             <div className="col-lg-9 ">
               <div className="solution-new-banner-sub-head text-center">
                 <h2>Have you got
-                  questions about Business Central?</h2>
+                  questions about Human Resources?</h2>
                 <p>Click through to our FAQ for the best answers!</p>
               </div>
             </div>
@@ -1147,7 +879,7 @@ const HumanResour = () => {
 
         </div>
       </section>
-      <BcPopPdf pdfType={pdfType} />
+      {/* <BcPopPdf pdfType={pdfType} /> */}
     </>
   );
 };

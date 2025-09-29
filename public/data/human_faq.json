@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "question": "What is Dynamics 365 HR?",
+      "answer": "<p>Dynamics 365 Human Resources is Microsoft’s complete HR system that connects payroll, benefits, recruiting, and performance in one platform. It uses automation and AI insights to simplify administration, support managers, and create better employee experiences.</p>"
+    },
+    {
+      "id": 2,
+      "question": "What is Dynamics 365 Human Resources Self Service?",
+      "answer": "<p>Dynamics 365 Human Resources Self Service allows employees and managers to access their information directly. They can request leave, track training, view performance goals, and update records through Teams or mobile devices, reducing administrative load on HR teams.</p>"
+    },
+    {
+      "id": 3,
+      "question": "What are the benefits of D365 HR?",
+      "answer": "<p>The benefits of Dynamics 365 Human Resources include stronger compliance, reduced HR costs, and better employee engagement. Organisations gain predictive insights, automated payroll and leave processes, and self-service access, helping managers and employees work with clarity and confidence.</p>"
+    }
+  ]
+  
