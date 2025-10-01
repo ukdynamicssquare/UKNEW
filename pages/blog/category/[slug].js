@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import Pagination from "../../../components/Pagination";
 import { paginate } from "../../../helpers/paginate";
 import { useState } from "react";
+import TimerModal from "../../../components/TimerModal";
 export async function getServerSideProps(context) {
   const slug = context.query.slug;
 
@@ -202,6 +203,7 @@ function CategoryBlogs({ blogs, categoryblogs }) {
           </div>
         </div>
       </div>
+      <TimerModal />
     </div>
   );
 }

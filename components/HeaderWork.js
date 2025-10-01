@@ -3,7 +3,7 @@ import Image from "next/image";
 import DeskstopMenu from "./DeskstopMenu";
 import MobileMenu from "./MobileMenu";
 import { useRouter } from "next/router";
-import TimerModal from "./TimerModal";
+// import TimerModal from "./TimerModal";
 
 const HeaderWork = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -22,6 +22,7 @@ const HeaderWork = () => {
     "/products/dynamics-365-business-central/warehouse-management": `${gname}`,
     "/products/dynamics-365-business-central/project-management": `${gname}`,
     "/products/dynamics-365-business-central/service-management": `${gname}`,
+    "/products/dynamics-365-human-resources": `${gname}`,
      "/continia-for-dynamics-365-business-central": `${gname}`,
       "/continia-expense-management": `${gname}`,
        "/book-a-demo": `${gname}`,
@@ -73,7 +74,7 @@ const HeaderWork = () => {
 
   return (
     <>
-      <TimerModal />
+      {/* <TimerModal /> */}
       <header
         id="header"
         className={`header ${isFixed ? "fixed-top" : ""} ${currentHeaderClass}`}

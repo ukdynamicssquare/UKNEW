@@ -6,6 +6,7 @@ import Image from "next/image";
 import cheerio from 'cheerio';
 import { useRouter } from 'next/router';
 // import BlogSubscriberForm from "../../components/BlogSubscriberForm";
+import TimerModal from "../../components/TimerModal";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -375,6 +376,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
             </div>
           ))}
       </section>
+      <TimerModal />
     </div>
   );
 }

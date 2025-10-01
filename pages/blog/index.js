@@ -4,6 +4,7 @@ import { useState } from "react";
 import Pagination from "../../components/Pagination";
 import { paginate } from "../../helpers/paginate";
 import BlogSearch from "../../components/BlogSearch";
+import TimerModal from "../../components/TimerModal";
 
 export async function getStaticProps() {
   const backend = process.env.BACKEND_URL;
@@ -301,6 +302,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
           </div>
         </div>
       </div>
+      <TimerModal />
     </div>
   );
 }

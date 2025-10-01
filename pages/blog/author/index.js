@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import TimerModal from "../../../components/TimerModal";
 // import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 
 export async function getServerSideProps(context) {
@@ -72,7 +73,7 @@ function AuthorsList({ blogs, authorslist, blgsbyauthorslist }) {
           </div>
         </div>
       </div>
-
+<TimerModal />
     </div>
   );
 }

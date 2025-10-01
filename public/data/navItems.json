@@ -17,5 +17,14 @@
       { "id": "section6", "label": "Copilot in Finance" },
       { "id": "section8", "label": "Pricing & Licensing" },
        { "id": "section9", "label": "Resources" }
+    ],
+    "products/dynamics-365-human-resources": [
+      { "id": "section2", "label": "Why Implement" },
+      { "id": "section3", "label": "Features" },
+      { "id": "section4", "label": "Benefits" },
+      { "id": "section5", "label": "Capabilities" },
+      { "id": "section6", "label": "Copilot in Finance" },
+      { "id": "section8", "label": "Pricing & Licensing" },
+       { "id": "section9", "label": "Resources" }
     ]
   }

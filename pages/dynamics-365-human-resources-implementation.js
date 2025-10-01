@@ -14,7 +14,7 @@ const HumanResourceImplementation = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Human Resources Implementation Partener UK</title>
+        <title>Dynamics 365 for (HR) Human Resources Implementation Partener UK</title>
         <meta
           name="description"
           content="Manage your entire workforce, onboard right talent, and transform employee experiences through the implementing Dynamics 365 Human Resources today!"
@@ -34,8 +34,7 @@ const HumanResourceImplementation = () => {
               <p>
                 Manage your Entire Workforce, onboard right talent, and
                 revolutionise employee experiences while driving smoother human
-                resource practices through implementing Dynamics 365 Human
-                Resource. <br />
+                resource practices through implementing Dynamics 365 for HR. <br />
                 <br />
                 <strong>
                   Learn how Dynamics 365 Human Resources implementation can help
@@ -761,7 +760,7 @@ const HumanResourceImplementation = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Human Resources</h3>
                 <div className="price">
-                  £111.00<span>Per-User/Per Month</span>
+                  £103.80<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -774,7 +773,7 @@ const HumanResourceImplementation = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Human Resources Self-Service</h3>
                 <div className="price">
-                  £3.30<span>Per-User/Per Month</span>
+                  £3.10<span>user/month, paid yearly</span>
                 </div>
                 <ul>
                   <li className="text-center">
