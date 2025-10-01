@@ -11,7 +11,7 @@ const AdvantagesCapabilities = () => {
         </title>
         <meta
           name="description"
-          content="Check out the latest Microsoft Dynamics 365 Business Central advantages and capabilities capable of transforming your business for growth and profitability."
+          content="Explore Dynamics 365 Business Central capabilities & advantages. Streamline finance, sales & operations with an all-in-one ERP built for business growth."
         />
         <link
           rel="canonical"
@@ -20,13 +20,13 @@ const AdvantagesCapabilities = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/advantages-capabilities/" />
         <meta property="og:title" content="Dynamics 365 Business Central Advantages & Capabilities" />
-        <meta property="og:description" content="Check out the latest Microsoft Dynamics 365 Business Central advantages and capabilities capable of transforming your business for growth and profitability." />
+        <meta property="og:description" content="Explore Dynamics 365 Business Central capabilities & advantages. Streamline finance, sales & operations with an all-in-one ERP built for business growth." />
         <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/advantage-capbilty.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/advantages-capabilities/" />
         <meta property="twitter:title" content="Dynamics 365 Business Central Advantages & Capabilities" />
-        <meta property="twitter:description" content="Check out the latest Microsoft Dynamics 365 Business Central advantages and capabilities capable of transforming your business for growth and profitability." />
+        <meta property="twitter:description" content="Explore Dynamics 365 Business Central capabilities & advantages. Streamline finance, sales & operations with an all-in-one ERP built for business growth." />
         <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/advantage-capbilty.png" />
       </Head>
       <section className="Solution-banner hero-1 hero">
@@ -34,7 +34,7 @@ const AdvantagesCapabilities = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>Dynamics 365 Business Central Advantages &amp; Capabilities</h1>
-              <p>Employ the advanced Business Central advantages and capabilities to transform your average-performing business into a notably profitable and simplistic one.</p>
+              <p>Utilise the full potential of Dynamics 365 Business Central to transform your business with smart capabilities, real-time insights, and next generation AI tools built to drive clarity, growth, and agility. </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -66,12 +66,9 @@ const AdvantagesCapabilities = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>D365 Business Central Advantages: Accelerate your Business Growth with Ease </h2>
-                <p><Link href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/"><a target="_blank">Microsoft Dynamics 365 Business Central</a></Link> is a cloud-based business solution especially built for SMBs. It offers the ideal tools and functionalities to build a sustainable business leveraging the Microsoft ecosystem. </p>
-                <p>Equipped with a centralised data platform, D365 Business Central comes with seamless capabilities to share, communicate, and collaborate with different departments of the business without any hassle. </p>
-                <p>Built on the platforms of AI, ML, and BI, it offers automation to streamline critical business functions, including finance, operations, sales, and customer service.</p>
-                <p>
-                  <b>Microsoft Dynamics 365 Business Central is a popular ERP solution with more than 2,00,000+ worldwide customers. It helps such customers to streamline their core business operations, enhance the customer experience, maximise profitability, and accelerate growth.</b>
-                </p>
+                <p><a href="https://www.dynamicssquare.co.uk/products/dynamics-365-business-central/">Microsoft Dynamics 365 Business Central</a> is a cloud ERP designed to support growing businesses with scalable tools and intelligent automation. As part of the Microsoft ecosystem, it seamlessly connects your teams, streamlines your operations, and simplifies your day-to-day processes. </p>
+                <p>Built on modern technologies like AI, machine learning, and business intelligence, Business Central brings real time decision making to the front line by powering finance, sales, supply chain, and customer service with smarter tools. </p>
+                <p>With <a href="/blog/microsoft-dynamics-copilot/">Microsoft Copilot</a> now integrated, teams can automate repetitive tasks, generate insights, and create better workflows using natural language commands. This capability brings a new level of productivity and speed. Already trusted by over 200,000 businesses globally, Business Central helps organisations cut costs, scale faster, and compete smarter. </p>
               </header>
             </div>
           </div>
@@ -100,7 +97,7 @@ const AdvantagesCapabilities = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Stay Up to Date</h3>
+                    <h3>Always Up to Date </h3>
                     <p>One of the best things about <Link href="/dynamics-365-business-central-implementation/"><a target="_blank">Business Central implementation</a></Link> is that Microsoft automatically updates the system with the release of a new upgrade, patch, or any other change. This eliminates the cost of manual updates. </p>
                   </div>
                 </div>
@@ -112,8 +109,8 @@ const AdvantagesCapabilities = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Lowered Cost of Ownership </h3>
-                    <p>Compared to conventional ERP solutions, Microsoft offers flexibility in terms of <Link href="/dynamics-365-business-central-pricing-licensing/"><a target="_blank">Business Central licensing</a></Link>, pricing, and usability. Businesses used to invest a lot of money in initial, maintenance, and running costs, but Business Central has reduced all such costs by up to 70%. </p>
+                    <h3>All-in-One Business Management </h3>
+                    <p>Business Central consolidates finance, sales, inventory, purchasing, and customer service into one platform. This unified approach streamlines operations, improves data accuracy, and provides a holistic view of business performance for better decision-making.</p>
                   </div>
                 </div>
 
@@ -124,8 +121,30 @@ const AdvantagesCapabilities = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Customisation at its Best </h3>
-                    <p>You can customise D365 Business Central based on your specific business demands using different kinds of integrations, add-ons, and custom settings. You can even customise the user interface to meet the user's preferences using the drag-and-drop field. </p>
+                    <h3>Tailored to Fit Your Business</h3>
+                    <p>Whether through built in extensions, third party integrations, or simple drag and drop customisations, Business Central gives you full control to adapt the platform to your processes without complex coding.</p>
+                  </div>
+                </div>
+                 <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right cintent-right-001">
+                    <h3>Built on Microsoft Azure </h3>
+                    <p>Your data is protected by industry leading security on the Azure cloud platform. Access your system from anywhere at any time on any device securely and reliably. </p>
+                  </div>
+                </div>
+                 <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right cintent-right-001">
+                    <h3>Insights That Drive Results </h3>
+                    <p>Make informed decisions faster. Business Central delivers real-time insights powered by AI and integrated <a href="/products/microsoft-power-bi/">Power BI</a>, giving leaders the visibility they need to take proactive action. </p>
                   </div>
                 </div>
               </div>
@@ -139,8 +158,8 @@ const AdvantagesCapabilities = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Secured Data Servers </h3>
-                    <p>Microsoft ensures the protection of business data using secured and advanced data servers, i.e., Microsoft Azure. It empowers businesses to connect with the data centre from anywhere and anytime, without any device or location restriction. </p>
+                    <h3>User-Friendly Interface </h3>
+                    <p>With a modern, intuitive interface Business Central simplifies navigation and task execution. Role-based dashboards and personalised views enhance user experience, reduce training time, and empower employees to work more efficiently and confidently.  </p>
                   </div>
                 </div>
 
@@ -151,8 +170,30 @@ const AdvantagesCapabilities = () => {
                     </div>
                   </div>
                   <div className="cintent-right cintent-right-001">
-                    <h3>Avail Actionable Insights </h3>
-                    <p>Ensures the smooth functioning of a business by employing real-time and accurate insights into all business processes and operations. It lets the decision makers take actionable decisions whenever there is a need for a maximised output.  </p>
+                    <h3>Cloud-Based Flexibility</h3>
+                    <p>As a cloud-first solution, Business Central allows users to access data and processes from anywhere, on any device. It eliminates the need for on-premises infrastructure, supports remote work, and scales easily with business growth.  </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right cintent-right-001">
+                    <h3>Strong Security and Compliance </h3>
+                    <p>Built on <a href="/products/microsoft-azure/">Microsoft Azure</a>, Business Central offers enterprise-grade security, automatic backups, and role-based access controls. It helps businesses meet global compliance standards like GDPR, reducing risks associated with data breaches and regulatory violations.  </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check2"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right cintent-right-001">
+                    <h3>Seamless Integration with Microsoft Products </h3>
+                    <p>Business Central integrates effortlessly with Microsoft 365 tools like Outlook, Excel, and Teams, enabling users to manage emails, data, and collaboration within a unified environment. This reduces context switching and boosts productivity across departments.  </p>
                   </div>
                 </div>
               </div>
@@ -440,6 +481,233 @@ const AdvantagesCapabilities = () => {
                       <span>Talk to a Business Central Consultant Now! </span>
                     </a>
                   </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <section className="solution-faq faq">
+        <div className="container">
+          <header className="section-header">
+            <h2>
+              Have you got
+              <br />
+              questions about Advantages & Capabilities?
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-md-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >What are the capabilities of a Business Central Team Member? </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p><a href="/products/dynamics-365-business-central/pricing-licensing/">Team member licenses</a> allow users to perform light tasks such as reading data, approving workflows, entering timesheets, and updating existing records. They are ideal for employees who need limited access without full operational control. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >What is the capacity of Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Business Central supports up to 300 full users per environment and handles large volumes of transactions, records, and data. It’s scalable for growing businesses and integrates with Azure for extended storage and performance.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >Can Business Central handle multi-currency and multi-company operations? </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, Business Central supports <a href="/blog/multi-entity-multi-currency-consolidation-in-business-central/">multi-currency transactions, exchange rate management, and consolidated</a> financial reporting across multiple companies or subsidiaries, making it ideal for global and multi-entity organisations.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >What is the functionality of Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Business Central offers end-to-end ERP functionality including finance, sales, purchasing, inventory, project management, service management, and reporting. It’s designed to unify business processes and improve operational efficiency. </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >What are the benefits of Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Key benefits include cloud-based access, seamless <a href="/products/microsoft-dynamics-365/integration/">Microsoft integration</a>, real-time analytics, strong security, customizable workflows, and scalability. It simplifies operations and supports smarter decision-making for SMBs. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >Does Business Central support inventory and warehouse management? </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, Business Central includes robust <a href="/products/dynamics-365-business-central/warehouse-management/">inventory and warehouse management</a> features like stock tracking, bin management, cycle counting, and demand forecasting to optimize supply chain operations. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >Can Business Central be customized for specific industries? </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Absolutely Business Central can be tailored using extensions and industry-specific apps from Microsoft AppSource. It’s flexible enough to support manufacturing, retail, distribution, professional services, and more. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >Is Business Central suitable for small and medium-sized businesses? </button>
+                  </h3>
+                  <div
+                    id="faq-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, it’s specifically designed for SMBs. With scalable pricing, modular features, and cloud deployment, Business Central helps smaller businesses streamline operations without the complexity of enterprise-level systems. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-9"
+                    >What kind of reporting and analytics features are available in Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Business Central offers built-in reports, customizable dashboards, and integration with Power BI for advanced analytics. Users can track KPIs, financials, and operational metrics in real time. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-10"
+                    >What is the difference between Microsoft Dynamics 365 and Business Central? </button>
+                  </h3>
+                  <div
+                    id="faq-content-10"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p><a href="/products/microsoft-dynamics-365/">Dynamics 365</a> is a suite of business applications, while Business Central is its ERP solution for SMBs. Other apps in the suite include Sales, Marketing, and Customer Service, which can be integrated with Business Central. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-11"
+                    >Is Business Central any good? </button>
+                  </h3>
+                  <div
+                    id="faq-content-11"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Yes, Business Central is widely praised for its usability, integration with Microsoft tools, and flexibility. It’s a reliable ERP choice for SMBs seeking to modernize operations and improve efficiency. </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
