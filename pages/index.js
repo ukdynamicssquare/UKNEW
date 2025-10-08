@@ -15,7 +15,7 @@ const HomeOne = () => {
     return (
         <>
             <Head>
-                <title>Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™</title>
+                <title>Trusted Microsoft Dynamics 365 Partner UK - Dynamics Square™</title>
                 <meta
                     name="description"
                     content="Dynamics Square™ is a trusted Microsoft Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!"
@@ -23,13 +23,13 @@ const HomeOne = () => {
                 <link rel="canonical" href="https://www.dynamicssquare.co.uk/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.dynamicssquare.co.uk/" />
-                <meta property="og:title" content="Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™" />
+                <meta property="og:title" content="Trusted Microsoft Dynamics 365 Partner UK - Dynamics Square™" />
                 <meta property="og:description" content="Dynamics Square™ is a trusted Microsoft Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!" />
                 <meta property="og:image" content="https://www.dynamicssquare.co.uk/img/home-page-og.png" />
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://www.dynamicssquare.co.uk/" />
-                <meta property="twitter:title" content="Microsoft Dynamics 365 Partner UK | Business Central Partner - Dynamics Square™" />
+                <meta property="twitter:title" content="Trusted Microsoft Dynamics 365 Partner UK - Dynamics Square™" />
                 <meta property="twitter:description" content="Dynamics Square™ is a trusted Microsoft Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!" />
                 <meta property="twitter:image" content="https://www.dynamicssquare.co.uk/img/home-page-og.png" />
 
