@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import useSectionScroll from '../../hooks/useSectionScroll';
 const Inedex = () => {
-  const { goToSection } = useSectionScroll()
+  // const { goToSection } = useSectionScroll()
   // useSectionScroll({ excludeSelector: '.horizontal-container' });
 
   return (
@@ -34,8 +34,8 @@ const Inedex = () => {
               <a
                 id="scrollToSection2"
                 className="btn-light"
-                // onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-                onClick={() => goToSection(1)}
+                onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+                // onClick={() => goToSection(1)}
               >
                 Scroll Down
                 <div class="scroll-down-aaa">
@@ -217,7 +217,7 @@ const Inedex = () => {
         </div>
       </section>
 
-      <section className='panel'>
+      <section className='panel' style={{ transform: 'translateZ(0)', backgroundColor: 'rgb(244 240 250)' }}>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8 col-md-12 col-sm-12'>

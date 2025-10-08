@@ -15583,7 +15583,8 @@ margin: -30px 0px -80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh !important;
+  padding:100px 0px;
+  /* height: 100vh !important; */
 }
 .panel-new-haed {
 }
