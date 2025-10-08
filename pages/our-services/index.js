@@ -23,7 +23,7 @@ const Inedex = () => {
 
 
 
-      <section className="panel panel-new-haed" style={{ transform: 'translateZ(0)' }}>
+      <section className="panel panel-new-haed" style={{ transform: 'translateZ(0)',padding:'160px 0px' }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 text-center">
@@ -31,7 +31,7 @@ const Inedex = () => {
               <h2>Microsoft Business Applications,
                 Tailored for Your Success</h2>
               <p>At Dynamics Square, we have the Microsoft expertise, solutions and experience to help you navigate continual change—whether it’s to solve the most formidable business challenge or seize the next big opportunity.</p>
-              <a
+              {/* <a
                 id="scrollToSection2"
                 className="btn-light"
                 onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
@@ -43,7 +43,7 @@ const Inedex = () => {
                   <span></span>
                   <span></span>
                 </div>
-              </a>
+              </a> */}
 
             </div>
           </div>
