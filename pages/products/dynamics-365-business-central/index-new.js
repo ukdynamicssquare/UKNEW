@@ -15,7 +15,7 @@ import BlogFinanaceCard from '../../../components/BlogFinanaceCard';
 //     ssr: false,
 //   });
 
-const BusinessCentralOld = () => {
+const BusinessCentral = () => {
   /*gsap card scroll*/
   // const containerRef = useRef(null);
   // useGsapScrollCards(containerRef);
@@ -42,6 +42,7 @@ const BusinessCentralOld = () => {
     <>
       <Head>
         <title>Microsoft Dynamics 365 Business Central Partner UK</title>
+        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Transform your business with Dynamics 365 Business Central, the smartest cloud ERP. Partner with a trusted Microsoft expert in the UK for AI-powered solutions."
@@ -71,14 +72,14 @@ const BusinessCentralOld = () => {
             <div className='col-lg-8'>
               <div className='solution-new-banner-one-content'>
                 <h1>Microsoft Dynamics 365 Business Central</h1>
-                <span className='large-heading'>Level up with a solution trusted<br /> by over 45,000 SMBs across the world.</span>
-                <p>Eliminate data silos, the biggest culprits behind operational inefficiencies. Adopt Dynamics 365 Business Central (D365 BC), an advanced ERP that comes with out-of-the-box AI capabilities, Microsoft Copilot, and has less than 6 months of payback on investment.</p>
+                <span className='large-heading'>Deploy a solution trusted <br />by over 45,000 SMBs across the world</span>
+                <p>Microsoft Dynamics 365 Business Central eliminates the need for multiple tools and acts as a single source of truth across your operations. Business Central is an advanced Microsoft ERP with out-of-the-box AI capabilities and has less than 6 months of payback on investment.</p>
                 <div className="text-center">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Tell me more &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Try for Free &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -118,18 +119,22 @@ const BusinessCentralOld = () => {
             <div className='col-lg-6'>
               <div className='solution-new-banner-sub-head r-top-60'>
                 <h2>What is Dynamics 365 Business Central?</h2>
-                <p>Dynamics 365 Business Central is a complete business system from Microsoft that brings your core operations into one smart system. Stay steady, save time, and make better decisions as your business keeps moving forward with this AI-powered ERP.</p>
+                <p>Microsoft Dynamics 365 Business Central ties together your finance, operations, sales, customer service, project management services and more to deliver a 360-degree business management system through AI, automation, and real-time insights.</p>
+                <p>D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. </p>
+                <p>Due to its modular structure and cloud-based deployment, Dynamics 365 Business Central is highly flexible in terms of customisation. Businesses can add/remove Business Central functionalities based on their requirements. This means Business Central ERP can be customised to cater to different industries and operations.</p>
+                <p><b>In short, Microsoft Business Central is:</b></p>
                 <ul className='banner-sub-head-list'>
-                  <li><i className="bi bi-check2"></i> One system for finance, sales, and stock</li>
-                  <li><i className="bi bi-check2"></i> Out-of-the-box Copilot</li>
-                  <li><i className="bi bi-check2"></i> Real-time data for faster, clearer decisions</li>
+                  <li><i className="bi bi-check2"></i> All-in-one system for finance and operations</li>
+                  <li><i className="bi bi-check2"></i> An AI-powered ERP with out-of-the-box Copilot</li>
+                  <li><i className="bi bi-check2"></i> A scalable cloud platform that grows with your business</li>
                 </ul>
+                <p>Ready to move to this powerful cloud-based Microsoft ERP to unlock the growth of your business?</p>
                 <div className="text-lg-start">
                   <Link href="#exampleModal"><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Try for Free  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Book Your Free Business Central Demo  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
 
 
@@ -180,27 +185,28 @@ const BusinessCentralOld = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Business Central Implementation: How Does It Help?</h2>
+                <h2>Business Challenges Solved by Business Central</h2>
+                <p>Dynamics 365 Business Central capabilities address challenges that a modern business can potentially face. Some of the most certain challenges include:</p>
               </div>
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-6'>
-              <div className='product-side-001'>
-                <div className="flot-8">
-                  <Image src="/img/n-006.png" width={513} height={455} alt="New Solution" />
-                </div>
-                <img width={563} height={478} src="/img/n-007.png" alt="New Solution" className="flot-9" />
-              </div>
-            </div>
+
             <div className='col-lg-6 align-self-center'>
               <div className='product-side-002-content'>
-                <p><b>If by any chance you are facing any of these issues, you are in deep trouble. </b></p>
-
-                <p>You need an integrated system that has AI and automation capabilities. This is where Business Central ERP comes to your rescue. </p>
-
-                <p>Organisations that have <a href="/dynamics-365-business-central-implementation/" target='_blank'>implemented Dynamics 365 Business Central</a> have managed to save up to 30% on operational costs.</p>
-
+                <ul>
+                  <li>Operating on outdated, legacy solutions like Dynamics NAV</li>
+                  <li>Disconnected systems (no single source of truth)</li>
+                  <li>Reduced productivity due to repetitive manual tasks</li>
+                  <li>Issues navigating complex processes or data-heavy systems</li>
+                  <li>Financial close cycles take too long, causing reporting delays</li>
+                  <li>Poor forecasting due to fragmented data & manual entries</li>
+                  <li>No multi-site capabilities, resulting in errors and duplication</li>
+                  <li>Bank reconciliations wasting hours and remain prone to human error</li>
+                  <li>Difficulty staying compliant with local tax and reporting laws</li>
+                </ul>
+                <p>And the list goes on…</p>
+                <p>Business Central ERP is an integrated system that addresses all these aforementioned problems and beyond. It helps future-proof your business whether you are a startup that has just kicked off its operations or a promising growing business.</p>
                 <p>Whether starting small or growing fast, D365 Business Central is what you need.</p>
                 <div className="text-lg-start">
                   <Link href="#exampleModal" ><a
@@ -213,6 +219,14 @@ const BusinessCentralOld = () => {
               </div>
 
             </div>
+            <div className='col-lg-6'>
+              <div className='product-side-001'>
+                <div className="flot-8">
+                  <Image src="/img/n-006.png" width={513} height={455} alt="New Solution" />
+                </div>
+                <img width={563} height={478} src="/img/n-007.png" alt="New Solution" className="flot-9" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -222,101 +236,16 @@ const BusinessCentralOld = () => {
           <div className='row'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Dynamics 365 Business Central Features: What’s Inside? </h2>
-                <p>Run business with confidence with Business Central cloud ERP. Get rid of disconnected tools and replace inefficiency with automation, guesswork with AI-driven insights, and frustration with seamless control. And with dedicated and anytime <a href="/d365-business-central-support/">Business Central support</a> by Dynamics Square, you are always in control. Here’s how this Microsoft ERP turns things in favour of your business: </p>
+                <h2>Dynamics 365 Business Central Capabilities</h2>
+                <p>Microsoft Dynamics 365 Business Central capabilities make it a widely preferred choice by small and midsize businesses.</p>
+                <p>Is Business Central for Accounting? Yes… and no. D365 BC is much more than just being accounting software. It supports companies across industries and keeps teams connected anywhere in the world.</p>
+                <p><b>Business Central comes with the following capabilities:</b></p>
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-12">
-              {/* <div className="pin-wrapper">
-                <div className="cards">
-                  <div className="custom-card card1" style={{ zIndex: 2 }}>
-                    <div className="card1-content">
-                      <div className="card1-content-inner">
-                        <h3>Automated Finance & Accounting </h3>
-                        <p>Handling finances manually? One miscalculation could cost you thousands. With Business Central, you get: </p>
-                        <ul>
-                          <li>AI-powered financial forecasts to know your cash flow before problems arise.</li>
-                          <li>Automated invoicing & bank reconciliation to eliminate costly human errors. </li>
-                          <li>Built-in compliance tracking to stay audit-ready and never miss a tax deadline. </li>
-                        </ul>
-                      </div>
-                      <div className="card1-content-img">
-                        <Image src="/img/n-008.png" width={574} height={369} alt="Card 1" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="custom-card card2" style={{ zIndex: 3 }}>
-                    <div className="card1-content">
-                      <div className="card1-content-inner">
-                        <h3>Smart Inventory & Supply Chain </h3>
-                        <p>Every product you mismanage is money lost. Business Central ensures you: </p>
-                        <ul>
-                          <li>Avoid stockouts with demand forecasting. </li>
-                          <li>Cut carrying costs by ordering just the right amount. </li>
-                          <li>Automate vendor & purchase order management to reduce delays. </li>
-                        </ul>
-                      </div>
-                      <div className="card1-content-img">
-                        <Image src="/img/n-009.png" width={574} height={360} alt="Card 2" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="custom-card card3" style={{ zIndex: 4 }}>
-                    <div className="card1-content">
-                      <div className="card1-content-inner">
-                        <h3>AI-Driven Insights: With Out-of-the-box Copilot </h3>
-                        <p>Your competitors are using data to make smarter, faster decisions; are you? With Business Central, you: </p>
-                        <ul>
-                          <li>Get real-time dashboards to track sales, expenses & customer behaviour. </li>
-                          <li>Use predictive analytics to anticipate trends and demand shifts. </li>
-                          <li>Optimise pricing & marketing strategies using AI-driven insights. </li>
-                        </ul>
-                      </div>
-                      <div className="card1-content-img">
-                        <Image src="/img/n-010.png" width={574} height={360} alt="Card 3" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="custom-card card4" style={{ zIndex: 5 }}>
-                    <div className="card1-content">
-                      <div className="card1-content-inner">
-                        <h3>Sales CRM: Close More Deals, Faster </h3>
-                        <p>Your sales team shouldn’t waste time manually tracking leads or missing follow-ups. Business Central empowers them to: </p>
-                        <ul>
-                          <li>Automate lead nurturing so no opportunity slips through the cracks. </li>
-                          <li>Track every customer interaction for personalised service. </li>
-                          <li>Turn data into sales strategies and know what works, and double down. </li>
-                        </ul>
-                      </div>
-                      <div className="card1-content-img">
-                        <Image src="/img/n-011.png" width={584} height={369} alt="Card 4" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="custom-card card5" style={{ zIndex: 6 }}>
-                    <div className="card1-content">
-                      <div className="card1-content-inner">
-                        <h3>Seamless Integrations: Work Smarter, Not Harder </h3>
-                        <p>Switching between platforms kills productivity. Microsoft Business Central integrates effortlessly with:</p>
-                        <ul>
-                          <li>Microsoft 365 for smooth collaboration. </li>
-                          <li>Power BI for next-level analytics & custom dashboards. </li>
-                          <li>Third-party apps like Shopify, PayPal & more to fit your workflow. </li>
-                        </ul>
-                      </div>
-                      <div className="card1-content-img">
-                        <Image src="/img/n-012.png" width={571} height={369} alt="Card 5" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+              
               <div className="stached-scroll-card">
                 <div className='mycard'>
                   <div className='mycard__inner'>
@@ -400,8 +329,562 @@ const BusinessCentralOld = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-12">
+              <div className="accordion accordion-flush acc-bc-ho" id="bclist1">
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-1">
+                    <div className='bec-acc'>
+                      <h3>Financial Management</h3>
+                      <span>General ledger, accounts payable and receivable, VAT and tax management, budgets, cash flow forecast, fixed assets, multi-currency support</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist1"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Financial Management Features:</h4>
+                        <p>General ledger, accounts payable and receivable, VAT and tax management, dimensions, budgets, cost accounting, deferrals, allocation accounts, multiple currencies, consolidation, intercompany postings, fixed assets, cash management, bank reconciliation, reminders, check writing, subscription billing, and recurring and consumption-based billing.</p>
+                        <h4>Business Central Financial Management Overview:</h4>
+                        <p>Dynamics 365 Business Central Finance functionality simplifies daily accounting and covers advanced financial operations.
+                          The Business Central Financial Management module contains features like ledger posting, dimensions, VAT management, AP and AR, budgets, bank connectivity, reconciliations, subscription billing, and more. Leaders have access to timely Business Central reporting with reliable numbers for planning and compliant close.
+                        </p>
+                        <h4>Business Central Financial Management Benefits:</h4>
+                        <ul>
+                          <li>Faster financial close</li>
+                          <li>Accurate forecasting</li>
+                          <li>Stronger compliance</li>
+                          <li>Improved, real-time visibility</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-2">
+                    <div className='bec-acc'>
+                      <h3>Supply Chain Management</h3>
+                      <span>Purchasing, inventory control, demand forecasting, warehouse management, manufacturing, planning and availability</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist2"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Supply Chain Management Features:</h4>
+                        <p>Purchasing, vendor management, invoice discounts, alternative vendors, product information management, item attributes and variants, item references, substitutions with Copilot, inventory control and costing, item tracking, multiple locations, SKUs, transfers, shipping agents, item charges, planning and availability, demand forecasting, ATP or CTP, reservation, calendars, warehouse management, bins and picks, FEFO picking, cross docking, and manufacturing.</p>
+                        <h4>Business Central Supply Chain Management Overview:</h4>
+                        <p>Microsoft Business Central Supply Chain module helps manage inventory, vendors, and logistics with real-time visibility and automation.</p>
+                        <p>D365 Business Central (BC) Supply Chain Management functionality comes with features like end-to-end flow across purchasing, inventory, planning, warehouse, and manufacturing. </p>
+                        <p>Teams manage vendors and prices, maintain rich item data, track stock with serial or lot, plan supply through MPS or MRP, promise dates with ATP or CTP, and run warehousing with bins, picks, and put aways. This way, operations stay coordinated and timely.</p>
+                        <h4>Business Central Supply Chain Management Benefits:</h4>
+                        <ul>
+                          <li>On-time deliveries</li>
+                          <li>Lower stock holding</li>
+                          <li>Stronger supplier control</li>
+                          <li>Efficient warehouse flow</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-3">
+                    <div className='bec-acc'>
+                      <h3>Sales Management</h3>
+                      <span>Sales quotes, order management, flexible pricing, invoice discounts, return management, Copilot sales assistance</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist3"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Sales Management Features:</h4>
+                        <p>Customer records, quotes, blanket orders, sales orders, flexible line pricing and discounts, campaign pricing, invoice discounts, partial shipping, returns management, and Microsoft Copilot sales assistance.</p>
+                        <h4>Business Central Sales Management Overview:</h4>
+                        <p>Dynamics 365 Business Central Sales streamlines quotes, orders, and pricing to build stronger customer relationships.</p>
+                        <p>Business Central Sales functionality handles the order to invoice journey. Teams create quotes and orders, apply price lists and discounts, ship partially when required, manage returns and credit, and generate accurate invoices. Microsoft Copilot in Business Central can suggest sales lines from natural prompts or files, which speeds document creation and reduces manual entry.</p>
+                        <h4>Business Central Sales Management Benefits:</h4>
+                        <ul>
+                          <li>Faster order cycle</li>
+                          <li>Accurate pricing logic</li>
+                          <li>Happier repeat customers</li>
+                          <li>Stronger sales control</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-4">
+                    <div className='bec-acc'>
+                      <h3>Ecommerce Management</h3>
+                      <span>Shopify integration, multi-store management, customer sync, inventory synchronization, e-documents support</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist4"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Ecommerce Management Features:</h4>
+                        <p>Shopify connector, multi store scenarios, sync items, inventory, customers, orders and transactions, Shopify DTC and B2B, metafields support, scheduled background sync, export posted invoices, and electronic documents handling with Microsoft Copilot mapping.</p>
+                        <h4>Business Central Ecommerce Management Overview:</h4>
+                        <p>D365 Business Central Ecommerce module helps connect online stores and business processes for seamless selling and fulfilment. </p>
+                        <p>Products, variants, prices, and stock flow to Shopify, while orders, customers, edits, refunds, and fulfilments flow back. Teams run DTC and B2B models, map metafields, and schedule sync tasks, with electronic documents supported for compliant billing.</p>
+                        <h4>Business Central Ecommerce Management Benefits:</h4>
+                        <ul>
+                          <li>Unified commerce data</li>
+                          <li>Fewer order errors</li>
+                          <li>Faster fulfilment cycles</li>
+                          <li>Connected operations</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-5">
+                    <div className='bec-acc'>
+                      <h3>Customer Relationship Management</h3>
+                      <span>Contact management, campaigns, opportunity tracking, email logging, Dynamics 365 Sales integration</span>
+
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist5"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Customer Relationship Management Features:</h4>
+                        <p>Contacts and accounts, profiling and ABC segmentation, campaigns, interaction and document history, email logging with Exchange, opportunity management, and Dynamics 365 Sales integration.</p>
+                        <h4>Business Central Customer Relationship Management Overview:</h4>
+                        <p>Dynamics 365 Business Central CRM module centralises customer data to improve campaigns, sales, and engagement.</p>
+                        <p>This Business Central CRM functionality covers contact centric selling. Teams manage people and companies, track calls, meetings, and files, plan and run campaigns, score segments, and follow opportunities through defined stages. Integration with Dynamics 365 Sales supports lead to cash flow, shared price lists, inventory checks, and order sync for fulfilment and billing.</p>
+                        <h4>Business Central Customer Relationship Management Benefits:</h4>
+                        <ul>
+                          <li>Centralised customer view</li>
+                          <li>Targeted campaigns</li>
+                          <li>Better pipeline clarity</li>
+                          <li>Higher retention rates</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-6">
+                    <div className='bec-acc'>
+                      <h3>Project Management</h3>
+                      <span>Project setup, budgeting, time tracking, resource allocation, invoicing, WIP calculation</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist6"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Project Management Features:</h4>
+                        <p>Project setup and tasks, budgets, resource and capacity planning, timesheets, WIP calculation, project invoicing, project-specific prices and costs, and project-based replenishment.</p>
+
+                        <h4>Business Central Project Management Overview:</h4>
+                        <p>Microsoft Dynamics 365 Business Central Project Management functionality supports planning, tracking, and billing for successful project delivery.</p>
+                        <p>Project Management functionality in Business Central allows managers to create tasks and budgets, allocate resources, collect time, calculate WIP to the ledger, and invoice fixed price or time and materials. Projects draw items through assembly to order or purchase creation, with role-based pages and reports for progress, costs, and profitability.</p>
+                        <h4>Business Central Project Management Benefits:</h4>
+                        <ul>
+                          <li>On schedule delivery</li>
+                          <li>Controlled project costs</li>
+                          <li>Accurate phased billing</li>
+                          <li>Clear profitability view</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-7">
+                    <div className='bec-acc'>
+                      <h3>Service Management</h3>
+                      <span>Service contracts, work order management, dispatching, service pricing, warranty tracking, Field Service integration</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist7"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Service Management Features:</h4>
+                        <p>Planning and dispatching, service contracts, warranties, service items, service orders and repairs, service price management, and Dynamics 365 Field Service integration.</p>
+                        <h4>Business Central Service Management Overview:</h4>
+                        <p>Microsoft Business Central Service Management functionality enhances service delivery with better scheduling and contract management.</p>
+                        <p>The role of Service Management functionality in Business Central is to ensure service as a connected workflow. Teams dispatch technicians, manage contracts and entitlements, track service items and parts, set price groups for labour and materials, and invoice completed work. </p>
+                        <p>Integration with Dynamics 365 Field Service carries work orders, consumption, and completion data back for accurate billing and inventory impact.</p>
+                        <h4>Business Central Service Management Benefits:</h4>
+                        <ul>
+                          <li>Faster service response</li>
+                          <li>Lower service costs</li>
+                          <li>Contract-driven control</li>
+                          <li>Higher satisfaction levels</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-8">
+                    <div className='bec-acc'>
+                      <h3>Human Resources Management</h3>
+                      <span>Employee records, absence tracking, payments, reimbursements</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-8"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist8"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Human Resources Management Features:</h4>
+                        <p>Employee records, contracts and qualifications, absence registration and analysis, and employee payments and reimbursements.</p>
+                        <h4>Business Central Human Resources Management Overview:</h4>
+                        <p>D365 Business Central Human Resources module simplifies employee data management and streamlines HR tasks.</p>
+                        <p>The HR functionality in Business Central helps HR teams to maintain accurate employee data, register leave with category or period filters, and process reimbursements through journals, including foreign currency claims. Clean records and basic reporting support compliance needs and smooth handling of day-to-day HR tasks.</p>
+                        <h4>Business Central Human Resources Management Benefits:</h4>
+                        <ul>
+                          <li>Organised employee records</li>
+                          <li>Clear absence trends</li>
+                          <li>Smooth reimbursements</li>
+                          <li>Lighter admin effort</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-9">
+                    <div className='bec-acc'>
+                      <h3>Business Intelligence: Analytics and Reporting</h3>
+                      <span>Power BI integration, 300+ built-in KPIs, financial reporting, data analysis with Copilot, 400+ reports</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-9"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist9"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Business Intelligence Features:</h4>
+                        <p>Power BI reports, 300+ built-in KPIs, self-service financial reporting, Excel export and layouts, built-in Data Analysis, Analysis Assist with Copilot, 400+ built-in reports, and ESG figures in statements.</p>
+                        <h4>Business Central Business Intelligence Overview:</h4>
+                        <p>Dynamics 365 Business Central Business Intelligence delivers insights and reporting tools for smarter decision-making.</p>
+                        <p>Using Microsoft Business Central, teams can view reports in the client or mobile, set thresholds, share scorecards, and build statements from the chart of accounts. Besides, features like Lists support pivot-style analysis, while Microsoft Copilot prepares analysis tabs from plain prompts. Excel layouts and OneDrive links streamline reporting cycles.</p>
+                        <h4>Business Central Business Intelligence Benefits:</h4>
+                        <ul>
+                          <li>Deeper KPI insight</li>
+                          <li>Faster ad hoc analysis</li>
+                          <li>Flexible reporting stacks</li>
+                          <li>Confident analysis daily</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-10">
+                    <div className='bec-acc'>
+                      <h3>Security</h3>
+                      <span>Access control, compliance tools, multi-factor authentication, Microsoft Cloud security</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-10"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist10"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Security Features:</h4>
+                        <p>Role-based access, privacy controls, audit and compliance foundations, Microsoft Cloud security, tenant data separation, and multi-factor authentication.</p>
+                        <h4>Business Central Security Overview:</h4>
+                        <p>Microsoft Dynamics 365 Business Central Security protects data with enterprise-grade security and compliance features.</p>
+                        <p>In Business Central, access aligns with roles and permissions, privacy controls apply across services, and compliance frameworks support regional obligations. Authentication and tenant separation keep information segmented while teams work efficiently across integrated business processes.</p>
+                        <h4>Business Central Security Benefits:</h4>
+                        <ul>
+                          <li>Strong data protection</li>
+                          <li>Regulatory compliance</li>
+                          <li>Granular access control</li>
+                          <li>Enterprise-level cloud trust</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#bc-content-11">
+                    <div className='bec-acc'>
+                      <h3>Workflows and Automation</h3>
+                      <span>Approval workflows, Power Automate integration, AI assistance</span>
+                    </div>
+                  </div>
+
+                  <div
+                    id="bc-content-11"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#bclist11"
+                  >
+                    <div className="accordion-body">
+                      <div></div>
+                      <div>
+                        <h4>Business Central Workflows and Automation Features:</h4>
+                        <p>Approval workflows, Power Automate integration, and out-of-the-box Microsoft Copilot (AI) assistance for steps and mapping.</p>
+                        <h4>Business Central Workflows and Automation Overview:</h4>
+                        <p>Business Central Workflows and Automation streamline approvals and reduce manual tasks.</p>
+                        <p>Business Central supports approvals and background processing across finance, purchasing, and sales. Power Automate connects workflows across teams, while Microsoft Copilot in Business Central assists with mappings and repetitive steps, which shortens cycle times and reduces manual entry. Processes keep moving while teams focus attention on higher value work.</p>
+                        <h4>Business Central Workflows and Automation Benefits:</h4>
+                        <ul>
+                          <li>Faster approvals flow</li>
+                          <li>Reduced manual errors</li>
+                          <li>Smarter workflows</li>
+                          <li>Smarter workflows</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
 
+
+        </div>
+      </section>
+
+      <section id='section6' className='solution-new-six'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-9'>
+              <div className='solution-new-banner-sub-head'>
+                <h2>Microsoft Copilot in Business Central</h2>
+                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-lg-12'>
+              <div className='solution-new-six-img'>
+                <Image src="/img/solution-new-six-img.png" width={1282} height={383} alt="New Solution" />
+              </div>
+            </div>
+          </div>
+          <div className='row g-3 m-t-4'>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Chat with Copilot Gives Guidance Inside Business Central</h3>
+                <p>Ask questions in plain words, learn features, and follow guided steps directly in the app to complete daily work faster.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Responsible AI Safeguards Company Data Always</h3>
+                <p>Data remains within tenant boundaries, with permissions carried through, and privacy and compliance supported by Microsoft’s Responsible AI principles.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Bank Reconciliation Assist Matches Transactions with Confidence Faster</h3>
+                <p>AI improves matching of bank statement lines, suggests ledger accounts, and helps finance teams reconcile balances with less manual effort.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Electronic Document Mapping Links Vendor Invoices with Purchase Orders</h3>
+                <p>Copilot speeds invoice processing by suggesting mappings between vendor e-documents and purchase orders, reducing errors and saving processing time.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Item Substitution Suggestions Save Time and Prevent Duplicates</h3>
+                <p>Copilot identifies close alternatives for items by scanning descriptions, which helps staff avoid duplicates and improves catalogue accuracy.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Marketing Text Suggestions Speed Product Listings and Pages</h3>
+                <p>AI drafts item descriptions based on product attributes, giving brand-friendly phrasing to list items faster across sales channels.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>AI Agents Like Sales Order Agent Transform Daily Workflows</h3>
+                <p>Agents such as the Sales Order Agent handle customer requests end-to-end, turning conversations into orders with user oversight.</p>
+              </div>
+            </div>
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card'>
+                <h3>Copilot Studio Builds Conversational Experiences Tied to Data</h3>
+                <p>Businesses can design chat experiences connected to records and workflows, enabling staff to query data and act on processes easily.</p>
+              </div>
+            </div>
+
+            <div className='col-lg-4 d-flex'>
+              <div className='solution-new-six-card-cat'>
+                <h3>Ready to move faster? See Copilot in Action!</h3>
+                <Link href="#exampleModal"><a
+                  data-bs-toggle="modal"
+                  className="btn-get-started scrollto"
+                >
+                  <span>Book a Demo!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="solution-new-banner-two" style={{ backgroundColor: '#fff' }}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-9'>
+              <div className='solution-new-banner-sub-head'>
+                <h2>Dynamics’ Square Custom Business Central Solution</h2>
+              </div>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-lg-6'>
+              <div className='product-side-001'>
+                <div className="flot-8">
+                  <Image src="/img/n-006.png" width={513} height={455} alt="New Solution" />
+                </div>
+                <img width={563} height={478} src="/img/n-007.png" alt="New Solution" className="flot-9" />
+              </div>
+            </div>
+            <div className='col-lg-6 align-self-center'>
+              <div className='product-side-002-content'>
+                <p><b>Import Consignment Solution</b></p>
+                <p>Manufacturers and supply chain firms in the UK depend heavily on overseas shipments. Delays, poor visibility, and scattered paperwork often create planning gaps that affect production. Import Consignment Solution is a Business Central based solution created by Dynamics Square to fix these challenges in a simple and direct way.</p>
+                <p>With this extension, companies can see every container linked with purchase orders, record shipment details, and manage critical documents in one system. Teams can follow expected arrival times, split orders where needed, and track real dates against original plans. This means fewer surprises, steady production flow, and greater control over consignments.</p>
+                <div className="text-lg-start">
+                  <Link href="#exampleModal" ><a
+                    data-bs-toggle="modal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Explore the Solution&nbsp;<i className="bi bi-arrow-right"></i></span> </a>
+                  </Link>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section className='bg-gra-scs'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-9'>
+              <div className='solution-new-banner-sub-head'>
+                <h2>Why Business Central is Preferred by Small and Midsize Businesses</h2>
+                <p>Irrespective of the industry, Dynamics 365 Business Central is the go-to choice for most SMBs. Some of the industries where this Microsoft Cloud ERP is deployed are:</p>
+              </div>
+            </div>
+          </div>
+          <div className='row g-3 m--t-40 sliding-row'>
+            <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
+              <div className='card-668'>
+                <a href="/industries/dynamics-365-for-education/">
+                  <Image src="/img/ind-i-01.jpg" alt="serve-ic-01" width={818} height={792} />
+                  <div className='flt'>
+                    <h3>Education</h3>
+                    <p>Modernising education with technology-driven solutions and tools.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
+              <div className='card-668'>
+                <a href="/industries/microsoft-cloud-for-manufacturing/">
+                  <Image src="/img/ind-i-02.jpg" alt="serve-ic-01" width={818} height={792} />
+                  <div className='flt'>
+                    <h3>Manufacturing</h3>
+                    <p>Implementing automation for improved manufacturing performance.</p>
+                  </div>
+
+                </a>
+              </div>
+            </div>
+            <div className='col-lg-4 col-md-4 col-sm-6 d-flex sliding-col'>
+              <div className='card-668'>
+                <a href="/industries/food-and-beverages/">
+                  <Image src="/img/ind-i-03.jpg" alt="serve-ic-01" width={818} height={792} />
+                  <div className='flt'>
+                    <h3>Food & Beverages</h3>
+                    <p>Manage supply and inventory processes with real-time data.</p>
+                  </div>
+
+                </a>
+              </div>
+            </div>
+
+            <div className='col-lg-12 text-center to-22'>
+              <a href="/industries/" className='btn-red btn'>Discover our industry expertise <i className="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className='container'>
           <div className='row t-80'>
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
@@ -637,68 +1120,7 @@ const BusinessCentralOld = () => {
           </div>
         </div>
       </section>
-      <section id='section6' className='solution-new-six'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-9'>
-              <div className='solution-new-banner-sub-head'>
-                <h2>Copilot in Dynamics 365 Business Central:<br /> ERP with AI Capabilities</h2>
-                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
-              </div>
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-lg-12'>
-              <div className='solution-new-six-img'>
-                <Image src="/img/solution-new-six-img.png" width={1282} height={383} alt="New Solution" />
-              </div>
-            </div>
-          </div>
-          <div className='row g-3 m-t-4'>
-            <div className='col-lg-4 d-flex'>
-              <div className='solution-new-six-card'>
-                <h3>Transform the Way You Work  </h3>
-                <p>Copilot helps you stay up to speed and competitive by taking care of repetitive tasks. </p>
-              </div>
-            </div>
-            <div className='col-lg-4 d-flex'>
-              <div className='solution-new-six-card'>
-                <h3>Get Answers in Seconds with AI-Powered Chat</h3>
-                <p>No more digging through reports or chasing down data. Just ask Copilot! </p>
-              </div>
-            </div>
-            <div className='col-lg-4 d-flex'>
-              <div className='solution-new-six-card'>
-                <h3>Drive Creativity and Sell More, Smarter  </h3>
-                <p>Struggling with marketing copy, product descriptions, or sales emails? Let Copilot do it for you. </p>
-              </div>
-            </div>
-            <div className='col-lg-4 d-flex'>
-              <div className='solution-new-six-card'>
-                <h3>Focus on Customers, Not Data Entry  </h3>
-                <p>Your sales team should be building relationships, not drowning in manual order processing. </p>
-              </div>
-            </div>
-            <div className='col-lg-4 d-flex'>
-              <div className='solution-new-six-card'>
-                <h3>AI That Spots Trends Before You Do  </h3>
-                <p>Missed trends equate to missed opportunities. Copilot helps you make smarter decisions. </p>
-              </div>
-            </div>
-            <div className='col-lg-4 d-flex'>
-              <div className='solution-new-six-card-cat'>
-                <h3>Ready to move faster? See Copilot in Action!</h3>
-                <Link href="#exampleModal"><a
-                  data-bs-toggle="modal"
-                  className="btn-get-started scrollto"
-                >
-                  <span>Book a Demo!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section id='section7' className='solution-new-banner-fives'>
         <div className='container'>
           <div className='row'>
@@ -1155,7 +1577,7 @@ const BusinessCentralOld = () => {
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-home-06" role="tabpanel" aria-labelledby="pills-home-06-tab"><div className='row'>
-                      <BlogFinanaceCard categorySlug='business-central' />
+                    <BlogFinanaceCard categorySlug='business-central' />
 
                   </div>
                   </div>
@@ -1228,4 +1650,4 @@ const BusinessCentralOld = () => {
   );
 };
 
-export default BusinessCentralOld;
+export default BusinessCentral;
