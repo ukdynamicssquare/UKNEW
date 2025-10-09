@@ -1,30 +1,30 @@
 {
-    "products/dynamics-365-business-central": [
-      { "id": "section2", "label": "Why Implement" },
-      { "id": "section3", "label": "Features" },
-      { "id": "section4", "label": "Benefits" },
-      { "id": "section5", "label": "Capabilities" },
-      { "id": "section6", "label": "Copilot in BC" },
-      { "id": "section7", "label": "Add-Ons" },
-      { "id": "section8", "label": "Pricing & Licensing" },
-       { "id": "section9", "label": "Resources" }
-    ],
-    "products/microsoft-dynamics-365-finance": [
-      { "id": "section2", "label": "Why Implement" },
-      { "id": "section3", "label": "Features" },
-      { "id": "section4", "label": "Benefits" },
-      { "id": "section5", "label": "Capabilities" },
-      { "id": "section6", "label": "Copilot in Finance" },
-      { "id": "section8", "label": "Pricing & Licensing" },
-       { "id": "section9", "label": "Resources" }
-    ],
-    "products/dynamics-365-human-resources": [
-      { "id": "section2", "label": "Why Implement" },
-      { "id": "section3", "label": "Features" },
-      { "id": "section4", "label": "Benefits" },
-      { "id": "section5", "label": "Capabilities" },
-      { "id": "section6", "label": "Copilot in Finance" },
-      { "id": "section8", "label": "Pricing & Licensing" },
-       { "id": "section9", "label": "Resources" }
-    ]
-  }
+  "products/dynamics-365-business-central": [
+    { "id": "section2", "label": "Challenges" },
+    { "id": "section3", "label": "Capabilities" },
+    { "id": "section6", "label": "Copilot in BC" },
+    { "id": "section4", "label": "Why Implement" },
+    { "id": "section5", "label": "Services" },
+    { "id": "section7", "label": "Add-Ons" },
+    { "id": "section8", "label": "Pricing & Licensing" },
+    { "id": "section9", "label": "Resources" }
+  ],
+  "products/microsoft-dynamics-365-finance": [
+    { "id": "section2", "label": "Why Implement" },
+    { "id": "section3", "label": "Features" },
+    { "id": "section4", "label": "Benefits" },
+    { "id": "section5", "label": "Capabilities" },
+    { "id": "section6", "label": "Copilot in Finance" },
+    { "id": "section8", "label": "Pricing & Licensing" },
+    { "id": "section9", "label": "Resources" }
+  ],
+  "products/dynamics-365-human-resources": [
+    { "id": "section2", "label": "Why Implement" },
+    { "id": "section3", "label": "Features" },
+    { "id": "section4", "label": "Benefits" },
+    { "id": "section5", "label": "Capabilities" },
+    { "id": "section6", "label": "Copilot in Finance" },
+    { "id": "section8", "label": "Pricing & Licensing" },
+    { "id": "section9", "label": "Resources" }
+  ]
+}

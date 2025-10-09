@@ -74,6 +74,257 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script"); o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0, o.onload=function(){window.trackingFunctions.onLoad({appId:"66322a5ecb3cc6056bd458d4"})}, document.head.appendChild(o)}initApollo();
                 `}
           </Script> */}
+          <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://www.dynamicssquare.co.uk/#organization",
+                  "name": "Dynamics Square UK Ltd.",
+                  "url": "https://www.dynamicssquare.co.uk/",
+                  "sameAs": [
+                    "https://www.facebook.com/dynamicssquareuk/",
+                    "https://x.com/dsquare_uk",
+                    "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                    "https://www.youtube.com/c/DynamicsSquare"
+                  ],
+                  "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.dynamicssquare.co.uk/#logo",
+                    "inLanguage": "en-GB",
+                    "url": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                    "contentUrl": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                    "width": "1024",
+                    "height": "1024",
+                    "caption": "Dynamics Square UK"
+                  },
+                  "image": { "@id": "https://www.dynamicssquare.co.uk/#logo" },
+                  "description": "Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!",
+                  "alternateName": "Dynamics Square software company in London, United Kingdom",
+                  "telephone": "+ 44 203 769 7689, +44 161 394 0487",
+                  "email": "info@dynamicssquare.co.uk",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Dynamics Square UK Ltd.",
+                    "logo": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg"
+                  },
+                  "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.3",
+                    "reviewCount": "1280"
+                  }
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.dynamicssquare.co.uk/#website",
+                  "url": "https://www.dynamicssquare.co.uk/",
+                  "name": "Dynamics Square UK Ltd.",
+                  "alternateName": "Dynamics Square Microsoft Gold Partner company in London, UK",
+                  "description": "Dynamics Square™ is a trusted Dynamics 365 Partner in London, UK, offering expert Dynamics 365 solutions for Business Central, CRM, ERP & more. Contact us today!",
+                  "publisher": { "@id": "https://www.dynamicssquare.co.uk/#organization" },
+                  "potentialAction": [
+                    {
+                      "@type": "SearchAction",
+                      "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://www.dynamicssquare.co.uk/?s={search_term_string}"
+                      },
+                      "query-input": "required name=search_term_string"
+                    }
+                  ],
+                  "inLanguage": "en-GB"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://www.dynamicssquare.co.uk/#webpage",
+                  "url": "https://www.dynamicssquare.co.uk/",
+                  "name": "Trusted Dynamics 365 CRM and ERP Partner for UK Region | Dynamics Square UK",
+                  "isPartOf": { "@id": "https://www.dynamicssquare.co.uk/#website" },
+                  "about": { "@id": "https://www.dynamicssquare.co.uk/#organization" },
+                  "primaryImageOfPage": { "@id": "https://www.dynamicssquare.co.uk/#logo" },
+                  "datePublished": "2021-08-31T06:09:16+00:00",
+                  "dateModified": "2021-11-07T09:15:37+00:00",
+                  "description": "Dynamics Square is Dynamics 365 partner in the UK who help your business succeed by deploying the finest CRM, ERP, and Microsoft cloud solutions for your unique needs.",
+                  "inLanguage": "en-GB",
+                  "potentialAction": [
+                    {
+                      "@type": "ReadAction",
+                      "target": ["https://www.dynamicssquare.co.uk/"]
+                    }
+                  ],
+                  "headline": "As a Dynamics 365 partner, we assist your business in scaling up by giving unbiased advise on the best Microsoft dynamics ERP and CRM solutions.",
+                  "keywords": [
+                    "dynamics 365 partner uk",
+                    "erp consultants UK",
+                    "crm consultancy",
+                    "d365 business central",
+                    "crm expert online",
+                    "d365 for finance",
+                    "Microsoft NAV partner",
+                    "dynamics crm implementation",
+                    "d365 field service",
+                    "crm implementation services"
+                  ]
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "name": "Dynamics Square UK Ltd. - London Office",
+                  "description": "Dynamics Square is Dynamics 365 partner in the London, UK who help your business succeed by deploying the finest CRM, ERP, and Microsoft cloud solutions for your unique needs.",
+                  "image": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                  "alternateName": "Dynamics Square Software company in London, UK",
+                  "priceRange": "£££-£££",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Kemp House, 152-160 City Road",
+                    "addressLocality": "London",
+                    "addressRegion": "London",
+                    "addressCountry": "United Kingdom",
+                    "postalCode": "EC1V 2NX",
+                    "telephone": "+44-207-193-2502, +44-747-927-3380",
+                    "email": "info@dynamicssquare.co.uk"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 51.52706865727293,
+                    "longitude": -0.08876773400079006
+                  },
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Dynamics Square UK Ltd.",
+                    "logo": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg"
+                  },
+                  "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.3",
+                    "reviewCount": "1260"
+                  },
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                      "opens": "08:00",
+                      "closes": "17:00"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Saturday", "Sunday"],
+                      "opens": "Closed",
+                      "closes": "Closed"
+                    }
+                  ],
+                  "url": "https://www.dynamicssquare.co.uk/",
+                  "sameAs": [
+                    "https://www.facebook.com/dynamicssquareuk/",
+                    "https://twitter.com/dsquare_uk",
+                    "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                    "https://www.youtube.com/c/DynamicsSquare"
+                  ]
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "name": "Dynamics Square UK Ltd. - Manchester Office",
+                  "description": "Dynamics Square: Leading Dynamics 365 Business Central partner in Manchester, UK. Transform your business with tailored ERP, CRM solutions and expert support.",
+                  "image": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                  "alternateName": "Dynamics Square Software company in Manchester, UK",
+                  "priceRange": "£££-£££",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "International House 61 Mosley Street",
+                    "addressLocality": "Manchester",
+                    "addressRegion": "UK",
+                    "addressCountry": "United Kingdom",
+                    "postalCode": "M2 3HZ",
+                    "telephone": "+44 161 394 0487",
+                    "email": "info@dynamicssquare.co.uk"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 53.47866198452941,
+                    "longitude": -2.2374762932529038
+                  },
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Dynamics Square UK Ltd.",
+                    "logo": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg"
+                  },
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                      "opens": "08:00",
+                      "closes": "17:00"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Saturday", "Sunday"],
+                      "opens": "Closed",
+                      "closes": "Closed"
+                    }
+                  ],
+                  "url": "https://www.dynamicssquare.co.uk/",
+                  "sameAs": [
+                    "https://www.facebook.com/dynamicssquareuk/",
+                    "https://twitter.com/dsquare_uk",
+                    "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                    "https://www.youtube.com/c/DynamicsSquare"
+                  ]
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "name": "Dynamics Square UK Ltd. - Birmingham Office",
+                  "description": "Dynamics Square is your trusted Dynamics 365 ERP & CRM partner in Birmingham, UK, helping businesses streamline operations and boost growth with expert solutions.",
+                  "image": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg",
+                  "alternateName": "Dynamics Square Software company in Birmingham, UK",
+                  "priceRange": "£££-£££",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Izabella House, 24 - 26 Regents Place, City Centre",
+                    "addressLocality": "Birmingham",
+                    "addressRegion": "Birmingham, UK",
+                    "addressCountry": "United Kingdom",
+                    "postalCode": "B1 3NJ",
+                    "telephone": "+44 121 790 0574",
+                    "email": "info@dynamicssquare.co.uk"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 52.486175934043345,
+                    "longitude": -1.9099113644176346
+                  },
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Dynamics Square UK Ltd.",
+                    "logo": "https://www.dynamicssquare.co.uk/img/dynamicssqure-logo.svg"
+                  },
+                  "openingHoursSpecification": [
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                      "opens": "08:00",
+                      "closes": "17:00"
+                    },
+                    {
+                      "@type": "OpeningHoursSpecification",
+                      "dayOfWeek": ["Saturday", "Sunday"],
+                      "opens": "Closed",
+                      "closes": "Closed"
+                    }
+                  ],
+                  "url": "https://www.dynamicssquare.co.uk/",
+                  "sameAs": [
+                    "https://www.facebook.com/dynamicssquareuk/",
+                    "https://twitter.com/dsquare_uk",
+                    "https://www.linkedin.com/showcase/dynamics-square-uk/",
+                    "https://www.youtube.com/c/DynamicsSquare"
+                  ]
+                }
+              ]
+            }),
+          }}
+        />
         </Head>
         <body>
           {/* Google Tag Manager (noscript) */}
