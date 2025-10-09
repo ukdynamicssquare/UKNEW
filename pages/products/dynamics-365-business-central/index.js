@@ -197,7 +197,7 @@ const BusinessCentral = () => {
                 <h2>What is Dynamics 365 Business Central?</h2>
                 <p>Microsoft Dynamics 365 Business Central ties together your finance, operations, sales, customer service, project management and more to deliver a 360-degree business management system through AI, automation, and real-time insights.</p>
                 <p>D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. Microsoft Business Central serves as one smart system which helps you stay steady, save time, and make better decisions to take your business into the right direction.</p>
-                
+
                 <p>Due to its modular structure and cloud-based deployment, Dynamics 365 Business Central is highly flexible in terms of customisation. Businesses can add/remove Business Central functionalities based on their requirements. This means Business Central ERP can be <a href="/products/dynamics-365-business-central/customisation/">customised</a> to cater to different industries and operations.</p>
                 <p><b>In short, Microsoft Business Central is:</b></p>
                 <ul className='banner-sub-head-list'>
@@ -378,7 +378,7 @@ const BusinessCentral = () => {
             </div>
           </div> */}
 
-          <div className="row mar-top-7 justify-content-center" style={{backgroundColor:'rgb(241 240 244)',padding:'60px 0px'}}>
+          <div className="row mar-top-7 justify-content-center" style={{ backgroundColor: 'rgb(241 240 244)', padding: '60px 0px' }}>
             <div className="col-lg-10 ">
               <div className="accordion accordion-flush acc-bc-ho" id="bclist1">
                 <div className="accordion-item">
@@ -839,7 +839,7 @@ const BusinessCentral = () => {
           </div>
         </div>
       </section>
-      
+
 
       <section id='section4' className='p-t-1-100'>
         <div className='container'>
@@ -1087,53 +1087,71 @@ const BusinessCentral = () => {
           <div className='row g-5'>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001 solution-new-card-0011'>
-                <img src="/img/new-b-i01.png" width={32} height={32} alt="new-b-i01" />
-                <h3>Implementation</h3>
-                <p>Our team at Dynamics Square carries out smooth <a href="/dynamics-365-business-central-implementation/">Business Central implementations</a>. We study your business needs carefully and configure the system so that every process runs in line with your goals.</p>
+                <a href="/dynamics-365-business-central-implementation/">
+                  <img src="/img/new-b-i01.png" width={32} height={32} alt="new-b-i01" />
+                  <h3>Implementation</h3>
+                  <p>Our team at Dynamics Square carries out smooth Business Central implementations . We study your business needs carefully and configure the system so that every process runs in line with your goals.</p>
+                  <span>Learn More</span>
+                </a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001 solution-new-card-0011'>
+                <a href="/dynamics-nav-to-business-central/">
                 <img src="/img/new-b-i02.png" width={32} height={32} alt="new-b-i02" />
                 <h3>Upgrade and Migration</h3>
                 <p>Older systems can slow down growth. Microsoft Dynamics 365 Business Central helps firms move data safely from on-premises legacy systems into a cloud ERP that always stays up to date.</p>
+                 <span>Learn More</span>
+                </a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001 solution-new-card-0011'>
+                <a href="/d365-business-central-support/">
                 <img src="/img/new-b-i03.png" width={32} height={32} alt="new-b-i03" />
                 <h3>Support and Maintenance</h3>
-                <p>Dynamics Square provides <a href="/d365-business-central-support/">Business Central support</a> and regular system care. Our focus is on keeping your ERP running smoothly, solving issues quickly, and improving efficiency without disruption.</p>
+                <p>Dynamics Square provides Business Central support and regular system care. Our focus is on keeping your ERP running smoothly, solving issues quickly, and improving efficiency without disruption.</p>
+                 <span>Learn More</span>
+                </a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001 solution-new-card-0011'>
+                <a href="/our-services/dynamics-365-consultant/">
                 <img src="/img/new-b-i04.png" width={32} height={32} alt="new-b-i04" />
                 <h3>Consulting</h3>
                 <p>Our consultants guide firms on how to get the best from Business Central. With better planning, clearer reporting, and smoother workflows, businesses improve daily results.</p>
+                 <span>Learn More</span>
+                </a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001 solution-new-card-0011'>
+                <a href="/products/dynamics-365-business-central/customisation/">
                 <img src="/img/new-b-i05.png" width={32} height={32} alt="new-b-i05" />
                 <h3>Customisation</h3>
                 <p>Every company works in its own way. Dynamics 365 Business Central allows tailored extensions and add-ons. Dynamics Square designs changes that match the way your teams actually work.</p>
+                 <span>Learn More</span>
+                </a>
               </div>
             </div>
             <div className='col-lg-4 d-flex'>
               <div className='solution-new-card-001 solution-new-card-0011'>
+                <a href="/blog/business-central-with-power-platform-integration/">
                 <img src="/img/new-b-i06.png" width={32} height={32} alt="new-b-i06" />
                 <h3>Integration</h3>
                 <p>Business Central connects easily with Microsoft 365, Power Platform, and other third-party applications from ISVs. Dynamics Square integrates these systems so that staff can work from one source of truth.</p>
+                 <span>Learn More</span>
+                </a>
               </div>
             </div>
 
 
 
-            <div className='col-lg-12'>
-              <div className='solution-new-card-001 solution-new-card-0011-p'>
+            <div className='col-lg-12' style={{marginTop:'15px'}}>
+              <div className='solution-new-card-001 solution-new-card-0011-p text-center'>
                 <p>Our team of specialists is ready to help you make Business Central work for your business. Speak with us today and take the next step in managing finance, supply chain, sales, and service through one trusted system.</p>
-                <div className="text-lg-start">
+                <div className="text-center" style={{marginTop:'30px'}}>
                   <Link href="#exampleModal" ><a
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
@@ -1179,7 +1197,7 @@ const BusinessCentral = () => {
       </section>
 
 
-      <section  className='solution-new-banner-four'>
+      <section className='solution-new-banner-four'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-9'>
@@ -1235,7 +1253,7 @@ const BusinessCentral = () => {
                   </li>
                 </ul>
                 <div className='product-side-002-ext'>
-                  
+
                   <div className="text-lg-start">
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
