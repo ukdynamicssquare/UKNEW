@@ -285,7 +285,7 @@ const BusinessCentral = () => {
               <div className='solution-new-banner-sub-head'>
                 <h2>Dynamics 365 Business Central Capabilities</h2>
                 <p>Microsoft Dynamics 365 Business Central capabilities make it a widely preferred choice by small and midsize businesses.</p>
-                <p><a href="/blog/business-central-for-accounting/">Is Business Central for Accounting</a>? Yes… and no. D365 BC is much more than just being accounting software. It supports companies across industries and keeps teams connected anywhere in the world.</p>
+                <p>Is<a href="/blog/business-central-for-accounting/"> Business Central for Accounting</a>? Yes… and no. D365 BC is much more than just being accounting software. It supports companies across industries and keeps teams connected anywhere in the world.</p>
                 <p><b>Business Central comes with the following capabilities:</b></p>
               </div>
             </div>
@@ -764,7 +764,7 @@ const BusinessCentral = () => {
             <div className='col-lg-9'>
               <div className='solution-new-banner-sub-head'>
                 <h2>Microsoft Copilot in Business Central</h2>
-                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings AI-powered automation, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
+                <p>What if your ERP wasn’t just a system but an intelligent assistant that worked alongside you? Copilot in Dynamics 365 Business Central brings <a href="/blog/why-are-ai-agents-the-game-changer-for-business-central-users/">AI-powered automation</a>, smart insights, and real-time assistance to transform how your business operates. No more guesswork, no more wasted hours: just seamless efficiency! </p>
               </div>
             </div>
           </div>
