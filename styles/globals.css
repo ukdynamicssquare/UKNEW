@@ -17377,7 +17377,7 @@ color: #ffffff;
   background: #ffffff;
  border-radius: 8px !important;
  padding: 30px;
-     box-shadow: none;
+     box-shadow: none !important;
 }
 .accordion-button.bec-acc-bott:not(.collapsed){
 
