@@ -102,7 +102,7 @@ export default function NavBar() {
 
           /* Apply z-index ONLY when stuck */
           .nav-list.is-stuck {
-            z-index: 999;
+            z-index: 1030;
           }
 
           .nav-list ul {
