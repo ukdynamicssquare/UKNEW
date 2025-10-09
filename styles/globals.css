@@ -17377,7 +17377,7 @@ color: #ffffff;
   box-shadow: 0px 0px 5px #e9e9f0;
   background: #e9e9f0;
  border-radius: 8px !important;
- padding: 20px 30px;
+ padding: 30px;
 }
 .accordion-button.bec-acc-bott:not(.collapsed){
 
@@ -17393,8 +17393,8 @@ color: #ffffff;
 display: grid
 ;
     grid-template-columns: 30% 70%;
-    gap: 20px;
-    width: 90%;
+    gap: 48px;
+    width: 80%;
 }
 .bec-acc h3{
   font-size: 16px;
@@ -17426,9 +17426,9 @@ background: #ffffff;
 .acc-bc-ho .accordion-item .accordion-body{
 display: grid
 ;
-    grid-template-columns: 30% 70%;
-    gap: 25px;
-    width: 90%;
+    grid-template-columns: 31% 70%;
+    gap: 48px;
+    width: 80%;
     padding-top:0px
 }
 .acc-bc-ho .accordion-item .accordion-body h4{
@@ -17474,12 +17474,35 @@ display: grid
     font-size: 14px;
     color: #444;
 }
+.product-side-002-content ul{
+ list-style: none;
+ padding-left: 0;
+}
 .product-side-002-content ul li{
   margin-bottom: 10px;
+  list-style: none;
+  display: flex
+;
+    gap: 15px;
+}
+.product-side-002-content ul li .bi{
+  color: #954b70;
+    margin-right: 3px;
 }
 .dsa-mine{
   margin-top: -49px;
     position: relative;
+}
+.product-side-001 .flot-9.flot-10{
+  left: -102px;
+    bottom: -205px;
+}
+.solution-new-card-0011 a {
+  display: inline-block;
+    margin-top: inherit;
+    font-size: inherit;
+    color: #bb2b36;
+    font-weight: 400;
 }
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
