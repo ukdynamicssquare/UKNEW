@@ -195,9 +195,10 @@ const BusinessCentral = () => {
             <div className='col-lg-6'>
               <div className='solution-new-banner-sub-head r-top-60'>
                 <h2>What is Dynamics 365 Business Central?</h2>
-                <p>Microsoft Dynamics 365 Business Central ties together your finance, operations, sales, customer service, project management services and more to deliver a 360-degree business management system through AI, automation, and real-time insights.</p>
-                <p>D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. </p>
-                <p>Due to its modular structure and cloud-based deployment, Dynamics 365 Business Central is highly flexible in terms of customisation. Businesses can add/remove Business Central functionalities based on their requirements. This means Business Central ERP can be customised to cater to different industries and operations.</p>
+                <p>Microsoft Dynamics 365 Business Central ties together your finance, operations, sales, customer service, project management and more to deliver a 360-degree business management system through AI, automation, and real-time insights.</p>
+                <p>D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. Microsoft Business Central serves as one smart system which helps you stay steady, save time, and make better decisions to take your business into the right direction.</p>
+                
+                <p>Due to its modular structure and cloud-based deployment, Dynamics 365 Business Central is highly flexible in terms of customisation. Businesses can add/remove Business Central functionalities based on their requirements. This means Business Central ERP can be <a href="/products/dynamics-365-business-central/customisation/">customised</a> to cater to different industries and operations.</p>
                 <p><b>In short, Microsoft Business Central is:</b></p>
                 <ul className='banner-sub-head-list'>
                   <li><i className="bi bi-check2"></i> All-in-one system for finance and operations</li>
@@ -377,8 +378,8 @@ const BusinessCentral = () => {
             </div>
           </div> */}
 
-          <div className="row mar-top-7">
-            <div className="col-lg-10">
+          <div className="row mar-top-7 justify-content-center" style={{backgroundColor:'rgb(241 240 244)',padding:'60px 0px'}}>
+            <div className="col-lg-10 ">
               <div className="accordion accordion-flush acc-bc-ho" id="bclist1">
                 <div className="accordion-item">
                   <div className="accordion-button bec-acc-bott collapsed" data-bs-toggle="collapse"
