@@ -17444,7 +17444,43 @@ display: grid
   color: #212529;
   margin-bottom: 3px;
 }
+.card-0-001{}
+.card-0-001 ul{
+  padding-left: 20px;
+}
 
+.card-0-001 ul li{
+  font-size: 15px;
+  color:#444
+}
+.card-0-001 a{}
+.image-list-new-im-flex{
+  justify-content: normal;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.mm-tags{
+  display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-left: 0;
+}
+.mm-tags li{
+  list-style: none;
+  background: #f1f0f4;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #444;
+}
+.product-side-002-content ul li{
+  margin-bottom: 10px;
+}
+.dsa-mine{
+  margin-top: -49px;
+    position: relative;
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;
