@@ -248,7 +248,7 @@ const BusinessCentral = () => {
             <div className='col-lg-6 align-self-center'>
               <div className='product-side-002-content'>
                 <ul>
-                  <li><i className="bi bi-check2"></i> Operating on outdated, legacy solutions like <a href="/products/microsoft-dynamics-nav/">Dynamics NAV</a></li>
+                  <li><i className="bi bi-check2"></i> <span> Operating on outdated, legacy solutions like <a href="/products/microsoft-dynamics-nav/">Dynamics NAV</a></span></li>
                   <li><i className="bi bi-check2"></i> Disconnected systems (no single source of truth)</li>
                   <li><i className="bi bi-check2"></i> Reduced productivity due to repetitive manual tasks</li>
                   <li><i className="bi bi-check2"></i> Issues navigating complex processes or data-heavy systems</li>
@@ -1234,13 +1234,13 @@ const BusinessCentral = () => {
                   </li>
                 </ul>
                 <div className='product-side-002-ext'>
-                  <p>Companies that switch to an AI-powered ERP see up to a 40% increase in efficiency. </p>
+                  
                   <div className="text-lg-start">
                     <Link href="#exampleModal"><a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Claim Your Free Consultation!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                      <span>Get Free Consultation!  &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                     </Link>
                   </div>
                 </div>
