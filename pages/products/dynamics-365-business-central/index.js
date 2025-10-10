@@ -155,7 +155,7 @@ const BusinessCentral = () => {
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Try for Free &nbsp;<i className="bi bi-arrow-right"></i></span></a>
+                    <span>Talk to our business central experts &nbsp;<i className="bi bi-arrow-right"></i></span></a>
                   </Link>
                 </div>
               </div>
@@ -167,7 +167,7 @@ const BusinessCentral = () => {
           </div>
         </div>
         <div className="solution-new-banner-one-img">
-          <Image src="/img/banner-tt-01.png" alt="New Solution" width={1920} height={948} className="flot-1" />
+          <Image src="/img/banner-tt-01.png" alt="BC Banner" width={1920} height={948} className="flot-1" />
         </div>
 
 
@@ -1281,7 +1281,7 @@ const BusinessCentral = () => {
           <div className='row'>
             <div className='col-lg-8'>
               <div className='solution-new-banner-sub-head'>
-                <h2>Make Business Central Work Smarter<br /> for Your Business</h2>
+                <h2>Make Business Central Work Smarter for Your Business</h2>
                 <p>Add trusted apps that help shape Business Central around your needs. From payments to mobility, reporting to sales, find tools that fit right in and make daily work easier. </p>
               </div>
             </div>
