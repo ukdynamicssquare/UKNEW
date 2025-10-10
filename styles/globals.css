@@ -17528,6 +17528,40 @@ margin: -30px 0px -80px;
 .solution-new-card-0011:hover a span{
   color: #bb2b36;
 }
+.flecx{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 30px 30px 90px 0 rgba(115, 110, 130, 0.35);
+  background-image: radial-gradient(circle at 124% -39%, rgba(153, 142, 186, 0.37), rgba(153, 142, 186, 0) 126%), linear-gradient(to bottom, #fff, #fff);
+  padding:50px 70px
+}
+.flecx .left-fl{
+  position: relative;
+    flex: 75%;
+}
+.flecx .left-fl:after{
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 125%;
+  border-radius: 12px;
+  top: -5px;
+  right: 0;
+  background: #8795ce;
+  z-index: 1;
+}
+.flecx .left-fl p{
+  margin-bottom: 0px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+.cust-pp{
+  padding-bottom: 120px;
+    margin-top: -55px;
+    position: relative;
+}
 @media (min-width: 1440px) and (max-width: 1700px) {
   .flot-5 {
     right: 21.3%;
@@ -17641,6 +17675,22 @@ margin: -30px 0px -80px;
   }
 }
 @media (max-width: 992px) {
+  .cust-pp {
+    padding-bottom: 60px;
+    margin-top: 0;
+    padding-top: 60px;
+}
+.flecx{
+  padding: 15px 30px;
+}
+.flecx .left-fl p{
+  font-size: 16px;
+}
+.flecx .left-fl:after {
+    width: 2px;
+    height: 100%;
+    top: 0px;
+}
   .bec-acc,
   .acc-bc-ho .accordion-item .accordion-body {
     grid-template-columns: 100%;
@@ -17818,8 +17868,27 @@ margin: -30px 0px -80px;
   .card0-01.card0-02 {
     margin-bottom: 15px;
   }
+  .dsa-minee{
+    margin-top:40px
+  }
 }
 @media (max-width: 768px) {
+    .cust-pp {
+    padding-bottom: 60px;
+    margin-top: 0;
+    padding-top: 60px;
+}
+.flecx{
+  padding: 15px 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.flecx .left-fl p{
+padding-right: 0;
+}
+.flecx .left-fl:after {
+   display:none
+}
   .image-list-new {
     padding: 80px 0px 0px;
   }

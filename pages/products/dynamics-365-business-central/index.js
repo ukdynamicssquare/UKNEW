@@ -168,32 +168,30 @@ const BusinessCentral = () => {
         </div>
         <div className="solution-new-banner-one-img">
           <Image src="/img/banner-tt-01.png" alt="New Solution" width={1920} height={948} className="flot-1" />
-          {/* <img src="/img/n-003.png" alt="New Solution" className="flot-2" />
-          <img src="/img/n-004.png" alt="New Solution" className="flot-3" />
-          <img src="/img/n-005.png" alt="New Solution" className="flot-4" /> */}
-          {/* <div className='flot-5'>
-            <img src="/img/menu-icons/dynamics-365-businesscentral.svg" alt="New Solution" className="flot-img" width={48} height={48} />
-          </div> */}
-          {/* <div className='flot-121'>
-                        <div className='border-11'>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div className='border-12'>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div className='border-13'>
-                            <span></span>
-                          
-                        </div>
-                    </div> */}
-
         </div>
+
+
+          <div className='container cust-pp'>
+            <div className='row'>
+              <div className='col-lg-12'>
+                <div className='flecx'>
+                  <div className='left-fl'>
+                    <p>Dynamics Square helps small and medium businesses simplify processes, boost productivity, and achieve measurable results with the AI-powered Dynamics 365 Business Central ERP.</p>
+                  </div>
+                  <div className='left-rl'>
+                    <img src="/img/partner-logo-black.png" alt="partner-logo-black" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         <div className='container' id='section1'>
           <div className='row'>
             <div className='col-lg-6'>
-              <div className='solution-new-banner-sub-head r-top-60'>
+              <div className='solution-new-banner-sub-head'>
                 <h2>What is Dynamics 365 Business Central?</h2>
                 <p>Microsoft Dynamics 365 Business Central ties together your finance, operations, sales, customer service, project management and more to deliver a 360-degree business management system through AI, automation, and real-time insights.</p>
                 <p>D365 Business Central brings your teams and business processes in sync to help your company scale and thrive with precision and efficiency. Microsoft Business Central serves as one smart system which helps you stay steady, save time, and make better decisions to take your business into the right direction.</p>
@@ -219,7 +217,7 @@ const BusinessCentral = () => {
               </div>
             </div>
             <div className='col-lg-6'>
-              <div className='dsa-mine'><img src="/img/bb-cc-busneww.png" alt="busines central dashboard" /></div>
+              <div className='dsa-minee'><img src="/img/bb-cc-busneww.png" alt="busines central dashboard" /></div>
             </div>
           </div>
 
