@@ -217,7 +217,7 @@ const BusinessCentral = () => {
               </div>
             </div>
             <div className='col-lg-6'>
-              <div className='dsa-minee'><img src="/img/bb-cc-busneww.png" alt="busines central dashboard" /></div>
+              <div className='dsa-minee'><img src="/img/bb-cc-busneww.png" alt="business central dashboard" /></div>
             </div>
           </div>
 
