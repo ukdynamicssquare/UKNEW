@@ -4,11 +4,12 @@ import "../styles/globals.css";
 import Layouts from "../components/Layouts";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
-import CookieConsent from "react-cookie-consent";
+// import CookieConsent from "react-cookie-consent";
 import { useState, useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
 import HeaderWork from "../components/HeaderWork";
 import Footer from "../components/Footer";
+import CookieConsentBanner from "../components/CookieConsentBanner";
 
 // function MyApp({ Component, pageProps }) {
 
@@ -73,7 +74,7 @@ function MyApp({ Component, pageProps }) {
       />
         <HeaderWork />
         <Component {...pageProps} />
-        <CookieConsent
+        {/* <CookieConsent
           location="bottom"
           buttonText="Accept"
           cookieName="myAwesomeCookieName2"
@@ -82,7 +83,8 @@ function MyApp({ Component, pageProps }) {
           by remembering your preferences and repeat visits. By clicking
           "Accept", you consent to the use of ALL the cookies. Do not sell my
           personal information.
-        </CookieConsent>
+        </CookieConsent> */}
+        <CookieConsentBanner />
       </>
     );
   }
@@ -123,7 +125,7 @@ function MyApp({ Component, pageProps }) {
       <Layouts>
         <Component {...pageProps} />
       </Layouts>
-      <CookieConsent
+      {/* <CookieConsent
         location="bottom"
         buttonText="Accept"
         cookieName="myAwesomeCookieName2"
@@ -132,7 +134,8 @@ function MyApp({ Component, pageProps }) {
         by remembering your preferences and repeat visits. By clicking "Accept",
         you consent to the use of ALL the cookies. Do not sell my personal
         information.
-      </CookieConsent>
+      </CookieConsent> */}
+       <CookieConsentBanner />
     </>
   );
 }

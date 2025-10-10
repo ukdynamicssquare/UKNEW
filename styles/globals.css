@@ -6114,15 +6114,15 @@ section {
   -webkit-box-shadow: 0 0 32px #00000026;
   color: #000 !important;
   background: #fff !important;
-  z-index: 999999999999999 !important;
+  z-index: 999 !important;
   padding: 15px;
 }
 .CookieConsent button {
-  background: #312f2f !important;
+  /* background: #312f2f !important;
   padding: 0.5rem 1.6rem !important;
   color: #fff !important;
   font-size: 14px;
-  border-radius: 5px !important;
+  border-radius: 5px !important; */
 }
 .CookieConsent button:hover {
   background: var(--color-blue) !important;
@@ -7170,7 +7170,7 @@ section {
 }
 
 .CookieConsent {
-  width: 20% !important;
+  width: 40% !important;
   padding: 10px 10px;
 }
 .CookieConsent > div {
